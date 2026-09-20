@@ -1,5 +1,7 @@
 # F-s8db — Leuven, Archief van de Abdij van Park, IIIB1.429
 
+**Second-model review, 20 September 2026:** The distinctive opening prose on C.10 q.1 c.13 independently matches the [1481 Rosarium, Freiburg image 0415 (206a)](https://dl.ub.uni-freiburg.de/diglit/guidobaysio1481/0415), lower left continuing upper right. This supports the identification using a separate edition. Faded material attributed to q.2 was not fully recollated.
+
 - Catalogue: "Gloss on unidentified canon law text", 1301–1400, Southern Textualis, Latin, 1 leaf in situ (wrapper of a 1645 volume), 324 x 261 mm, red initials.
 - Images: manifest https://fragmentarium.ms/metadata/iiif/F-s8db/manifest.json ; upper cover `ab_park_20210825b_0011_III_B1_429.jp2` (2333x4600), spine `..._0020_...` , lower cover `ab_park_20210825b_0012_III_B1_429.jp2` (2282x4468). Crops used: lower cover region 620,270,900,300 etc. at 2x.
 
@@ -58,7 +60,7 @@ Editions quoted from Google Books API snippets (OCR; long-s normalised): Rosariu
 | 5–6 | [officio et nisi] fecerint peccant q(ui) tra(n)sgrediu(n)t(ur). b. Comed[ere] | "officio et nisi fecerint peccant qui transgrediuntur. b. comedere" (1480, 1473) |
 | 7 | b. dicit .c. q(uod) sacerdotu(m) est epulari. de pe. di. | "sua auctoritate b. dicit c. quod sacerdoti est" (1480); Bellamera: "sua authoritate. h. dicit cap. quod sacerdotum est epulari. de poe[nitentia]" |
 
-Six consecutive lines (2–7) match verbatim allowing abbreviation; lemmata in lines 8–11 follow the canon text in order. Canon text checked in Friedberg, *Corpus iuris canonici* I (Leipzig 1879), col. 615–616, C. 10 q. 1 c. 13–15 and q. 2 pr., via archive.org OCR: https://archive.org/details/BD1141951 (file BD1141951_djvu.txt, lines c. 93700–93935).
+The comparison supports sustained agreement in lines 2–7, with the wording and readings varying as shown; lemmata in lines 8–11 follow the canon text in order. Canon text checked in Friedberg, *Corpus iuris canonici* I (Leipzig 1879), col. 615–616, C. 10 q. 1 c. 13–15 and q. 2 pr., via archive.org OCR: https://archive.org/details/BD1141951 (file BD1141951_djvu.txt, lines c. 93700–93935).
 
 Siglum note: the incunable Rosarium prints give "b." (as the fragment does); Bellamera resolves the same siglum as "H." (Huguccio). Which decretist "b." denotes here (Bazianus? Bartholomaeus?) is left open.
 

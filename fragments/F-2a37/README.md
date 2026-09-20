@@ -44,6 +44,6 @@ Nothing can be ruled out on the evidence. Not checked: Glossa ordinaria, Hugh of
 
 ## Next moves
 
-1. Imaging: the exposed covers need UV/multispectral or at least raking-light capture; the current RGB scans lose the ink in the parchment stain. The unexposed inner face under the paper pastedowns (e005/e006) is almost certainly far more legible; the c. 15 mm turn-ins visible at the edges already show much darker ink. Request that the library lift the pastedowns or photograph the turn-ins at high resolution.
+1. Imaging: the exposed covers need UV/multispectral or at least raking-light capture; the current RGB scans lose the ink in the parchment stain. The c.15 mm turn-ins show darker ink, but the covered inner face has not been read. Ask the library about suitable imaging; any lifting of pastedowns is a decision for its conservators.
 2. Once any three consecutive words of a lemma are secure, look them up first in the Vulgate (the "ad Philip." reference and "c. vij" citations suggest a biblical or Sentences commentary); then Gloss-e (id=liber, id=hug), Corpus Corporum, Corpus Thomisticum.
 3. Google Books queries to run when readings firm up: the underlined lemma after the blue N (back cover col. b l. 11) and the lemma after the red Q (l. c. 45), each with the following clause containing "ponit".

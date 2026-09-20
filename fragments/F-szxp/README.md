@@ -1,20 +1,20 @@
 # Fragmentarium F-szxp (Leipzig, Universitätsbibliothek, Fragm. lat. 52)
 
+**Second-model review, 20 September 2026:** Keep partial. Arnoldus Saxo is an unverified candidate based on structure and source usage, not a demonstrated work identification. Compare Oxford, Bodleian, Lat. misc. e.34 and the current witness literature before claiming a second witness.
+
 Record: https://fragmentarium.ms/overview/F-szxp
 Catalogue says: "Medical Fragment (unidentified)"; one partial bifolium, 199 x 305 mm; 14th century.
 Images: IIIF manifest https://fragmentarium.ms/metadata/iiif/F-szxp/manifest.json (7 canvases: 1r, 1v, 2r, 2v
 at ~4986/4065 x 5760 px, plus three shots of the open bifolium; images served by iiif.ub.uni-leipzig.de).
 
-Worked 2026-09-20. Status: PARTIAL (strong attribution, no line-by-line check against a witness possible).
+Worked 2026-09-20. Status: PARTIAL (Arnoldus Saxo candidate unverified; no line-by-line comparison with its manuscript witness).
 The text is a topical medical florilegium in the "In libro X Auctor: ..." / "In eodem Auctor: ..." format,
 chapter De sompno followed by a chapter on excessive sleep (sompniculositas) with the sub-rubrics
 Cause / Accidencia / Cure, excerpting Ysaac, Avicenna "in libro medicinali" (= Canon), Aristotle De sompno
-et vigilia, Johannitius, Hippocrates Afforismi and Pronostica, Constantinus (Viaticum). Everything about
-it matches Draelants' description of Arnoldus Saxo's medical work, the Practica de causis morborum et
+et vigilia, Johannitius, Hippocrates Afforismi and Pronostica, Constantinus (Viaticum). The structure and source usage invite comparison with Draelants' description of Arnoldus Saxo's medical work, the Practica de causis morborum et
 figuris simplicibus quoque compositis medicinis (seu De egrotantibus partibus omnium membrorum a capite
-usque ad pedes), written c. 1270 and known from a single manuscript (Oxford, Bodleian Library, Lat. misc.
-e. 34). That manuscript is not online and there is no edition, so the attribution could not be verified
-verbatim. Individual excerpts were verified against their sources (Avicenna, Canon: see below).
+usque ad pedes), written c. 1270 and reported in the cited literature from a manuscript (Oxford, Bodleian Library, Lat. misc.
+e. 34). No accessible manuscript or edition was located for a direct comparison; attribution and current publication status remain to be checked. Individual excerpts were verified against their sources (Avicenna, Canon: see below).
 
 ## What the bifolium is
 Two conjoint leaves, text in two columns of c. 29-30 lines, ruled, red paragraph marks before every
@@ -233,8 +233,8 @@ Fol. 2r col. a 2-7 = Hippocrates, Aphorismi II.1-3 ("In quo morbo somnus laborem
 "Ubi desipientiam somnus sedat, bonum"; "Somnus et vigilia utraque mensuram excedentia, malum").
 The compilation's own connecting text (rubrics Cause / Accidencia / Cure, lemmas) is what needs a witness.
 
-## Identification (attribution, not yet verbatim-verified)
-Arnoldus Saxo (Arnoldus Luca, fl. c. 1225-1270), Practica de causis morborum et figuris simplicibus quoque
+## Candidate attribution (unverified)
+Candidate: Arnoldus Saxo (Arnoldus Luca, fl. c. 1225-1270), Practica de causis morborum et figuris simplicibus quoque
 compositis medicinis, chapter on sleep and on excessive sleep (a capite ad pedes order: head section).
 Grounds:
 - Citation formula identical to Arnoldus' De floribus rerum naturalium: "In libro <title> <Auctor>: ..." and
@@ -248,10 +248,10 @@ Grounds:
   2002, "notre auteur fait un large usage du Canon dans sa Practica medicale"). The fragment has exactly
   Cause / Accidencia / Cure after the definitions, with the Canon as the main cure source.
 - Draelants (Bulletin de philosophie medievale 34, 1992 and 35, 1993, "Une mise au point sur les oeuvres
-  d'Arnoldus Saxo"; thesis Louvain 2000) knows the Practica from one manuscript only, Oxford, Bodleian
+  d'Arnoldus Saxo"; thesis Louvain 2000) is reported in the available references as describing an Oxford witness, Oxford, Bodleian
   Library, Lat. misc. e. 34 (13th c., which also carries De floribus I-IV, fol. 1r-32v, 34r-35v); no
-  edition exists ("Il n'existe pas encore d'edition critique du texte", Occident et Proche-Orient, 2000).
-  If the attribution holds, the Leipzig bifolium is a second, 14th-century witness of the Practica.
+  critical edition was reported at that time ("Il n'existe pas encore d'edition critique du texte", Occident et Proche-Orient, 2000).
+  A claim to an additional witness requires both a textual match and an updated witness census; neither has been established here.
 - Fol. 1r is a chapter on morals/complexion (Avicenna's regimen of children's mores; Isaac's lists of the
   bodily effects of avarice, gluttony and lust), which fits a practica that opens with regimen material
   before the a-capite-ad-pedes diseases.

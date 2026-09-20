@@ -1,5 +1,7 @@
 # F-1exy — Toruń, Biblioteka Uniwersytecka, Rps 65/V (pastedowns)
 
+**Second-model review, 20 September 2026:** Identification supported by sampled manuscript/print agreement in distinctive Genesis exposition. See the [1507 edition, image n15](https://archive.org/details/OEXV848RES/page/n15/mode/1up) and [n16](https://archive.org/details/OEXV848RES/page/n16/mode/1up). The full passage endpoints below were not recollated.
+
 - Fragmentarium ID: F-1exy — https://fragmentarium.ms/overview/F-1exy
 - Shelfmark: Toruń, Biblioteka Uniwersytecka, Rps 65/V (host: Henricus Bohic, Distinctiones in librum IV Decretalium, 1st quarter 15th c.)
 - Catalogue: "The commentary on the Book of Genesis" (unidentified), Teutonic Prussia (Sambia?), 1375–1400, cursiva, parchment

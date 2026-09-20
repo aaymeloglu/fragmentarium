@@ -8,23 +8,23 @@
 - Layout: 2 columns x 32 lines, ruled; rubrics "Caplm. <roman numeral>" set at the end of the last line of the previous chapter; 2-line red initials with pen flourishing; red-touched capitals. No line beginnings/ends lost, but 0072 and the left half of 0073 col. b / 0075 col. a are badly faded and stained (the leaf was an archival wrapper).
 - Later notes: 0072 top, 16th-c. archival title (Dutch) and foot, 19th-c. note "Summaria van al den Privilegien ende Erfbrieven des Godshuys van Perche (vide supra) (Anno 1551 sub Ludovico Vanden Berghe abb.)": the bifolium wrapped a 1551 Park Abbey register.
 
-## Collation of the images (differs from the manifest labels)
+## Proposed collation of the images (requires confirmation)
 
-The manifest pairs 0072/0073 as fol. [1]r/v and 0074/0075 as fol. [2]r/v. The text shows that 0072 and 0074 are the two sides of one leaf and 0073 and 0075 of the other:
+The manifest pairs 0072/0073 as fol. [1]r/v and 0074/0075 as fol. [2]r/v. The following observations suggest that 0072 and 0074 are the two sides of one leaf and 0073 and 0075 of the other:
 
 - 0073 col. b ends with the opening words of the letter of Leontius ("... et omnibus Armeniis, Leontius") and 0075 col. a continues it directly ("[Leontius] indignus Cesariensis archiepiscopus ... salutem").
 - 0074 shows the conjoint leaf at the right with the text of 0073 col. a visible on it (Sed cum vellet transire fluvium Eufraten ...), so 0074 is a verso facing 0073 recto.
 - 0072 (rubric Caplm. V., ch. 5) and 0074 (Caplm. VI., Caplm. VII.) belong to one section; 0073 (Caplm. IIII.) and 0075 (Caplm. V., Caplm. VI.) to a later section of the work.
 
-So: fol. 1r = 0072, fol. 1v = 0074 (ch. 5-7 of the Rhipsime section), fol. 2r = 0073, fol. 2v = 0075 (ch. 3-6 of the section on Gregory's return from Caesarea and the baptism of the Armenians). This is the catalogue's "4-7 / 3-6" once the r/v labels of 0073 and 0074 are swapped. The two leaves are not textually continuous (fol. 1v ends in Trdat's lament for Rhipsime; fol. 2r begins with the mule miracle at the Euphrates on Gregory's return from Caesarea), so the bifolium is an outer bifolium of its quire with several leaves lost between.
+Proposed order: fol. 1r = 0072, fol. 1v = 0074 (ch. 5-7 of the Rhipsime section), fol. 2r = 0073, fol. 2v = 0075 (ch. 3-6 of the section on Gregory's return from Caesarea and the baptism of the Armenians). This is the catalogue's "4-7 / 3-6" once the r/v labels of 0073 and 0074 are swapped. The two leaves are not textually continuous (fol. 1v ends in Trdat's lament for Rhipsime; fol. 2r begins with the mule miracle at the Euphrates on Gregory's return from Caesarea), so the bifolium is an outer bifolium of its quire with several leaves lost between.
 
 ## Status
 
-**PARTIAL.** Latin life of St Gregory the Illuminator derived from Agathangelos, in the Greek recension (Ag, BHG 712) or a Latin rendering of it, reworked into sections with numbered chapters (a section rubric "per V capitula distinctus" survives on the companion bifolium F-hcpv). Not verified line by line against any edition: the only Latin vita in BHL (BHL 3664, ed. Acta SS. Sept. VIII 402-413 and Lagarde, Onomastica sacra, 2nd ed. 1887, 2-24) could not be reached in full text (see Ruled out / checked). Its desinit ("plenus dierum ad Dominum in pace migravit. Cuius festum celebratur IV non. dec.") does not match the end of the work on F-hcpv, so either this is a different Latin recension or BHL 3664 has a different closing.
+**PARTIAL.** Latin life of Gregory the Illuminator in the Agathangelos tradition, arranged in sections with numbered chapters. The saint was already identified in the catalogue. A Greek intermediary is a hypothesis from the names and narrative sequence, not a demonstrated exact recension. BHL 3664 (AASS Sept. VIII 402-413; Lagarde, Onomastica sacra, 2nd ed.1887, 2-24) could not be compared in full. Its recorded ending differs from F-hcpv, but that alone cannot exclude it. Exact recension and relationship to the editions remain unresolved.
 
-Evidence for the Agathangelos-Greek line: name forms Terdatius (Trdat), Asichina/Asichine (Ag Asichene, not Armenian Ashkhen), Cusarducta (Ag Kousarodoukta, Khosrovidukht), Leontius of Caesarea, Erostacius (Aristakes), Albinus (Albianos), Valarsapath, Ararath, and the episode sequence: mules stopped at the Euphrates and church built for the relics (Aa 809-810), destruction of the three altars by wind (Aa 813-815), the king waiting a month at a fortress (Aa 831), letter of Leontius to Trdat, Asichine and Cusarducta, baptism in the Euphrates with the river standing still and the pillar of fire (Aa 832-834), Rhipsime's fight with Trdat and death, Trdat's lament (Aa 181-212).
+Evidence suggesting comparison with the Agathangelos-Greek tradition: name forms Terdatius (Trdat), Asichina/Asichine (Ag Asichene, not Armenian Ashkhen), Cusarducta (Ag Kousarodoukta, Khosrovidukht), Leontius of Caesarea, Erostacius (Aristakes), Albinus (Albianos), Valarsapath, Ararath, and the episode sequence: mules stopped at the Euphrates and church built for the relics (Aa 809-810), destruction of the three altars by wind (Aa 813-815), the king waiting a month at a fortress (Aa 831), letter of Leontius to Trdat, Asichine and Cusarducta, baptism in the Euphrates with the river standing still and the pillar of fire (Aa 832-834), Rhipsime's fight with Trdat and death, Trdat's lament (Aa 181-212).
 
-F-hcpv (VIIIB20/52) is the same manuscript (same ruling, 32 lines, same rubric formula and initials, same measurements) and contains the last five chapters of the work; it cannot be from the same quire as F-0kql (see F-hcpv README).
+F-hcpv (VIIIB20/52) is a proposed companion from the same manuscript, based on ruling, line count, rubric formula, initials, dimensions, and related text. The quire reconstruction is a hypothesis to check against the physical evidence (see F-hcpv).
 
 ## Transcription — fol. 2r (image 0073, manifest "[1]v")
 
@@ -233,7 +233,7 @@ Almost entirely faded; 2 columns x 32 lines, rubric Caplm. V. at col. a line 26 
 
 - Sequence of the extant chapters against Agathangelos (Aa = Armenian, paragraph numbers of Thomson's edition): fol. 1v ch. 6-7 = Aa 187-212 (Gaiane exhorts Rhipsime in Latin ("romana lingua", Aa 184), Rhipsime overcomes Trdat, flees to the winepress, prayer of the virgins, martyrdom, the sick nun, Trdat's lament with the list of lands he has visited); fol. 2r ch. 3 end-4 = Aa 809-815 and 831 (Euphrates mules, church for the relics, three altars of Bagayarich destroyed by wind, 190,000 baptized, the king waiting a month, letter of Leontius); fol. 2v ch. 5-6 = Aa 832-836 (thirty days' fast, baptism in the Euphrates, the river stands still, pillar of fire and cross, 150,000 baptized, seven days of baptisms, Eucharist).
 - The Latin is a free abridgement in numbered chapters with its own connective prose ("Quod et factum est", "quarum talis erat continentia", "Caplm." rubrics), not a word-for-word translation of Ag; Greek-derived name forms (Asichina, Cusarducta) point to Ag or a Latin version of Ag rather than to the Armenian.
-- Verbatim Google Books / archive.org / Corpus Corporum searches on the distinctive wording all returned nothing (see below), so the exact recension is unedited or edited only in AASS Sept. VIII / Lagarde, which could not be read.
+- Verbatim Google Books / archive.org / Corpus Corporum searches on the distinctive wording all returned nothing (see below), so no exact match was located. AASS Sept. VIII / Lagarde remain to be read; neither unedited status nor the exact recension is established.
 
 ## Ruled out / checked
 

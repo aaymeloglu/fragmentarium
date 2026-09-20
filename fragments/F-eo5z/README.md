@@ -1,5 +1,7 @@
 # F-eo5z — Gent, Universiteitsbibliotheek, HS.2582/290
 
+**Second-model review, 20 September 2026:** The leprous-parent and asses arguments match [Hocedez, p.392, image n405](https://archive.org/details/richarddemiddlet0000edga/page/n405/mode/1up). The text identification is supported. Leaf reconstruction and whether this witness is new to scholarship were not independently established.
+
 - Fragmentarium: https://fragmentarium.ms/overview/F-eo5z (manifest: https://fragmentarium.ms/metadata/iiif/F-eo5z/manifest.json)
 - Catalogue: "Unidentified treatise on natural philosophy"; 1 bifolium (trimmed), 293 x 215 mm; 1301-1350; Southern Textualis; Latin; red/blue paraphs; tag "Aristoteles".
 - Images: 2 canvases, "fol. [2]v-[1]r" and "fol. [1]v-[2]r". The manifest's adore.ugent.be image URLs 404; the working IIIF service is the Ex Libris one linked from the overview page (eu-img02.ext.exlibrisgroup.com/iiif/2/<token>/...; 8835 x 6796 px; follow the 303 redirect). Native crops saved under scratchpad eo5z/ (s1_c<1-4>_r<1-3>.jpg, s2_..., z_*.jpg).
@@ -9,7 +11,7 @@
 
 Richard of Middleton (Richardus de Mediavilla OFM), *Quaestio disputata de gradu formarum* (the disputed question on the plurality of substantial forms, c. 1286), second principal argument section: the "leprosus generat leprosum" proof and the "tria impossibilia" that follow it. Ed. R. Zavalloni, *Richard de Mediavilla et la controverse sur la pluralité des formes* (Philosophes médiévaux 2), Louvain 1951, pp. 35-169 (edition not accessible to me; see below). Verbatim excerpts of the same passage from Paris, Arsenal 516, fol. 151-152 are printed in E. Hocedez, *Richard de Middleton* (Spicilegium sacrum Lovaniense 7), Louvain 1925, pp. 391-392, and those match the fragment line by line.
 
-Leaf order: the text runs [2]r -> [2]v -> [1]r -> [1]v (the end of [2]v col. b, "Restat ergo quod ratio quare leprosus generat leprosum semper vel ut in pluribus", continues without gap into [1]r col. a). So the bifolium is the central bifolium of its quire and the catalogue's provisional leaf numbers are reversed.
+Proposed leaf order (not independently recollated in the second review): the text runs [2]r -> [2]v -> [1]r -> [1]v (the end of [2]v col. b, "Restat ergo quod ratio quare leprosus generat leprosum semper vel ut in pluribus", continues without gap into [1]r col. a). So the bifolium is the central bifolium of its quire and the catalogue's provisional leaf numbers are reversed.
 
 ## Transcription (key passages; abbreviations expanded in ( ); ? = uncertain)
 
@@ -104,8 +106,8 @@ Secondary parallel (not the source): Hervaeus Natalis, *De unitate formae substa
 - Not checked: Corpus Corporum, Corpus Thomisticum (irrelevant once the author was fixed).
 
 ## Next moves
-1. Obtain Zavalloni 1951, pp. 35-169 (De gradu formarum) and give exact page/line spans for [2]r-[1]v; Zavalloni's apparatus lists the known manuscripts (Arsenal 516 and others), so the Gent bifolium can be registered as an additional witness, apparently unknown to him.
-2. Correct the Fragmentarium record: author/title; leaf order [2]->[1]; "Unidentified treatise on natural philosophy" -> theological/philosophical quaestio disputata on the plurality of forms; date 14th c. is consistent (work c. 1286).
+1. Obtain Zavalloni 1951, pp. 35-169 (De gradu formarum) and give exact page/line spans for [2]r-[1]v; Zavalloni's apparatus lists the known manuscripts (Arsenal 516 and others), to check whether the Gent bifolium is already known before claiming an additional witness.
+2. Propose the supported author/title identification; confirm the proposed leaf order [2]->[1] before requesting that physical correction; "Unidentified treatise on natural philosophy" -> theological/philosophical quaestio disputata on the plurality of forms; date 14th c. is consistent (work c. 1286).
 3. Read the remaining slices ([2]v a, [1]v, [2]r b) in full against Zavalloni to confirm the whole bifolium and note variants (e.g. "equaliter" vs Arsenal "sequeretur").
 
 ## Google Books queries to run (lead runs centrally)

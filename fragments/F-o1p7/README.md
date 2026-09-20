@@ -1,5 +1,7 @@
 # F-o1p7 — Oudenaarde, Stadsarchief, Boekbanden, BB 0027
 
+**Second-model review, 20 September 2026:** Distinctive extended prose, including the De novo passage on possession of pension/election rights, matches the [1516 edition OCR](https://archive.org/details/bub_gb_3RhpO70ZNiwC), with manuscript-image samples rechecked. The print page images were not inspected in this second review; fols.55v-56v and ambiguous readings still need facsimile verification.
+
 - Catalogue: "Unidentified Roman law text", 14th c., one trimmed leaf, 266 x 158 mm, 1 image
   ([Fragmentarium overview](https://fragmentarium.ms/overview/F-o1p7)).
 - Layout: two columns. Column A (left) is complete at both margins (c. 69 lines). Column B (right)

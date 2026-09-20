@@ -5,19 +5,13 @@ Catalogue says: "Unidentified theological treatise, includes quotation of Jeremi
 1 strip, 200 x 33 mm; date of origin 1001-1100; script Carolingian minuscule.
 Images: IIIF manifest https://fragmentarium.ms/metadata/iiif/F-ss0e/manifest.json (2 canvases, ~2350 x 3030 px).
 
-Worked 2026-09-20. Status: IDENTIFIED. Text = Cherubino da Spoleto OFM (1414-1484), Sermones quadragesimales,
-the sermon on God's clemency toward returning sinners; matches the 1502 Venice edition (Google Books id
-HuwS8O9sw2UC, p. 346 in Google's pagination) verbatim over 7+ consecutive line-ends. Manuscript is therefore
-15th century (after c.1460), not 11th; catalogue date and script label need correction.
+Worked 2026-09-20. Status: PARTIAL, medium confidence. Several consecutive line ends correspond to Cherubino da Spoleto's Sermones quadragesimales, Venice 1502 (Google Books HuwS8O9sw2UC, image p.346). Attribution to this collection is provisional: a shared or earlier source has not been excluded. The catalogue's date and script assessment remain unresolved.
 
 ## What the strip is
 A vertical strip cut from the gutter side of one leaf. Side "r" preserves the first ~12-15 letters
 of ~34 lines (line beginnings); side "v" preserves the last ~12-15 letters of ~34 lines (line ends).
 Small, heavily abbreviated book hand. Uses the Arabic numeral "2" with superscript "o" (secundo),
-"p̄batur", "pph̄a" (propheta), tironian et, "q3" (que), "als̄" (alios). These abbreviations and the
-vocabulary below are 13th-century university Latin; they do not occur in an 11th-century Carolingian
-book. Date should be reconsidered (likely s. XIII). Not a palaeographer's verdict; based on the
-abbreviation system and the scholastic formulae.
+"p̄batur", "pph̄a" (propheta), tironian et, "q3" (que), "als̄" (alios). These features prompted a dating query, but the vocabulary and abbreviation system have not received specialist palaeographic assessment. No replacement date or place of origin is established here.
 
 ## Transcription, side v (line ends; [ ] = reconstructed from the source quoted)
 1  [septuag]ies septies. ubi
@@ -94,7 +88,7 @@ proofs: (1) from the Gospel: Mt 18:22 "seventy times seven", Chrysostom on that 
 Prayer; a teacher convicted by his own fault is shameful; therefore he forgives us); (2) "secundo
 probatur (auctoritate) prophetica": Zech 1:3, Isa 55:7, "item alius propheta" Jer 3:1. Side r
 (the preceding page) concerns contrition (Ps 50:19). Genre: quaestio / summa / sermon-quaestio on
-penance, s. XIII. "Ex hoc arguo" and "2° probatur" are disputation formulae.
+penance; composition date unresolved. "Ex hoc arguo" and "2° probatur" are disputation formulae.
 
 ## Checked and ruled out (anchor phrases do not cluster in one passage)
 - Patrologia Latina and the rest of Corpus Corporum (mlat.uzh.ch): NEAR queries on
@@ -109,14 +103,13 @@ archive.org 401), Google Books full text (429 all afternoon), Brepols LLT (paywa
 Hales Summa/Glossa, William of Auxerre Summa aurea, Guillaume d'Auvergne, Peraldus, Richard of
 Middleton, Peter of Tarentaise, sermon collections, Gratian De pen. D.3 glosses.
 
-## Best next moves
-1. Google Books full-text with '"culpa redarguit" "septuagies septies" "convertar ad vos"' and
-   '"offensoribus" "septuagies septies"' once the API stops returning 429 (or via a browser).
-2. Brepols Library of Latin Texts / In Principio if access can be borrowed.
-3. Send Fragmentarium the transcription + date query regardless: fragmentarium@unifr.ch, cc the
-   Antwerp cataloguer if named on the record.
+## Next checks
 
-## IDENTIFICATION (2026-09-20, later the same day)
+1. Compare a longer passage on both sides with the full sermon and identify its sources.
+2. Establish the sermon number and the edition's original foliation.
+3. Obtain specialist assessment of the script before proposing a catalogue date change.
+
+## Textual parallel (2026-09-20)
 Google Books full-text (with API key) on '"Ex hoc arguo" "culpa redarguit"' returned three copies of
 Cherubino da Spoleto, Sermones quadragesimales praeclarissimi (Venice: Georgius Arrivabenus, 1502):
 Google Books ids HuwS8O9sw2UC, cFe8Pn9OPisC, FN87AAAAcAAJ. Passage on p. 346 (Google pagination), right column:
@@ -141,5 +134,4 @@ https://books.google.com/books?id=HuwS8O9sw2UC&pg=PA346&q=%22culpa+redarguit%22
 Not yet pinned: sermon number/feria within the Quadragesimale (Google blocked page-text fetches after
 the search burst; the 1502 edition has a tabula at the front). archive.org mirror bub_gb_G8p1HizSrY0C
 exists but its OCR is unusable for this gothic type.
-Consequence for the record: date "1001-1100 / Carolingian minuscule" is wrong; the leaf is a
-15th-century copy of Cherubino (composed after c.1460, d. 1484), i.e. c.1460-1500, probably Italian.
+Consequence for the record: report the Cherubino parallel with the date query unresolved. A passage in a fifteenth-century compilation does not by itself establish original authorship or a terminus post quem for the fragment. The [Franciscan Authors entry](https://franciscanauthors.rich.ru.nl/franautc.htm) documents Cherubino's use of other sermon material, although borrowing of this particular passage has not been demonstrated. A 1502 edition also does not establish that the manuscript was copied before 1500.

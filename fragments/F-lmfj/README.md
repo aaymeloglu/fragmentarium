@@ -1,5 +1,7 @@
 # F-lmfj — Oudenaarde, Stadsarchief, Handschriften en Zeldzame Drukken, nr. 20-5 c
 
+**Second-model review, 20 September 2026:** Both lemma and commentary agree in sampled comparisons with the [1491 Articella, image n181](https://archive.org/details/101321207.nlm.nih.gov/page/n181/mode/1up). The text identification is supported; a specific translator and full Book II endpoints were not independently investigated.
+
 - Catalogue: "Unidentified medical text with gloss", 1351–1400, Northern Textualis, possibly England; parchment, 1 bound leaf, fol. [5]; 292 x 206 mm; red/blue initials, red-and-blue running title.
 - Images: https://fragmentarium.ms/overview/F-lmfj (canvas 0 = fol. [5]r, canvas 1 = fol. [5]v). Manifest: https://fragmentarium.ms/metadata/iiif/F-lmfj/manifest.json
 - Layout: two columns, c. 31 lines per column. Two alternating scripts in the same columns: the Hippocratic lemma in a large textualis (c. 2x module) and Galen's commentary in a small textualis. Not a gloss layer around a main text: a lemma-and-commentary book of the Articella type. Running title across the opening, recto: "REG" (col. a) / "ACUT" (col. b) = Regimen acutorum. Recto is well preserved (hole upper right, no text loss); verso is heavily soiled, col. a and the top of col. b legible with contrast enhancement, the lower half of col. b mostly unreadable. Verso left margin: two later ownership/inventory marks (a cartouche and a number); a post-medieval note in the lower margin of verso col. b.
