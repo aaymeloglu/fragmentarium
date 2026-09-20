@@ -53,17 +53,25 @@ def test_no_local_paths_or_secrets():
 
 
 def test_site_is_up_to_date():
-    subprocess.run([sys.executable, str(ROOT / "docs" / "_build_site.py")], check=True, capture_output=True)
-    diff = subprocess.run(["git", "diff", "--exit-code", "--", "docs/"], cwd=ROOT, capture_output=True)
-    assert diff.returncode == 0, "docs/ is stale: run python3 docs/_build_site.py and commit"
+    """docs/ must equal a fresh build. Builds into a temp copy so the check is the same locally and in CI."""
+    import shutil
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        work = Path(tmp) / "repo"
+        shutil.copytree(ROOT, work, ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", ".pytest_cache"))
+        subprocess.run([sys.executable, str(work / "docs" / "_build_site.py")], check=True, capture_output=True)
+        for p in (work / "docs").glob("*.html"):
+            committed = ROOT / "docs" / p.name
+            assert committed.exists() and committed.read_text() == p.read_text(), f"docs/{p.name} is stale: run python3 docs/_build_site.py and commit"
     for r in DATA:
         assert (ROOT / "docs" / f"{r['id']}.html").exists()
 
 
 def test_burndown_page_lists_corpus_and_marks_done():
-    subprocess.run([sys.executable, str(ROOT / "docs" / "_build_site.py")], check=True, capture_output=True)
+    import csv
     page = (ROOT / "docs" / "burndown.html").read_text()
-    csv_rows = [ln for ln in sorted((ROOT / "data").glob("unidentified-*.csv"))[-1].read_text().splitlines()[1:] if ln.strip()]
+    with sorted((ROOT / "data").glob("unidentified-*.csv"))[-1].open() as f:
+        csv_rows = list(csv.DictReader(f))
     assert page.count("<tr>") == len(csv_rows) + 1
     for r in DATA:
         assert f'href="{r["id"]}.html"' in page, (r["id"], "worked fragment not marked on burndown")
