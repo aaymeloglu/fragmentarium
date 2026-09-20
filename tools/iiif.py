@@ -39,7 +39,14 @@ def canvases(fid):
         else:
             base = svc_id or rid
         ext = "native.jpg" if "gallica" in base else "default.jpg"
-        out.append({"label": c.get("label"), "base": base, "ext": ext, "w": c.get("width"), "h": c.get("height")})
+        w, h = c.get("width"), c.get("height")
+        if not (w and h):  # some manifests (e.g. Leuven lib.is) omit sizes; the image server's info.json has them
+            try:
+                info = json.load(urllib.request.urlopen(urllib.request.Request(base + "/info.json", headers=UA), timeout=60))
+                w, h = info.get("width"), info.get("height")
+            except Exception:
+                pass
+        out.append({"label": c.get("label"), "base": base, "ext": ext, "w": w, "h": h})
     return out
 
 

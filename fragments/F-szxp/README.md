@@ -1,0 +1,291 @@
+# Fragmentarium F-szxp (Leipzig, Universitätsbibliothek, Fragm. lat. 52)
+
+Record: https://fragmentarium.ms/overview/F-szxp
+Catalogue says: "Medical Fragment (unidentified)"; one partial bifolium, 199 x 305 mm; 14th century.
+Images: IIIF manifest https://fragmentarium.ms/metadata/iiif/F-szxp/manifest.json (7 canvases: 1r, 1v, 2r, 2v
+at ~4986/4065 x 5760 px, plus three shots of the open bifolium; images served by iiif.ub.uni-leipzig.de).
+
+Worked 2026-09-20. Status: PARTIAL (strong attribution, no line-by-line check against a witness possible).
+The text is a topical medical florilegium in the "In libro X Auctor: ..." / "In eodem Auctor: ..." format,
+chapter De sompno followed by a chapter on excessive sleep (sompniculositas) with the sub-rubrics
+Cause / Accidencia / Cure, excerpting Ysaac, Avicenna "in libro medicinali" (= Canon), Aristotle De sompno
+et vigilia, Johannitius, Hippocrates Afforismi and Pronostica, Constantinus (Viaticum). Everything about
+it matches Draelants' description of Arnoldus Saxo's medical work, the Practica de causis morborum et
+figuris simplicibus quoque compositis medicinis (seu De egrotantibus partibus omnium membrorum a capite
+usque ad pedes), written c. 1270 and known from a single manuscript (Oxford, Bodleian Library, Lat. misc.
+e. 34). That manuscript is not online and there is no edition, so the attribution could not be verified
+verbatim. Individual excerpts were verified against their sources (Avicenna, Canon: see below).
+
+## What the bifolium is
+Two conjoint leaves, text in two columns of c. 29-30 lines, ruled, red paragraph marks before every
+excerpt, red running rubrics between the columns, a 6-line red initial S at the chapter opening on
+fol. 1v (rubric "De sop[no]" in red beside it). Fol. 1r and fol. 2v are badly stained and only partly
+legible; fol. 1v and fol. 2r are clean. Fol. 1v col. b ends inside the Hippocrates Pronostica excerpt on
+sleep and fol. 2r col. a begins with its continuation ("...tamen si mane usque ad terciam tenuerit"), so
+the two leaves are consecutive: this is the central bifolium of its quire. Gothic textualis, abbreviations
+"ysa." (Ysaac), "Auic." (Auicenna), "Ypo." (Ypocras), "Ar." (Aristoteles), "Co." (Constantinus).
+Fol. 2r carries the modern pencil note "Fragm. lat. 52" and a Leipzig UB stamp.
+
+## Transcription (abbreviations expanded in parentheses; ... = illegible; [ ] = supplied)
+
+### Fol. 1r col. a (vice lists, then regimen of morals)
+1  ...res sensus. Prim(um) intelle(ctum) obliuiosi ...
+2  ... ¶ In eod(em) ysa(ac). In auaricia(m?): [in]
+3  temperancia, melancolic(i?) ..., de spe-
+4  ratio, timor, anxietates, animi et du-
+5  ricies(?), inflexibiles, rapaces, frau-
+6  dulenti, mendaces, in..., et
+7  ... ¶ In eodem ysa(ac). In gula: in-
+8  temperancia, superfluitatem stomachi
+9  et nutritiuorum, temulenti, insaciabi-
+10 les, insolentes, leticia fl..., cachinno-
+11 sa, scurrilitas, intellectus(?) et rationis tur-
+12 bulentia, garrulitas, clamositas,
+13 proloquium, discordia. ¶ In eod(em) ysa(ac).
+14 In luxuria: sensus intemperantium, impu-
+15 dicicia, precipitatio, non deliberantes,
+16 leues animo, et imbecilles ... et
+17 dissoluti, cogitationes inconstantes,
+18 intemperati, incontinentes. ¶ Cure(?).
+19 In lib(ro) medi(cinali) Auicenna: Oportet ut
+20 tota intentio sit in meliorando mo-
+21 res p(ueri) ut conseruetur ne fortis ira
+22 aut timor ... accidat. ¶ In eod(em) Auic(enna):
+23 ... mores malicie complex-
+24 ionis speciem ... ne(?) ...
+25 consuetudine accedunt, sequitur
+26 eos complexionis malicia. ¶ In lib(ro)
+27 ... complex(ionis?) ... almalec(?) c(on)-
+28 suetudines conciliare(?) et s(ecundu)m eos in
+29 ... regulari ... pessime(?)
+
+### Fol. 1r col. b (mostly illegible; readable lemmas and phrases)
+1  ... quia ... sunt ... 
+2  at ordinabiliter ... ¶ In eod(em)
+3  ... Quia ip(su)m ... dicit ...
+4  ... sibi consuetudines ...
+5  quia ipsum obliuiscitur(?) ...
+6  obstinatione ... ¶ In
+7  lib(ro) de virtutibus(?) ... 
+8  sunt mores ... 
+9  ... ne complexionis malicia
+10 ... ¶ In eod(em) ... 
+11 ... anima ... videatur ...
+12 ne quid turpe videatur aut audi-
+13 atur ... mentis ... 
+14 in pueritia audiri(?) ... cogitationes
+15 perturbantur(?) ... 
+16 ... anime quia turpes actiones
+17 turbantur(?). ¶ In lib(ro) de ... cor-
+18 porum(?) ... Prohibendus(?) ut omnis
+19 rei ... appetitus ne consuetudo
+20 eius in habitum vertatur ... 
+21 causis humores corrumpuntur ...
+22 morte(m) ... ¶ In eod(em) ...
+23 et subtile ... exercitium ...
+24 exercitium in quo ... exercitet ...
+25 ... omne ... alentibus et me(m)-
+26 bra ... ¶ In eod(em) iv(?): Si
+27 ... nihil utile nisi ... est
+28 ... ut calor naturalis et ...
+29 ... corporis ... animalis ...
+
+### Fol. 1v col. a (end of previous chapter; chapter De sompno)
+1  ... quietus et solitarius ...
+2  ... in cogitatione radi...
+3  ... diuersitates morborum ... ¶ In
+4  lib(ro) de accidentibus [Ysaac] ...           [red rubric beside the initial: DE SOP(MNO)]
+5  [S initial] ysa(ac): Sompnus est ... in-
+6  [strum]entorum(?) sensuum ex fumo ...
+7  corporis cum virtutis quietudine ...
+8  lis. ¶ In eod(em) ysa(ac). Cum n(aturalis)
+9  calor ad interiora retrahitur cibus(?)
+10 ... excoquitur, fumus eius in[stru]-
+11 menta sensuum infundit et ab ex...
+12 apprehensione sensus quiescere facit
+13 et sompnus efficitur. ¶ In eod(em) ysa(ac):
+14 Sompnus alius naturalis, alius [non]
+15 naturalis. Naturalis per quem ...
+16 animalis ... custodit. ¶ In
+17 eodem ysa(ac): Non naturalis ...
+18 fit humiditate et frigiditate ...
+19 que ... et ... superflua ...
+20 ... huiusmodi sompnus in accidiosis
+21 euenit. ¶ In eodem ysa(ac): Multi
+22 ciborum assumptio in gulosis instru-
+23 [men]ta sensuum superflue infundit ...
+24 et sompnus ei efficiatur in na[tura]
+25 nimius aut inordinatus. ¶ In
+26 lib(ro) Medicinali Auicenna: Sompnus
+27 est reuocatio caloris naturalis ab [exte]-
+28 rioribus ad interiora ut ...
+
+### Fol. 1v col. b
+1  ... Sompnus est quies anime
+2  cum intensione naturalium(?). ¶ In li(bro)
+3  de sompno et vigilia Ar(istoteles): Som-
+4  [pnus] n(on) quedam passio sensibilis(?) ...
+5  ut vinculum et quedam immobilitas ...
+6  ... sompnus conuenit ... 
+7  intrinsecus naturalis et reu[o]-
+8  catio eiusdem. ¶ Accidencia(?). [In]
+9  eodem Ar(istoteles): Similis n(on?) quedam ...
+10 ... epilentice(?) ... accidit pluribus
+11 modo. Principium huius passionis(?)
+12 ... mientibus et omnino amatoribus
+13 sompni qui occultas venas ha[bent].
+14 ¶ In lib(ro) Johannicii: Sompnus corp[us]
+15 ... mutat naturam: primum
+16 infrigidat exterius et calefac[it] ...
+17 quia si plurior fuerit ... 
+18 ... ¶ In li(bro) Medicinali A[uicenna]:
+19 ... in die(?) quia dormire est malum ...
+20 egritudines humectantes et ...
+21 ...rismos(?) et corrumpit calorem et gr[auat]
+22 splenem et laxat neruos et p[igri]-
+23 ciam(?) confert et debilitat desid[eria?]
+24 et generat apostemata et febres.
+25 [In] li(bro) Pronosticorum Ypocras: Sompnus
+26 ... moris est conueniens et n[atu]-
+27 ralis ut noctem non effugia[t] ...
+28 ... diem non ...
+
+### Fol. 2r col. a
+1  tamen si mane usque ad terciam te-
+2  nuerit. ¶ In libro Afforismorum Ypo(cras):
+3  In quo morbo sompnus laborem
+4  facit, mortale. ¶ In eod(em) Ypocras: Ubi desi-
+5  pienciam sompnus sedat, bonum.
+6  Sompnus et vigilia utraque magis
+7  mensura facta, malum. ¶ Cure. In libro
+8  medicinali Auic(enna): Intencio autem
+9  nostra in medicanda pluralitate ni-
+10 mia sompni est ut caput eius mun-
+11 demus de superfluis humoribus,
+12 ut non causa subiecti fiat et sompni-
+13 culositatis multe. ¶ In eod(em) Auic(enna):
+14 Dande erunt medicine calefacto-
+15 rie capitis que humores frigidos sub-
+16 tilient et a cerebro resoluant; in quo
+17 genere erunt emplastra et calide inunc-
+18 tiones. Pulpis(?) cerebri ungatur
+19 cum piretro, castoreo et mirra; ca-
+20 put lauandum cum aqua aneti et sam-
+21 buci oleo et sapinismo(?). ¶ In eod(em)
+22 Auic(enna): Et est quod primo humores fri-
+23 gidos per medicinam subtiliantem
+24 interioribus subtiliabis, deinde ipsos per
+25 catarticum euacuabis.         [red rubric in the margin: De nimia (?) ... de sop(niculositate)]
+26 [I]n libro de accidentibus
+27 Ysa(ac). Cause. Sompniculositas est(?)
+28 sensuum immobilitas ex spirituum
+29 ...ctione. ¶ In eodem Ysa(ac): Alia(?) ...
+
+### Fol. 2r col. b
+1  his virtutis actio plenius extr[a]
+2  [com]pletur, quia cum spiritus sensuum ...
+3  Oportet virtus animata paciat[ur].
+4  ¶ In eod(em) Ysa(ac): Huius causa sola frigidi-
+5  tas, vel flegma nutritum(?) in accid[ia?]
+6  et spiritus constringit quorum actiones
+7  ... ad instrumenta se dilatare(?).
+8  ¶ In eod(em) Ysa(ac): vel quando humores in-
+9  ... in gulosis spiritus eosdem ...
+10 defectant cum ipsorum instrumentis ...
+11 nentur, sic quod accidiosi et ma-
+12 gulosi(?) morbum qui sompniculosi-
+13 tas dicitur patiuntur. ¶ In [libro Via]-
+14 tici(?) Constantinus: Similiter sompni-
+15 culositas tribus modis creatur:
+16 de sola humiditate cerebri sicut ebrii
+17 patiuntur; vel de sola frigiditate
+18 sicut in niue vel glaciem cadentes
+19 sustinent; vel de utroque sicut [apo]-
+20 plectici, in demoniis(?) et litargici.
+21 ¶ Accidencia. In eod(em) Co(nstantinus): Prima sompni-
+22 culositas non est sompnus
+23 sed quasi dormientis pigricia
+24 que non contingit nisi ex defectione(?)
+25 dissolucione virtutis. ¶ In lib(ro) [de]
+26 accidentibus Ysa(ac): Sompniculosi osci-
+27 tationes patiuntur et alios ... [fri]-
+28 gidorum humorum resolucione ...
+29 anelitus est artatio et suspi[rium] ...
+
+### Fol. 2v (heavily stained; readable lemmas only, from the 1600 px overview)
+col. a: "... pulsus ... ¶ Cure. In libro ... ¶ In eod(em) ... ¶ In libro de ... ¶ In eod(em) ... ubi ... est morbus
+vel ... morbum ... colera rubea ..."; col. b: "¶ In eod(em) ysa(ac): ... morbum ... fumus in accidiosis a
+cerebro ad nares decurrit ... ¶ In eodem ysa(ac): In gula(?) ex repletione stomachi fumus ... expellat.
+¶ In lib(ro) Via[tici] ... naturam operatur ... ¶ In eod(em) ... aliquando fit alumen(?) ... expellit ...
+¶ ... ¶ In eodem ysa(ac) ... ¶ In libro Pronosticorum Ypocras ..." Needs native-resolution crops and
+possibly image enhancement; not transcribed further.
+
+## Source excerpts verified
+Fol. 1r col. a 19-22 = Avicenna, Canon I, fen 3, doctr. 1, cap. 4 (De regimine pueri), Latin version:
+"Oportet ut tota intentio sit in meliorando mores pueri et moderando ipsos: et hoc quidem est ut
+observetur ne fortis ira neque timor vehemens ei accidat" (Google Books, Venice 1564 ed., id yvpQDxEbl6gC;
+Lyon 1498 ed. id DNsMlf3vokwC; archive.org ARes52107 "Cap. 4. Oportet vt tota intentio fit in meliorando
+mores pueri"). The fragment abridges the sentence, as the compilation does throughout.
+Fol. 1v col. a 26-28 = Avicenna, Canon I, fen 2 (definition of sleep as "revocatio caloris naturalis ad
+interius", quoted in this form by Walter Burley, Parva naturalia commentary; Google Books tq5TEQAAQBAJ).
+Fol. 1v col. b 25 - 2r col. a 1 = Hippocrates, Prognostica (on natural sleep, "si mane usque ad terciam").
+Fol. 2r col. a 2-7 = Hippocrates, Aphorismi II.1-3 ("In quo morbo somnus laborem facit, mortale";
+"Ubi desipientiam somnus sedat, bonum"; "Somnus et vigilia utraque mensuram excedentia, malum").
+The compilation's own connecting text (rubrics Cause / Accidencia / Cure, lemmas) is what needs a witness.
+
+## Identification (attribution, not yet verbatim-verified)
+Arnoldus Saxo (Arnoldus Luca, fl. c. 1225-1270), Practica de causis morborum et figuris simplicibus quoque
+compositis medicinis, chapter on sleep and on excessive sleep (a capite ad pedes order: head section).
+Grounds:
+- Citation formula identical to Arnoldus' De floribus rerum naturalium: "In libro <title> <Auctor>: ..." and
+  "In eodem <Auctor>: ..." (checked in Stange's 1907 edition, archive.org dieenzyklopadiedesarnoldussa,
+  e.g. "In libro de sompno et vigilia Aristoteles: Nec sompnus nec vigilia inest ..."). Vincent of
+  Beauvais, Bartholomaeus Anglicus and Thomas of Cantimpre do not use this formula.
+- Draelants describes the Practica as organised per disease with definition from authorities, then
+  etiology, symptoms and cure, making "un large usage du Canon" (Avicenna) and drawing on Salernitan
+  and Constantinian material (Bartholomaeus Anglicus, ed. van den Abeele/Meyer 2005, p. on Arnold's
+  "practica: definition (d'apres les autorites), etiologie, symptomes..."; Die Enzyklopadie im Wandel,
+  2002, "notre auteur fait un large usage du Canon dans sa Practica medicale"). The fragment has exactly
+  Cause / Accidencia / Cure after the definitions, with the Canon as the main cure source.
+- Draelants (Bulletin de philosophie medievale 34, 1992 and 35, 1993, "Une mise au point sur les oeuvres
+  d'Arnoldus Saxo"; thesis Louvain 2000) knows the Practica from one manuscript only, Oxford, Bodleian
+  Library, Lat. misc. e. 34 (13th c., which also carries De floribus I-IV, fol. 1r-32v, 34r-35v); no
+  edition exists ("Il n'existe pas encore d'edition critique du texte", Occident et Proche-Orient, 2000).
+  If the attribution holds, the Leipzig bifolium is a second, 14th-century witness of the Practica.
+- Fol. 1r is a chapter on morals/complexion (Avicenna's regimen of children's mores; Isaac's lists of the
+  bodily effects of avarice, gluttony and lust), which fits a practica that opens with regimen material
+  before the a-capite-ad-pedes diseases.
+What was NOT done: no line-by-line comparison with Oxford Lat. misc. e. 34 (not digitised; Bodleian
+catalogue page returns 403 to fetchers). The HAL copies of Draelants' articles (halshs-03092150,
+halshs-03096187, tel-00700745) are behind an anti-bot wall and could not be read.
+
+## Ruled out / checked
+- Arnoldus Saxo, De floribus rerum naturalium (Stange 1907, full OCR grep): no "meliorando", no
+  "sompniculositas", no vice lists; the fragment is not from De floribus.
+- The lead's candidate list (Avicenna Canon, Rhazes, Serapion, Antidotarium Nicolai, Circa instans,
+  Gilbertus, Bernard of Gordon, Saliceto, Lanfranc, Petrus Hispanus, Roger, Macer, Aegidius): the fragment
+  is a florilegium quoting Avicenna and Hippocrates by lemma, not any of these texts themselves.
+- Google Books (via local service, 20 queries): "tota intentio sit in meliorando mores" (Canon only);
+  "complexionis malicia"+"consuetudines", "garrulitas"+"clamositas"+"discordia",
+  "insaciabiles"+"insolentes"+"cachinnosa", "cogitationes inconstantes"+"intemperati",
+  "impudicicia"+"precipitatio"+"leues animo" (and u/v variants), "revocatio caloris naturalis"+somnus,
+  "somnus alius naturalis alius non naturalis", "sompniculositas"+"tribus modis": no florilegium hit.
+- archive.org full text: "in meliorando mores" (Canon prints only), "revocacio caloris naturalis",
+  "sompnus est reuocacio", "alius naturalis alius non naturalis", "in libro de sompno et vigilia" (only
+  Arnoldus' De floribus uses the lemma form), "garrulitas"+"clamositas"+"insaciabiles": nothing.
+- Corpus Corporum (paragraph index): "meliorando mores", "complexionis malicia", "revocatio caloris",
+  garrulitas NEAR clamositas: nothing.
+- Vincent of Beauvais, Speculum naturale/doctrinale: not compared line by line; excluded on format
+  (Vincent's lemmas are "Auicenna in canone", "Ysaac in libro dietarum", "Actor", not "In eodem Ysaac",
+  and he has no Cause/Accidencia/Cure sub-rubrics).
+
+## Next moves
+1. Compare with Oxford, Bodleian Library, MS Lat. misc. e. 34 (the Practica part): request images of the
+   sleep chapters, or ask I. Draelants (CNRS/IRHT), who has transcribed the Practica, whether "Sompnus est
+   reuocatio caloris naturalis" / "Cause. Sompniculositas ..." occur there.
+2. Read Draelants, Bulletin de philosophie medievale 34 (1992) 163-180 and 35 (1993) 130-149, and her
+   2000 thesis, for the Practica's chapter list and incipit (offline copies; HAL blocks fetchers).
+3. Fol. 2v: crop at native resolution with contrast enhancement to recover the chapter after
+   sompniculositas (likely De vigiliis / De litargia).
+4. If confirmed, notify Fragmentarium/Leipzig UB: catalogue title should become "Arnoldus Saxo, Practica
+   de causis morborum (De sompno; De sompniculositate)".
