@@ -1,5 +1,7 @@
 # F-2e1n — Brugge, Stads- en OCMW-archief, reeks 538 (Fragmenten van handschriften), nr. 42
 
+**Second-model review, 20 September 2026:** Identification supported by sampled definitions and entry order. The Cataplectos/Catapuera/Catapulta/Cataracta sequence is in [edition image n211](https://archive.org/details/OEXV3RES/page/n211/mode/1up). The full two-leaf arrangement and every endpoint were not independently established.
+
 - Catalogue: "Unidentified text on Latin etymology", 1401–1450, Southern Textualis, Latin; 2 leaves, 294 x 214 mm; red/blue initials.
 - Images: https://fragmentarium.ms/overview/F-2e1n (manifest https://fragmentarium.ms/metadata/iiif/F-2e1n/manifest.json). Canvases 0047 (1r), 0048 (1v), 0050 (2r), 0051 (2v).
 - Layout: 2 columns, c. 43 lines per column, leaves complete (nothing cut at line ends); running letter "C" at top of each leaf; entries begin with alternating red/blue 2-line initials.

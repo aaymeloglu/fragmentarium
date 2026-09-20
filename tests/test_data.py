@@ -21,7 +21,7 @@ def test_fields_and_vocabulary():
         assert r["status"] in STATUSES, r["id"]
         assert r["confidence"] in CONFIDENCE, r["id"]
         if r["status"] == "identified":
-            assert r["confidence"] == "high", (r["id"], "identified means verified line by line")
+            assert r["confidence"] == "high", (r["id"], "identified requires high confidence in a sustained textual match")
         if r["status"] == "unidentified":
             assert r["confidence"] == "none", r["id"]
         for k in ("verify", "record", "manifest", "thumbnail"):
@@ -49,7 +49,7 @@ def test_every_fragment_has_a_folder_and_readme():
 
 def test_no_local_paths_or_secrets():
     bad = re.compile(r"/Users/|AIza[0-9A-Za-z_-]{20,}|\.mcp\.json")
-    for p in list((ROOT / "fragments").rglob("*.md")) + [ROOT / "README.md", ROOT / "METHOD.md", ROOT / "CONVENTIONS.md"]:
+    for p in list((ROOT / "fragments").rglob("*.md")) + [ROOT / "README.md", ROOT / "METHOD.md", ROOT / "CONVENTIONS.md", ROOT / "REVIEW.md"]:
         assert not bad.search(p.read_text()), p
 
 

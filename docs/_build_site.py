@@ -233,9 +233,10 @@ def build():
         "<h1>Fragmentarium: identifying the unidentified</h1>"
         f'<p class="lede">Medieval manuscript fragments catalogued on <a href="https://fragmentarium.ms/">Fragmentarium</a> as '
         f'“unidentified”, worked one at a time: read from the library’s images, searched against printed editions and digital '
-        f'corpora, and accepted only when consecutive lines match an edition verbatim. {len(data)} fragments so far: '
+        f'corpora, with identifications supported by sustained agreement in distinctive wording and sequence. {len(data)} fragments so far: '
         f'{n_id} identified, {n_p} partial, {n_u} not identified. Each row links to the transcription and the line-by-line comparison. '
         f'What remains: the <a href="burndown.html">burndown list</a> of every “unidentified” record, ranked. '
+        f'Research and review were performed by LLMs; see the <a href="review.html">second-model review</a> for scope and limits. '
         f'Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>; what the labels mean in <a href="{REPO}/blob/main/CONVENTIONS.md">CONVENTIONS.md</a>.</p>'
         '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Confidence</th><th data-col="4">Last examined</th></tr>'
         + "".join(rows)
@@ -252,6 +253,10 @@ def build():
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
         (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<article>" + md_to_html(md) + "</article>", crumbs))
+    review = (ROOT / "REVIEW.md").read_text()
+    (DOCS / "review.html").write_text(page(
+        "Second-model review · Fragmentarium", "<article>" + md_to_html(review) + "</article>",
+        '<div class="crumbs"><a href="index.html">All fragments</a></div>'))
     build_burndown({r["id"]: r for r in data})
     (DOCS / ".nojekyll").write_text("")
     return data

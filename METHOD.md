@@ -31,8 +31,7 @@ line by line before searching anything.
 ## 2. Searches, in this order
 
 1. **Google Books full text.** It covers the early printed editions where most medieval texts
-   that were ever printed live, and it is where every identification in this repository was made
-   or confirmed. Query with two to four distinctive quoted phrases of the fragment's own connecting
+   that were ever printed live, and it supplied several identifications and corroborating parallels here. Other identifications, including the Articella passage, were located through Internet Archive OCR. Query with two to four distinctive quoted phrases of the fragment's own connecting
    prose (not scripture), trying u/v and ae/e spellings. The API needs a key (`tools/gbsearch.py`);
    it returns snippets and volume ids, not pages. Do not scrape the books.google.com site itself:
    a burst of page requests gets the whole network captcha-walled for hours.
@@ -47,15 +46,13 @@ line by line before searching anything.
    ordinaria, Hugh of St Cher, Catena aurea), Friedberg's Corpus iuris canonici on archive.org for
    the Decretum and Decretals, the Quaracchi Bonaventure and Borgnet Albert on archive.org.
 
-The order was learned the hard way: the first fragment (F-ss0e) cost a day searching the medieval
-corpora on the assumption that "Ex hoc arguo" meant a 13th-century scholastic, and fell to Google
-Books in one query once a key was in place. It was a 15th-century preacher.
+The first fragment (F-ss0e) produced a useful Google Books parallel after searches in medieval corpora. The second-model review retained that parallel but qualified attribution and dating: identifying a passage in a later sermon collection does not establish its original author or the date of this copy.
 
 ## 3. Verification
 
-Identified means consecutive lines match an edition verbatim, with the comparison written out in
-the folder and a link that lets anyone check it. Every identification claimed by an automated run
-was checked again by a person against the fragment image before it went on the index.
+Identified means sustained agreement in distinctive wording and sequence with an edition, with variants recorded and a reproducible comparison. Original research was performed by Claude, followed by lead-LLM manuscript-image spot-checks. Codex performed a second-model review on 20 September 2026. Eight identified entries have support in sampled manuscript/edition comparisons; the Bernardus comparison used edition OCR, not inspected print page images. Cherubino is a provisional textual parallel. The other reports received an evidence and reasoning audit, not a full fresh collation.
+
+These are LLM checks, not human palaeographic verification. Full transcription accuracy, all passage endpoints, physical reconstruction, dating, literary dependence, and witness novelty have not been certified. See [review scope and evidence](https://github.com/aaymeloglu/fragmentarium/blob/main/REVIEW.md).
 
 ## 4. Choosing the next fragment
 
@@ -68,9 +65,4 @@ so the negatives are recorded.
 
 ## 5. What the results look like
 
-Of the first eleven fragments, the six identified were all much-printed works (Nicholas of Lyra
-twice, the Catholicon, Richard of Middleton, Guido de Baysio, Cherubino da Spoleto). The partials
-were all compilations, abridgements and indexes that never reached print: their sources pin down
-fast, and then the next step is a manuscript catalogue and reading by eye, which searches cannot
-do. In every identified case the catalogue's genre or date label turned out to be wrong, not just
-missing.
+The current results are 8 identified, 12 partial, and 2 not identified. Several extended prose matches identify printed works, while compilations, epitomes, indexes, and school commentaries often yield source parallels without an exact work attribution. No-hit searches do not establish that a work never reached print. Some results refine broad catalogue descriptions; proposed changes to date, genre, or physical reconstruction must be justified individually.

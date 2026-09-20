@@ -1,5 +1,7 @@
 # F-3yl2 — Toruń, Biblioteka Uniwersytecka, Ob.6.II.684-686
 
+**Second-model review, 20 September 2026:** Keep partial. The catalogue already recognized q.10 a.11; the proposed additions are further Aquinas loci and legal interpolations. The compiling work remains unidentified, with no exact printed match located.
+
 - Fragmentarium ID: F-3yl2 — https://fragmentarium.ms/overview/F-3yl2
 - Manifest: https://fragmentarium.ms/metadata/iiif/F-3yl2/manifest.json
 - Catalogue title: "Unidentified theological treatise, containing a fragment of Summa Theologiae, Secunda pars secundae partis"; subtitle "questio X, articulus 11" (Marta Czyżak, Toruń)

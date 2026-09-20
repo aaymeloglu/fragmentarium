@@ -8,7 +8,7 @@
 
 ## Status
 
-**IDENTIFIED as to text type, both layers matched to printed parallels; author anonymous.** (1) The verse blocks that close every distinction are verbatim the mnemonic "Sententiae Sententiarum" (versus memoriales on Lombard's Sentences) printed among the pseudo-Bonaventurean opuscula (ed. Peltier, Opera omnia vol. 6, Paris 1866, lib. IV pp. 651-655; earlier in the 1504 Parvorum opusculorum, 1596 Vatican Opera, etc.). (2) The prose layer of numbered chapter epitomes ("Primum c°... 2m c°...") is the same anonymous "summa distinctionis" text that Jan Hus incorporated wholesale into his Super IV Sententiarum (Prague 1407-09; ed. Flajšhans 1906, IV d. 15 pp. 593-594 and d. 32 pp. 662-663): at d. 32 all six capitula and at d. 15 nine capitula match Hus word for word (tables below). The fragment (French, s. XIV ex.) is thus an independent, earlier witness of the chapter-summary compendium Hus used, here combined with a divisio textus, Decretum cross-references and the pseudo-Bonaventure verses (Hus prints a different verse set). It is NOT one of the quaestio commentaries on the candidate list, and NOT the Filia magistri.
+**PARTIAL.** Anonymous epitome of Lombard IV. The verse blocks have reported parallels in the pseudo-Bonaventure Sententiae Sententiarum (Peltier, Opera omnia VI, 1866, Book IV pp.651-655). The numbered prose summaries parallel those transmitted in Jan Hus's Super IV Sententiarum (Flajšhans, 1906, IV d.15 pp.593-594 and d.32 pp.662-663). The tables below also show differences. These parallels do not establish Hus's source or the direction of borrowing; both works summarize Lombard. If the catalogue's late-fourteenth-century dating holds, the fragment may predate Hus's commentary. The compiler remains unidentified.
 
 The text is therefore not a "commentary" in the quaestio sense: there are no "Utrum..." question titles anywhere on the four leaves. It is an abbreviatio/epitome of the Sentences, distinction by distinction: (1) lemma of the distinction's opening words, (2) divisio textus ("In parte ista postquam magister... dividitur in duas..."), (3) chapter-by-chapter summaries numbered "Primum c(apitulu)m, 2m c°, 3m c°...", each with its source (Augustine, Decretum "33 q. 4 ...", "Magister"), (4) mnemonic verses. That the four leaves cover dd. 15-17, 19-22, 32-34, 38-40 is explained by this density (roughly two distinctions per page).
 
@@ -131,7 +131,7 @@ The d. 15 right-hand column in the fragment (4 lines) does not match Peltier's i
 
 ## Identification (prose layer): parallel in Jan Hus, Super IV Sententiarum
 
-Edition: V. Flajšhans, Mag. Io. Hus Super IV Sententiarum, Prague 1904-06 (Opera omnia II); OCR of Book IV at [archive.org superivsententia41husj_0](https://archive.org/download/superivsententia41husj_0/superivsententia41husj_0_djvu.txt) (lines 6330-6400 = IV d. 15; 6691-6710 = d. 16; 11210-11240 = d. 32). Hus opens every distinction with a "summa distinctionis" ("Ista distinccio 32a ... primo continet quod ... 2°, quod ... 3°, quod ..."), then his own verses, then quaestiones. The fragment's capitula are that summa, with "Primum c°, 2m c°..." in place of "primo continet, 2°...".
+Edition: V. Flajšhans, Mag. Io. Hus Super IV Sententiarum, Prague 1904-06 (Opera omnia II); OCR of Book IV at [archive.org superivsententia41husj_0](https://archive.org/download/superivsententia41husj_0/superivsententia41husj_0_djvu.txt) (lines 6330-6400 = IV d. 15; 6691-6710 = d. 16; 11210-11240 = d. 32). Hus opens every distinction with a "summa distinctionis" ("Ista distinccio 32a ... primo continet quod ... 2°, quod ... 3°, quod ..."), then his own verses, then quaestiones. The fragment's capitula parallel that summa, with "Primum c°, 2m c°..." in place of "primo continet, 2°...".
 
 | Fragment f. 71r, d. 32 (lines 7-25) | Hus, IV d. 32, summa (Flajšhans p. 662-663) |
 |---|---|
@@ -154,7 +154,7 @@ Edition: V. Flajšhans, Mag. Io. Hus Super IV Sententiarum, Prague 1904-06 (Oper
 | 8m c°: ista est vera penitentia que peccatum abolet, ... que scelus corrigit; ... scelus corrigit qui ad odium ... commissi criminis(?) et committendi cum desiderio satisfaciendi ... | 8°, quod illa est vera penitencia, que peccatum abolet, quod solum illa facit, que scelus corrigit, illa vero scelus corrigit, que odium commissi criminis et committendi cum desiderio satisfaciendi affert |
 | 9m c°: Quamdiu res per quam peccatum est non redditur, sed reddi potest, non agitur penitentia sed fingitur. Aug. ad Macedonium | 9°, quod quamdiu res, propter quam peccatum est, non redditur, si reddi potest, non agitur penitencia, sed fingitur |
 
-Differences: the fragment adds the divisio textus, explicit source tags (Augustinus, Decretum C. 33 q. 4 by chapter incipit, "Magister") and an extra capitulum at d. 15 (the adulterer), and its d. 16 summa is worded differently from Hus's (Hus: "perfeccio penitencie consistit in tribus ... secundum quod Deum tripliciter offendimus"; fragment: "tres sunt partes penitentie ... sicut sunt tria peccata ... Crisostomus et Augustinus"), so the fragment is a witness of the underlying compendium, not a copy of Hus. Hus's verse sets (e.g. d. 32 "Vir mulierque pares sunt iuris condicione / Infringit votum...") are a different tradition from the fragment's pseudo-Bonaventure verses.
+Differences: the fragment adds the divisio textus, explicit source tags (Augustinus, Decretum C. 33 q. 4 by chapter incipit, "Magister") and an extra capitulum at d. 15 (the adulterer), and its d. 16 summa is worded differently from Hus's (Hus: "perfeccio penitencie consistit in tribus ... secundum quod Deum tripliciter offendimus"; fragment: "tres sunt partes penitentie ... sicut sunt tria peccata ... Crisostomus et Augustinus"), so a shared intermediary is a hypothesis; the parallels and differences do not establish the direction of dependence. Hus's verse sets (e.g. d. 32 "Vir mulierque pares sunt iuris condicione / Infringit votum...") are a different tradition from the fragment's pseudo-Bonaventure verses.
 
 ## Prose layer: what else was established and what was ruled out
 
@@ -173,7 +173,7 @@ Differences: the fragment adds the divisio textus, explicit source tags (Augusti
 ## Next moves
 
 1. Transcribe ff. 71v-73v (dd. 33-34, 38-40) and collate both layers: verses against Peltier VI pp. 655-658, summae against Hus IV dd. 33-34, 38-40.
-2. Literature on the source of Hus's "summae distinctionum" (Flajšhans's introduction; J. Sedlák; O. Pavlíček in A Companion to Jan Hus, 2015) should name the compendium and its other manuscripts; that would give the fragment a proper title and possibly an author.
+2. Literature on the source of Hus's "summae distinctionum" (Flajšhans's introduction; J. Sedlák; O. Pavlíček in A Companion to Jan Hus, 2015) may clarify whether an intermediary compendium can be identified and how this fragment relates to it.
 3. Stegmüller, Repertorium commentariorum in Sententias, and Landgraf's lists of abbreviationes for a 14th-c. French witness combining numbered capitula with the pseudo-Bonaventure verses.
 
 ## Google Books pass (run by lead, 2026-09-20)

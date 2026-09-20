@@ -1,5 +1,7 @@
 # F-cfry — Wien, Österreichische Nationalbibliothek, Cod. 4070 (fragment in binding)
 
+**Second-model review, 20 September 2026:** Identification supported. The sampled pontifical-office passage is in [1603 edition image n426](https://archive.org/details/bibliorumsacroru06strauoft/page/n426/mode/1up), printed column 842, bottom right under Nicholas of Lyra. Chapter V opens in column 841. Full passage endpoints remain to be recollated.
+
 - Fragmentarium ID: F-cfry
 - Shelfmark: Wien, ÖNB, Cod. 4070 (Einband)
 - Catalogue: "Homily (unidentified)", Latin, 1401–1450, Germany/Austria, hybrid script (hybrida), parchment, 1 partial leaf, 375 x 250 mm
@@ -148,7 +150,7 @@ Col. b (b1–b45)
 
 Nicolaus de Lyra, Postilla litteralis in Epistolam ad Hebraeos, cap. 5, on Heb 5:1 "Omnis namque pontifex" through 5:9 "consummatus factus est".
 
-Editions checked: *Bibliorum Sacrorum cum Glossa ordinaria ... et Postilla Nicolai Lyrani*, tom. VI (Venice 1603), Ad Hebraeos cap. V, cols. c. 843–847 — archive.org `bibliorumsacroru06strauoft` ([OCR text](https://archive.org/download/bibliorumsacroru06strauoft/bibliorumsacroru06strauoft_djvu.txt), Lyra's chapter 5 sits at OCR offset c. 4,114,000–4,142,000). The OCR interleaves the columns, but Lyra's italic text is recoverable line by line. Independent corroboration: (a) Google Books snippet of the 1588 Venice *Biblia sacra cum glossis ... Nicolai Lyrani postilla* (vol. id 8pKThERzL3EC): "Ille enim a deo vocatur, qui modo debito instituitur. Sic & Christus. Ostenso quid requiritur ad pontificem, hic consequenter ostendit illud Christo conuenire. Et diuiditur in duas partes: quia primo declarat propositum"; (b) Hirsch/Rückert, *Luthers Vorlesung über den Hebräerbrief* (1929), p. 28 apparatus, quoting "Nik. v. Lyra z. St.: et quod talia debant exerceri libere non coacte nec mercennarie, ideo subditur ut offerat dona i. e. voluntarie oblata, non violenter extorta" — archive.org `MN41542ucmf_0`.
+Editions checked: *Bibliorum Sacrorum cum Glossa ordinaria ... et Postilla Nicolai Lyrani*, tom. VI (Venice 1603), Ad Hebraeos cap. V, chapter opening cols.841–842 (sample checked at col.842; full endpoint range not yet recollated) — archive.org `bibliorumsacroru06strauoft` ([OCR text](https://archive.org/download/bibliorumsacroru06strauoft/bibliorumsacroru06strauoft_djvu.txt), Lyra's chapter 5 sits at OCR offset c. 4,114,000–4,142,000). The OCR interleaves the columns, but Lyra's italic text is recoverable line by line. Independent corroboration: (a) Google Books snippet of the 1588 Venice *Biblia sacra cum glossis ... Nicolai Lyrani postilla* (vol. id 8pKThERzL3EC): "Ille enim a deo vocatur, qui modo debito instituitur. Sic & Christus. Ostenso quid requiritur ad pontificem, hic consequenter ostendit illud Christo conuenire. Et diuiditur in duas partes: quia primo declarat propositum"; (b) Hirsch/Rückert, *Luthers Vorlesung über den Hebräerbrief* (1929), p. 28 apparatus, quoting "Nik. v. Lyra z. St.: et quod talia debant exerceri libere non coacte nec mercennarie, ideo subditur ut offerat dona i. e. voluntarie oblata, non violenter extorta" — archive.org `MN41542ucmf_0`.
 
 Line-by-line comparison (fragment vs Lyra 1603, OCR lightly normalised):
 

@@ -1,5 +1,7 @@
 # F-8bfm — Toruń, Biblioteka Uniwersytecka, Ob.6.II.2164-2173
 
+**Second-model review, 20 September 2026:** Manuscript samples agree with the [1494 edition, image n40](https://archive.org/details/A336075/page/n40/mode/1up) and adjacent material on the theological virtues, Aristotle objection, and simplicity of heart. Full lectio endpoints and physical leaf reconstruction were not recollated.
+
 - Fragmentarium ID: F-8bfm — https://fragmentarium.ms/overview/F-8bfm
 - Manifest: https://fragmentarium.ms/metadata/iiif/F-8bfm/manifest.json
 - Catalogue: "Unidentified theological treatise", 1350–1400, Cursiva, Latin, parchment, one leaf, 375 x 220 mm; "used as a cover of a 16th cen. old printed book" (Marta Czyżak, Toruń). Host: Sammelband of 16th-c. prints, old shelfmark "Cdß 112. 4°", note "Mit 10 Beibänden. 20.X.94", spine label "Cdß 112".
