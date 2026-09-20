@@ -137,6 +137,19 @@ def md_to_html(text):
     return "\n".join(out)
 
 
+SORT_JS = """<script>
+document.querySelectorAll('table.sortable th[data-col]').forEach(function(th){
+  th.style.cursor='pointer'; th.title='Sort';
+  th.addEventListener('click',function(){
+    var t=th.closest('table'), c=+th.dataset.col, rows=Array.from(t.querySelectorAll('tr')).slice(1);
+    var asc=!(th.dataset.asc==='1'); th.dataset.asc=asc?'1':'0';
+    rows.sort(function(a,b){var x=a.cells[c].dataset.sort||a.cells[c].textContent.trim(), y=b.cells[c].dataset.sort||b.cells[c].textContent.trim(); return (x<y?-1:x>y?1:0)*(asc?1:-1);});
+    rows.forEach(function(r){t.appendChild(r);});
+  });
+});
+</script>"""
+
+
 def badge(r):
     label = {"identified": "Identified", "partial": "Partial", "unidentified": "Not identified"}[r["status"]]
     conf = {"high": "high confidence", "medium": "medium confidence", "low": "low confidence", "none": ""}[r["confidence"]]
@@ -198,8 +211,11 @@ def build_burndown(done):
 
 def build():
     data = json.loads((ROOT / "data" / "fragments.json").read_text())
+    srank = {"identified": 0, "partial": 1, "unidentified": 2}
+    crank = {"high": 0, "medium": 1, "low": 2, "none": 3}
+    ordered = sorted(data, key=lambda r: (srank[r["status"]], crank[r["confidence"]], r["order"]))
     rows = []
-    for r in data:
+    for r in ordered:
         rows.append(
             "<tr>"
             f'<td class="thumb"><a href="{r["id"]}.html"><img src="{html.escape(r["thumbnail"])}" alt="{r["id"]}" loading="lazy"></a></td>'
@@ -207,7 +223,8 @@ def build():
             f'<br><span class="cat">Catalogued as: {html.escape(r["catalogue_title"])}, {html.escape(r["catalogue_date"])}</span>'
             f'<br><span class="where"><a href="{r["record"]}">{r["id"]}</a></span></td>'
             f'<td>{html.escape(r["identification"])}<br><span class="where">{html.escape(r["note"])}</span></td>'
-            f"<td>{badge(r)}</td></tr>"
+            f'<td data-sort="{srank[r["status"]]}{crank[r["confidence"]]}">{badge(r)}</td>'
+            f'<td data-sort="{r["examined"]}">{r["examined"]}</td></tr>'
         )
     n_id = sum(r["status"] == "identified" for r in data)
     n_p = sum(r["status"] == "partial" for r in data)
@@ -220,9 +237,9 @@ def build():
         f'{n_id} identified, {n_p} partial, {n_u} not identified. Each row links to the transcription and the line-by-line comparison. '
         f'What remains: the <a href="burndown.html">burndown list</a> of every “unidentified” record, ranked. '
         f'Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>; what the labels mean in <a href="{REPO}/blob/main/CONVENTIONS.md">CONVENTIONS.md</a>.</p>'
-        '<table class="idx"><tr><th></th><th>Fragment</th><th>Our identification</th><th>Confidence</th></tr>'
+        '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Confidence</th><th data-col="4">Last examined</th></tr>'
         + "".join(rows)
-        + "</table>"
+        + "</table>" + SORT_JS
     )
     (DOCS / "index.html").write_text(page("Fragmentarium: identifying the unidentified", body))
     for r in data:
@@ -231,7 +248,7 @@ def build():
         head = (
             f"<h1>{html.escape(r['shelfmark'])} <span style='font-size:.6em;color:var(--muted)'>({r['id']})</span></h1>"
             f'<p class="lede">{html.escape(r["institution"])} · catalogued as {html.escape(r["catalogue_title"])}, {html.escape(r["catalogue_date"])}</p>'
-            f"<p>{badge(r)}</p><p><b>{html.escape(r['identification'])}</b></p>"
+            f"<p>{badge(r)} <span class='where'>last examined {r['examined']}</span></p><p><b>{html.escape(r['identification'])}</b></p>"
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
         (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<article>" + md_to_html(md) + "</article>", crumbs))

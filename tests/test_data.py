@@ -11,7 +11,7 @@ DATA = json.loads((ROOT / "data" / "fragments.json").read_text())
 STATUSES = {"identified", "partial", "unidentified"}
 CONFIDENCE = {"high", "medium", "low", "none"}
 REQUIRED = {"id", "institution", "shelfmark", "catalogue_title", "catalogue_date", "status", "confidence",
-            "identification", "note", "verify", "record", "manifest", "thumbnail", "order"}
+            "identification", "note", "verify", "record", "manifest", "thumbnail", "order", "examined"}
 
 
 def test_fields_and_vocabulary():
@@ -26,6 +26,7 @@ def test_fields_and_vocabulary():
             assert r["confidence"] == "none", r["id"]
         for k in ("verify", "record", "manifest", "thumbnail"):
             assert r[k].startswith("https://"), (r["id"], k)
+        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["examined"]), (r["id"], "examined must be YYYY-MM-DD")
 
 
 def test_ids_unique_and_ordered():
