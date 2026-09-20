@@ -236,7 +236,7 @@ def build():
         f'corpora, with identifications supported by sustained agreement in distinctive wording and sequence. {len(data)} fragments so far: '
         f'{n_id} identified, {n_p} partial, {n_u} not identified. Each row links to the transcription and the line-by-line comparison. '
         f'What remains: the <a href="burndown.html">burndown list</a> of every “unidentified” record, ranked. '
-        f'Research and review were performed by LLMs; see the <a href="review.html">second-model review</a> for scope and limits. '
+        f'Research and review were performed by LLMs. '
         f'Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>; what the labels mean in <a href="{REPO}/blob/main/CONVENTIONS.md">CONVENTIONS.md</a>.</p>'
         '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Confidence</th><th data-col="4">Last examined</th></tr>'
         + "".join(rows)
