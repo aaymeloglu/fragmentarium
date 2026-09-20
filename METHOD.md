@@ -14,6 +14,20 @@ return 404 and the working endpoint is the ExLibris `service` `@id` inside the c
 fragments resolve to Gallica's IIIF. Read from crops, not from the overview image, and transcribe
 line by line before searching anything.
 
+## Tools
+
+- `python3 tools/iiif.py F-xxxx info | overview DIR | tiles DIR --canvas N --cols 2 --rows 4 | crop DIR x,y,w,h`
+  resolves the working image base (Fragmentarium's own server, ExLibris for Ghent, Gallica for the
+  BnF, sharedcanvas for Bruges) and fetches overviews, a grid of 2x crops, or one region. Tile a leaf
+  first, then read the tiles in order; it replaces the five or six exploratory crops each run used
+  to spend.
+- `GOOGLE_BOOKS_API_KEY=... python3 tools/searchd.py` runs a search service on 127.0.0.1:8790 that
+  answers `/gb?q=`, `/ia?q=` and `/cc?q=&index=p` with JSON, paces Google Books, and caches. Worker
+  sessions query localhost and never handle the key; one process serves any number of them.
+- `python3 tools/ia_cluster.py IDENT "phrase" "phrase" ... --show` downloads a volume's OCR once and
+  reports whether the anchors cluster in one passage (long-s, u/v and ae/e tolerant). A full score
+  is a passage to read; scattered singles across a folio volume are noise.
+
 ## 2. Searches, in this order
 
 1. **Google Books full text.** It covers the early printed editions where most medieval texts
@@ -43,7 +57,16 @@ Identified means consecutive lines match an edition verbatim, with the compariso
 the folder and a link that lets anyone check it. Every identification claimed by an automated run
 was checked again by a person against the fragment image before it went on the index.
 
-## 4. What the results look like
+## 4. Choosing the next fragment
+
+`docs/burndown.html` ranks every record in the corpus list by a rough printability score: Latin,
+a large piece, 13th to 16th century, and a genre keyword that suggests a printed tradition (law,
+gloss, commentary, sermon, postil, lexicon, summa, sentences, breviary, legend, medicine, logic).
+It is a prior, not a prediction: the compilations and indexes that stall are often large Latin
+leaves too. Work down the list; mark each attempt in `data/fragments.json` whatever the outcome,
+so the negatives are recorded.
+
+## 5. What the results look like
 
 Of the first eleven fragments, the six identified were all much-printed works (Nicholas of Lyra
 twice, the Catholicon, Richard of Middleton, Guido de Baysio, Cherubino da Spoleto). The partials

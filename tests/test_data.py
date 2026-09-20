@@ -58,3 +58,19 @@ def test_site_is_up_to_date():
     assert diff.returncode == 0, "docs/ is stale: run python3 docs/_build_site.py and commit"
     for r in DATA:
         assert (ROOT / "docs" / f"{r['id']}.html").exists()
+
+
+def test_burndown_page_lists_corpus_and_marks_done():
+    subprocess.run([sys.executable, str(ROOT / "docs" / "_build_site.py")], check=True, capture_output=True)
+    page = (ROOT / "docs" / "burndown.html").read_text()
+    csv_rows = [ln for ln in sorted((ROOT / "data").glob("unidentified-*.csv"))[-1].read_text().splitlines()[1:] if ln.strip()]
+    assert page.count("<tr>") == len(csv_rows) + 1
+    for r in DATA:
+        assert f'href="{r["id"]}.html"' in page, (r["id"], "worked fragment not marked on burndown")
+    assert 'href="burndown.html"' in (ROOT / "docs" / "index.html").read_text()
+
+
+def test_tools_parse():
+    import ast
+    for p in (ROOT / "tools").glob("*.py"):
+        ast.parse(p.read_text(), filename=str(p))

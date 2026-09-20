@@ -8,7 +8,9 @@ the library's images, find the text in a printed edition or a digital corpus, an
 comparison out so anyone can check it.
 
 The results table with thumbnails is at **https://aaymeloglu.github.io/fragmentarium/**. Each row
-links to a page with the transcription, the line-by-line comparison and the links.
+links to a page with the transcription, the line-by-line comparison and the links. The
+[burndown list](https://aaymeloglu.github.io/fragmentarium/burndown.html) ranks every remaining
+"unidentified" record by how likely a search can settle it.
 
 ## Results so far (20 September 2026)
 
@@ -38,7 +40,10 @@ data/fragments.json            one row per fragment: catalogue data, our result,
 data/unidentified-*.csv        the corpus list, from a sweep of Fragmentarium's search
 fragments/<F-id>/README.md     transcription, comparison table, ruled-out list, open items
 docs/                          the site; python3 docs/_build_site.py regenerates it (stdlib only)
-tools/gbsearch.py              Google Books full-text search by quoted phrases (needs GOOGLE_BOOKS_API_KEY)
+tools/searchd.py               local search service: Google Books, archive.org full text, Corpus Corporum on localhost (holds the key)
+tools/iiif.py                  fetch a fragment's images: info, overview, tiles, crop; resolves each library's IIIF quirks
+tools/ia_cluster.py            do the anchor phrases sit in one passage of an archive.org volume's OCR?
+tools/gbsearch.py              Google Books full-text search from the command line (needs GOOGLE_BOOKS_API_KEY)
 tests/                         data/folder/site consistency; CI fails if docs/ is stale
 ```
 

@@ -143,6 +143,59 @@ def badge(r):
     return f'<span class="badge {r["confidence"]}">{label}{" · " + conf if conf else ""}</span>'
 
 
+GENRE_BOOST = ("law", "decret", "canon", "gloss", "commentar", "sermon", "homil", "postil", "bible", "genesis",
+               "psalm", "epist", "lexic", "etymolog", "vocabul", "grammar", "summa", "sentent", "breviar", "missal",
+               "legend", "saint", "life of", "medic", "physic", "logic", "philosoph", "aristot")
+
+
+def priority(row):
+    """Rough 'was this text ever printed and is there enough of it to read' score, 0-100."""
+    import math
+    cents = [int(c) for c in re.findall(r"(\d+)th", row.get("century", ""))]
+    c = max(cents) if cents else 0
+    area = float(row.get("area_mm2") or 0)
+    s = 0.0
+    s += 35 * (1 if row.get("language") == "Latin" else 0.25)
+    s += 30 * min(1.0, math.log10(max(area, 100)) / 5)          # 1 dm² leaf ≈ 0.8, a strip ≈ 0.55
+    s += 25 * ({13: 0.8, 14: 1.0, 15: 1.0, 16: 0.9}.get(c, 0.5 if c else 0.4))
+    title = (row.get("title", "") + " " + row.get("notes", "")).lower()
+    s += 10 * (1 if any(k in title for k in GENRE_BOOST) else 0)
+    return round(s)
+
+
+def build_burndown(done):
+    import csv
+    src = sorted((ROOT / "data").glob("unidentified-*.csv"))[-1]
+    rows = list(csv.DictReader(src.open()))
+    for r in rows:
+        r["priority"] = priority(r)
+    rows.sort(key=lambda r: (-r["priority"], r["fragmentarium_id"]))
+    n_done = sum(1 for r in rows if r["fragmentarium_id"] in done)
+    trs = []
+    for r in rows:
+        fid = r["fragmentarium_id"]
+        d = done.get(fid)
+        if d:
+            st = badge(d) + f' <a href="{fid}.html">page</a>'
+        else:
+            st = '<span class="badge none" style="opacity:.5">open</span>'
+        trs.append("<tr>"
+                   f'<td><a href="{r["url"]}">{fid}</a></td>'
+                   f'<td>{html.escape(r["shelfmark"])}<br><span class="where">{html.escape(r["title"][:110])}</span></td>'
+                   f'<td>{html.escape(r["century"])}</td><td>{html.escape(r["language"])}</td>'
+                   f'<td>{html.escape(r["dimensions_mm"][:24])}</td><td>{r["priority"]}</td><td>{st}</td></tr>')
+    body = ("<h1>Burndown</h1>"
+            f'<p class="lede">All {len(rows)} Fragmentarium records whose title or summary says “unidentified” (sweep of '
+            f'{src.name[13:23]}), ranked by a rough priority: Latin, large, 13th to 16th century, and a genre that was '
+            f'likely printed score highest, because those are the ones a search can settle. {n_done} worked so far. '
+            f'The list is a floor: records with vague titles that omit the word are not in it yet. '
+            f'<a href="index.html">Back to results</a>.</p>'
+            '<table class="idx"><tr><th>ID</th><th>Fragment · catalogue title</th><th>Century</th><th>Lang.</th><th>Size (mm)</th><th>Priority</th><th>Status</th></tr>'
+            + "".join(trs) + "</table>")
+    (DOCS / "burndown.html").write_text(page("Burndown · Fragmentarium", body))
+    return len(rows), n_done
+
+
 def build():
     data = json.loads((ROOT / "data" / "fragments.json").read_text())
     rows = []
@@ -165,6 +218,7 @@ def build():
         f'“unidentified”, worked one at a time: read from the library’s images, searched against printed editions and digital '
         f'corpora, and accepted only when consecutive lines match an edition verbatim. {len(data)} fragments so far: '
         f'{n_id} identified, {n_p} partial, {n_u} not identified. Each row links to the transcription and the line-by-line comparison. '
+        f'What remains: the <a href="burndown.html">burndown list</a> of every “unidentified” record, ranked. '
         f'Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>; what the labels mean in <a href="{REPO}/blob/main/CONVENTIONS.md">CONVENTIONS.md</a>.</p>'
         '<table class="idx"><tr><th></th><th>Fragment</th><th>Our identification</th><th>Confidence</th></tr>'
         + "".join(rows)
@@ -181,6 +235,7 @@ def build():
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
         (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<article>" + md_to_html(md) + "</article>", crumbs))
+    build_burndown({r["id"]: r for r in data})
     (DOCS / ".nojekyll").write_text("")
     return data
 
