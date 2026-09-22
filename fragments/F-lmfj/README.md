@@ -1,18 +1,16 @@
 # F-lmfj — Oudenaarde, Stadsarchief, Handschriften en Zeldzame Drukken, nr. 20-5 c
 
-**Source-assisted re-adjudication, 22 September 2026.**
-
 - **Identification:** **Identified / high confidence** as Hippocrates, *De regimine acutorum*, with Galen's commentary in the medieval Latin Articella form. Sustained wording in both the large-script lemma and the small-script commentary corresponds to the [1491 Articella, image n181](https://archive.org/details/101321207.nlm.nih.gov/page/n181/mode/1up). A clause transposition and several wording differences prevent describing the correspondence as verbatim.
-- **Transcription:** selected recto passages below were re-read by a Codex subagent against manuscript images after exposure to the previous report and edition. This is source-assisted work; the [frozen image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-lmfj/readings/review-2026-09-22-image-only.json) remains unchanged. The [assisted reading and its provenance](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-lmfj/readings/review-2026-09-22-assisted.json) preserve physical lines, uncertain expansions, gaps, and interlinear additions. No transcription accuracy rate or human palaeographic review is claimed.
-- **Verification:** actual manuscript images and the actual 1491 printed page were compared for the lemma spanning r.a24–r.b4, the commentary beginning *Plurimum autem* at r.b5, the preceding bodily-labour discussion at r.a15–18, and the *Iam aggregavit* passage at r.b16–18. Full views of both sides were inspected, but the worn verso and the complete leaf were not collated. The former claims about precise Book II endpoints, 1519 lemma numbers, and a particular translation layer are not established by these checks.
+- **Transcription:** selected recto passages below were read by a Codex model against manuscript images with candidate transcription material and the edition available. This is source-assisted work; the [frozen image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-lmfj/readings/review-2026-09-22-image-only.json) is preserved separately. The [assisted reading and its provenance](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-lmfj/readings/review-2026-09-22-assisted.json) preserve physical lines, uncertain expansions, gaps, and interlinear additions. No transcription accuracy rate or human palaeographic review is claimed.
+- **Verification:** actual manuscript images and the actual 1491 printed page were compared for the lemma spanning r.a24–r.b4, the commentary beginning *Plurimum autem* at r.b5, the preceding bodily-labour discussion at r.a15–18, and the *Iam aggregavit* passage at r.b16–18. Full views of both sides were inspected, but the worn verso and the complete leaf were not collated. Exact section endpoints, numbering in the 1519 edition, and a particular translation layer are not established by these checks.
 
 ## Manuscript and reading scope
 
-[Fragmentarium record and images](https://fragmentarium.ms/overview/F-lmfj); [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-lmfj/manifest.json). Canvas 0 is fol. [5]r and canvas 1 fol. [5]v. The inherited catalogue description calls this an unidentified medical text with gloss, dated 1351–1400, in Northern Textualis, possibly English: one bound parchment leaf, 292 × 206 mm. These dating and origin statements are catalogue information, not fresh conclusions from this review.
+[Fragmentarium record and images](https://fragmentarium.ms/overview/F-lmfj); [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-lmfj/manifest.json). Canvas 0 is fol. [5]r and canvas 1 fol. [5]v. The catalogue description calls this an unidentified medical text with gloss, dated 1351–1400, in Northern Textualis, possibly English: one bound parchment leaf, 292 × 206 mm. These dating and origin statements are catalogue information, not independently established here.
 
 The leaf has two columns. A large script for the Hippocratic lemma alternates with smaller commentary in the same column. The recto running title reads REG / ACUT. This layout, title, and the two independently compared text layers support describing it as a lemma-and-commentary witness. The verso is soiled; viewing it does not establish a complete reading of its obscured text.
 
-The selected excerpts use the earlier physical column numbering: the short note at r.a20 is counted separately before the large lemma begins at r.a21. Parentheses contain proposed abbreviation expansions, `[?]` marks a doubtful reading, `[...]` unread text, and `{above: ...}` an interlinear addition. Ordinary u/v forms are used; these are expanded readings, not facsimiles of every abbreviation sign. Line breaks and column transitions are retained.
+The selected excerpts use physical column numbering: the short note at r.a20 is counted separately before the large lemma begins at r.a21. Parentheses contain proposed abbreviation expansions, `[?]` marks a doubtful reading, `[...]` unread text, and `{above: ...}` an interlinear addition. Ordinary u/v forms are used; these are expanded readings, not facsimiles of every abbreviation sign. Line breaks and column transitions are retained.
 
 ## Image-checked assisted excerpts
 
@@ -30,7 +28,7 @@ r.b03 signe[?]. [...] appareat a loco q(ui) s(u)b
 r.b04 diafragmate est. sicut dictur(us) sum.
 ```
 
-The `in` belonging to *intestinis* is written at the end of r.a28. It should not be supplied as missing text at r.b1. The enlarged image and column context correct the frozen narrow crop's tentative *tellectus*, *liquam*, and other misreadings. The manuscript clearly has *sui* at r.b2, retained here even though the print has *cibi*. At r.b3 the abbreviated word after *quoque* and the following corrected construction remain unresolved; a tiny interlinear addition, possibly *ad*, is visible. The print's *significationem* is not silently substituted.
+The `in` belonging to *intestinis* is written at the end of r.a28. It should not be supplied as missing text at r.b1. The manuscript clearly has *sui* at r.b2, retained here even though the print has *cibi*. At r.b3 the abbreviated word after *quoque* and the following corrected construction remain unresolved; a tiny interlinear addition, possibly *ad*, is visible. The print's *significationem* is not silently substituted.
 
 Small-script commentary immediately following the lemma, upper right recto:
 
@@ -58,7 +56,7 @@ r.b17 mo(n)e in su(m)ma una. (et) p(re)cepit in eo c(uius) disp(ositi)o
 r.b18 est disp(ositi)o una. ut no(n) mutet regi(men) suu(m).
 ```
 
-The first passage, before the lemma, follows the print's sequence from tranquillity of the stomach through bodily labour, generated humours, and their harmful weight. At r.a16 an interlinear abbreviation is visible; the intervening baseline words are left unresolved rather than repeating the former report's doubtful *comedit* or inserting the print's *comedere consuevit*. The second passage identifies Hippocrates explicitly and summarizes his instructions about maintaining or changing a regimen. These are additional assisted checks, not independent blind readings.
+The first passage, before the lemma, follows the print's sequence from tranquillity of the stomach through bodily labour, generated humours, and their harmful weight. At r.a16 an interlinear abbreviation is visible; the reading around *comedit* remains doubtful, and the print's *comedere consuevit* is not supplied in the manuscript gap. The second passage identifies Hippocrates explicitly and summarizes his instructions about maintaining or changing a regimen. These are additional assisted checks, not independent blind readings.
 
 ## Edition comparison and differences
 
@@ -76,8 +74,8 @@ These agreements establish the work and commentary identification despite local 
 
 ## Actual limits and remaining work
 
-This review used original-detail display of the recto and verso full images, upper and lower right recto crops, an upper left verso crop, two recto-left tiles, and the actual 1491 edition image. Cached 1491 and 1519 OCR were searched, but the inherited character offsets did not recover reliable diagnostic passages. No 1519 page was collated in this review, and no conclusion depends on an OCR no-hit. The Fragmentarium overview and the 1519 item page did not load through the web tool; the cached manuscript images were available.
+The image comparison used original-detail display of the recto and verso full images, upper and lower right recto crops, an upper left verso crop, two recto-left tiles, and the actual 1491 edition image. Cached 1491 and 1519 OCR were searched, without recovering reliable diagnostic passages. No 1519 page was collated, and no conclusion depends on an OCR no-hit. The Fragmentarium overview and the 1519 item page did not load through the web tool; the cached manuscript images were available.
 
-The old full-leaf transcription is superseded as the current report by these selected, explicitly assisted excerpts; it remains in repository history. The frozen first reading is preserved separately. Completing the verso, settling the corrections at r.a16 and r.b3, and assigning exact section endpoints require further manuscript and edition comparison. The previous assertions of a full line-by-line match, a precise Arabic-Latin translator layer, exhaustive exclusions of named university commentators, and the contents of the following leaf are not retained.
+Completing the verso, settling the corrections at r.a16 and r.b3, and assigning exact section endpoints require further manuscript and edition comparison. No precise Arabic-Latin translation layer, exhaustive exclusion of other commentators, or contents of a following leaf is established.
 
 A catalogue update can securely replace “unidentified medical text with gloss” with “Hippocrates, *De regimine acutorum*, with Galen's commentary, in the medieval Latin Articella form,” citing the checked 1491 image and recording the selected scope of verification.

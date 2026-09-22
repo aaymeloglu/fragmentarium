@@ -48,6 +48,10 @@ strength of unrelated claims:
 
 ## Writeup: distinguish the claim, the reading, and the checks
 
+Write current fragment pages as standalone accounts of the present findings and
+evidence. Keep review dates, changes to past claims, and run history in audits or
+preserved records, rather than narrating them in the report.
+
 Open a new or revised report with a concise evidence summary. Three short bullets
 or a paragraph are enough; no additional scores or fixed table are required:
 

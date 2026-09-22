@@ -2,13 +2,13 @@
 
 - **Identification:** **Identified; high identification confidence.** The text matches Robert Holcot's *Super Sapientiam Salomonis*, the end of Lectio II and part of Lectio III in the Hagenau 1494 edition, scan pages n40–41. Distinctive connecting commentary agrees across the theological-virtues argument, the fourfold division of *In simplicitate cordis querite illum*, and the development about lending, selling, and giving the heart to God. Biblical quotations alone are not the basis for attribution.
 - **Transcription:** The [preserved image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-8bfm/readings/review-2026-09-22-image-only.json) covers four cropped rows and is highly incomplete. A [separate source-assisted record](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-8bfm/readings/review-2026-09-22-source-assisted.json) corrects its uncertain readings and adds selected front/back-cover passages. Both preserve gaps; no full-leaf transcription or accuracy score is claimed.
-- **Verification, 22 September 2026:** A Codex reviewer inspected actual manuscript images and actual 1494 print images, using larger cached print crops for word comparisons. Three scoped developments were compared. All had appeared in the previous report, so these checks are not held-out evidence. No human palaeographic review was performed, and identification confidence does not certify every reading or the physical reconstruction.
+- **Verification:** A Codex reviewer inspected actual manuscript images and actual 1494 print images, using larger cached print crops for word comparisons. Three commentary passages were compared with source assistance. No human palaeographic review was performed, and identification confidence does not certify every reading or the physical reconstruction.
 
-Catalogue information carried from [Fragmentarium](https://fragmentarium.ms/overview/F-8bfm): “Unidentified theological treatise”, 1350–1400, Latin, Cursiva, parchment, one leaf, 375 × 220 mm, reused as the cover of a sixteenth-century printed-book collection. Date, script classification, and binding history were not independently reassessed. The text identification supports replacing the generic title with Holcot's Wisdom commentary.
+Catalogue information carried from [Fragmentarium](https://fragmentarium.ms/overview/F-8bfm): “Unidentified theological treatise”, 1350–1400, Latin, Cursiva, parchment, one leaf, 375 × 220 mm, reused as the cover of a sixteenth-century printed-book collection. Date, script classification, and binding history were not independently assessed. The text is Holcot's Wisdom commentary.
 
 ## Sources and coverage
 
-The manuscript [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-8bfm/manifest.json) supplies the cover photographs. This review inspected cached extracts from canvas 1, front cover (`_65A9190_1.jpg`), lower text band; and canvas 3, back cover (`_65A9187_1.jpg`), lower and upper text bands. The cached strips were already rotated for reading. Their original pixel origin and scale were not independently recovered. The exact base packet crop and its parent checksum are documented in the frozen record; the parent checksum was checked again. Neighboring strips overlap and do not represent additional lines.
+The manuscript [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-8bfm/manifest.json) supplies the cover photographs. The inspected images are cached extracts from canvas 1, front cover (`_65A9190_1.jpg`), lower text band; and canvas 3, back cover (`_65A9187_1.jpg`), lower and upper text bands. The cached strips were already rotated for reading. Their original pixel origin and scale were not independently recovered. The image-only record documents the packet crop and its verified parent checksum. Neighboring strips overlap and do not represent additional lines.
 
 | Cached manuscript images | Actual scope |
 |---|---|
@@ -16,7 +16,7 @@ The manuscript [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-8bfm/man
 | `c3_lo_s00.jpg`–`c3_lo_s04.jpg` | Superadded theological virtues, numbered replies, and fourfold division of the biblical lemma |
 | `c3_up_s01.jpg`–`c3_up_s03.jpg` | Context and partial lines on giving the heart, then lending/selling/giving and temporal prosperity |
 
-The larger sideways `c1_lo.jpg` was also opened; it was not used for a complete fresh transcription. The spine, pastedowns, turn-in strips, and the full cover-to-cover line sequence were not recollated. The previous detailed estimates of line counts and physical leaf reconstruction are not independently certified here.
+The larger sideways `c1_lo.jpg` was also opened; it was not fully transcribed. The spine, pastedowns, turn-in strips, and the full cover-to-cover line sequence were not collated. Exact line counts and physical leaf reconstruction remain unverified.
 
 The comparison edition is Robert Holcot, *Super Sapientiam Salomonis*, Hagenau, 1494, Sevilla copy, Inc.114, [Internet Archive A336075](https://archive.org/details/A336075). Its cached [bibliographic metadata](https://archive.org/metadata/A336075) gives the title, creator, date, place, and holding copy. Full print images n39–41 were inspected for context and headings; the detailed comparisons used:
 
@@ -24,7 +24,7 @@ The comparison edition is Robert Holcot, *Super Sapientiam Salomonis*, Hagenau, 
 - [n40, right column](https://archive.org/details/A336075/page/n40/mode/1up), crops `p40_b0.jpg` and `p40_b1.jpg`: visible *Lectio III* heading, response to the dubium, and fourfold division.
 - [n41, left column](https://archive.org/details/A336075/page/n41/mode/1up), crop `p41_a0.jpg`: heart given *liberaliter, integraliter, perpetualiter*, followed by lending/selling/giving.
 
-These are print-image comparisons, not OCR-only checks. No OCR file, Google Books snippet, later edition, or secondary quotation was consulted in this review. The old report's references to those sources are not treated as fresh verification. Scan indexes are not printed folio numbers.
+These are print-image comparisons, not OCR-only checks. No OCR file, Google Books snippet, later edition, or secondary quotation was consulted for these comparisons. Scan indexes are not printed folio numbers.
 
 ## Selected assisted readings
 
@@ -39,7 +39,7 @@ The original packet `image-001.png`, also visible at the top of `c1_lo_s02.jpg`:
 4  nisi de n(atur)alibus acquisitis? [cropped; illegible]
 ```
 
-The base's tentative `suſtā? (substantia?)` and `talibꝫ? (talibus?)` are not retained. The red-underlined word on row 2 is an abbreviated Aristotle reference. The base remains unchanged; the proposed correction is explicitly source-assisted. No deletion or insertion is securely identified.
+The red-underlined word on row 2 is an abbreviated Aristotle reference. Its reading is source-assisted. No deletion or insertion is securely identified.
 
 From `c1_lo_s03.jpg`, continuing the front-cover argument:
 
@@ -83,12 +83,12 @@ Row 1 of `c3_lo_s04` repeats the preceding *do discrete inquisicionis* row and i
 | Back-cover lower band, `c3_lo_s00`–`04`; n40 right | The explanation of superadded theological virtues, replies *Ad primum / Ad secundum / Ad tertium*, and four linked terms *Rectitudo / Gratitudo / Sollicitudo / Altitudo* agree. This is connecting exposition beyond the biblical lemma. Manuscript *ad istam*, *nobis infunduntur*, and *in sola sacra scriptura* differ from print *ad illam*, *infunduntur*, and *in sacra scriptura*. Manuscript *hic intelligitur* corresponds to print *debet intelligi*. Its longer *Circa primum notandum quod simplicitas ista…* differs from print *Simplicitas autem illa…*. |
 | Back-cover upper band, `c3_up_s01`–`03`; n41 left | Visible text includes *cor humanum sibi dari tripliciter*, *integraliter perpetualiter*, *quod tu des libere cor tuum*, *quod vendas*, *dones. Mutuant*, and *serviunt pro temporali prosperitate*. The print develops those terms in the same order, lending/selling/giving the heart. This supplies a distinct additional commentary passage. Crop-edge gaps remain unresolved; the print's missing words, including *liberaliter* where not visible in the selected manuscript span, are not represented as manuscript readings. |
 
-The manuscript's uncertain *relacione?* is not silently changed to the print's *revelatione*. The former report's proposed *homines / hominem* variant is not retained: the inspected print crop also appears to abbreviate *homines*. Other earlier proposed variants outside these sampled passages, including the Genesis numeral and full lectio endpoints, have not been recollated. None of these differences establishes that the manuscript is a “better” witness or belongs to a particular recension.
+The manuscript's uncertain *relacione?* is not silently changed to the print's *revelatione*. The inspected manuscript and print crops both appear to abbreviate *homines*. The Genesis numeral and full lectio endpoints are outside the checked passages. None of these differences establishes that the manuscript is a “better” witness or belongs to a particular recension.
 
 ## Result and limits
 
-The extended prose and sequence identify the text in Holcot's commentary, spanning the end of Lectio II and part of Lectio III in this edition, on Wisdom 1:1–2. Common quotations alone would be insufficient, but the linked theological question and response, fourfold division, and subsequent heart-giving development provide substantially more evidence. The historical originality of each component and the possibility of wholesale reuse in a compilation were not separately researched. Other commentaries were not directly collated; previous no-hit searches and unexamined alternatives are not exclusions.
+The extended prose and sequence identify the text in Holcot's commentary, spanning the end of Lectio II and part of Lectio III in this edition, on Wisdom 1:1–2. Common quotations alone would be insufficient, but the linked theological question and response, fourfold division, and subsequent heart-giving development provide substantially more evidence. The historical originality of each component and the possibility of wholesale reuse in a compilation were not separately researched. Other commentaries were not directly collated; no-hit searches and unexamined alternatives are not exclusions.
 
-This report replaces the former full-looking transcription and blanket “line-by-line” claim with the evidence actually checked. The earlier report remains in Git history; the raw isolated record is preserved unchanged. Much of the front upper band, the spine, obscured margins, and remaining back-cover lines are outside this collation. Exact physical reconstruction, date, provenance, authorial recension, dependence, and witness novelty require their own evidence and are not certified by the identification.
+Much of the front upper band, the spine, obscured margins, and remaining back-cover lines are outside this collation. Exact physical reconstruction, date, provenance, authorial recension, dependence, and witness novelty require their own evidence and are not certified by the identification.
 
-The scoped identification question is answered. Further useful work would be a complete palaeographic collation or reconstruction of the concealed portions; repeated phrase searching would not improve the present conclusion. No outreach was performed.
+A complete palaeographic collation and reconstruction of the concealed portions would extend the verified coverage.

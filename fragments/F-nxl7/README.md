@@ -1,12 +1,10 @@
 # F-nxl7 — anonymous questions on natural heat, moisture and longevity
 
-Re-adjudicated 22 September 2026.
-
 - **Identification: partial, low confidence.** The inspected question and response support the Parva naturalia tradition, with references to life, death and longevity. No author or exact compiling work is identified. A shared natural-philosophical maxim is not an author-specific anchor.
-- **Transcription: selected assisted image readings.** The isolated upper-left crop produced almost no continuous text. The coordinator instead inspected several legible question/response and cross-reference bands, with the legacy report available. They remain selected uncertain readings, not a complete transcription.
+- **Transcription: selected assisted image readings.** The isolated upper-left crop produced almost no continuous text. The coordinator instead inspected several legible question/response and cross-reference bands, with candidate identifications and transcriptions available. They remain selected uncertain readings, not a complete transcription.
 - **Verification: manuscript images and a bounded comparison with printed-text OCR.** The Buridan/Lokert OCR contains related doctrine and examples but did not yield a sustained match to the inspected sequence. No printed page image was checked for that comparison. Other author leads remain untested.
 
-[Catalogue](https://fragmentarium.ms/overview/F-nxl7): Brugge, Openbare Bibliotheek, Ms.466, upper flyleaves; bifolium catalogued as 1301–1350, Gothic cursiva. [Manifest](https://fragmentarium.ms/metadata/iiif/F-nxl7/manifest.json). The fresh packet reused a shortened cached upper-left crop of canvas1. Additional cached crops retain native-region labels, specified below; their legacy scaling was not newly established. No new enhancement was applied.
+[Catalogue](https://fragmentarium.ms/overview/F-nxl7): Brugge, Openbare Bibliotheek, Ms.466, upper flyleaves; bifolium catalogued as 1301–1350, Gothic cursiva. [Manifest](https://fragmentarium.ms/metadata/iiif/F-nxl7/manifest.json). The image-only packet contains a shortened cached upper-left crop of canvas 1. Additional cached crops retain native-region labels, specified below; their scaling has not been independently established. No additional enhancement was applied.
 
 ## Reading a useful question and its response
 
@@ -30,12 +28,12 @@ An additional canvas1 column-b crop1770,900,1108,720 includes *in libro de morte
 
 The [Lokert collection containing Buridan's questions, Paris1518, IA ARes25204](https://archive.org/details/ARes25204), OCR near the question whether natural heat can corrupt itself, has the same Aristotelian opposition *marcedo/extinctio* and candle/wood examples. It then enumerates five doubts, beginning with whether a thing can corrupt itself and whether things sharing a subject can corrupt one another. That is not a demonstrated match to the selected question/response above. The available OCR is corrupt, so absence of a phrase cannot exclude another reading, recension or related compilation.
 
-There is also a bibliographical correction to the old search account: the relevant OCR pages around the self-corruption discussion carry the running heading *De iuventute et senectute*. The old description treating the entire searched range as *De longitudine* was too broad. Exact foliation and edition layout were not newly checked on images.
+The OCR pages around the self-corruption discussion carry the running heading *De iuventute et senectute*. Exact foliation and edition layout have not been checked on images.
 
-Searches on22September2026 for *vita stat per calidum et humidum* with *pabulum*, *utrum magis vivant* with *temperata*, and the inherited *tres gradus calidi* with *humidi* did not identify this sequence. The arithmetic passage was not fully reread in this pass; its query is expressly inherited evidence. Generic heat/moisture parallels do not identify Buridan, Jandun, Burley, or another commentator.
+Searches for *vita stat per calidum et humidum* with *pabulum*, *utrum magis vivant* with *temperata*, and *tres gradus calidi* with *humidi* did not identify this sequence. The arithmetic passage underlying the last query has not been fully checked against the image. Generic heat/moisture parallels do not identify Buridan, Jandun, Burley, or another commentator.
 
 ## Result
 
-Retain a subject/genre refinement only: anonymous scholastic questions in the Parva naturalia tradition. Exact authorship and the base work remain unresolved. The earlier broad exclusions based on format or no-hits, detailed degrees/years reconstruction, continuous leaf order and central-bifolium claim are not newly established. The saved before version retains those earlier readings and proposals. A useful next comparison must match the question, its connecting argument and response over a sustained span, preferably on actual witness images. No specialist reviewed these new readings and no accuracy rate was measured.
+The fragment contains anonymous scholastic questions in the Parva naturalia tradition. Exact authorship and the base work remain unresolved. Format and no-hit searches do not exclude other commentators. The detailed degrees/years reconstruction, continuous leaf order and central-bifolium hypothesis are unverified. A useful next comparison must match the question, its connecting argument and response over a sustained span, preferably on actual witness images. No specialist reviewed these readings and no accuracy rate was measured.
 
-[Preserved source-assisted review](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-nxl7/readings/review-2026-09-22-assisted.json). The initial record above remains unchanged.
+[Preserved source-assisted review](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-nxl7/readings/review-2026-09-22-assisted.json).

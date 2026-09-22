@@ -31,7 +31,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Nicholas of Lyra, Tractatus de differentia nostrae translationis ab hebraica littera, Genesis section",
-  "note": "Active/passive generation argument and Genesis 3 transition checked against manuscript and Rouen 1507 print images n15–16; full endpoints not recollated.",
+  "note": "Active/passive generation argument and Genesis 3 transition agree with the Rouen 1507 print images n15–16; complete endpoints remain unverified.",
   "verify": "https://archive.org/details/OEXV848RES/page/n15/mode/1up",
   "examined": "2026-09-22"
  },
@@ -67,7 +67,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Nicholas of Lyra, Postilla litteralis super Epistolam ad Hebraeos, chapter 5",
-  "note": "Pontifical-office explanation and additional office-seeking warning match the 1603 print, cols.841–842. Local wording variants retained; full endpoints unchecked.",
+  "note": "Pontifical-office explanation and office-seeking warning match the 1603 print, cols.841–842, with local wording differences. Complete endpoints remain unverified.",
   "verify": "https://archive.org/details/bibliorumsacroru06strauoft/page/n426/mode/1up",
   "examined": "2026-09-22"
  },
@@ -85,7 +85,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Richard of Middleton, Quaestio disputata de gradu formarum; leprous-parent and asses arguments",
-  "note": "Pilot manuscript-to-published-excerpt comparisons retained, including cancellation and manuscript/print differences. Shorter fresh crop did not improve recognition; full collation and novelty unresolved.",
+  "note": "Leprous-parent and asses arguments match the published excerpts in Hocedez, with manuscript/print differences and an uncertain cancellation. Full collation and witness novelty remain unresolved.",
   "verify": "https://archive.org/details/richarddemiddlet0000edga/page/n405/mode/1up",
   "examined": "2026-09-22"
  },
@@ -103,7 +103,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Guido de Baysio, Rosarium super Decreto, C.10 q.1 c.13",
-  "note": "Connected manuscript passage matches the 1481 print image0415 (206a). Additional faded passage is inconclusive; broader c.14/q.2 span not certified.",
+  "note": "Connected manuscript passage matches the 1481 print, image 0415 (206a). Faded material leaves the broader c.14/q.2 span unverified.",
   "verify": "https://dl.ub.uni-freiburg.de/diglit/guidobaysio1481/0415",
   "examined": "2026-09-22"
  },
@@ -139,7 +139,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Anonymous compilation adapting Aquinas, Summa theologiae IIa-IIae q.10 a.12 and q.11 a.1",
-  "note": "Manuscript law and heresy passages compared with Corpus Thomisticum text; condensation and added legal citations retained. Catalogue q.10 a.11 locus not newly collated.",
+  "note": "Natural-justice and heresy passages parallel Aquinas, with condensation and added legal references. The catalogue’s q.10 a.11 locus is outside the checked sample.",
   "verify": "https://www.corpusthomisticum.org/sth3001.html",
   "examined": "2026-09-22"
  },
@@ -157,7 +157,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Alphabetical compilation of moral authorities, with Moralium dogma philosophorum and patristic source parallels",
-  "note": "Connected Modestia passage and patristic quotations checked; Ambrose citation corrected. Shared Manipulus quotation does not identify compiler; partial/medium applies to source connections.",
+  "note": "Connected Modestia passage and patristic quotations support source connections. Shared quotations, including one in the Manipulus florum, do not identify the compiler.",
   "verify": "https://fragmentarium.ms/overview/F-ahiy",
   "examined": "2026-09-22"
  },
@@ -193,7 +193,7 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "Unidentified Latin didactic poem on sacramental themes, with an apparent dieta transition",
-  "note": "Selected manuscript passages re-read; no sustained source match located. Previously labelled Summula OCR is a manuscript catalogue, so Adam of Aldersbach was not collated.",
+  "note": "Selected sacramental and dieta passages are readable, but no sustained source match is established. Adam of Aldersbach’s Summula remains an untested candidate.",
   "verify": "https://fragmentarium.ms/overview/F-8bin",
   "examined": "2026-09-22"
  },
@@ -265,7 +265,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Anonymous procedural text with a close Durantis, Speculum iudiciale II.3, De appellationibus parallel",
-  "note": "Pilot checks retained: n.14 shares a case with different wording; n.15 continuation differs. Exact work and recension unresolved; CATMuS segmentation failed on tested crop.",
+  "note": "Durantis II.3 n.14 shares a case with different wording; the n.15 continuation differs. Exact work and recension remain unresolved.",
   "verify": "https://archive.org/details/DurantisSpeculumIudicialeLyon1578ParsSecunda264H",
   "examined": "2026-09-22"
  },
@@ -283,7 +283,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Medical compilation on sleep, with Hippocratic and other source layers; compiler unidentified",
-  "note": "Albert the Great narrative parallel and Hippocratic aphorisms compared; different Latin wording retained. Arnoldus Saxo witness not collated; presumed article PDFs were access-block pages.",
+  "note": "Albert the Great’s sleep narrative and Hippocratic aphorisms supply parallels, with different Latin wording. The proposed Arnoldus Saxo witness remains uncollated.",
   "verify": "https://fragmentarium.ms/overview/F-szxp",
   "examined": "2026-09-22"
  },
@@ -301,7 +301,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Commentary around Hippocrates, Aphorisms VII.54–59, plus a medical chapter table; compiling work unresolved",
-  "note": "Selected aphorisms compared with Articella OCR. Old alleged Galen exclusion used a second lemma translation, not a sufficient commentary check. Exact table text and translator unresolved.",
+  "note": "Selected aphorisms agree with Articella OCR. The surrounding commentary, exact chapter-table text and translator remain unresolved; Galen is not excluded.",
   "verify": "https://archive.org/details/articellanuperri00gaze",
   "examined": "2026-09-22"
  },
@@ -319,7 +319,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Anonymous Metaphysics questions with sustained Aquinas, Sententia libri Metaphysicae VII lect.4 nn.3–4 parallels",
-  "note": "Man/whiteness and proportional-participation passages checked against digital Latin; question apparatus remains distinct. Versor digitization located but not textually collated.",
+  "note": "Man/whiteness and proportional-participation passages parallel Aquinas’s digital Latin text; the question apparatus is distinct. A digitized Versor witness remains uncollated.",
   "verify": "https://www.corpusthomisticum.org/cmp07.html",
   "examined": "2026-09-22"
  },
@@ -337,7 +337,7 @@
   "status": "partial",
   "confidence": "low",
   "identification": "Anonymous questions on longevity, natural heat and moisture in the Parva naturalia tradition",
-  "note": "Several manuscript question passages inspected; related Buridan OCR differs. Its section heading corrects an overbroad earlier locus. Exact base text and author unresolved.",
+  "note": "Questions concern natural heat, moisture and longevity. Related Buridan passages differ; exact base text and author remain unresolved.",
   "verify": "https://fragmentarium.ms/overview/F-nxl7",
   "examined": "2026-09-22"
  },
@@ -391,7 +391,7 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "Unidentified, heavily worn text; a scholastic lemma-and-exposition commentary is plausible",
-  "note": "Fresh isolated reading and additional image checks remain uncertain; no sustained source match. A probable side-label error is documented without changing the preserved record.",
+  "note": "Abrasion leaves the image readings uncertain; no continuous passage is secure enough to establish a source match.",
   "verify": "https://fragmentarium.ms/overview/F-2a37",
   "examined": "2026-09-22"
  }

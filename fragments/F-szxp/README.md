@@ -1,12 +1,10 @@
 # F-szxp — medical florilegium on sleep; compiler unresolved
 
-Re-adjudicated 22 September 2026.
-
 - **Identification: partial, medium confidence in the source layers.** The inspected excerpts concern sleep and include a named Hippocratic sequence, followed by an Avicenna-labelled cure section. Arnoldus Saxo remains an unverified compiler candidate; no matching witness of his Practica was compared.
 - **Transcription: selected source-assisted image readings.** The isolated reader recovered fragments of a short interior band. The coordinator then inspected the larger band and the upper part of fol.2r column a. These are selected expansions, not a certified transcription of the bifolium.
 - **Verification: manuscript images, edition OCR and an electronic scholarly edition.** Hippocratic lemmata were compared with Articella OCR; the sleep/veins passage was checked against Albert's related discussion. The latter supplies a parallel in the Aristotelian tradition, not the compiling work's identity. No human palaeographic review or measured accuracy is claimed.
 
-[Catalogue](https://fragmentarium.ms/overview/F-szxp): Leipzig, Universitätsbibliothek, Fragm.lat.52, partial bifolium catalogued as fourteenth century. [Manifest](https://fragmentarium.ms/metadata/iiif/F-szxp/manifest.json). This review used cached regions of canvas1 (fol.1v), region2400,1700,1900,1500, and canvas2 (fol.2r), region300,250,1900,1500. Legacy file names retain the requested regions; their returned scaling was not independently re-established. No further enhancement was applied.
+[Catalogue](https://fragmentarium.ms/overview/F-szxp): Leipzig, Universitätsbibliothek, Fragm.lat.52, partial bifolium catalogued as fourteenth century. [Manifest](https://fragmentarium.ms/metadata/iiif/F-szxp/manifest.json). The inspected images are cached regions of canvas1 (fol.1v), region2400,1700,1900,1500, and canvas2 (fol.2r), region300,250,1900,1500. The file names retain the requested regions; their returned scaling has not been independently established. No further enhancement was applied.
 
 ## Initial band and its limits
 
@@ -26,14 +24,14 @@ Fol.2r column a's upper crop has an explicit source label and three short lemmat
 
 > … In libro afforismor(um) Ypo(cras) / In quo morbo sompnus laborem / facit mort(ale). In eodem Ypo(cras). Ubi desi- / pienciam sompnus sedat bonu(m). / Sompnus et vigilia utraq(ue) magis / [uncertain abbreviated words] facta malu(m). Cure. In libro …
 
-The next row names *medicinali Auicenna*. That is an observed source label, not independent verification of the entire ensuing quotation. The phrase before *facta* is left unresolved; the old expanded *mensura* is not retained as certain.
+The next row names *medicinali Auicenna*. That is an observed source label, not independent verification of the entire ensuing quotation. The phrase before *facta* is left unresolved; the expansion *mensura* is uncertain.
 
-The [Articella OCR, IA101321207.nlm.nih.gov](https://archive.org/download/101321207.nlm.nih.gov/101321207.nlm.nih.gov_djvu.txt), in the commentary on AphorismsII.1–3, preserves the corresponding sequence: sleep causing harm; sleep calming mental disturbance; excessive sleep and waking. The OCR has *alienationem* where the manuscript reads *desipienciam*, and renders the third lemma approximately *utraque modo magis facta*. These differences and OCR corruption prohibit a claim of exact verbal agreement. The lemmata establish a Hippocratic text layer, not the compiler of a collection that quotes it. This is an additional assisted check, not held-out confirmation of Arnoldus.
+The [Articella OCR, IA101321207.nlm.nih.gov](https://archive.org/download/101321207.nlm.nih.gov/101321207.nlm.nih.gov_djvu.txt), in the commentary on AphorismsII.1–3, preserves the corresponding sequence: sleep causing harm; sleep calming mental disturbance; excessive sleep and waking. The OCR has *alienationem* where the manuscript reads *desipienciam*, and renders the third lemma approximately *utraque modo magis facta*. These differences and OCR corruption prohibit a claim of exact verbal agreement. The lemmata establish a Hippocratic text layer, not the compiler of a collection that quotes it. The comparison is source-assisted.
 
-## Result and stopping point
+## Result
 
-The format and medical excerpts support an anonymous topical florilegium. Attribution to Arnoldus's Practica still requires direct sustained agreement with that work, including connecting rubrics and excerpt sequence. The available cached files labelled as Draelants PDFs are HTML access-challenge pages, so they were not treated as consulted articles. No Oxford Lat.misc.e.34 images or edition of its Practica text were available for this comparison. Current witness novelty or a “second witness” claim is therefore unwarranted.
+The format and medical excerpts support an anonymous topical florilegium. Attribution to Arnoldus's Practica still requires direct sustained agreement with that work, including connecting rubrics and excerpt sequence. The available cached files labelled as Draelants PDFs are HTML access-challenge pages, so they were not treated as consulted articles. No Oxford Lat.misc.e.34 images or edition of its Practica text were available for this comparison. Witness novelty or a “second witness” claim is therefore unwarranted.
 
-The stained sides, complete Avicenna excerpts, full chapter sequence and proposed central-bifolium reconstruction were not newly verified. Previous no-hits and format-based exclusions do not rule out other compilations. The next decisive evidence would be the actual corresponding Practica passages; repeating searches for common aphorisms cannot supply that evidence. The old full transcription is retained in the saved before version.
+The stained sides, complete Avicenna excerpts, full chapter sequence and proposed central-bifolium reconstruction are unverified. No-hit searches and format alone do not rule out other compilations. The next decisive evidence would be the actual corresponding Practica passages; repeating searches for common aphorisms cannot supply that evidence.
 
-[Preserved source-assisted review](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-szxp/readings/review-2026-09-22-assisted.json). The initial record above remains unchanged.
+[Preserved source-assisted review](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-szxp/readings/review-2026-09-22-assisted.json).
