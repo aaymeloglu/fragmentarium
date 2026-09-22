@@ -56,7 +56,7 @@ def page(title, body, crumbs=""):
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><style>{STYLE}</style></head>
-<body><div class="wrap"><p class="crumbs">Complete sets of 22 reports: <a href="runs/before-2026-09-22/index.html">Before re-adjudication</a> · <a href="runs/after-2026-09-22/index.html">After re-adjudication</a>. Both are saved versions.</p>{crumbs}{body}
+<body><div class="wrap"><p class="crumbs">Saved sets of all 22 fragments: <a href="runs/before-2026-09-22/index.html">Before</a> · <a href="runs/after-2026-09-22/index.html">After</a>.</p>{crumbs}{body}
 <p class="credit">Images are served by the holding libraries through IIIF and are not stored in this repository; rights remain with the institutions named on each Fragmentarium record. Source and data: <a href="{REPO}">{REPO}</a>.</p>
 </div></body></html>
 """
@@ -224,7 +224,7 @@ def build():
             f'<br><span class="where"><a href="{r["record"]}">{r["id"]}</a></span></td>'
             f'<td>{html.escape(r["identification"])}<br><span class="where">{html.escape(r["note"])}</span></td>'
             f'<td data-sort="{srank[r["status"]]}{crank[r["confidence"]]}">{badge(r)}</td>'
-            f'<td data-sort="{r["examined"]}">{r["examined"]}</td></tr>'
+            '</tr>'
         )
     n_id = sum(r["status"] == "identified" for r in data)
     n_p = sum(r["status"] == "partial" for r in data)
@@ -239,7 +239,7 @@ def build():
         f'Confidence refers to the identification or proposed source connection; transcription accuracy and verification coverage are separate. '
         f'Research and review were performed by LLMs. '
         f'Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>; what the labels mean in <a href="{REPO}/blob/main/CONVENTIONS.md">CONVENTIONS.md</a>.</p>'
-        '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Identification confidence</th><th data-col="4">Last examined</th></tr>'
+        '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Identification confidence</th></tr>'
         + "".join(rows)
         + "</table>" + SORT_JS
     )
@@ -250,7 +250,7 @@ def build():
         head = (
             f"<h1>{html.escape(r['shelfmark'])} <span style='font-size:.6em;color:var(--muted)'>({r['id']})</span></h1>"
             f'<p class="lede">{html.escape(r["institution"])} · catalogued as {html.escape(r["catalogue_title"])}, {html.escape(r["catalogue_date"])}</p>'
-            f"<p>{badge(r)} <span class='where'>last examined {r['examined']}</span></p><p><b>{html.escape(r['identification'])}</b></p>"
+            f"<p>{badge(r)}</p><p><b>{html.escape(r['identification'])}</b></p>"
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
         (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<article>" + md_to_html(md) + "</article>", crumbs))

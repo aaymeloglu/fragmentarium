@@ -1,12 +1,10 @@
 # F-cfry — Nicholas of Lyra, Postilla on Hebrews 5
 
-Re-adjudicated 22 September 2026.
-
 - **Identification: identified, high confidence.** Nicholas of Lyra, *Postilla litteralis super Epistolam ad Hebraeos*, chapter 5. Connected explanation of the pontifical office agrees with the section explicitly headed *Nicolaus de Lyra* in the print.
-- **Transcription: selected source-assisted readings.** The fresh reader recovered much of the opening sample, with errors and unresolved abbreviations. The coordinator checked selected wording and another passage against manuscript and printed images. No full transcription, human palaeographic review or measured accuracy assessment is claimed.
+- **Transcription: selected source-assisted readings.** A Codex reviewer checked selected wording in two passages against manuscript and printed images. Some abbreviations remain unresolved. No full transcription, human palaeographic review or measured accuracy assessment is claimed.
 - **Verification: manuscript and edition images.** Upper-left and lower-left manuscript crops were compared with the lower Lyra section of edition scan n426, printed columns 841–842. Only the photographed outside of the binding was reviewed; the other catalogue image shows the same side with a colour chart.
 
-[Fragmentarium record](https://fragmentarium.ms/overview/F-cfry) · [manifest](https://fragmentarium.ms/metadata/iiif/F-cfry/manifest.json). Image Cod4070_EB_ganzeAussenseite.jpg. Cached crops were reused without new enhancement; exact original crop coordinates/scale were not recovered. The isolated packet is a shorter lossless selection of the upper-left crop.
+[Fragmentarium record](https://fragmentarium.ms/overview/F-cfry) · [manifest](https://fragmentarium.ms/metadata/iiif/F-cfry/manifest.json). Image Cod4070_EB_ganzeAussenseite.jpg. Cached crops were reused without additional enhancement; exact original crop coordinates/scale were not recovered. The isolated packet is a shorter lossless selection of the upper-left crop.
 
 ## Reading and diagnostic comparison
 
@@ -20,10 +18,10 @@ Slashes preserve represented physical divisions; ellipses omit uncertain or unch
 
 The [1603 edition, scan n426](https://archive.org/details/bibliorumsacroru06strauoft/page/n426/mode/1up), lower section headed *Nicolaus de Lyra*, prints the same progression under Hebrews 5:1. It phrases the preceding accessibility clause *familiariter et faciliter recurrere*, whereas the manuscript appears to have *cum familiaritate et facilitate venire*. This is not a verbatim match throughout.
 
-An additional lower-left manuscript crop has the warning against assuming office through *violencia, prece, precio et simulacione*, followed by Augustine's *Otium sanctum querit caritas*. The same warning and ensuing quotation occur under *Nec quisquam* in the print. That sequence is more diagnostic than the Augustine quotation alone. Binding strips obscure portions of the manuscript; no reconstruction of those portions is certified. This was source-assisted, not held out.
+An additional lower-left manuscript crop has the warning against assuming office through *violencia, prece, precio et simulacione*, followed by Augustine's *Otium sanctum querit caritas*. The same warning and ensuing quotation occur under *Nec quisquam* in the print. That sequence is more diagnostic than the Augustine quotation alone. Binding strips obscure portions of the manuscript; no reconstruction of those portions is certified.
 
 ## Limits
 
-The selected images support work and chapter identification. Full endpoints, every abbreviation and unread portions need their own collation. The old broad transcription remains in the saved before version. Identifying the biblical lemmata alone would not identify the commentator. No new dating, provenance or blanket exclusion claim follows from the sample.
+The selected images support work and chapter identification. Full endpoints, every abbreviation and unread portions need their own collation. Identifying the biblical lemmata alone would not identify the commentator. The sample does not independently establish dating or provenance.
 
-[Preserved source-assisted review](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-cfry/readings/review-2026-09-22-assisted.json). The initial record above remains unchanged.
+[Source-assisted reading and provenance](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-cfry/readings/review-2026-09-22-assisted.json).

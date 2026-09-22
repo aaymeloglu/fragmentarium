@@ -1,18 +1,16 @@
 # F-b8xt — Brugge, Stads- en OCMW-archief, reeks 538, nr. 27
 
-**Source-assisted re-adjudication, 22 September 2026.**
-
 - **Identification:** **Partial / medium confidence.** A Latin question-style discussion of definition and *quod quid erat esse* has a sustained textual connection to Thomas Aquinas, *Sententia libri Metaphysicae* VII, lectio 4, especially nn. 3–4. The compiling work and its author remain unidentified. The connection supports use of Aquinas's exposition, directly or through an intermediary; it does not establish Aquinas as author of the fragment or prove direct borrowing.
-- **Transcription:** the excerpts below were re-read by a Codex subagent after exposure to the previous report and Aquinas's text. They are source-assisted and retain doubtful abbreviations and unread text. The [frozen image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-b8xt/readings/review-2026-09-22-image-only.json) is unchanged; its small crop covers the beginning of recto a, not the diagnostic passage near the foot of recto b. It supplies no independent corroboration of that passage. The [assisted record](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-b8xt/readings/review-2026-09-22-assisted.json) records the expanded coverage and assistance.
+- **Transcription:** the excerpts below were read by a Codex model with candidate transcription material and Aquinas's text available. They are source-assisted and retain doubtful abbreviations and unread text. The [frozen image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-b8xt/readings/review-2026-09-22-image-only.json) covers the beginning of recto a, not the diagnostic passage near the foot of recto b. It supplies no independent corroboration of that passage. The [assisted record](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-b8xt/readings/review-2026-09-22-assisted.json) records the expanded coverage and assistance.
 - **Verification:** selected manuscript images were compared with the [Corpus Thomisticum digital Latin text](https://www.corpusthomisticum.org/cmp07.html), not a printed-page facsimile. The principal comparison covers r.b41–53 and v.a1–2. The third conclusion at the head of verso b was checked separately for its wording and structure. Neither the full leaf nor a competing named commentator has been collated; no human palaeographic review or accuracy rate is claimed.
 
 ## Manuscript and scope
 
-[Fragmentarium record](https://fragmentarium.ms/overview/F-b8xt); [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-b8xt/manifest.json). The inherited catalogue describes an unidentified philosophical text on a fifteenth-century paper leaf, 300 × 216 mm, held at Brugge, Stads- en OCMW-archief, reeks 538: Fragmenten van handschriften, nr. 27. This review does not independently establish its date or place of copying.
+[Fragmentarium record](https://fragmentarium.ms/overview/F-b8xt); [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-b8xt/manifest.json). The catalogue describes an unidentified philosophical text on a fifteenth-century paper leaf, 300 × 216 mm, held at Brugge, Stads- en OCMW-archief, reeks 538: Fragmenten van handschriften, nr. 27. The evidence here does not independently establish its date or place of copying.
 
 The recto full view and selected crops show two columns of heavily abbreviated cursive writing, paragraph divisions, a *Pro declaratione* opening in recto a, a corollary near the foot of recto b, and a numbered third conclusion at the head of verso b. Damage interrupts the middle of the recto columns. Those observations support a structured scholastic discussion; they do not identify a particular university, school, or student reportatio.
 
-Line references continue the earlier report's column numbering. Its last unspecified recto-b continuation is now separated into physical lines 51–53. The enlarged crops overlap: the end of r.b43 and r.b50 appear in adjoining images and are counted only once. Parentheses contain proposed expansions, `[?]` marks uncertain readings, and `[...]` unread text. The heavily abbreviated hand makes even expanded readable clauses provisional. No securely deciphered correction is incorporated into the following excerpts.
+Line references count physical rows within each column. The enlarged crops overlap: the end of r.b43 and r.b50 appear in adjoining images and are counted only once. Parentheses contain proposed expansions, `[?]` marks uncertain readings, and `[...]` unread text. The heavily abbreviated hand makes even expanded readable clauses provisional. No securely deciphered correction is incorporated into the following excerpts.
 
 ## Selected image-checked readings
 
@@ -31,7 +29,7 @@ r.b49 p(otes)t[?] dici s(ubstanti)ale q(uam) s(ubstanti)a; q(uia) cu(m)[?]
 r.b50 o(mn)ia alia p(re)dic(ament)a h(ab)e(n)t r(ati)o(n)e(m) e(nt)is a s(ubstanti)a
 ```
 
-The abbreviation expansions are assisted proposals. In particular, *alicuius* is less secure than the surrounding *color* and *quid*. The wording at r.b49 appears to include *potest dici*; the previous report's supplied *est* should not be treated as an image reading. The full heading of this corollary remains uncertain.
+The abbreviation expansions are assisted proposals. In particular, *alicuius* is less secure than the surrounding *color* and *quid*. The wording at r.b49 appears to include *potest dici*. The full heading of this corollary remains uncertain.
 
 The following physical lines extend the comparison beyond the familiar examples:
 
@@ -55,7 +53,7 @@ v.b04 dicu(n)t aliq(ui)d[?] [...] naturam seu esse(n)tia(m) que
 v.b05 indica(tur) p(er) g(e)n(u)s (et) d(iffe)r(enti)am si(n)e addito ex(tri)nseco
 ```
 
-The two compressed q-signs and the word before *sunt* in v.b1 remain uncertain; the expected technical phrase is not substituted for an unresolved reading. The numbered conclusion, lowest-species claim, and genus/difference language are visible. This was an additional assisted check, not an independent reading and not a newly identified authorial signature.
+The two compressed q-signs and the word before *sunt* in v.b1 remain uncertain; the expected technical phrase is not substituted for an unresolved reading. The numbered conclusion, lowest-species claim, and genus/difference language are visible. This source-assisted reading does not establish an authorial attribution.
 
 ## Source comparison
 
@@ -71,14 +69,14 @@ The checked source is Aquinas, *Sententia libri Metaphysicae* VII, lectio 4, nn.
 
 The combined sequence supports a close textual relationship to Aquinas's exposition. Aristotle's definition examples, the vocabulary of essence, and the snub-nose example would not independently identify Aquinas: they circulate widely. Even sustained agreement does not reveal whether this compiler consulted Aquinas directly or copied a later text already using him.
 
-The earlier report's comparison of the lowest-species conclusion to lectio 4, nn. 6–7 is withdrawn: those paragraphs discuss the analogical predication of definition and essence. Likewise, the broad analogy passage in recto a is thematic corroboration rather than an exact authorial match. The fragment's corollaries and conclusions warrant treating its compiling form as unresolved, rather than identifying the whole leaf as an ordinary continuous witness of the checked *Sententia*.
+Paragraphs 6–7 of lectio 4 discuss the analogical predication of definition and essence; they do not supply a match for the lowest-species conclusion. Similarly, the broad analogy passage in recto a is thematic corroboration rather than an exact authorial match. The fragment's corollaries and conclusions warrant treating its compiling form as unresolved, rather than identifying the whole leaf as an ordinary continuous witness of the checked *Sententia*.
 
 ## Candidate research and remaining limits
 
-Johannes Versor remains an untested candidate. Contrary to the earlier report's statement that no digitized copy was found, the [Sevilla copy of his *Quaestiones in Aristotelis Metaphysicorum libros*](https://archive.org/details/A336023) is available as Internet Archive item A336023, catalogued as Toulouse, Johannes Parix, about 1482. Its item metadata was read in this review. The linked OCR and PDF, and an alternative OCR endpoint, failed to load through the research tool; no Versor text or page image was collated. A search also located a Salamanca 1493 reproduction record, but opening that record failed. These are access and discovery results, not evidence for or against attribution to Versor.
+Johannes Versor remains an untested candidate. The [Sevilla copy of his *Quaestiones in Aristotelis Metaphysicorum libros*](https://archive.org/details/A336023) is available as Internet Archive item A336023, catalogued as Toulouse, Johannes Parix, about 1482. Its item metadata was inspected. The linked OCR and PDF, and an alternative OCR endpoint, failed to load through the research tool; no Versor text or page image was collated. A search also located a Salamanca 1493 reproduction record, but opening that record failed. These are access and discovery results, not evidence for or against attribution to Versor.
 
-New searches combining the lowest-species/definition language and the colour/corollary wording yielded no identified compiling work. The previous report's extensive search log was not rerun and is not presented as this review's evidence. No named alternative is excluded by the new searches, and no claim of an unprinted or previously unknown text follows from them.
+Searches combining the lowest-species/definition language and the colour/corollary wording yielded no identified compiling work. No named alternative is excluded by these searches, and no claim of an unprinted or previously unknown text follows from them.
 
-The full recto, the start of recto a, selected recto-a and recto-b bands, the start of verso a, and the upper verso-b passage were inspected at original display detail. Much of the leaf remains unread or uncollated. No printed or manuscript witness of a competing question-commentary was successfully compared. The most useful next comparison is the now-located Versor digitization, particularly its Book VII discussion of whether definition belongs to substance alone, using the fragment's connecting prose and third conclusion rather than the shared Aristotelian examples.
+The full recto, the start of recto a, selected recto-a and recto-b bands, the start of verso a, and the upper verso-b passage were inspected at original display detail. Much of the leaf remains unread or uncollated. No printed or manuscript witness of a competing question-commentary was successfully compared. The most useful next comparison is the Versor digitization, particularly its Book VII discussion of whether definition belongs to substance alone, using the fragment's connecting prose and third conclusion rather than the shared Aristotelian examples.
 
 A cautious catalogue description is: “Latin scholastic questions on definition and essence, with sustained parallels to Aquinas, *In Metaphysicam* VII, lectio 4; compiling work and author unidentified.”

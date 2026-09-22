@@ -2,11 +2,10 @@
 
 - [Fragmentarium catalogue](https://fragmentarium.ms/overview/F-0kql) · [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-0kql/manifest.json)
 - Catalogue description: bifolium from a legendary, chapters from a life of Gregory the Illuminator; Italy, fourteenth century, Southern Textualis. These catalogue attributions were not independently reassessed.
-- Re-adjudicated on 22 September 2026.
 
-**Identification:** **Partial / low.** A Latin life of Gregory the Illuminator in the Agathangelos narrative tradition; the saint was already identified in the catalogue. The exact Latin work and recension remain unresolved. A newly accessible transcription of the *Acta Sanctorum* permits an actual comparison: the manuscript's mule miracle and subsequent baptism narrative correspond to the longer life, but its wording is not the edition's Latin translation. The printed anonymous *Vita altera* (BHL 3664) abbreviates the relevant events differently. This is evidence against identifying the checked passages as a straightforward copy of that printed text, not an exclusion of every related or expanded witness.
+**Identification:** **Partial / low.** A Latin life of Gregory the Illuminator in the Agathangelos narrative tradition; the catalogue identifies the saint. The exact Latin work and recension remain unresolved. Comparison with the electronic transcription of *Acta Sanctorum* shows that the manuscript's mule miracle and subsequent baptism narrative correspond to the longer life, but its wording is not the edition's Latin translation. The printed anonymous *Vita altera* (BHL 3664) abbreviates the relevant events differently. This is evidence against identifying the checked passages as a straightforward copy of that printed text, not an exclusion of every related or expanded witness.
 
-**Transcription:** a fresh [image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-0kql/readings/review-2026-09-22-image-only.json) was preserved and committed before this comparison. It covers only five usable rows and a clipped sixth row. The coordinator then inspected two larger cached manuscript crops with access to the earlier report and the source: the excerpts below are assisted readings. No human palaeographer or transcription accuracy assessment was involved. Much of the bifolium remains unverified.
+**Transcription:** the [image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-0kql/readings/review-2026-09-22-image-only.json) covers five usable rows and a clipped sixth row. The excerpts below are source-assisted readings of two larger cached manuscript crops, inspected by a Codex reviewer with the proposed identification and source text available. No human palaeographer or transcription accuracy assessment was involved. Much of the bifolium remains unverified.
 
 **Verification:** actual manuscript images were compared with the Heiligenlexikon electronic transcription of *Acta Sanctorum*, September VIII (1762), longer life §§142–143 and 149–150, and anonymous *Vita altera* IV §§38–40. This was an electronic-text comparison, not inspection of the printed facsimile or a collation of the Greek. The latter remains essential for claims about a particular translation or intermediary.
 
@@ -30,9 +29,9 @@ Numbers below count physical lines from the top of each displayed column. Parent
 9 cum centuriis(?) destruere tria altaria
 ```
 
-The decorated first word remains uncertain: the isolated reader returned *Et*, while the previous report supplied *Sed*. The larger crop supports *fixerunt* more clearly than the isolated reader's tentative *fecerunt?*. Line 8 appears to have an abbreviated connective rather than securely the previous report's *et*. The stained right edge of line 4 has not been completed from a plausible Latin sentence.
+The decorated first word is uncertain between *Sed* and *Et*. The larger crop supports *fixerunt*. Line 8 appears to have an abbreviated connective, whose expansion remains uncertain. The stained right edge of line 4 has not been completed from a plausible Latin sentence.
 
-The continuing visible sequence, lines 10–15, describes the remaining altars, the temple walls, people deceived or blinded by demons, and failure to find an entrance. Those are contextual observations from the image, not a claim to a new complete transcription of all those rows.
+The continuing visible sequence, lines 10–15, describes the remaining altars, the temple walls, people deceived or blinded by demons, and failure to find an entrance. Those are contextual observations from the image, not a claim to a complete transcription of all those rows.
 
 ### Additional check: image 0075, right column, lines 6–12
 
@@ -46,7 +45,7 @@ The continuing visible sequence, lines 10–15, describes the remaining altars, 
 12 bus q(uas)i sup(er) terram. Et dum baptizaret cor-
 ```
 
-The beginning of line 6 and the connective in line 9 remain uncertain. Following lines show the fiery column, cross, light, baptismal number, white garments and return; only the selected lines above are offered as a lineated reading. This is a different passage from the first crop, but it was already discussed in the earlier report and is not held-out evidence.
+The beginning of line 6 and the connective in line 9 remain uncertain. Following lines show the fiery column, cross, light, baptismal number, white garments and return; only the selected lines above are offered as a lineated reading.
 
 ## What the edition comparison establishes
 
@@ -59,14 +58,14 @@ All loci below are in the [electronic transcription of the 30 September entries]
 | 0075 b6–12: baptism, arrested river, Gregory standing dry-footed | Longer life, §149: *aquæ in loco stantes fuerunt inhibitæ*, then the luminous column and cross; §150 continues with white garments, candles and Eucharist | The surrounding sequence is sustained. Gregory's dry-footed posture is not stated in the corresponding electronic §149 passage. No direct translation claim follows. |
 | Consecration/return and baptism | Anonymous *Vita altera*, IV §§38–40: consecration, generalized destruction of temples, the king's wait, thirty-day fast, baptism and column of light | The printed BHL 3664 text passes from the consecration to a compressed return and omits the manuscript's detailed mule/altar episode at that point. It also narrates the baptism differently. A straightforward textual identification with this printed version is unsupported. |
 
-The anonymous version does share the king, queen Asichina, Chusaroducta, the month-long wait and baptism narrative. Those agreements make it a relevant relative, not a demonstrated exact match. The newly checked primary text replaces the earlier blanket statement that BHL 3664 could not be consulted. The comparison has not established whether the manuscript expands that version, translates another witness, or belongs to a different Latin compilation.
+The anonymous version does share the king, queen Asichina, Chusaroducta, the month-long wait and baptism narrative. Those agreements make it a relevant relative, not a demonstrated exact match. The comparison has not established whether the manuscript expands that version, translates another witness, or belongs to a different Latin compilation.
 
 ## Searches and unresolved questions
 
-New web searches on 22 September 2026 used `Gregorius mule fixerunt`, `Leontius Terdatio Cusarducte`, and `Gregorius non fluebat siccis`. They produced no sustained match to the manuscript's Latin. This is a limited retrieval result, not proof that the text is unedited. Earlier unsuccessful searches and access failures are historical observations rather than fresh exclusions.
+Web searches used `Gregorius mule fixerunt`, `Leontius Terdatio Cusarducte`, and `Gregorius non fluebat siccis`. They produced no sustained match to the manuscript's Latin. This is a limited retrieval result, not proof that the text is unedited.
 
-The old report proposed reordering the manifest images and joining this fragment to [F-hcpv](https://aaymeloglu.github.io/fragmentarium/F-hcpv.html). Related content and similar reported layout make comparison useful, but neither a physical join nor a quire reconstruction was established in this review. The catalogue's date and place are not independently proved by identifying the saint. Name forms alone do not establish a Greek intermediary.
+A possible relationship to [F-hcpv](https://aaymeloglu.github.io/fragmentarium/F-hcpv.html) merits comparison because of related content and similar reported layout. Neither a physical join nor a quire reconstruction is established. The catalogue's date and place are not independently proved by identifying the saint. Name forms alone do not establish a Greek intermediary.
 
 The useful next step is comparison with additional Latin witnesses and the relevant Greek passages, using a better reading of the stained text. Lagarde's separate reprint, other legendary compilations and manuscript witnesses were not collated here. Full-leaf transcription and the precise relationship between the two Park Abbey fragments remain open.
 
-[Preserved source-assisted review](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-0kql/readings/review-2026-09-22-assisted.json). The initial record above remains unchanged.
+[Source-assisted reading and provenance](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-0kql/readings/review-2026-09-22-assisted.json).
