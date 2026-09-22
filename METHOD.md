@@ -21,6 +21,12 @@ Save any later source-assisted reading separately with `tools/readings.py revise
 The coordinator must not pass its own conversation or the existing fragment report to the reader.
 Existing reports have not been retrospectively certified as image-only readings.
 
+Run the [Kraken/CATMuS second reader](HTR.md) on the same image packet, preserving
+its raw output with `readings.py freeze-htr`. Keep it separate from the isolated LLM
+reading until both are saved. Inspect line segmentation and disagreements against
+the images; do not let either reader silently rewrite the other. Raw recognition,
+proposed expansions, and normalized search text remain distinct layers.
+
 ## Tools
 
 - `python3 tools/iiif.py F-xxxx info | overview DIR | tiles DIR --canvas N --cols 2 --rows 4 | crop DIR x,y,w,h`

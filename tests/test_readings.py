@@ -1,6 +1,6 @@
 """First readings must survive candidate-assisted revision unchanged."""
 import argparse
-import importlib.util
+import sys
 import json
 from pathlib import Path
 import subprocess
@@ -8,9 +8,8 @@ import subprocess
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-spec = importlib.util.spec_from_file_location('readings', ROOT / 'tools' / 'readings.py')
-readings = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(readings)
+sys.path.insert(0, str(ROOT / 'tools'))
+import readings
 
 
 @pytest.fixture

@@ -23,7 +23,8 @@ Biblical quotations never count as anchors; everyone quotes the Bible. The conne
   followed by separately labelled source-assisted readings as needed. Follow
   [FIRST_READINGS.md](FIRST_READINGS.md). Records include reader identity, input image hashes
   and citations, and response hashes; saved records are never edited or deleted. The README
-  labels and links both stages. Existing reports without these records predate this procedure.
+  labels and links both stages. Raw HTR records use kind `htr` and preserve model/input
+  hashes and untouched PAGE XML; [HTR.md](HTR.md) describes their separate text layers. Existing reports without these records predate this procedure.
 - No images. Fragmentarium and the holding libraries serve the images through IIIF; the site hotlinks thumbnails from those servers and the folder links to the record. Nothing is redistributed.
 - Dates are absolute ("20 September 2026").
 

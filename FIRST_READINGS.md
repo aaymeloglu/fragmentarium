@@ -115,5 +115,6 @@ does not evade preservation. It also rejects deletion and renaming of old record
 
 The first PR introducing a record still needs review of the isolation attestation
 and freeze-before-search sequence. Existing reports without records remain valid
-legacy inputs to CI; re-adjudication requires a new isolated reading. This change
-adds no HTR, search ranking, identification threshold, or confidence scoring.
+legacy inputs to CI; re-adjudication requires a new isolated reading. The
+[HTR workflow](HTR.md) adds a separately preserved Kraken/CATMuS reading of the same images. Save both readings before comparing them. Search ranking, identification
+thresholds, and confidence scoring are separate steps.

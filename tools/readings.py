@@ -12,6 +12,7 @@ import re
 import shutil
 import subprocess
 import sys
+from xml.etree.ElementTree import ParseError
 
 ROOT = Path(__file__).resolve().parents[1]
 SLUG = re.compile(r"[a-z0-9][a-z0-9_-]{0,79}")
@@ -106,13 +107,28 @@ def freeze(root, args):
     })
 
 
+def freeze_htr(root, args):
+    import htr
+    run = json.loads(args.run.read_text())
+    htr.validate_run(run)
+    require(len(args.image_source) == len(run['pages']) and all(s.strip() for s in args.image_source),
+            'Provide one --image-source per HTR page, in packet order')
+    require(all(htr.lines(page) and any(line['text'].strip() for line in htr.lines(page))
+                for page in run['pages']), 'Cannot freeze HTR with zero lines or entirely empty recognition')
+    return save(root, args.fragment, args.name, {
+        'kind': 'htr', 'reader': f"Kraken {run['engine']['kraken']} / CATMuS Medieval",
+        'purpose': args.purpose, 'htr': run, 'image_sources': args.image_source,
+        'text': run['text'],
+    })
+
+
 def revise(root, args):
     require(FRAGMENT.fullmatch(args.fragment), 'Invalid fragment ID')
     require(SLUG.fullmatch(args.first), 'Invalid first-reading name')
     base = root / 'fragments' / args.fragment / 'readings' / f'{args.first}.json'
     first = json.loads(base.read_text())
     validate(first, base)
-    require(first['kind'] == 'image-only', 'Revisions must reference the first image-only reading')
+    require(first['kind'] in {'image-only', 'htr'}, 'Revisions must reference the first image-only or HTR reading')
     require(args.reader.strip() and args.reason.strip(), 'Reader and reason are required')
     require(args.source and all(s.strip() for s in args.source), 'Source citations are required')
     return save(root, args.fragment, args.name, {
@@ -140,6 +156,15 @@ def validate(r, path):
             require(image['source'].strip(), f'{path}: missing image source citation')
             names.append(image['name'])
         require(len(names) == len(set(names)), f'{path}: duplicate images')
+    elif r['kind'] == 'htr':
+        import htr
+        htr.validate_run(r['htr'])
+        require(r['purpose'] in {'tool-validation', 'independent-reading'}, f'{path}: invalid HTR purpose')
+        require(r['text'] == r['htr']['text'], f'{path}: HTR text mismatch')
+        require(len(r['image_sources']) == len(r['htr']['pages']) and all(s.strip() for s in r['image_sources']),
+                f'{path}: missing HTR image sources')
+        require(all(htr.lines(page) and any(line['text'].strip() for line in htr.lines(page))
+                    for page in r['htr']['pages']), f'{path}: incomplete HTR')
     elif r['kind'] == 'source-assisted':
         require(SLUG.fullmatch(r['first_reading']), f'{path}: invalid first-reading reference')
         require(DIGEST.fullmatch(r['first_sha256']), f'{path}: invalid first-reading digest')
@@ -159,7 +184,7 @@ def check(root, base=None):
         if r['kind'] == 'source-assisted':
             first_path = path.parent / f"{r['first_reading']}.json"
             first = json.loads(first_path.read_text())
-            require(first['kind'] == 'image-only', f'{path}: base is not image-only')
+            require(first['kind'] in {'image-only', 'htr'}, f'{path}: base is not an independent reading')
             require(sha(first_path.read_bytes()) == r['first_sha256'], f'{path}: first reading changed')
             require(datetime.fromisoformat(r['captured_at']) >= datetime.fromisoformat(first['captured_at']),
                     f'{path}: revision predates first reading')
@@ -193,6 +218,12 @@ def main():
     p.add_argument('--attest-isolated', action='store_true')
     p.add_argument('--image-source', action='append', required=True,
                    help='Image URL or canvas/region citation, one per image in packet order; kept from reader')
+    p = sub.add_parser('freeze-htr', help='Preserve a raw Kraken/CATMuS run without claiming an LLM session')
+    p.add_argument('fragment')
+    p.add_argument('name')
+    p.add_argument('--run', required=True, type=Path)
+    p.add_argument('--image-source', action='append', required=True)
+    p.add_argument('--purpose', choices=['tool-validation', 'independent-reading'], required=True)
     p = sub.add_parser('revise', help='Save a separately labelled source-assisted reading')
     p.add_argument('fragment')
     p.add_argument('name')
@@ -209,11 +240,13 @@ def main():
             print(packet(args.output, args.images))
         elif args.command == 'freeze':
             print(freeze(ROOT, args))
+        elif args.command == 'freeze-htr':
+            print(freeze_htr(ROOT, args))
         elif args.command == 'revise':
             print(revise(ROOT, args))
         else:
             print(f'{check(ROOT, args.base)} preserved readings checked')
-    except (ValueError, KeyError, TypeError, OSError, subprocess.CalledProcessError) as e:
+    except (ValueError, KeyError, TypeError, OSError, ParseError, subprocess.CalledProcessError) as e:
         parser.exit(1, f'{e}\n')
 
 
