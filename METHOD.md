@@ -48,6 +48,17 @@ can challenge the conclusion when useful; record what it actually checked.
 Apply the status definitions in CONVENTIONS rather than treating a retrieval
 score, fluent reconstruction, or agreement between models as verification.
 
+When an identification rests on the passage used to discover the candidate,
+look for another available passage that could confirm or challenge it. Prefer
+material not used in discovery when practical. Choose the check for its ability
+to distinguish plausible alternatives; record its scope and remaining limitations.
+Use judgment about whether another check would add evidence; there is no fixed
+number of passages or lines, or requirement to use another side of the fragment.
+
+A passage already examined against the candidate is not held-out evidence.
+An additional match supports identification, not automatic certification of the
+transcription, authorship, or originality of the work.
+
 ## 4. Record the result and stop
 
 The task is complete when the scoped question has a supported answer, or a clear
