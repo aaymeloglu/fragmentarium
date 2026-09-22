@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-09-22T17:07:32.579733+00:00",
+  "fragment": "F-lmfj",
+  "id": "review-2026-09-22-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.png",
+        "sha256": "a84e8e636b8b3e1bac4a9938e2142544dd96fd32f8674ed35ce3d2f3d7b33695",
+        "source": "https://fragmentarium.ms/metadata/iiif/F-lmfj/manifest.json; recto right column upper band; cache origin/scale not independently recovered; no new enhancement or rescaling; parent SHA256 448b4c004f947fadf34b58ca2221848723f42d3df02d4cbcd13be5d284133197"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nTranscribe what you can see, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Codex isolated subagent; inherited model, exact identifier not exposed",
+  "schema_version": 1,
+  "session": "full-20260922-k13",
+  "text": "Unverified image reading\n\nimage-001.png, line 1: tellectꝰ? liqᵐ? ꝓuocans? ad diuitendū?\nimage-001.png, line 2: ph̅[illegible] ab i[illegible] sit. ⁊ ad fu[illegible] c[illegible]\nimage-001.png, line 3: [illegible] nō? [illegible] loc[illegible]\n\nLimitations and visible features:\nThe image contains two substantially visible lines and the upper portion of a third. Line 3 is cut off by the bottom edge; the few letters offered there are especially uncertain. The beginning of line 1 may itself be a word fragment, but no preceding letters are supplied. Gothic letter forms and abbreviation signs are difficult to distinguish in this crop. The superscript after “liq” in line 1 resembles a small m; its reading and function are uncertain. The sign above the later part of the final word in line 1 is not securely resolved by the transcription. The horizontal and superscript signs are retained approximately where recognizable, without proposed expansions. The isolated marks between lines 2 and 3 are not legible as text; they may be stains or other marks. No secure deletion or interlinear addition can be identified. Only one text area is visible; no separate marginal text or overlapping crop is present.\n\nInput, tool, and exposure inventory:\nInputs read: PROMPT.md; packet.json; image-001.png.\nTools used: exec_command to read the two supplied text files and write response.txt; view_image with original detail to inspect image-001.png; functions.exec as tool wrapper; collaboration.send_message for a progress report.\nNo network, catalogue, edition, repository files, other manuscript images, or earlier transcription consulted. No proposed work or author identification was supplied in the task context, and none was attempted.\nExact model identifier: unavailable in the exposed execution context.\nOutput: response.txt.\n",
+  "text_sha256": "44dd807523149183914991a65ce2012cf4ac9d1613cff766b89097bc5763af42"
+}
