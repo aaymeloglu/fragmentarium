@@ -53,6 +53,7 @@ docs/                          the site; python3 docs/_build_site.py regenerates
 tools/searchd.py               local search service: Google Books, archive.org full text, Corpus Corporum on localhost (holds the key)
 htr/models.json               pinned recognition and segmentation model identities
 pyproject.toml + uv.lock       one Python 3.13 environment; optional htr dependency group
+tools/latin_search.py         tolerant Latin retrieval with original offsets and ordered passage ranking (see RETRIEVAL.md)
 tools/htr.py                  Kraken/CATMuS runner, segmentation review, separate text layers (see HTR.md)
 tools/readings.py              neutral image packets, preserved first readings, separate source-assisted revisions
 FIRST_READINGS.md             isolated-reader procedure and command examples

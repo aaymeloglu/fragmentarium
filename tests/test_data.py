@@ -53,7 +53,7 @@ def test_no_local_paths_or_secrets():
               + list((ROOT / "fragments").glob("*/readings/*.json"))
               + list((ROOT / "prompts").glob("*.md"))
               + [ROOT / "README.md", ROOT / "METHOD.md", ROOT / "CONVENTIONS.md",
-                 ROOT / "REVIEW.md", ROOT / "AGENTS.md", ROOT / "FIRST_READINGS.md", ROOT / "HTR.md"]):
+                 ROOT / "REVIEW.md", ROOT / "AGENTS.md", ROOT / "FIRST_READINGS.md", ROOT / "HTR.md", ROOT / "RETRIEVAL.md"]):
         assert not bad.search(p.read_text()), p
 
 

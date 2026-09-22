@@ -6,7 +6,8 @@ themselves. Set the tooling up before opening a fragment.
 
 `METHOD.md` is the research procedure and `CONVENTIONS.md` is the evidence standard. Read both.
 This file covers what has to be available for either to work. Read
-`FIRST_READINGS.md` before opening a fragment. The first reader must run in a fresh session
+`FIRST_READINGS.md` before opening a fragment and `RETRIEVAL.md` before candidate searching.
+The first reader must run in a fresh session
 with only the neutral image packet and prompt, without this repository or inherited conversation.
 The coordinator freezes and commits the complete response before revealing candidates.
 A reader that has already seen a proposed answer cannot attest to an image-only reading.
@@ -106,6 +107,7 @@ them.
     # Follow FIRST_READINGS.md: isolated reader, freeze response, commit, then search
     curl -s '127.0.0.1:8790/gb?q=%22phrase%20one%22%20%22phrase%20two%22'
     python3 tools/ia_cluster.py IDENTIFIER "phrase one" "phrase two" --show
+    # RETRIEVAL.md: --max-edits, explicit query variants, and competing-work corpus search
 
 Pick the next fragment from `docs/burndown.html`. Write the result to
 `fragments/<F-id>/README.md`, add the row to `data/fragments.json`, rebuild the site, and run the
