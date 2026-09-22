@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Run pinned Kraken/CATMuS on a neutral packet; preserve raw PAGE XML and text.
 
-Inference needs the separate htr environment. Other commands use the standard library.
+Inference needs the optional htr dependency group. Other commands use the standard library.
 """
 import argparse
 from datetime import datetime, timezone
@@ -119,7 +119,7 @@ def run_packet(packet, output, model_dir):
     inputs = readings.read_packet(packet)
     lock = model_lock()
     version = metadata.version('kraken')
-    readings.require(version == lock['kraken_version'], 'Use the pinned htr environment; see HTR.md')
+    readings.require(version == lock['kraken_version'], 'Run with uv run --group htr --frozen; see HTR.md')
     model = verified(model_dir / lock['recognition']['filename'], lock['recognition']['sha256'])
     segmenter = verified(Path(str(resources.files('kraken').joinpath('blla.mlmodel'))), lock['segmentation']['sha256'])
     executable = Path(sys.executable).parent / 'kraken'

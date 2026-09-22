@@ -27,7 +27,7 @@ def sample_run(raw=None):
     page = {'name': 'image-001.jpg', 'image_sha256': 'a' * 64,
             'page_xml': raw, 'xml_sha256': readings.sha(raw.encode())}
     run = {'format': 'kraken-catmus-v1', 'created_at': '2026-09-22T00:00:00+00:00',
-           'engine': {'kraken': '7.1.1', 'python': '3.12', 'platform': 'test', 'machine': 'test',
+           'engine': {'kraken': '7.1.1', 'python': '3.13', 'platform': 'test', 'machine': 'test',
                       'packages': {'kraken': '7.1.1'}},
            'settings': {'device': 'cpu', 'threads': 1, 'segmentation': 'baseline',
                         'subline_segmentation': False, 'preprocessing': 'none'},

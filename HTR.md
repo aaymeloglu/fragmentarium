@@ -18,9 +18,9 @@ Kraken baseline segmentation model is pinned by hash too.
 From the repository root:
 
 ```sh
-uv sync --project htr --python 3.12 --frozen
-uv run --project htr --frozen python tools/htr.py download-model scratch/htr-models
-uv run --project htr --frozen python tools/htr.py run \
+uv sync --group htr --frozen
+uv run --group htr --frozen python tools/htr.py download-model scratch/htr-models
+uv run --group htr --frozen python tools/htr.py run \
   --packet /tmp/reading-packet --model-dir scratch/htr-models \
   --output scratch/htr/run-01
 ```
@@ -32,8 +32,11 @@ a proposed edition. Record any crop or orientation change as a new input. This
 runner applies no image preprocessing, binarization, or spelling correction.
 
 Kraken runs locally on CPU, one thread, with no candidate text or edition input.
-The separate `htr/uv.lock` records its dependency environment. Routine repository
-tests/builds do not install PyTorch. We tested inference on macOS ARM64; the
+The repository uses Python 3.13 (`.python-version`) and one root `pyproject.toml`,
+`uv.lock`, and `.venv`. HTR is an optional dependency group: `uv sync --frozen`
+installs the normal development tools, and adding `--group htr` installs Kraken
+and PyTorch into that same environment. Keep `--group htr` on HTR run commands.
+Routine repository tests/builds do not install PyTorch. We tested inference on macOS ARM64; the
 normal Linux CI tests the adapter and artifact contracts without loading models.
 No GPU or eScriptorium server is required.
 

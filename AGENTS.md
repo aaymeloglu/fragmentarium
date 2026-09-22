@@ -17,9 +17,10 @@ A reader that has already seen a proposed answer cannot attest to an image-only 
 the leaf. A model that cannot view a local JPEG cannot do this work at all, and no amount of
 catalogue metadata substitutes. Everything else on this list is negotiable; this one is not.
 
-**2. A shell, Python 3.12, and uv.** `uv sync --frozen`, `uv run pytest -q`, `uv run python
+**2. A shell, Python 3.13, and uv.** `uv sync --frozen`, `uv run pytest -q`, `uv run python
 docs/_build_site.py`. The search, image-fetching, and preservation tools use the standard library.
-HTR inference uses a separate pinned Python 3.12 environment; follow `HTR.md` to install it.
+All commands use the root Python 3.13 environment and lockfile. Add `--group htr` to
+install or run the optional HTR dependencies; see `HTR.md`.
 
 **3. Plain outbound HTTP.** Nearly every source here answers a GET: the Fragmentarium IIIF
 manifests and image servers, archive.org full-text search and `_djvu.txt`, Corpus Corporum,
