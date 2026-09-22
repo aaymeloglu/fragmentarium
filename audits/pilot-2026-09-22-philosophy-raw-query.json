@@ -1,0 +1,36 @@
+{
+  "source": "Frozen image-only records, pilot-2026-09-22-image-only and additional-image-only",
+  "scope": "Candidate-aware coordinator selects anchors; limited corpus check, not blind discovery",
+  "anchors": [
+    {
+      "id": "1",
+      "line_ref": "packet A:16",
+      "variants": [
+        {
+          "text": "causa illius infeccōnis",
+          "basis": "Exact tentative substring; question mark annotation omitted, overbar retained"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "line_ref": "packet D:7",
+      "variants": [
+        {
+          "text": "sit nata recipere",
+          "basis": "Exact substring; question mark annotation omitted"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "line_ref": "packet D:7",
+      "variants": [
+        {
+          "text": "denudata ab oī alia",
+          "basis": "Exact substring; abbreviation mark retained"
+        }
+      ]
+    }
+  ]
+}

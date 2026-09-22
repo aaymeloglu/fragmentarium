@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-09-22T16:41:18.529772+00:00",
+  "first_reading": "pilot-2026-09-22-image-only",
+  "first_sha256": "15b9795bb41b073a1049ee7de2ef9b743de0ba41e2e2ffcb7a82c08e51661198",
+  "fragment": "F-h8oz",
+  "id": "pilot-2026-09-22-assisted",
+  "kind": "source-assisted",
+  "reader": "Codex coordinator; exact model identifier not exposed",
+  "reason": "Preserve explicitly assisted selected reading, retaining interventions, uncertainty, and material differences after manuscript and printed-image comparison.",
+  "schema_version": 1,
+  "sources": [
+    "https://archive.org/details/DurantisSpeculumIudicialeLyon1578ParsSecunda264H/page/n483/mode/1up; printed number 229, left column nn13-15, image inspected",
+    "https://github.com/aaymeloglu/fragmentarium/blob/9373f57407028528b147bb06883608ce5f1f4c8e/fragments/F-h8oz/README.md",
+    "F-h8oz/readings/pilot-2026-09-22-htr.json"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING\n\nCoordinator inspected native manuscript images after exposure to the old report, raw readers, HTR, and the printed source. No specialist accuracy assessment. This record preserves selected readings, not a full transcript.\n\nManifest canvas 1, fol. [1]v column a; native image 2842 × 4241 pixels. The pilot crop is `360,420,1040,1100`, no rotation. Physical lines count from the crop's top, including the clipped final line. The old report's crop coordinates were approximately doubled relative to this native image and do not reproduce the stated column when sent unchanged to the current image service.\n\nParentheses below mark proposed expansions. Ellipses are omissions, not certified intervening text.\n\n| Manuscript, selected source-assisted reading | Printed parallel, checked on the image | Significance |\n|---|---|---|\n| Lines 2–3: *Sed pone q(uod) apparet auditorem impetratum esse sed non / constat per principalem an per procuratorem fuit obtentus …* | N. 14: *Quid si apparet auditorem obtentum, non tamen constat, quod per principalem personam, vel per procuratorem?* | Same legal case, substantially different wording. |\n| Line 9: *ad cuius instanciam sit datus auditor …* | N. 14: *ad cuius instantiam sit datus auditor* | Close verbal agreement within the case. |\n| Lines 10–11: *mandat d(omi)n(u)s p(a)p(a) mag(ist)ro [uncertain initial] … / vertitur inter tales super tali re audiat et diffiniat* | N. 14 names *Gulielmo Durandi* and has *inter tales super hoc vertitur, audiat, & diffiniat*. | Shared mandate formula with differences. The manuscript initial remains unresolved; it cannot decide attribution. |\n| Lines 11–13: *Si / autem solus ipse appellans est presens. si vult q(uod) procedatur … / parte absente … ostendere de appellatione …* | N. 15 instead opens *Sed pone, auditor, a quo appellatur, praefixit decem ad prosequendam appellationem …* | At this point the texts continue into different cases: the manuscript discusses proceeding with the other party absent; the print discusses a deadline for pursuing an appeal. |\n\nThe new image check supports the old report's cautious classification. It does not turn its existing observation of a divergent continuation into a new discovery. That continuation is a useful challenge to a simple literal identification, but a recension, source, adaptation, or common source could still explain the relationship. A modern printed witness alone cannot resolve these possibilities.\n\n",
+  "text_sha256": "4899622be093e789b00ffa976ee8be4650f75504b58202a3a6e49274cf29497d"
+}

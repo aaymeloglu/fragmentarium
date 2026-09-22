@@ -1,0 +1,46 @@
+{
+  "source": "Coordinator image review after legacy report and Durantis OCR exposure; raw image-only response yielded no useful distinctive phrase",
+  "scope": "Candidate-aware coordinator selects anchors; limited corpus check, not blind discovery",
+  "anchors": [
+    {
+      "id": "1",
+      "line_ref": "packet C:2",
+      "variants": [
+        {
+          "text": "auditorem impetratum esse",
+          "basis": "Source-assisted expansion from manuscript; print rewords it"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "line_ref": "packet C:9",
+      "variants": [
+        {
+          "text": "sit datus auditor",
+          "basis": "Source-assisted expansion"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "line_ref": "packet C:11",
+      "variants": [
+        {
+          "text": "vertitur inter tales super tali re",
+          "basis": "Source-assisted expansion; print has different order"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "line_ref": "packet C:12",
+      "variants": [
+        {
+          "text": "solus ipse appellans est presens",
+          "basis": "Source-assisted expansion of continuation; additional check"
+        }
+      ]
+    }
+  ]
+}
