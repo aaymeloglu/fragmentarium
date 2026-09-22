@@ -1,15 +1,48 @@
 # Candidate retrieval from imperfect Latin readings
 
-Use `searchd.py` for Google Books, Internet Archive, and Corpus Corporum discovery
-as before. Download the candidate texts and compare passages with the shared
-standard-library engine in `tools/latin_search.py`. It adds no dependencies,
-service, or environment. Use UTF-8 plain text, not HTML/XML markup.
+Use this reference for search access or tolerant passage matching. Choose resources
+and effort using [METHOD.md](METHOD.md); evidence rules are in
+[CONVENTIONS.md](CONVENTIONS.md). The local matcher uses the existing Python
+standard library and expects downloaded UTF-8 plain text, not HTML/XML markup.
+It is optional when direct searches already answer the retrieval question.
 
-Freeze the independent readings first, following `FIRST_READINGS.md` and `HTR.md`.
-Select anchors in their manuscript reading order. Carry their line references and
-reading/expansion provenance into the query. Do not replace an uncertain reading
-with the candidate edition's wording. If an edition informs a query variant,
-label that basis explicitly; it is source-assisted retrieval.
+## Search access and troubleshooting
+
+Use the resource suited to the lead; this list is not an execution order.
+
+| Resource | Access |
+|---|---|
+| Google Books | `tools/gbsearch.py` or `searchd.py` `/gb?q=`; requires `GOOGLE_BOOKS_API_KEY`. Returns snippets and volume IDs, not page images. |
+| Internet Archive | `searchd.py` `/ia?q=` for discovery; `ia_cluster.py` downloads a volume's `_djvu.txt`. Google Books scans may be mirrored as `bub_gb_<volume id>`. |
+| Corpus Corporum | `searchd.py` `/cc?q=&index=p` (paragraph) or `index=s` (sentence); accepts Sphinx `NEAR/N` queries. Corpus coverage varies by period and genre. |
+| Genre-specific sources | Examples include Corpus Thomisticum, Gloss-e, Friedberg's canon-law editions, Quaracchi Bonaventure, and Borgnet Albert. Use the relevant source directly. |
+
+For Google Books, export a key with Books API access in the service environment:
+
+```sh
+uv run python tools/gbsearch.py '"phrase one" "phrase two"'
+# Optional shared service, with GOOGLE_BOOKS_API_KEY in its environment:
+uv run python tools/searchd.py
+# From another shell:
+curl -s '127.0.0.1:8790/gb?q=%22phrase%20one%22%20%22phrase%20two%22'
+```
+
+The localhost service holds the key, caches results, and spaces Google Books calls
+2.5 seconds apart. It is useful for concurrent searches; workers need no credential.
+Other services can be used without a Google Books key.
+
+Do not browse or scrape books.google.com page/image URLs: previous bursts triggered
+network-wide captchas that also disrupted API access. Use the API and an accessible
+scan elsewhere. On rate limiting, stop the burst and switch sources or defer that
+service. Treat access-restricted OCR as unavailable, not an exclusion. A browser
+can help with form-driven corpora or viewers, but need not be set up for every run.
+
+## Preparing passage queries
+
+Select anchors in manuscript reading order and carry their line references and
+reading/expansion provenance into the query. Label edition-informed variants as
+source-assisted. HTR output is not required. The commands below are for candidate
+retrieval; verification remains a separate research step.
 
 ## One Internet Archive volume
 
@@ -27,9 +60,9 @@ must not overlap. Missing anchors are reported. Results include original offsets
 line numbers, the matched variant, and edit counts. `--json` saves the full result
 via shell redirection. `--cache-dir` chooses the OCR cache.
 
-This changes the old score's meaning: nearby phrases in the wrong order no longer
-receive full coverage. Long-s (`ſ`) still matches `s`; conflating OCR `f` with `s`
-is now an explicit `--ocr-long-s` option because it also creates false matches.
+Nearby phrases in the wrong order do not receive full coverage. Long-s (`ſ`)
+matches `s`; conflating OCR `f` with `s` requires `--ocr-long-s` because it also
+creates false matches.
 
 ## Competing texts and uncertain expansions
 
@@ -119,11 +152,9 @@ coverage or form a ranked passage on their own. Their hits remain visible.
 Supply one document per work when practical; duplicated editions and unequal
 text coverage distort frequency. Rarity within the supplied corpus is not
 universal rarity. A two-document trial cannot establish that a phrase is unique.
-The score is a retrieval aid, never a confidence percentage or identification
-threshold. Inspect intervening prose, omissions, quotations, shared sources,
-compilations, and manuscript/edition images. No hit does not exclude a work.
+Interpret scores under the evidence rules in CONVENTIONS; they are not confidence
+percentages or identification thresholds.
 
 The [F-eo5z tooling trial](audits/retrieval-2026-09-22.md) records the effect on an
 actual known passage and a commonplace control. It is not the planned pilot or a
-fresh adjudication. Held-out verification and confidence changes remain separate
-pipeline steps.
+fresh adjudication.

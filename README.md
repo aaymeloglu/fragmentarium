@@ -43,6 +43,13 @@ The research was performed by Claude, with lead-LLM image spot-checks and a seco
 
 See [REVIEW.md](REVIEW.md) for the scope, evidence links, and remaining limits; [CONVENTIONS.md](CONVENTIONS.md) for status definitions; and [METHOD.md](METHOD.md) for the research process. Failure to find a text in the recorded searches does not establish that it is unprinted or a new witness.
 
+## Working here
+
+Start with [AGENTS.md](AGENTS.md). [METHOD.md](METHOD.md) is the short research
+workflow and [CONVENTIONS.md](CONVENTIONS.md) defines the evidence standards.
+Image/reading, HTR, and retrieval manuals are references for the task at hand,
+not prerequisites to read or execute in full.
+
 ## Layout
 
 ```

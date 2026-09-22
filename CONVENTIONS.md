@@ -1,43 +1,68 @@
-# Conventions
+# Evidence and reporting standards
 
-What the labels on the index mean, and what a fragment folder has to contain before a result is
-claimed. Adopted 20 September 2026 from the working rules of
-[aaymeloglu/unsolved-ciphers](https://github.com/aaymeloglu/unsolved-ciphers).
+These are the required standards for research claims. [METHOD.md](METHOD.md)
+provides adaptable research tactics; the tool manuals describe commands.
 
-## 1. Status
+## Evidence rules
+
+- Base transcription claims on inspected manuscript images. Keep uncertainty,
+  gaps, corrections, and physical line references visible. Distinguish raw
+  recognition, proposed expansions, and search-normalized text.
+- An independent image-only reading uses a fresh reader with no proposed answer,
+  earlier transcription, edition, or other reader's output. Preserve the complete
+  response and its input provenance, and commit it before candidate searching or
+  comparison. [FIRST_READINGS.md](FIRST_READINGS.md) gives the procedure. If
+  independence cannot be established, label the work assisted and state the
+  limitation; do not claim a blind reading. Existing reports are not
+  retrospectively certified as independent.
+- Never edit or delete a preserved reading. Save substantive assisted revisions
+  separately, citing the readings and sources used. Corrections to saved metadata
+  also belong in a new record or audit note. Checksums protect preservation, not
+  the truth of a reading or the reader's isolation.
+- A search hit, retrieval score, common phrase, or agreement between readers
+  establishes a lead, not an identification. Support identification with sustained
+  distinctive wording and sequence, documenting differences. Shared biblical
+  quotations and formulas are not diagnostic anchors on their own.
+- Say what was checked and what was not, including whether comparison used images,
+  OCR, snippets, or secondary paraphrase. Do not describe LLM checks as human
+  palaeographic verification. Distinguish a genuine exclusion from a no-hit search
+  or an unavailable source; unsuccessful search does not establish unprinted status.
+- Dating, provenance, leaf order, literary dependence, recension, and witness
+  novelty need their own evidence. Identification does not certify transcription
+  accuracy or those additional claims. Limit each conclusion to its support.
+
+## Status
+
+The current index uses these labels:
 
 | Status | Meaning |
 |---|---|
-| **Identified** | Sustained agreement in distinctive wording and sequence identifies a text in a specific edition, with abbreviations and textual variants recorded. Author, work, and the place in the edition are given with a link. Confidence is always `high`; nothing is called identified on a single phrase, a shared quotation, or a match of structure alone. |
-| **Partial** | A source connection, genre, subject, or text layer has support, but the compiling work or attribution remains unresolved. The folder says exactly what is established and what is not. Confidence `medium` when a substantial source parallel or text layer is supported but the compiling work or attribution remains unresolved; `low` when the evidence chiefly establishes genre, subject, or possible source connections. |
-| **Not identified** | Genre and content are described, the searches are logged, and nothing matched. Confidence `none`. |
+| **Identified** | Sustained agreement in distinctive wording and sequence identifies a text in a specific edition, with abbreviations and textual variants recorded. Give the author, work, locus, and a checkable link. The current index requires confidence `high`. |
+| **Partial** | A source connection, genre, subject, or text layer has support, but the compiling work or attribution remains unresolved. Use `medium` for a substantial source parallel or text layer, `low` for chiefly genre, school, or author leads. |
+| **Not identified** | Describe the fragment and searches, but no identification is established. Confidence `none`. |
 
-Dating, provenance, literary dependence, recension, and witness novelty require separate evidence. A later compilation may preserve earlier material; an edition match alone does not date a manuscript. Negative searches do not establish unprinted status. Verification scope and uncollated material must be stated.
+## Report and record format
 
-Biblical quotations never count as anchors; everyone quotes the Bible. The connecting prose does.
+`fragments/<F-id>/README.md` contains the catalogue details, scoped reading and
+comparison, sources, result, and unresolved questions. Include the lines needed
+to assess the claim, with proposed expansions in parentheses and uncertainty
+marked. State the coverage; do not imply unread sides were transcribed. Provide
+an edition/facsimile link and locus, and use a comparison table when it helps.
+Dates are absolute, for example "22 September 2026".
 
-## 2. What a fragment folder contains
+Link preserved `readings/*.json` records by their actual kind: image-only, HTR,
+or source-assisted. Use the preservation commands when those records exist;
+[HTR.md](HTR.md) covers raw recognizer output. If isolation was unavailable and
+there is no independent base record, keep the assisted text and its provenance
+in the report or a separate labelled file outside `readings/`; the CLI cannot
+create an assisted record without a base. The report states the missing
+independent evidence. Do not fabricate a base to satisfy the schema.
 
-- `README.md`: the catalogue record as found (title, date, script, dimensions); the transcription of every side read, by line, with abbreviations expanded in parentheses; the identification with a line-by-line comparison table against the edition and a link that lets a reader check it in a minute; the resources searched, distinguishing actual exclusions, no-hit searches, and inaccessible or unchecked candidates; open items; and, where the catalogue's date or genre no longer fits the text, a query flagged as such rather than a verdict.
-- `readings/*.json` for new work and re-adjudications: the unedited image-only first reading,
-  followed by separately labelled source-assisted readings as needed. Follow
-  [FIRST_READINGS.md](FIRST_READINGS.md). Records include reader identity, input image hashes
-  and citations, and response hashes; saved records are never edited or deleted. The README
-  labels and links both stages. Raw HTR records use kind `htr` and preserve model/input
-  hashes and untouched PAGE XML; [HTR.md](HTR.md) describes their separate text layers. Existing reports without these records predate this procedure.
-- No images. Fragmentarium and the holding libraries serve the images through IIIF; the site hotlinks thumbnails from those servers and the folder links to the record. Nothing is redistributed.
-- Dates are absolute ("20 September 2026").
+`data/fragments.json` holds catalogue data, identification, note, status,
+confidence, links, order, and examination date. `docs/_build_site.py` renders the
+site; CI checks record preservation, data consistency, and generated pages.
 
-## 3. The index row
-
-`data/fragments.json` holds one object per fragment: catalogue data as the record gives it, our
-identification in one sentence, a one-sentence note on the evidence, the status and confidence
-above, the verification link, and the IIIF thumbnail URL. `docs/_build_site.py` renders it; CI
-fails if `docs/` is stale or a folder and the data file disagree.
-
-## 4. Reporting to the library
-
-Results are sent to fragmentarium@unifr.ch with the holding library copied, in Fragmentarium's own
-field names (Title, Subtitle, Persons, Date of origin, Script Type, Reconstruction Summary,
-Bibliography), so a cataloguer can paste rather than re-derive. Whether a result has been sent is
-recorded in the fragment's README.
+When outreach is explicitly requested, use Fragmentarium's catalogue field names
+(Title, Subtitle, Persons, Date of origin, Script Type, Reconstruction Summary,
+Bibliography), address fragmentarium@unifr.ch with the holding library copied,
+and record whether the report was sent.
