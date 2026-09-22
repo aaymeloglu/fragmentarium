@@ -152,7 +152,7 @@ document.querySelectorAll('table.sortable th[data-col]').forEach(function(th){
 
 def badge(r):
     label = {"identified": "Identified", "partial": "Partial", "unidentified": "Not identified"}[r["status"]]
-    conf = {"high": "high identification confidence", "medium": "medium identification confidence", "low": "low identification confidence", "none": ""}[r["confidence"]]
+    conf = {"high": "high confidence", "medium": "medium confidence", "low": "low confidence", "none": ""}[r["confidence"]]
     return f'<span class="badge {r["confidence"]}">{label}{" · " + conf if conf else ""}</span>'
 
 
@@ -239,7 +239,7 @@ def build():
         f'Confidence refers to the identification or proposed source connection; transcription accuracy and verification coverage are separate. '
         f'Research and review were performed by LLMs. '
         f'Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>; what the labels mean in <a href="{REPO}/blob/main/CONVENTIONS.md">CONVENTIONS.md</a>.</p>'
-        '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Identification confidence</th></tr>'
+        '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Confidence</th></tr>'
         + "".join(rows)
         + "</table>" + SORT_JS
     )
