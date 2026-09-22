@@ -14,6 +14,13 @@ return 404 and the working endpoint is the ExLibris `service` `@id` inside the c
 fragments resolve to Gallica's IIIF. Read from crops, not from the overview image, and transcribe
 line by line before searching anything.
 
+Use the [first-reading workflow](FIRST_READINGS.md): a fresh reader session sees only a
+neutral image packet and the reading prompt. Preserve its complete response with
+`tools/readings.py freeze` and commit it before revealing candidates or consulting editions.
+Save any later source-assisted reading separately with `tools/readings.py revise`.
+The coordinator must not pass its own conversation or the existing fragment report to the reader.
+Existing reports have not been retrospectively certified as image-only readings.
+
 ## Tools
 
 - `python3 tools/iiif.py F-xxxx info | overview DIR | tiles DIR --canvas N --cols 2 --rows 4 | crop DIR x,y,w,h`

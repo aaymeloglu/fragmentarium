@@ -51,6 +51,8 @@ data/unidentified-*.csv        the corpus list, from a sweep of Fragmentarium's 
 fragments/<F-id>/README.md     transcription, comparison table, ruled-out list, open items
 docs/                          the site; python3 docs/_build_site.py regenerates it (stdlib only)
 tools/searchd.py               local search service: Google Books, archive.org full text, Corpus Corporum on localhost (holds the key)
+tools/readings.py              neutral image packets, preserved first readings, separate source-assisted revisions
+FIRST_READINGS.md             isolated-reader procedure and command examples
 tools/iiif.py                  fetch a fragment's images: info, overview, tiles, crop; resolves each library's IIIF quirks
 tools/ia_cluster.py            do the anchor phrases sit in one passage of an archive.org volume's OCR?
 tools/gbsearch.py              Google Books full-text search from the command line (needs GOOGLE_BOOKS_API_KEY)

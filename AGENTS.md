@@ -5,7 +5,11 @@ lost in the first pass went to tooling that was missing or blocked rather than t
 themselves. Set the tooling up before opening a fragment.
 
 `METHOD.md` is the research procedure and `CONVENTIONS.md` is the evidence standard. Read both.
-This file covers what has to be available for either to work.
+This file covers what has to be available for either to work. Read
+`FIRST_READINGS.md` before opening a fragment. The first reader must run in a fresh session
+with only the neutral image packet and prompt, without this repository or inherited conversation.
+The coordinator freezes and commits the complete response before revealing candidates.
+A reader that has already seen a proposed answer cannot attest to an image-only reading.
 
 ## Capabilities to have before you start
 
@@ -97,7 +101,7 @@ them.
     python3 tools/searchd.py &                          # localhost search service
     python3 tools/iiif.py F-xxxx info                   # canvases and the working image base
     python3 tools/iiif.py F-xxxx tiles /tmp/f --canvas 0 --cols 2 --rows 4
-    # read the tiles in order, transcribe line by line, then search
+    # Follow FIRST_READINGS.md: isolated reader, freeze response, commit, then search
     curl -s '127.0.0.1:8790/gb?q=%22phrase%20one%22%20%22phrase%20two%22'
     python3 tools/ia_cluster.py IDENTIFIER "phrase one" "phrase two" --show
 

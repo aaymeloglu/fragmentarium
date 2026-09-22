@@ -49,7 +49,11 @@ def test_every_fragment_has_a_folder_and_readme():
 
 def test_no_local_paths_or_secrets():
     bad = re.compile(r"/Users/|AIza[0-9A-Za-z_-]{20,}|\.mcp\.json")
-    for p in list((ROOT / "fragments").rglob("*.md")) + [ROOT / "README.md", ROOT / "METHOD.md", ROOT / "CONVENTIONS.md", ROOT / "REVIEW.md", ROOT / "AGENTS.md"]:
+    for p in (list((ROOT / "fragments").rglob("*.md"))
+              + list((ROOT / "fragments").glob("*/readings/*.json"))
+              + list((ROOT / "prompts").glob("*.md"))
+              + [ROOT / "README.md", ROOT / "METHOD.md", ROOT / "CONVENTIONS.md",
+                 ROOT / "REVIEW.md", ROOT / "AGENTS.md", ROOT / "FIRST_READINGS.md"]):
         assert not bad.search(p.read_text()), p
 
 
