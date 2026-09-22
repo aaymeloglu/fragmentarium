@@ -1,9 +1,12 @@
 # A second image reader: Kraken and CATMuS Medieval
 
-Run HTR on the same neutral image packet as the independent LLM reader. Each reads
-only pixels; neither sees the other's output before its response is preserved.
-After both are saved, inspect disagreements against the image. Agreement is not
-certification, and neither reader's fluent text is a reason to replace the other.
+Use this reference when choosing HTR as a second measurement, or when the task
+explicitly calls for an HTR comparison. It is not a prerequisite for candidate
+searching. [METHOD.md](METHOD.md) covers when to try it and when to move on;
+[CONVENTIONS.md](CONVENTIONS.md) owns the evidence and preservation rules.
+
+For an independent comparison, use the same neutral image packet as the LLM
+reader, and save both outputs before showing either to the other reader.
 
 This uses [Kraken](https://github.com/mittagessen/kraken) 7.1.1 and
 [CATMuS Medieval](https://zenodo.org/records/21488839), by Ariane Pinche, Thibault
@@ -54,7 +57,9 @@ Outputs, in a new directory (existing directories are never reused):
 
 A zero-line result saves diagnostics and exits with status 2. It cannot be frozen.
 A subprocess failure exits with status 1 and leaves diagnostics without a complete
-`run.json`. Blank recognized lines are retained and flagged. A nonempty result can
+`run.json`. All-empty recognition also cannot be frozen. Keep failed-run diagnostics
+locally and note the limitation in the report; a failed run does not block other
+research. Follow METHOD for retry decisions. Blank recognized lines are retained and flagged. A nonempty result can
 still omit, merge, split, or reorder physical lines; inspect the overlay even when
 there are no machine-detected warnings. No automatic error rate is asserted.
 
@@ -72,12 +77,11 @@ git commit -m 'Preserve independent HTR reading for F-eo5z'
 Repeat `--image-source` for every packet image, in order. The saved record has kind
 `htr`, distinct from an LLM's `image-only` record: it makes no false claim about a
 fresh chat session or use of the LLM prompt. `--purpose tool-validation` marks a
-software trial using a previously studied passage. Existing raw records remain
-protected by the same checksum and Git-base checks from change #1. The raw XML is
+software trial using a previously studied passage. Saved records use the preservation checks in `readings.py`. The raw XML is
 embedded in the record, so no images or weights need to be committed.
 
-Save the independent LLM reading with `readings.py freeze` before showing it the
-HTR. Then compare both saved readings with the images, using polygons to resolve
+When comparing with an independent LLM reading, save it with `readings.py freeze`
+before showing it the HTR. Compare both saved readings with the images, using polygons to resolve
 line correspondences. Do not equate HTR detection numbers with the LLM's physical
 line numbers automatically. Keep unresolved alternatives visible. If a model has
 seen HTR output, its next response is an assisted review, not another independent
@@ -109,7 +113,8 @@ per line: unchanged `raw`, optional `proposed_expansion`, and `search_text` with
 an explicit `search_basis`. Uncertainty and its rationale remain attached to the
 expansion. No expansion is invented for omitted lines. Search text only composes
 Unicode and collapses whitespace; abbreviation marks and uncertainty markers stay.
-Latin spelling variants, fuzzy retrieval, and search ranking belong to change #3.
+Latin spelling variants, fuzzy retrieval, and search ranking are described in
+[RETRIEVAL.md](RETRIEVAL.md).
 The derived layers are working aids, not certified readings. Save substantive
 revised readings with `readings.py revise` if they enter a report.
 
