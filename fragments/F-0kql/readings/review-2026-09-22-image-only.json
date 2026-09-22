@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-09-22T17:24:32.681564+00:00",
+  "fragment": "F-0kql",
+  "id": "review-2026-09-22-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.png",
+        "sha256": "072503f9e3e5cd9209ab291b654a6992fc540cbb7ef6848c579ab62388f87972",
+        "source": "https://fragmentarium.ms/metadata/iiif/F-0kql/manifest.json; image0073, left column upper portion; cached crop origin/scale not independently recovered; no new enhancement or rescaling; parent SHA256 63ff5ee67e0bda9e6f146e235d948e1f5a0d600bebb1851e87d92f0e22a81a7b"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nTranscribe what you can see, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Codex isolated subagent; inherited model, exact identifier not exposed",
+  "schema_version": 1,
+  "session": "full-20260922-k20",
+  "text": "UNVERIFIED IMAGE READING\n\nimage-001.png:1 Et cum uellet trāsire fluuiū? eufra\nimage-001.png:2 tem. ubi modica erat aqua. mule q̄\nimage-001.png:3 erant ligate ad cūrrum? fecerunt? grā?\nimage-001.png:4 dū. ⁊ cum di[illegible] agitarētur af[illegible]\nimage-001.png:5 trāsmeare? nō poterāt. Reuela[illegible]\nimage-001.png:6 [illegible: only the upper portions of this line are included]\n\nPhysical layout and limitations\nOne image, with one main text column and no visible marginal text. Line numbers count the visible physical text lines from the top, including the severely cropped sixth line. The right ends of lines 3–5 are obscured by brown discoloration and loss of contrast. The sixth line is cut off by the bottom image boundary. No overlapping crops were supplied.\n\nAbbreviation marks are represented by a combining macron where a raised stroke or mark is visible; their exact shapes are not consistently horizontal. No expansions have been supplied. The reading of the apparent abbreviation at the end of line 3 is particularly uncertain. The initial letters on lines 1 and 5 have red strokes. A red area within the word beginning “di” on line 4 obscures the following character or characters; I cannot establish whether this is decoration, correction, or damage. No definite textual insertion or deletion is identifiable. Brown discoloration should not itself be treated as a deletion.\n\nInput, tool, and exposure inventory\nInputs read: PROMPT.md; packet.json; image-001.png.\nTools used: functions.exec; exec_command (packet directory listing, reading the prompt and manifest, and writing this response); view_image (the supplied image, requested at original detail).\nOutput: response.txt.\nNo network requests, catalogue or edition consultation, repository inspection, other manuscript images, or earlier transcription were used. No proposed work or author identification was supplied in the task context, and none is asserted here. Exact model identifier: unavailable in the exposed tool information.\n",
+  "text_sha256": "f254d54fa6a6d063c35d3238e530977de23fff94fcd302f55700c9b940741214"
+}
