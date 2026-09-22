@@ -1,269 +1,37 @@
-# F-8bin — Paris, BnF, Latin 9377, ff. 90-93
+# F-8bin — unidentified didactic sacramental poem
 
-- **Fragmentarium ID:** F-8bin
-- **Shelfmark:** Paris, Bibliothèque nationale de France, Latin 9377, ff. 90-93 (two bifolia used as guard leaves; ff. 92-93 have a hole at the outer edge)
-- **Catalogue:** "De sacramento eucharistiae (unidentified)"; Eastern France; 1451-1500; paper; 198 x 282 mm; decoration red
-- **Images:** IIIF canvases point to Gallica ark:/12148/btv1b525133302, f191-f198 (= ff. 90r-93v), 4966 x 7162 px. Full-size downloads and native-resolution band crops saved in the session scratchpad (`8bin/full191-198.jpg`, `8bin/c90r_*`, `c90v_*`, `c91r_*`, `c91v_*`, `c92r_*`, `c92v_*`, `ov19x.jpg`). NB: Gallica's IIIF region endpoint returns mis-registered crops; crop locally from `full/full`.
-- **Layout:** single column of c. 34 long lines per page, one hexameter per line, 15th-c. cursive; red paragraph marks and 2-line red initials (V f. 90r, H f. 90v, P and B f. 91r, R and O f. 91v, M/V and A f. 92r, H f. 93r); contemporary marginal reference notes in a smaller hand (f. 90r "De ministro(?) ... 2.p.", f. 91r "De confirmatione .2" and "De cons(ecratione?) ... c. xii .2. m", f. 91v "ungat(?) 2.n." and "et lib(ro) primo ... sacramento(?) ... 2.o.", f. 92r "De p... eukarist(ia)", f. 93r "De (com)mun(ione?) ... b."); a pen-drawn dragon and flourishes in the lower margin of f. 91r. Lines are complete (no cut line ends); text loss only at the hole on ff. 92-93. Modern foliation 90-93. ff. 90-91 and 92-93 are not textually continuous with one another (f. 90 eucharist, f. 91 confirmation/chrism ending with a section on God's goodness, f. 92 eucharistic casus, f. 93 Easter communion), so the two bifolia come from different places in the same quire or book.
+Re-adjudicated 22 September 2026.
 
-## Status
+- **Identification: not identified; confidence none.** The inspected passages support a Latin didactic poem concerned with the Eucharist and other theological material. No author or work match was established. Genre and subject are not an attribution.
+- **Transcription: selected assisted image readings.** A fresh reader covered the top of fol.90r; the coordinator then inspected its larger band, the lower part of that page and the end of fol.91v. The earlier transcription was available to the coordinator. The selected readings remain uncertain, with no full metrical or palaeographic certification.
+- **Verification: manuscript images and bounded retrieval.** Three phrase searches found no sustained matching text. No candidate edition was available for line-by-line comparison. Common theological imagery in search results does not identify the poem.
 
-**NOT IDENTIFIED (genre established).** The text is not a quaestio commentary and not the prose/verse abbreviatio found on F-jaob. It is a continuous didactic poem in unrhymed dactylic hexameters (c. 270 verses on the eight pages) covering the sacraments in a pastoral-canonistic way: eucharist (institution, why under bread and wine, "eucharistia = bona gratia", whole Christ in each fragment / broken-mirror simile), confirmation (forehead, bishop only, chrism of balsam and olive oil consecrated on Maundy Thursday, Passover blood on the doorposts, Pope Fabian), unction of kings and bishops, then a section beginning on "bonum diffusivum sui", eucharistic casus (vomiting the host, spilled blood: 40 / 70 / 90 days' penance, viaticum carried in surplice and stole with lantern and bell "sicut Germania servat", indulgence granted by a council, no chalice for the laity, unworthy priests), annual Easter communion on pain of Christian burial (Lateran IV c. 21), communion of the insane. The work is divided into "dietae" (f. 91v: "Sed iam tempus adest tauros(?) disiungere fessos / ut se venture reparent pausando diete"). No author, title, incipit or explicit survives on the leaves. None of the anchors below hits Google Books, archive.org full text or Corpus Corporum, so no exact printed match has been located; publication status and composition date remain unresolved.
+[Catalogue](https://fragmentarium.ms/overview/F-8bin): Paris, BnF, Latin9377, ff.90–93, paper guard leaves catalogued as eastern France, 1451–1500. [Manifest](https://fragmentarium.ms/metadata/iiif/F-8bin/manifest.json); [fol.90r, Gallica f191](https://gallica.bnf.fr/ark:/12148/btv1b525133302/f191.item). Cached local crops were taken from previously downloaded full images; exact crop coordinates/scale were not recovered for this run. No new enhancement was applied.
 
-## Transcription (abbreviations expanded in parentheses, uncertain readings marked ?; every line is one hexameter)
+## Selected readings
 
-### f. 90r (Gallica f191) — Eucharist: institution
+The [preserved image-only response](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-8bin/readings/review-2026-09-22-image-only.json) has five readable rows plus clipped strokes of a sixth. It recovered portions such as *passurus*, *Traderet* and *victus amore*, but not a reliable continuous passage. Its *mari?* is revised to *mori* in the coordinator's assisted reading; uncertain beginnings and endings are not filled by metre.
 
-1. Q(uod?) satis atq(ue) sup(er) satis(?) q(ua)m cara feru(n)t(?)
-2. Et(?) c(ar)ne(m)(?) v(er)bu(m) pat(ri)s in nob(is) h(ab)itavit
-3. Atq(ue) mori voluit s(ed) nec diffusio tanta
-4. Sufficiebat ei nisi se passurus in escam
-5. Traderet et potu(m) nocivus(?) victus amore
-6. Sub sacramenti miro velamine tectu(m)
-7. De quo vel modicu(m) si dicere forte veli(mus)
-8. Intercisas(?) labiis(?) et corde stupescat
-9. Lingua sacramenti t(re)pidans formidine tanta
-10. Sufficiens etenim fore q(ue) scitura(?) valebit
-11. Ut descriptorem(?) salem(?) valluat(?) auctor(?)
-12. Patu(m)(?) no(n) sciam(?) primant(?) hoc verbula(?) verum(?)
-13. Ne cum(?) et gra(tia) tanto videam(us) amore(m)
-14. Clamemus in quo(?) fores pulsemus amici
-15. Tres nob(is) panes crebra p(re)ce victus(?) ut illos
-16. Co(m)modet ex quib(us) hec mist(er)ia nosce(re) queam(us)
-17. Hii sunt amor atq(ue) quibus utimur illic(?)
-18. Ardentes(?) mellitus(?) quo defecit(?) om(n)is(?)
-19. Pauperes(?) p(ro) boni(?) sp(er)antes nos fe(cit) et anti(?)
-20. Si tam sincere nos semp(er) amet(?) amantem
-21. Nam(?) hos(?) immensa sit ac impenetrabilis ista
-22. Humano res ingenio in(?) huius(?) aperte(?)
-23. Dignatur deus hanc emulo(?) qui(?) corde q(ue)r(it)(?)
-24. At humiles querunt quo requiescere(?) in hiis(?) et
-25. De sua(?) suplet(?) sancta fides totum(?)
-26. Est etenim fluvius quodam(modo) planus et altus
-27. Quo mirabiliter elephas natat ambulat agnus
-28. [V, red 2-line] Venit(?) hora ihesu(?) quia(?) sup(er) ... relictis(?)
-29. discipulis abiturus erat quo corpore(?) ...
-30. Quo(?) potius(?) sequi moverentur(?) ... sui quo
-31. Efficit(?) memores ... sibi sanguine ...
-32. hoc testamentu(m) nu(n)q(uam) violabile tamquam
-33. ... p(er)hennatu(m) mirabilit(er) q(uod) suoru(m)(?)
-34. periculo(?) sese dat eis metuentibus ...
+Fol.90r upper band, physical rows 3–6 in the larger crop:
 
-Lines 26-27 versify Gregory the Great, Moralia, Ep. ad Leandrum 4 ("quasi quidam fluvius planus et altus, in quo et agnus ambulet et elephas natet"); lines 14-16 versify Luke 11:5-8 (the friend at midnight, three loaves).
+> Atq(ue) mori voluit s(ed) nec diffusio tanta / Sufficiebat ei nisi se passurus in esca(m) / Traderet et potu(m) [uncertain word] victus amore / Sub sacramenti miro velamine tectu(m).
 
-### f. 90v (f192) — Eucharist: species, grain of wheat, name, whole Christ in each part
+Parentheses are proposed expansions, the uncertain word before *victus* is left unresolved, and the final words cross damaged areas. The sixth line was effectively unavailable in the shorter isolated packet, so it is an additional assisted image reading.
 
-1. Sub speciem(?) panis et vini que duo p(ri)ma
-2. Sunt in cibis cibus in potu reficiamur(?) et esu(?)
-3. Ergo ihesus(?) mentis(?) ... refecto(?) ... (interlinear: sensus?)
-4. Letificat cor(?) in hoc s(acramento) quod manet ... (margin: nullo)
-5. Significat(?) et in hoc s(acramento) ... quod manet unu(m)
-6. Ni(si)(?) ... fructu(m) quod nemo(?) fert mortificatu(m)(?)
-7. Solus erat vivus s(ed) mortuus in cruce Chr(istu)s
-8. Ac exaltatus a t(er)ris om(n)ia post se
-9. Traxit sicut ait cum panis celicus iste
-10. Sic(?) carnis humus(?) s(ed) qua(?) ... crevit
-11. Evehit et secum deducit in horrea celi
-12. Idq(ue) notans multis(?) quod unu(m) sicut ab uvis
-13. Confluit ac unus fit granulis(?) plurima(?) panis   (margin: ...pe sit sacramentu(m) ... q.)
-14. Sic sumus etiam(?) multi nos una fideles
-15. [H, red 2-line] Hoc sacramentu(m) s(ole)t(?) eukaristia dici
-16. Et sonat ex greco bona(?) gratia vel(?) spiritalis(?)
-17. Et cunctis maior(?) ... nos gratia(?) replet
-18. In quo plenus(?) ihesus(?) et panis speciebus
-19. Integer est du(m) in verbo(?) fit caro panis
-20. Fit(?) q(uo)d(?) ... unu(m) ihesus(?) et totus(?) ...
-21. In sola carne panis ... aqua
-22. Indivisibilis(?) sanguis ... illi
-23. Sit solus ... ex vino s(ed) carnis ab illo
-24. Aliud(?) dividit(?) ...
-25. Spes(?) et deitas huius ut sit ... utri(us)q(ue)(?)
-26. Sit ihesus(?) ex hoc(?) consistens et deitate
-27. Communicantia natur(al)is(?) id efficit aut(em)
-28. Undecu(m)q(ue)(?) ihesus(?) ... ibi ...
-29. In minutis(?) panis micas(?) ... vini quod gutta
-30. Hoc ... in speculo rupto p(er) frustula quam(?)
-31. In quos(?) species manet integer q(ue) fuit ante species(?)
-32. Sed licet in rebus(?) ... latet ihesus(?) illis
-33. Ac illis(?) ... substancia ... 
-34. Essentia(?) ... huius(?) manet omnis(?) earum(?)
+The first complete row of the lower fol.90r crop reads:
 
-Lines 12-14 versify 1 Cor 10:17 with the many grains / many grapes image (Augustine, Sermo 227; Lombard IV d. 8); line 15-16 "eucharistia = bona gratia" (Lombard IV d. 8 c. 1); lines 29-31 the broken-mirror simile (Innocent III, De sacro altaris mysterio IV.8 and the Sentences tradition).
+> Quo mirabilit(er) elephas natat ambulat agn(us).
 
-### f. 91r (f193) — Confirmation and chrism (margin: "De confirmatione .2"; "De cons(ecratione?) ... c. xii .2. m")
+This familiar elephant/lamb image occurs in many forms in Christian writing. The wording is a useful search anchor but insufficient to establish Gregory or any later compiler as the poem's author.
 
-1. ...(?) mag(ister)(?) et(?) ... te c(ru)ce signo
-2. Crismate te sacro tingens(?) in nomine patris
-3. Et nati flatusq(ue) sacri variare licet
-4. Forsitan ... q(uod) no(n) legit(ur) ihesus ... tenuisse
-5. [P, red 2-line] ... sunt primus(?) sacer(?) ut ... illo
-6. ... ut dixi q(uod) plene baptizatus(?) nos
-7. Efficiat et fronti quod(?) solu(m) ... ipsum(?)
-8. Fronte patet pudor a(n)i(m)i(?) metus(?) sit ungit(ur) illa
-9. Absq(ue) metu talis ut apte confiteatur
-10. Absq(ue) rubore deu(m) ... t(antu)m quesivit(?) illud (interlinear: crisma)
-11. ... ideo dat solus ep(iscopu)s ipsum (interlinear: crisma)
-12. hoc et ap(osto)lica sanxit reverencia more(m)
-13. Solus p(ro)spicit(?) ... hoc ... morte(?) papa
-14. Sicut Gregorius(?) hoc concessio p(ri)mi(?)
-15. Tantu(m) significans est hic foris unctio facta
-16. Unctio res t(antu)m qua sp(iritu)s efficit intus
-17. Et vere datur om(n)i digne suscipienti (interlinear: illud s(acra)m(en)tu(m))
-18. Efficiens aut augmentans q(uod) significatur
-19. Signu(m) simul et signatus erit ipse karakter
-20. [B, red 2-line] Balsama pontificis in crismate consecrando
-21. Sanctus(?) manus(?) oleo co(m)miscet olive
-22. In die(?) cena licet hoc benedicere tantu(m)
-23. Namq(ue) ritu(m)(?) vetus co(n)fert hec cena dies
-24. In quo signabat agni de sanguine postes
-25. Israelita suos devastans regna Canopi
-26. Angelus intactis domib(us) transiret ut illis
-27. Sic nova plebs agni signata sanguine veri
-28. Frontib(us) intacta manet a virtute(?) nociva
-29. Sicut(?) ... crisma ... iubet ... et Fabianus
+A separate [fol.91v image, f194](https://gallica.bnf.fr/ark:/12148/btv1b525133302/f194.item), bottom band, gives an apparent division formula: *… disiungere fessos / Ut se venture reparent(?) pausando diete*. The preceding oxen word, partly clipped at the crop's top, is not newly certified. After a red O initial the text turns to *bonum diffusivum … sui*. This supports the earlier observation of a sectional transition; it does not establish the entire poem's organization or identify a source for the following section. The marginal reference and several words remain unresolved.
 
-Doctrine follows Lombard IV d. 7 (chrism on the forehead "ut ... non erubescat", bishop as sole minister, confirmation as "signum"/character) and Decretum De cons. D. 4 c. 122 (Fabian: chrism renewed each year on Maundy Thursday).
+## Retrieval and result
 
-### f. 91v (f194) — Chrism cont., anointing of kings and bishops, end of a "dieta", new section on God's goodness
+On 22 September 2026, web searches for *sub sacramenti miro velamine*, *elephas natat* with *ambulat agnus*, and *tauros disiungere fessos* with *sacramentis* yielded no sustained match to the inspected poem. The last query deliberately tests an inherited, incompletely rechecked reading. Results for the elephant/lamb language included prose and later uses of the common image; none established this poem. This is a limited search result, not proof of an unprinted text.
 
-1. ... utendo post ... in(?) mors(?) ... illo
-2. ... aq(uo)(?) peccat illud p(re)sule(?) ...
-3. Ipse(?) sive suos ... nubes(?) ...
-4. Cu(m) celebri missa benedicit(ur) ...
-5. Tradi forma iubet q(ue) vere munia(?) pacis
-6. Intercepta(?) diu sanctus(?) ... ille revexit
-7. Inde duplex oleu(m) cu(m) crismate co(n)s(e)crat unu(m)
-8. Dat cathecuminis reliquu(m) ...   (margin: ungat(?) 2.n.)
-9. [R, red 2-line] Rex(?) ex quo(?) suevit ungi regat q(uod) sacerdos
-10. S(ed) in(?) ... Christo qui reges nos facit om(ne)s
-11. Si t(ame)n et hic eos more(?) ... regamus
-12. Atq(ue) sacerdotes du(m) nos sibi sacrificam(us)
-13. Quamvis(?) Christus(?) ... dat unctio cunctis
-14. S(ed) t(ame)n int(er) eos distancia certa notat(ur)
-15. Crismate pontifici du(m) consecrat(ur) inungi
-16. Vult caput huic capitis q(uod) p(er)sona(m) gerit ipse
-17. Cetera(?) Christi manib(us) dat unctio sacra
-18. Na(m) q(uod) minist(er)iu(m) dat huic ut rite sacranda
-19. Consacret vestes(?) benedicat op(er)a(?) ...
-20. Hec q(uod) sacerdoti ... sacratio(?) eade(m)
-21. Unctio s(ed) capite regis ... 
-22. Aut humili(?) Saulis(?) ... 
-23. ... sic ut hic discat(?) ...
-24. Insup(er) eccl(es)ie calices ungunt(ur) et arce(?)
-25. Sed ia(m) te(m)pus adest tauros(?) disiung(er)e fessos
-26. Ut se venture reparent(?) pausando diete
-27. [O, red 2-line] ... Que(?) bonu(m) diffusivu(m) dicere(?) ...
-28. Ipsius est sui quarto(?) ... bonitatis   (margin: et lib(ro) primo ... sacramento(?) ... 2.o.)
-29. Que sequunt(ur) ... que(?) copulat(?) ...
-30. ... forma boni ... carens ... 
-31. ... factura ... dulcia posset
-32. Participare boni sese diffundens in illam
+The file previously labelled as Summula OCR in the cache turned out to begin with a catalogue of canon-law manuscripts. It is not a direct comparison of Adam of Aldersbach's poem. That candidate therefore remains untested here rather than excluded. The old author's lists and broad exclusions are not carried forward as conclusions.
 
-### f. 92r (f195) — Eucharistic casus, viaticum, communion under one kind (margin: "De p... eukarist(ia)")
+A more useful next step is a direct comparison with a complete candidate poem or a repertory entry matching several consecutive verses. The remaining folios, complete metre, marginal references, original leaf sequence, composition date and provenance have not been newly established. The catalogue's copying date is retained as catalogue information. No human palaeographer reviewed these excerpts and no transcription accuracy rate was measured. The saved before version retains the former much longer reading.
 
-1. Locus(?) q(uod) fluit hinc sumat et quisq(ue)(?) fidelis
-2. Si vomit egrotus ne sumat corp(us) ...
-3. Corpore contacta(?) mus(?) est in iste quibus(?) dam(?)
-4. hunt(?) culpam septem decem(?) emendare diebus
-5. Evomat hoc laicus si forte ...
-6. Quadraginta dies hinc penituisse iubet(ur)
-7. Clericus aut monachus decies septem ... inde
-8. P(re)sul castiget se nonaginta diebus
-9. [M/V, red 2-line] ...sset honorifice devotus p(res)b(ite)r illud
-10. Cu(m) petit infirmu(m) sit sup(er)pelliciatus
-11. Induens(?) q(uoque) stola(m) ferat ip(su)m(?) in pectore mu(n)do
-12. Tegmine velatu(m) semp(er) p(re)cedente lucerna
-13. Et campanella sicut Germania servat
-14. Et quantu(m)(?) q(uod) moveat sacer cu(m) corpore gressus
-15. Ipse genu flectat in ... se reverent(er)
-16. Om(n)is homo veniens ibi ... 
-17. ... et ave b(e)n(e)dicta Maria
-18. Hoc q(ui)cu(m)q(ue) ... hospitalense(?)
-19. Conciliu(m) ... quinq(ue)(?) dies indulget eidem
-20. ... et ubi cautela sit hoc ne p(res)b(ite)r egris
-21. Aut sanis laicis tribuat de sanguine Christi
-22. Na(m) simul(?) leviter posset simplex q(uia) putaret
-23. Q(uod) no(n) ... ihesus esset totus utiq(ue)
-24. Q(uod) facit hic alit(?) novitatu(m)(?) grande(?) mat(er)(?)
-25. [A, red 2-line] At sacerdote(m) ... malis(?) sup(er) se ...
-26. Indignos culpe s(ed) consensus exigat(ur)(?)
-27. Vel cui recta fides no(n) est aut irreverent(er)
-28. Devote ne nimis sit ei ... veneranda(?)
-29. Sta(?) quide(m) ... obviat no(n) q(uod) mala sint hec
-30. Sed male sanctus(?) malus du(m) sumit ...
-31. Solis na(m) radius oculos qui luce serena
-32. Delectat sanos torquet ... egros
-33. ...
-34. Excitat mente(m) factoris ...
-
-Lines 4-8 versify Decretum De cons. D. 2 c. 27-28 (penance of 40 / 70 / 90 days for spilling the sacrament); lines 10-19 the viaticum regulations (Honorius III, X 3.41.10 "Sane", and the diocesan statutes' surplice-stole-lantern-bell rule with indulgence); lines 21-23 communion under one kind for the laity (concomitance).
-
-### f. 92v (f196) — unworthy ministers do not pollute the sacrament
-
-1. Corpus debilitat et vite tempora curtat
-2. Gressibus et firmu(m)(?) ... scandala mortis
-3. Separat a Christo ... cruciatib(us) addit
-4. ... magis q(uod) maior in corde cu(m) sit
-5. Totus et admoveris(?) ... ostendat(?) eius
-6. Na(m) ob hoc pena merito debet(ur) eidem
-7. Sed hoc exitu(m)(?) faciat celebratio Christi
-8. Ista sacerdoti du(m) totu(m) no(n) tenet illum
-9. ... pollutu(m) corpus ... 
-10. Continuit(?) baptista caput ... solu(m)
-11. Non t(ame)n ap(osto)lo(?) sunt contempnenda fideli
-12. ... no(n) ... s(ed) abiecta tollant(ur)
-13. Sacramenta p(ri)us(?) q(ue) tradita ... sacer que sunt
-14. Pollutis indignis pollucio nulla minist(ri)
-15. ... sunt cunctis(?) sumenti qualit(er) et Christi(?)
-16. Solis na(m) radius du(m) p(er) loca sordida transit
-17. Non violat(ur) ab hiis deus ...
-18-34. (not transcribed: "Non maculatur ob hoc ... sacer ... / ... aqua ... lavat ... / Ergo ... dignis(?) missa ... / ... ut aliis(?) ... / ... sit ... ita manifeste / Nulla ... / ... confessus est hoc ... / ... missam ... audiat ... / ... sumat ab ipso / ... sit celebrans ...")
-
-### f. 93r (f197) — annual Easter communion (margin: "De (com)mun(ione?) ... b.")
-
-Lines 1-19 not fully read (ends "... Zacheo q(ue) fuit ... cu(m) cordis amore / ... suam gaudens ... suscepit ... / Ille ... dignu(m) ... se dixit honore"). Line 20, red 2-line H: "Hinc(?) ergo q(uod) om(n)is homo qui iam ... ad minus / ... accipiat ... / In pascha sacramentu(m) ... / precipit eccl(es)ia ne templi ... / ... ab ingressu(?) caritur(us) honore sepulcri / In decreti(?) ... pastoris ad hora(m) / abstineat ... excusat ... / Si secus abstineat no(n) est excusatio facti / Sed potius maioris ... culpe / Sufficiens ... reverencia tanta / Esse sacramenti ... / Tante mundicie ... si pollucio noctis" = Lateran IV c. 21 "Omnis utriusque sexus" (yearly communion at Easter; otherwise "vivens ab ingressu ecclesiae arceatur et moriens christiana careat sepultura"; abstention only on the pastor's advice).
-
-### f. 93v (f198) — communion of the insane, etc.
-
-Partly read: "... amentib(us) et furiosis / Qui nequeunt ... / ... / Nam culpe ... / ... si mortis hostia sacra / ... quadraginta diebus / ... / Sollempnis(?) ... papa ... requiris / In sacramento ... / Colligat et sumat s(ed) periculus(?) ...". Margin: "...", "In minor... 2." Hole in the leaf removes the beginnings of c. 8 lines.
-
-## Identification: what was tested and ruled out
-
-Anchor phrases used (all Google Books API via tools/gbsearch.py, archive.org FTS, Corpus Corporum p/s indexes; spelling variants tried): "elephas natat ambulat agnus", "sub sacramenti miro velamine", "passurus in escam", "formidine tanta" + "sacramenti", "crebra prece" + "tres nobis panes", "violabile tamquam", "sonat ex greco/graeco" + "eucharistia dici", "nos una fideles", "in speculo rupto", "deducit in horrea", "absque metu talis ut apte confiteatur", "absque rubore deum", "flatusque sacri", "regna Canopi" + "angelus", "sanguine postes" + "israelita", "balsama pontificis", "in crismate consecrando", "oleo commiscet olive", "karakter" + "signatus erit", "dum nos sibi sacrificamus", "distantia certa notatur", "crismate pontifici", "disiungere fessos", "tempus adest tauros", "pausando dietae", "sese diffundens in illam", "sicut Germania servat", "superpelliciatus" + "campanella", "precedente lucerna", "clericus aut monachus" + "nonaginta", "laicis tribuat" + "de sanguine christi". Result: 0 relevant hits everywhere (only the prose sources: Gregory's fluvius, Augustine's Passover, the diocesan-statute prose on the viaticum, Sinistrari on the 40/70/90 days).
-
-- **Not** the pseudo-Bonaventure "Sententiae Sententiarum" (Peltier VI pp. 645-658): those are 5-12 mnemonic lines per distinction; this is c. 34 continuous hexameters a page with invocations, similes and a "dieta" structure. No line of Peltier's d. 7-13 verses recurs here.
-- **Not** an abbreviatio of Lombard with capitula and Decretum cross-references (the F-jaob type); no "Primum c.", no divisio textus.
-- **Not** Aquinas ST III, Albert, Bonaventure, William of Auvergne, Guitmund, Alger: all prose; the fragment is metrical throughout.
-- **Adam of Aldersbach, Summula de summa Raymundi** (hexameter summa of Raymond's Summa III, hugely copied in the 15th c.; prints 1504 Google Books -TRWM722l5EC, 1530 EgGPory9nEoC, 1568 W-VjAAAAcAAJ; no archive.org OCR mirror exists): content overlap is real (eucharistic casus, chrism, confirmation, canon-law tags) but Google Books queries pairing "summula"/"raymundi" with "elephas", "canopi", "karakter", "trepidans", "eucharistia dici" return nothing, and the fragment's literary manner (invocation, Gregory simile, "tauros disiungere fessos", "dietae") is unlike the Summula's bald mnemonic style. Not confirmed, not excluded line by line (no OCR available to me).
-- John of Garland, De mysteriis ecclesiae (ed. Otto 1842) and Alexander de Villa Dei, Ecclesiale: not checked line by line (no OCR located in budget); both are far shorter and lack the casus material, so unlikely.
-- Hildebert / Petrus Pictor, De sacramento altaris: eucharist only, no confirmation, no canon-law casus; the anchors do not hit PL 171 in Corpus Corporum.
-
-Date hypotheses: the discussion may versify Lateran IV c.21 and legislation on carrying the viaticum. A terminus post quem requires confirmation of diagnostic legislative wording, rather than the topic of Easter communion alone. The phrase "sicut Germania servat" does not securely locate the author. Retain the catalogue's fifteenth-century date for the copy; composition date and origin remain unresolved.
-
-## Google Books queries to run (lead runs centrally)
-
-Note: the queries in the "ruled out" list above were already run through the wrapper earlier in this session (all 0 relevant). The following are the most distinctive anchors, including ones not yet tried:
-
-1. `"elephas natat" "ambulat agnus"` (verse order; prose sources have "agnus ambulet ... elephas natet")
-2. `"sub sacramenti miro velamine"`
-3. `"trepidans formidine tanta"`
-4. `"tauros disiungere fessos"`
-5. `"sicut Germania servat"`
-6. `"absque metu talis ut apte"`
-7. `"pollutio nulla ministri"` and variant `"pollucio nulla ministri"`
-8. `"crebra prece" "commodet"`
-9. `"per loca sordida transit" radius`
-10. `"summula" "raymundi" "germania servat"` (to test the Summula candidate directly)
-
-## Next moves
-
-1. Read ff. 92v (lines 18-34), 93r (1-19) and 93v fully from the saved full-size images to harvest an incipit-like line for the "dieta" openings (the O-initial section on f. 91v line 27 and the H-initial section on f. 93r are section starts) and search Walther, Initia carminum, and Bloomfield/Stegmüller with those.
-2. Get an OCR of the Summula de summa Raymundi (e.g. MDZ/BSB incunable, ISTC ir00033000 ff., or Penn Ms. Codex 730/741 on archive.org with page images) and collate the confirmation/chrism/casus sections against ff. 91r-92r to close that candidate definitively.
-3. Query the BnF catalogue notice of Latin 9377 for the other fragments' identifications (F-jaob's texts were also verse-bearing school compendia); the guard leaves may all come from one 15th-c. student's miscellany, and the host's provenance (Eastern France) may point to a local versified "Summa de sacramentis".
-4. Check the marginal apparatus wording ("De confirmatione .2", "De cons. c. xii .2. m", "et lib. primo ... 2.o") against the chapter numbering of Hugh Ripelin's Compendium theologicae veritatis lib. VI (sacraments) and lib. I (God's goodness), which the O-initial section ("bonum diffusivum sui ... bonitatis") seems to follow; the poem may be a versification of the Compendium.
-
-## Google Books pass (run by lead, 2026-09-20)
-All ten remaining anchors 0 hits: "elephas natat"+"ambulat agnus", "sub sacramenti miro velamine",
-"trepidans formidine tanta", "tauros disiungere fessos", "sicut Germania servat", "absque metu talis ut
-apte", "pollutio/pollucio nulla ministri", "per loca sordida transit"+radius, summula+raymundi+"germania
-servat". No exact match was located. Next step: Walther, Initia carminum, by incipit of each dieta; unprinted status is not established.
+[Preserved source-assisted review](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-8bin/readings/review-2026-09-22-assisted.json). The initial record above remains unchanged.

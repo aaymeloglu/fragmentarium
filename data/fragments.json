@@ -12,10 +12,10 @@
   "catalogue_date": "1001-1100 (Carolingian minuscule)",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Passage parallel to Cherubino da Spoleto, Sermones quadragesimales; attribution provisional",
-  "note": "Several consecutive line ends agree with the Venice 1502 edition, Google image p.346. Earlier/shared sources remain possible; manuscript date and script assessment unresolved.",
+  "identification": "Passage parallel to Cherubino da Spoleto, Sermones quadragesimales; compiling text and attribution unresolved",
+  "note": "Selected manuscript line ends agree with a Google Books snippet labelled PA346 for the 1502 edition. Full printed page unavailable; shared source and catalogue dating unresolved.",
   "verify": "https://books.google.com/books?id=HuwS8O9sw2UC&pg=PA346&q=%22culpa+redarguit%22",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-1exy",
@@ -30,10 +30,10 @@
   "catalogue_date": "1375-1400",
   "status": "identified",
   "confidence": "high",
-  "identification": "Nicholas of Lyra, Tractatus de differentia nostrae translationis ab hebraica littera (1333), Genesis 2:18-6:16 and 16:13-28:18",
-  "note": "Sustained agreement in distinctive exposition with the Rouen 1507 edition; sampled passages rechecked against manuscript and print images. Full Genesis endpoints not recollated.",
+  "identification": "Nicholas of Lyra, Tractatus de differentia nostrae translationis ab hebraica littera, Genesis section",
+  "note": "Active/passive generation argument and Genesis 3 transition checked against manuscript and Rouen 1507 print images n15–16; full endpoints not recollated.",
   "verify": "https://archive.org/details/OEXV848RES/page/n15/mode/1up",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-2e1n",
@@ -48,10 +48,10 @@
   "catalogue_date": "1401-1450",
   "status": "identified",
   "confidence": "high",
-  "identification": "Johannes Balbus, Catholicon (1286), letter C: Cain-Catinus and Cibus-Cilicia, two non-consecutive leaves",
-  "note": "Definitions and entry order match the Catholicon; sampled Cain and Cataplectos/Catapuera/Catapulta/Cataracta entries checked. Full leaf arrangement not independently established.",
+  "identification": "Johannes Balbus, Catholicon, letter C",
+  "note": "Catapuera, Catapulta and Cataracta definitions and sequence compared with edition n211; additional Catalecticus group inspected. Full range and leaf order unchecked.",
   "verify": "https://archive.org/details/OEXV3RES/page/n211/mode/1up",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-cfry",
@@ -66,10 +66,10 @@
   "catalogue_date": "15th century",
   "status": "identified",
   "confidence": "high",
-  "identification": "Nicholas of Lyra, Postilla litteralis super Epistolam ad Hebraeos, cap. 5 (Heb 5:1-9)",
-  "note": "Distinctive exposition and its Augustine quotation match the 1603 edition. Sample rechecked in printed col.842 (image n426); full passage endpoints not recollated.",
+  "identification": "Nicholas of Lyra, Postilla litteralis super Epistolam ad Hebraeos, chapter 5",
+  "note": "Pontifical-office explanation and additional office-seeking warning match the 1603 print, cols.841–842. Local wording variants retained; full endpoints unchecked.",
   "verify": "https://archive.org/details/bibliorumsacroru06strauoft/page/n426/mode/1up",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-eo5z",
@@ -84,10 +84,10 @@
   "catalogue_date": "14th century",
   "status": "identified",
   "confidence": "high",
-  "identification": "Richard of Middleton OFM, Quaestio disputata de gradu formarum (c. 1286): the 'leprosus generat leprosum' proof and the three impossibilia",
-  "note": "The leprous-parent and asses arguments match Hocedez's printed text, p.392. Text identification supported; proposed leaf order and witness novelty not independently established.",
+  "identification": "Richard of Middleton, Quaestio disputata de gradu formarum; leprous-parent and asses arguments",
+  "note": "Pilot manuscript-to-published-excerpt comparisons retained, including cancellation and manuscript/print differences. Shorter fresh crop did not improve recognition; full collation and novelty unresolved.",
   "verify": "https://archive.org/details/richarddemiddlet0000edga/page/n405/mode/1up",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-s8db",
@@ -102,10 +102,10 @@
   "catalogue_date": "14th century",
   "status": "identified",
   "confidence": "high",
-  "identification": "Guido de Baysio (Archidiaconus), Rosarium super Decreto, on C. 10 q. 1 c. 13-14 and q. 2 pr.",
-  "note": "Distinctive prose on C.10 q.1 c.13 independently matched to the 1481 Rosarium, Freiburg image 0415. Faded material attributed to q.2 not fully recollated.",
+  "identification": "Guido de Baysio, Rosarium super Decreto, C.10 q.1 c.13",
+  "note": "Connected manuscript passage matches the 1481 print image0415 (206a). Additional faded passage is inconclusive; broader c.14/q.2 span not certified.",
   "verify": "https://dl.ub.uni-freiburg.de/diglit/guidobaysio1481/0415",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-jaob",
@@ -120,10 +120,10 @@
   "catalogue_date": "14th century",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Anonymous epitome of Lombard IV: pseudo-Bonaventure mnemonic verses and chapter summaries parallel to those in Jan Hus's Super IV Sententiarum",
-  "note": "Reported verse and prose parallels remain useful; they do not establish Hus's source or the direction of borrowing. Compiler unidentified; full parallels not recollated in the second review.",
+  "identification": "Anonymous Sentences IV epitome combining mnemonic verse and prose summaries",
+  "note": "Verse block matches pseudo-Bonaventure, Peltier VI p.655; punishment list parallels Hus edition p.593. Edition OCR used; compiler and direction of borrowing unresolved.",
   "verify": "https://archive.org/details/superivsententia41husj_0",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-3yl2",
@@ -138,10 +138,10 @@
   "catalogue_date": "14th century",
   "status": "partial",
   "confidence": "medium",
-  "identification": "A both-laws compendium reworking Aquinas, Summa theologiae IIa-IIae q. 10 a. 11-12 and q. 11 a. 1, with Roman-law and Decretum citations added",
-  "note": "The catalogue already recognized ST IIa-IIae q.10 a.11. Additional source loci and legal interpolations are proposed; compiler unidentified, with no exact printed match located.",
+  "identification": "Anonymous compilation adapting Aquinas, Summa theologiae IIa-IIae q.10 a.12 and q.11 a.1",
+  "note": "Manuscript law and heresy passages compared with Corpus Thomisticum text; condensation and added legal citations retained. Catalogue q.10 a.11 locus not newly collated.",
   "verify": "https://www.corpusthomisticum.org/sth3001.html",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-ahiy",
@@ -155,11 +155,11 @@
   "catalogue_title": "Unidentified encyclopaedia",
   "catalogue_date": "1351-1400",
   "status": "partial",
-  "confidence": "low",
-  "identification": "An alphabetical tabula of auctoritates (Modestia to Mors) with chapter and pericope-letter references; not a lexicon",
-  "note": "Several quotations have source parallels; others remain unchecked or were traced indirectly. Anonymous alphabetical tabula; Jean de Fayt is an untested candidate.",
+  "confidence": "medium",
+  "identification": "Alphabetical compilation of moral authorities, with Moralium dogma philosophorum and patristic source parallels",
+  "note": "Connected Modestia passage and patristic quotations checked; Ambrose citation corrected. Shared Manipulus quotation does not identify compiler; partial/medium applies to source connections.",
   "verify": "https://fragmentarium.ms/overview/F-ahiy",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-nei7",
@@ -174,10 +174,10 @@
   "catalogue_date": "14th century",
   "status": "partial",
   "confidence": "low",
-  "identification": "Anonymous Sentences Book I question on innascibilitas, generation, and primacy; exact distinction and school provisional",
-  "note": "Internal cross-references suggest a position between d.18 and d.26. The widespread 'unmarked sheep' example does not establish an author or direct borrowing; no exact edition match located.",
+  "identification": "Anonymous scholastic questions probably relating to Sentences I; author and exact locus unresolved",
+  "note": "Innascibilitas and generation arguments checked against related Richard of Middleton and Thomas of Strasbourg discussions. Topic shared across authors; exclusive school attribution unsupported.",
   "verify": "https://fragmentarium.ms/overview/F-nei7",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-8bin",
@@ -192,10 +192,10 @@
   "catalogue_date": "15th century",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Unidentified didactic poem in hexameters on the sacraments, divided into dietae sections; composition date unresolved",
-  "note": "No exact match located in the recorded searches. That does not establish unprinted status; post-1215 dating depends on confirming diagnostic legislative wording.",
+  "identification": "Unidentified Latin didactic poem on sacramental themes, with an apparent dieta transition",
+  "note": "Selected manuscript passages re-read; no sustained source match located. Previously labelled Summula OCR is a manuscript catalogue, so Adam of Aldersbach was not collated.",
   "verify": "https://fragmentarium.ms/overview/F-8bin",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-lmfj",
@@ -210,10 +210,10 @@
   "catalogue_date": "14th century",
   "status": "identified",
   "confidence": "high",
-  "identification": "Hippocrates, De regimine acutorum (Articella version), end of Book II, with Galen's commentary in the Arabic-Latin translation",
-  "note": "Both the Hippocratic lemma and Galen's commentary match the 1491 Articella in sampled manuscript/print comparisons. Specific translator and full endpoints not independently investigated.",
+  "identification": "Hippocrates, De regimine acutorum, with Galen commentary in the Latin Articella tradition",
+  "note": "Lemma and sustained commentary checked against 1491 Articella n181, with additional passages and a clause transposition. Translator, book numbering and full endpoints unresolved.",
   "verify": "https://archive.org/details/101321207.nlm.nih.gov/page/n181/mode/1up",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-o1p7",
@@ -228,10 +228,10 @@
   "catalogue_date": "14th century",
   "status": "identified",
   "confidence": "high",
-  "identification": "Bernardus Compostellanus iunior, Lectura in primum librum Decretalium, on X 1.6.23 Bonae memoriae and 1.6.24 Querelam (De electione)",
-  "note": "Distinctive extended prose matches the 1516 Lectura's OCR, with manuscript-image samples rechecked. Print fols.55v-56v and ambiguous readings still need facsimile verification.",
-  "verify": "https://archive.org/details/bub_gb_3RhpO70ZNiwC",
-  "examined": "2026-09-20"
+  "identification": "Bernardus Compostellanus iunior, Lectura in primum librum Decretalium, De electione",
+  "note": "De novo and Querelam/Removeri passages checked against actual 1516 print images n125–127, fols.55v–56v. Local abbreviation and lemma uncertainties remain.",
+  "verify": "https://archive.org/details/bub_gb_3RhpO70ZNiwC/page/n125/mode/1up",
+  "examined": "2026-09-22"
  },
  {
   "id": "F-8bfm",
@@ -246,10 +246,10 @@
   "catalogue_date": "1350-1400",
   "status": "identified",
   "confidence": "high",
-  "identification": "Robert Holcot OP, Super Sapientiam Salomonis, end of lectio II and start of lectio III (Wis 1:1-2)",
-  "note": "Manuscript/1494 edition samples agree on the theological virtues, the Aristotle objection, and simplicity of heart. Full lectio endpoints and leaf reconstruction not recollated.",
+  "identification": "Robert Holcot, Super Sapientiam Salomonis, end of lectio II and part of lectio III",
+  "note": "Three connected commentary passages compared with actual 1494 print images n40–41. Wording variants retained; unread binding areas and complete endpoints unchecked.",
   "verify": "https://archive.org/details/A336075/page/n40/mode/1up",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-h8oz",
@@ -264,10 +264,10 @@
   "catalogue_date": "14th century",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Anonymous procedural text with a close parallel to Durantis, Speculum iudiciale II.3, De appellationibus, Nunc breviter 13-14",
-  "note": "Substantial rewording and a differing or uncertain auditor initial prevent a verbatim claim. Recension, source, adaptation, or common source remain possible; relationship undetermined.",
+  "identification": "Anonymous procedural text with a close Durantis, Speculum iudiciale II.3, De appellationibus parallel",
+  "note": "Pilot checks retained: n.14 shares a case with different wording; n.15 continuation differs. Exact work and recension unresolved; CATMuS segmentation failed on tested crop.",
   "verify": "https://archive.org/details/DurantisSpeculumIudicialeLyon1578ParsSecunda264H",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-szxp",
@@ -282,10 +282,10 @@
   "catalogue_date": "14th century",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Medical florilegium on sleep and excessive sleep; Arnoldus Saxo's Practica is an unverified candidate",
-  "note": "Reported medical source excerpts support the content description. Attribution requires comparison with Oxford Lat. misc. e.34; neither a complete witness census nor a second-witness claim is established.",
+  "identification": "Medical compilation on sleep, with Hippocratic and other source layers; compiler unidentified",
+  "note": "Albert the Great narrative parallel and Hippocratic aphorisms compared; different Latin wording retained. Arnoldus Saxo witness not collated; presumed article PDFs were access-block pages.",
   "verify": "https://fragmentarium.ms/overview/F-szxp",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-072h",
@@ -300,10 +300,10 @@
   "catalogue_date": "14th century",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Anonymous commentary on Hippocrates, Aphorisms VII.53-59, plus a chapter table provisionally associated with a Latin Galen collection",
-  "note": "Aphorism lemmata are the stronger identification. The commentary remains anonymous; proposed Galenic works, book numbering, and translation require edition-level checking.",
+  "identification": "Commentary around Hippocrates, Aphorisms VII.54–59, plus a medical chapter table; compiling work unresolved",
+  "note": "Selected aphorisms compared with Articella OCR. Old alleged Galen exclusion used a second lemma translation, not a sufficient commentary check. Exact table text and translator unresolved.",
   "verify": "https://archive.org/details/articellanuperri00gaze",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-b8xt",
@@ -318,10 +318,10 @@
   "catalogue_date": "15th century",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Anonymous Metaphysics VII question commentary drawing on Aquinas's Sententia libri Metaphysicae VII lect.4",
-  "note": "Source parallels support a Thomistic connection. Versor, Cologne, and Louvain remain research leads; author, school, and provenance are not established.",
+  "identification": "Anonymous Metaphysics questions with sustained Aquinas, Sententia libri Metaphysicae VII lect.4 nn.3–4 parallels",
+  "note": "Man/whiteness and proportional-participation passages checked against digital Latin; question apparatus remains distinct. Versor digitization located but not textually collated.",
   "verify": "https://www.corpusthomisticum.org/cmp07.html",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-nxl7",
@@ -336,10 +336,10 @@
   "catalogue_date": "14th century",
   "status": "partial",
   "confidence": "low",
-  "identification": "Anonymous questions on longevity, natural heat, and moisture in Aristotle's Parva naturalia tradition; exact base text unresolved",
-  "note": "The report compares related topics in De longitudine and De iuventute/De morte et vita. Jandun remains unverified; leaf reconstruction is a proposal.",
+  "identification": "Anonymous questions on longevity, natural heat and moisture in the Parva naturalia tradition",
+  "note": "Several manuscript question passages inspected; related Buridan OCR differs. Its section heading corrects an overbroad earlier locus. Exact base text and author unresolved.",
   "verify": "https://fragmentarium.ms/overview/F-nxl7",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  },
  {
   "id": "F-0kql",
@@ -354,10 +354,10 @@
   "catalogue_date": "14th century",
   "status": "partial",
   "confidence": "low",
-  "identification": "Latin life of Gregory the Illuminator in the Agathangelos tradition; exact recension unresolved",
-  "note": "Gregory was already recognized in the catalogue. BHL 3664 remains to be compared in full; relationship to F-hcpv and revised image order are proposals.",
-  "verify": "https://fragmentarium.ms/overview/F-0kql",
-  "examined": "2026-09-20"
+  "identification": "Latin life of Gregory the Illuminator in the Agathangelos tradition; exact Latin recension unresolved",
+  "note": "Mule/altar and baptism sequences compared with the longer Acta Sanctorum life; Latin wording differs. Anonymous BHL3664 checked and differently abbreviated, not an exact match.",
+  "verify": "https://www.heiligenlexikon.de/ActaSanctorum/30.September.html",
+  "examined": "2026-09-22"
  },
  {
   "id": "F-hcpv",
@@ -371,11 +371,11 @@
   "catalogue_title": "Legendary: unidentified legend on St Gregory the Illuminator, ch. 1-5",
   "catalogue_date": "14th century",
   "status": "partial",
-  "confidence": "low",
-  "identification": "Ending of a Latin life of Gregory the Illuminator, probably related to F-0kql; exact recension unresolved",
-  "note": "Shared layout and text suggest the same manuscript. Quire reconstruction remains provisional; a different recorded ending alone does not exclude BHL 3664 or establish an unedited recension.",
-  "verify": "https://fragmentarium.ms/overview/F-hcpv",
-  "examined": "2026-09-20"
+  "confidence": "medium",
+  "identification": "Ending of a Latin life of Gregory the Illuminator; exact Latin recension unresolved",
+  "note": "Princely retinue, Rome and Nicaea narrative compared with longer Acta Sanctorum life; source-family connection supported but wording differs. BHL3664 ending also checked.",
+  "verify": "https://www.heiligenlexikon.de/ActaSanctorum/30.September.html",
+  "examined": "2026-09-22"
  },
  {
   "id": "F-2a37",
@@ -390,9 +390,9 @@
   "catalogue_date": "14th century",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "A scholastic lemma-and-exposition commentary in two columns with underlined lemmata, cross-references by chapter and to Paul; the written side faces outward and is worn to near-illegibility",
-  "note": "Channel separation recovered isolated words only; the better-preserved inner face is under paper pastedowns. No search was possible. Needs UV or raking-light imaging.",
+  "identification": "Unidentified, heavily worn text; a scholastic lemma-and-exposition commentary is plausible",
+  "note": "Fresh isolated reading and additional image checks remain uncertain; no sustained source match. A probable side-label error is documented without changing the preserved record.",
   "verify": "https://fragmentarium.ms/overview/F-2a37",
-  "examined": "2026-09-20"
+  "examined": "2026-09-22"
  }
 ]

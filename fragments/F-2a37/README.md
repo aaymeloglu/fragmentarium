@@ -1,49 +1,48 @@
-# F-2a37 — Orselina-Locarno, Biblioteca Madonna del Sasso, MdS 38 Fa 31 (limp cover)
+# F-2a37 — Orselina-Locarno, Biblioteca Madonna del Sasso, MdS 38 Fa 31
 
-- Fragmentarium ID: F-2a37 — https://fragmentarium.ms/overview/F-2a37
-- Shelfmark: Orselina-Locarno, Biblioteca Madonna del Sasso, MdS 38 Fa 31 (parchment bifolium reused as the limp wrapper of the host book)
-- Catalogue: "Unidentified commentary on a religious text", 14th century, one bifolium, 214 x 377 mm
-- Images (5): e001 front cover, e002 spine, e003 back cover, e005 front pastedown, e006 back pastedown; IIIF manifest https://fragmentarium.ms/metadata/iiif/F-2a37/manifest.json
-- Layout: the bifolium is wrapped around the host book text-side OUT. Each cover shows one leaf written in two columns of c. 55–60 lines (column c. 75 mm wide, 45–50 mm text height per 20 lines); the spine carries the inner column edges. The inner side of the bifolium is hidden under the paper pastedowns; only c. 15 mm of the turn-ins are visible on e005/e006, where the ink is darker (unexposed).
-- Script and decoration: small gothic cursive (14th c., consistent with the catalogue), brown ink now abraded to near-invisibility on both covers. Lemmata are underlined in the text ink. Two-line initials alternately blue (N, back cover col. b line c. 22) and red (Q, back cover col. b line c. 45), red paraphs and a few blue paraphs mark subdivisions. Chapter/book references in the text (" ... c. vij", "ad Philip.") and the divisio-marker "ponit" point to a scholastic commentary with lemma + expositio structure.
+**Source-assisted re-adjudication, 22 September 2026.**
 
-## Status
+- **Identification:** **Not identified / confidence none.** No sustained distinctive wording has been read and matched to a source. A religious or scholastic commentary remains a plausible working description, consistent with the catalogue and visible layout; neither the commented work nor its author is established.
+- **Transcription:** the [frozen image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-2a37/readings/review-2026-09-22-image-only.json) records an almost wholly unreadable eight-row crop. Expanded inspection by a Codex subagent, after exposure to the previous report, recovered only tentative isolated words. The [assisted record](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-2a37/readings/review-2026-09-22-assisted.json) preserves the uncertainties, additional passages, image processing exposure, and a probable side-label error. No continuous transcription, accuracy rate, or human palaeographic verification is claimed.
+- **Verification:** original-colour crops were compared with pre-existing processed versions, and both exterior cover views were inspected. Two separate passages beside coloured initials were checked. Exploratory searches and a common-phrase comparison with a digital Latin sermon text did not establish a source connection. No named commentary has been collated over a sustained manuscript passage.
 
-**NOT IDENTIFIED.** The exposed text is too abraded to yield a secure connecting-prose anchor. Channel separation (blue channel + background flattening) recovers isolated words but no continuous line; no phrase was searchable with confidence, so nothing was run against Google Books or the Latin corpora. What can be established: genre (scholastic commentary with underlined lemmata, blue/red initials at each new lemma, "ponit" divisions, cross-references by book and chapter including St Paul), 14th-c. date is consistent.
+## Object, images, and provenance
 
-## Readings (back cover = e003, col. b, best-preserved area; line numbers approximate, from top of column)
+[Fragmentarium record](https://fragmentarium.ms/overview/F-2a37); [IIIF manifest](https://fragmentarium.ms/metadata/iiif/F-2a37/manifest.json). The inherited catalogue describes a fourteenth-century parchment bifolium, 214 × 377 mm, reused as the limp wrapper of MdS 38 Fa 31. The earlier image inventory maps e001 to the front cover, e002 to the spine, e003 to the back cover, and e005/e006 to pastedowns. Those catalogue data are carried forward, not independently re-established here: the live overview and manifest did not load through the research tool.
 
-Enhanced crops (blue channel, Gaussian background subtraction) were the basis. Doubtful letters in [ ]; illegible runs as ...
+The exterior views show two columns per cover, small abbreviated script, severe fading and abrasion, underlined stretches, coloured initials, and paragraph marks. These observations are compatible with lemma-and-exposition layout, but an underline does not by itself identify a biblical quotation. The prior report's specific readings of Pauline references, named books, and chapter numbers remain unverified. Dating and geographical origin are not newly assessed.
 
-1 [...]sta p(ro) ... (underlined lemma) ... p(ro)[phe]... (words underlined = lemma)
-2 de f... cuius(?) et b(ea)ta illa cui(us)(?) ... ad de[i] ... suis(?), decla[ra]...
-3 sunt et ... cui(us) nu(n)c(?) de[gh]... ... an(?) ...
-4 f[idei] et p(ro)... ... ... ...
-5 aut(?) dicit .[h]ec. c(apitulo) vij. ... Ecc[l]... (?) ... [D]omini(?) ... pagina(?) ...
-6 quos scrip[sit](?) ... sicut ad ... aliis(?) pat[er]... ...
-7 co(m)mun... ... ... ...
-8 ex illud quod ... ... sicut(?) ... alio(?) f...
-9 supplet(?). Sicut(?) p(ro)... ... f[a]c... ... credere(?) ...
-10 dixit(?) [b.](?) ad Philip. (= Philippians) ... C[or](?) ... ... ... [m]e...
-11 (blue initial N) [N]... est dur[um](?) ih[c](?) ... (underlined lemma, c. 6 words) ...
-12 filio(rum)(?) d[ixer]u(n)t(?) . ponit . p(ro)... ... et(?) ...
-13 unu(m)(?) ... fideliu(m)(?) ... [sanc]ta(?) ... s...
-...
-c.45 (red initial Q) [Q]... ... dedit(?) et(?) ... (underlined lemma) ...
-c.46 ...ssio(nem)(?) ... pu[l]... ipse(?) ... quib(us) ...
+There is a probable error in the frozen crop's side description. Its source metadata calls it the upper right column of the front cover. On visual comparison, that same text occurs at the top of the cached back-cover right-column image, within the cover bearing the large blue and red initials; the front-cover full image is different. The assisted audit records the matching image areas and probable correction. The frozen reading and its metadata remain untouched, and the exact crop coordinates/scale and live canvas mapping have not been independently recovered.
 
-Front cover (e001): two columns, ink even fainter; a red paraph and red minor initial in col. a lower half, a blue paraph mid col. a. Individual words only (e.g. "...ostendit(?)...", "Sap[ientia](?)" in col. a lines c.45–55); no continuous reading obtained.
+## What could be read
 
-## Identification attempts
+The original packet area remains too faint for a secure continuous reading. Its sole tentative word, *hoc?*, is not promoted to a firm reading. Inspection of the corresponding processed version does not justify filling its gaps.
 
-None run: no anchor phrase reached the confidence needed for a quoted search (see brief §2). The one candidate lemma, "[N]on est durum ..." / "[N]... est dur[um] ih[c]", is a reading of the underlined line after the blue N at back cover col. b line c. 11 and is not secure enough to search.
+The clearest additional passage is beside the large blue initial in the upper part of the right column of the cover identified in the inherited inventory as e003. The following rows are counted from the underlined line beside the upper portion of that initial; they refer to the same physical text in the overlapping colour and enhanced crops:
 
-## Ruled out
+```text
+A1 [N?]on[?] est[?] dur[...][?] [...]  (underlined)
+A2 filio[...][?] [...] ponit[?] [...]
+A3 [illegible]
+A4 [illegible; partial lower row of crop]
+```
 
-Nothing can be ruled out on the evidence. Not checked: Glossa ordinaria, Hugh of St Cher, Lyra, Lombard, Aquinas, Sentences commentators (no lemma to look up).
+This is an explicitly uncertain assisted reading. The previous report's proposed *durum* supplies a search hypothesis, not a securely deciphered ending. The decorated letter, first word, and the group after *est* remain doubtful. The possible *ponit* is common scholastic vocabulary and cannot support an author match. No correction, insertion, or deletion in these rows can be confidently deciphered.
 
-## Next moves
+A second passage beside the large round red initial near the bottom of the same column was examined in colour and in a processed crop. Its underlined opening and four subsequent provisional rows remained unreadable. The earlier tentative identification of the initial as Q and the words *dedit*, *ipse*, and *quibus* were not securely confirmed. Wider middle-column and lower-left crops on both exterior covers also failed to supply a continuous connecting phrase. The different crops enlarge the inspected area; they do not provide independent textual witnesses.
 
-1. Imaging: the exposed covers need UV/multispectral or at least raking-light capture; the current RGB scans lose the ink in the parchment stain. The c.15 mm turn-ins show darker ink, but the covered inner face has not been read. Ask the library about suitable imaging; any lifting of pastedowns is a decision for its conservators.
-2. Once any three consecutive words of a lemma are secure, look them up first in the Vulgate (the "ad Philip." reference and "c. vij" citations suggest a biblical or Sentences commentary); then Gloss-e (id=liber, id=hug), Corpus Corporum, Corpus Thomisticum.
-3. Google Books queries to run when readings firm up: the underlined lemma after the blue N (back cover col. b l. 11) and the lemma after the red Q (l. c. 45), each with the following clause containing "ponit".
+## Searches and the limits of the apparent parallels
+
+The uncertain blue-initial wording was tested rather than treated as a quotation. Exploratory searches combined `"non est durum"` with `filiorum`, `ponit`, `hic`, commentary terms, and `"ad Philippenses"`. An alternative `"non est bonum"` with `ponit`, restricted to Corpus Thomisticum, tested a possible misreading; it did not establish that the manuscript contains that familiar phrase. None of these searches produced a sustained manuscript comparison.
+
+One search result led to the Latin text of [Augustine, *Sermo* 96, §1](https://www.liriocatolico.com.br/santo_agostinho/obras/sermoes/sermoes_04/sermao-96/), which was opened. It contains the short phrase *Sed non est durum nec grave* in an exhortation about carrying out a command. That phrase is insufficient: the manuscript does not yield the necessary surrounding words or sequence to connect it with this sermon. Augustine is not a proposed identification on this evidence, nor has his corpus been comprehensively excluded.
+
+The previous report named the *Glossa ordinaria*, Hugh of Saint-Cher, Nicholas of Lyra, Lombard, Aquinas, and Sentences commentators as possible future comparisons. None has been established or excluded here. Failed searches on uncertain readings cannot show that a text is unprinted, rare, or absent from those traditions.
+
+## Processing, coverage, and remaining work
+
+The cached processed images use channel selection or mixing, background subtraction, contrast changes, resizing, and in some cases filtering. Their scripts were read to understand those operations. No new processing was applied in this review. These renderings can make faint marks more visible, but they amplify surface texture as well and contain no additional spectral information. They are neither UV nor multispectral photographs.
+
+The inspection covered the original packet area, both exterior full-cover views, the right-column blue- and red-initial passages, intervening right-column areas, and selected lower-left areas. All were displayed at original file detail. Several files are overlapping crops or alternative renderings of exactly the same text. The pastedowns and concealed inner surface were not examined in this review; the earlier claim about darker turn-in text is not a newly verified result.
+
+The next useful evidence would be a sharper or differently illuminated capture of the two underlined passages with enough adjacent prose to test a sequence. Whether any particular imaging method would recover the lost contrast remains unknown. A secure phrase followed by readable commentary would permit source comparison; the present isolated guesses do not. Retain the catalogue's unidentified status, with the expanded inspection and probable image-side correction documented separately.
