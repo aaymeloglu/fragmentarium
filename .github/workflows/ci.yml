@@ -8,10 +8,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.12"
       - run: uv sync --frozen
       - run: uv run pytest -q
+      - name: Check preserved readings
+        env:
+          READING_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$READING_BASE" ] && [ "$READING_BASE" != "0000000000000000000000000000000000000000" ]; then
+            uv run python tools/readings.py check --base "$READING_BASE"
+          else
+            uv run python tools/readings.py check
+          fi
       - run: uv run python docs/_build_site.py
       - run: git diff --exit-code -- docs/
