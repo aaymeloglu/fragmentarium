@@ -31,15 +31,51 @@ provides adaptable research tactics; the tool manuals describe commands.
   novelty need their own evidence. Identification does not certify transcription
   accuracy or those additional claims. Limit each conclusion to its support.
 
-## Status
+## Identification status and confidence
 
-The current index uses these labels:
+The index's `status` and `confidence` describe support for the identification
+claim only, including a provisional connection when status is partial. They do
+not grade transcription accuracy, verification coverage, dating, or witness
+novelty. A well-supported identification can coexist with a poor transcription.
+Keep these labels tied to the stated identification rather than averaging the
+strength of unrelated claims:
 
 | Status | Meaning |
 |---|---|
 | **Identified** | Sustained agreement in distinctive wording and sequence identifies a text in a specific edition, with abbreviations and textual variants recorded. Give the author, work, locus, and a checkable link. The current index requires confidence `high`. |
 | **Partial** | A source connection, genre, subject, or text layer has support, but the compiling work or attribution remains unresolved. Use `medium` for a substantial source parallel or text layer, `low` for chiefly genre, school, or author leads. |
 | **Not identified** | Describe the fragment and searches, but no identification is established. Confidence `none`. |
+
+## Writeup: distinguish the claim, the reading, and the checks
+
+Open a new or revised report with a concise evidence summary. Three short bullets
+or a paragraph are enough; no additional scores or fixed table are required:
+
+- **Identification:** state the proposed work or source connection, its status
+  and identification confidence, the diagnostic basis, and material alternatives.
+- **Transcription:** describe the reading's basis (image-only, HTR, or assisted),
+  the passages covered, and known errors or unresolved readings. State who reviewed
+  which lines against the manuscript image; if accuracy has not been assessed,
+  say so. Identification confidence does not transfer to the transcription.
+- **Verification:** specify which manuscript and edition passages were compared,
+  by whom, and using what evidence: images, OCR, snippets, or a secondary account.
+  State gaps in coverage. Expert support for an attribution is not approval of
+  every transcribed word; model agreement is not human review.
+
+For each main identification claim, give enough linked evidence to inspect it:
+selected manuscript lines and their image/crop reference, the candidate text's
+edition/locus and link, and significant agreements or differences. Distinguish
+literal quotations from paraphrases or thematic parallels. Common formulas may
+explain how a candidate was found, but the diagnostic comparison must carry the
+identification. Avoid "verbatim" or "line-by-line verified" beyond the passages
+actually checked. Link preserved raw readings and label unverified machine text.
+
+Address dating, leaf order, dependence, recension, or novelty separately **when
+making those claims**, with their own basis and limits. Otherwise omit them; this
+is not a checklist requiring research into every dimension. Report the checks
+performed rather than creating new searches or verification work to fill headings.
+Missing evidence remains explicit and limits the conclusion. No character/word
+accuracy rate should be invented without a suitable checked reference.
 
 ## Report and record format
 
@@ -59,7 +95,7 @@ create an assisted record without a base. The report states the missing
 independent evidence. Do not fabricate a base to satisfy the schema.
 
 `data/fragments.json` holds catalogue data, identification, note, status,
-confidence, links, order, and examination date. `docs/_build_site.py` renders the
+identification confidence, links, order, and examination date. `docs/_build_site.py` renders the
 site; CI checks record preservation, data consistency, and generated pages.
 
 When outreach is explicitly requested, use Fragmentarium's catalogue field names

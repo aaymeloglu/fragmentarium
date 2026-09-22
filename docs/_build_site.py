@@ -37,7 +37,7 @@ table.idx img { width:120px; height:auto; display:block; border:1px solid var(--
 table.idx td.thumb { width:144px; }
 table.idx .where { color:var(--muted); font-size:14px; }
 table.idx .cat { color:var(--muted); font-size:14px; font-style:italic; }
-.badge { display:inline-block; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:3px 8px; border-radius:3px; white-space:nowrap; }
+.badge { display:inline-block; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:3px 8px; border-radius:3px; white-space:normal; }
 .badge.medium { opacity:.8; } .badge.low { opacity:.6; } .badge.none { border-color:var(--muted); color:var(--muted); }
 .crumbs { font-size:14px; color:var(--muted); margin-bottom:8px; }
 .credit { font-size:13px; color:var(--muted); margin-top:28px; max-width:90ch; }
@@ -152,7 +152,7 @@ document.querySelectorAll('table.sortable th[data-col]').forEach(function(th){
 
 def badge(r):
     label = {"identified": "Identified", "partial": "Partial", "unidentified": "Not identified"}[r["status"]]
-    conf = {"high": "high confidence", "medium": "medium confidence", "low": "low confidence", "none": ""}[r["confidence"]]
+    conf = {"high": "high identification confidence", "medium": "medium identification confidence", "low": "low identification confidence", "none": ""}[r["confidence"]]
     return f'<span class="badge {r["confidence"]}">{label}{" · " + conf if conf else ""}</span>'
 
 
@@ -234,11 +234,12 @@ def build():
         f'<p class="lede">Medieval manuscript fragments catalogued on <a href="https://fragmentarium.ms/">Fragmentarium</a> as '
         f'“unidentified”, worked one at a time: read from the library’s images, searched against printed editions and digital '
         f'corpora, with identifications supported by sustained agreement in distinctive wording and sequence. {len(data)} fragments so far: '
-        f'{n_id} identified, {n_p} partial, {n_u} not identified. Each row links to the transcription and the line-by-line comparison. '
+        f'{n_id} identified, {n_p} partial, {n_u} not identified. Each row links to a report with readings, comparisons, and remaining questions. '
         f'What remains: the <a href="burndown.html">burndown list</a> of every “unidentified” record, ranked. '
+        f'Confidence refers to the identification or proposed source connection; transcription accuracy and verification coverage are separate. '
         f'Research and review were performed by LLMs. '
         f'Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>; what the labels mean in <a href="{REPO}/blob/main/CONVENTIONS.md">CONVENTIONS.md</a>.</p>'
-        '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Confidence</th><th data-col="4">Last examined</th></tr>'
+        '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Identification confidence</th><th data-col="4">Last examined</th></tr>'
         + "".join(rows)
         + "</table>" + SORT_JS
     )

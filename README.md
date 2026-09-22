@@ -8,13 +8,13 @@ the library's images, find the text in a printed edition or a digital corpus, an
 comparison out so anyone can check it.
 
 The results table with thumbnails is at **https://aaymeloglu.github.io/fragmentarium/**. Each row
-links to a page with the transcription, the line-by-line comparison and the links. The
+links to a report with readings, comparisons, source links, and remaining questions. The
 [burndown list](https://aaymeloglu.github.io/fragmentarium/burndown.html) ranks every remaining
 "unidentified" record by how likely a search can settle it.
 
 ## Results so far (20 September 2026: 22 fragments, 8 identified, 12 partial, 2 not identified)
 
-| Fragment | Catalogued as | Result | Confidence |
+| Fragment | Catalogued as | Result | Identification confidence |
 |---|---|---|---|
 | [F-ss0e](fragments/F-ss0e) Antwerp, Fragm. 237 | theological treatise, 11th c. | Cherubino sermon parallel; attribution and manuscript date unresolved | partial, medium |
 | [F-1exy](fragments/F-1exy) Toruń, Rps 65/V | Genesis commentary | Nicholas of Lyra, De differentia nostrae translationis ab hebraica littera, Genesis | identified, high |
@@ -38,6 +38,9 @@ links to a page with the transcription, the line-by-line comparison and the link
 | [F-0kql](fragments/F-0kql) Park Abbey, VIIIB20/51 | life of Gregory the Illuminator | Latin Gregory life in Agathangelos tradition; exact recension unresolved | partial, low |
 | [F-hcpv](fragments/F-hcpv) Park Abbey, VIIIB20/52 | legend of Gregory the Illuminator | ending of Latin Gregory life; probable relationship to F-0kql | partial, low |
 | [F-2a37](fragments/F-2a37) Locarno, MdS 38 Fa 31 | commentary on a religious text | worn to illegibility; needs UV or raking light | not identified |
+
+Confidence in the table concerns the identification or proposed source connection only.
+These labels do not certify transcription accuracy or imply that every passage has been verified.
 
 The research was performed by Claude, with lead-LLM image spot-checks and a second-model review by Codex on 20 September 2026. This is not human palaeographic verification. Eight identifications are supported by sampled manuscript/edition comparisons; Bernardus was checked against edition OCR rather than printed page images. Cherubino remains a provisional parallel. The partial reports received an evidence audit, not a full fresh collation.
 
