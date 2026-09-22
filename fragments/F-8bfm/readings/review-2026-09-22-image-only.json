@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-09-22T17:16:10.629166+00:00",
+  "fragment": "F-8bfm",
+  "id": "review-2026-09-22-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.png",
+        "sha256": "eaa58e179c332d9bcba74a8dc0fa9d055558d9277ef156ac1ce3c102fd8c937e",
+        "source": "https://fragmentarium.ms/metadata/iiif/F-8bfm/manifest.json; front cover lower text band, canvas1, rotated90degrees clockwise in original cache; original crop scale/origin not independently recovered; no new enhancement or rescaling; parent SHA256 bd4d9f97034c5aaddc6878f0fec6cfe988b43fb325143b892fb5c9ba52eea5ba"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nTranscribe what you can see, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Codex isolated subagent; inherited model, exact identifier not exposed",
+  "schema_version": 1,
+  "session": "full-20260922-k15",
+  "text": "UNVERIFIED IMAGE READING\n\nNotation: [illegible] marks text I cannot read reliably. A question mark marks an uncertain reading. Parentheses contain proposed expansions. Line numbers count the four visible physical text lines from the top, including the cropped lines.\n\nimage-001.png:1 [illegible] et? ad? [illegible]\nimage-001.png:2 [illegible]tudine? determinat suſtā? (substantia?) [illegible] et? mo?\nimage-001.png:3 talibꝫ? (talibus?) suis? · sed non facit [illegible] ca[illegible]\nimage-001.png:4 [illegible] quo? [illegible]\n\nVISIBLE MARKS AND LAYOUT\n\nOne text column is visible in this narrow crop. No separate marginal addition is visible. A red horizontal stroke underlines a word or group of letters in the right half of line 2; I cannot read the underlined text securely. I do not see a deletion or insertion that I can confidently distinguish from the ordinary letter strokes, stains, and abbreviation marks. The dot after the proposed \"suis\" in line 3 is visible. The abbreviation signs in the uncertain readings \"suſtā\" and \"talibꝫ\" are themselves uncertain.\n\nLIMITATIONS\n\nThe top of line 1 and the bottom of line 4 are cut off. Several ascenders or abbreviation marks meet the top edge. Brown discoloration obscures portions of the right side, especially around lines 2 and 3. The text approaches or passes the right crop boundary, so line endings may be incomplete. The few words offered in lines 1 and 4 are especially uncertain. I have left most of those cropped lines unread rather than reconstructing them. Only one image was supplied; there are no overlapping crops to reconcile. These readings have not been checked against a source or edition.\n\nINPUT, TOOL, AND EXPOSURE INVENTORY\n\nInputs read: PROMPT.md; packet.json; image-001.png.\nImage inspection: image-001.png, original detail.\nTools used: functions.exec; tools.exec_command (packet directory listing, reading the two text inputs, writing response.txt); tools.view_image (viewing the supplied image); collaboration.send_message (status report to the coordinating agent).\nOutput: response.txt.\nNo network search, catalogue, edition, repository file, other image, earlier transcription, or source-identification lookup was consulted. No proposed identification or prior reading was supplied in the task context. General assistant and workspace instructions were present, but contained no manuscript identification or reading.\nExact model identifier: unavailable in the exposed context.\n",
+  "text_sha256": "fa79838b2f6f1479ca658c15bbf17d0bd824622291d2616148cd1a86e21dcf4d"
+}
