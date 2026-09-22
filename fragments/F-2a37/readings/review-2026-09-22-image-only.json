@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-09-22T17:29:41.946162+00:00",
+  "fragment": "F-2a37",
+  "id": "review-2026-09-22-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.png",
+        "sha256": "27481f6819649af1702a92a1872e65d750eedf8344060a27d3f6b8c97fb65378",
+        "source": "https://fragmentarium.ms/metadata/iiif/F-2a37/manifest.json; front cover right column upper portion; unenhanced cache crop; exact crop origin/scale not independently recovered; no new enhancement or rescaling; parent SHA256 1ea1973670a8bb78c77c3d6fe36e43e537323dbfa12797da6efcae6a653599c9"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nTranscribe what you can see, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Codex isolated subagent; inherited model, exact identifier not exposed",
+  "schema_version": 1,
+  "session": "full-20260922-k22",
+  "text": "Unverified image reading\n\nExact model identifier unavailable.\n\nPhysical rows are numbered from the top of image-001.png, including the partial bottom row. The image is too faint and blurred for me to offer a reliable continuous transcription. I have not filled gaps from context.\n\nimage-001.png:1 [illegible]\nimage-001.png:2 [illegible]\nimage-001.png:3 [illegible]\nimage-001.png:4 [illegible]\nimage-001.png:5 [illegible] hoc? [illegible]\nimage-001.png:6 [illegible]\nimage-001.png:7 [illegible]\nimage-001.png:8 [illegible; only upper portions of this row are visible]\n\nLimitations and visible features:\n- The tentative group “hoc?” is near the middle-left of row 5. Its letter identification is insecure; it should not be treated as an established reading.\n- Ink is pale, uneven, and blurred throughout. Surface texture interferes with character boundaries.\n- Writing reaches the left and right crop boundaries, so complete word and line boundaries cannot be established there.\n- Row 8 is cut off by the lower image boundary. The row count is provisional because faint strokes and ascenders are difficult to separate.\n- Only one apparent text block is visible. No separate marginal addition or second column can be distinguished confidently.\n- Horizontal strokes occur above or among letters, but I cannot reliably distinguish abbreviation marks, letter strokes, and ruling. I offer no expansions.\n- I cannot confidently identify any deletion, correction, or insertion. This is a limitation of the reading, not a claim that none is present.\n- There is one supplied image, so there are no overlapping crops to reconcile.\n\nInput, tool, and exposure inventory:\nInputs read: PROMPT.md; packet.json; image-001.png.\nImage inspected at original detail: image-001.png.\nOutput written: response.txt.\nTools used: functions.exec; exec_command (read the two supplied text files); view_image (inspect the supplied image); apply_patch (write this response).\nExposure: task instructions and the three supplied files only for this reading. No earlier transcription, proposed identification, other manuscript image, catalogue, edition, network source, or repository content was consulted. No work or author identification was attempted.\n",
+  "text_sha256": "176e48f38052bc37ced84c6fa30df6204fc9d5ab23b38fc27f09f19b17e44e6b"
+}
