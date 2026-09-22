@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-09-22T17:28:25.541282+00:00",
+  "fragment": "F-hcpv",
+  "id": "review-2026-09-22-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.png",
+        "sha256": "6d29f49ea8eef92310039b917b4a69d415f61b018f86a6d1cb016f6a623123da",
+        "source": "https://fragmentarium.ms/metadata/iiif/F-hcpv/manifest.json; image0077, left column upper portion; cached crop origin/scale not independently recovered; no new enhancement or rescaling; parent SHA256 862c0614fc5e2efb418838fb371788364402426d2403f257b49fadd7ad6601fe"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nTranscribe what you can see, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Codex isolated subagent; inherited model, exact identifier not exposed",
+  "schema_version": 1,
+  "session": "full-20260922-k21",
+  "text": "Unverified image reading\n\nThe lines below are counted from the top of the supplied image. Question marks indicate uncertain readings, including uncertain readings of abbreviation marks. Overbars approximate visible abbreviation strokes; no expansions have been supplied.\n\nRed text:\nimage-001.png:1 ab ip̄o. ⁊ rebus q̄ gesta sūt ab eo ero?\nimage-001.png:2 staci. ⁊ de? obitu s̄. gregorij. ⁊ felici t?\nimage-001.png:3 statu regis p. v̄? caᵃp̄? distinctuʒ? . Cāp̄?\n\nDark text:\nimage-001.png:4 Et? ūo tp̄r? quo talia ḡbā?\nimage-001.png:5 tur in regno armenie. Constā\nimage-001.png:6 tinus magnus ipator? q a scō Silue\nimage-001.png:7 [illegible: line cut off by the bottom edge; only upper parts of letters survive in this image]\n\nMarks and layout:\n- One text column is visible. The first three physical lines are red; the following lines are dark, with red touches in some capitals.\n- A small superscript a-like character appears above the ca/p group in line 3; it is represented by ᵃ. Whether it is an addition or part of the original abbreviation is uncertain.\n- To the right of line 4 is a separate large red hooked stroke with a small red diamond-like mark inside it. I cannot securely identify it as a letter or number.\n- No deletion is securely identifiable. Short strokes above several words appear to be abbreviation marks, but some are difficult to separate from incidental marks.\n\nLimitations:\nSeveral red letter groups and the opening of line 4 are uncertain. The abbreviation strokes are represented approximately, and superscript placement is only approximate. Line 7 is heavily cropped. No missing text has been completed from context. Only one image was supplied, so there are no overlapping crops to reconcile.\n\nInput/tool/exposure inventory (basenames only):\n- Instruction input: PROMPT.md.\n- Manifest input: packet.json.\n- Image input: image-001.png, viewed at original detail.\n- Output: response.txt.\n- Tools used: functions.exec; exec_command to read the two text inputs and write this response; view_image to inspect the named image.\n- No network, catalogue, edition, repository file, other image, earlier transcription, or source-identification material was consulted.\n- Prior proposed identification or reading exposure: none in the supplied task context.\n- Exact model identifier: unavailable; it was not exposed to this reader.\n",
+  "text_sha256": "f2fbd7a1a4c8f828478ec4f956e599530e9028f920d7160cc2f0b61e675b652b"
+}
