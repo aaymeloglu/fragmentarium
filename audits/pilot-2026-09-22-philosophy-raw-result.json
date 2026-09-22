@@ -1,0 +1,128 @@
+{
+  "format": "latin-retrieval-v1",
+  "status": "candidate-retrieval-only",
+  "query": {
+    "source": "Frozen image-only records, pilot-2026-09-22-image-only and additional-image-only",
+    "scope": "Candidate-aware coordinator selects anchors; limited corpus check, not blind discovery",
+    "anchors": [
+      {
+        "id": "1",
+        "line_ref": "packet A:16",
+        "variants": [
+          {
+            "text": "causa illius infeccōnis",
+            "basis": "Exact tentative substring; question mark annotation omitted, overbar retained"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "line_ref": "packet D:7",
+        "variants": [
+          {
+            "text": "sit nata recipere",
+            "basis": "Exact substring; question mark annotation omitted"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "line_ref": "packet D:7",
+        "variants": [
+          {
+            "text": "denudata ab oī alia",
+            "basis": "Exact substring; abbreviation mark retained"
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "max_edits": 1,
+    "window_raw_characters": 1800,
+    "limit_per_document": 3,
+    "ocr_long_s": false,
+    "normalization": "latin-mapped-v1"
+  },
+  "corpus_size": 2,
+  "document_frequency": {
+    "1": 0,
+    "2": 1,
+    "3": 0
+  },
+  "weights": {
+    "1": 2.09861228866811,
+    "2": 1.4054651081081644,
+    "3": 2.09861228866811
+  },
+  "documents": [
+    {
+      "id": "hocedez-1925",
+      "source": "https://archive.org/download/richarddemiddlet0000edga/richarddemiddlet0000edga_djvu.txt",
+      "text_sha256": "6d7634a2ec6a2bb6b97ae28661729ff9077028b0975b3c8edc2c1780d0b8ab7f",
+      "hits": [
+        {
+          "anchor": "2",
+          "variant": 0,
+          "normalized_query": "sit nata recipere",
+          "normalized_match": "sit nata recipere",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 832850,
+          "end": 832867,
+          "text": "sit nata recipere",
+          "line": 20735,
+          "form_feed_page": null
+        }
+      ],
+      "hit_counts": {
+        "1": 0,
+        "2": 1,
+        "3": 0
+      },
+      "passages": [
+        {
+          "score": 1.405465,
+          "matched": 1,
+          "diagnostic_total": 3,
+          "start": 832850,
+          "end": 832867,
+          "matches": [
+            {
+              "anchor": "2",
+              "variant": 0,
+              "normalized_query": "sit nata recipere",
+              "normalized_match": "sit nata recipere",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 832850,
+              "end": 832867,
+              "text": "sit nata recipere",
+              "line": 20735,
+              "form_feed_page": null
+            }
+          ],
+          "total_edits": 0,
+          "gap_characters": [],
+          "unmatched": [
+            "1",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "durandus-II-d20-q5",
+      "source": "https://reader.lombardpress.org/text/jsnvu6/jsnvu6-d1e3228",
+      "text_sha256": "212424631ebb87c001fd28023e720439a69f73c8db12a45ef6e6c5b8f8e93eba",
+      "hits": [],
+      "hit_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "passages": []
+    }
+  ],
+  "query_sha256": "04dba76d5a822c6ff5783eda899269c24a7db6f5da5bebdcff0843b50ee7ecc7"
+}

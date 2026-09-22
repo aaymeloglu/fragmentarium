@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-09-22T17:19:12.288305+00:00",
+  "fragment": "F-072h",
+  "id": "review-2026-09-22-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.png",
+        "sha256": "fed9a865b64286318b030568a2335830a0e8c7f25df4879cbfd985d25d11f5a9",
+        "source": "https://fragmentarium.ms/metadata/iiif/F-072h/manifest.json; fol.1r, lemma54 and immediate context; cached crop origin/scale not independently recovered; no new enhancement or rescaling; parent SHA256 be32eec5ae66bd8391040acd104f978b13f94f92641736e4878a791c6bb97e15"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nTranscribe what you can see, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Codex isolated subagent; inherited model, exact identifier not exposed",
+  "schema_version": 1,
+  "session": "full-20260922-k17",
+  "text": "UNVERIFIED IMAGE READING\n\nLine numbers count the three visible horizontal text rows from the top of image-001.png, including the cropped first and third rows. Spatial regions are kept separate; their reading order is uncertain.\n\nMain text, to the right of the vertical rules:\nimage-001.png:1 [illegible] . [illegible] calce? [illegible]\nimage-001.png:2 loquēt? sāguem?.\nimage-001.png:3 ī? [illegible]\n\nLeft strip, to the left of the vertical rules:\nimage-001.png:1 [illegible]\nimage-001.png:2 [illegible]\nimage-001.png:3 [illegible]\n\nRight-side isolated mark, approximately level with main line 2:\nimage-001.png:2 [illegible; resembles lo? with a horizontal stroke above/through its upper part]\n\nAbbreviations, corrections, and limitations:\nThe marks above the first and second words of main line 2 are provisionally represented by macrons. Their exact scope and the underlying letters are uncertain; no expansions are supplied. The question marks apply to the complete preceding tentative readings. A punctuation-like dark stroke follows the second word.\nThe top and bottom rows are substantially cut off by the image boundaries. The left strip contains writing interrupted or obscured by several vertical rules and darker discoloration. The middle main line is the only substantially complete row. Letter identification remains uncertain, especially its first word and the end of its second word.\nThe isolated mark at the right is spatially separate from the main line; it cannot confidently be classified as an addition, abbreviation, or other annotation. No deletion or interlinear insertion can be established confidently from this crop. No overlapping crops were supplied.\n\nINPUT / TOOL / EXPOSURE INVENTORY\nInputs read: PROMPT.md; packet.json; image-001.png.\nTools used: exec_command (read the supplied prompt and manifest; write response.txt; an initial write attempt failed because python was unavailable, then python3 succeeded); view_image (view image-001.png at original detail).\nOutput: response.txt.\nNo network, catalogue, edition, repository material, other manuscript image, earlier transcription, or source-identification search was consulted. No proposed identification or prior reading was present in the task context available to this reader. No work or author identification is attempted.\nExact model identifier: unavailable; not exposed as an exact runtime identifier.\n",
+  "text_sha256": "df9c77d8b8e5c37d40f81235d2277e4312d2a3a835c75d7b8ca2d124a084fafa"
+}

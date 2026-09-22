@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-09-22T17:03:03.323712+00:00",
+  "fragment": "F-3yl2",
+  "id": "review-2026-09-22-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.png",
+        "sha256": "a35753da06581455b42bdc63161d6b4812324aa656ca3b87ea0f09314174128a",
+        "source": "https://fragmentarium.ms/metadata/iiif/F-3yl2/manifest.json; canvas _65A9161_1, top text band; cached scaled crop, exact original coordinate transform not recovered; no new enhancement or rescaling; parent SHA256 e659940581f682a7567615287d1077ba40d1e71f11d79e118099d44ac898b679"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nTranscribe what you can see, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Codex isolated subagent; inherited model, exact identifier not exposed",
+  "schema_version": 1,
+  "session": "full-20260922-k09",
+  "text": "UNVERIFIED IMAGE READING\n\nimage-001.png, line 1: [illegible] ut ē vocā? sᵈ? miſtio? & autē? q̄m? vē? dico?\nimage-001.png, line 2: hæc? ē repugnat euidi? autē? sᵒ? aliū? [illegible]\nimage-001.png, line 3: [illegible] ratio? autē? [illegible] [illegible] mali? [illegible]\n\nAbbreviations and uncertainties\nThe transcription retains apparent bars and raised letters where I can distinguish them: ē, vocā?, sᵈ?, autē?, q̄m?, vē?, sᵒ?, aliū?. These are visual approximations of the marks, not assured character identifications. A possible expansion of autē? is aut(em)?; the other abbreviations are left unexpanded. The apparent long s in miſtio? is uncertain. Question marks apply to the preceding word or abbreviated group. No grammatical reconstruction has been supplied for unreadable groups.\n\nPhysical layout and limitations\nThere is one horizontal crop, containing three main physical lines of writing. The numbering counts these lines from top to bottom. The left edge is dark and damaged, particularly around the beginnings of the lines. The right edge limits the endings, and portions of the final line's descending strokes meet the bottom crop. Ink contrast varies, and several letters and abbreviation marks are difficult to separate from surface texture. The third line is particularly uncertain in this reading. The image does not establish a wider column order. No separate marginal text or confidently recognizable deletion or insertion is visible. Red-colored marks occur within the third line toward the right; I cannot confidently distinguish their textual function. There are no other supplied crops, and therefore no observed overlap to account for.\n\nInput, tool, and exposure inventory\nSupplied packet files read: PROMPT.md; packet.json.\nSupplied manuscript image viewed: image-001.png.\nImage viewing: view_image, detail original; displayed through functions.exec.\nOther tool use: exec_command through functions.exec to read the packet text and write response.txt; collaboration.send_message to report progress to the coordinating agent.\nOutput file: response.txt.\nNo network access, catalogue, edition, earlier transcription, repository search, other manuscript image, or source-identification attempt was used. The manuscript task context supplied no proposed identification or reading. General session instructions and the coordinating agent's task instructions were already present; they were not used as textual evidence.\nExact model identifier: unavailable to this agent.\n",
+  "text_sha256": "30cbb8dc2a07d961064f7690fb8faaeb67cde03bee25becad1e81b4c41570d80"
+}

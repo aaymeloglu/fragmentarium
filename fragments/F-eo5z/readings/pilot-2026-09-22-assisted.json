@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-09-22T16:41:18.507735+00:00",
+  "first_reading": "pilot-2026-09-22-image-only",
+  "first_sha256": "dc0f1e913760c7b84cce843beb5622bf3cf3f8a02087124185d7e5ea7e77cfa0",
+  "fragment": "F-eo5z",
+  "id": "pilot-2026-09-22-assisted",
+  "kind": "source-assisted",
+  "reader": "Codex coordinator; exact model identifier not exposed",
+  "reason": "Preserve explicitly assisted selected reading, retaining interventions, uncertainty, and material differences after manuscript and printed-image comparison.",
+  "schema_version": 1,
+  "sources": [
+    "https://archive.org/details/richarddemiddlet0000edga/page/n405/mode/1up; Hocedez p392, image inspected",
+    "https://github.com/aaymeloglu/fragmentarium/blob/9373f57407028528b147bb06883608ce5f1f4c8e/fragments/F-eo5z/README.md",
+    "F-eo5z/readings/pilot-2026-09-22-htr.json",
+    "F-eo5z/readings/pilot-2026-09-22-additional-image-only.json"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING\n\nCoordinator inspected native manuscript images after exposure to the old report, raw readers, HTR, and the printed source. No specialist accuracy assessment. This record preserves selected readings, not a full transcript.\n\nPhysical line numbers refer to the pilot crops, including clipped edge lines, not the old report's numbering. Parentheses mark proposed abbreviation expansions; square brackets describe uncertainty or interventions. This is a selected expanded reading, not a diplomatic edition.\n\n**Crop A:** manifest canvas 0, fol. [2]v column b; native region `2000,1550,2000,1800`, no rotation. Lines 4–8:\n\n> 4 … Item hoc idem pro-  \n> 5 bo p(er) viam aliam. Certum est q(uod) [word cancelled in red, unresolved] leprosus  \n> 6 g(ener)at leprosum semp(er) vel frequen(ter). H(oc) a(utem) non esset  \n> 7 verum si in adventu intellective fieret resolutio usq(ue)  \n> 8 ad essentiam m(ater)ie prime sicut probabo. Ergo cum intellectiva …\n\nA marginal abbreviation beside line 5 is provisionally expanded **p(er)f(ec)te(?)**. Its role as the replacement is plausible from the placement and printed parallel; the cancelled word is not reconstructed. The old report silently presented *perfecte* as ordinary running text. The image-only reader independently noticed both the cancellation and the marginal writing but could not resolve the latter.\n\n**Crop D:** manifest canvas 0, fol. [1]r column a; native region `4650,1450,1950,1500`, no rotation. Selected lines 2–8:\n\n> 2 introduceretur forma asini [abbreviated words unresolved here]  \n> 3 anima intellectiva infunditur a deo m(ater)ie ipsius hominis  \n> 4 in illo eodem [instanti?] m(ater)ia ipsius asini equaliter esset  \n> 5 apta ad recipiendum animam intellectivam sicut  \n> 6 m(ater)ia ipsius hominis. Quia dispositio ipsius m(ater)ie ad hoc  \n> 7 q(uod) sit nata recipere formam est denudatio ab omni alia  \n> 8 forma. …\n\nThese connected clauses provide better evidence than the common leprosy maxim. They agree with Hocedez's quoted argument about an ass's matter being equally ready to receive an intellective soul once stripped of every other form. A material difference remains: the manuscript appears to have **equaliter**, where Hocedez prints **sequeretur**. This must stay a reported variant, not be silently harmonized. The isolated reader's *denudata* on line 7 is revised to *denudatio* with image and source assistance.\n\nThe crop also shows the transition to another *impossibile* at lines 16–18, consistent with Hocedez's sequence, but its last line is clipped. No complete transcription of that next argument is claimed. This is an additional passage check with an isolated reader; the coordinator already knew the passage from earlier work, so it is not held-out evidence.\n\n",
+  "text_sha256": "a2f8470898c55b6ae88f7896f4ffefd604a1b7bc14b680bd17716cd1dfac020d"
+}

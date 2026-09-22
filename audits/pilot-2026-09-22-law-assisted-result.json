@@ -1,0 +1,143 @@
+{
+  "format": "latin-retrieval-v1",
+  "status": "candidate-retrieval-only",
+  "query": {
+    "source": "Coordinator image review after legacy report and Durantis OCR exposure; raw image-only response yielded no useful distinctive phrase",
+    "scope": "Candidate-aware coordinator selects anchors; limited corpus check, not blind discovery",
+    "anchors": [
+      {
+        "id": "1",
+        "line_ref": "packet C:2",
+        "variants": [
+          {
+            "text": "auditorem impetratum esse",
+            "basis": "Source-assisted expansion from manuscript; print rewords it"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "line_ref": "packet C:9",
+        "variants": [
+          {
+            "text": "sit datus auditor",
+            "basis": "Source-assisted expansion"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "line_ref": "packet C:11",
+        "variants": [
+          {
+            "text": "vertitur inter tales super tali re",
+            "basis": "Source-assisted expansion; print has different order"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "line_ref": "packet C:12",
+        "variants": [
+          {
+            "text": "solus ipse appellans est presens",
+            "basis": "Source-assisted expansion of continuation; additional check"
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "max_edits": 1,
+    "window_raw_characters": 1800,
+    "limit_per_document": 3,
+    "ocr_long_s": false,
+    "normalization": "latin-mapped-v1"
+  },
+  "corpus_size": 2,
+  "document_frequency": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0
+  },
+  "weights": {
+    "1": 2.09861228866811,
+    "2": 1.4054651081081644,
+    "3": 2.09861228866811,
+    "4": 2.09861228866811
+  },
+  "documents": [
+    {
+      "id": "durantis",
+      "source": "https://archive.org/details/DurantisSpeculumIudicialeLyon1578ParsSecunda264H",
+      "text_sha256": "bb05b0c1ed81ea8fc96d8d8ec1cad0ed053d915822e5fc3c0e3bf3e9bd6fe7a8",
+      "hits": [
+        {
+          "anchor": "2",
+          "variant": 0,
+          "normalized_query": "sit datus auditor",
+          "normalized_match": "fit datus auditor",
+          "mode": "edit-distance",
+          "edits": 1,
+          "start": 4433030,
+          "end": 4433047,
+          "text": "fit datus auditor",
+          "line": 114095,
+          "form_feed_page": null
+        }
+      ],
+      "hit_counts": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0
+      },
+      "passages": [
+        {
+          "score": 0.702733,
+          "matched": 1,
+          "diagnostic_total": 4,
+          "start": 4433030,
+          "end": 4433047,
+          "matches": [
+            {
+              "anchor": "2",
+              "variant": 0,
+              "normalized_query": "sit datus auditor",
+              "normalized_match": "fit datus auditor",
+              "mode": "edit-distance",
+              "edits": 1,
+              "start": 4433030,
+              "end": 4433047,
+              "text": "fit datus auditor",
+              "line": 114095,
+              "form_feed_page": null
+            }
+          ],
+          "total_edits": 1,
+          "gap_characters": [],
+          "unmatched": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellemera",
+      "source": "https://archive.org/details/bub_gb_M5GlkzSb4ccC",
+      "text_sha256": "574a09e45cc8fbaebce6729c67cb3ba2d9683943db3def53f53e83a206514018",
+      "hits": [],
+      "hit_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "passages": []
+    }
+  ],
+  "query_sha256": "92e8cbacd2f366d98135d58638224ac32835fd1979f6a0510efd7ebf86862825"
+}

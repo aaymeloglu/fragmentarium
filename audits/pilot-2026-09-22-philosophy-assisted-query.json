@@ -1,0 +1,36 @@
+{
+  "source": "Coordinator image review after legacy report and Hocedez p392 exposure",
+  "scope": "Candidate-aware coordinator selects anchors; limited corpus check, not blind discovery",
+  "anchors": [
+    {
+      "id": "1",
+      "line_ref": "packet A:7",
+      "variants": [
+        {
+          "text": "in adventu intellective fieret resolutio",
+          "basis": "Source-assisted expansion"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "line_ref": "packet D:4",
+      "variants": [
+        {
+          "text": "materia ipsius asini",
+          "basis": "Source-assisted expansion"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "line_ref": "packet D:7-8",
+      "variants": [
+        {
+          "text": "denudatio ab omni alia forma",
+          "basis": "Source-assisted expansion; differs from raw denudata"
+        }
+      ]
+    }
+  ]
+}
