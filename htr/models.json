@@ -1,0 +1,18 @@
+{
+  "kraken_version": "7.1.1",
+  "recognition": {
+    "name": "CATMuS Medieval",
+    "record_version": "1.6.2",
+    "doi": "10.5281/zenodo.21488839",
+    "filename": "catmus-medieval-1.6.0.mlmodel",
+    "url": "https://zenodo.org/api/records/21488839/files/catmus-medieval-1.6.0.mlmodel/content",
+    "sha256": "227d10f15a936c2492105b7796a6152647c742f248af117856f417008eadbc9c",
+    "license": "CC-BY-4.0"
+  },
+  "segmentation": {
+    "name": "Kraken bundled baseline segmenter",
+    "filename": "blla.mlmodel",
+    "sha256": "77a638a83c9e535620827a09e410ed36391e9e8e8126d5796a0f15b978186056",
+    "source": "https://github.com/mittagessen/kraken/tree/v7.1.1"
+  }
+}

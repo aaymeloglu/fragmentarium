@@ -18,8 +18,8 @@ the leaf. A model that cannot view a local JPEG cannot do this work at all, and 
 catalogue metadata substitutes. Everything else on this list is negotiable; this one is not.
 
 **2. A shell, Python 3.12, and uv.** `uv sync --frozen`, `uv run pytest -q`, `uv run python
-docs/_build_site.py`. Everything in `tools/` is standard library, so there is nothing to install
-for the research itself.
+docs/_build_site.py`. The search, image-fetching, and preservation tools use the standard library.
+HTR inference uses a separate pinned Python 3.12 environment; follow `HTR.md` to install it.
 
 **3. Plain outbound HTTP.** Nearly every source here answers a GET: the Fragmentarium IIIF
 manifests and image servers, archive.org full-text search and `_djvu.txt`, Corpus Corporum,
@@ -62,8 +62,9 @@ See `REVIEW.md`.
 
 ## What you do not need
 
-No database, no Fragmentarium account, no OCR or image-processing libraries (the model reads the
-crops directly), no email access until you are ready to report a result. Brepols Library of Latin
+No database, no Fragmentarium account, no eScriptorium server, and no email access until you
+are ready to report a result. `HTR.md` describes the Kraken/CATMuS second reader; preserve its
+output and the isolated LLM reading independently before comparing them. Brepols Library of Latin
 Texts and In Principio would help and are paywalled; the method works without them, and the
 fragment READMEs record them as unchecked rather than ruled out.
 

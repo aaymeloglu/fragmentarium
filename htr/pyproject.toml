@@ -1,0 +1,6 @@
+[project]
+name = "fragmentarium-htr"
+version = "0.1.0"
+description = "Pinned Kraken environment for manuscript recognition"
+requires-python = ">=3.12,<3.13"
+dependencies = ["kraken==7.1.1"]
