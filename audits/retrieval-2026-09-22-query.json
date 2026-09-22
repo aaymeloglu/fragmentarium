@@ -1,0 +1,32 @@
+{
+  "purpose": "Tool validation on a known identification; not blind discovery or the comparative pilot",
+  "source": "https://github.com/aaymeloglu/fragmentarium/blob/859c3db3ef7b08adabe9718c856a5e83b314e90f/fragments/F-eo5z/README.md",
+  "anchors": [
+    {
+      "id": "leprosy-maxim",
+      "common": true,
+      "reason": "Shared maxim noted by Duba; also occurs in Durandus. Searchable but not diagnostic.",
+      "variants": [{"text": "leprosus generat leprosum", "basis": "Legacy source-assisted report; not a certified transcription"}]
+    },
+    {
+      "id": "intellective-arrival",
+      "line_ref": "legacy report: fol. [2]v col. b, lines 16-17",
+      "variants": [{"text": "in adventu intellective fieret resolutio", "basis": "Legacy source-assisted report; not a certified transcription"}]
+    },
+    {
+      "id": "ass-matter",
+      "line_ref": "legacy report: fol. [1]r col. a, line 13",
+      "variants": [{"text": "materia ipsius asini", "basis": "Legacy source-assisted report; not a certified transcription"}]
+    },
+    {
+      "id": "denudation",
+      "line_ref": "legacy report: fol. [1]r col. a, lines 16-17",
+      "variants": [{"text": "denudatio ab omni alia forma", "basis": "Legacy source-assisted report; not a certified transcription"}]
+    },
+    {
+      "id": "capacity",
+      "line_ref": "legacy report: fol. [1]r col. a, second slice, lines 20-21",
+      "variants": [{"text": "in maxima aptitudine ad recipiendum animam intellectivam", "basis": "Legacy source-assisted report; not a certified transcription"}]
+    }
+  ]
+}

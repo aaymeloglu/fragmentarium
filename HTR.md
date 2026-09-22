@@ -116,3 +116,7 @@ revised readings with `readings.py revise` if they enter a report.
 The [F-eo5z trial](audits/htr-2026-09-22.md) records what this implementation
 actually produced, including segmentation failures. It is not a completed pilot
 or a re-adjudication of the manuscript.
+
+For candidate searching, copy selected spans and their line IDs/basis into an
+explicit query as described in [RETRIEVAL.md](RETRIEVAL.md). Alternative expansions
+remain separate query variants; retrieval never changes these raw or derived files.

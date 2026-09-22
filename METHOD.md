@@ -38,8 +38,10 @@ proposed expansions, and normalized search text remain distinct layers.
   answers `/gb?q=`, `/ia?q=` and `/cc?q=&index=p` with JSON, paces Google Books, and caches. Worker
   sessions query localhost and never handle the key; one process serves any number of them.
 - `python3 tools/ia_cluster.py IDENT "phrase" "phrase" ... --show` downloads a volume's OCR once and
-  reports whether the anchors cluster in one passage (long-s, u/v and ae/e tolerant). A full score
-  is a passage to read; scattered singles across a folio volume are noise.
+  ranks anchors in reading order within a bounded passage, with original-text offsets.
+  [RETRIEVAL.md](RETRIEVAL.md) covers partial words, explicit expansion alternatives, bounded
+  edit-distance matching, competing texts, and common-phrase exclusions. A full match is a
+  passage to inspect, not an identification.
 
 ## 2. Searches, in this order
 
@@ -49,8 +51,11 @@ proposed expansions, and normalized search text remain distinct layers.
    it returns snippets and volume ids, not pages. Do not scrape the books.google.com site itself:
    a burst of page requests gets the whole network captcha-walled for hours.
 2. **archive.org full text** (`be-api.us.archive.org/fts/v1/search?q=`), then the hit volume's
-   `_djvu.txt`, checking that all anchor phrases sit within one passage rather than scattered
-   through the book. Pre-1800 prints: match `[sſf]` for s. Google Books scans are often mirrored
+   `_djvu.txt`, checking ordered anchor matches with `tools/ia_cluster.py`. Search-normalized
+   matches retain original text and offsets; use `--max-edits 1` for a small OCR-error allowance.
+   Long-s is normalized; OCR f/s conflation requires `--ocr-long-s`. Compare downloaded
+   competing works with `tools/latin_search.py` and mark common formulas explicitly.
+   Google Books scans are often mirrored
    as `bub_gb_<volume id>` with better OCR than the original.
 3. **Corpus Corporum** (Patrologia Latina and much else):
    `mlat.uzh.ch/php_modules/fulltext_search.php?query=...&index_type=p`, which accepts Sphinx

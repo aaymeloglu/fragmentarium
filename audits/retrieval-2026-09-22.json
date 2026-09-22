@@ -1,0 +1,276 @@
+{
+  "format": "latin-retrieval-v1",
+  "status": "candidate-retrieval-only",
+  "query": {
+    "purpose": "Tool validation on a known identification; not blind discovery or the comparative pilot",
+    "source": "https://github.com/aaymeloglu/fragmentarium/blob/859c3db3ef7b08adabe9718c856a5e83b314e90f/fragments/F-eo5z/README.md",
+    "anchors": [
+      {
+        "id": "leprosy-maxim",
+        "common": true,
+        "reason": "Shared maxim noted by Duba; also occurs in Durandus. Searchable but not diagnostic.",
+        "variants": [
+          {
+            "text": "leprosus generat leprosum",
+            "basis": "Legacy source-assisted report; not a certified transcription"
+          }
+        ]
+      },
+      {
+        "id": "intellective-arrival",
+        "line_ref": "legacy report: fol. [2]v col. b, lines 16-17",
+        "variants": [
+          {
+            "text": "in adventu intellective fieret resolutio",
+            "basis": "Legacy source-assisted report; not a certified transcription"
+          }
+        ]
+      },
+      {
+        "id": "ass-matter",
+        "line_ref": "legacy report: fol. [1]r col. a, line 13",
+        "variants": [
+          {
+            "text": "materia ipsius asini",
+            "basis": "Legacy source-assisted report; not a certified transcription"
+          }
+        ]
+      },
+      {
+        "id": "denudation",
+        "line_ref": "legacy report: fol. [1]r col. a, lines 16-17",
+        "variants": [
+          {
+            "text": "denudatio ab omni alia forma",
+            "basis": "Legacy source-assisted report; not a certified transcription"
+          }
+        ]
+      },
+      {
+        "id": "capacity",
+        "line_ref": "legacy report: fol. [1]r col. a, second slice, lines 20-21",
+        "variants": [
+          {
+            "text": "in maxima aptitudine ad recipiendum animam intellectivam",
+            "basis": "Legacy source-assisted report; not a certified transcription"
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "max_edits": 1,
+    "window_raw_characters": 1800,
+    "limit_per_document": 1,
+    "ocr_long_s": false,
+    "normalization": "latin-mapped-v1"
+  },
+  "corpus_size": 2,
+  "document_frequency": {
+    "leprosy-maxim": 2,
+    "intellective-arrival": 1,
+    "ass-matter": 1,
+    "denudation": 1,
+    "capacity": 1
+  },
+  "weights": {
+    "leprosy-maxim": 0.0,
+    "intellective-arrival": 1.4054651081081644,
+    "ass-matter": 1.4054651081081644,
+    "denudation": 1.4054651081081644,
+    "capacity": 1.4054651081081644
+  },
+  "documents": [
+    {
+      "id": "hocedez-1925",
+      "source": "https://archive.org/download/richarddemiddlet0000edga/richarddemiddlet0000edga_djvu.txt",
+      "text_sha256": "6d7634a2ec6a2bb6b97ae28661729ff9077028b0975b3c8edc2c1780d0b8ab7f",
+      "hits": [
+        {
+          "anchor": "leprosy-maxim",
+          "variant": 0,
+          "normalized_query": "leprosus generat leprosum",
+          "normalized_match": "leprosus generat leprosum",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 832191,
+          "end": 832216,
+          "text": "leprosus generat leprosum",
+          "line": 20724,
+          "form_feed_page": null
+        },
+        {
+          "anchor": "intellective-arrival",
+          "variant": 0,
+          "normalized_query": "in aduentu intellectiue fieret resolutio",
+          "normalized_match": "in aduentu intellectiue fieret resolutio",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 832271,
+          "end": 832313,
+          "text": "in adventu intellectivae \nfieret resolutio",
+          "line": 20725,
+          "form_feed_page": null
+        },
+        {
+          "anchor": "ass-matter",
+          "variant": 0,
+          "normalized_query": "materia ipsius asini",
+          "normalized_match": "materia ipsius asini",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 832693,
+          "end": 832713,
+          "text": "materia ipsius asini",
+          "line": 20733,
+          "form_feed_page": null
+        },
+        {
+          "anchor": "denudation",
+          "variant": 0,
+          "normalized_query": "denudatio ab omni alia forma",
+          "normalized_match": "denudatio ab omni alia forma",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 832879,
+          "end": 832907,
+          "text": "denudatio ab omni alia forma",
+          "line": 20735,
+          "form_feed_page": null
+        },
+        {
+          "anchor": "capacity",
+          "variant": 0,
+          "normalized_query": "in maxima aptitudine ad recipiendum animam intellectiuam",
+          "normalized_match": "in maxima aptitudine ad recipendum animam intellectiuam",
+          "mode": "edit-distance",
+          "edits": 1,
+          "start": 833611,
+          "end": 833666,
+          "text": "in maxima aptitudine ad recipendum animam intellectivam",
+          "line": 20746,
+          "form_feed_page": null
+        },
+        {
+          "anchor": "ass-matter",
+          "variant": 0,
+          "normalized_query": "materia ipsius asini",
+          "normalized_match": "materia ipsius asini",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 924000,
+          "end": 924020,
+          "text": "materia ipsius asini",
+          "line": 22896,
+          "form_feed_page": null
+        }
+      ],
+      "hit_counts": {
+        "leprosy-maxim": 1,
+        "intellective-arrival": 1,
+        "ass-matter": 2,
+        "denudation": 1,
+        "capacity": 1
+      },
+      "passages": [
+        {
+          "score": 4.919128,
+          "matched": 4,
+          "diagnostic_total": 4,
+          "start": 832271,
+          "end": 833666,
+          "matches": [
+            {
+              "anchor": "intellective-arrival",
+              "variant": 0,
+              "normalized_query": "in aduentu intellectiue fieret resolutio",
+              "normalized_match": "in aduentu intellectiue fieret resolutio",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 832271,
+              "end": 832313,
+              "text": "in adventu intellectivae \nfieret resolutio",
+              "line": 20725,
+              "form_feed_page": null
+            },
+            {
+              "anchor": "ass-matter",
+              "variant": 0,
+              "normalized_query": "materia ipsius asini",
+              "normalized_match": "materia ipsius asini",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 832693,
+              "end": 832713,
+              "text": "materia ipsius asini",
+              "line": 20733,
+              "form_feed_page": null
+            },
+            {
+              "anchor": "denudation",
+              "variant": 0,
+              "normalized_query": "denudatio ab omni alia forma",
+              "normalized_match": "denudatio ab omni alia forma",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 832879,
+              "end": 832907,
+              "text": "denudatio ab omni alia forma",
+              "line": 20735,
+              "form_feed_page": null
+            },
+            {
+              "anchor": "capacity",
+              "variant": 0,
+              "normalized_query": "in maxima aptitudine ad recipiendum animam intellectiuam",
+              "normalized_match": "in maxima aptitudine ad recipendum animam intellectiuam",
+              "mode": "edit-distance",
+              "edits": 1,
+              "start": 833611,
+              "end": 833666,
+              "text": "in maxima aptitudine ad recipendum animam intellectivam",
+              "line": 20746,
+              "form_feed_page": null
+            }
+          ],
+          "total_edits": 1,
+          "gap_characters": [
+            380,
+            166,
+            704
+          ],
+          "unmatched": []
+        }
+      ]
+    },
+    {
+      "id": "durandus-II-d20-q5",
+      "source": "https://reader.lombardpress.org/text/jsnvu6/jsnvu6-d1e3228",
+      "text_sha256": "212424631ebb87c001fd28023e720439a69f73c8db12a45ef6e6c5b8f8e93eba",
+      "hits": [
+        {
+          "anchor": "leprosy-maxim",
+          "variant": 0,
+          "normalized_query": "leprosus generat leprosum",
+          "normalized_match": "leprosus generat leprosum",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 2674,
+          "end": 2699,
+          "text": "leprosus generat leprosum",
+          "line": 46,
+          "form_feed_page": null
+        }
+      ],
+      "hit_counts": {
+        "leprosy-maxim": 1,
+        "intellective-arrival": 0,
+        "ass-matter": 0,
+        "denudation": 0,
+        "capacity": 0
+      },
+      "passages": []
+    }
+  ],
+  "query_sha256": "697e0a395f92bd2c08c3d3aa0b62628037e1c78e216a57455a158cd80bd6fe4f"
+}
