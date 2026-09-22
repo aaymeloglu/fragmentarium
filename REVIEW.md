@@ -2,7 +2,7 @@
 
 The results remain **8 identified, 12 partial, and 2 not identified**. All 22 reports now distinguish the identification claim, selected readings, and the checks actually performed. This run supports the eight existing identifications in the passages checked. It does not certify every transcribed word, complete fragment endpoints, dating, physical reconstruction, or witness novelty.
 
-Two complete saved sets are available: [before re-adjudication](https://aaymeloglu.github.io/fragmentarium/runs/before-2026-09-22/index.html) and [after re-adjudication](https://aaymeloglu.github.io/fragmentarium/runs/after-2026-09-22/index.html). Each contains the same 22 fragment reports, its own index and review, and versioned links to repository evidence. The before set preserves the previously published results at commit `9373f57407028528b147bb06883608ce5f1f4c8e`; it is not a rerun of the old method. The after set records this complete re-adjudication. Both retain their content when the current site is rebuilt. External library images and edition websites can still change.
+The [saved before set](https://aaymeloglu.github.io/fragmentarium/runs/before-2026-09-22/index.html) preserves the 22 reports published at commit `9373f57407028528b147bb06883608ce5f1f4c8e`, with its own index, review, and versioned evidence links. The [main site](https://aaymeloglu.github.io/fragmentarium/) is the current, after version. The before reports remain fixed as the main site evolves; external library images and edition websites can still change.
 
 ## What was done
 
@@ -54,7 +54,7 @@ The individual reports contain the selected manuscript passages, edition loci, l
 
 ## Preservation and limits
 
-Each current report links its preserved image-only and assisted records; the pilots also link their saved HTR results. The old reports remain readable in the before set. Both saved sets include file hashes and commit references in `snapshot.json`, and automated checks cover complete membership, hashes and local navigation.
+Each current report links its preserved image-only and assisted records; the pilots also link their saved HTR results. The old reports remain readable in the before set. The before set includes file hashes and commit references in `snapshot.json`, and automated checks cover complete membership, hashes and local navigation.
 
 Most manuscript images were reused from earlier cached downloads. Where original crop coordinates or scale could not be recovered, the packet records and reports say so; “viewed at stored resolution” is not a claim to a native-scale acquisition. F-ahiy's crop-position description and F-2a37's probable front/back label error are corrected in later notes without rewriting the immutable initial records. Checksums establish preservation, not correct provenance, reader isolation or textual truth.
 

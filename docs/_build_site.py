@@ -56,7 +56,7 @@ def page(title, body, crumbs=""):
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><style>{STYLE}</style></head>
-<body><div class="wrap"><p class="crumbs">Saved sets of all 22 fragments: <a href="runs/before-2026-09-22/index.html">Before</a> · <a href="runs/after-2026-09-22/index.html">After</a>.</p>{crumbs}{body}
+<body><div class="wrap">{crumbs}{body}
 <p class="credit">Images are served by the holding libraries through IIIF and are not stored in this repository; rights remain with the institutions named on each Fragmentarium record. Source and data: <a href="{REPO}">{REPO}</a>.</p>
 </div></body></html>
 """
