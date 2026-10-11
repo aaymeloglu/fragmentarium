@@ -1,0 +1,30 @@
+# F-rygw: Galen, *De regimine sanitatis*, book VI
+
+The main text is identified with high confidence as book VI of the medieval Latin *De regimine sanitatis* (*De sanitate tuenda*), in the translation attributed to Burgundio of Pisa. Two separate passages on fol. [1]v agree in distinctive wording and sequence with the 1490 Venice edition. The identification concerns the main text; the marginal annotations have not been identified.
+
+The [Fragmentarium record](https://fragmentarium.ms/overview/F-rygw) describes two parchment leaves, Gent, Bisschoppelijk Archief Gent, fragment nr. 15, dated 1201–1250, in Southern Textualis, 380 × 247 mm. These catalogue descriptions have not been independently reassessed.
+
+The [preserved image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-rygw/readings/batch-2026-10-11-image-only.json) contains substantial errors and gaps. The [separately preserved selected revision](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-rygw/readings/batch-2026-10-11-source-assisted.json) and the excerpts below are **source-assisted**, obtained by returning to the manuscript after locating the edition. Two Codex agents compared both passages directly with manuscript and edition images. This is model review, not human palaeographic verification or certification of a complete transcription.
+
+## Textual evidence
+
+Both passages are on [the first leaf, verso](https://fragmentarium.ms/loris/F-rygw/ba_gent_20240117a_0056_fragm_15.jp2/full/3192,/0/default.jpg), image-002 of the preserved reading. Line labels refer to the native, unrotated crops defined in that reading. Parentheses expand abbreviations; ellipses omit text and do not supply lost words.
+
+| Manuscript passage | Edition comparison |
+|---|---|
+| Left column, crop B, L4–8: “... ad eos qui meminerunt / fricationu(m) exercitior(um) et balneor(um) ... / ... cu(m) hiis cibarior(um) et farmacor(um). Igitur / de fricationibus et exercitiis antea in h(oc) libro dictu(m) / est de cibariis vero alibi ...” | [1490 edition, vol. II, fol. 179v, right column](https://www.digitale-sammlungen.de/en/view/bsb00052983?page=344): the paragraph beginning “Iccirco succinctus hic sermo universus fiat ad eos qui meminerunt” runs through the same list of practices and then “Igitur de fricationibus et exercitiis in hoc libro antea dictum est de cibariis vero alibi ...”. The following manuscript lines also retain the sequence *methodum – doctrina – communia – particularia – ego vero non solum – exempla*. |
+| Right column, crop C, L5–9: “Et quosdam quidem anorexi / .i. non appetere sequitur ... / ... quos vocant caninos ... / ... mulieribus ... .i. pregnantibus / Manifestu(m) aute(m) est ...” | [1490 edition, vol. II, fol. 180r, left column](https://www.digitale-sammlungen.de/en/view/bsb00052983?page=345): “Et quosdam quidem anorexie .i. non appetere sequitur: quosdam vero appetitus praeter naturam quos nominant caninos: aut et malorum cibariorum desiderium ... mulieribus ... .i. pregnantibus. Manifestum autem est ...”. The subsequent list of swellings, ulcers, and fluxes from the head also follows in both. |
+
+The first passage supplied the retrieval phrase. The second is an additional verification passage not used for retrieval; it had already been included in the image-only reading. Crop B covers x=24.9–56%, y=48–61% of the full image; crop C covers x=60.2–90%, y=35.4–48%. The second crop cuts portions of the right edge, so the table does not reconstruct full lines there.
+
+The wording is not completely identical. For example, the manuscript places *antea* before *in hoc libro*, where the edition places it after; crop C reads *vocant* against the edition's *nominant*. Inflectional readings in the opening list, technical Greek-derived terms, and some abbreviated words remain uncertain. No complete collation is claimed.
+
+The two passages occur in the same order in continuous main-column prose, without a quotation boundary or a change of speaker around the selected text. Their agreement includes transitions, self-reference to earlier treatment, explanatory glosses, and the sequence of symptoms. This supports the containing medical text, rather than merely a shared medical commonplace. The separate marginal glosses and the possibility of further compilation outside the surviving leaves remain outside the claim.
+
+## Edition and attribution
+
+The comparison edition is *Galieni Pergamensis medicorum omnium principis Opera*, edited by Diomede Bonardo, Venice: Filippo Pinzi, 27 August 1490, vol. II. [Galeno Latino's edition record](https://www.galenolatino.com/edizioni.php?id=1) locates this translation at signatures q3r–r8v. Its [translation record](https://www.galenolatino.com/traduzioni.php?id=2) identifies *De regimine sanitatis* with *De sanitate tuenda* and discusses the attribution of book VI to Burgundio of Pisa, including the distinction between the abridged earlier books and the fuller sixth book. The [Wellcome bibliographic record](https://wellcomecollection.org/works/wrmtw487) independently records the printer, date, editor, and two-volume edition.
+
+The printed [colophon at the end of book VI](https://www.digitale-sammlungen.de/en/view/bsb00052983?page=348), directly inspected, says that the work is attributed to Galen but, according to Rhazes in book IX of the *Continens*, belonged to Rufus: “Explicit liber de regimine sanitatis qui attribuitur galieno licet secundum rasim nono continentis fuerit ruffi.” That historical attribution caveat is retained here. The modern identification of the translation and work rests on the scholarly record separately from the textual match; the matching passages alone do not adjudicate ancient authorship.
+
+All four manuscript canvases were visually surveyed. Detailed source comparison is limited to the two passages on fol. [1]v and their immediate context. The remaining main text and annotations have not been systematically collated. No claim is made about witness novelty, provenance, or recension.

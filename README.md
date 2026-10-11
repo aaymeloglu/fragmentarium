@@ -16,10 +16,12 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-22 fragments examined; 8 identifications published.
+42 fragments examined; 10 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-rl44](https://aaymeloglu.github.io/fragmentarium/F-rl44.html) | Serapion Senior, Breviarium, tract VII (antidotarium), chapter 20 | 2026-10-11 |
+| [F-rygw](https://aaymeloglu.github.io/fragmentarium/F-rygw.html) | Galen, De regimine sanitatis, Book VI, medieval Latin translation | 2026-10-11 |
 | [F-1exy](https://aaymeloglu.github.io/fragmentarium/F-1exy.html) | Nicholas of Lyra, Tractatus de differentia nostrae translationis ab hebraica littera, Genesis section | 2026-09-20 |
 | [F-2e1n](https://aaymeloglu.github.io/fragmentarium/F-2e1n.html) | Johannes Balbus, Catholicon, letter C | 2026-09-20 |
 | [F-cfry](https://aaymeloglu.github.io/fragmentarium/F-cfry.html) | Nicholas of Lyra, Postilla litteralis super Epistolam ad Hebraeos, chapter 5 | 2026-09-20 |
@@ -30,8 +32,9 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 | [F-8bfm](https://aaymeloglu.github.io/fragmentarium/F-8bfm.html) | Robert Holcot, Super Sapientiam Salomonis, end of lectio II and part of lectio III | 2026-09-20 |
 
 Dates record when the project first established the identification, not a later review or
-site update. The eight dates are supported by the original 20 September 2026 research commits
-(`3c9d6db` and `6b7c316`). `examined` separately records the latest examination.
+site update. The eight original dates are supported by the original 20 September 2026 research commits
+(`3c9d6db` and `6b7c316`). The two new identifications come from the
+[11 October batch](audits/batch-2026-10-11.md). `examined` separately records the latest examination.
 
 Research and comparisons were performed by LLMs. The reports link selected manuscript passages
 to printed sources and state the scope and limits of the evidence. Richard of Middleton was

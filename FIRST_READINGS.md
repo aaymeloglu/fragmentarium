@@ -16,6 +16,13 @@ uv run python tools/iiif.py F-xxxx crop /tmp/crops x,y,w,h --canvas 0 --scale 1
 uv run python tools/iiif.py F-xxxx tiles /tmp/crops --canvas 0 --cols 2 --rows 4 --scale 1
 ```
 
+For a batch, `tools/acquire_batch.py --selection /tmp/selection.json --output
+/tmp/source-images --packets /tmp/neutral-packets` accepts a JSON list of fragment
+IDs, caches the first two canvases each, and creates numbered neutral packets.
+It defaults to native image width; `--canvases N` changes coverage and
+`--max-width N` explicitly requests smaller overviews. Keep the source cache
+separate from readers. Use a fresh packet root when changing the image inputs.
+
 Use native pixels for recognition (`--scale 1`); magnification adds no evidence.
 Record the public image URL or manifest, canvas, region, and any transform. Check
 that the resulting crop contains the intended text. Common acquisition problems:

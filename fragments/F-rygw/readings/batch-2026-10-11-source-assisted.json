@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-10-11T22:05:38.772667+00:00",
+  "first_reading": "batch-2026-10-11-image-only",
+  "first_sha256": "9b929bdcbb37926638762af156a1cb013772eb52784f86fdef60eb699227d562",
+  "fragment": "F-rygw",
+  "id": "batch-2026-10-11-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Codex reader C; coordinating Codex agent independently compared the two image pairs",
+  "reason": "Preserve selected corrections and two direct image comparisons after finding the printed parallel; retain uncertainty and attribution caveat.",
+  "schema_version": 1,
+  "sources": [
+    "https://fragmentarium.ms/loris/F-rygw/ba_gent_20240117a_0056_fragm_15.jp2/full/3192,/0/default.jpg",
+    "https://www.digitale-sammlungen.de/en/view/bsb00052983?page=344",
+    "https://www.digitale-sammlungen.de/en/view/bsb00052983?page=345",
+    "https://www.digitale-sammlungen.de/en/view/bsb00052983?page=348",
+    "https://www.galenolatino.com/traduzioni.php?id=2",
+    "https://www.galenolatino.com/edizioni.php?id=1",
+    "https://wellcomecollection.org/works/wrmtw487"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING AND COMPARISON\n\nBase: batch-2026-10-11-image-only. This record preserves substantive corrections after comparison with Galen, De regimine sanitatis VI, Pinzi1490 volII, fol179v and180r. It does not replace the image-only reading or claim full transcription accuracy.\n\nManuscript fol.[1]v, image-002. The native unrotated crops and physical line labels are those specified in the base. Parentheses expand abbreviations; ellipses omit visible text not transcribed here. The second crop clips the right edge of some lines.\n\nCropB L4: ... ad eos qui meminerunt\nCropB L5: fricationu(m) exercitior(um) et balneor(um) ...\nCropB L6: ... cu(m) hiis cibarior(um) et farmacor(um). Igitur\nCropB L7: de fricationibus et exercitiis antea in h(oc) libro dictu(m)\nCropB L8: est de cibariis vero alibi ...\n\nCorrects the base's L5 uncertain adinventio(n)is, L7 supposed libro tertii, and L8 supposed curatio(n)e morbi. The full word after balneorum and its ending have not been certified here. Subsequent lines also preserve the sequence methodum, doctrina, communia, particularia, ego vero non solum, exempla, but are not fully re-transcribed.\n\nCropC L5: ... Et quosdam quidem anorexi\nCropC L6: .i. non appetere sequitur ...\nCropC L7: ... quos vocant caninos ...\nCropC L8: ... mulieribus ... .i. pregnantibus\nCropC L9: Manifestu(m) aute(m) est ...\n\nCorrects base L6 non aperte to non appetere. Technical spelling anorexi retained as observed; no grammatical completion to anorexia. The mark before Et is a paragraph opening, not an attributed G citation. The further symptom sequence of swellings, ulcers, and fluxes from the head was visually compared, but no complete transcription is asserted.\n\nEdition comparison: digitalpage344 rightcolumn lower-middle, fol179v, begins Iccirco succinctus hic sermo universus fiat ad eos qui meminerunt and runs through the same ordered list and methodological self-reference. Digitalpage345 leftcolumn upper-middle, fol180r, reads Et quosdam quidem anorexie .i. non appetere sequitur; quosdam vero appetitus praeter naturam quos nominant caninos; aut et malorum cibariorum desiderium ... mulieribus ... .i. pregnantibus. Manifestum autem est ... . Main-text order is sustained in both. Manuscript antea in hoc libro differs from printed in hoc libro antea; manuscript vocant differs from printed nominant. Several inflectional/technical readings remain uncertain.\n\nThe left passage was used for retrieval. The right passage was an additional verification passage not used for retrieval, although it was already included in the original image-only reading. Reader C and the coordinating Codex agent directly inspected both manuscript/edition image pairs. These are source-assisted model checks, not human palaeographic validation. All four manuscript canvases visually surveyed, but detailed comparison limited to these two spans and immediate context. Marginal annotations are not identified or collated.\n\nAttribution: Galeno Latino identifies the medieval Latin version as De sanitate tuenda/De regimine sanitatis and attributes bookVI to Burgundio of Pisa. The 1490 colophon, visually inspected at digitalpage348, nevertheless retains an attribution caveat: attributed to Galen but according to Rhazes in Continens IX to Rufus. The textual match does not itself adjudicate ancient authorship.\n",
+  "text_sha256": "34ba7c63b330abdacc0e9314a432e63659ed538abc1e6e5d0205a2f206df06ca"
+}

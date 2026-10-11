@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-10-11T22:06:55.636132+00:00",
+  "first_reading": "batch-2026-10-11-image-only",
+  "first_sha256": "ecff993851626c3583f34216db29e4e563e679130f463970d4b83eda437db148",
+  "fragment": "F-2u3k",
+  "id": "batch-2026-10-11-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Codex reader C, additional-canvas inspection after source exposure",
+  "reason": "Preserve selected upper Creed-layer reading from additional canvas inspected after source exposure; lower commentary remains unresolved.",
+  "schema_version": 1,
+  "sources": [
+    "https://fragmentarium.ms/loris/F-2u3k/oms_mds_38Fa32_e003.jp2/full/full/0/default.jpg",
+    "https://gloss-e.irht.cnrs.fr/php/editions_chapitre.php?chapitre=26_118&id=liber&numLivre=26",
+    "https://gloss-e.irht.cnrs.fr/php/editions_chapitre.php?chapitre=26_118&id=magna&numLivre=26",
+    "https://gloss-e.irht.cnrs.fr/php/editions_chapitre.php?chapitre=26_118&id=hug&numLivre=26",
+    "https://gloss-e.irht.cnrs.fr/php/editions_chapitre.php?chapitre=26_118&id=lyr&numLivre=26"
+  ],
+  "text": "SOURCE-ASSISTED ADDITIONAL-CANVAS READING\n\nBase: batch-2026-10-11-image-only. Additional manuscript canvas03, labelled Coperta posteriore, was acquired and directly viewed after catalogue/candidate exposure. It was not supplied to the original image-only packet and is not claimed as an independent first reading. No rotation, enhancement, or reconstruction was used for the selected upper text.\n\nFour large text rows, numbered from the topmost large row on this canvas; intervening small lower writing and musical staff lines are not included in this numbering. Parentheses expand abbreviations; [...] indicates omitted or edge-cut text not reconstructed here.\n\nLarge row1: [...] de spiritu s(an)c(t)o ex Ma[...]\nLarge row2: virgine et homo fact[...]\nLarge row3: Crucifix[...] etiam p(ro) no[...]\nLarge row4: sub pontio pilato [...]\n\nThe sequence supports identification of the large upper musical text as part of the Creed. The earlier research summary normalized the sequence as “Et ... spiritu sancto ex Maria ... virgine et homo factus ... Crucifixus etiam pro nobis ... sub Pontio Pilato”; that was an identification paraphrase with supplied familiar completions, not a diplomatic transcript. The short literal excerpts above deliberately leave edge completions unasserted. The chant setting, liturgical book, and underlying commentary are not identified.\n\nThe tiny lower writing is not transcribed here. A proposed Psalm118 connection was searched against Glossa ordinaria, Peter Lombard, Hugh, and Lyra without locating a sustained match. Those candidate texts did not supply the Creed readings above. A tentative Psalm138 suggestion was unsupported and withdrawn. No source passage was used to reconstruct the lower layer.\n\nThis is source-assisted model inspection, not human palaeographic validation. The original record remains unchanged.\n",
+  "text_sha256": "2434ebb2b5b73f607b6a05548914af0ce4bef096534ca0a2f4bab7a5940fee63"
+}
