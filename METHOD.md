@@ -7,8 +7,11 @@ workflow below is a default, not a requirement to exhaust every available tool.
 ## 1. Set the scope and obtain a reading
 
 Identify the question and the passages needed to answer it. For identification,
-start with legible, potentially distinctive spans; a full-leaf transcription is
-not a prerequisite. Expand coverage when the evidence calls for it or the task
+begin with an image-only overview of orientation and layout. Running titles,
+rubrics, initials, underlining, glosses and question openings can identify the
+text layers and guide crop selection. Include connecting commentary and citation
+sequences as well as prominent lemmata. A full-leaf transcription is not a
+prerequisite. Expand coverage when the evidence calls for it or the task
 requests it. Record which areas were read and which remain unchecked.
 
 For new identifications and re-adjudications, start with a fresh image-only

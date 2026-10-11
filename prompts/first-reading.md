@@ -3,7 +3,19 @@ catalogue or edition, or consult an earlier transcription. Do not identify the
 work or author. If prior context has already revealed a proposed identification
 or reading, stop and report that exposure instead of calling this a blind reading.
 
-Transcribe what you can see, preserving physical lines. Label each line with its
+Begin with a brief image-only layout survey. Note orientation, columns, running
+titles, rubrics, enlarged initials, underlined text, and interlinear or marginal
+glosses when visible. Distinguish observations from tentative interpretations
+such as main text with commentary. Do not infer author, work, date, or provenance.
+A tight crop may not show the layout; say so rather than guessing.
+
+Use those features to choose a few useful spans: headings or question openings,
+then connecting prose, transitions or citation chains. Keep quoted lemmata and
+commentary separate. Read enough surrounding prose to make a later source match
+checkable; a full transcription is not required. State which areas you selected
+and which remain unread. Suggest a wider view or an adjacent crop if needed.
+
+Transcribe those spans, preserving physical lines. Label each line with its
 image filename and a line number counted from the top of that image. Keep columns
 and marginal additions separate. Note overlapping crops rather than treating
 repeated lines as additional text.
