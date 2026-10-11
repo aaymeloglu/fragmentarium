@@ -450,7 +450,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Patristic quotation collection; a Chrysostom passage parallels Manipulus florum, Inimicicia g; containing compilation unresolved",
-  "note": "Image-only prose about enmity, disbelief of good reports and belief of evil reports matches the quotation in the scholarly Manipulus edition. Adjacent quotation order does not establish that compilation. Selected Pharetra chapters and phrase searches did not resolve the containing work; no public report.",
+  "note": "Chrysostom quotation parallels Manipulus florum, Inimicicia g. A fresh reading of both library-native images adds Augustine Enchiridion 71–72 and a Gregory Moralia 22.11 parallel. Comparisons with Jonas De institutione laicali 3.10 and complete displayed Pharetra chapters 2.25 and 2.49 did not establish the containing compilation. Quotation order remains unresolved; see native-retry audit. No public report.",
   "verify": "https://manipulus-project.wlu.ca/MFedition/Inimicicia/index.html",
   "examined": "2026-10-11",
   "identified_on": null
@@ -488,7 +488,7 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "Not identified",
-  "note": "Both initial views and four additional views of remaining fragment leaves inspected. Compressed cursive and broken lines prevented a diagnostic consecutive reading. Catalogue possibly-law label and tentative formal/material vocabulary do not establish a work or even firm subject. Stop: specialist transcription or better diagnostic passage needed.",
+  "note": "Initial two views reread from native 5203/5176-pixel-wide images using eight unscaled upper/middle column crops after complete layout inspection. Only uncertain generic formal/material vocabulary and transitions recovered; no diagnostic consecutive prose. Prior four additional views remain checked only at 2000 pixels. Zero new source searches or edition checks; no candidate excluded. Work and firm subject remain unidentified; stop pending a reliable diagnostic transcription or materially different reading approach.",
   "verify": "https://fragmentarium.ms/overview/F-ldh6",
   "examined": "2026-10-11",
   "identified_on": null
@@ -621,7 +621,7 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "Not identified",
-  "note": "Both faces surveyed; upper areas cropped at supplied 5000px resolution, with only scattered uncertain groups. Coordinator separately checked a library-native upper-left crop and reported it still unreadable; that is not this reader’s independent verification. Stop: extensive fading/mottling prevents useful continuous reading; no work-specific search justified by the fragments.",
+  "note": "Fresh isolated retry inspected both library-native images and ten crop regions across upper, middle and lower writing. Fading, mottling and uncertain abbreviations still prevented dependable connected prose. No additional source query was justified by the isolated word guesses; no work excluded. Original and retry readings preserved separately.",
   "verify": "https://fragmentarium.ms/overview/F-516x",
   "examined": "2026-10-11",
   "identified_on": null
@@ -640,7 +640,7 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "Not identified",
-  "note": "Both faces surveyed and first-face middle/lower-left crops inspected. A further library-native lower-left crop did not yield a diagnostic continuous passage. The catalogue labels ethics, but this was not promoted into an author/work identification. Stop: faded writing and uncertain abbreviations; stronger image or specialist reading required.",
+  "note": "Fresh isolated retry inspected both library-native images, seventeen crop regions and six contrast variants. Tentative bonum honestum is generic; surrounding prose remains unresolved. No additional work-specific source query was justified, and no work excluded. Catalogue ethics label is not an attribution. Original and retry readings preserved separately.",
   "verify": "https://fragmentarium.ms/overview/F-qnuy",
   "examined": "2026-10-11",
   "identified_on": null
@@ -659,7 +659,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Exultet quotation within unidentified explanatory/penitential prose",
-  "note": "Underlined O inestimabilis dilectio caritatis / ut servum redimeres filium tradidisti matches the Exultet source layer, already noted in the catalogue. Native-resolution recheck preserves surrounding oil-spring/Nativity and contrition/confession prose separately. Searches of those connective phrases yielded thematic Ludolph/Bonaventure/Caesarius parallels but no sustained containing-work match. Assisted record saved. Stop: quotation does not establish the containing work; no high attribution or public report.",
+  "note": "Fresh library-native image-only retry preserved; both full images and 12 native crops inspected, expanding connecting prose around image-002 R11-28. Six distinct renewed queries and targeted Caesarius Dialogus miraculorum II/III HTML checks yielded thematic parallels but no sustained containing-work match. Retain partial/medium for the already catalogued Exultet quotation only; no author or containing work established.",
   "verify": "https://fragmentarium.ms/overview/F-lwy7",
   "examined": "2026-10-11",
   "identified_on": null
@@ -678,7 +678,7 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "Not identified",
-  "note": "Both strip faces inspected after 180-degree rotation, followed by a library-native legal-text crop. Very compressed abbreviations still prevent diagnostic prose. Catalogue identifies the larger host text as Ioannes de Lignano, Lectura super primo libro Decretalium Gregorii IX; that host identification is explicitly excluded from the unidentified covering fragment. Two additional manifest canvases remain unchecked. Stop: no sustained target-text match.",
+  "note": "Fresh library-native image-only retry preserved; both strip faces surveyed and ten native crops inspected after lossless 180-degree rotation. Six distinct searches of tentative multi? viri? timorati? lombar? produced a Walter Map short-phrase hit, but crop reinspection found no sustained surrounding match. Dense abbreviations remain unresolved; retain unidentified/none. Catalogued Ioannes de Lignano host text is not attributed to the wrapper; two additional canvases remain unchecked.",
   "verify": "https://fragmentarium.ms/overview/F-mfvu",
   "examined": "2026-10-11",
   "identified_on": null
