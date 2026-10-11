@@ -99,6 +99,30 @@ search is enabled; they do not also receive edit tolerance. A match reports the
 best variant (fewest edits, then first supplied) when alternatives hit the same
 span. Punctuation separates words; it is not a wildcard for missing text.
 
+For missing spans, use `parts` and a `gaps` list instead of `text` in a variant:
+
+```json
+{
+  "parts": ["materia ipsius asini", "animam intellectivam"],
+  "gaps": [{"min": 1, "max": 120}],
+  "basis": "Surviving spans separated by damage; spacing is a search hypothesis"
+}
+```
+
+Each gap bounds the number of **normalized characters**, including spaces,
+between successive non-overlapping parts. Every part must match, in order. Use
+several parts for successive line ends, with one min/max pair per gap. These are
+bounds in the searched edition's normalized text, not physical line lengths or
+pixel measurements; allow for uncertain abbreviation expansion. Derive them
+from a stated reading/layout hypothesis, not a candidate match chosen afterward.
+
+Existing partial-word and edit-tolerance rules apply to each part separately.
+The hit reports each surviving segment's original offsets, text and edits, plus
+the measured normalized gaps. Its overall excerpt also contains the intervening
+edition text; that text is not a recovered manuscript reading. Scores count the
+whole variant as one anchor, with summed segment edits. Alternatives remain
+explicit variants, and `common` anchors remain excluded from ranking.
+
 A corpus JSON lists downloaded texts, with paths relative to the manifest:
 
 ```json

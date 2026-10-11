@@ -1,0 +1,178 @@
+{
+  "format": "latin-retrieval-v1",
+  "status": "candidate-retrieval-only",
+  "query": {
+    "source": "Tool validation using a source-assisted F-eo5z phrase from the September 22 pilot; deliberately omit its middle words to exercise bounded gaps. Not a new manuscript reading or discovery.",
+    "anchors": [
+      {
+        "id": "passage",
+        "variants": [
+          {
+            "parts": [
+              "in adventu",
+              "fieret resolutio"
+            ],
+            "gaps": [
+              {
+                "min": 1,
+                "max": 80
+              }
+            ],
+            "basis": "Known Hocedez comparison phrase, with the middle deliberately omitted for a retrieval regression."
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "max_edits": 0,
+    "window_raw_characters": 6000,
+    "limit_per_document": 3,
+    "ocr_long_s": false,
+    "normalization": "latin-mapped-v1"
+  },
+  "corpus_size": 2,
+  "document_frequency": {
+    "passage": 1
+  },
+  "weights": {
+    "passage": 1.4054651081081644
+  },
+  "documents": [
+    {
+      "id": "hocedez-1925",
+      "source": "https://archive.org/download/richarddemiddlet0000edga/richarddemiddlet0000edga_djvu.txt",
+      "text_sha256": "6d7634a2ec6a2bb6b97ae28661729ff9077028b0975b3c8edc2c1780d0b8ab7f",
+      "hits": [
+        {
+          "anchor": "passage",
+          "variant": 0,
+          "normalized_query": "in aduentu … fieret resolutio",
+          "normalized_match": "in aduentu intellectiue fieret resolutio",
+          "mode": "bounded-gap",
+          "edits": 0,
+          "start": 832271,
+          "end": 832313,
+          "text": "in adventu intellectivae \nfieret resolutio",
+          "line": 20725,
+          "form_feed_page": null,
+          "segments": [
+            {
+              "anchor": "passage",
+              "variant": 0,
+              "normalized_query": "in aduentu",
+              "normalized_match": "in aduentu",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 832271,
+              "end": 832281,
+              "text": "in adventu",
+              "line": 20725,
+              "form_feed_page": null
+            },
+            {
+              "anchor": "passage",
+              "variant": 0,
+              "normalized_query": "fieret resolutio",
+              "normalized_match": "fieret resolutio",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 832297,
+              "end": 832313,
+              "text": "fieret resolutio",
+              "line": 20726,
+              "form_feed_page": null
+            }
+          ],
+          "gap_normalized_characters": [
+            14
+          ],
+          "gap_bounds": [
+            {
+              "min": 1,
+              "max": 80
+            }
+          ]
+        }
+      ],
+      "hit_counts": {
+        "passage": 1
+      },
+      "passages": [
+        {
+          "score": 1.405465,
+          "matched": 1,
+          "diagnostic_total": 1,
+          "start": 832271,
+          "end": 832313,
+          "matches": [
+            {
+              "anchor": "passage",
+              "variant": 0,
+              "normalized_query": "in aduentu … fieret resolutio",
+              "normalized_match": "in aduentu intellectiue fieret resolutio",
+              "mode": "bounded-gap",
+              "edits": 0,
+              "start": 832271,
+              "end": 832313,
+              "text": "in adventu intellectivae \nfieret resolutio",
+              "line": 20725,
+              "form_feed_page": null,
+              "segments": [
+                {
+                  "anchor": "passage",
+                  "variant": 0,
+                  "normalized_query": "in aduentu",
+                  "normalized_match": "in aduentu",
+                  "mode": "normalized-exact",
+                  "edits": 0,
+                  "start": 832271,
+                  "end": 832281,
+                  "text": "in adventu",
+                  "line": 20725,
+                  "form_feed_page": null
+                },
+                {
+                  "anchor": "passage",
+                  "variant": 0,
+                  "normalized_query": "fieret resolutio",
+                  "normalized_match": "fieret resolutio",
+                  "mode": "normalized-exact",
+                  "edits": 0,
+                  "start": 832297,
+                  "end": 832313,
+                  "text": "fieret resolutio",
+                  "line": 20726,
+                  "form_feed_page": null
+                }
+              ],
+              "gap_normalized_characters": [
+                14
+              ],
+              "gap_bounds": [
+                {
+                  "min": 1,
+                  "max": 80
+                }
+              ]
+            }
+          ],
+          "total_edits": 0,
+          "gap_characters": [],
+          "unmatched": []
+        }
+      ]
+    },
+    {
+      "id": "durandus-II-d20-q5",
+      "source": "https://reader.lombardpress.org/text/jsnvu6/jsnvu6-d1e3228",
+      "text_sha256": "212424631ebb87c001fd28023e720439a69f73c8db12a45ef6e6c5b8f8e93eba",
+      "hits": [],
+      "hit_counts": {
+        "passage": 0
+      },
+      "passages": []
+    }
+  ],
+  "query_sha256": "33844a0b1e17bb193a3a2ed394ddcc786350db978df619bb68a7a15bc4864ecf"
+}
