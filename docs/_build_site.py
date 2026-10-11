@@ -57,7 +57,9 @@ article blockquote { border-left:3px solid var(--rule); margin:12px 0; padding:2
 def page(title, body, crumbs=""):
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(title)}</title><style>{STYLE}</style></head>
+<title>{html.escape(title)}</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
+<style>{STYLE}</style></head>
 <body><div class="wrap">{crumbs}{body}
 <p class="credit">Images are served by the holding libraries through IIIF and are not stored in this repository; rights remain with the institutions named on each Fragmentarium record. Source and data: <a href="{REPO}">{REPO}</a>.</p>
 </div></body></html>
