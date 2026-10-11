@@ -33,7 +33,7 @@ provides adaptable research tactics; the tool manuals describe commands.
 
 ## Identification status and confidence
 
-The index's `status` and `confidence` describe support for the identification
+The research ledger's `status` and `confidence` describe support for the identification
 claim only, including a provisional connection when status is partial. They do
 not grade transcription accuracy, verification coverage, dating, or witness
 novelty. A well-supported identification can coexist with a poor transcription.
@@ -42,9 +42,23 @@ strength of unrelated claims:
 
 | Status | Meaning |
 |---|---|
-| **Identified** | Sustained agreement in distinctive wording and sequence identifies a text in a specific edition, with abbreviations and textual variants recorded. Give the author, work, locus, and a checkable link. The current index requires confidence `high`. |
+| **Identified** | Sustained agreement in distinctive wording and sequence identifies a text in a specific edition, with abbreviations and textual variants recorded. Give the author, work, locus, and a checkable link. Publication requires confidence `high`. |
 | **Partial** | A source connection, genre, subject, or text layer has support, but the compiling work or attribution remains unresolved. Use `medium` for a substantial source parallel or text layer, `low` for chiefly genre, school, or author leads. |
 | **Not identified** | Describe the fragment and searches, but no identification is established. Confidence `none`. |
+
+## Publication
+
+Publish only entries with `status: identified` and `confidence: high`. The site
+shows the identification and `identified_on` date; confidence stays in the ledger.
+Partial source connections and unsuccessful attempts need only a short ledger
+note recording evidence and the stopping reason. Existing research reports and
+preserved readings remain available in Git. Do not turn a partial result into
+an identification to obtain a public page.
+
+`identified_on` is an ISO date (`YYYY-MM-DD`) for the original establishment of
+the stated identification, or null for an unresolved attempt. Later reviews
+update `examined`, not `identified_on`. If the identification changes to a different
+work, record the new identification's date; retain the earlier finding in history.
 
 ## Writeup: distinguish the claim, the reading, and the checks
 
@@ -83,8 +97,9 @@ accuracy rate should be invented without a suitable checked reference.
 
 ## Report and record format
 
-`fragments/<F-id>/README.md` contains the catalogue details, scoped reading and
-comparison, sources, result, and unresolved questions. Include the lines needed
+`fragments/<F-id>/README.md` is required for published identifications. It contains
+the catalogue details, scoped reading and comparison, sources, result, and
+unresolved questions. Include the lines needed
 to assess the claim, with proposed expansions in parentheses and uncertainty
 marked. State the coverage; do not imply unread sides were transcribed. Provide
 an edition/facsimile link and locus, and use a comparison table when it helps.
@@ -99,7 +114,7 @@ create an assisted record without a base. The report states the missing
 independent evidence. Do not fabricate a base to satisfy the schema.
 
 `data/fragments.json` holds catalogue data, identification, note, status,
-identification confidence, links, order, and examination date. `docs/_build_site.py` renders the
+identification confidence, links, order, identification date, and examination date. `docs/_build_site.py` renders the
 site; CI checks record preservation, data consistency, and generated pages.
 
 When outreach is explicitly requested, use Fragmentarium's catalogue field names

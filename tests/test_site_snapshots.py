@@ -22,8 +22,9 @@ def test_before_snapshot_preserves_pages_and_internal_navigation():
     ids = {row["id"] for row in json.loads((ROOT / "data/fragments.json").read_text())}
     directory = ROOT / "docs/runs/before-2026-09-22"
     manifest = json.loads((directory / "snapshot.json").read_text())
-    assert ids == {path.stem for path in directory.glob("F-*.html")}
-    assert len(ids) == 22
+    snapshot_ids = {path.stem for path in directory.glob("F-*.html")}
+    assert snapshot_ids <= ids
+    assert len(snapshot_ids) == 22
     assert set(manifest["files"]) == {path.name for path in directory.glob("*.html")}
     for name, hashes in manifest["files"].items():
         path = directory / name
@@ -37,4 +38,4 @@ def test_before_snapshot_preserves_pages_and_internal_navigation():
             if not parsed.scheme and parsed.path:
                 assert (directory / parsed.path).resolve().is_file(), (path, href)
         if name == "index.html":
-            assert all(f"{fid}.html" in links.hrefs for fid in ids)
+            assert all(f"{fid}.html" in links.hrefs for fid in snapshot_ids)

@@ -5,7 +5,7 @@ Python 3, standard library only. From the repo root:
 
     python3 docs/_build_site.py
 
-Writes docs/index.html (the table) and docs/<F-id>.html (one page per fragment, rendered from
+Writes docs/index.html (the table) and docs/<F-id>.html (one page per published identification, rendered from
 the fragment folder's README). Images are never copied: thumbnails are hotlinked from the
 holding library's IIIF server, as recorded in data/fragments.json.
 """
@@ -47,6 +47,8 @@ article th { font-size:12px; letter-spacing:.06em; text-transform:uppercase; col
 article code, article pre { font-family:var(--mono); font-size:14px; }
 article pre { background:var(--surface); border:1px solid var(--rule); padding:12px; overflow-x:auto; white-space:pre-wrap; }
 article ul { padding-left:22px; } article li { margin-bottom:6px; }
+details { margin-top:24px; } summary { cursor:pointer; color:var(--accent); }
+button.sort { font:inherit; color:inherit; text-transform:inherit; letter-spacing:inherit; background:none; border:0; padding:0; cursor:pointer; text-align:left; }
 article blockquote { border-left:3px solid var(--rule); margin:12px 0; padding:2px 14px; color:var(--muted); }
 @media (max-width:700px) { body { font-size:16px; } table.idx th:first-child, table.idx td.thumb { display:none; } table.idx td { padding:8px; } }
 """
@@ -139,21 +141,20 @@ def md_to_html(text):
 
 SORT_JS = """<script>
 document.querySelectorAll('table.sortable th[data-col]').forEach(function(th){
-  th.style.cursor='pointer'; th.title='Sort';
-  th.addEventListener('click',function(){
-    var t=th.closest('table'), c=+th.dataset.col, rows=Array.from(t.querySelectorAll('tr')).slice(1);
-    var asc=!(th.dataset.asc==='1'); th.dataset.asc=asc?'1':'0';
+  th.querySelector('button').addEventListener('click',function(){
+    var t=th.closest('table'), c=+th.dataset.col, body=t.tBodies[0], rows=Array.from(body.rows);
+    var asc=th.getAttribute('aria-sort')!=='ascending';
+    t.querySelectorAll('th[data-col]').forEach(function(h){h.setAttribute('aria-sort','none');});
+    th.setAttribute('aria-sort',asc?'ascending':'descending');
     rows.sort(function(a,b){var x=a.cells[c].dataset.sort||a.cells[c].textContent.trim(), y=b.cells[c].dataset.sort||b.cells[c].textContent.trim(); return (x<y?-1:x>y?1:0)*(asc?1:-1);});
-    rows.forEach(function(r){t.appendChild(r);});
+    rows.forEach(function(r){body.appendChild(r);});
   });
 });
 </script>"""
 
 
-def badge(r):
-    label = {"identified": "Identified", "partial": "Partial", "unidentified": "Not identified"}[r["status"]]
-    conf = {"high": "high confidence", "medium": "medium confidence", "low": "low confidence", "none": ""}[r["confidence"]]
-    return f'<span class="badge {r["confidence"]}">{label}{" · " + conf if conf else ""}</span>'
+def publishable(row):
+    return row["status"] == "identified" and row["confidence"] == "high"
 
 
 GENRE_BOOST = ("law", "decret", "canon", "gloss", "commentar", "sermon", "homil", "postil", "bible", "genesis",
@@ -188,8 +189,10 @@ def build_burndown(done):
     for r in rows:
         fid = r["fragmentarium_id"]
         d = done.get(fid)
-        if d:
-            st = badge(d) + f' <a href="{fid}.html">page</a>'
+        if d and publishable(d):
+            st = f'<a href="{fid}.html">Identified</a>'
+        elif d:
+            st = 'Examined; not identified'
         else:
             st = '<span class="badge none" style="opacity:.5">open</span>'
         trs.append("<tr>"
@@ -211,9 +214,14 @@ def build_burndown(done):
 
 def build():
     data = json.loads((ROOT / "data" / "fragments.json").read_text())
-    srank = {"identified": 0, "partial": 1, "unidentified": 2}
-    crank = {"high": 0, "medium": 1, "low": 2, "none": 3}
-    ordered = sorted(data, key=lambda r: (srank[r["status"]], crank[r["confidence"]], r["order"]))
+    published = [r for r in data if publishable(r)]
+    ordered = sorted(published, key=lambda r: (r["identified_on"], -r["order"]), reverse=True)
+    published_ids = {r["id"] for r in published}
+    # Remove obsolete current reports, including results later withdrawn. Historical runs stay intact.
+    for path in DOCS.glob("F-*.html"):
+        if path.stem not in published_ids:
+            path.unlink()
+    (DOCS / "review.html").unlink(missing_ok=True)
     rows = []
     for r in ordered:
         rows.append(
@@ -223,44 +231,41 @@ def build():
             f'<br><span class="cat">Catalogued as: {html.escape(r["catalogue_title"])}, {html.escape(r["catalogue_date"])}</span>'
             f'<br><span class="where"><a href="{r["record"]}">{r["id"]}</a></span></td>'
             f'<td>{html.escape(r["identification"])}<br><span class="where">{html.escape(r["note"])}</span></td>'
-            f'<td data-sort="{srank[r["status"]]}{crank[r["confidence"]]}">{badge(r)}</td>'
+            f'<td data-sort="{r["identified_on"]}"><time datetime="{r["identified_on"]}">{r["identified_on"]}</time></td>'
             '</tr>'
         )
-    n_id = sum(r["status"] == "identified" for r in data)
-    n_p = sum(r["status"] == "partial" for r in data)
-    n_u = sum(r["status"] == "unidentified" for r in data)
     body = (
         "<h1>Fragmentarium: identifying the unidentified</h1>"
-        f'<p class="lede">Medieval manuscript fragments catalogued on <a href="https://fragmentarium.ms/">Fragmentarium</a> as '
-        f'“unidentified”, worked one at a time: read from the library’s images, searched against printed editions and digital '
-        f'corpora, with identifications supported by sustained agreement in distinctive wording and sequence. {len(data)} fragments so far: '
-        f'{n_id} identified, {n_p} partial, {n_u} not identified. Each row links to a report with readings, comparisons, and remaining questions. '
-        f'What remains: the <a href="burndown.html">burndown list</a> of every “unidentified” record, ranked. '
-        f'Confidence refers to the identification or proposed source connection; transcription accuracy and verification coverage are separate. '
-        f'Research and review were performed by LLMs. '
-        f'Method in <a href="{REPO}/blob/main/METHOD.md">METHOD.md</a>; what the labels mean in <a href="{REPO}/blob/main/CONVENTIONS.md">CONVENTIONS.md</a>.</p>'
-        '<table class="idx sortable"><tr><th></th><th data-col="1">Fragment</th><th>Our identification</th><th data-col="3">Confidence</th></tr>'
+        f'<p class="lede">{len(published)} identifications of medieval manuscript fragments catalogued on '
+        f'<a href="https://fragmentarium.ms/">Fragmentarium</a> as “unidentified”. '
+        f'Each report links the manuscript to the matching edition and explains the evidence. '
+        f'Research and comparisons were performed by LLMs. '
+        f'<a href="{REPO}/blob/main/METHOD.md">Method</a>.</p>'
+        '<table class="idx sortable"><thead><tr><th></th><th data-col="1" aria-sort="none"><button class="sort" type="button">Fragment ↕</button></th>'
+        '<th>Identification</th><th data-col="3" aria-sort="descending"><button class="sort" type="button">Date identified ↕</button></th></tr></thead><tbody>'
         + "".join(rows)
-        + "</table>" + SORT_JS
+        + "</tbody></table>" + SORT_JS
+        + f'<p class="credit">{len(data)} fragments examined. Dates record the original identification, not later reviews. '
+        f'<a href="burndown.html">Research progress</a> · <a href="{REPO}/blob/main/data/fragments.json">Research ledger</a>.</p>'
     )
     (DOCS / "index.html").write_text(page("Fragmentarium: identifying the unidentified", body))
-    for r in data:
+    for r in ordered:
         md = (ROOT / "fragments" / r["id"] / "README.md").read_text()
-        crumbs = f'<div class="crumbs"><a href="index.html">All fragments</a> · <a href="{r["record"]}">Fragmentarium record</a> · <a href="{REPO}/tree/main/fragments/{r["id"]}">folder on GitHub</a></div>'
+        crumbs = f'<div class="crumbs"><a href="index.html">All identifications</a> · <a href="{r["record"]}">Fragmentarium record</a> · <a href="{REPO}/tree/main/fragments/{r["id"]}">folder on GitHub</a></div>'
         head = (
             f"<h1>{html.escape(r['shelfmark'])} <span style='font-size:.6em;color:var(--muted)'>({r['id']})</span></h1>"
             f'<p class="lede">{html.escape(r["institution"])} · catalogued as {html.escape(r["catalogue_title"])}, {html.escape(r["catalogue_date"])}</p>'
-            f"<p>{badge(r)}</p><p><b>{html.escape(r['identification'])}</b></p>"
+            f"<p><b>{html.escape(r['identification'])}</b></p>"
+            f'<p>{html.escape(r["note"])}</p>'
+            f'<p><a href="{html.escape(r["verify"])}">Matching edition passage</a> · '
+            f'<a href="{html.escape(r["record"])}">Manuscript images</a></p>'
+            f'<p class="where">Identified <time datetime="{r["identified_on"]}">{r["identified_on"]}</time>.</p>'
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
-        (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<article>" + md_to_html(md) + "</article>", crumbs))
-    review = (ROOT / "REVIEW.md").read_text()
-    (DOCS / "review.html").write_text(page(
-        "Second-model review · Fragmentarium", "<article>" + md_to_html(review) + "</article>",
-        '<div class="crumbs"><a href="index.html">All fragments</a></div>'))
+        (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<details><summary>Readings and comparison details</summary><article>" + md_to_html(md) + "</article></details>", crumbs))
     build_burndown({r["id"]: r for r in data})
     (DOCS / ".nojekyll").write_text("")
-    return data
+    return published
 
 
 if __name__ == "__main__":
