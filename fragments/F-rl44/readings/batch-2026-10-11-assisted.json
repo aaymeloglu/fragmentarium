@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-11T22:07:14.827755+00:00",
+  "first_reading": "batch-2026-10-11-image-only",
+  "first_sha256": "b170235cb60afaf6fc934c3e1749414c99ee3fefab83043dea561a03dc729abb",
+  "fragment": "F-rl44",
+  "id": "batch-2026-10-11-assisted",
+  "kind": "source-assisted",
+  "reader": "Codex source-assisted reader; coordinator separately reviewed inside face against edition",
+  "reason": "Correct selected readings through direct manuscript/edition comparison; distinguish Serapion containing-work sequence from a substantial Avicenna parallel.",
+  "schema_version": 1,
+  "sources": [
+    "Serapion, Practica dicta breviarium, Venice1497, fols71v–72r, BSB bsb00061068 scans146–147: https://www.digitale-sammlungen.de/en/view/bsb00061068?page=146",
+    "Avicenna, Canon, Lyon1522, fol410r, https://archive.org/details/1835057.med.yale.edu/page/n302/mode/1up; Milan1473 scan453 https://dl.ub.uni-freiburg.de/diglit/avicenna1473a/0453"
+  ],
+  "text": "SOURCE-ASSISTED READING, not an independent first reading.\n\nBase: batch-2026-10-11-image-only. Sources: Serapion, Practica dicta breviarium, Venice1497, BSB bsb00061068 scans146–147 (fols71v–72r); Avicenna Canon Lyon1522 fol410r (IA1835057.med.yale.edu scan302) and Milan1473 scan453. Manuscript/edition images inspected directly. No expert palaeographic review.\n\nA is upper-cover inside image002 left-column crop(257,1302,1029,2108), native, no transform, same line labels as original reading. B is upper-cover outside image001 left-column crop(1000,1660,1770,2690), native, no transform; linecount starts with the partial first line. These overlap manuscript images, not additional witnesses. Parent coordinator independently reviewed image002 against edition scan146, confirming sequence, not every character.\n\nA13 et eligito ex cimino carmeni et infundat(ur) in ace-\nA14 to forti et torreat(ur)?. et sit pip(er) album. q(uod) est q(uod) con-\nA15 fortat sto(machum) plusq(uam) due sp(ecies) alie pip(er)is. s(cilicet) pip(er)\nA16 longu(m) et pip(er) nigrum. Q(uod) si n(on) inveniatur pip(er) al-\nA17 bum utere loco eius de electo nigro. et istud e(st)\n\nB2 [preceding black text] Descriptio elect(uarii) diapipereon\nB3 usitata conferentis ad frigus sto(machi) et maciem cor-\nB4 p(or)is et febrem q(ua)rtanam et malitiam digestionis\nB5 et mundificat humiditatem ex stomacho. cuius\nB6 preparatio.\n\nInside right-column rubric read with source assistance: electuarium diapipereon secundum descriptionem galieni; original tentative diapruni is incorrect. This abbreviated rubric is not a full diplomatic transcription.\n\nContinuous sequence: preparations for women/pregnancy and vomiting blood, diaciminum, explanatory commentary including excessively fine grinding and patient anecdote, familiar diaciminum, Galenic diapipereon and its pepper commentary; outside continues to diapipereon usitata and calamentum. SerapionVIIcapXX has this sequence, AvicennaVsummaItractIII shares cumincommentary but differs in adjacent recipes.\n\nLimits: two uppercover faces inspected; lowercover not compared. Weights, all ingredients and every narrative word remain unverified. Some therapeutic descriptions run in red rubrics in manuscript rather than black prose in print; spelling/wording variations remain. No translation, dating, dependence, recension or novelty claim.\n",
+  "text_sha256": "3a6c06a3cdad7b92a821fcf5970f83ce3313f4ed6f97122ccd8c28818ae9034a"
+}

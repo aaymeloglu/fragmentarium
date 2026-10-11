@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-11T22:06:42.434580+00:00",
+  "first_reading": "batch-2026-10-11-image-only",
+  "first_sha256": "5893295b251b2c2bb4103e2969c77a62387ec736a74baa965869cf83d2061432",
+  "fragment": "F-au0s",
+  "id": "batch-2026-10-11-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Codex reader C, source-assisted image revisit",
+  "reason": "Preserve substantive opening-lemma correction after canonical-source comparison; containing commentary remains unresolved.",
+  "schema_version": 1,
+  "sources": [
+    "https://fragmentarium.ms/loris/F-au0s/fol_1v.jp2/full/full/0/default.jpg",
+    "https://www.intratext.com/IXT/LAT0833/_PPH.HTM"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED CORRECTION\n\nBase: batch-2026-10-11-image-only. Manuscript fol.[1]r according to manifest label (the image filename is fol_1v.jp2), image-001, crop-detail.jpg L1. Image was directly reinspected after consulting the candidate canonical text.\n\nL1 opening lemma: Cu(m) teneamur.\n\nThis corrects the frozen uncertain opening “Quin? condempnatur?”; the large colored letter is C. The following case discusses a beneficiary obtaining letters for another benefice without mentioning the existing one. This is a source connection to Decretals X3.5.6, Cum/Quum teneamur, De praebendis et dignitatibus, whose full canonical text was read through IntraText. The manuscript's casus wording is not identical to that decretal, and the containing commentary/author has not been identified. No complete revision of L1–8 is attempted. Other uncertainties in the base remain unresolved.\n\nOnly this opening-lemma correction is preserved here. The image-only base remains unchanged. This is a source-assisted model reading, not human palaeographic validation.\n",
+  "text_sha256": "310e9ddf5aa4e518177440e2a23c180930f37dfbee3a3b78231e54d2cfb6ffe9"
+}
