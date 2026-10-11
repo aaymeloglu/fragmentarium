@@ -26,6 +26,14 @@ that the resulting crop contains the intended text. Common acquisition problems:
 | Gallica region crop contains the wrong area | Download the full image and crop locally; record the transform. |
 | Upscaled IIIF request fails | Request native resolution; the helper caps scaling at 2. |
 
+Start with a whole-face overview when available, then select native-resolution
+crops of useful headings, openings and surrounding prose. Include the overview
+in the neutral packet so the reader can distinguish layout from a crop's edges.
+The packet prompt asks for a short layout survey followed by selected readings.
+An overview is for structure; use the native crops for small letterforms. If a
+crop proves uninformative, request the adjacent area without exposing a candidate
+answer. Preserve the actual inputs and response, including limited coverage.
+
 ## Prepare an isolated packet
 
 ```sh
