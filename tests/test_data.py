@@ -1,5 +1,6 @@
 """Checks that keep data/fragments.json, the fragment folders and the built site consistent."""
 import json
+from datetime import date
 import re
 import subprocess
 import sys
@@ -11,7 +12,7 @@ DATA = json.loads((ROOT / "data" / "fragments.json").read_text())
 STATUSES = {"identified", "partial", "unidentified"}
 CONFIDENCE = {"high", "medium", "low", "none"}
 REQUIRED = {"id", "institution", "shelfmark", "catalogue_title", "catalogue_date", "status", "confidence",
-            "identification", "note", "verify", "record", "manifest", "thumbnail", "order", "examined"}
+            "identification", "note", "verify", "record", "manifest", "thumbnail", "order", "examined", "identified_on"}
 
 
 def test_fields_and_vocabulary():
@@ -21,7 +22,10 @@ def test_fields_and_vocabulary():
         assert r["status"] in STATUSES, r["id"]
         assert r["confidence"] in CONFIDENCE, r["id"]
         if r["status"] == "identified":
+            assert date.fromisoformat(r["identified_on"]) <= date.fromisoformat(r["examined"])
             assert r["confidence"] == "high", (r["id"], "identified requires high confidence in a sustained textual match")
+        else:
+            assert r["identified_on"] is None, r["id"]
         if r["status"] == "unidentified":
             assert r["confidence"] == "none", r["id"]
         for k in ("verify", "record", "manifest", "thumbnail"):
@@ -35,13 +39,14 @@ def test_ids_unique_and_ordered():
     assert [r["order"] for r in DATA] == sorted(r["order"] for r in DATA)
 
 
-def test_every_fragment_has_a_folder_and_readme():
+def test_published_identifications_have_reports():
     for r in DATA:
+        if r["status"] != "identified":
+            continue
         readme = ROOT / "fragments" / r["id"] / "README.md"
         assert readme.exists(), readme
         text = readme.read_text()
         assert r["id"] in text
-        assert len(text) > 1500, (r["id"], "README too short to hold a transcription and comparison")
     for folder in (ROOT / "fragments").iterdir():
         if folder.is_dir():
             assert folder.name in {r["id"] for r in DATA}, f"{folder.name} has no data row"
@@ -68,8 +73,9 @@ def test_site_is_up_to_date():
         for p in (work / "docs").glob("*.html"):
             committed = ROOT / "docs" / p.name
             assert committed.exists() and committed.read_text() == p.read_text(), f"docs/{p.name} is stale: run python3 docs/_build_site.py and commit"
-    for r in DATA:
-        assert (ROOT / "docs" / f"{r['id']}.html").exists()
+    expected = {f"{r['id']}.html" for r in DATA if r['status'] == 'identified'}
+    assert {p.name for p in (ROOT / 'docs').glob('F-*.html')} == expected
+    assert not (ROOT / 'docs/review.html').exists()
 
 
 def test_burndown_page_lists_corpus_and_marks_done():
@@ -79,7 +85,13 @@ def test_burndown_page_lists_corpus_and_marks_done():
         csv_rows = list(csv.DictReader(f))
     assert page.count("<tr>") == len(csv_rows) + 1
     for r in DATA:
-        assert f'href="{r["id"]}.html"' in page, (r["id"], "worked fragment not marked on burndown")
+        link = f'href="{r["id"]}.html"'
+        if r['status'] == 'identified':
+            assert link in page, r['id']
+        else:
+            assert link not in page, r['id']
+            row = next(row for row in page.split('<tr>') if f'>{r["id"]}</a>' in row)
+            assert 'Examined; not identified' in row
     assert 'href="burndown.html"' in (ROOT / "docs" / "index.html").read_text()
 
 

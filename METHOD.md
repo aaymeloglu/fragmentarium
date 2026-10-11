@@ -63,8 +63,18 @@ transcription, authorship, or originality of the work.
 
 The task is complete when the scoped question has a supported answer, or a clear
 unresolved result explaining the missing evidence and what would resolve it.
-Publish the comparison and limitations in the fragment report; update the index
-and site when the result changes. A partial result is an acceptable outcome.
+Record every attempt in `data/fragments.json`, with confidence, the candidate or
+result, evidence, and the reason for stopping in a brief note. If the containing
+work is not established, leave it unresolved and move on; a source or genre match
+does not require a public writeup. Revisit when new evidence or a different
+approach justifies the effort.
+
+Write a concise public report only for an identified work supported at high
+confidence under CONVENTIONS. Link the diagnostic manuscript and edition passages,
+explain material differences, and keep extended readings in the details. Set
+`identified_on` to the date that identification was established; preserve it
+through later reviews, tracked separately by `examined`. Rebuild the site when a
+published result changes. Never raise confidence merely to qualify for publication.
 
 Stop retrying a blocked source or unproductive tool when another attempt has no
 specific reason to succeed. Record unavailable sources and inconclusive searches;
