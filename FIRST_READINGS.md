@@ -48,6 +48,11 @@ The packet prompt specifies physical line labels and uncertainty notation.
 
 ## Freeze and commit before candidate discovery
 
+Register the fragment in `data/fragments.json` before saving a reading. A report
+is not required: the preservation tool creates the fragment's readings directory.
+Unresolved attempts can retain their evidence without a public writeup.
+
+
 ```sh
 uv run python tools/readings.py freeze F-eo5z first-01 \
   --packet /tmp/reading-packet --text /tmp/first-reading.txt \

@@ -78,15 +78,20 @@ def read_packet(directory):
     return {'images': p['images'], 'prompt': prompt}
 
 
+def require_registered(root, fragment):
+    ledger = json.loads((root / 'data' / 'fragments.json').read_text())
+    require(fragment in {row['id'] for row in ledger}, 'Unknown fragment: register it in data/fragments.json')
+
+
 def save(root, fragment, name, record):
     require(FRAGMENT.fullmatch(fragment), 'Invalid fragment ID')
     require(SLUG.fullmatch(name), 'Invalid reading name')
-    require((root / 'fragments' / fragment / 'README.md').is_file(), 'Unknown fragment')
+    require_registered(root, fragment)
     record.update(schema_version=1, fragment=fragment, id=name,
                   captured_at=datetime.now(timezone.utc).isoformat())
     record['text_sha256'] = sha(record['text'].encode('utf-8'))
     dest = root / 'fragments' / fragment / 'readings' / f'{name}.json'
-    dest.parent.mkdir(exist_ok=True)
+    dest.parent.mkdir(parents=True, exist_ok=True)
     # Exclusive creation prevents accidentally replacing an earlier reading.
     with dest.open('xb') as f:
         f.write(encoded(record))
@@ -178,7 +183,7 @@ def check(root, base=None):
     count = 0
     for path in sorted((root / 'fragments').glob('*/readings/*')):
         require(path.is_file() and path.suffix == '.json', f'{path}: expected a reading JSON file')
-        require((path.parent.parent / 'README.md').is_file(), f'{path}: unknown fragment')
+        require_registered(root, path.parent.parent.name)
         r = json.loads(path.read_text())
         validate(r, path)
         if r['kind'] == 'source-assisted':
