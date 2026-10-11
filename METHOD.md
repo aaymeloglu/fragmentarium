@@ -46,10 +46,26 @@ passage add little evidence.
 
 Compare the selected manuscript passages with the candidate edition, inspecting
 images for claims about exact readings. Explain significant differences and
-consider shared sources or compilations where relevant. Another reader or model
+consider shared sources or compilations where relevant. First establish which
+layer matched: a quoted lemma, an embedded source, or the containing commentary.
+For the containing work, compare the surrounding argument, question order,
+transitions and citation sequence. Use these to distinguish the closest plausible
+reworking or compilation; an accessible edition is not automatically the best
+candidate. No exhaustive survey of every possible author is required. Another reader or model
 can challenge the conclusion when useful; record what it actually checked.
 Apply the status definitions in CONVENTIONS rather than treating a retrieval
 score, fluent reconstruction, or agreement between models as verification.
+
+Check the edition's author/work attribution separately from the passage match.
+Use its title page or colophon and a reliable bibliographic record or scholarly
+attribution discussion where needed. Record the edition, locus and basis for the
+attribution. If the source only supports "printed as X", keep that qualification;
+a matching passage cannot settle disputed authorship.
+
+A catalogue date or script label that conflicts with a strong textual match is
+a reason to inspect the metadata and image again. Do not automatically discard
+the match or invent a replacement date. Record the conflict separately, and seek
+specialist assessment if dating is necessary to settle the identification.
 
 When an identification rests on the passage used to discover the candidate,
 look for another available passage that could confirm or challenge it. Prefer

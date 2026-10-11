@@ -22,7 +22,13 @@ provides adaptable research tactics; the tool manuals describe commands.
 - A search hit, retrieval score, common phrase, or agreement between readers
   establishes a lead, not an identification. Support identification with sustained
   distinctive wording and sequence, documenting differences. Shared biblical
-  quotations and formulas are not diagnostic anchors on their own.
+  quotations and formulas are not diagnostic anchors on their own. Distinguish
+  a matched source within the fragment from the work containing it: explain why
+  the surrounding structure and prose favor that work over plausible reuse.
+- Support the edition's author/work attribution with a bibliographic source,
+  title page, colophon or scholarly discussion as appropriate. Cite that evidence
+  separately from the matched passage; retain disputed or provisional attribution.
+  Catalogue dating is evidence to examine, not an automatic veto of a text match.
 - Say what was checked and what was not, including whether comparison used images,
   OCR, snippets, or secondary paraphrase. Do not describe LLM checks as human
   palaeographic verification. Distinguish a genuine exclusion from a no-hit search
