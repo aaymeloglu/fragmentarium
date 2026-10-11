@@ -16,7 +16,8 @@ import readings
 def work(tmp_path):
     fragment = tmp_path / 'fragments' / 'F-test'
     fragment.mkdir(parents=True)
-    (fragment / 'README.md').write_text('# F-test\n')
+    (tmp_path / 'data').mkdir()
+    (tmp_path / 'data/fragments.json').write_text(json.dumps([{'id': 'F-test'}]))
     image = tmp_path / 'proposed-author-and-work.jpg'
     image.write_bytes(b'test image bytes')
     packet = readings.packet(tmp_path / 'packet', [image])
@@ -151,3 +152,23 @@ def test_invalid_base_fails_closed(work):
 def test_repository_readings_validate():
     # Legacy reports need not invent an image-only history.
     readings.check(ROOT)
+
+
+def test_ledger_registration_required_even_with_a_report(work):
+    root, args = work
+    (root / 'data/fragments.json').write_text('[]')
+    (root / 'fragments/F-test/README.md').write_text('# unregistered')
+    with pytest.raises(ValueError, match='Unknown fragment'):
+        readings.freeze(root, args)
+
+
+def test_first_reading_creates_folder_without_report(work):
+    root, args = work
+    (root / 'fragments/F-test').rmdir()
+    first = readings.freeze(root, args)
+    assert first.exists()
+    assert not (first.parent.parent / 'README.md').exists()
+    assert readings.check(root) == 1
+    (root / 'data/fragments.json').write_text('[]')
+    with pytest.raises(ValueError, match='Unknown fragment'):
+        readings.check(root)

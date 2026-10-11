@@ -61,7 +61,8 @@ def test_inconsistent_run_is_rejected(change):
 def make_fragment(root):
     folder = root / 'fragments' / 'F-test'
     folder.mkdir(parents=True)
-    (folder / 'README.md').write_text('# F-test')
+    (root / 'data').mkdir()
+    (root / 'data/fragments.json').write_text(json.dumps([{'id': 'F-test'}]))
 
 
 def test_htr_freezes_without_false_llm_attestation_and_revises(tmp_path):
