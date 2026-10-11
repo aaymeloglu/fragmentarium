@@ -149,6 +149,48 @@ are one-based; `form_feed_page` is a one-based OCR section only when form feeds
 exist, otherwise null. It is **not** a printed page or an Internet Archive scan
 number. Use edition facsimiles to establish the physical locus.
 
+## Reusing downloaded texts and page references
+
+Register a text once, then search the same local corpus on subsequent fragments:
+
+```sh
+uv run python tools/corpus.py --corpus scratch/corpus.json \
+  --id hocedez-1925 --text scratch/hocedez.txt \
+  --source 'https://archive.org/details/richarddemiddlet0000edga' \
+  --edition 'Edgar Hocedez, Richard de Middleton (1925)'
+```
+
+The importer makes no network requests. It copies exact UTF-8 bytes into a
+content-addressed `texts/` cache beside the manifest and records their SHA-256.
+Repeated searches reuse that cache; search refuses changed text. A duplicate ID
+is refused, and concurrent imports cannot overwrite each other's manifest edits.
+Keep corpora in local scratch storage; do not commit downloaded books by default.
+Continue to respect each source's access restrictions and rate limits when first
+obtaining a text. Reuse existing downloads instead of requesting them again.
+
+Optional `--attribution-source` records a checked title-page, catalogue or scholarly
+attribution URL alongside `--edition`. This is supplied provenance, not automatic
+certification of authorship. Optional `--pages pages.json` supplies checked spans:
+
+```json
+[
+  {"start": 0, "end": 1200, "locus": "printed fol. 12r",
+   "url": "https://example.org/edition/12r"}
+]
+```
+
+Offsets are zero-based Unicode character positions in the **exact original text**,
+with exclusive ends, as in retrieval results. Ranges must be ordered and
+non-overlapping. Map only spans whose physical page you have checked; gaps are
+allowed and a range may cover only an excerpt of a page. Search attaches only
+intersecting page references, with matched overlap offsets, to each hit and each
+gapped segment. An empty or partial mapping does not establish the page for the
+remaining text. OCR form-feed counts still do not establish printed foliation.
+
+Existing manifests containing only `id`, `path` and `source` remain supported;
+they simply lack checksum enforcement and physical page mappings. Source text is
+never rewritten to make an edition or page mapping fit.
+
 ## Matching and ranking
 
 The separate search view uses Unicode NFC/lowercase, `ſ/s`, `u/v`, `i/j`, and
@@ -182,3 +224,10 @@ percentages or identification thresholds.
 The [F-eo5z tooling trial](audits/retrieval-2026-09-22.md) records the effect on an
 actual known passage and a commonplace control. It is not the planned pilot or a
 fresh adjudication.
+
+The [bounded-gap replay](audits/retrieval-bounded-gaps-2026-10-11.json) and
+[local-corpus replay](audits/retrieval-local-corpus-2026-10-11.json) exercise a known,
+source-assisted Hocedez phrase against two previously downloaded texts. The latter
+maps only the matched excerpt to the previously checked p. 392, not the entire
+OCR volume. These are reproducibility checks, not measurements of identification
+yield, accuracy, or token savings.
