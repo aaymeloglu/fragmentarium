@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>Fragmentarium manuscript fragment</title>
+  <!-- A torn parchment leaf and a rubricated initial, drawn for tab-sized use. -->
+  <path d="M5 2H25L28 5V22L24 24L25 28L19 27L16 30H5Z"
+        fill="#f3e4c8" stroke="#8a3b12" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M9 7H23V12H20V10H14V15H20V18H14V23H16V25H9V23H11V9H9Z"
+        fill="#8a3b12"/>
+</svg>
