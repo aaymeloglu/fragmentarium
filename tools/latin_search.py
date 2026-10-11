@@ -12,6 +12,8 @@ from pathlib import Path
 import re
 import unicodedata
 
+import corpus
+
 
 @dataclass
 class Normalized:
@@ -283,12 +285,17 @@ def search(documents, query, max_edits=0, window=6000, limit=3, ocr_long_s=False
     results = []
     frequencies = {a['id']: 0 for a in anchors}
     for doc in documents:
+        corpus.validate_metadata(doc)
         index = TextIndex(doc['text'], ocr_long_s)
         hits = {}
         for anchor in anchors:
             found = False
             for vi, variant in enumerate(anchor['variants']):
                 for hit in variant_hits(index, variant, max_edits, anchor['id'], vi):
+                    if 'pages' in doc:
+                        hit['source_pages'] = corpus.page_references(doc, hit)
+                        for segment in hit.get('segments', []):
+                            segment['source_pages'] = corpus.page_references(doc, segment)
                     errors = hit['edits']
                     key = (anchor['id'], hit['start'], hit['end'])
                     if key not in hits or errors < hits[key]['edits']:
@@ -296,6 +303,7 @@ def search(documents, query, max_edits=0, window=6000, limit=3, ocr_long_s=False
                     found = True
             frequencies[anchor['id']] += found
         results.append({'id': doc['id'], 'source': doc['source'],
+                        **({'edition': doc['edition']} if 'edition' in doc else {}),
                         'text_sha256': hashlib.sha256(doc['text'].encode('utf-8')).hexdigest(),
                         'hits': sorted(hits.values(), key=lambda h: (h['start'], h['anchor'], h['edits']))})
     weights = {a['id']: 0.0 if a.get('common') else 1 + math.log((1 + len(documents)) / (1 + frequencies[a['id']]))
@@ -332,9 +340,7 @@ def main():
     parser.add_argument('--output', type=Path, help='new output file; defaults to stdout')
     args = parser.parse_args()
     try:
-        manifest = json.loads(read_utf8(args.corpus))
-        documents = [{'id': d['id'], 'source': d['source'],
-                      'text': read_utf8(args.corpus.parent / d['path'])} for d in manifest['documents']]
+        documents = corpus.load_documents(args.corpus)
         query_text = read_utf8(args.query)
         result = search(documents, json.loads(query_text), args.max_edits, args.window, args.limit, args.ocr_long_s)
         result['query_sha256'] = hashlib.sha256(query_text.encode('utf-8')).hexdigest()
