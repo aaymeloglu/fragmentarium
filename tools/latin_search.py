@@ -80,6 +80,7 @@ def distance(a, b, limit):
 class TextIndex:
     def __init__(self, raw, ocr_long_s=False):
         self.raw = raw
+        self.ocr_long_s = ocr_long_s
         self.normalized = normalize(raw, ocr_long_s)
         self.text = self.normalized.text
         self.starts = {m.start() for m in re.finditer(r'\S+', self.text)}
@@ -149,18 +150,74 @@ def validate_query(query, edits, ocr_long_s):
         if not anchor['variants']:
             raise ValueError('Every anchor needs at least one explicit variant')
         for variant in anchor['variants']:
-            if not variant.get('basis') or not isinstance(variant['text'], str):
-                raise ValueError('Each variant needs text and its basis')
-            text = normalize(variant['text'], ocr_long_s).text
-            if len(text.replace('*', '').replace(' ', '')) < 3:
-                raise ValueError('Anchor variants need at least three literal characters')
-            if '*' in text:
-                if any(len(word.replace('*', '')) < 3 for word in text.split() if '*' in word):
-                    raise ValueError('Each partial word needs at least three literal characters')
-            elif edits and len(text) < 3 * (edits + 1):
-                raise ValueError('Fuzzy variants need at least 3 * (max_edits + 1) characters')
+            if not variant.get('basis'):
+                raise ValueError('Each variant needs its basis')
+            texts, gaps = variant_parts(variant)
+            for value in texts:
+                if not isinstance(value, str):
+                    raise ValueError('Variant text must be a string')
+                text = normalize(value, ocr_long_s).text
+                if len(text.replace('*', '').replace(' ', '')) < 3:
+                    raise ValueError('Anchor segments need at least three literal characters')
+                if '*' in text:
+                    if any(len(word.replace('*', '')) < 3 for word in text.split() if '*' in word):
+                        raise ValueError('Each partial word needs at least three literal characters')
+                elif edits and len(text) < 3 * (edits + 1):
+                    raise ValueError('Fuzzy segments need at least 3 * (max_edits + 1) characters')
     if len(set(ids)) != len(ids):
         raise ValueError('Anchor ids must be unique')
+
+
+def variant_parts(variant):
+    """Explicit bounded gaps; never interpret punctuation as missing text."""
+    if 'text' in variant:
+        if 'parts' in variant or 'gaps' in variant:
+            raise ValueError('Supply text or parts with gaps, not both')
+        return [variant['text']], []
+    parts, gaps = variant.get('parts'), variant.get('gaps')
+    if not isinstance(parts, list) or len(parts) < 2:
+        raise ValueError('A gapped variant needs at least two parts')
+    if not isinstance(gaps, list) or len(gaps) != len(parts) - 1:
+        raise ValueError('Provide one bounded gap between each pair of parts')
+    for gap in gaps:
+        if (not isinstance(gap, dict) or set(gap) != {'min', 'max'}
+                or type(gap['min']) is not int or type(gap['max']) is not int
+                or not 0 <= gap['min'] <= gap['max']):
+            raise ValueError('Gap bounds must be integers with 0 <= min <= max')
+    return parts, gaps
+
+
+def variant_hits(index, variant, edits, anchor, vi):
+    texts, gaps = variant_parts(variant)
+    queries = [normalize(text, index.ocr_long_s).text for text in texts]
+    if not gaps:
+        for start, end, errors, mode in index.find(queries[0], edits):
+            yield index.hit(start, end, errors, mode, anchor, vi, queries[0])
+        return
+    matches = [sorted(index.find(query, edits)) for query in queries]
+    # For a fixed first start and current end, only the least-error path can
+    # improve a later match. Retaining these states avoids enumerating all paths.
+    states = {}
+    for match in matches[0]:
+        states[(match[0], match[1])] = (match[2], [match])
+    for options, gap in zip(matches[1:], gaps):
+        starts = [match[0] for match in options]
+        following = {}
+        for (first, end), (errors, chain) in states.items():
+            lo = bisect_left(starts, end + gap['min'])
+            hi = bisect_right(starts, end + gap['max'])
+            for match in options[lo:hi]:
+                key, total = (first, match[1]), errors + match[2]
+                if key not in following or total < following[key][0]:
+                    following[key] = (total, chain + [match])
+        states = following
+    for (start, end), (errors, chain) in sorted(states.items()):
+        hit = index.hit(start, end, errors, 'bounded-gap', anchor, vi, ' … '.join(queries))
+        hit['segments'] = [index.hit(*match, anchor, vi, query)
+                           for match, query in zip(chain, queries)]
+        hit['gap_normalized_characters'] = [b[0] - a[1] for a, b in zip(chain, chain[1:])]
+        hit['gap_bounds'] = gaps
+        yield hit
 
 
 def ordered_passages(hits, anchors, weights, window, limit):
@@ -231,9 +288,8 @@ def search(documents, query, max_edits=0, window=6000, limit=3, ocr_long_s=False
         for anchor in anchors:
             found = False
             for vi, variant in enumerate(anchor['variants']):
-                normalized = normalize(variant['text'], ocr_long_s).text
-                for start, end, errors, mode in index.find(normalized, max_edits):
-                    hit = index.hit(start, end, errors, mode, anchor['id'], vi, normalized)
+                for hit in variant_hits(index, variant, max_edits, anchor['id'], vi):
+                    errors = hit['edits']
                     key = (anchor['id'], hit['start'], hit['end'])
                     if key not in hits or errors < hits[key]['edits']:
                         hits[key] = hit
