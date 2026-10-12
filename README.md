@@ -76,6 +76,7 @@ not prerequisites to read or execute in full.
 data/fragments.json            attempt ledger: catalogue data, result, confidence, identified_on, examined, links
 data/unidentified-*.csv        the corpus list, from a sweep of Fragmentarium's search
 fragments/<F-id>/README.md     report required for published identifications; earlier research reports retained
+prompts/                       the reading prompt and the briefs for reader, research and report sessions; prompts/README.md gives the batch sequence
 docs/                          the site; python3 docs/_build_site.py regenerates it (stdlib only)
 tools/searchd.py               local search service: Google Books, archive.org full text, Corpus Corporum on localhost (holds the key)
 htr/models.json               pinned recognition and segmentation model identities
@@ -92,6 +93,7 @@ tools/tilepacket.py            neutral reading packets of overview plus reading-
 tools/schneyer.py              search Schneyer's sermon repertory volume by volume in archive.org full text
 tools/hspsearch.py             search Handschriftenportal catalogue texts for an incipit, title or shelfmark; lists digital copies
 tools/contactsheet.py          labelled thumbnails of every image in a record, for surveying before reading
+tools/record.py                write results to the ledger; install an identification's report and assisted reading
 tools/register.py              add unresearched fragments to the ledger from their cached manifests
 tools/mdzsearch.py             full-text search of the Munich digital library's OCR (early printed books), no key
 tests/                         data/folder/site consistency; CI fails if docs/ is stale

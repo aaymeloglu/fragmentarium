@@ -28,6 +28,7 @@ when reports or data change. HTR dependencies are optional (`--group htr`).
 
 | Task | Reference |
 |---|---|
+| Run a batch of fragments end to end | [prompts/README.md](prompts/README.md) |
 | Acquire images or preserve an independent reading | [FIRST_READINGS.md](FIRST_READINGS.md) |
 | Run or troubleshoot Kraken/CATMuS | [HTR.md](HTR.md) |
 | Configure search access or match noisy Latin text | [RETRIEVAL.md](RETRIEVAL.md) |
