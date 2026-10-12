@@ -107,3 +107,16 @@ def test_schneyer_query_is_scoped_to_one_volume_and_highlights_are_flattened():
     assert sch.highlights(response) == ["a {{{ter flevit}}} b", "c"]
     assert sch.highlights({}) == []
     assert len(sch.VOLUMES) == 9
+
+
+def test_hspsearch_rows_carry_digital_links_and_matched_passages():
+    hsp = load("hspsearch")
+    assert "q=%22De+regiminibus%22" in hsp.url('"De regiminibus"')
+    response = {"metadata": {"highlighting": {"d1": {"text": ["Sermones  <em>Ungarus</em>\n f. 55r"]}}},
+                "payload": [{"hspObject": {"id": "o1", "settlement-display": "Leipzig", "repository-display": "UB",
+                                           "idno-display": "Ms 720", "orig-date-lang-display": "13. Jh."},
+                             "hspDescriptions": [{"id": "d1"}],
+                             "hspDigitizeds": [{"manifest-url-display": "https://example.org/manifest.json"}, {}]}]}
+    assert hsp.rows(response) == [("Leipzig", "UB", "Ms 720", "13. Jh.", ["https://example.org/manifest.json"],
+                                   ["Sermones Ungarus f. 55r"])]
+    assert hsp.rows({}) == []

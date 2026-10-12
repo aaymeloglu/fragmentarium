@@ -82,6 +82,7 @@ tools/gbsearch.py              Google Books full-text search from the command li
 tools/gbwithin.py              search inside one Google Books volume: printed page number and snippet per hit, no key
 tools/tilepacket.py            neutral reading packets of overview plus reading-size tiles from an acquire_batch cache
 tools/schneyer.py              search Schneyer's sermon repertory volume by volume in archive.org full text
+tools/hspsearch.py             search Handschriftenportal catalogue texts for an incipit, title or shelfmark; lists digital copies
 tests/                         data/folder/site consistency; CI fails if docs/ is stale
 ```
 
