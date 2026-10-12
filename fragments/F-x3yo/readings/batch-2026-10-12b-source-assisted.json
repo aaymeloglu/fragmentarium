@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-10-12T16:58:15.338396+00:00",
+  "first_reading": "batch-2026-10-12b-image-only",
+  "first_sha256": "7f92585c6b77af6669fb5b50941ee4f4d1050c4bca5b45d90df1373eaddc6347",
+  "fragment": "F-x3yo",
+  "id": "batch-2026-10-12b-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research subagent with the source at hand",
+  "reason": "The printed titles of entries 2 and 3 and the catalogue title of entry 9 settled words the image-only reading left open, and the reread corrected entry 4 to refectorio and choro.",
+  "schema_version": 1,
+  "sources": [
+    "ISTC ig00404500, ib00524000, iw00026200, it00005500 (data.cerl.org/istc)",
+    "GW 11399, 4194, M51640, M32233 (gesamtkatalogderwiegendrucke.de)",
+    "MEI 02101407 (Den Haag KB, KW 169 G 7) and 00559203 (Cambridge UL Inc.5.F.6.5[3440])",
+    "Catalogue de la bibliothèque de feu M. Fr. Vergauwen (Brussels, 1884), lots 119, 128, 164, 469, archive.org cataloguedelabi00verggoog",
+    "J. Van den Gheyn, Catalogue des manuscrits de la Bibliothèque royale de Belgique, vol. 5 (1905), no. 3281 (ms. II 734)",
+    "Wimpfeling and Gaguin, Epistole et carmina, Munich BSB copy, title page, https://api.digitale-sammlungen.de/iiif/image/v2/bsb11303407_00001/full/900,/0/default.jpg"
+  ],
+  "text": "Source-assisted selected reading of F-x3yo, Gent, Bisschoppelijk Archief, fragment nr. 17, fol. [1]r. All twelve written lines were reread on the image by a research reader; entry 2 and entry 3 were settled with the printed titles, entry 9 with the sale and manuscript catalogues. Abbreviations resolved in round brackets; ? marks an uncertain reading.\nImage: https://fragmentarium.ms:443/loris/F-x3yo/ba_gent_20240117a_0063_fragm_17.jp2/full/2328,/0/default.jpg (canvas fol. [1]r), native-pixel box 100,80,2000,1650. The verso (canvas fol. [1]v) is blank.\n\nLiber fr(atru)m Regulariu(m) in s(an)c(t)o Leonardo iuxta leodiu(m) :\n    Et (con)tine(n)t(ur) in eo que sequu(n)t(ur) :\n// P(ri)mo 4or libri dyalogor(um) b(ea)ti g(re)gorij p(a)pe\n// Rosacea corona augustissi(m)e cristifere marie.\n// Ep(isto)le et Carmi(n)a i(n) q(ui)b(us) repudiat(ur) filia regis ro(ma)nor(um)\n    p(er) karolu(m) rege(m) fra(n)cor(um) viij?\n// Cor ubi es · i(n) refecto(ri)o. Cor ubi es i(n) cho(ro). Cor ubi es · i(n) dormito(ri)o.\n// Tabula i(n)dulge(n)ciar(um) ordi(ni)s cano(n)icor(um) regulariu(m) de wi(n)des(em)\n// Tabulare fr(atru)m ordi(ni)s deifere v(ir)gi(ni)s ma(r)ie de carmelo\n// Co(n)s(er)vatoriu(m) cleri civitatis (et) dioces(is) leodien(sis) p(er)petuu(m)\n// Tractat(us) gerson de t(ri)bulat(i)o(n)ib(us) ex defectuoso regimi(n)e\n    ecclesiasticor(um) adhuc eccl(esi)e p(ro)venturis\n// Vita s(an)c(t)i Gerardi abb(at)is (et) co(n)fess(oris) fu(n)dato(r)is eccl(esi)e bronien(sis)\n// Tractat(us) de tractat(i)o(n)e (et) susceptio(n)e ven(erabi)lis sac(ra)m(en)ti in sp(eci)ali? (et) g(e)n(er)ali\n    2o de p(er)tine(n)tib(us) hoc ven(erabi)le sac(ra)m(entu)m. 3o de p(er)icul(is) (con)tinge(n)tib(us)\n    circa hoc ven(erabi)le sac(ra)m(entu)m :\n",
+  "text_sha256": "3b46a22b4bed8b5f83d48af2a077fc44be0168b20f7bd5ad5f2bc2307a8dbf79"
+}

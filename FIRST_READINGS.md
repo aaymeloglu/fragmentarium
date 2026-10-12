@@ -42,10 +42,18 @@ that the resulting crop contains the intended text. Common acquisition problems:
 
 | Symptom | Practical next step |
 |---|---|
+| Several canvases show the same picture | The manifest points them at one image. `iiif.py` and `acquire_batch.py` correct a canvas when the image at its expected number has the size the manifest gives, and say so (`iiif.py F-xxxx info`); otherwise they mark the canvas as a fault and refuse to fetch it. Do not read a faulted canvas as the leaf its label names. |
 | Ghent legacy image URL fails | Use the Ex Libris service resolved by `iiif.py`. |
 | BnF (Gallica) image returns HTTP 403 | The manifest's `gallica.bnf.fr/iiif` address blocks scripts. The helpers rewrite it to `openapi.bnf.fr/iiif/image/v3`, which serves the same image; it does not upscale, and takes `full/max`, not `full/full`. |
 | Gallica region crop contains the wrong area | Download the full image and crop locally; record the transform. |
 | Upscaled IIIF request fails | Request native resolution; the helper caps scaling at 2. |
+
+For a record with more than a few images, look at all of them first:
+`uv run --group images python tools/contactsheet.py F-xxxx /tmp/sheets` lays every
+canvas out as labelled thumbnails, a few to a sheet. Use the sheets to see which
+images carry the fragment, which are host pages or blanks, and where headings
+are, then fetch native crops of the chosen areas only. Thumbnails are for layout,
+not for transcription.
 
 Start with a whole-face overview when available, then select native-resolution
 crops of useful headings, openings and surrounding prose. Include the overview
@@ -77,7 +85,9 @@ The packet prompt specifies physical line labels and uncertainty notation.
 
 ## Freeze and commit before candidate discovery
 
-Register the fragment in `data/fragments.json` before saving a reading. A report
+Register the fragment in `data/fragments.json` before saving a reading
+(`tools/register.py --cache /tmp/source-images F-xxxx ...` writes the row from the
+cached manifest, as unidentified, with a placeholder note). A report
 is not required: the preservation tool creates the fragment's readings directory.
 Unresolved attempts can retain their evidence without a public writeup.
 

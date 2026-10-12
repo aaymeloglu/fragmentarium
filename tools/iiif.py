@@ -11,10 +11,19 @@ Quirks handled: Ghent (adore.ugent.be, libcatalog.ugent.be) manifests point at d
 ExLibris service id inside the canvas; BnF manifests give gallica.bnf.fr/iiif addresses, which
 answer scripts with 403, so they are rewritten to BnF's API host (openapi.bnf.fr, IIIF Image 3,
 no upscaling); upscaling beyond about 2x is refused by most servers, so --scale is capped at 2.
+
+A manifest can point several canvases at one image (the catalogue's fault, not the library's). The
+canvases then look like different leaves in the record but download as the same picture. Such
+canvases are corrected when the record's other images are numbered in step with their canvases and
+the image at the expected number has exactly the size the manifest gives for that canvas; otherwise
+they are marked as faults, `info` says so, and the fetching commands skip them.
 Standard library only.
 """
+import base64
 import json
+import re
 import sys
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -30,6 +39,77 @@ def image_base(base):
     if base.startswith(GALLICA):
         return BNF_API + base[len(GALLICA):], "default.jpg", 1.0
     return base, "default.jpg", 2.0
+
+
+def _token(base):
+    """Decode an ExLibris image id (URL-quoted base64 JSON naming the stored file); None for other servers."""
+    try:
+        data = json.loads(base64.b64decode(urllib.parse.unquote(base.rsplit("/", 1)[1]) + "=="))
+        return data if isinstance(data, dict) and isinstance(data.get("key"), str) else None
+    except Exception:
+        return None
+
+
+def _numbered(base):
+    """(sequence number in the stored file name, function building the base for another number), or None."""
+    data = _token(base)
+    found = re.search(r"_(\d{3,5})(_[A-Za-z]+\.\w+)$", data["key"]) if data else None
+    if not found:
+        return None
+    width = len(found.group(1))
+
+    def rebuilt(number):
+        key = data["key"][:found.start(1)] + str(number).zfill(width) + found.group(2)
+        packed = json.dumps({**data, "key": key}, separators=(",", ":")).encode()
+        return base.rsplit("/", 1)[0] + "/" + urllib.parse.quote(base64.b64encode(packed).decode(), safe="")
+    return int(found.group(1)), rebuilt
+
+
+def image_size(base):
+    info = json.load(urllib.request.urlopen(urllib.request.Request(base + "/info.json", headers=UA), timeout=60))
+    return info.get("width"), info.get("height")
+
+
+def resolve_duplicates(bases, sizes, probe=image_size):
+    """Find canvases that share one image and correct those that can be verified.
+
+    `bases` are the image bases in canvas order, `sizes` the (width, height) the manifest gives for
+    each canvas. Returns (bases, notes): notes[i] is None for a sound canvas, a string starting
+    "corrected" where the base was replaced, or one starting "FAULT" where the canvas shows another
+    canvas's image and no verified replacement exists (when the file names give nothing to judge
+    by, the first canvas using an image is left alone and the later ones are marked). A correction
+    needs three things: the file
+    names of the unshared images carry a number that runs in step with the canvas order; the shared
+    one is out of step; and the image at the in-step number has the manifest's size for the canvas.
+    """
+    bases, notes = list(bases), [None] * len(bases)
+    first = {}
+    shared = {i for i, b in enumerate(bases) if first.setdefault(b, i) != i}
+    shared |= {first[bases[i]] for i in shared}
+    if not shared:
+        return bases, notes
+    parsed = [_numbered(b) for b in bases]
+    offsets = {parsed[i][0] - i for i in range(len(bases)) if i not in shared and parsed[i]}
+    offset = offsets.pop() if len(offsets) == 1 and len(bases) - len(shared) >= 3 else None
+    for i in sorted(shared):
+        if offset is not None and parsed[i] and parsed[i][0] == i + offset:
+            continue  # this canvas is the rightful owner of the shared image
+        if offset is None and first[bases[i]] == i:
+            continue  # nothing to judge by: leave the first canvas that uses the image, flag the later ones
+        owner = first[bases[i]] if first[bases[i]] != i else min(j for j in shared if bases[j] == bases[i] and j != i)
+        notes[i] = f"FAULT: the manifest gives this canvas the same image as canvas {owner}; not the leaf it is labelled as"
+        if offset is None or not parsed[i]:
+            continue
+        candidate = parsed[i][1](i + offset)
+        try:
+            size = tuple(probe(candidate))
+        except Exception:
+            continue
+        if all(sizes[i]) and size == tuple(sizes[i]):
+            notes[i] = (f"corrected: the manifest pointed at image {parsed[i][0]} (canvas {owner}'s); using image "
+                        f"{i + offset}, whose size {size[0]}x{size[1]} matches the manifest's for this canvas")
+            bases[i] = candidate
+    return bases, notes
 
 
 def manifest(fid):
@@ -60,7 +140,18 @@ def canvases(fid):
             except Exception:
                 pass
         out.append({"label": c.get("label"), "base": base, "ext": ext, "w": w, "h": h, "max_scale": max_scale})
+    bases, notes = resolve_duplicates([c["base"] for c in out], [(c["w"], c["h"]) for c in out])
+    for c, base, note in zip(out, bases, notes):
+        c["base"], c["note"] = base, note
     return out
+
+
+def usable(i, c):
+    """False, with a message on stderr, for a canvas whose image is known to be another canvas's."""
+    if (c.get("note") or "").startswith("FAULT"):
+        print(f"canvas {i} skipped. {c['note']}", file=sys.stderr)
+        return False
+    return True
 
 
 def fetch(url, path):
@@ -79,11 +170,15 @@ def main(argv):
     if cmd == "info":
         for i, c in enumerate(cs):
             print(i, c["label"], c["w"], "x", c["h"], c["base"][:100])
+            if c["note"]:
+                print("   ", c["note"])
         return
     out = Path(args[0])
     out.mkdir(parents=True, exist_ok=True)
     scale = min(float(opts.get("scale", 2)), 2.0)
     sel = [int(opts["canvas"])] if "canvas" in opts else range(len(cs))
+    skipped = [i for i in sel if not usable(i, cs[i])]
+    sel = [i for i in sel if i not in skipped]
     if cmd == "overview":
         for i in sel:
             c = cs[i]
@@ -111,6 +206,8 @@ def main(argv):
             print(p, fetch(f"{c['base']}/{x},{y},{w},{h}/{int(w * min(scale, c['max_scale']))},/0/{c['ext']}", p), "bytes")
     else:
         sys.exit(__doc__)
+    if skipped:
+        sys.exit(2)
 
 
 if __name__ == "__main__":

@@ -54,3 +54,26 @@ def test_changed_sources_cannot_relabel_existing_packet(tmp_path, monkeypatch):
         acquire_batch.acquire('F-test', dest, packets, 1)
     assert (dest / 'F-test/acquisition.json').read_bytes() == original
     assert b'/full/5000,/' in (packets / 'packet-01/image-001.jpg').read_bytes()
+
+
+def test_canvas_with_another_canvas_image_is_an_error_not_a_download(tmp_path, monkeypatch):
+    resource = {'@id': 'https://example.org/one/full/full/0/default.jpg', 'service': {'@id': 'https://example.org/one'}}
+    manifest = {'sequences': [{'canvases': [
+        {'label': 'recto', 'width': 7000, 'height': 9000, 'images': [{'resource': resource}]},
+        {'label': 'verso', 'width': 7000, 'height': 9000, 'images': [{'resource': resource}]}]}]}
+
+    def fetch(url, path):
+        if url.endswith('manifest.json'):
+            data = json.dumps(manifest).encode()
+        elif url.endswith('info.json'):
+            data = json.dumps({'width': 7000, 'height': 9000}).encode()
+        else:
+            data = b'\xff\xd8' + url.encode()
+        path.write_bytes(data)
+        return data
+
+    monkeypatch.setattr(acquire_batch, 'fetch', fetch)
+    result = acquire_batch.acquire('F-test', tmp_path / 'images', tmp_path / 'packets', 1)
+    assert [s['canvas'] for s in result['sources']] == [0]
+    assert result['errors'][0]['canvas'] == 1 and 'same image as canvas 0' in result['errors'][0]['error']
+    assert not (tmp_path / 'images/F-test/canvas-1-w7000.jpg').exists()

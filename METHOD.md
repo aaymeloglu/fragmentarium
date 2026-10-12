@@ -73,8 +73,26 @@ collation carries the identification. Manuscripts catalogued under one author an
 title can carry different texts, so a candidate tested in one witness of an
 unprinted work is not excluded by that witness alone.
 
-Read every leaf and face of a fragment before characterising it. A bifolium's
+A record of many leaves (a notebook, a bundle of strips) is surveyed before it
+is read. Look at every image reduced (`tools/contactsheet.py`), then read the
+headings, openings and a few connected passages at native size, enough to search
+with. Reading every line of forty pages before the first search spends the
+effort in the wrong place: in one batch a 37-leaf notebook took more reading
+than all the other records together and ended with no candidate tested. Set a
+limit for such a record, test candidates as soon as there are searchable
+phrases, and stop when the limit is reached with a note of what was not read.
+
+Look at every leaf and face of a fragment before characterising it. A bifolium's
 second leaf can hold the passage that names the work.
+
+Read the catalogue record before choosing what to read. The manifest's metadata
+(folio reference, reconstruction summary, dimensions) and its canvas labels say
+which object in the images is the catalogued fragment and what the catalogue
+already identifies, sometimes under a sibling record for the same volume. A host
+page or a neighbouring leaf can be far more legible than the fragment itself; in
+one batch a first reading and a research pass matched a flyleaf to Priscian that
+the catalogue already named under another record, while the unidentified item
+was a small leaf beside it. State in the result what the catalogue already knew.
 
 ## 3. Verify the proposed claim
 

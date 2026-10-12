@@ -120,3 +120,57 @@ def test_hspsearch_rows_carry_digital_links_and_matched_passages():
     assert hsp.rows(response) == [("Leipzig", "UB", "Ms 720", "13. Jh.", ["https://example.org/manifest.json"],
                                    ["Sermones Ungarus f. 55r"])]
     assert hsp.rows({}) == []
+
+
+def _exlibris(number):
+    import base64, json, urllib.parse
+    token = json.dumps({"key": f"INST/storage/aa/9100_2022_{number:04d}_MA.jpg", "rep_id": "1"}).encode()
+    return "https://img.example/iiif/2/" + urllib.parse.quote(base64.b64encode(token).decode(), safe="")
+
+
+def test_shared_image_is_corrected_only_when_the_expected_file_has_the_manifest_size():
+    iiif = load("iiif")
+    # Canvases 0-5; the manifest wrongly gives canvases 3 and 4 the image of canvas 0.
+    bases = [_exlibris(n) for n in (1, 2, 3, 1, 1, 6)]
+    sizes = [(100, 200), (300, 200), (300, 201), (300, 202), (300, 203), (300, 204)]
+    on_server = {"INST/storage/aa/9100_2022_0004_MA.jpg": (300, 202), "INST/storage/aa/9100_2022_0005_MA.jpg": (999, 999)}
+    fixed, notes = iiif.resolve_duplicates(bases, sizes, probe=lambda base: on_server[iiif._token(base)["key"]])
+    assert notes[0] is None and fixed[0] == bases[0], "the rightful owner of the image is left alone"
+    assert iiif._token(fixed[3]) == {"key": "INST/storage/aa/9100_2022_0004_MA.jpg", "rep_id": "1"}
+    assert notes[3].startswith("corrected")
+    assert fixed[4] == bases[4] and notes[4].startswith("FAULT"), "a size mismatch must not be 'corrected'"
+    assert [notes[i] for i in (1, 2, 5)] == [None, None, None]
+
+
+def test_shared_image_without_a_numbering_pattern_is_flagged_not_guessed():
+    iiif = load("iiif")
+    plain = ["https://lib.example/a.jp2", "https://lib.example/a.jp2", "https://lib.example/b.jp2"]
+
+    def probe(base):
+        raise AssertionError("nothing to probe when no replacement can be derived")
+    fixed, notes = iiif.resolve_duplicates(plain, [(1, 1)] * 3, probe=probe)
+    assert fixed == plain
+    assert notes[0] is None and notes[1].startswith("FAULT") and notes[2] is None
+    # Too few sound canvases to trust a pattern: flag, do not correct.
+    few = [_exlibris(1), _exlibris(1), _exlibris(3)]
+    fixed, notes = iiif.resolve_duplicates(few, [(1, 1)] * 3, probe=probe)
+    assert fixed == few and notes[1].startswith("FAULT")
+
+
+def test_distinct_images_need_no_probe_and_get_no_notes():
+    iiif = load("iiif")
+
+    def probe(base):
+        raise AssertionError("must not contact the server when no image is shared")
+    bases = [_exlibris(n) for n in (1, 2, 3)]
+    assert iiif.resolve_duplicates(bases, [(1, 1)] * 3, probe=probe) == (bases, [None, None, None])
+
+
+def test_contact_sheet_layout_covers_every_canvas_once():
+    import sys
+    sys.path.insert(0, str(ROOT / "tools"))  # contactsheet imports its sibling iiif
+    cs = load("contactsheet")
+    sheets = cs.layout(19, per_sheet=8, columns=4)
+    assert [len(s) for s in sheets] == [8, 8, 3]
+    assert [i for s in sheets for i, _, _ in s] == list(range(19))
+    assert sheets[0][5] == (5, 1, 1) and sheets[2][0] == (16, 0, 0)

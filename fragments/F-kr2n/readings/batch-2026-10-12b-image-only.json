@@ -1,0 +1,122 @@
+{
+  "captured_at": "2026-10-12T15:50:47.953190+00:00",
+  "fragment": "F-kr2n",
+  "id": "batch-2026-10-12b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "73b77944153c5ae5efa82ca58572d8a06fefa6b21ceaff08a415f64f0037f2e8",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f13/full/4620,/0/default.jpg (canvas 0, 4r): whole image 4620x5853 reduced to 1421x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "7e6b12f43e29b15c9bdf59878f95ed57396ebcd362e9368fc9825ef9385d791c",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f13/full/4620,/0/default.jpg (canvas 0, 4r): native-pixel box 231,585,2559,2398; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "53c888d0264f5fb54ee26ec6e296f2057feca1d3fc37c05270169ee6e995a031",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f13/full/4620,/0/default.jpg (canvas 0, 4r): native-pixel box 2060,585,4389,2398; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "9ef3c3615c0e5ede513b04e4761b007e95fd9e8953bc142983ac0b0068295ba4",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f13/full/4620,/0/default.jpg (canvas 0, 4r): native-pixel box 231,2010,2559,4017; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "af68f37d6fa0ea3ee978af864518d3b47e04eb4e50660543e38cc1e500409461",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f13/full/4620,/0/default.jpg (canvas 0, 4r): native-pixel box 2060,2010,4389,4017; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "eb68af8f01d5ea2cde713340ff0159c1dc3d11f794df6ccc9acecf12369280ff",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f13/full/4620,/0/default.jpg (canvas 0, 4r): native-pixel box 231,3629,2559,5443; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "c8c792e9e0ee7eef8d19da3ad25cd2ef11cdca8de52755cf3f23a5530f1feb9e",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f13/full/4620,/0/default.jpg (canvas 0, 4r): native-pixel box 2060,3629,4389,5443; unrotated grid position column 2 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "5b5ee69c8c939962b3dbf7512fc56bb931d044d984c7796a4dde6193f9fae831",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f14/full/4620,/0/default.jpg (canvas 1, 4v): whole image 4620x5853 reduced to 1421x1800 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "f1e53585398c26e7e0e19e0d42c86f646a978277fd5bf03217ae5a1c3082da7b",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f14/full/4620,/0/default.jpg (canvas 1, 4v): native-pixel box 231,585,2636,2398; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "2558996f3b20db88a22f7b138dbfb7fbd6b0120c4bb56643bfa3803992a2f8f3",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f14/full/4620,/0/default.jpg (canvas 1, 4v): native-pixel box 2121,585,4527,2398; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "562f8538143db1fdbb7349576b29aca92cf4d5f2d732acaa0ea9fdc0e3e6baad",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f14/full/4620,/0/default.jpg (canvas 1, 4v): native-pixel box 231,2010,2636,4017; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "16594c0be592266d8f0b04c558391d7caf75b7b7d63f29c8e53124f339207b4a",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f14/full/4620,/0/default.jpg (canvas 1, 4v): native-pixel box 2121,2010,4527,4017; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "24fe554484a4df2f485926f5d5708a131c8aaa444986d8cf3c43e5b44b5edfdb",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f14/full/4620,/0/default.jpg (canvas 1, 4v): native-pixel box 231,3629,2636,5443; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "4791d76c3bbbc7cf6ce838caf2ec53379d793aec352181d37f5beb370fbcab99",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f14/full/4620,/0/default.jpg (canvas 1, 4v): native-pixel box 2121,3629,4527,5443; unrotated grid position column 2 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "41420e80392e650fcded2b8a8dbd12070cb14b068aff2f6a25e16392666ad320",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f15/full/4620,/0/default.jpg (canvas 2, 5r): whole image 4620x5853 reduced to 1421x1800 for layout"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "543186981d7af49517e6731c3a85627364a9ac2e78fdcbcfa4bc4f7ed5837a83",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f15/full/4620,/0/default.jpg (canvas 2, 5r): native-pixel box 231,1170,2636,2765; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "4e32eff56129683aef8a6e443ac23f7c76a78d3b24b04329ef49439b982437a3",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f15/full/4620,/0/default.jpg (canvas 2, 5r): native-pixel box 2121,1170,4527,2765; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "ab72a0b9dadb03816f461ae03657ccde24a01e5fccda13ab574e9ee4d69ef14a",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f15/full/4620,/0/default.jpg (canvas 2, 5r): native-pixel box 231,2423,2636,4189; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "3a8b7e1818cefd26bfaac9b760c3170f8e126c53db136fe8d024a2503dec1204",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f15/full/4620,/0/default.jpg (canvas 2, 5r): native-pixel box 2121,2423,4527,4189; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "fcb9422a499326904c35b629a44147aa664fdd273a00c4ed050a9935f39025bd",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f15/full/4620,/0/default.jpg (canvas 2, 5r): native-pixel box 231,3847,2636,5443; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "037f8b54c6f7963bbfc1554ba63d02375ba3a4af5ee8dfaa3355982487dc6dd1",
+        "source": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f15/full/4620,/0/default.jpg (canvas 2, 5r): native-pixel box 2121,3847,4527,5443; unrotated grid position column 2 of 2, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated reader subagent",
+  "schema_version": 1,
+  "session": "batch-2026-10-12b reader-a (fresh subagent session, packets/packet-01)",
+  "text": "PACKET-01 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification or an earlier reading of this leaf. This is a blind reading.\n\n==== LAYOUT SURVEY (image-only) ====\n\nThree faces are shown, each with one reduced overview and native tiles:\n  Face A: overview image-001; tiles image-002 (top left), 003 (top right), 004 (mid left), 005 (mid right), 006 (bottom left), 007 (bottom right).\n  Face B: overview image-008; tiles image-009, 010, 011, 012, 013, 014 (same arrangement).\n  Face C: overview image-015; tiles image-016, 017, 018, 019, 020, 021.\n\nObservations\n- Upright orientation, two columns per face, about 31 lines per column on faces A and B. No running titles. No ruling-level gloss apparatus.\n- Face A: later-hand numerals \"1572 a 1573\" in the top margin and a modern \"4\" at top right; round red library stamp in the lower intercolumn; upper right corner cut away in a curve; dark mould at the foot. A faint short note in pale ink sits in the intercolumn level with col. a lines 7-8 (ends \"...nnoz\" / \"...annoz\"?), not read.\n- Face B: same leaf shape mirrored (upper left corner cut away), so A and B appear to be recto/verso of one leaf. The text runs on from the foot of A col. b to the head of B col. a (\"alius plus &\" / \"alius minus\").\n- Face C: a different leaf, modern \"5\" at top right; top edge lost and irregular, mounted on newer parchment/paper; col. a heavily stained and abraded; col. b upper third abraded. Col. b has a one-line rubric in purple-brown and orange capitals/uncial-like letters, followed by a tall initial I about six lines high and a text opening. Several small initials on face C are touched with red/orange.\n- Script: one small rounded minuscule throughout, word separation irregular, \"&\" ligature used inside words, e-caudata, punctuation \".;\" at sentence ends followed by a slightly enlarged capital. No underlining seen.\n\nTentative interpretation (not observation): continuous expository prose in which short quoted phrases (introduced by a capital, often \"Et ...\") are each followed by explanation; face C col. b ends one such unit and begins a new one under a rubric naming a Sunday and a reading. I have not tried to identify the work.\n\nAreas selected: all of face A, all of face B, face C col. b from line 10 down, face C col. a lower third. Areas left unread: face C col. a upper two thirds and col. b lines 1-9 (abraded; only scattered letters), the pale intercolumnar note on face A, the last line or two of face A col. b and face B col. a (mould). A UV or raking-light image of face C would be needed for those.\n\nConventions: (..) = my expansion of an abbreviation; [..] = lost/unreadable; ? after a word = uncertain reading; \"&\" kept where the scribe writes the et-ligature inside a word. Line numbers count text lines from the top of each tile (later annotations not counted). Overlaps between tiles are flagged and are NOT additional text.\n\n==== FACE A, COLUMN a ====\n\nimage-002 (top of column)\n 1  [..]cta p(er) sep[t]ifo[r]m(em)? gr(ati)a(m)? sp(iritu)s s(an)c(t)i gub[er]\n 2  natur regitur & [re]ficitur [......]\n 3  quia septe(m) s(unt) dona sp(iritu)s s(an)c(t)i que u[.....]\n 4  quieuerunt (u added above) · sicut esaias dicit ·; [Et re]qui\n 5  escet sup(er) eum sp(iritu)s d(omi)ni ·; Que & [..] dona\n 6  suis participibus contul[it ....]ua?\n 7  ut ait ap(osto)l(u)s ·; Alii datur p(er) sp(iritu)m ser\n 8  mo sapiencię · alii aute(m) sermo sci\n 9  encię · alii genera lingarum · alii in\n10  terp(re)tacio sermonum ·; Et p(re)cepi[t]\n11  turbe discu(m)bere sup(er) terra(m) ·; In a\n12  lia refeccione scriptu(m) e(st) · quia sup(er)\n\nimage-004 (lines 1-3 repeat image-002 lines 10-12)\n 4  fenum discubuerunt ·; Ergo p(er) fenu(m)\n 5  carnalis delectacio figuratur · &\n 6  bene sup(er) fenu(m) discubuisse dicuntur ·;\n 7  quia iudaicus pop(u)lus adhoc lege(m) acce\n 8  [per]at? ut inta? carnalia peccata rese\n 9  caret ·; hic aute(m) sup(er) terra(m) discubuisse\n10  [d]icuntur · quia gentilis pop(u)l(u)s ad tan\n11  tam p(er)feccionem uenit · ut non solu(m)\n12  [......] in? se ips(is)? carnalia peccata · rese\n13  caret? sed &ia(m) mundum cum suis concu\n14  piscentiis abnegar& · iuxta illud q(uo)d\n15  d(omi)n(u)s ait ·: Nisi quis abrenonciauerit\n16  om(n)ib(us) que possid& non potest m(eu)s e(ss)e · dis\n17  cipulus ·; Et accipies septe(m) panes\n\nimage-006 (lines 1-3 repeat image-004 lines 15-17)\n 4  gr(ati)as agens fregit dabat discipulis suis\n 5  ut apponerent & apposuer(unt) turbe ·; Ia(m)\n 6  sup(er)ius p(er) vii te(m)? panes septiform(em) gr(ati)am\n 7  sp(iritu)s s(an)c(t)i diximus significarit? ·; Acci\n 8  piens ergo vii te(m)? panes gr(ati)as agens\n 9  [d]edit discipulis ut apponerent tur\n10  [be] ·; Quando post resurreccione(m)\n    (end of column)\n\n==== FACE A, COLUMN b ====\n\nimage-003 (top of column)\n 1  [s]uam apparens eis insuflauit & [..]\n 2  [..]it eis? ·; Accipite sp(iritu)m s(an)c(tu)m quo(rum)\n 3  remiseritis peccata remituntur\n 4  eis ·; Illi aute(m) appossuerunt quan\n 5  do gr(ati)am ei(us)de(m) sp(iritu)s s(an)c(t)i corroborati\n 6  p(re)dicauerunt ubiq(ue) d(omi)no cooper\n 7  rante ·; Gr(ati)as enim egit patri · no(n)\n 8  ut aliquit indigere p&eret? po&e\n 9  re a patre quia omnia postulat\n10  data cu(m) patre ·; Sed ut ostenderet\n11  omnia iusta esca(m) de celis pe ten\n12  da ·; Sicut ait iacob ap(osto)l(u)s ·; Om\n\nimage-005 (lines 1-3 repeat image-003 lines 10-12)\n 4  ne datu(m) obtimum ·; Et abebant\n 5  pisciculos paucos ·; Pulchre in il\n 6  la reffeccione que ex quinque pa\n 7  nibus facta e(st) · duo pisciculi fuisse\n 8  dicuntur ·; hic aute(m) infinitus nu\n 9  merus ostenditur quia ad conpa\n10  racione(m) illoru(m) qui ex populo iude\n11  oru(m) crediturri erant infinita\n12  multitudo ex gentili pop(u)lo ad fide(m)\n13  uerunt d(omi)no dicente in euu(an)g(e)l(i)o ·;\n14  Multi uenient aboriente ·;\n15  Et manducauerunt & satura\n16  ti sunt ·; Notandum aute(m) q(uo)d\n17  om(ne)s saturrati dicuntur · sed n(on)\n\nimage-007 (lines 1-3 repeat image-005 lines 15-17)\n 4  om(ne)s acceperunt quia ex scriptu\n 5  ra sacra non om(ne)s equaliter ac\n 6  cipiunt sed om(ne)s ad unam a&er\n 7  nam sacio[.]tate(m)? ueniunt ·; Un\n 8  de scriptum e(st)? ·; [.....]ge[..]us?   (mould)\n 9  populus ut collig[er]ent man\n10  na? · collegerunt alius plus &\n    (end of column; mould below, no further line made out)\n\n==== FACE B, COLUMN a ====\n\nimage-009 (top of column)\n 1  [..] alius minus · Om(ne)s tam(en) ad una(m)\n 2  mensuram uener(unt) gomor · neq(ue) qui\n 3  plus collegit abundabit neq(ue) qu[i]\n 4  minus minorauit ·; Ita? quoq(ue) do\n 5  mum? s(an)c(t)i sp(iritu)s? ex scripturraru(m)? non\n 6  om(ne)s equaliter accipiunt · s(ed) tam(en)\n 7  om(ne)s ad una(m) beatitudinem p(er)ue\n 8  niunt · e(st) aute(m) scriptura sacra\n 9  quida(m) fluuius magn(us) & paruus ·\n10  in quo & eleuas natat & agnus\n11  pedib(us) ambulat · quia in scrip\n\nimage-011 (lines 1-3 repeat image-009 lines 9-11)\n 4  turra & simplices cibum suum\n 5  reper(iunt) & magistri atq(ue) doctor\n 6  es ecle? ubi sensus exercitent(ur)\n 7  inueniunt ·; Et sustullerunt\n 8  q(uo)d sup(er)auerunt de fracm(en)tis\n 9  vii sportas ·; hic d(omi)ni miraculu(m)\n10  aucmentatur ·; Si enim ex sep\n11  te(m) panib(us) vii? milia ominum\n12  sactiata nil remansiset mag\n13  num miraculum fieret · sed cre\n14  uit uirtus auxi? miraculum\n15  non solum ex septe(m) panibus\n16  quatuor milia ominum saci\n17  antur · sed &ia(m) tot fracmen\n\nimage-013 (lines 1-3 repeat image-011 lines 15-17)\n 4  ta remanent ut septe(m) spor\n 5  te replerentur ·; Recte quo\n 6  que in alia reffeccione q(ue) ex\n 7  quinq(ue) panib(us) facta e(st) · xii\n 8  cophini remanserunt quia\n 9  iudaicus populus duodecim\n10  [..]o[.]t(o)s? plenos sp(irit)um? adsuam?   (letters added above the first word)\n11  [..........]diuit? ; Iste?            (mould; mostly unread)\n    (end of column)\n\n==== FACE B, COLUMN b ====\n\nimage-010 (top of column)\n 1  aute(m) ex septe(m) pa[nibus] iuxta nu\n 2  merum panu(m) sustull[er]unt? [qu]ia\n 3  eccl(esi)a ex gentib(us) collecta p(er) septi\n 4  formem gr(ati)a(m) sp(iritu)s s(an)c(t)i gubernatur re\n 5  gitur atq(ue) reficitur ·; In cuius tipo\n 6  & figura ioh(anne)s euu(an)g(e)lista in apocal\n 7  ipsint sua vii eccl(esi)as enumerat nec?\n 8  non ad vii candelabra aurea &\n 9  vii cornua agni ·; Unde & zacha\n10  rias p(ro)ph&a ait · in lapide uno sep\n11  te(m) occuli sunt ·; Et sustullerunt\n\nimage-012 (lines 1-3 repeat image-010 lines 9-11)\n 4  inquid vii sportas ·; Sporta quip\n 5  pe ex iunco & palma efficitur · iun\n 6  gus enim iuxta p(re)ter fluentes aquas\n 7  nasci sol& ·; Palma aute(m) dicit(ur)\n 8  quasi pabisalma? ex qua uinctores\n 9  coronari soliti erant significant\n10  uero p(re)cordia s(an)c(t)o(rum) ·; Et recte p(er)\n11  iungum p(re)cordia s(an)c(t)o(rum) figurrant(ur)\n12  quia sicut iuncus iuxta p(re)ter flu\n13  entes aquas nascitur · ita quoq(ue)\n14  p(re)cordia s(an)c(t)o(rum) iuxta fonte(m) scrip\n15  turrarum comorantur ne uiri?\n16  ditate(m) fidei ammittant ·; De qui\n17  b(us) p(er) p(ro)ph&a(m) dicitur ·; Et terit? ta(m)\n\nimage-014 (lines 1-3 repeat image-012 lines 15-17)\n 4  qua(m) lignum q(uo)d transplantatu(m)\n 5  e(st) ·; Et bene p(er) palmam p(re)cordia\n 6  s(an)c(t)o(rum) forcia q(ue) que uirtutu(m) oper\n 7  rantur ·; Non solum contra ere\n 8  as potestates in celestibus sed &ia(m)\n 9  contra prauos p(er)secutores fortes\n10  existunt ·; Iuxta d(omi)ni admoni\n11  cionem · estote fortes in bello ·;\n    (end of column and of this face)\n\n==== FACE C, COLUMN a ====\n\nimage-016 (upper two thirds): abraded and stained. Only isolated letter groups: \"[..]atur\", \"[..]tuus?\", \"[..]uoru(m)?\", \"intra[..] g[..]\", \"in[..]\" , \"b[..]\". Not transcribable as lines. UNREAD.\n\nimage-018 (lower part; line numbers from top of this tile, upper lines very uncertain)\n 3  bemma[..] dura? a[......]\n 4  [o]peris [........]\n 5  [..] discip[.......]\n 6  [illegible]\n 7  [....] ad f[..] [..]ab[..]op[..]\n 8  [...] ·; Si enim? [......]\n 9  fid[..] [..]uder(unt)? [..]an[....]\n10  nobis? operib(us) [.] destruu[nt]? ·; De\n11  qualib(us) paul(us)? sic? ait ·; Confi\n12  tentur se nos(se)? d(eu)m factis aute(m)\n13  negant ·; De? talibus &ia(m) ysaias?\n14  p(ro)ph[..] & [..] dicit? ·; Populus ic\n15  l[.....] onorat · nam & c[..]\n16  [..] credunt contra me scu[..]\n17  [..]de & reprobi in fine dic[..]\n18  sunt? ·; D(omi)ne d(omi)ne nonne in[..]\n19  [...] (interlinear above: \"tuo\") p(ro)ph&auimus & in no[..]e\n20  [.......] uirtutes multas feci\n21  mus ·; Dic&(ur)que? eis non noui u[..]\n    (end of column)\n\nimage-020: repeats image-018 lines 14-21 (its lines 1-8); adds nothing beyond confirming \"contra me\", \"reprobi in fine\", \"D(omi)ne d(omi)ne nonne\", interlinear \"tuo\", \"p(ro)ph&auimus\", \"uirtutes multas feci/mus\", \"eis non noui\".\n\n==== FACE C, COLUMN b ====\n\nimage-017 (top of column)\n 1  [..]us? operatu[..] [.....] Co[..]\n 2  [.......] id [..]icia\n 3  [.......] i[..] te n[..]\n 4  [.......]iag[..]\n 5  [..]tes? sua? [.......]\n 6  [illegible]\n 7  [...........] d(omi)n(u)s? / d(eu)s?\n 8  [illegible]\n 9  [.......] fece[...] [.]ide[.]?   (red-touched initial before the last word)\n10  necesa? e(st) ut non solum d(omi)n(u)m inuo\n11  care studeamus · sed &ia(m) uolum\n12  tate(m) ei(us) adimplere · quia sicut\n13  ipse dignatus e(st) dicere ·; Si quis\n14  [fec]erit uoluntatem patris mei\n\nimage-019 (lines 1-3 repeat image-017 lines 12-14)\n 4  qui in celis e(st) ipse m(eu)s frater soror\n 5  & mater est ·; Nam & psalmus?\n 6  cum de confesorib(us) xp(ist)i loque\n 7  retur dicens ·; Inuocabant d(omi)n(u)m\n 8  & ipse exaudiebat eos ·; Sub\n 9  iu(n)x(it)? ·; Custodiebant testimo\n10  nia ei(us) & precepta ei(us) ·; Nam\n11  & io(hanne)s? in apocalipsint sua cu(m)\n12  diceret ·; Beatus qui legit\n13  & qui audiunt adiunx(it) · & ser\n14  uant ea que in ea scripta sunt ·;\n15  RUBRIC (purple-brown, then orange): D(omi)nica · x · Lec(tio) S(an)c(t)i eu(an)g(e)l(ii)? Sec(un)d(u)m Luca(m)\n16  [large initial I] n illo te(m)p(o)r(e) ·: Homo quid\n\nimage-021 (lines 1-3 repeat image-019 lines 14-16)\n 4  am erat diues qui abebat\n 5  uilicum ·; hoc namque\n 6  in scripturris sacris soler\n 7  cius considerandum e(st) ·\n 8  quia quedam in ueritate\n    (end of column; lines 3-8 are indented around the tall initial I)\n\n==== LIMITATIONS ====\n- Faces A and B: the last one or two lines of A col. b and B col. a are under mould; a few line-beginnings in A col. a (lines 8, 12 of image-004; 9-10 of image-006) are abraded and partly supplied in brackets from visible traces only.\n- Readings I am least sure of are marked \"?\"; notably A col. a image-004 line 8 (\"ut inta?\"), A col. b image-003 line 8 (\"p&eret? po&e/re\"), image-007 lines 7-8, B col. a image-009 line 5, image-013 lines 10-11, B col. b image-012 line 8 (\"pabisalma?\").\n- Orthography is given as seen (abebant, ominum, fracmentis, sustullerunt, scripturra, saturrati, aboriente, apocalipsint); these are not my errors of copying as far as I can tell.\n- Face C col. a upper part and col. b lines 1-9 are essentially unread; column order on face C is assumed left then right.\n- Whether face C precedes or follows faces A/B in the original book cannot be told from these images; modern numbers \"4\" (face A) and \"5\" (face C) are visible.\n\nReader activity: opened READER.md; PROMPT.md; image-001.jpg through image-021.jpg (all 21). I also ran one directory listing (ls) of the three assigned packet directories to learn the image counts; I did not open any packet.json.\n",
+  "text_sha256": "785f9a179f5c09e014f46e5413585d7a89d98331056d01e7e1dce8c264bfc0e1"
+}
