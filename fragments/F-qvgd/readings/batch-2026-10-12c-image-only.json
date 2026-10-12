@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-10-12T19:12:59.210992+00:00",
+  "fragment": "F-qvgd",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "7df28f435c0adeafba3e59bb945548ce28be5a1925e780fc7fdeab3fb005a4f1",
+        "source": "https://ids.lib.harvard.edu/ids/iiif/16958871/full/2869,/0/default.jpg (canvas 0, recto): whole image 2869x4569 reduced to 1130x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "588d5f4ac166d684d93a74d1b9cae2a54fc6b5c55e13913009a98ed869303c31",
+        "source": "https://ids.lib.harvard.edu/ids/iiif/16958871/full/2869,/0/default.jpg (canvas 0, recto): native-pixel box 86,2284,2782,3537; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "334283fb558a50000a043a0005f18bdab749b7a04d3c8695e2b7997c968ebca0",
+        "source": "https://ids.lib.harvard.edu/ids/iiif/16958871/full/2869,/0/default.jpg (canvas 0, recto): native-pixel box 86,3269,2782,4523; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "e1417647783904b3a8339c5893ba98dc97bb630905fd1ca8ed782d49d92ffe62",
+        "source": "https://ids.lib.harvard.edu/ids/iiif/16958872/full/2896,/0/default.jpg (canvas 1, verso): whole image 2896x4578 reduced to 1139x1800 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "6d0a6724679afd38ebdc016991a9702f217da9eea2698753b7da33ceff18a6f7",
+        "source": "https://ids.lib.harvard.edu/ids/iiif/16958872/full/2896,/0/default.jpg (canvas 1, verso): native-pixel box 86,366,2809,1904; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "83611b859492aeca504513b0c9716f6b127ae65c22ba8a304aac1b41b8713d69",
+        "source": "https://ids.lib.harvard.edu/ids/iiif/16958872/full/2896,/0/default.jpg (canvas 1, verso): native-pixel box 86,1574,2809,3277; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "b0a51b795c7a248de4560fd3e3e4864e4e7ede172c8eaf84df7c931684d256f8",
+        "source": "https://ids.lib.harvard.edu/ids/iiif/16958872/full/2896,/0/default.jpg (canvas 1, verso): native-pixel box 86,2947,2809,4486; unrotated grid position column 1 of 1, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-20)",
+  "text": "PACKET 20 - unverified image reading (first reader, images only)\n\nExposure statement: nothing in my context revealed a proposed identification of this text before or during the reading. I opened only PROMPT.md and image-001 to image-007 of this packet. I did nothing beyond the rules. I have not tried to identify the work or author.\n\nLAYOUT SURVEY (observation)\n- image-001 and image-004 are reduced overviews of the two faces of one small upright paper leaf; image-002 and image-003 are tiles of the text of the first face, image-005 to image-007 tiles of the second face.\n- Single column on both faces. Verse, one verse per line, in rhymed couplets. Language: German (Upper German spellings: ai for ei, \"kayner\", \"hain\").\n- Script: a bastarda/cursive book hand in black-brown ink. The first letter of every line is touched with a red stroke.\n- Face 1 (image-001): the upper half is a framed, coloured pen drawing: a veiled, haloed woman seated before a cross holding the dead body of a haloed man across her lap, an open stone tomb behind, trees left and right. Below it 16 lines of text, opening with a three-line red initial I with pen-flourished knobs; the first three lines are indented beside it.\n- Face 2 (image-004): 26 lines of text, no picture. Top margin blank, with paper repair strips at the top corners. Show-through of the picture frame and of the other face's text is visible. A pencil note written vertically at the lower right edge reads \"MS TYP 220\"? (modern; last digits uncertain).\n- No running title, rubric, underlining or gloss is visible.\n- Tentative interpretation only: the text addresses the woman of the picture in the second person and continues from face 1 to face 2 without a break in sense, so face 1 appears to precede face 2.\n\nSELECTED AREAS: the whole text of both faces was read; nothing remains unread. Line 1 of face 1 is visible only in the overview image-001 (the tile image-002 begins at line 2).\n\nConventions: long s written s; v/u and i/j as on the page; ē = e with abbreviation stroke; ? after an uncertain reading.\n\n=====================================================\nFACE 1 (under the picture)\n=====================================================\n(overview numbering: text lines of image-001 counted from the first text line under the picture)\nimage-001 text l.1   Ich man dich magt erbarmerin   [red initial I, three lines high]\n\nimage-002 l.1  des sibenden grosses schmertzē dein\nimage-002 l.2  vnd hertzen laides vngemach\nimage-002 l.3  Das dir an deynem kind beschach\nimage-002 l.4  Do sich vollendet alles das\nimage-002 l.5  vnd er an dem creutz erstorben was\nimage-002 l.6  Joseph ain reicher gerechter man\nimage-002 l.7  Den man gen got in forcht sach stan\nimage-002 l.8  Edel genant von aromati\nimage-002 l.9  Der stund auch cristem? gelauben bey   [cristem or cristen; minims ambiguous]\nimage-002 l.10 vnd was sein iunger hainlich doch\n\nimage-003 l.1  Der stund auch cristem? gelauben bey   [overlap = image-002 l.9]\nimage-003 l.2  vnd was sein iunger hainlich doch   [overlap = image-002 l.10]\nimage-003 l.3  wan er forcht die iuden auch\nimage-003 l.4  pilatum · der da bitten began\nimage-003 l.5  das er im gab den toten man\nimage-003 l.6  den nam er von dem creutz her ab\nimage-003 l.7  vnd wolt in legen in sein grab\n\n=====================================================\nFACE 2\n=====================================================\nimage-005 l.1  Do er in her ab genomen het\nimage-005 l.2  In dein schos man dir in let\nimage-005 l.3  Do wart erst dein iamer gros\nimage-005 l.4  Mit haissen zahern in begos\nimage-005 l.5  Die dir von augen gingen ab\nimage-005 l.6  Du spracht o meyns alters stab\nimage-005 l.7  vnd meyner augen groste wún?   [last word: w + minims with a superscript mark; wún/wunn]\nimage-005 l.8  vnd meynes hertzen liechte sún?   [sún/sunn]\nimage-005 l.9  wie hast du mich so hie verlan\nimage-005 l.10 Nu mús ich hie in trawrn stan   [bottom of tile; fully visible as image-006 l.3]\n\nimage-006 l.1  vnd meynes hertzen liechte sún?   [overlap = image-005 l.8]\nimage-006 l.2  wie hast du mich so hie verlan   [overlap]\nimage-006 l.3  Nu mús ich hie in trawrn stan   [overlap]\nimage-006 l.4  ye mer vnd mer wúchs der schmertz\nimage-006 l.5  Das die saufzen an das hertz\nimage-006 l.6  Stiessen das es todes begert\nimage-006 l.7  vnd das her symeones schwert\nimage-006 l.8  Dein leib hertz vnd sel verschnaid\nimage-006 l.9  In dem selben grossen laid\nimage-006 l.10 Tet dir got ain zaichen kúnd\nimage-006 l.11 Das sein leib zu der selben stúnd\nimage-006 l.12 wart hail weis vnd sauber gar\nimage-006 l.13 Das man kayner wūden wart gewar\nimage-006 l.14 wan die fúnff wūden fron\n\nimage-007 l.1  wart hail weis vnd sauber gar   [overlap = image-006 l.12]\nimage-007 l.2  Das man kayner wūden wart gewar   [overlap]\nimage-007 l.3  wan die fúnff wūden fron   [overlap]\nimage-007 l.4  Die sach man da offen stan\nimage-007 l.5  Do er gelet wart in den stain\nimage-007 l.6  Johānes fürt? dich mit im hain   [fúrt/fuert; superscript over u]\nimage-007 l.7  Do er dein in dem haus pflag\nimage-007 l.8  Das tet er treulich mengen tag ·\n\nLIMITATIONS\n- The leaf is clean and the hand clear; the readings are secure apart from the points marked ?.\n- The marks over u (ú here) are a small superscript stroke or hook; I have not distinguished u-diacritic from umlaut, and in \"wún\"/\"sún\" I cannot tell whether a second n is abbreviated.\n- \"aromati\" (image-002 l.8) is spelled so on the page; I have not normalised it. \"fron : stan\" (image-006 l.14 / image-007 l.4) is the rhyme as written.\n- Face order is inferred from sense only; no foliation is visible. The text neither begins nor ends with a visible heading or explicit, so what precedes face 1 line 1 and follows face 2 line 26 is unknown from these images.\n- This is an unverified image reading.\n",
+  "text_sha256": "cd5d12b0189ef16856de08d77ee6c87817208603180bcc9966bce166ae512a5d"
+}

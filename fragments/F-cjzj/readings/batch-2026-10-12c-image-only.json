@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-10-12T19:12:59.184712+00:00",
+  "fragment": "F-cjzj",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "106d488037cabd379c9fce9e7dae53f852a956ca5cf646f9c4332f7882f2fb27",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/Frammento_cont.jp2/full/3446,/0/default.jpg (canvas 0, Quadrante anteriore_cont): whole image 3446x5163 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "09954fae3aa9f1ca126d1954fec71b61291258ae53e911699dde70bd89d4f360",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/Frammento_cont.jp2/full/3446,/0/default.jpg (canvas 0, Quadrante anteriore_cont): native-pixel box 1895,258,2756,1433; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "8b92b2bd37164d475564b1f581a5306b1c643cb2e2a38e8f076ded7a824cd485",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/Frammento_cont.jp2/full/3446,/0/default.jpg (canvas 0, Quadrante anteriore_cont): native-pixel box 1895,1181,2756,2483; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "73123a58bd682dbdde2710bee2bcf950ba542ee777ebb780d853f99e85c7bcaa",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/Frammento_cont.jp2/full/3446,/0/default.jpg (canvas 0, Quadrante anteriore_cont): native-pixel box 1895,2231,2756,3407; unrotated grid position column 1 of 1, row 3 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "14ce182cb6ff233ef285b80bf60cd23aa596a83b7d948a2f6cc05456c27ee17d",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/MdS63aa6_quadrante_interno_cont.jp2/full/2656,/0/default.jpg (canvas 1, Quadrante anteriore interno_cont): whole image 2656x4032 reduced to 1186x1800 for layout"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "a7707a2437f48915c95668790eb98d4414dc928ff7c6dd2b5c84ebdd110504e3",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/MdS63aa6_quadrante_interno_cont.jp2/full/2656,/0/default.jpg (canvas 1, Quadrante anteriore interno_cont): native-pixel box 664,322,2656,1707; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "82f0ca0178efd23110605a7bfc56c22e7483b9f551b05ff0e4a39cceb37cbefb",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/MdS63aa6_quadrante_interno_cont.jp2/full/2656,/0/default.jpg (canvas 1, Quadrante anteriore interno_cont): native-pixel box 664,1410,2656,2943; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "57e91692f45d560633e34104a720b9163f7fb61dc867c4b0d59045a6c5ff1d6d",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/MdS63aa6_quadrante_interno_cont.jp2/full/2656,/0/default.jpg (canvas 1, Quadrante anteriore interno_cont): native-pixel box 664,2646,2656,4032; unrotated grid position column 1 of 1, row 3 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "ac967a1f8775dd016e7082b5b2b278ae450acbea764a309f5905ac92a57f0c0d",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/oms_mds_63Aa06_e005_phy.jp2/full/3446,/0/default.jpg (canvas 2, Quadrante anteriore): whole image 3446x5163 rotated 180 degrees counterclockwise and reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "dd3bb78d4eedfad10f13d2d6624621624ae4967481fae5a68b63dda22ef800f4",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/oms_mds_63Aa06_e005_phy.jp2/full/3446,/0/default.jpg (canvas 2, Quadrante anteriore): native-pixel box 689,1445,1550,2601, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "20b3c5d1e53b8906b9cd99988a2b2a77c8624f3d7b05c3e7c5a4ce3729dc029b",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/oms_mds_63Aa06_e005_phy.jp2/full/3446,/0/default.jpg (canvas 2, Quadrante anteriore): native-pixel box 689,2353,1550,3634, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "ad2b692cd2ed415dd44d636dbfde381736a415c4a8d8922a92859cd5fef218a4",
+        "source": "https://fragmentarium.ms:443/loris/F-cjzj/oms_mds_63Aa06_e005_phy.jp2/full/3446,/0/default.jpg (canvas 2, Quadrante anteriore): native-pixel box 689,3386,1550,4543, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-16)",
+  "text": "PACKET-16 - UNVERIFIED IMAGE READING (first reader)\n\nEXPOSURE / PROCEDURE STATEMENT\n- Nothing in my context revealed a proposed identification of the work or author. I do not name one.\n- I viewed only PROMPT.md and image-001 ... image-012 of this packet, in their supplied orientation, with no working copies. Nothing else was opened.\n\nLAYOUT SURVEY (image only)\nTwo different views, each with its own overview.\n\nVIEW A = image-001 and image-009 (identical overviews) with tiles image-002, 003, 004, 010, 011, 012.\n- An opened small printed volume photographed from above with ruler and colour chart; inside a limp cover, a strip of parchment manuscript waste is exposed at the right edge beside a later paper pastedown that covers its left part. A modern purple ink stamp (upside down) is on the facing paper leaf; not transcribed.\n- The strip is upright. About 25 lines are visible, each only 6-12 letters wide: the LEFT part of every line is hidden under the paper pastedown and the RIGHT end is cut at or near the strip's edge (some lines end with a point before the edge, so those may be true line-ends). One column only; nothing of margins.\n- Formal, compressed bookhand in brown ink. Short horizontal strokes in alternating BLUE and RED lie in the interline at the left edge of the exposed text, under lines that end in \". ac.\" (see below). OBSERVATION: these coloured strokes recur under lines 2, 5/6 and so on, each a few lines apart. TENTATIVE interpretation: line-fillers or underlining marking the close/opening of short units (lemma-plus-explanation pattern); the repeated \". ac.\" at the end of units looks like a recurring abbreviated tag. Not resolved.\n- No rubric, running title or enlarged initial in the exposed part.\n\nVIEW B = image-005 (overview) with tiles image-006, 007, 008.\n- A hand-held, close photograph of a small volume with the cover bent back, showing a different piece of parchment waste on the inside of the cover/spine, curved and seen obliquely. Script upright but receding; focus is sharp only at the lower left (image-008).\n- One column, about 20 lines visible, left margin present, right part of the lines lost round the curve. Larger, heavier bookhand than VIEW A, black-brown ink, much flaked. A RED pen-flourished border runs down the left margin and ends in a spiral at the bottom; in the last visible line an initial with BLUE infill and red flourishing begins. Near the top (image-006) three lines of a smaller-looking text stand above a blank area.\n- Whether VIEW A and VIEW B are the same volume or the same manuscript cannot be told; the hands look different.\n\nLINE NUMBERING\nVIEW A lines are numbered from the top of each named image; the same physical lines recur in overlapping tiles and are listed once, with the overlaps stated. |...| marks the hidden left part / cut right end. (..) = proposed expansion; ? = uncertain.\n\nSPANS SELECTED: the whole exposed strip of VIEW A (25 lines); what is legible of VIEW B. UNREAD: everything under the pastedown in VIEW A; the right-hand halves and the upper, out-of-focus lines of VIEW B.\n\nVIEW A - continuous strip, top to bottom\nimage-002 L1 : |..[lower halves only] ..ctus? ad|\nimage-002 L2 : |in ordinari|                                   [blue stroke beneath, at left]\nimage-002 L3 : |et h..? ..sato?|        (creased; middle letters broken)\nimage-002 L4 : |eterent . s(ecundu)m?|   (last word creased: \"ser\"/\"scd\"?)\nimage-002 L5 : |usiones .|                                      [red stroke beneath, at left]\nimage-002 L6 : |arent . hic|\nimage-002 L7 : |s expediti|\nimage-002 L8 : |ib(us) . ad s(e)? . ceb?|\n   (image-012 shows image-002 L1-L8 again and continues; image-003 L1-L2 = image-002 L7-L8.)\nimage-003 L3 : |ortat(ur) . h(ic) sa..?|\nimage-003 L4 : |ditur . j . ca|\nimage-003 L5 : |quoq(ue) . ac .|                               [blue stroke beneath, at left]\nimage-003 L6 : |..ritq(ue)? . hec|\nimage-003 L7 : |ontur . j . ca..|\nimage-003 L8 : |..ub(us) nisi .|                                [red stroke beneath, at left]\nimage-003 L9 : |sentem si..|       (edge torn after \"si\")\nimage-003 L10: |anim? . i . p(re)|    (first letters \"ai/gn\"-like minims: \"anim\"/\"gnum\"?)\nimage-003 L11: |ia(m) p(re)sn..ssia?|   (reads letter by letter: i a-with-stroke, p-with-stroke, s n i, ff/ss i a; unresolved)\nimage-003 L12: |ata . ac .|                                      [blue stroke beneath, at left]\nimage-003 L13: |tes p(ro)ui(n)ci|      (p with superscript i/stroke, then \"uici\")\n   (image-011 repeats image-003 L4-L13 and the next three lines; image-004 L1-L3 = image-003 L11-L13.)\nimage-004 L4 : |ales . ac .|                                     [red stroke beneath, running further left]\nimage-004 L5 : |ap(osto)lo? . sic s(ed)?|     (written \"applo\" with a stroke; final sign like \"s\" with a curl)\nimage-004 L6 : |ec? (et) in p(ri)mam|          (a short red dash in the margin at the left of this line)\nimage-004 L7 : |atur . in c(aus)a ap(pellationis)?|   (\"ca\" with stroke; \"ap\" with stroke through the descender)\nimage-004 L8 : |et sic c(aus)a alia c(aus)a .|\nimage-004 L9 : |re . (et)? alia c(aus)a . (et)|\nimage-004 L10: |[only \"..er..\" on the turned-up corner]|\n   (image-010 repeats image-004 L4-L10.)\nSecure letters: \"in ordinari\"; \"usiones\"; \"arent . hic\"; \"s expediti\"; \"ditur . j . ca\"; \"quoq(ue) . ac .\"; \"ub(us) nisi .\"; \"sentem\"; \"ata . ac .\"; \"ales . ac .\"; \"in p(ri)mam\"; \"atur . in c(aus)a\"; \"sic c(aus)a alia c(aus)a\"; \"alia c(aus)a\".\nNotes: \"j .\" before \"ca\" in L4 and L7 of image-003 is a long i/j standing alone between points (possibly a reference sign such as \"infra\"; not expanded). \"c(aus)a\" is my expansion of \"ca\" with a stroke above; \"capitulum\" or another word in \"ca-\" is equally possible from the letters. The lines \"p(ro)ui(n)ci | ales\" read across the line break as one word.\n\nVIEW B\nimage-006 (three lines at the top of the piece, soft focus):\nimage-006 L1 : |..orta? te..|\nimage-006 L2 : |..indic..? p..|\nimage-006 L3 : |.. ce(n)te(n)?..|\n   then a blank area, and the first line of the main block at the bottom edge (= image-007 L1).\nimage-007 (main block, upper part; flaked, soft focus):\nimage-007 L1 : to..[illegible]\nimage-007 L2 : b(e)n..? [illegible] sa..\nimage-007 L3 : fec..? mag..[..]\nimage-007 L4 : acc..re? [..] ..ui?\nimage-007 L5 : a d(omi)ni? possi[..]     (a vertical hole through the line)\nimage-007 L6 : ..ationes de hii(s)?\nimage-007 L7 : b..is? d(omi)ni? [..]\nimage-007 L8 : [hole] ..li.. [..] ..oh..?\nimage-007 L9 : tucle..? [..]     (= image-008 L2)\nimage-008 (lower part; the sharpest area):\nimage-008 L1 : [= image-007 L8]\nimage-008 L2 : tucle..?\nimage-008 L3 : bulo(n)es? (et) i[..]\nimage-008 L4 : n(on) vent(ur)? s(e)mp(er)?[..]     (very uncertain)\nimage-008 L5 : rs dicit? ..az?[..]\nimage-008 L6 : o(mn)i(s)? ..ficat? i(n) r(e)cto?[..]\nimage-008 L7 : iones er(un)t? i(n)..ectu?[..]\nimage-008 L8 : b(us)? o(mn)i(u)m? gaudiu(m)?[..]\nimage-008 L9 : ui . s(e)quit(ur)? ml[..]\nimage-008 L10: [blue-filled initial] S? ecul..? [..]     (last visible line)\nNothing in VIEW B is secure beyond isolated syllables (\"possi-\", \"-ationes\", \"-iones\", \"dom-\"); I offer the lines only to show how much text is there.\n\nLIMITATIONS / REQUESTS\n- VIEW A gives only the final 6-12 letters of each line, so no connected sentence can be read; the hidden left parts lie under a paper pastedown.\n- VIEW B is a curved, obliquely lit, partly unfocused phone photograph with flaked ink; every line is cut on the right.\n- Requested: a flat, square-on, focused image of the VIEW B piece (all of it, including the three top lines and the decorated initial at the foot), and, if conservation allows, transmitted-light or raking-light imaging of the VIEW A strip through the pastedown.\n- Unverified image reading; no gaps were filled from sense or from any edition.\n",
+  "text_sha256": "1ef868c9df43cf531fd491c6d0fa8d61b28236c4c7c1dde67b3796cc7239e68b"
+}

@@ -61,6 +61,14 @@ note recording evidence and the stopping reason. Existing research reports and
 preserved readings remain available in Git. Do not turn a partial result into
 an identification to obtain a public page.
 
+The site and its count show this project's findings only. When the scholarship
+has already identified the text of this very fragment (an edition of the leaf, a
+repertory entry naming its shelfmark) and the catalogue record lacks it, record
+the result as identified, add `known_from` with the citation, and keep the
+report in `fragments/`. Such a row gets no public page and is not counted. An
+unknown author or a single surviving copy does not make an identification
+partial.
+
 `identified_on` is an ISO date (`YYYY-MM-DD`) for the original establishment of
 the stated identification, or null for an unresolved attempt. Later reviews
 update `examined`, not `identified_on`. If the identification changes to a different

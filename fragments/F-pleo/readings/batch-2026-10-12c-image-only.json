@@ -1,0 +1,217 @@
+{
+  "captured_at": "2026-10-12T19:12:59.176184+00:00",
+  "fragment": "F-pleo",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "fa11c4a278ee8aa6bb6469069667bfab40a21d3ad7ca6b2eed5cf4b9f51de9cb",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6_r.JPG/full/643,/0/default.jpg (canvas 1, Cod3596_Falz_5_6_r): whole image 643x5093 reduced to 227x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "bb1a57b595d72087a211c3cd00cdecb2126213ac1fce3efa21e347ecbefe5f66",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6_r.JPG/full/643,/0/default.jpg (canvas 1, Cod3596_Falz_5_6_r): native-pixel box 0,0,643,1426; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "37c4d822597106eff45188a4eb15f29476c92274387644d8ed2e01bd770d233d",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6_r.JPG/full/643,/0/default.jpg (canvas 1, Cod3596_Falz_5_6_r): native-pixel box 0,1120,643,2699; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "dfb8018599bc720bf7646610aed8aebe794d31a9473d9b29b2e1b58fcede3a5a",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6_r.JPG/full/643,/0/default.jpg (canvas 1, Cod3596_Falz_5_6_r): native-pixel box 0,2393,643,3972; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "a02b4631899840161b3900b2bdb9a3d615e3878270e9412a78f70ffccacc32e6",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6_r.JPG/full/643,/0/default.jpg (canvas 1, Cod3596_Falz_5_6_r): native-pixel box 0,3666,643,5093; unrotated grid position column 1 of 1, row 4 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "6360f06be85eb757c5243db1a6ac0b6744ca1ce3b96133c248e3b794754b6aca",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6v.JPG/full/643,/0/default.jpg (canvas 2, Cod3596_Falz_5_6v): whole image 643x5093 reduced to 227x1800 for layout"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "e6107ea8ccf96e4a86c210b8b08f57868367fc3f19d95bc0d2c6c2c41e63f2d3",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6v.JPG/full/643,/0/default.jpg (canvas 2, Cod3596_Falz_5_6v): native-pixel box 0,0,643,1426; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "e26ea5252af84caee54e251fc5f398f1de6c76e85da59835b001c71e0410c3c8",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6v.JPG/full/643,/0/default.jpg (canvas 2, Cod3596_Falz_5_6v): native-pixel box 0,1120,643,2699; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "38a2da8f12f282b157d7506584eaeb9d4920dbac142c0de5a7779904033bb108",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6v.JPG/full/643,/0/default.jpg (canvas 2, Cod3596_Falz_5_6v): native-pixel box 0,2393,643,3972; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "a75ccfdc2a827f2d9960c2e47de6b196d8608853f5833f130630b7412ae630ad",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_5_6v.JPG/full/643,/0/default.jpg (canvas 2, Cod3596_Falz_5_6v): native-pixel box 0,3666,643,5093; unrotated grid position column 1 of 1, row 4 of 4"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "f190e1683eb1a7750c7648d470b71238403b857b62938a53a1fb0876de5a0064",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_r.JPG/full/643,/0/default.jpg (canvas 4, Cod3596_Falz_17_18_r): whole image 643x5093 reduced to 227x1800 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "b7165375dbd36491a9977ca99a89ec5700239dadeffe4146ccf150b3b5c642c5",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_r.JPG/full/643,/0/default.jpg (canvas 4, Cod3596_Falz_17_18_r): native-pixel box 0,0,643,1426; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "f90d6ae5d4bfde348d3dc373d209255bd21864a8d223a41ef0ae03272834691b",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_r.JPG/full/643,/0/default.jpg (canvas 4, Cod3596_Falz_17_18_r): native-pixel box 0,1120,643,2699; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "c14d95993d9acf1b062aa6a82a715b2e46e01d7881e11e3ac6a9036e4c6fc4f1",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_r.JPG/full/643,/0/default.jpg (canvas 4, Cod3596_Falz_17_18_r): native-pixel box 0,2393,643,3972; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "9a28d17596f2858302529ae0244f6cd449427c0a39a948fd473f714788029192",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_r.JPG/full/643,/0/default.jpg (canvas 4, Cod3596_Falz_17_18_r): native-pixel box 0,3666,643,5093; unrotated grid position column 1 of 1, row 4 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "fc981662824cd499877a52c06aa8bf6c5c53ee82d25198ff9ce80693995aac37",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_v.JPG/full/643,/0/default.jpg (canvas 5, Cod3596_Falz_17_18_v): whole image 643x5162 reduced to 224x1800 for layout"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "db76594212357a1c99c27b03372e47a7ee0e40c80358a0cd79558c86aa21294e",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_v.JPG/full/643,/0/default.jpg (canvas 5, Cod3596_Falz_17_18_v): native-pixel box 0,0,643,1445; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "6e52f82f4b52418910d4a9bc180fba4a009108da2b61f46c474ea1ed84e31fb1",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_v.JPG/full/643,/0/default.jpg (canvas 5, Cod3596_Falz_17_18_v): native-pixel box 0,1135,643,2735; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "4103f01f98a737809d23be6c5b3f831c63f20f79cfa8cb0e08d1b3049a341dc2",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_v.JPG/full/643,/0/default.jpg (canvas 5, Cod3596_Falz_17_18_v): native-pixel box 0,2426,643,4026; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "8753f9db8fdf89e119aa75364304a451363d4ea6be1643632ab63a7e3bbb4412",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_17_18_v.JPG/full/643,/0/default.jpg (canvas 5, Cod3596_Falz_17_18_v): native-pixel box 0,3716,643,5162; unrotated grid position column 1 of 1, row 4 of 4"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "8976762f335e0ec8335c3dd1a7e5fc317a4a2329d57db5a69e55052cbc2430f4",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_r.JPG/full/643,/0/default.jpg (canvas 7, Cod3596_Falz_29_30_r): whole image 643x5162 reduced to 224x1800 for layout"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "831fa8b7acaf958e38af5b928b6bf3c76962ec472ec41e85789dcc6973a21112",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_r.JPG/full/643,/0/default.jpg (canvas 7, Cod3596_Falz_29_30_r): native-pixel box 0,0,643,1445; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "1994a80eb24b375b75130c13367985f61698c6643cc6f584f4083554eaf1484d",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_r.JPG/full/643,/0/default.jpg (canvas 7, Cod3596_Falz_29_30_r): native-pixel box 0,1135,643,2735; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "067ab7b57455a3dfe7338cf37aeca59e97e6df5cd7c72a2737395842b014596c",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_r.JPG/full/643,/0/default.jpg (canvas 7, Cod3596_Falz_29_30_r): native-pixel box 0,2426,643,4026; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "f004299b6de251a60e168ea398ec52a7b531c9c3c42509ae2752748b7e9a21df",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_r.JPG/full/643,/0/default.jpg (canvas 7, Cod3596_Falz_29_30_r): native-pixel box 0,3716,643,5162; unrotated grid position column 1 of 1, row 4 of 4"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "212920b1f185dc8ae0bdfb7c2b1b5ae4e8b20649ba05963493a79204ef7380d5",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_v.JPG/full/643,/0/default.jpg (canvas 8, Cod3596_Falz_29_30_v): whole image 643x5162 reduced to 224x1800 for layout"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "76bc3e47999ff920adf8a0dbc17e5446adb31dd1ee92aca84d94d618a14ec384",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_v.JPG/full/643,/0/default.jpg (canvas 8, Cod3596_Falz_29_30_v): native-pixel box 0,0,643,1445; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "11a9976d3c5d180c186fa07014d5b746be71e7ef7553b9813e27c3793c29b73a",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_v.JPG/full/643,/0/default.jpg (canvas 8, Cod3596_Falz_29_30_v): native-pixel box 0,1135,643,2735; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "69cb98dbbd57fd7218279e89875c152fba620b148895d3f8dee2a8b28cc95dde",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_v.JPG/full/643,/0/default.jpg (canvas 8, Cod3596_Falz_29_30_v): native-pixel box 0,2426,643,4026; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "8c00c29662fce7825a6cf35218c3f31dc47097344b35b929423c390de5ee225c",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_29_30_v.JPG/full/643,/0/default.jpg (canvas 8, Cod3596_Falz_29_30_v): native-pixel box 0,3716,643,5162; unrotated grid position column 1 of 1, row 4 of 4"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "af60e27268c52e95f44009b8727fff53431ca2d1c1cda1579b030875e52818bc",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_r.JPG/full/643,/0/default.jpg (canvas 10, Cod3596_Falz_41_42_r): whole image 643x5162 reduced to 224x1800 for layout"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "b23fab262093c3f562455da5c38dbd97b45216a2ba6c4cbc790117f71ff7250a",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_r.JPG/full/643,/0/default.jpg (canvas 10, Cod3596_Falz_41_42_r): native-pixel box 0,0,643,1445; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "5836e4265ac91fdd1a699cb969f1665973079362c09759ec36ad7af62ebf0a43",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_r.JPG/full/643,/0/default.jpg (canvas 10, Cod3596_Falz_41_42_r): native-pixel box 0,1135,643,2735; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "bae39a667442a73c3ac5f81d3001cf618927a298c163c13703520b117ef0f298",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_r.JPG/full/643,/0/default.jpg (canvas 10, Cod3596_Falz_41_42_r): native-pixel box 0,2426,643,4026; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-035.jpg",
+        "sha256": "8917bc4f294f443440924536ce99ee38be7647a5bd79d1d9faa3b00535f7a70d",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_r.JPG/full/643,/0/default.jpg (canvas 10, Cod3596_Falz_41_42_r): native-pixel box 0,3716,643,5162; unrotated grid position column 1 of 1, row 4 of 4"
+      },
+      {
+        "name": "image-036.jpg",
+        "sha256": "5ad8e30db415d35eaa083cb34be88b4aaf51fcd8aa03ad62c85c1b79d6784374",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_v.JPG/full/643,/0/default.jpg (canvas 11, Cod3596_Falz_41_42_v): whole image 643x5162 reduced to 224x1800 for layout"
+      },
+      {
+        "name": "image-037.jpg",
+        "sha256": "ab24fe51620955436b0199ae43e9217296d36916e029ea1ded558e1b066ab362",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_v.JPG/full/643,/0/default.jpg (canvas 11, Cod3596_Falz_41_42_v): native-pixel box 0,0,643,1445; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-038.jpg",
+        "sha256": "c800c79aac055599ef73c1978d01990fe778c390ca9e54d2e4133900cd54d7d0",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_v.JPG/full/643,/0/default.jpg (canvas 11, Cod3596_Falz_41_42_v): native-pixel box 0,1135,643,2735; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-039.jpg",
+        "sha256": "e351d6fb8ecdeaa4b9fe919b7ccf83dd95522bc532baf9435cd209f54732d824",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_v.JPG/full/643,/0/default.jpg (canvas 11, Cod3596_Falz_41_42_v): native-pixel box 0,2426,643,4026; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-040.jpg",
+        "sha256": "3274dcdb48000c17626d23bc2764317115be5a1730ce39fda7d196fb58636dec",
+        "source": "https://fragmentarium.ms:443/loris/F-pleo/Cod3596_Falz_41_42_v.JPG/full/643,/0/default.jpg (canvas 11, Cod3596_Falz_41_42_v): native-pixel box 0,3716,643,5162; unrotated grid position column 1 of 1, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-13)",
+  "text": "PACKET 13 - UNVERIFIED IMAGE READING (first reader)\n\nEXPOSURE / RULES STATEMENT\n- Nothing in my context revealed a proposed identification of the work or author. I make none here.\n- One step beyond the stated rules: image-002 to image-005 show their text upside down AND mirror-reversed.\n  To read them I made temporary flipped copies (vertical flip) of those four tiles in a scratch\n  directory and viewed the copies. No other file, directory, catalogue, web page or search tool was used.\n  I did not read packet.json.\n\nCONVENTIONS\n- ] or [ at a line end = text cut by the edge of the strip (true of EVERY line in this packet).\n- (..) = proposed expansion; ? after a word = uncertain reading; [..] = letters hidden under the\n  sewing thread / gutter line or abraded; [illegible] = nothing recoverable.\n- Line numbers count from the top of the named image, EXCEPT for image-002..005 (see strip 1).\n  Counts are approximate to +-1 because tiles start mid-line.\n- Abbreviation marks are kept where I could see them: q̄, ē, n̄, ꝑ, ꝓ, ꝰ, ⁊ (Tironian et), ÷ (est), ; (-us/-et/-que sign).\n\n=====================================================================\n1. LAYOUT SURVEY (image only)\n=====================================================================\nObservations\n- The packet shows eight narrow vertical parchment strips, each mounted in the gutter of a later\n  paper book (stitching thread and a fold line run down several of them). Overviews: image-001,\n  006, 011, 016, 021, 026, 031, 036. Each overview is followed by four overlapping tiles.\n- Each strip is roughly one to three words wide and about 45-60 written lines tall. No strip shows\n  a full line, a column edge with margin on both sides, a running title, or a rubric.\n- Script: a small, heavily abbreviated book hand in brown-black ink, upright, with many suspension\n  strokes and superscript letters. Line spacing is tight.\n- Brown ink underlining of individual words or line-segments occurs repeatedly (noted per line below).\n- Tiny interlinear additions above the line occur on several strips (image-023, 025, 028-030, 032-035, 038),\n  in a smaller hand or the same hand at reduced size.\n- Red marks on the HOST paper beside the strips (not on the parchment): image-001/002-005 (four red\n  marks), image-006/008-010 (red marks at left), image-011/014-015, image-016-020, image-024 (\". IA .\"),\n  image-029 (\"di . IA\" or similar), image-033 and 038. They look like letter/number sigla; I cannot\n  read them securely and they are cropped.\n- image-017/018: a second, smaller parchment fragment lies to the left of the main strip, with a few\n  letters and red ink of its own.\n- image-027..030 and image-032: the strip is two-ply or folded; a thin inner sliver at the left\n  carries one or two letters per line that do not obviously continue the main sliver.\n- No enlarged or decorated initials visible. One capital-like letter opens image-027 line 1.\n\nTentative interpretation (not observation)\n- The underlined words could be lemmata or quoted words inside running prose commentary, and the\n  interlinear notes could be glosses; the crop is too tight to confirm either.\n- Strip 1 (image-001..005) is seen reversed and inverted, i.e. probably the glued/other face seen\n  through, or a strip mounted head-down and photographed from behind.\n- Whether the eight strips come from one leaf, and in what order, cannot be decided from these crops.\n\nAreas selected: every tile of every strip was read line by line (there is no connected prose to\nselect; each line preserves only a word or two). Areas left unread: lower half of image-040 and\nimage-039 lines 17 onward (abraded), the small left fragment in image-017/018, the inner sliver in\nimage-027..030, and the red marks. A wider view of each opening, and a raking-light or reversed\nimage of strip 1, would help.\n\n=====================================================================\n2. STRIP 1 - image-001 (overview), image-002..005 (tiles)   TEXT INVERTED AND MIRRORED\n=====================================================================\nRead from vertically flipped copies. Reading order of the text runs from the BOTTOM of image-005 up\nto the TOP of image-002. Line labels here are \"b1, b2 ...\" = counted from the BOTTOM of the named\nimage as supplied. A stitching thread hides 2-4 letters in mid-line throughout ([..]).\n\nimage-005 b1   ]ē [..]cedat(ur)? . Se[\nimage-005 b2   ]c̄ f[..]dicas q° l[\nimage-005 b3   ]cē [..]ū p(ri)mu[\nimage-005 b4   ]tur n̄ mu[\nimage-005 b5   ]aui[..] ſider(et)? .\nimage-005 b6   ] te[..]te . niſ[\nimage-005 b7   ]udi . [..] ſuū\nimage-005 b8   ]a ſol[..]ato dꝑe? .\nimage-005 b9   ]ſ pu[..] ɔdig[\nimage-005 b10  ]ſcen[.] . ⁊ uici[\nimage-005 b11  ]ena . [..] q̄ſt[\nimage-005 b12  ]ꝰ . in[..]ueniſ f[\nimage-005 b13  ]mitti[.] q[..]g̊ta?\nimage-005 b14  ] . ti a[..]t alia u[\nimage-005 b15  ]delic[..] . S; a[\nimage-005 b16  ]urg[..]e ſ(ecundu)m?\nimage-005 b17  ]q̄ndā [..]ꝑt° .\nimage-005 b18  ]ſ eſt [..]aude? .\nimage-005 b19  ]ſ pub[..]et . un[\n   (image-005 b16-b19 = image-004 b1-b4, overlap)\nimage-004 b5   ]ē aliꝰ? [..]ō pꝛob[\nimage-004 b6   ]tertiu[.] . q̇dem?\nimage-004 b7   ]ſolut[..]e aſſig[\nimage-004 b8   ]t ad [..]mꝰ q[\nimage-004 b9   ]uto q[..]rtiū ⁊        (underlined in brown)\nimage-004 b10  ]ſet . [..]nto ī         (underlined)\nimage-004 b11  ]ſ . q̄n[.] ep̄atu?      (red mark on host paper beside)\nimage-004 b12  ]lec[.] [..]ſentōn?\nimage-004 b13  ]ng[.] q[..] ꝑ ſ(ecundu)m?   (underlined)\nimage-004 b14  ]ſe eni[..]ē q̄ſ .\nimage-004 b15  ]I alii [..] ſtēon?      (underlined)\nimage-004 b16  ]bſlt[..] . ſ . in[\nimage-004 b17  ]Caſſi[..]e . nih?\nimage-004 b18  ]ſ re[..]tōne .\nimage-004 b19  ]q̄ꝑt[..] culpe .\nimage-004 b20  ]te . [..]c(er)dotem?\nimage-004 b21  ]atto[.] onian?\n   (image-004 b18-b21 = image-003 b1-b4, overlap)\nimage-003 b5   ]ſte . [..] pauſ ſe[\nimage-003 b6   ]e add[..]ta ī iūn?\nimage-003 b7   ]dā d[..]ſ ſicera?\nimage-003 b8   ]iſ pe[..]ſione\nimage-003 b9   ]iſ ſ; [..]nudita?\nimage-003 b10  ]loco [.]o ipoſ\nimage-003 b11  ] . c̄ ſ[..]ctiu(m)? m[\nimage-003 b12  ]ſtlꝰ? [..]u(er)° leg[\nimage-003 b13  ]tati[..] mam?\nimage-003 b14  ]y h[..]tlꝰ? did[\nimage-003 b15  ] . pꝛ[..]a eni(m)\nimage-003 b16  ]ſ n̄ [..] meu[\nimage-003 b17  ]rat [..]acc°? ſu[\nimage-003 b18  ]bul q̄ [..] ſent? ÷        (red mark beside)\nimage-003 b19  ]q̄ c[..] eſſ; l[\nimage-003 b20  ]o e[..]inuam?\nimage-003 b21  ]ē ſ[..]n . ille\nimage-003 b22  ]l ſ(e)c(un)dā? de[\nimage-003 b23  ]ple[.] caurte?\n   (image-003 b19-b23 = image-002 b1-b5, overlap)\nimage-002 b6   ]bni [..]erat oi?\nimage-002 b7   ]nq; [.]uſſe[.]? ⁊ l[        (red mark beside)\nimage-002 b8   ]ꝛe [..] uarie?\nimage-002 b9   ]o . [.]remotu?              (red mark beside)\nimage-002 b10  ]inc? [..]bꝛe n̄ a[\nimage-002 b11  ]nſ [..]plete .\nimage-002 b12  ]tuſ [..]ita ſic?\nimage-002 b13  ]aſi . aliq̄ d̄[\nimage-002 b14  ]a[..] d(i)ſt? . i . a[       (underlined)\nimage-002 b15  ]hā[.]m . uiq̄;?\nimage-002 b16  ]q̄ [..] tebet? i[           (underlined)\nimage-002 b17  ]a q[......] .               (a word here is both overlined and underlined - apparently cancelled)\nimage-002 b18  ]r [..] ad aliu[\nimage-002 b19  ]ca[.] ꝟgo? de[\nimage-002 b20  ][..]dō aut? de[\nimage-002 b21  [cut by the edge of the image]\n\n=====================================================================\n3. STRIP 2 - image-006 (overview), image-007..010     upright; left part of each line cut\n=====================================================================\nimage-007 1   ] . ux(o)r? q̄ in[\nimage-007 2   ]ſimil(iter)? . q(uo)d ſ[\nimage-007 3   ]ſte i(n) q̄ſtio[\nimage-007 4   ]ureſ ſic? .           (underlined)\nimage-007 5   ]ē h̄ . in[             (underlined at left)\nimage-007 6   ]ſ[.]ſter? u[\nimage-007 7   ]d q̄ſitio?\nimage-007 8   ]ꝛe . pote[\nimage-007 9   ]ne q̄ ſ(un)t?\nimage-007 10  ]ī q̄ſiuit?\nimage-007 11  ]noꝛe . m[\nimage-007 12  ]ſic(ut) uid[\nimage-007 13  ] de te q̄[\nimage-007 14  ]t ſing[\nimage-007 15  ]ſ(u)p(er)? ⁊ q̄ d[\nimage-007 16  ]ē uir°\nimage-007 17  ]gnoꝛ[                 (underlined)\nimage-007 18  ]in ⁊ iq̄[\nimage-007 19  ]noīe t[\n   (image-007 16-19 = image-008 1-4)\nimage-008 5   ]ni? . H[\nimage-008 6   ]ſaa? . q̄[\nimage-008 7   ]pog[..]?\nimage-008 8   ]diu(er)ſ?\nimage-008 9   ]t(er) m[\nimage-008 10  ]eſſet?\nimage-008 11  ] . g̊ p̄[\nimage-008 12  ] . Arn?               (red mark on host paper beside)\nimage-008 13  ]tū q̄[\nimage-008 14  ] . ſꝑ c[\nimage-008 15  ] . uat?\nimage-008 16  ]cō ī?\nimage-008 17  ]dn? . f[\nimage-008 18  ]pler?\nimage-008 19  ]g̊ ha[\nimage-008 20  ]q̄ rao?\nimage-008 21  ]mō . H[\nimage-008 22  ]⁊ ſicu?\nimage-008 23  ]xe ī ſ[\n   (image-008 20-23 = image-009 1-4)\nimage-009 5   ]e q̄ſt[                (underlined)\nimage-009 6   ]etuo? .\nimage-009 7   ]mū ⁊\nimage-009 8   ]diſt[..]?             (underlined)\nimage-009 9   ] aūi? ī\nimage-009 10  ]q̄ . iā\nimage-009 11  ]ſ . i .\nimage-009 12  ]ieiul?                (underlined)\nimage-009 13  ]r° . q̄\nimage-009 14  ] . ui b[\nimage-009 15  ]tem\nimage-009 16  ] . ſed .\nimage-009 17  ]dāa?\nimage-009 18  ]ꝰ ap[\nimage-009 19  ]tōie?                 (red mark beside)\nimage-009 20  ]; ex\nimage-009 21  ]tem\nimage-009 22  ]atū\n   (image-009 19-22 = image-010 1-4)\nimage-010 5   ]t iu°?\nimage-010 6   ]nū d[                 (underlined; red mark beside)\nimage-010 7   ]ꝛat .\nimage-010 8   ]abſc[\nimage-010 9   ]eſſic?                (red mark beside)\nimage-010 10  ]ke? a[\nimage-010 11  ]lui?\nimage-010 12-13 [illegible - surface torn]\n   (below the tear the strip shifts to the right; possibly a separate piece)\nimage-010 14  ]ɔ? q̄ t[\nimage-010 15  ]t i[                  (underlined)\nimage-010 16  ]℞ . [\nimage-010 17  ]alii?\nimage-010 18  ]u de\nimage-010 19  ]t de\nimage-010 20  [cut]\n\n=====================================================================\n4. STRIP 3 - image-011 (overview), image-012..015     upright\n=====================================================================\nimage-012 1   ]tieſ? . in[\nimage-012 2   ]m̄ . q̄ . ꝑ[\nimage-012 3   ] . ſoinn?\nimage-012 4   ]ad diſp[\nimage-012 5   ]iſte en[              (underlined)\nimage-012 6   ]ar og?\nimage-012 7   ]omib;?\nimage-012 8   ]ꝛ . diſc[\nimage-012 9   ]ꝛ ſepe?\nimage-012 10  ]mita?                 (underlined)\nimage-012 11  ]aſi . i ſ[\nimage-012 12  ]a g̊ue?\nimage-012 13  ]ſiaſe? .              (underlined)\nimage-012 14  ]et q̄ru[\nimage-012 15  ]de ipell[\nimage-012 16  ]ſēt uoc[             (underlined)\nimage-012 17  ]anda? / auda?         (underlined)\nimage-012 18  ]le idē?               (underlined)\nimage-012 19  ]ambi[                 (underlined)\nimage-012 20  ] . ula?\n   (image-012 16-20 = image-013 1-5)\nimage-013 6   ]⁊ . big[\nimage-013 7   ][.]icēt? a[\nimage-013 8   ]uētu?\nimage-013 9   ]ꝑtauit?\nimage-013 10  ]tanſ . u[\nimage-013 11  ]ſ . lig̊[\nimage-013 12  ]ſiſt? . f .\nimage-013 13  ]ꝑ ſic g[\nimage-013 14  ]ſic̄ g̊\nimage-013 15  ]ineant?\nimage-013 16  ]ꝑul ſic?\nimage-013 17  ]iattua?\nimage-013 18  ]ꝛe et° ꝑ[\nimage-013 19  ]q̄ſtōn[\nimage-013 20  ]ob? . q̄ſ[\nimage-013 21  ]te . iā\nimage-013 22  ]ſa . lat?\nimage-013 23  ]o; deg[              (underlined)\nimage-013 24  ]i depu[\n   (image-013 21-24 = image-014 1-4)\nimage-014 5   ]id° . tt?\nimage-014 6   ] . q̄ uini?           (red mark on host paper beside)\nimage-014 7   ][..] poit?            (underlined)\nimage-014 8   ]omīo? .\nimage-014 9   ]ſiren? / ſi rea?      (underlined)\nimage-014 10  ]iſtam?\nimage-014 11  ]dinū? .\nimage-014 12  ]ſtē u[\nimage-014 13  ]ti q̄ r[\nimage-014 14  ]q̄ ad\nimage-014 15  ]fuit?\nimage-014 16  ]ſig̊[..]?\nimage-014 17  ]ɔtia? ſti[\nimage-014 18  ]iuſte\nimage-014 19  ]nciat? / ociat?\nimage-014 20  ]no dee?\nimage-014 21  ]r unce?\nimage-014 22  ]⁊ iā q̄\nimage-014 23  ]ſeco? . ⁊\n   (image-014 20-23 = image-015 1-4)\nimage-015 5   ]tu? . ⁊ ia\nimage-015 6   ]ti . aſſi[\nimage-015 7   ] . ſ; ſic?            (red mark beside)\nimage-015 8   ]odo? ſu[\nimage-015 9   ]dacon?\nimage-015 10  ]oblig[\nimage-015 11  ] . ſiāſ?\nimage-015 12  ]de eo?\nimage-015 13  ] . ꝛaug?\nimage-015 14  ]deit? .\nimage-015 15  ]tra? q̄\nimage-015 16  ]⁊ q̄ eii?\nimage-015 17  ]ſſic . S[\nimage-015 18  ]p° ta[\n\n=====================================================================\n5. STRIP 4 - image-016 (overview), image-017..020     upright; top 6 lines abraded\n=====================================================================\nimage-017 1-5  [illegible apart from \"m;\" in line 2 and \". i . u?\" in line 5]\nimage-017 6   ]tanſ? .\nimage-017 7   ]noſtra? / uoſtra?\nimage-017 8   ] . iſtu?\nimage-017 9   ] . q̄dā r[\nimage-017 10  ]u mone?               (underlined)\nimage-017 11  ]mo . noi?\nimage-017 12  ]nb? . q̄[\nimage-017 13  ]ture? i[\nimage-017 14  ]ꝛ uſar? / uſur?\nimage-017 15  ]mie? . in[\nimage-017 16  ]ꝯ . q . q̄?\nimage-017 17-19 [illegible; brown rules across the strip]\n   Small separate fragment at left of image-017/018: \"]moiſt?\" (underlined), \"]nōſſt?\", \". ꝑ .\", red ink, \"]moi?\"\nimage-018 4   ]tox? . lu[\nimage-018 5   ]c̄ / ē\nimage-018 6   ]d opu[\nimage-018 7   ]cuiq̄?\nimage-018 8   ]; reru[\nimage-018 9   ] . uſar? / uſur?\nimage-018 10  ][.]mu?\nimage-018 11  ]eſtimu?\nimage-018 12  ]uuq̄?                  (interlinear \"u\" above)\nimage-018 13  ]aꝑ p[\nimage-018 14  ]ꝰ ape?\nimage-018 15  ]ne . ſe[\nimage-018 16  ] . q̄ ī\nimage-018 17  ]ſe . q[\nimage-018 18  ] . i ſpē[\nimage-018 19  ]ee? un[\nimage-018 20  ]ſoē? p[\nimage-018 21  ]eni\nimage-018 22  ]de . i .\nimage-018 23  ]ſiora? / tiora?\n   (image-018 20-23 = image-019 1-4)\nimage-019 5   ] . ɔſec[\nimage-019 6   ]ne ſ? c[              (underlined)\nimage-019 7   ]t pſ? .               (underlined; red mark on host paper beside)\nimage-019 8   ]poni?\nimage-019 9   ]ar q̄ſ?               (underlined)\nimage-019 10  ]ꝛ̄ . ne[\nimage-019 11  ]S; er? u[\nimage-019 12  ]rauſ? .\nimage-019 13  ]ɔ ſcꝛi?\nimage-019 14  ]ru? t[\nimage-019 15  ]oeta c? / d?\nimage-019 16  ] . ſalu[\nimage-019 17  ][.]imo°?\nimage-019 18  ]t n̄ it[\nimage-019 19  ]uica?\nimage-019 20  ]ſtati? .\nimage-019 21  ]a q̄ſti[\nimage-019 22  ]umo? / intuo?\nimage-019 23  ]abſolu[\n   (image-019 20-23 = image-020 1-4)\nimage-020 5   ]ꝑ ſupꝛ?               (underlined above and below)\nimage-020 6   ]mm? . i[\nimage-020 7   ]na p̄[                 (red mark on host paper beside)\nimage-020 8   ]i ꝑgin? / ꝑgau?\nimage-020 9   ]⁊ ꝑſ[\nimage-020 10  ]nā . de[\nimage-020 11  ]lat°in? / latēn?\nimage-020 12  ]aōe? m[\nimage-020 13  ]ia tn̄?\nimage-020 14  ]recip[\nimage-020 15  ]iudic?\nimage-020 16  ] not°?\nimage-020 17  ]ſ . ei .\nimage-020 18  ]ꝑ . Ju[\n\n=====================================================================\n6. STRIP 5 - image-021 (overview), image-022..025     upright; right part of each line cut\n=====================================================================\nimage-022 1   ][.]tauſ? i[\nimage-022 2   ] . a alia?\nimage-022 3   ]re t(er)tio? .        (small superscript sign above)\nimage-022 4   ]cē aƚ n̄[\nimage-022 5   ]hiſ? . un[\nimage-022 6   ]no . ⁊ n̄[             (superscript t)\nimage-022 7   ]oſt° i q̄?\nimage-022 8   ]ait? . dic?\nimage-022 9   ]itudi[\nimage-022 10  ] . h̄ ſit?\nimage-022 11  ]r(ati)o(n)e? a[\nimage-022 12  ]ecto[..]l?            (superscript letter above)\nimage-022 13  ]ōnē n[\nimage-022 14  ]medii? / mebri?\nimage-022 15  ]edio fu[\nimage-022 16  ]p°ne? .\nimage-022 17  ]o ſpēm?\n   (image-022 14-17 = image-023 1-4)\nimage-023 5   ]p°ne? .               (repeats the word of line 3, two lines lower)\nimage-023 6   ]en . t[               (interlinear signs above)\nimage-023 7   ] . dia . ÷            (superscript a)\nimage-023 8   ]n̄ ſola;?\nimage-023 9   ]ne . q̄ f?             (interlinear above)\nimage-023 10  ]er° ɔia? / 9ia?\nimage-023 11  ]ſic; q̄ i[\nimage-023 12  ]n⁊? . iq̄[\nimage-023 13  ]ē . ⁊ io?\nimage-023 14  ]ſtiltm? / ſiſtin?\nimage-023 15  ]ꝓꝑ ſi[                (superscript above)\nimage-023 16  ]ſ̄e loc[\nimage-023 17  ] . n . ſei?           (underlined; superscript above)\nimage-023 18  ]dinē? .\nimage-023 19  ]t̄ba? . li[\nimage-023 20  ]nedū? / mediū?\n   (image-023 17-20 = image-024 1-4)\nimage-024 5   ]ll . rexe?\nimage-024 6   ]ꝰ aitꝰ? e[\nimage-024 7   ]ēt ſubl?\nimage-024 8   ]īcā? pec[\nimage-024 9   ]abillaꝛ? / abilla t?\nimage-024 10  ]° d[.]ſſā? n[\nimage-024 11  ]ar . p̄ſtāt?\nimage-024 12  ]ſiꝑ r o[\nimage-024 13  ]t . din° m[\nimage-024 14  ]n̄ . Int(er)? ſu[\nimage-024 15  ]ri . g̊ re[             (red \". IA .\" on host paper to the right)\nimage-024 16  ]ad g̊ſ? . ⁊ ſ[\nimage-024 17  ]q̄ mille?\nimage-024 18  ]et mag̊r? t[\nimage-024 19  ] . q . tn̄ſt?\nimage-024 20  ]loc ⁊ dīn°?\n   (image-024 17-20 = image-025 1-4)\nimage-025 5   ]iat° dicā\nimage-025 6   ]et ſm̄? . q̄d\nimage-025 7   ]tinēt? ſil? / ſic?\nimage-025 8   ]ſ[.]lta p̄la[\nimage-025 9   ]q̄ꝛ . ſ q̄ t?          (underlined)\nimage-025 10  ]arg̊n? . ac[           (\"ac\" separately underlined)\nimage-025 11  ]m diuiſa\nimage-025 12  ][....] loci?\nimage-025 13  ]ſit u° q̄ꝛ?\nimage-025 14  ] . ad ā° ex°?\nimage-025 15  ]ſile h̄t? . q[         (\"le\" written above the line)\nimage-025 16  ]ilitudiſ? ſi[\nimage-025 17  ]og̊? . ⁊ ſeg[\n\n=====================================================================\n7. STRIP 6 - image-026 (overview), image-027..030     upright; two-ply, much abraded\n=====================================================================\n(Only the main right-hand sliver is transcribed; the inner left sliver shows isolated letters.)\nimage-027 1   C lu[..]?              (a larger letter at the start)\nimage-027 2   ]ū . re[...]\nimage-027 3   ]q̄ . t q̄ ī?\nimage-027 4   ]mom? / moin?          (superscript a)\nimage-027 5   ]aut . ran?\nimage-027 6   ]ceſie? / ceꝛie?\nimage-027 7   ]ir a eni?             (interlinear \"m\" above)\nimage-027 8   ] . ſ; ea?\nimage-027 9   ]igſ? ui[\nimage-027 10  ]⁊ q̄ to? q̄\nimage-027 11  ]ꝟ? ſc[\nimage-027 12  ]n . ēt en?\nimage-027 13-14 [illegible]\nimage-027 15  ]tū? . p°n?\nimage-027 16  [illegible]\nimage-027 17  ]ꝛ uoꝛ?\nimage-027 18  ] . i am?\nimage-027 19  ]ua?\n   (image-027 15-19 = image-028 1-4 approx.)\nimage-028 5   ] . ag?\nimage-028 6   ]u . un?\nimage-028 7   ]tu? / til?\nimage-028 8   ]ex p[\nimage-028 9   ]; iſt[\nimage-028 10  ] . q̄ d? .\nimage-028 11  ] . im ſ? / unſ?       (interlinear above)\nimage-028 12  [illegible]\nimage-028 13  ]t eoꝛ?\nimage-028 14  ] . lalj? i[\nimage-028 15  ]ꝑatoꝛe? / ſatore?\nimage-028 16  ]ſat? ⁊\nimage-028 17  ]ꝰ reic?\nimage-028 18  ]q̄ da[\nimage-028 19  ]ꝛ . ꝛē\nimage-028 20  ]ſice? a[\nimage-028 21  ]īn ſꝛ?\nimage-028 22  ] . in . ſu[\n   (image-028 20-22 = image-029 1-3)\nimage-029 4   ]pec? ī\nimage-029 5   ] . hb? ſ[\nimage-029 6   ]ſ[.]ſ . d .\nimage-029 7   [illegible] . ē . q?\nimage-029 8   ]dāu? e[\nimage-029 9   ]ar oi?                (interlinear above)\nimage-029 10  ]ē . q̄ p?\nimage-029 11  ]q(uo)d? . n̄\nimage-029 12  ]ſ[.] ſ . u[\nimage-029 13  ]ꝑh;? hig?            (underlined)\nimage-029 14  ] . q̄ eſ? ſ[\nimage-029 15  ]ſt[.] . pꝛu?          (red \"di . IA\"? on host paper to the right)\nimage-029 16  ]e . d bor? / dbor?\nimage-029 17  ]ē obo? / oba?\nimage-029 18  ]ull? ɔpar[\nimage-029 19  ]ſiln? loc° .\n   (image-029 17-19 = image-030 1-3)\nimage-030 4   ]ꝗ . mdō? . f .\nimage-030 5   ]ū . iudic? / uidē?\nimage-030 6   ]ſi; dmꝛ? t[\nimage-030 7   ]i . ÷ i nū . q̄\nimage-030 8   ]or; . an[             (interlinear \"nu\"? above)\nimage-030 9   ]lu° uſ . ſ . r?       (underlined)\nimage-030 10  ]ac . ꝗ ⁊ loci?        (line ruled above)\nimage-030 11  ]tu? . [..] duc? / dut?\nimage-030 12  ]n . g̊o? ū eq̄?\nimage-030 13  ]e n̄ ſ[..]cat? . q[\nimage-030 14  ]o . q̄ hitua? / hind?\nimage-030 15  ] . c̄ . fuit? q̄\nimage-030 16  ]ne . ꝛatuſ? / ꝛaliuſ? t[\nimage-030 17  ]g̊ . ē ſubt? .\n\n=====================================================================\n8. STRIP 7 - image-031 (overview), image-032..035     upright\n=====================================================================\nimage-032 1   ] . a? igei?\nimage-032 2   ] . q̊ ū?               (superscripts)\nimage-032 3   ]uiuſ; ÷\nimage-032 4   ]ucim? / ucū?          (superscript a; underlined at left)\nimage-032 5   ]ſ̄ce? . ⁊ i[\nimage-032 6   ]di° ſau? / ſan?\nimage-032 7   ]aluita? / aliuta?\nimage-032 8   ]ꝓpin? .\nimage-032 9   ]n ÷ ſel? / fel?\nimage-032 10  ]n g̊d a[               (superscript a)\nimage-032 11  ]c . ac p[\nimage-032 12  ]e d ꝑp?\nimage-032 13  ]ſ; loco\nimage-032 14  ]ꝛitu? .\nimage-032 15  ]ꝛ ig? ap[\nimage-032 16  ]ſpicuſ?               (underlined)\nimage-032 17  ]ii . ade[\nimage-032 18  ]eao? d[\n   (image-032 15-18 = image-033 1-4)\nimage-033 5   ]nc̄ . t[               (last letter underlined; superscript a)\nimage-033 6   ]ā . 2a? / ɔa?         (underlined)\nimage-033 7   ]ꝯſidān? / pſidān?\nimage-033 8   ]dnna? / diuia?\nimage-033 9   ]÷ ⁊ q̄ i[             (interlinear \"oꝛ\"? above)\nimage-033 10  ]nōe? . t[\nimage-033 11  ]⁊ duo\nimage-033 12  ]reliq̊\nimage-033 13  ]aōm? .\nimage-033 14  ]ncipa? / neipa?       (red mark on host paper beside)\nimage-033 15  ]didꝛ? / dio⁊?\nimage-033 16  ]att? . t[\nimage-033 17  ] . uſui? / uſur?\nimage-033 18  ]illū? / ultū?\nimage-033 19  ]duci? / dnei?\nimage-033 20  ] . iu[.]ꝰ? ;\n   (image-033 17-20 = image-034 1-4)\nimage-034 5   ]di ɔp? / di9p?\nimage-034 6   ]ſaīt? dꝛ?\nimage-034 7   ]h° add[\nimage-034 8   ]ſed? . ꝑ[\nimage-034 9   ]ꝛ . q̄ n[             (interlinear \"oꝛ\"? above)\nimage-034 10  ]n̄ q̄ aa?\nimage-034 11  ]÷ un?                 (superscript a)\nimage-034 12  ]ꝰ ſ; incl? / tnel?\nimage-034 13  ]p̄ſtāt? / ꝑfcāt? .\nimage-034 14  ]poit? / pbit?\nimage-034 15  ]ſiltit?               (interlinear \"cl\"? above)\nimage-034 16  ] . iā a[\nimage-034 17  ]p°m[.]?\nimage-034 18  ]iſeē? / ſiſer̄?\nimage-034 19  ]ꝑ . n̄[               (interlinear \"ca\" above)\nimage-034 20  ] . f ſſ? / ff?\n   (image-034 17-20 = image-035 1-4)\nimage-035 5   ]p̄ſiſt?                (superscript above)\nimage-035 6   ]cluoꝛ? / cludi?\nimage-035 7   ]me . ÷? / ſ?          (superscript a)\nimage-035 8   ] . rei? .\nimage-035 9   ]ꝑ q . [               (interlinear \"ca\" above)\nimage-035 10  ]a . t q? / tc?\nimage-035 11  ]ſiple\nimage-035 12  ]pon[                  (underlined; line ruled beneath)\nimage-035 13  ]q̄ n̄ ÷\nimage-035 14  ]ꝛ . q̄ ī\nimage-035 15  ]; ē uū?               (superscript above)\nimage-035 16  ] . īq̄ n[\nimage-035 17  ]ē n̄ c[\nimage-035 18  ]⁊ d[..]?              (cut by lower edge)\n\n=====================================================================\n9. STRIP 8 - image-036 (overview), image-037..040     upright; lower third abraded\n=====================================================================\nimage-037 1   ]dōſ? . q[\nimage-037 2   ]ē opoi? / opai?\nimage-037 3   ]uit? . di? / dē?\nimage-037 4   ]ē . ſ; ad\nimage-037 5   ]ſc(i)endo? / iundo?\nimage-037 6   ]g̊ tini? / S tim?\nimage-037 7   ]noē ꝛ? / t?\nimage-037 8   ]feſtu\nimage-037 9   ] . ſ; q̄b?\nimage-037 10  ]aōnē? ÷\nimage-037 11  ]tioꝛē? / lioꝛē?\nimage-037 12  ]c ad fa[\nimage-037 13  ]q̄ret? / q̄rtē? .\nimage-037 14  ]a ādd(i)?             (underlined)\nimage-037 15  ]ēꝛ ⁊ c̄ . C?\nimage-037 16  ]ēt . ⁊ h̄\nimage-037 17  ]ōnt? d[\nimage-037 18  ]ꝛ aui? / alit?\n   (image-037 15-18 = image-038 1-4)\nimage-038 5   ]hi . ⁊ . ꝛ?           (underlined)\nimage-038 6   ]i . ordi[\nimage-038 7   ]; q̄ . ꝛc̄? / re?       (underlined)\nimage-038 8   ]ꝰ . i . oſſ? .\nimage-038 9   ]÷ nc ē? / ne c̄?\nimage-038 10  ]iſ p̄m? / pꝛin?\nimage-038 11  ]ta coll? / ca coll?\nimage-038 12  ]n̄ . tā\nimage-038 13  ]pleſ c? / q?\nimage-038 14  ]c ɔne? with \"t ui\"? written small just below/between the lines\nimage-038 15  ]od? du[               (red mark on host paper beside)\nimage-038 16  ]ōla;? ÷\nimage-038 17  ]n̄ ſ[..]?              (superscript c)\nimage-038 18  ]cc̄o? ai[\nimage-038 19  ]ꝑ ſit? / fit? q̄\nimage-038 20  ]ſſoꝛā?\n   (image-038 17-20 = image-039 1-4)\nimage-039 5   ] . udo? / ſedo? .\nimage-039 6   ]diuic̄? / duic̄?\nimage-039 7   ] red? / rei°?\nimage-039 8   ]ꝛo . m°? / me?\nimage-039 9   ] . g̊ . ēt? / ē ꝛ?\nimage-039 10  ]ollto? / ollco? u[\nimage-039 11  ] . uon? / non? l[\nimage-039 12  ]nc̄e . h? .\nimage-039 13  ]a . ſiq? / ſiu?\nimage-039 14  ]ꝑhar? / ſhar?\nimage-039 15  ]aior? / ator? ſ[\nimage-039 16  ]ſtulte? / fulle?\nimage-039 17-22 [illegible - ink flaked; isolated letters only]\nimage-040 1-9  [illegible - ink flaked]\nimage-040 10  ]ſig? / ſiq̄?\nimage-040 11  ] . g̊ ia? / g̊ri?\nimage-040 12  ]reiē? / rerē?\nimage-040 13  ]ūa? [..]\nimage-040 14-15 [illegible]\nimage-040 16  ]ꝛ q̄ fin? / q̄ſiu?\nimage-040 17  ]ēi? u[\nimage-040 18  [cut by lower edge]\n\n=====================================================================\n10. LIMITATIONS\n=====================================================================\n- No line in the packet is complete: every strip preserves roughly 5-12 letters per line, so there is\n  NO connected prose and no span of ten continuous lines of text in the ordinary sense. The spans\n  above are continuous in the vertical direction only (consecutive line-fragments).\n- Because each line is a fragment, most expansions cannot be checked against context; I have left\n  most abbreviations unexpanded rather than guess. Minims (i/n/m/u), c/t, ſ/f and d/ꝺ are not\n  reliably separable at this size, and many readings marked ? could resolve differently.\n- Strip 1 was read from a flipped copy; 2-4 letters per line are hidden beneath the stitching thread.\n  Its line labels count from the bottom of each tile.\n- Overlaps between neighbouring tiles are flagged; repeated lines are not additional text.\n- Which side of the original column each strip represents (left edge, right edge, or mid-line),\n  the order of the strips, and whether two strips are recto/verso of the same piece, are all\n  undetermined from these crops. Strip 2 and strip 1 carry similar red marks on the host paper at\n  the same side, which may mean they are two views of one mounted piece; this is not confirmed.\n- Lower parts of image-010, image-017 (top), image-027-029 (inner sliver) and image-039-040 are\n  abraded beyond reading at this resolution.\n- This is an unverified image reading. No work or author is proposed.\n",
+  "text_sha256": "517ef20da40a7180b744b9ba871820b7a14e76376515beed58967db62115401f"
+}

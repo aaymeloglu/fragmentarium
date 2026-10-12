@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-12T20:43:45.311462+00:00",
+  "first_reading": "batch-2026-10-12c-image-only",
+  "first_sha256": "668ad9d63090726fb17144d2498124bc65838d19a1b2034f27f7dbaeb04ef366",
+  "fragment": "F-qvgd",
+  "id": "batch-2026-10-12c-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "The first reading was checked against Hamburger's edition of the same leaf to settle doubtful letters and to record where the print departs from the leaf.",
+  "schema_version": 1,
+  "sources": [
+    "Jeffrey F. Hamburger, 'Typology Refigured: Marian Devotions Derived from the Speculum humanae salvationis', Harvard Library Bulletin 21.1-2 (2010), 73-94, text at pp. 74 and 77, http://nrs.harvard.edu/urn-3:HUL.InstRepos:42673614",
+    "Handschriftencensus no. 22744, https://handschriftencensus.de/22744, and work 6704, https://handschriftencensus.de/werke/6704",
+    "Washington, National Gallery of Art, 2004.115.1 and 2004.115.2, rectos, open-access images",
+    "Munich, Bayerische Staatsbibliothek, Cgm 568, ff. 250vb, 252va, 253ra (Jörg Zobel, 'Von den Schmerzen Mariae'), https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00104455-3, scans 544, 548, 549"
+  ],
+  "text": "Source-assisted reading of F-qvgd (Houghton MS Typ 270), made with Hamburger 2010, pp. 74 and 77, open. Reread on the image: recto lines 1-16 and verso lines 14-26. Verso lines 1-13 rest on the image-only first reading and are not repeated here.\n\nConventions: one manuscript line per line; (n) = abbreviation stroke resolved; ? after an uncertain reading; u-diacritics not recorded.\n\nRECTO, canvas 0, native box 86,2180,2782,4523 (16 lines under the drawing; red three-line initial I)\n 1  Ich man dich magt erbarmerin\n 2  des sibenden grosses schmertze(n) dein\n 3  vnd hertzen laides vngemach\n 4  Das dir an deynem kind beschach\n 5  Do sich vollendet alles das\n 6  vnd er an dem creutz erstorben was\n 7  Joseph ain reicher gerechter man\n 8  Den man gen got in forcht sach stan\n 9  Edel genant von aromati\n10  Der stund auch cristem? gelauben bey      [cristem or cristen; minims ambiguous]\n11  vnd was sein iunger haimlich? doch        [haimlich or hainlich]\n12  wan er forcht die iuden auch\n13  pilatum · der da bitten began\n14  Das er im gab den toten man\n15  Den nam er von dem creutz her ab\n16  vnd wolt in legen in sein grab\n\nVERSO, canvas 1, native box 86,2300,2809,4486 (lines 14-26 of 26)\n14  vnd das her symeones schwert\n15  Dein leib hertz vnd sel verschnaid\n16  In dem selben grossen laid\n17  Tet dir got ain zaichen kund\n18  Das sein leib zu der selben stund\n19  wart hail weis vnd sauber gar\n20  Das man kayner wu(n)den wart gewar\n21  wan die funff wu(n)den fron\n22  Die sach man da offen stan\n23  Do er gelet wart in den stain\n24  Joha(n)nes furt dich mit im haim\n25  Do er dein in dem haus pflag\n26  Das tet er treulich mengen tag ·\n\nDifferences from Hamburger's print in these lines: siebenden (2), deynen (4), forscht (8), war gewar (20), Dor er (23), mit in (24), Do der (25). At verso line 4 of the first reading the leaf has \"ye mer vnd mer\", the print \"Yemer vnd mer\".\n",
+  "text_sha256": "560385a1a3f6c1217a7333bfc57fe090872dcf9e8cc90a53cd9bb6f47aeb47a0"
+}
