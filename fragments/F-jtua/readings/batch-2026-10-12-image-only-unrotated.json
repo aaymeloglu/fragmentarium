@@ -1,0 +1,187 @@
+{
+  "captured_at": "2026-10-12T03:05:59.302232+00:00",
+  "fragment": "F-jtua",
+  "id": "batch-2026-10-12-image-only-unrotated",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "fa3cbd0f8bd79bf7f4fb553c59de4c86a093d8466662d221849f50fcf5078b62",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): whole image 9369x7004 reduced to 1800x1346 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "27df956570de3777b3534ea50e8cd15a4dacaa898a5d0bf53a97db4136026208",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 0,0,2623,1823; grid position column 1 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "9b3f04909186dac58e045a8f2b290acfb83321889102b8fde0a0344ddc5a92af",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 2061,0,4965,1823; grid position column 2 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "4ca5ec6a77d919f02d11b3de24ddcd83b8b504cc6c6462a0f587b78bf3dbd7b3",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 4403,0,7307,1823; grid position column 3 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "910f78970169119cdac4f16b2ec9d7216b45d091b80ea60f43550da54042aaef",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 6745,0,9369,1823; grid position column 4 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "3d8dab26c891c0282166e17e6e91d4dd24bf7a951911267bc106eb5b413a23ce",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 0,1432,2623,3451; grid position column 1 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "3003504e3c91b4edec2eb4e20aa5417220be0e85f111ccb348451e0aab12ad94",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 2061,1432,4965,3451; grid position column 2 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "f41706e67b9c1e7d8eb1ed948e6bb34dfecce2bf5c58ed3a217a5d1a5592af23",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 4403,1432,7307,3451; grid position column 3 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "90fa143f5ac523e1949aa06650e2bddc901cce6f21f988079ce5ab60d2858daa",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 6745,1432,9369,3451; grid position column 4 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "2d7b86cf8149638752f3e404d9902db03b31a980e03904d5207e58a42f7f4b8e",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 0,3061,2623,5080; grid position column 1 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "f938c5dec8075b86cfbdf0ba743f12d5142e96ab6b0c3f997f3e0673c9ff07a1",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 2061,3061,4965,5080; grid position column 2 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "89bb8fe00d61c453ba1d349872cc45d00e49acd55f245acb583bce4b4762220d",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 4403,3061,7307,5080; grid position column 3 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "6346d87f7690a722276327ff0887eb74e29ad555fe57f1fe87fed2027177556b",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 6745,3061,9369,5080; grid position column 4 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "0756bd9d69556b8b9e22495239a62b5c857cd28ae33cb2f5430e05dfda925b78",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 0,4689,2623,6513; grid position column 1 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "5b04a875604dc3769103a103c2153487cd62e415a2f511d6b05a92bd543bf80b",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 2061,4689,4965,6513; grid position column 2 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "afec54fec754e17a558c2f45e876630c1d8faeff9806ff5c70a62a74ef7d2aaf",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 4403,4689,7307,6513; grid position column 3 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "324815e7d410cca0c5967fdc385696918710425cc2dae2707d3f98f08a69043b",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDFfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9369,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 6745,4689,9369,6513; grid position column 4 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "10e02154f46e7f1c98686b897327ef44825fcdeea745a9256848e3b9a4f9be48",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): whole image 9274x6886 reduced to 1800x1337 for layout"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "b8eb57e2157046e180b378a554a07bc17e2434a33f2ec87a27098710e96bc915",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 0,0,2596,1792; grid position column 1 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "ae3cabbc3c32737449200be52e76444f55fa7c5eab67a45627db6ec13af29065",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 2040,0,4915,1792; grid position column 2 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "8dcea909604521785c7d3e6836623ac3c455a34e36fa1372d39c93e4e7e90abe",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 4358,0,7233,1792; grid position column 3 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "53e40871ee4cb51e1bc29dd7c1a79a1f5a9f7312aacec7e98b934fcf04f64703",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 6677,0,9274,1792; grid position column 4 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "1cb7e30fc8578ca64884c79136d25f0ff36a8c8df88b508db6e0237e1ff3cef8",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 0,1408,2596,3393; grid position column 1 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "175563da203456da2b5edfbe6cd4254e66a5c2371b5c0e947fd5f50cc2bc9186",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 2040,1408,4915,3393; grid position column 2 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "84473cd1680717a2e22d689b238886c47f5b0e3c90a3ea9b22d35e48323f05e7",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 4358,1408,7233,3393; grid position column 3 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "e84b6482448b5425e2b6201af72d7ca77360fc963e5800c99eb6f6f7f8ce7f8c",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 6677,1408,9274,3393; grid position column 4 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "92ae6eb4dadbd093b005cc9d2e0e3008b9172d3d386e8b77c4448dd092b46627",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 0,3009,2596,4994; grid position column 1 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "94afac5b3e2044ac029aecb2f50264031d7f4d101f1b9b4d1c0e4e29da2d03af",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 2040,3009,4915,4994; grid position column 2 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "a1319a802fcdced69265370aa83e0b914bd5ba2d062c0102ae6d31e3be2da138",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 4358,3009,7233,4994; grid position column 3 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "5ff5841e819d0a0e8026dbe7413b74610f840e17696fc75ec04cacef3c92f120",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 6677,3009,9274,4994; grid position column 4 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "a009bec4e65f2c63be400eceeb2679d354430c3c75fe1066f26dc27267bed1d0",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 0,4610,2596,6403; grid position column 1 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "0ded5debb8c8845d58de0a8d9e17c893909f788f5de9ac1997389f5e6a152dc5",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 2040,4610,4915,6403; grid position column 2 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "43da287b30a42ef82c7210e9e6f374cdbfc555459cef69942a20a8e0f3e4f47b",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 4358,4610,7233,6403; grid position column 3 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "16b169d43a291553dd935b6b172e04a79c3f084e1f50a290aece8ffd9ac23ec9",
+        "source": "https://eu-img02.ext.exlibrisgroup.com/iiif/2/eyJyZWdpb24iOiJldS1jZW50cmFsLTEiLCJidWNrZXQiOiJldS1zdDAxLmV4dC5leGxpYnJpc2dyb3VwLmNvbSIsImtleSI6IjMyUlVHX0lOU1Qvc3RvcmFnZS9hbG1hL0Y4Lzc3L0Q5L0YzL0FDLzYzL0ExLzI5LzI5LzY1L0EzL0YxL0Q1LzlGLzZELzI4LzkxMDAwMDY5MDM5MV8yMDIyXzAwMDJfTUEuanBnIiwicmVwX2lkIjoiMTIyNzY5OTA0MzAwMDkxNjEiLCJpbnN0YW5jZSI6ImV1MDYiLCJpbnN0aXR1dGlvbiI6IjMyUlVHX0lOU1QiLCJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJ3bUtleSI6bnVsbCwid21XaWR0aCI6bnVsbCwid21IZWlnaHQiOm51bGwsIndtUG9zaXRpb24iOm51bGwsIndtUmVwZWF0IjpmYWxzZX0%3D/full/9274,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 6677,4610,9274,6403; grid position column 4 of 4, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated reader subagent",
+  "schema_version": 1,
+  "session": "batch-2026-10-12 reader-f (fresh subagent session, packet-18)",
+  "text": "PACKET 18 - UNVERIFIED IMAGE READING (LAYOUT ONLY; NO TRANSCRIPTION ACHIEVED)\n\nEXPOSURE NOTE\nNo outside source was consulted and nothing in my context proposed an identification or reading. I have not\ntried to identify the work or author.\n\nPRINCIPAL LIMITATION - READ THIS FIRST\nEvery image in this packet is supplied with the writing upside down (rotated 180 degrees): ascenders point\ndown, abbreviation strokes sit under the words, and each column's first line is at the bottom of the frame.\nThe ruler in the two overviews is the right way up, so the leaf was photographed inverted. I was restricted to\nviewing the files as supplied and could not rotate them. Combined with very small, heavily abbreviated cursive\nwriting and pale brown ink on stained parchment, I could not produce letter-by-letter readings that I would\nstand behind. Rather than supply guessed words, I give NO transcription lines for this packet. Individual\nshapes that looked like words while inverted (for example forms resembling \"intelligi-\", \"affirmatio-\",\n\"negatio-\" in image-030) are pattern impressions from upside-down glyphs, not readings, and must not be used\nas evidence for a source match.\n\nLAYOUT SURVEY (observation)\n- image-001: overview of one side. image-018: overview of the other side. Both show the whole object with a\n  40 cm ruler. The object is a wide parchment sheet (about 39-40 cm wide, about 27 cm high as preserved) with\n  a vertical fold/gutter down the middle at about the 20 cm mark, i.e. it looks like an opened bifolium or a\n  sheet folded once; four columns of writing are visible across it on each side (two each side of the fold).\n  Tentative: a bifolium with two columns per page; this is inferred from the central fold and column spacing\n  only.\n- Orientation: writing inverted relative to the ruler on both sides (see above).\n- Columns: long, densely written, roughly 60 or more lines each; ruling lines are visible in places\n  (e.g. image-002, image-003, image-010). Line spacing is tight, writing very small.\n- Running titles: none seen. The margin that is at the top of the frames is really the lower margin of the\n  page; the real upper margin (bottom of the frames) is largely lost to tearing, so a running title, if there\n  was one, would not survive.\n- Rubrics / colour: none seen. No red or blue ink in the text. A few red-brown and orange spots (image-017,\n  image-031, image-019) look like stains or wax, not pigment.\n- Enlarged initials: none seen.\n- Underlining: at least one short stretch is underlined in image-033 (about a third of the way down the\n  frame, left-centre column, three or four words). Possibly another in image-026. Not read.\n- Paragraphing: a few lines end short and the next begins indented or with a gap (image-029 around the\n  lower third; image-033 near the top; image-004 around line 9; image-025 around the middle). Tentative: ends\n  of sections or questions, with a new unit beginning.\n- Marginalia: several very small notes in the gutter margin beside the column in image-028/image-029/\n  image-033 (four or five separate two- or three-character marks, spaced down the margin) and two in\n  image-024/image-025. They are the size of reference letters or numbers. Tentative: marginal numbering or\n  cue marks for arguments; not read. In image-003, in the same gutter position on the other side, there are\n  two small dot-clusters (three dots) and a stroke, perhaps nota marks.\n- Interlinear glosses: none clearly seen; a few words appear to have small insertions above/below the line\n  (image-029, image-033), not read.\n- Modern marks: faint rectangular ink stamp in the margin of image-020 (blue-grey, illegible), a blind or\n  very faint rectangular stamp in image-019, and pencil/grey marks in the corner of image-002 and image-022\n  (two or three characters, not read with confidence).\n- Damage: heavy brown and grey staining over most of both sides, strongest in the centres of the columns;\n  the edge that is at the bottom of the frames is torn away irregularly with loss of text; numerous small\n  holes; a vertical grey water/mould track with lifted skin in image-011/image-015 and image-029; wear along\n  the fold with holes (image-011, image-024, image-028). On the image-001 side the ink is so pale in the\n  upper half of the frame (image-002 to image-008) that even line counts are uncertain.\n\nAREAS EXAMINED AND RELATIVE LEGIBILITY (for whoever re-reads this rotated)\nAll 34 images were viewed. Best prospects for a real reading once rotated, in order:\n1. image-030 and image-034 (image-018 side, right-hand column in the frame): ink strongest, about 30 lines\n   sharp, little staining.\n2. image-026 (same column, higher in the frame).\n3. image-029 and image-033 (column left of the gutter in the frame, image-018 side), with the marginal marks\n   and the underlined words.\n4. image-027 and image-031 (left-hand column in the frame, image-018 side).\n5. image-013 and image-017 (image-001 side, right-hand column in the frame).\n6. image-010 and image-014 (image-001 side, left-hand column).\nPoor even if rotated: image-002 to image-009, image-011, image-012, image-019 to image-023.\n\nTRANSCRIPTION\nNone. Zero lines transcribed. I selected the areas listed above as the ones to read but could not read them\ninverted to the standard the prompt requires (letters as written, abbreviations retained, no supplying from\nsense).\n\nWHAT IS NEEDED\n- The same crops rotated 180 degrees. That alone should make items 1-4 above readable.\n- For the image-001 side, contrast-enhanced or UV images; the ink there is close to the colour of the stains.\n- A tighter crop of the gutter margin (image-028/029/033 area) to read the small marginal marks.\n- A tighter crop of the underlined words in image-033.\n\nOTHER LIMITATIONS\n- Column order and which side is recto cannot be determined from layout alone; no foliation seen.\n- Text is lost along the torn edge (the real head of the page) in every column, so column-to-column\n  continuity cannot be assumed.\n- This is an unverified image reading.\n",
+  "text_sha256": "92d38c231c45678beb657c44852900eb75f83ce3406bcd0f77dded0382f258df"
+}

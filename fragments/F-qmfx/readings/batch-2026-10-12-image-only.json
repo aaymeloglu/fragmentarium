@@ -1,0 +1,127 @@
+{
+  "captured_at": "2026-10-12T03:05:58.641748+00:00",
+  "fragment": "F-qmfx",
+  "id": "batch-2026-10-12-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "d2f38798173e69ab09df9a531edec8f8f4bee54de2d1b8e87f548d51d23e860b",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): whole image 2640x4212 reduced to 1128x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "b8f0cf2429c5ba3cfbb426d3fce6d1ab52abe6b62c61ba8b2e045db24965ddcd",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 132,84,1462,838; grid position column 1 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "30ac19dc9522e4a1c9389bc64da8efa7f13cd650555706886f63ccd86757ab45",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 1177,84,2508,838; grid position column 2 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "9c1021998d04b2ac485e15d445fb1bc970cd1a4a1540d3be194e3a53a2c93337",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 132,676,1462,1512; grid position column 1 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "079b0e48357e864db926c215823bdf8222ac61eb5847267b959b7e24d4e34c04",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 1177,676,2508,1512; grid position column 2 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "16fa059f80bf7ee2d30c3e836c12956c88fdfbc8a047c2501ebe9413e3740a23",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 132,1350,1462,2186; grid position column 1 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "4db92df268508e6b0f2ffcebd0c3f6e67287cda1d9809a741aef930c7591daa8",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 1177,1350,2508,2186; grid position column 2 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "c467b2dad94ef42a4e4a19b06c6f15236ec5e53fe496f50a4e9a8e80ba534a1c",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 132,2024,1462,2860; grid position column 1 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "6e9d88a390af69481dac45075d8d2373387257e37dba6b3540af9b8b08f42836",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 1177,2024,2508,2860; grid position column 2 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "85ba5616b154e5e5988293cc48f9f7e64a8cc0878804a5ce9fadcad23853b8d0",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 132,2698,1462,3453; grid position column 1 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "eca3a9013d39405d1716ca930039693c728679d5532399a8cedf4d9c2ce037d3",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0017_HS_417_42.jp2/full/2640,/0/default.jpg (canvas 0, fol. 93r): native-pixel box 1177,2698,2508,3453; grid position column 2 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "f2b0125e2f63452d357ce3e526633f9aa64346678236e5dbfeaaf320948640f6",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): whole image 2622x4356 reduced to 1083x1800 for layout"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "718a8ed9fbd437e8bc3ca71f0209f38fcac8223156d1be459857fa2ae3d8eae0",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 131,130,1452,900; grid position column 1 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "1cebad33924789c0a02800bfdf592378d3081962bb94878e5f33fb66d9a2422f",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 1168,130,2490,900; grid position column 2 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "b9c06904953559d63b84cb221f61b45f7ee34b3ebbb4dece96aab44251620f6f",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 131,735,1452,1588; grid position column 1 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "f8dc1445c9bc92b5002014bf453fc4d4aafb47631b34f9a028c475672647d4ed",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 1168,735,2490,1588; grid position column 2 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "2aa492598a307f02ee0cedd18e48d1b3fadc80df6816baf340b9a664de051fd2",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 131,1423,1452,2277; grid position column 1 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "6790d37f252bbeb65e9362d86667c4a7f22637192ec94b3f664db190d33289c5",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 1168,1423,2490,2277; grid position column 2 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "6045e9d805cd0bc08b073475b1af212ff625c78901ff55e06ca577a4944f8b0b",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 131,2112,1452,2965; grid position column 1 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "ec7df3107c3a0b1ee052864f5fff316525a8aafcd0a3f8c9b41f55c59c3a04b0",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 1168,2112,2490,2965; grid position column 2 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "2848bd13e3bb51993ee0a0c4276a03ded4694dc404b5ab220e79b39cd2bd6d1e",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 131,2800,1452,3571; grid position column 1 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "7cf8581e2b1eb915a0a33bd78562b2aa0342ff6078fe8b72ed375f56da9426ca",
+        "source": "https://fragmentarium.ms:443/loris/F-qmfx/ab_averbode_20241014a_0018_HS_417_42.jp2/full/2622,/0/default.jpg (canvas 1, fol. 93v): native-pixel box 1168,2800,2490,3571; grid position column 2 of 2, row 5 of 5"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated reader subagent",
+  "schema_version": 1,
+  "session": "batch-2026-10-12 reader-b (fresh subagent session, packet-02)",
+  "text": "UNVERIFIED IMAGE READING - packet-02\n\nExposure statement: no outside source, catalogue, edition or earlier transcription was consulted. No\nidentification of work or author is attempted. (Process note: I ran one directory listing of the packet\nfolders to see the image filenames; it showed filenames only. packet.json was not opened.)\n\nLAYOUT SURVEY (observation)\n- image-001 = overview of one side of a single damaged parchment leaf (called side A here); image-012 =\n  overview of the other side (side B). Images 002-011 are details of side A, 013-022 details of side B.\n- Upright orientation, two columns per side, about 55-60 short lines per column, small book hand, heavily\n  abbreviated. Pricking visible in outer margin. On side B a narrow strip of a further leaf/column is visible at\n  the right edge (stub, with a cord), only line-beginnings legible; not read.\n- Upper margin, side A: red roman numerals \"xxxi\" above col. a and \"xxxii\" (with a blue/red \"q\" + superscript\n  mark above it) between the columns. Side B: red \"xxxii\" at upper right, red \"ca\"(?) between the columns.\n  Side B left margin has red notes \"q. iii\", \"Q iiii\", \"q. v.\", \"q. vi\"(?) and side A right margin \"q. ii\".\n- Side A upper margin over col. b: later large cursive inscription, read \"Fecit(?) ... Drata(?)\" - uncertain.\n  Side A lower margin: later large cursive line, partly under a dark stain: \"[illegible] Petro de [illegible]\n  villico(?) [illegible]\" - uncertain.\n- Text is a run of short entries. Each begins with a lemma of one to three words, underlined in red, with an\n  enlarged red or blue initial set slightly into the margin; then \"No.\" (with a red stroke; expanded here as\n  No(ta), once written \"Nota\") or \"ar.\" (expanded tentatively as ar(gumentum)); further points are introduced by\n  a red paraph + \"Item.\". Several lemmata sometimes stand together on one line (e.g. side B col. b line 1).\n- Small red names in the margins / at line ends beside entries: \"Aug'\", \"Ambr'\", \"Iero'/Ieron'\", \"Ioh'\", \"Idem\",\n  \"Greg'\"(?), \"Leo\", \"pelagi'\". Tentative interpretation: source attributions for the lemmata.\n- Tentative interpretation only: an alphabetically unordered sequence of notabilia / arguments keyed to lemmata\n  of another text, grouped under numbered divisions (xxxi, xxxii) and \"q.\" subdivisions.\n- Damage: dark stains and loss at the foot of side A col. a and col. b; holes; lower corners torn; rubbing.\n\nSPANS SELECTED\nSide A col. a top (image-002, continued image-004); side A col. b top (image-003); side B col. a top\n(image-013); side B col. b top (image-014, continued image-016). Unread: lower two thirds of every column\n(images 005-011, 015, 017-022 were viewed but not transcribed), the stub at the right of side B.\nOverlap: image-004 lines 1-3 repeat image-002 lines 10-12; image-016 line 1 repeats image-014 line 10.\n\n--- SIDE A, COLUMN a ---\n[upper margin, red] xxxi\nimage-002 L1: Si quis. No. R(ati)o(n)e p(ro)ximitatis(?) ul' uicinitatis ad(ulterium?) p(re)sumi q(uod)\nimage-002 L2: al(ite)r n(on) p(re)sumeretur. ¶ Item. ar. q(uo)d sola mortis machinac(i)o\nimage-002 L3: mariti adult(er)e n(on) impedit m(at)rimoni(u)m (con)trahend(um) cu(m) adult(er)a\nimage-002 L4: n(isi) machinat(i)o(n)em sequatur effectus.    [new lemma, red underline] Si qua   [red, right: illegible, \"idem\"?]\nimage-002 L5: Et obicit(ur). No. In uet(er)i t(estamento?) m(u)lta p(er)mittebant(ur) p(ro)p(ter) infirmi\nimage-002 L6: tate(m) que in euang(e)lii p(er)fectione eliminata sunt.   [red, right: \"Idem\"?]\nimage-002 L7: De hiis. No. p(res)b(ite)r(u)m n(on) debe(re) int(er)e(ss)e s(e)c(un)dis nupciis celebrandis.   [red, right: Ioh'?]\nimage-002 L8: [initial lost]le(?) r(ati)one. No. S(e)c(un)das nupcias incontinenciam designare.\nimage-002 L9: ¶ Item. Sec(un)das du[..]t(?) uxores s(e)c(un)d(u)m u(er)itatis r(ati)o(n)em u(er)e fornica\nimage-002 L10: cio est. s(ed) ex quo p(er)mittente deo fit honesta fornicatio d(icitu)r(?).\nimage-002 L11: ¶ Item. No. q(uod) p(er)mittim(us) nolentes p(re)cipim(us)(?) q(uia) malas uolu(n)\nimage-002 L12: tates ho(m)i(nu)m ad plenu(m) cohibe(re) non possumus.   [red, right: Ieron'?]\nimage-004 L4: [initial lost]uoni(am). No. m(at)rimoni(u)m p(er) se non appetit(ur) set p(ro)p(ter) fornicat(i)o(n)em\nimage-004 L5: uitanda(m) excusat(ur). ¶ Item. No. q(uod) aliquis dicat aliud q(uam)\nimage-004 L6: uox sig(ni)ficet. ¶ Item. No. uiri nom(en) ad unitate(m) respice(re). u(nde?)\nimage-004 L7: n(on?) uiri(?) maritor(um?) est ibi uir q(uo)d ip(s)e est un(us) e(ss)e desistit ¶ Item.\nimage-004 L8: ar. q(uod) si quis impl(er)e(?) simul (con)s(en)tire(?) uelit n(ich)il agit. ¶ Item.\nimage-004 L9: ar. q(uod) minor n(on?) excludit maiorem. ¶ Item. ex num(er)o (et)\nimage-004 L10: maioritate penar(um) maioritate(m) c(ri)minis p(re)sumi q(ua)ntu(m) enim\nimage-004 L11: aliq(ua) distant in num(er)o .s. penar(um) t(antu)m distant (et) in c(ri)mine.   [red: Iero.]\nimage-004 L12: Ap(er)iant. No. p(er) u(er)ba nupcie n(on) t(antu)m p(ri)me s(ed) o(mn)is(?) ult(er)iores co(m)\nimage-004 L13: p(re)hendunt(ur). ¶ Item. No. Bigamia(m) ul' t(ri)gamia(m) n(on) e(ss)e p(e)c(ca)t(u)m (et)\nimage-004 L14: si irregularem quem faciat.   [red, right: Aug']\nimage-004 L15: [initial lost]eus(?). No. (con)suetudi(n)em (con)iugale(m) castitate(m) e(ss)e que s(an)c(t)a dicit(ur)(?)\nimage-004 L16: Quod si. No. ar. q(uod) nos debem(us) definire ul' excipe(re) ul' det(er)   [hole after \"No.\"]\nimage-004 L17: minare q(uo)d canon n(on) definit ul' excipit ul' det(er)minat.\n\n--- SIDE A, COLUMN b ---\n[upper margin: later cursive \"Fecit(?) ... Drata(?)\"]\nimage-003 L1: Quod au(tem). No. adult(er)am p(ost) p(e)n(itenc)iam reco(n)ciliandam e(ss)e nec uir(um?)   [red: Aug']\nimage-003 L2: sup(er) adult(er)io accusari posse.   [red, right: Ambr'?]\nimage-003 L3: [C?]um. No. ar. aliq(ue)m simul desine(re) e(ss)e uiciosu(m) (et) incipe(re) e(ss)e u(ir)\nimage-003 L4: tuosu(m) cu(m) n(on?) renunciat(ur?) impietati stati(m) asciscit(ur)(?) u(ir)tus eg(re)ssus\nimage-003 L5: n(on?) malicie u(ir)tutis op(er)atur ing(re)ssum eod(em) studio quo c(ri)m(en)\nimage-003 L6: excluditur innocencia copulatur.   [red, right: Greg'?]\nimage-003 L7: Apud(?) No. q(uod) si alte(r) in (con)fessione aliq(ui)d peccauit cora(m) iudice q(uod)\nimage-003 L8: potest illa(m) mutare maxime que incontinenti.\nimage-003 L9: [C]rimen. No. lenocinium illu(m) (com)mitte(re) qui uxorem sua(m) i(n)\nimage-003 L10: adult(er)io dep(re)hensam retinet.\nimage-003 L11: Publico. No. Non idem p(ri)uilegium accusande(?) publico\nimage-003 L12: iudicio uxorib(us) concedi q(uo)d (et) maritis.\n\n--- SIDE B, COLUMN a ---\nimage-013 L1: liaru(m) que in eor(um) potestate sunt contrahendum.   [red: pelagi']\nimage-013 L2: Patrem. No. q(uo)d in m(at)rimonio puelle (con)trah(e)ndo p(re)fertur   [left margin, red: q. iii pelag']\nimage-013 L3: voluntas aui que(?) lib(er?) est uoluntati p(at)ris qui seruus est.\nimage-013 L4: ¶ Item. ar. q(uod) serui suo arbit(ri)o n(on) p(os)sunt (con)here m(at)rimoniu(m)   [left margin red: Q iiii; right red: Ioh']\nimage-013 L5: Recurrat. Nota. p(er) iiii. g(e)n(er)ac(i)o(n)es ho(m)i(n)em designari in quib(us)\nimage-013 L6: (com)plectitur fig(ur)a(m)(?) toci(us) p(o)p(u)li (christ)iani ¶ Item No. Si quis sit\nimage-013 L7: intra ecc(lesi)am siue ex(tra). du(m) t(ame)n malus sit no(n) refert q(uo)d eni(m)\nimage-013 L8: palea est palea est   [red, right: Ambr']\nimage-013 L9: Hiis. No. In lege u. t. maledictu(m)(?) [illegible] que(?) n(on) r(e)liq(ui)t sem(en)\nimage-013 L10: [S?]unt. No. cu(m) legem (con)stituc(i)o(n)em p(er)uenit(?) no(n) [illegible] sec[..]tas(?),\nimage-013 L11: (com)mittit' impuram(?). ¶ Item. ar. q(uod) licet unu(m) (con)trarior(um) (con)\nimage-013 L12: m(en)dat(ur): reliquu(m) p(ro)p(ter) hoc n(on) rep(ro)bat(ur). ¶ Item. No. ar. p(e)cc(atu)m(?)\n\n--- SIDE B, COLUMN b ---\n[upper margin red: Ieron' ; xxxii ; Aug']\nimage-014 L1: De pudicicia. [V?]sere(?). Corpus. Sicut.   [four lemmata on one line, each red-underlined]\nimage-014 L2: Adeu(?). No. pudicicia(m) cu(m) animi u(ir)tus sit a uiolencia\nimage-014 L3: que corp(or)i infert(ur) n(on) posse eripi. t(ame)n n(on?) ualet in mente\nimage-014 L4: integ(ri)tas castitatis ut illa inuiolata nec in corp(or)e\nimage-014 L5: possit pudicicia uiolari. e(?) m(em)bra poterit sup(er)are.\nimage-014 L6: Non potest. Magis.   [two lemmata; red note at right, illegible, \"Ioh' ...\"?]\nimage-014 L7: Sicut. No. non eripit(ur) pudicicia carnis si mente s(er)\nimage-014 L8: uet(ur). illa est n(on?) gl(ori)osa (con)tinencia n(on) q(ua)m transg(re)di potest\nimage-014 L9: necessitas debilitate corp(or)is sec q(ua)m (com)plectit(ur) uoluntas sci[..](?)\nimage-014 L10: Si paulus. ar. q(uo)d n(on) licet maiori n(on) minori.    [lemma] P(ro)positi.\nimage-014 L11: ¶ Item. No. cum o(mn)ia possit deus suscitare t(ame)n u(ir)ginem\nimage-014 L12: post ruina(m) non potest. ¶ Item. No. ar. cibu(m) p(re)s(en)tis t(em)p(or)is\nimage-016 L4: p(ro) cibo fut(ur)i t(em)p(or)is po[..](?) idem est (et) p(ro) cibo p(er)ierit(?). ¶ Item.\nimage-016 L5: ar. Melius est bonu(m) cuid(?) n(on) incipe(re) quam ab incepto de\nimage-016 L6: sis(ter)e. (con)sulci(us?) n(on?) est amb(u)lasse p(er) plana q(ua)m ad alciora\nimage-016 L7: tendente(m) in p(ro)fundum inferni cadere.   [red, right: Aug']\nimage-016 L8: Nec solo. No. q(uod) impudic(us) oc(u)l(u)s impudici cordis nu(n)ci(us) e(st).\nimage-016 L9: ¶ Item. ar. q(uod) aspectu (et) op(er)ib(us) annu(n)ciare (et) loqui pos\nimage-016 L10: sumus sicut (et) uerbis.   [red, right: Greg'?]\nimage-016 L11: Qui uid(er)it. No. ex solo uisu adult(er)ium p(er)petrari ¶ Ite(m).\nimage-016 L12: No. Sec(un)d(u)m uarietate(m) loci ul' ordinis aliq(ue)m plus mi\nimage-016 L13: nus ue peccare. ¶ Item. No. cl(er)icu(m) in sacro ordine (con)\nimage-016 L14: stitutu(m) t(antu)m peccare studiosa (con)cupisce(n)cia q(ua)ntu(m) laicu(m)\nimage-016 L15: com[...]ndo(?) adulteriu(m)(?) culpa.   [lemma, red underline] Qui uis(?) ad[..]   [red: Leo?]\nimage-016 L16: Ille. No. q(uod) nobis inuitis (et) sine cul[hole] illatum est\nimage-016 L17: in aliis nobis p(re)iudicium generare.   [red, right: Aug']\n\nLIMITATIONS\n- Which side is recto is not determined from the images. Side B col. a line 1 is the end of an entry begun\n  before this leaf (or lost above); side A's final lines are lost in stain.\n- The abbreviation written like \"n\" with a point on each side (.n.) is rendered n(on?) where I could not decide\n  between \"non\", \"enim\" and \"nisi\"; several of these are probably \"enim\". Treat every such place as open.\n- The initials of several lemmata are offset in the margin and rubbed; bracketed initials are guesses from shape.\n- Red marginal names are small and faded; those with \"?\" are not secure.\n- A higher-resolution crop of the lower halves of both sides and of the later cursive inscriptions would be needed\n  for a fuller reading.\n",
+  "text_sha256": "68b746f37f2227d1cce4ff4d6c52998270188e983f9901d1d3c7b97663791719"
+}
