@@ -1,4 +1,4 @@
-"""Local crop geometry and GW reproduction-link parsing."""
+"""Local crop geometry, GW reproduction-link parsing and Google Books search-inside parsing."""
 import importlib.util
 from pathlib import Path
 
@@ -62,3 +62,14 @@ def test_gw_page_lists_scans_not_catalogue_plumbing():
     assert "Mentelin" in heading and "1472" in heading and "Reproduktionen" not in heading
     assert links == ["http://daten.digitale-sammlungen.de/0007/bsb00078844/images/",
                      "https://gallica.bnf.fr/ark:/12148/bpt6k8713360t"]
+
+
+def test_gbwithin_reads_page_numbers_and_builds_exact_volume_query():
+    gb = load("gbwithin")
+    response = {"number_of_results": 2, "search_results": [
+        {"page_id": "PA9", "page_number": "9", "snippet_text": "... nec ad oculum  nec ad intellectum ..."},
+        {"page_id": "PP3", "snippet_text": "front matter"}]}
+    assert gb.hits(response) == [("9", "... nec ad oculum nec ad intellectum ..."), ("", "front matter")]
+    assert gb.hits({"number_of_results": 0}) == []
+    u = gb.url("tWdJAAAAYAAJ", '"ad oculum"')
+    assert "id=tWdJAAAAYAAJ" in u and "q=%22ad+oculum%22" in u and "jscmd=SearchWithinVolume2" in u

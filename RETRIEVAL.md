@@ -12,7 +12,7 @@ Use the resource suited to the lead; this list is not an execution order.
 
 | Resource | Access |
 |---|---|
-| Google Books | `tools/gbsearch.py` or `searchd.py` `/gb?q=`; requires `GOOGLE_BOOKS_API_KEY`. Returns snippets and volume IDs, not page images. |
+| Google Books | `tools/gbsearch.py` or `searchd.py` `/gb?q=`; requires `GOOGLE_BOOKS_API_KEY`. Returns snippets and volume IDs, not page images. `tools/gbwithin.py <volume id> '"phrase"'` then searches inside one volume and gives the printed page number of each hit, with no key; it works on snippet-view books in copyright. |
 | Internet Archive | `searchd.py` `/ia?q=` for discovery; `ia_cluster.py` downloads a volume's `_djvu.txt`. Google Books scans may be mirrored as `bub_gb_<volume id>`. |
 | Corpus Corporum | `searchd.py` `/cc?q=&index=p` (paragraph) or `index=s` (sentence); accepts Sphinx `NEAR/N` queries. Corpus coverage varies by period and genre. |
 | Genre-specific sources | Examples include Corpus Thomisticum, Gloss-e, Friedberg's canon-law editions, Quaracchi Bonaventure, and Borgnet Albert. Use the relevant source directly. |

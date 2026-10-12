@@ -21,7 +21,7 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 | Fragment | Identification | Date identified |
 |---|---|---|
 | [F-su3k](https://aaymeloglu.github.io/fragmentarium/F-su3k.html) | Pharetra doctorum et philosophorum, section De amore inimicorum | 2026-10-11 |
-| [F-z56d](https://aaymeloglu.github.io/fragmentarium/F-z56d.html) | Petrus Hispanus (non-papa), Summa "Absoluta cuiuslibet", on ille as demonstrative or relative | 2026-10-11 |
+| [F-z56d](https://aaymeloglu.github.io/fragmentarium/F-z56d.html) | Petrus Hispanus (non-papa), Summa "Absoluta cuiuslibet", on devocatio and on ille as demonstrative or relative | 2026-10-11 |
 | [F-au0s](https://aaymeloglu.github.io/fragmentarium/F-au0s.html) | Bernard of Parma, Casus longi on the Decretals, X 3.4.11–12 and X 3.5.5–6 | 2026-10-11 |
 | [F-rl44](https://aaymeloglu.github.io/fragmentarium/F-rl44.html) | Serapion Senior, Breviarium, tract VII (antidotarium), chapter 20 | 2026-10-11 |
 | [F-rygw](https://aaymeloglu.github.io/fragmentarium/F-rygw.html) | Galen, De regimine sanitatis, Book VI, medieval Latin translation | 2026-10-11 |
@@ -74,6 +74,7 @@ FIRST_READINGS.md             isolated-reader procedure and command examples
 tools/iiif.py                  fetch a fragment's images: info, overview, tiles, crop; resolves each library's IIIF quirks
 tools/ia_cluster.py            do the anchor phrases sit in one passage of an archive.org volume's OCR?
 tools/gbsearch.py              Google Books full-text search from the command line (needs GOOGLE_BOOKS_API_KEY)
+tools/gbwithin.py              search inside one Google Books volume: printed page number and snippet per hit, no key
 tests/                         data/folder/site consistency; CI fails if docs/ is stale
 ```
 

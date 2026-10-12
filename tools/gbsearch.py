@@ -5,7 +5,7 @@ Usage:
     GOOGLE_BOOKS_API_KEY=... python3 tools/gbsearch.py '"phrase one" "phrase two"' ['"next query"' ...]
 
 Prints totalItems and up to 15 hits (title | authors | year | volume id) with the API's snippet.
-Snippets carry no page numbers; for a public-domain hit, look for an archive.org mirror of the
+Snippets carry no page numbers: tools/gbwithin.py gives them for one volume. For a public-domain hit, look for an archive.org mirror of the
 same scan (often identifier bub_gb_<volume id>) and check the passage in its OCR.
 """
 import json
