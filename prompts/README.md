@@ -14,14 +14,21 @@ the image cache and the tile mapping away from readers.
 
 One batch, in order:
 
-1. Choose records; read each record's catalogue description before choosing
-   what to image (METHOD.md).
+1. Choose records: `tools/survey.py` lists the records not yet attempted with
+   their native image sizes and makes contact sheets. Read each record's
+   catalogue description, including a linked full description
+   (`tools/catalogue.py`), before choosing it and before choosing what to
+   image (METHOD.md). Confirm which object in the image is the fragment.
+   Start `tools/searchd.py` from this checkout; one left running from an
+   earlier checkout runs that checkout's code.
 2. `tools/acquire_batch.py`, then `tools/register.py`.
 3. `tools/tilepacket.py`; one fresh session per few packets with
    `reader-brief.md`.
 4. `tools/readings.py freeze-batch`, commit, and only then start research.
 5. Research sessions with `research-brief.md`, one to three records each. Stop
-   a session that has no candidate to test after about half an hour.
+   a session that has no candidate to test after about half an hour. Send a
+   session back when it stopped with a named candidate untested, giving it
+   the candidates to read on the page.
 6. For each proposed identification, the coordinator reads one matched passage
    on the manuscript image and, where there is one, the source's page image.
 7. `report-brief.md` for those that hold; `tools/record.py` for every record;

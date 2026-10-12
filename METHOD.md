@@ -7,12 +7,19 @@ in the batch notes in `audits/`.
 
 ## 1. Know what you are looking at
 
-- **Read the catalogue record first.** The manifest's folio reference,
-  reconstruction summary, dimensions and canvas labels say which object in the
-  images is the catalogued fragment and what the catalogue already identifies,
-  sometimes under a sibling record for the same volume. A host page or
+- **Read the catalogue record first**, including any full description linked
+  from the record page (`tools/catalogue.py`; saved as `catalogue.txt` with the
+  images). A record titled "unidentified" can have a description that names
+  its texts. The folio reference, reconstruction summary, dimensions and canvas
+  labels say which object in the images is the catalogued fragment and what
+  the catalogue already identifies, sometimes under a sibling record for the
+  same volume. A host page or
   neighbouring leaf can be far more legible than the fragment. Record what the
   catalogue already knew.
+- **Check that the fragment can be read at the published size.** A strip a few
+  hundred pixels wide gives letter groups, not text. `tools/survey.py` lists
+  native image sizes for the records not yet attempted and makes contact
+  sheets for choosing among them.
 - **Look at every leaf and face** before characterising a fragment. The second
   leaf of a bifolium can hold the passage that names the work.
 - **Survey a many-leaved record before reading it.** Look at every image reduced

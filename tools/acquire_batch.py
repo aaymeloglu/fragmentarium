@@ -3,7 +3,9 @@
 
 Downloads at most the requested number of canvases per fragment, sequentially, at
 library-native width unless --max-width asks for less, and writes `acquisition.json`
-(public source address and size of each image) beside them. `tilepacket.py` builds
+(public source address and size of each image) beside them, with `catalogue.txt`: the
+record's summary fields and any full description linked from the record page
+(`catalogue.py`), which can already name texts that the title calls unidentified. `tilepacket.py` builds
 reading packets from this cache. Canvases the manifest links to another canvas's
 image are corrected or refused as `iiif.py` describes. Keep the cache away from readers.
 """
@@ -13,6 +15,7 @@ import json
 from pathlib import Path
 import time
 import urllib.request
+import catalogue
 import readings
 import iiif
 
@@ -32,6 +35,10 @@ def acquire(fid, destination, packet_root, number, count=2, max_width=0):
     folder.mkdir(parents=True, exist_ok=True)
     url = f'https://fragmentarium.ms/metadata/iiif/{fid}/manifest.json'
     manifest = json.loads(fetch(url, folder / 'manifest.json'))
+    def page(address):
+        name = 'overview.html' if '/overview/' in address else 'description-' + address.rstrip('/').rsplit('/', 1)[-1] + '.html'
+        return fetch(address, folder / name)
+    (folder / 'catalogue.txt').write_text(catalogue.record(fid, manifest, fetch=page), encoding='utf-8')
     sources, images, errors = [], [], []
     def size(base):
         info = json.loads(fetch(base + '/info.json', folder / ('info-' + hashlib.sha256(base.encode()).hexdigest()[:12] + '.json')))
