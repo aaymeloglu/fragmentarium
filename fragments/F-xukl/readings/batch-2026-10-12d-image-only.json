@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-10-12T21:37:20.936078+00:00",
+  "fragment": "F-xukl",
+  "id": "batch-2026-10-12d-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "2dafd69ba3e6a05eae2490c89d09dae7cdea9893f08ed4debb77664cdfe205b3",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0109_Neerl_413_21.jp2/full/2527,/0/default.jpg (canvas 0, fol. [1]r): whole image 2527x1746 reduced to 1800x1244 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "9b693b5b4c6613f392a98e9792756e1b391e10edb46f0467690e2f0c0508c58e",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0109_Neerl_413_21.jp2/full/2527,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 126,139,606,765; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "65df198b9b630db0830d33f9dcbc762cba8322389515d407a11d318bc568a56f",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0109_Neerl_413_21.jp2/full/2527,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 126,630,606,1257; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "c1c95fc19e19f99fc4de5d9a5812035d46f07ffb8b63bba4a11e24a351c2f32b",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0110_Neerl_413_21.jp2/full/2585,/0/default.jpg (canvas 1, fol. [1]v): whole image 2585x1718 reduced to 1800x1196 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "476249e0fc6f01120a38f6bf24460de6eae5eb66a6851ce6211ac9ca1074d29e",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0110_Neerl_413_21.jp2/full/2585,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 206,103,697,737; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "8ed48137d4f457d4a995a2c2569e8733a34c154605359b4e6fea80d12e7a39e1",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0110_Neerl_413_21.jp2/full/2585,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 206,601,697,1236; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "4e48f092ac90212b26fdabc63646e31365618e6aad94969aeb734793ab6a70f4",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0111_Neerl_413_21.jp2/full/2483,/0/default.jpg (canvas 2, fol. [2]r): whole image 2483x1735 reduced to 1800x1258 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "6c04cb36830629c5864c3b4d38e1c55b338d3781e7056a7216430e82e48ea011",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0111_Neerl_413_21.jp2/full/2483,/0/default.jpg (canvas 2, fol. [2]r): native-pixel box 223,104,744,745; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "803f74279c4a6acd048cb45f76462fb19cfd81df2da463b53130977a9fe98355",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0111_Neerl_413_21.jp2/full/2483,/0/default.jpg (canvas 2, fol. [2]r): native-pixel box 223,607,744,1249; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "4165e50eeae26facf066a5fee10907ee6559259b1c5127fcb055feaf364feef6",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0112_Neerl_413_21.jp2/full/2471,/0/default.jpg (canvas 3, fol. [2]v): whole image 2471x1785 reduced to 1800x1300 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "38d7e231c3119b9f0d05ba23e8d3e945d2acbd282be93b0aebcf022487eb4e84",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0112_Neerl_413_21.jp2/full/2471,/0/default.jpg (canvas 3, fol. [2]v): native-pixel box 172,89,741,738; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "22d20fee1aa5b4d85e72468aec62b3d5ea7b116f4c6c4b9ed8cc791f532768cf",
+        "source": "https://fragmentarium.ms:443/loris/F-xukl/ua_rb_20220310b_0112_Neerl_413_21.jp2/full/2471,/0/default.jpg (canvas 3, fol. [2]v): native-pixel box 172,599,741,1249; unrotated grid position column 1 of 1, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12d (packet-13)",
+  "text": "PACKET-13 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification or reading of these pieces. (My context does contain general workspace notes that a manuscript-fragment project exists; no shelfmark, text or author for this packet.) I opened only PROMPT.md and image-001..012 of this packet; I ran one directory listing of the packet directory to get the image filenames (packet.json was listed by name, not opened).\n\nLAYOUT SURVEY (observation)\n- Four faces, each a pair of narrow vertical parchment strips laid side by side on black cloth with a ruler: image-001 (overview) pencil-labelled \"A r\" / \"B r\"; image-004 \"B v\" / \"A v\"; image-007 \"C r\" / \"D r\"; image-010 \"D v\" / \"C v\". Tiles: 002-003 (A r/B r), 005-006 (B v/A v), 008-009 (C r/D r), 011-012 (D v/C v).\n- Each pair is about 2.5-3.5 cm wide in total and about 8-9 cm tall; writing occupies the upper ~5 cm, about 12 lines; the lower part is blank (lower margin, tentative).\n- Script: upright formal book hand (textualis type), brown-black ink, upright orientation. Single column fragment only; column width unknown because both sides are cut. No running title, rubric, enlarged initial, underlining or gloss visible. Faint reddish patches on A r/B v top and on D v top may be offset or stain, not clearly rubric. A faint red horizontal line crosses the blank lower part of C r/D r.\n- Language (observation): the letter groups look vernacular (Dutch / Low German type: \"he\", \"sinen\", \"louet\", \"heilighen\", \"die sachtmo-\"), not Latin. Tentative.\n- The tiles are low resolution (about 500 px wide for 3 cm); the ink on A r/B r and B v is badly rubbed. Readings below are correspondingly weak. The vertical cut between the two strips of a pair removes or damages one or two letters in each line; I mark the cut with \"|\".\n\nSPANS SELECTED: all visible lines of each face (they are so short that selection is not meaningful). Unread: line 1 of every face (cropped at top edge), most of the left strip of face B v.\n\nFACE \"A r | B r\" (image-002; lines 10-12 repeat as image-003 lines 1-3)\nimage-002 L1: [cropped top line, traces only]\nimage-002 L2: ?om(?)uire(n)? | [illegible]\nimage-002 L3: dat(?) [gap] lu | der(?) [illegible]\nimage-002 L4: ot(?) [illegible] | [illegible] in(?)\nimage-002 L5: [.]drahet(?) [..] | [..] lu(?)\nimage-002 L6: ghew(?)aer(?)[...] | [illegible]\nimage-002 L7: uon hogh | [illegible]\nimage-002 L8: ?unne(?) | [illegible]\nimage-002 L9: [.]s(?) in ende | [illegible]\nimage-002 L10 = image-003 L1: he(?) in hou(?) | khen(?) e(?)\nimage-002 L11 = image-003 L2: then(?) si hem | [gap] m(?)\nimage-002 L12 = image-003 L3: het(?) in sine(n)? | uol(?)\n(below: blank; pencil \"A r\" \"B r\")\n\nFACE \"B v | A v\" (image-005; lines 10-12 repeat as image-006 lines 1-3)\nimage-005 L1: [cropped] | [..]ine(?)\nimage-005 L2: [..]u(?) | ocu(?)tictau(?)   [very uncertain; minims]\nimage-005 L3: [illegible] | [illegible]\nimage-005 L4: [illegible] | [..]as(?) belu(?)\nimage-005 L5: [..]gh(?) | s alle sin(?)\nimage-005 L6: [illegible] | in sinen h(?)\nimage-005 L7: he(?) [...] | firmame(n)[t?]   (reading \"firmamen\" fairly clear)\nimage-005 L8: [gap] onet(?) | he in sin\nimage-005 L9: [illegible] | er(?) menu(?)\nimage-005 L10 = image-006 L1: r(?) moechte(?) | nr(?) [gap] si(?)\nimage-005 L11 = image-006 L2: [..]r(?) vom(?) | mm(?) tou(?)\nimage-005 L12 = image-006 L3: [.]uen(?) in | de(?) he p(?)\n(below: blank; pencil \"B v\" \"A v\")\n\nFACE \"C r | D r\" (image-008; lines 10-12 repeat as image-009 lines 1-3)\nimage-008 L1: [cropped top line, traces]\nimage-008 L2: [.]ue(?) mc(?) he | ghenu(?)\nimage-008 L3: [..]ouen(?) sanc(?) sin(?)\nimage-008 L4: [.]onfirmatie(?) / [.]enedictie(?)   [one long word; ending \"-atie\"/\"-ctie\" visible, body uncertain]\nimage-008 L5: [.] in(?) ouen(?) de(?) | sin(?)[..]\nimage-008 L6: [.]e(?) rothenen(?) uan(?)\nimage-008 L7: [.]ouen(?) he in houen(?)\nimage-008 L8: [.]ouen(?) sinen m(?)[.]\nimage-008 L9: [.]en ulam(m)ende(?) siu(?)\nimage-008 L10 = image-009 L1: [.]in(?) santoten(?) sin\nimage-008 L11 = image-009 L2: [.]dru(?) he wel beha\nimage-008 L12 = image-009 L3: [.]en die sachtmo\n(below: blank; faint red horizontal line; pencil \"C r\" \"D r\")\n\nFACE \"D v | C v\" (image-011; lines 10-12 repeat as image-012 lines 1-2 plus)\nimage-011 L1: [cropped] [..]on(?) g(?)\nimage-011 L2: [..]uet(?) | hore(?) mun(?)\nimage-011 L3: [..] bor(?) | e ring'(?)\nimage-011 L4: [illegible] | hom(?)moedi(?)\nimage-011 L5: [illegible] | gerechte(?)\nimage-011 L6: heilighen [gap] d(?)\nimage-011 L7: lighen louet d(?)\nimage-011 L8: te(?) hem(?)e creature(?)\nimage-011 L9: creaturen louet\nimage-011 L10: [.]ou(?)dicheit(?) lue(?)\nimage-011 L11 = image-012 L1: he ware(n)(?) ghelu(?)\nimage-011 L12 = image-012 L2: hen(?) under(?) bou(?)\n(below: blank; pencil \"D v\" \"C v\")\n\nLIMITATIONS\n- Every line is cut at both ends; no line is complete, and the order of the two strips within a pair follows the photograph, not a demonstrated textual join (the script does appear to run across the cut on C r/D r and D v/C v).\n- Resolution is too low to resolve minims; nearly every word carries a question mark. The most secure groups are: \"uon hogh\", \"firmamen\", \"he in sin\", \"alle sin\", \"in sinen\", \"heilighen\", \"lighen louet\", \"creaturen louet\", \"he wel beha\", \"die sachtmo\".\n- A higher-resolution capture (at least 3x) or raking/UV light of A r/B r and B v would be needed for a checkable transcription.\n",
+  "text_sha256": "0ced841720df393e1a2b51443245a3213264542bf6025655ccaec91f2622529f"
+}

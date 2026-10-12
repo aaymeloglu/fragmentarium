@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-10-12T21:37:20.942831+00:00",
+  "fragment": "F-5oah",
+  "id": "batch-2026-10-12d-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "049413ac7747835fbe3cb5b7ffc180249cc6aafb9fdcfc32d27b5e70736226f1",
+        "source": "https://fragmentarium.ms:443/loris/F-uvx5/oms_mds_58Ca19_F1.jp2/full/2707,/0/default.jpg (canvas 0, oms_mds_58Ca19_F1): whole image 2707x2621 reduced to 1800x1743 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "5fd80f3cb0ee805e189671331ab8e8d9f681a3b196cc16c50e8ae13696d811eb",
+        "source": "https://fragmentarium.ms:443/loris/F-uvx5/oms_mds_58Ca19_F1.jp2/full/2707,/0/default.jpg (canvas 0, oms_mds_58Ca19_F1): native-pixel box 406,262,2436,1509; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "50e592db61442e07b885fd3d845e63ecc8684ab6bd8a4ed3f7c4fc81efd886a6",
+        "source": "https://fragmentarium.ms:443/loris/F-uvx5/oms_mds_58Ca19_F1.jp2/full/2707,/0/default.jpg (canvas 0, oms_mds_58Ca19_F1): native-pixel box 406,1241,2436,2489; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "d315d5852e4d78efa3fc0012d6abdb9754419ada8301c796e1b4a6591293c55e",
+        "source": "https://fragmentarium.ms:443/loris/F-uvx5/oms_mds_58Ca19_F2.jp2/full/2875,/0/default.jpg (canvas 1, oms_mds_58Ca19_F2): whole image 2875x2647 reduced to 1800x1657 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "00cfa31aa7eba960a494ae55cb6c3be172bc04ac1d3a73c3c4366159e6b8639c",
+        "source": "https://fragmentarium.ms:443/loris/F-uvx5/oms_mds_58Ca19_F2.jp2/full/2875,/0/default.jpg (canvas 1, oms_mds_58Ca19_F2): native-pixel box 718,264,2731,1479; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "85490b88b4eab954b63010b27114dcc4638de170a606f984198698860c9fb59a",
+        "source": "https://fragmentarium.ms:443/loris/F-uvx5/oms_mds_58Ca19_F2.jp2/full/2875,/0/default.jpg (canvas 1, oms_mds_58Ca19_F2): native-pixel box 718,1219,2731,2435; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "c013ddf1aa060dda80a6827c23953e9c2e73bcb9b832e19706710e14e0d4a474",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2a.jp2/full/2638,/0/default.jpg (canvas 2, mds_58Ca18_F2a): whole image 2638x2821 reduced to 1683x1800 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "13d3cce06bb9db73f4194146d5521585b5f79c1fd8da96f516ab4414cfafb2b4",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2a.jp2/full/2638,/0/default.jpg (canvas 2, mds_58Ca18_F2a): native-pixel box 263,225,2163,2115; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "f705706fcf7a4944ce5493650d8fd9e790f705784d7575f9bcf14d854001939f",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2b.jp2/full/2061,/0/default.jpg (canvas 3, mds_58Ca18_F2b): whole image 2061x2806 reduced to 1322x1800 for layout"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "9544c489d6239d6c04a1711ceccf162fdbb7c55483d3a92b7ceaa234314e4277",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2b.jp2/full/2061,/0/default.jpg (canvas 3, mds_58Ca18_F2b): native-pixel box 103,224,1957,2104; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "31bf8cf83a891590c5835947c750a0d152780f632bca6add229ec498d7452792",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/oms_mds_58Ca18_F2c.jp2/full/4206,/0/default.jpg (canvas 4, oms_mds_58Ca18_F2c): whole image 4206x5650 reduced to 1340x1800 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "2c84b4588eaf2002c38a598cb4cacc52204eb1f051eff5a59c19abe8e0da29d2",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/oms_mds_58Ca18_F2c.jp2/full/4206,/0/default.jpg (canvas 4, oms_mds_58Ca18_F2c): native-pixel box 0,0,4206,5650; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12d (packet-15)",
+  "text": "PACKET-15 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification or reading of these pieces. I opened only PROMPT.md and image-001..012 of this packet (plus one filename listing of the packet directory; packet.json not opened).\n\nLAYOUT SURVEY (observation)\n- Small parchment pieces still in situ in the binding of a paper book (spine linings / guards), photographed in four settings:\n  (a) image-001 overview, tiles 002-003: a piece lying across the inside of the spine between sewing supports, about 9 lines, heavily abraded, with vertical bands of surface loss.\n  (b) image-004 overview, tiles 005-006: a second spine piece, upper third blank or abraded, then about 7 lines; a blue thread/fibre lies on the lower part.\n  (c) image-007 overview, tile 008: a flap projecting from the gutter onto a paper leaf, top-left corner cut diagonally, 5 lines, then blank parchment bearing a large red-crayon mark (a \"P\"- or \"4\"-like sign, tentatively a later mark).\n  (d) image-009 overview, tile 010: another gutter flap, right side cut diagonally, 7 lines; images 011-012 show the same flap obliquely from further off (same text, lower legibility; they also show that the flap continues into the spine fold with further faint writing that I cannot read).\n- Script: formal upright book hand (textualis type), brown ink, text upright in all views. Lines are cut at left and right on every piece. No rubric, running title, enlarged initial or gloss visible. On (d) line 5 a thin horizontal line runs through the letters (a deletion stroke or a ruling line; I cannot decide).\n- Punctuation: frequent points setting off single capital letters and short abbreviations (\"G.\", \"v.o.\", \"L.\", \"A.\").\n- Tentative interpretation (not an identification): the text is Latin and consists of nouns/pronouns repeated in changing case forms with abbreviated case labels - i.e. paradigm-like material, not continuous prose. I do not infer work, author, date or origin.\n\nSPANS SELECTED: all lines of (c) and (d), which are legible; all lines of (a) and (b) attempted, largely unread.\n\nPIECE (c) - image-008 (same lines visible smaller in image-007)\nimage-008 L1: [..]lic(?) matre(m)(?). v(ocativ)o. o. mat(er)\nimage-008 L2: [.]e(?) matres G(enitiv)o(?). har(um) ma[..]\nimage-008 L3: [m]atres. v(ocativ)o. o. matres. [.]\nimage-008 L4: [..]o(?) h(ec?) soro(r). G(eni)t(iv)o(?) soror[..]\nimage-008 L5: [so]rores(?). v(ocativ)o. o. soror(es?). Ab(?)[..]\n(below: blank; red crayon mark)\nNotes: \"v.o.\" is written v-point-o-point each time; I expand it as v(ocativ)o tentatively. In L2 the letter after \"matres\" is a capital G followed by a point. In L4 \"G\" is followed by two small superscript strokes/letters.\n\nPIECE (d) - image-010 (same lines visible smaller in images 009, 011, 012)\nimage-010 L1: [.]o(?) sororibus(?) .   [rest of line blank or lost]\nimage-010 L2: [.]o(?) h(a)s sorores. [.](?) huic sor[..]\nimage-010 L3: [..] soro(rum?)(?). v(ocativ)o(?) sorores(?) eo(?)[..]\nimage-010 L4: sorori(?)[..] h(?)[..] ho(?)[..]   [very faint]\nimage-010 L5: [.]es(?). Ab [gap] h(?)[..] [gap] sor(?)o[..]   [horizontal line through the middle of this text line]\nimage-010 L6: [.]ib(us)(?) [space] a. h(?)[.]c(?) h(u)i(us)(?) s[..]\nimage-010 L7: [.]o(?). soror(?)i(?) [gap] h(?)[..]\nImages 011-012: no additional text read; in the spine fold to the left of the flap further lines continue but are illegible at this angle.\n\nPIECE (a) - image-002 (L5 repeats as image-003 L1)\nimage-002 L1: [..]lice(?) om(n)es . h(?)[..]\nimage-002 L2: & b(us)(?) . L(?). h(a)r(um)(?) [..] & [..]\nimage-002 L3: [.] ab his(?) omnib(us)(?) [..]\nimage-002 L4: [..] L(?). h(?)[..] om(n)es(?) . & [..]\nimage-002 L5 = image-003 L1: abl(?) h(?)[..] [..]ab(?)[..]\nimage-003 L2: [..] h(?) om(n)es(?) [..]\nimage-003 L3: [.]h(?)e . L(?). h(a)r(um)(?) [..]\nimage-003 L4: [..]as(?) [..] h(?)[..]\nimage-003 L5: [illegible]\nThe clearest groups here are \"om(n)es\" (L1, with a long abbreviation stroke) and \"omnib(us)\" (L3).\n\nPIECE (b) - image-005 (its L3 repeats as image-006 L1)\nimage-005 [upper third: no writing readable; abraded or blank]\nimage-005 L1: [.]h(o)r(um)(?) [..]is(?) sorori(?)[..]   (the word \"soror-\" at the right is clear)\nimage-005 L2: ab(?) his(?) [..]o(?) sororibus(?)\nimage-005 L3 = image-006 L1: [..] h(?)[..] homi(n)e(?). L(?). h(?)[..]\nimage-006 L2: om(n)ib(us)(?) [..] hom(in)e(?) [space] A(?) a[..]\nimage-006 L3: eh(?)[..]p(?)[..]. G(?). h(o)r(um)(?) & ha(rum)(?)\nimage-006 L4: ho(?)[..] [..] & ab(?) h(a)c(?)\nimage-006 L5: [bottom line, under blue fibre and loss; illegible]\nIn image-006 L1-L3 a capital letter between points occurs in each line (read as L, A, G - all uncertain shapes).\n\nLIMITATIONS\n- All lines are cut at both ends; pieces (a) and (b) lie in the spine and are abraded, with vertical bands where the surface is gone. Their relative order and which face of the original leaf each shows are unknown.\n- It is not certain that (a)-(d) come from the same leaf; hand and content type look alike (observation).\n- Expansions of the case labels (G., v.o., Ab.) are proposals only; the nouns read with most confidence are \"matre-/matres\", \"soro-/sorores/sororibus\", \"omnes/omnibus\", \"huic\", \"har(um)\".\n- A flat, square-on capture of flap (d) including the part running into the fold, and raking light on (a) and (b), would help.\n",
+  "text_sha256": "9233b9e7e3527105f85d148a9e82b23db1ee51c0dd97db12c012835146216fc2"
+}

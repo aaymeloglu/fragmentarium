@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-10-12T21:37:20.945612+00:00",
+  "fragment": "F-3uad",
+  "id": "batch-2026-10-12d-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "06ef1711ab113c8fec1e99843d38dac3064fc820c30551b95fe18598a51aaf13",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_1r.jp2/full/2496,/0/default.jpg (canvas 0, fol. [1]r): whole image 2496x3516 reduced to 1278x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "babff62cafc7058697dc0e9369a0ed44c236e59d40f8b7b1fb1a0523952b5e1d",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_1r.jp2/full/2496,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 249,527,1497,1649; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "4bee8585f98b122da82b17db3c9898ab6ceb461cf3303ce99757cc35980e5762",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_1r.jp2/full/2496,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 249,1408,1497,2531; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "8a07ac8720c4d1895a4d6acbe0c2efd7d96263122f03481266e84ce66c8d157d",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_1v.jp2/full/2376,/0/default.jpg (canvas 1, fol. [1]v): whole image 2376x3464 reduced to 1235x1800 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "99634064d4b516909999af15337c27b3a5aa07d8985ff508a8080a035c095fbf",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_1v.jp2/full/2376,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 712,103,1425,866; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "f29c770fe2315f14e5bec693d245ace456f73033059e22fc0cd8df08ec398085",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_2r.jp2/full/2326,/0/default.jpg (canvas 2, fol. [2]r): whole image 2326x1179 reduced to 1800x912 for layout"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "def3ded2bac67de62136c6dd10afdf7d34ab81c494eff37d8c4bc25afe89d0c2",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_2r.jp2/full/2326,/0/default.jpg (canvas 2, fol. [2]r): native-pixel box 162,94,930,707; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "b300f030c1d3be1aa7ec24bab30644e13277190fc97cf8ad6cf6a8ae9de9e59f",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_2r_bis.jp2/full/2363,/0/default.jpg (canvas 3, fol. [2]r bis): whole image 2363x1336 reduced to 1800x1018 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "84c141f5bd642acdedc8c775f74099bed8f6411db7152340bd210168cc5d48bb",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_2r_bis.jp2/full/2363,/0/default.jpg (canvas 3, fol. [2]r bis): native-pixel box 165,133,1299,668; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "24a58a92fc91b207d4055631c344a393ae75b774de6ee57593a3dc873e742ded",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_2v.jp2/full/2316,/0/default.jpg (canvas 4, fol. [2]v): whole image 2316x1332 reduced to 1800x1035 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "7cdd746ce181d719142ab9b1899521f32469779089a1c2fca106d0979fb87108",
+        "source": "https://fragmentarium.ms:443/loris/F-x3dh/fol_2v.jp2/full/2316,/0/default.jpg (canvas 4, fol. [2]v): native-pixel box 0,0,2316,1332; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12d (packet-16)",
+  "text": "PACKET 16 - UNVERIFIED IMAGE READING\n\nEXPOSURE / RULES STATEMENT\nNothing in my context revealed a proposed identification of work or author. I\nopened only PROMPT.md and the image files of this packet. Beyond plain viewing I\nmade rotated / enlarged working copies of image-002, -003, -005 and -009 in a\nprivate scratch directory (no content added) because part of the text is upside\ndown or sideways in the supplied images. No web, search, catalogue or edition used. When saving my responses, a\ndirectory listing of the responses folder showed me the file names of other\npackets' responses; I did not open any of them.\n\nLAYOUT SURVEY (observation)\n- image-001 (overview, face 1, with ruler): a composite binding remnant. A long\n  grey paper/board spine strip carries, on the right, two small parchment\n  pieces: (a) upper right, a narrow strip with 3-4 lines of text UPSIDE DOWN\n  relative to the image; (b) lower right, a nearly square piece (c. 5 x 5 cm by\n  the ruler) with 10 upright lines of text, blank upper margin, a fold along\n  the right edge with three sewing/stain holes. At the top, a folded piece with\n  an embroidered (thread-wrapped) edge, blank on this side. Traces of an offset\n  or pasted script are visible on the grey strip (left of piece b), sideways.\n- image-002 = tile of (a); image-003 = tile of (b).\n- image-004 (overview, face 2): the reverse. Mostly white paper lining. The\n  reverse of (b) (left) shows only faint show-through of c. 9 lines and a small\n  red initial/paraph at lower left; reverse of (a) faint show-through; the top\n  folded piece shows 6-7 lines of a larger, heavier script, badly rubbed.\n- image-005 = tile of that top piece (face 2).\n- image-006 / image-007: a separate small folded fragment (c. 5.5 x 3 cm) with\n  embroidered lower edge; 7 lines, upright, with red rubrics and red initials.\n- image-008 / image-009: the same small fragment from another side, text\n  UPSIDE DOWN in the image; a second, larger-script layer is exposed where the\n  upper layer is torn; a white paper tab is attached.\n- image-010 / image-011: the same small object from the back: blank skin,\n  twisted thread, a small flap with red and black letters, nothing connected.\n- Single column on every piece; no running titles. Rubrics in red, 2-line red\n  initial \"A\" in (b), red 1-line initials elsewhere, one red underline in (a).\n  No interlinear or marginal glosses seen. Script of (a), (b) and the small\n  fragment: small formal book hand, apparently one size; the top piece and the\n  under-layer of the small fragment are in a larger hand (tentative: a\n  different manuscript reused together).\n- Tentative interpretation only: short chant/prayer items separated by rubrics\n  of the type \"Ad vj\", \"Sabbato collecta\". No inference about work or date.\n\nSELECTED SPANS\n1. Piece (b), all 10 lines (image-003).\n2. Small fragment, 7 lines (image-007; cross-checked on image-009 rotated).\n3. Strip (a), 4 lines (image-002 rotated 180 degrees).\nUnread: top piece face 2 (image-005), reverse of (b), larger-script under-layer\nin image-009, offset traces on the grey strip, flap in image-010/011.\n\nSPAN 1 - image-003 (lines counted from top of the written area in that image;\nleft edge of text is at the fold, right edge slightly cropped by the turn-in)\nimage-003 L1: leamus(?) p(er) do(minum?) [red:] Ad vj [red initial Q]uare ieiu\nimage-003 L2: nauim(us) et no(n) aspexisti hu(m)iliauim(us) a(n)i(m)as\nimage-003 L3: n(ost)ras et nescisti [red:] Ad v(?) [red initial T]u(n)c i(n)uocab[is?]\nimage-003 L4: et d(omi)n(u)s exaudiet clamabis (et) dicet\nimage-003 L5: ecce assum [red:] Sabbato collecta a'(?)\nimage-003 L6: [2-line red initial A]Desto d(omi)ne supplicac(i)o(n)ib(us) n(ost)ris\nimage-003 L7: (et) p(re)sta ut hoc solle(m)pne ieiuni\nimage-003 L8: um q(uo)d a(n)i(m)is corporib(us)q(ue) cura(n)dis\nimage-003 L9: salubriter institutu(m) est deuoto\nimage-003 L10: seruitio celebremus p(er) [red:] Do(mi)n[...] (cropped at fold)\nNotes: L1 first word begins at the edge; \"leamus\"/\"lcamus\", the start of the word\nis on the lost preceding line. L3 the rubric after \"nescisti\" reads \"Ad\" plus\none or two minims, then a red capital. L5 the red rubric ends in a small \"a\" with\na suspension stroke. L1-L10 also visible, reduced, on image-001.\n\nSPAN 2 - image-007 (small fragment; top line cut through by the tear)\nimage-007 L1: [upper halves lost] ...rtare(?) ce...s morum(?) meni...(?)  (not securely read)\nimage-007 L2: [red:] Ad vj(?) [..] [red initial P]ueri hebreor(um) uestim[enta]\nimage-007 L3: [..]ta(?) p(ro)sterneba(n)t i(n) uia (et) clamaba(n)t\nimage-007 L4: [..]ce(n)tes oza(n)na filio dauid b(e)n(e)d(i)c(tu)s q(ui) ue[..]\nimage-007 L5: [.] no(m)i(n)e d(omi)ni [red sign, R- or V-like] [red initial O?]e(?) ore v(er)b[.](?) [..] [red:] V(?)sa(?)[...]\nimage-007 L6: [..]litude(?) [red:] Ad ix(?) [red initial O?] [...]urru(n)t(?) turb[.]  (partly under a lifted flake)\nimage-007 L7: [.]lorib(us) (et) palmis r(e)de(m)ptori obuia(m)\nbelow L7: tops of one more line under the embroidered edge, [illegible].\nNotes: the same lines appear upside down on image-009 (overlap, not new text);\nthere L6 end reads \"...ut turb\" and L7 \"...ib(us) (et) palmis r(e)de(m)ptori obuia\".\nIn image-009 the area above these two lines is a different, larger script on\nan exposed second layer (4-5 lines, black with two red initials/rubrics, one\nred word in mid-line); I could not read connected words there: [illegible].\n\nSPAN 3 - image-002, strip (a), read with the image turned 180 degrees; line\nnumbers counted from the top of the strip in that turned orientation\nimage-002(rot) L1: [lower parts only] ... d(?)e p(?)... et t(?)... [illegible]\nimage-002(rot) L2: xp(ist)i(?) uoce(?) tonat (et) nubula(?) [word rubbed, illegible]\nimage-002(rot) L3: [red cross-like sign][red initial P]rincipes [erasure or rubbed gap, c. 4 letters] ..ci(?) (et) Regib(us)(?)   [red line under the right half of this line]\nimage-002(rot) L4: [small superscript letters, illegible] bere(?) laua(?)... dona(?) i(n) pasch[.](?)\nNotes: L3 \"Principes\" is clear; what follows the gap is uncertain. L4 is\nwritten slightly smaller/tighter and I do not trust any word in it except the\nletter shapes given. Blank parchment below L4 (margin).\n\nimage-005 (top piece, face 2): 6-7 lines of the larger script running\nhorizontally, blurred by a tissue/skin layer, plus 2-3 lines of smaller script\nrunning vertically along the right edge; one red mark. No word securely read:\n[illegible]. This tile is low in contrast; a raking-light or higher-contrast\nimage would be needed.\n\nLIMITATIONS\n- All pieces are binding waste, cropped on every side; no full line length is\n  certain except possibly piece (b), whose lines read continuously.\n- Order and original relationship of the pieces is unknown; two hands/sizes are\n  present.\n- Reverse sides and the larger-script layers remain unread.\n- Suggested further views: the reverse of (b) under transmitted light; the top\n  piece (image-005) at higher contrast; the small fragment opened flat.\n",
+  "text_sha256": "1d8f1830ce76c2a6ea2151505fc89e775c2e4a15840b1ea8a785fc4e363aa73b"
+}
