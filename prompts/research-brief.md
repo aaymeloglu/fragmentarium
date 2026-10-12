@@ -19,8 +19,10 @@ manuscript with the source. This is model work; be exact about what you checked.
 
 ## Before reading
 
-1. Read the catalogue's own description in `<cache>/<F-id>/manifest.json`: title,
-   folio reference, reconstruction summary, dimensions, and the canvas labels.
+1. Read the catalogue's own description in `<cache>/<F-id>/catalogue.txt`: title,
+   folio reference, reconstruction summary, dimensions, the canvas labels, and
+   any full description linked from the record page, which can name texts the
+   title calls unidentified.
    Settle which object in the images is the catalogued fragment (host pages,
    covers and neighbouring leaves often belong to other records) and what the
    catalogue already identifies, including under sibling records of the same
@@ -50,6 +52,7 @@ Look at every leaf and face before characterising the fragment.
 - `tools/mdzsearch.py '"phrase" "phrase"'`: OCR full text of the Munich digital
   library, strong for anything printed between 1470 and 1700.
 - `tools/gbwithin.py <volume id> '"phrase"'`: inside one Google Books volume.
+- `tools/mnlsearch.py 'phrase'`: the Corpus Middelnederlands, for Middle Dutch.
 - `tools/schneyer.py` (sermon repertory), `tools/hspsearch.py` (German
   manuscript catalogues), `tools/gw.py <GW number>` (digitised incunables).
 - Web search and fetch for everything else: Corpus Thomisticum, Gloss-e,
@@ -92,6 +95,7 @@ Claim only what the comparison shows:
 About 150 tool calls a fragment, in several rounds if needed. Do the reading
 yourself; do not hand a record out to further agents. If you have no candidate
 to test after about 80 calls on one fragment, write up what you have and stop.
+Do not stop while a named candidate is untested: read it on the page first.
 Save the crops and source pages you relied on under `<evidence>/<F-id>/`.
 
 ## Report
