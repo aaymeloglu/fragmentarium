@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-12T00:19:53.844211+00:00",
+  "first_reading": "batch-2026-10-11-image-only",
+  "first_sha256": "a8469868a1b36985c810e35bb1cb782ff19c31a11c5036ab896fbe4080014080",
+  "fragment": "F-z56d",
+  "id": "recheck-2026-10-11-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude (Opus), coordinator of the 11 October 2026 recheck; source-assisted, not isolated",
+  "reason": "Connected passage on one face reread against edition snippets; supports the Summa Absoluta cuiuslibet identification.",
+  "schema_version": 1,
+  "sources": [
+    "https://fragmentarium.ms/loris/F-z56d/ab_park_20200304b_0034_VIII_B20_89.jp2/full/full/0/default.jpg",
+    "C. H. Kneepkens, Het Iudicium constructionis, vol. IV: Werkuitgave van Petrus Hispanus' Summa 'Absoluta cuiuslibet' (Nijmegen, 1987), Google Books id tWdJAAAAYAAJ (snippets)"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING (recheck, 11 October 2026)\n\nBase: batch-2026-10-11-image-only. A second reader read contrast-enhanced crops and found the edition through its own transcription; the coordinator then reread the lines below against the image with the edition snippets to hand. Parentheses expand abbreviations; square brackets mark supplied or lost text; a question mark follows an uncertain reading.\n\nCanvas labelled Fol. [1]v-[2]r (4595 x 2814), left column, native-pixel box 430,180,1330,900; grayscale with contrast stretch for viewing. Lines counted from the top of that box.\nL6 (end): ... ut sit r(espo)nsio. ille q(ui)\nL7: sc(ri)psit georgica sc(ri)psit en[eida]. S(ed) q(ue)ret(ur) ut(rum) ille ibi sit de-\nL8: m(on)st(ra)ti(vu)m aut rel(ati)v(u)m. q(uod) n(on) sit dem(on)st(ra)ti(vu)m in(de) vi(detur) q(uonia)m n(ec) ad oc(u)l(u)m\nL9: n(ec) ad int(e)ll(ectu)m dem(onstrati)o(n)em fac(it). Si eni(m) ad oculu(m) no(n) n(is)i de isto q(uem)\nL10: video dic(er)et(ur). Si ad int(e)ll(ectu)m no(n) n(is)i p(ro)p(ter) absente(m) v(e)l incorpore(um).\nL11: Nu(n)c a(utem) nulla r(ati)o e(st) cur? magis ad absente(m) q(uam) ad p(re)sente(m) di-\nL12: cat(ur). (er)g(o) [ille ibi] po(n)it(ur) [relative ...]\nL1-L5 concern how an interrogative is put and answered (\"... in confusione ... interrogatur ... qui solam dubitat ...\"); they were not read securely enough to quote. L12 onward was read by the second reader as \"nec est assignare ibi ad quid referatur nisi ad qui. Quare qui et ille ad se invicem referuntur; ergo utrumque alterius respectu primam et secundam [notitiam facit]\"; the coordinator did not recheck those lines.\n\nThe other face (canvas labelled Fol. [2]v-[1]r) is too faded for connected reading. This is a model reading made with the printed text to hand, not a human palaeographic transcription.\n",
+  "text_sha256": "80f27e4b326173e3926aa333ad554e3d01e1a6850f38e75311ef6d7d5b8c3734"
+}

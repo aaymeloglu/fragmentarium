@@ -23,6 +23,12 @@ It defaults to native image width; `--canvases N` changes coverage and
 `--max-width N` explicitly requests smaller overviews. Keep the source cache
 separate from readers. Use a fresh packet root when changing the image inputs.
 
+When the native image is already cached, `tools/localcrop.py` cuts the same
+regions locally (it needs Pillow: `uv run --group images python tools/localcrop.py
+SRC OUT x0,y0,x1,y1`), can rotate an upside-down wrapper and stretch contrast,
+and with `--strips N --columns M` cuts a whole face into overlapping reading
+bands. It prints each output's native box; cite that box, not the enlarged file.
+
 Use native pixels for recognition (`--scale 1`); magnification adds no evidence.
 Record the public image URL or manifest, canvas, region, and any transform. Check
 that the resulting crop contains the intended text. Common acquisition problems:

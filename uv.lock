@@ -303,12 +303,16 @@ dev = [
 htr = [
     { name = "kraken" },
 ]
+images = [
+    { name = "pillow" },
+]
 
 [package.metadata]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = ">=8" }]
 htr = [{ name = "kraken", specifier = "==7.1.1" }]
+images = [{ name = "pillow", specifier = ">=10" }]
 
 [[package]]
 name = "frozenlist"

@@ -1,0 +1,300 @@
+{
+ "volume": "tWdJAAAAYAAJ",
+ "endpoint": "https://books.google.com/books",
+ "retrieved": "2026-10-12",
+ "results": [
+  {
+   "query": "\"mentionem fecimus\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA8",
+      "page_number": "8",
+      "snippet_text": "... mentionem fecimus , quid sit deuocatio persone et que quam possit deuocare explicemus . Deuocare dictionem ad propriam personam dicitur illa que cum sit alterius persone , adiungit eam sibi in propria persona uel in eadem constructione ..."
+     }
+    ],
+    "spellresults": {
+     "correct_spell": "\"mentioned fecimus\"",
+     "spell_corrected_url": "https://books.google.com/books?id=tWdJAAAAYAAJ&q=%2522mentioned%2Bfecimus%2522&pg=PP1&spell=1&oi=spell"
+    },
+    "search_query_escaped": "&quot;mentionem fecimus&quot;"
+   }
+  },
+  {
+   "query": "\"per intransitionem uel in altera\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA8",
+      "page_number": "8",
+      "snippet_text": "... per intransitionem uel in altera per relationem . Possunt autem prima et secunda persona tertiam deuocare , ut ' ego Cicero curro ' , ' tu Tripho curris ' , ' sum ' sum ho homo ' , ' es animal ' , animal ' ' tu qui curris ' , ' ego qui ..."
+     }
+    ],
+    "spellresults": {
+     "correct_spell": "\"per intransition uel in altera\"",
+     "spell_corrected_url": "https://books.google.com/books?id=tWdJAAAAYAAJ&q=%2522per%2Bintransition%2Buel%2Bin%2Baltera%2522&pg=PP1&spell=1&oi=spell"
+    },
+    "search_query_escaped": "&quot;per intransitionem uel in altera&quot;"
+   }
+  },
+  {
+   "query": "\"una sola est prima\"",
+   "response": {
+    "number_of_results": 2,
+    "search_results": [
+     {
+      "page_id": "PA8",
+      "page_number": "8",
+      "snippet_text": "... una sola est prima , una sola est secunda , necessario contra se faciunt discretionem personarum ; quare neutra in alteram potest transire . Item . Prima et secunda maiorem habent discretionem quam tertia , cum singulares sint presentes ..."
+     },
+     {
+      "page_id": "PA34",
+      "page_number": "34",
+      "snippet_text": "... una sola est prima persona , idest unus modus significandi primam , et unus solus significandi secundam . Plures autem sunt tertie persone , quoniam plures modi significandi tertiam personam . Significatur enim relatiue , demonstratiue ..."
+     }
+    ],
+    "search_query_escaped": "&quot;una sola est prima&quot;"
+   }
+  },
+  {
+   "query": "\"in responsione infinite\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... in responsione infinite ponatur ' qui ' aut relatiue . Quod infinite ibi ponatur , nemo dicet , quia est ibi ad certificandam dubitationem . Est ergo ibi relatiuum . Sed ad quid refertur ? Subintelligitur ' ille ' , ut sit responsio ..."
+     }
+    ],
+    "search_query_escaped": "&quot;in responsione infinite&quot;"
+   }
+  },
+  {
+   "query": "\"ut sit responsio\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... ut sit responsio ' ille qui scripsit Georgica , scripsit Eneida ' . Sed queretur utrum ' ille ' ibi sit demonstratiuum aut relatiuum . Quod non sit demonstratiuum , inde uidetur , quoniam nec ad oculum nec ad intellectum facit ..."
+     }
+    ],
+    "search_query_escaped": "&quot;ut sit responsio&quot;"
+   }
+  },
+  {
+   "query": "\"nec ad oculum nec ad intellectum\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... nec ad oculum nec ad intellectum facit demonstrationem . Si enim ad oculum , nonnisi pro isto quem uideo , diceretur . Si ad intellectum , nonnisi propter absentem uel incorporeum . Nunc autem nulla ratio est quare magis dicatur ad ..."
+     }
+    ],
+    "search_query_escaped": "&quot;nec ad oculum nec ad intellectum&quot;"
+   }
+  },
+  {
+   "query": "\"ad quid referatur\"",
+   "response": {
+    "number_of_results": 2,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... ad quid referatur nisi ad ' qui ' . Quare ' qui ' et ' ille ' ad se inuicem referuntur ; ergo utrumque in respectu alterius primam et secundam notitiam facit . Idem ergo primam / f . 51vb / et secundam respectu eiusdem facit . Sed quia ..."
+     },
+     {
+      "page_id": "PA42",
+      "page_number": "42",
+      "snippet_text": "... ad quid referatur . Ideo dicendum est quod non ponitur in talibus in ui pronominis , immo in ui articuli , ut discernat genera et casus et numeros , nec habet ibi aliquam significationem . < DE HAC ORATIONE ' IDEST ' > Queritur de his ..."
+     }
+    ],
+    "search_query_escaped": "&quot;ad quid referatur&quot;"
+   }
+  },
+  {
+   "query": "\"respectu eiusdem\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... respectu eiusdem facit . Sed quia primam , non relatiue ponitur ; quia secundam , relatiue . Idem ergo relatiue et non - relatiue similiter poneretur . Ad hoc dicunt aliqui quoniam cum dico ' ille qui scripsit hoc , scripsit illud ..."
+     }
+    ],
+    "search_query_escaped": "&quot;respectu eiusdem&quot;"
+   }
+  },
+  {
+   "query": "\"scripsit illud\"",
+   "response": {
+    "number_of_results": 2,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... scripsit illud ' , intelligitur ' homo uel no uel poeta uel aliquid tale . Et ita ' ille ' refertur ad poetam , ut ' ille poeta qui scripsit hoc , scripsit illud ' , sicut cum dicitur sic Iupiter ille monebat ' , ' ille ' refertur ad ..."
+     },
+     {
+      "page_id": "PA103",
+      "page_number": "103",
+      "snippet_text": "... scripsit illud 9 ille qui interficiet tirannum , premium accipiet 35 ille qui scripsit Georgica , scripsit Eneida 9 ille rogat me , ut , o tu sue fili , studeas apud me 57 ille Tullius disputat 41 illi seruit suus ( sui ) filius 47 ..."
+     }
+    ],
+    "search_query_escaped": "&quot;scripsit illud&quot;"
+   }
+  },
+  {
+   "query": "\"secundum uocem fiat relatio\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... secundum uocem fiat relatio , sed non secundum intellectum . Relatio uero secundum uocem non exigit , ut per eam dictionem ad quam fit relatio , fiat prima notitia . Nam cum dico ' semini tuo qui est Xristus ' , 12 qui ' secundum uocem ..."
+     }
+    ],
+    "spellresults": {
+     "correct_spell": "\"secundum upcem fiat relatio\"",
+     "spell_corrected_url": "https://books.google.com/books?id=tWdJAAAAYAAJ&q=%2522secundum%2Bupcem%2Bfiat%2Brelatio%2522&pg=PP1&spell=1&oi=spell"
+    },
+    "search_query_escaped": "&quot;secundum uocem fiat relatio&quot;"
+   }
+  },
+  {
+   "query": "\"semini tuo qui est Xristus\"",
+   "response": {
+    "number_of_results": 3,
+    "search_results": [
+     {
+      "page_id": "PA7",
+      "page_number": "7",
+      "snippet_text": "... semini tuo qui est Xristus ' . Nam cum qui ' refertur ad neutrum genus , debet esse neutri generis . Sed notandum quod ubicumque due regule contrarie inueniuntur , aut ibi utramque obseruari non oportet aut alteram alteri cedere ; quod ..."
+     },
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... semini tuo qui est Xristus ' , 12 qui ' secundum uocem ad ' Xristus ' refertur ; non tamen illud primam facit notitiam . Illa enim secundum intellectum consideratur . Ad quid ergo refertur ' ille ' quantum ad intellectum ? Ex hac ..."
+     },
+     {
+      "page_id": "PA106",
+      "page_number": "106",
+      "snippet_text": "... semini tuo qui est Xristus 55 7,9 seruus istorum et isti sunt homines 2 si esses homo , esses animal 84 sic Iupiter ille monebat 9,35 similis est 52 similis illi / ab illo 6 similiter illi lego 6 Socratem currere est possibile 74 ..."
+     }
+    ],
+    "spellresults": {
+     "correct_spell": "\"semini tuo qui est Christus\"",
+     "spell_corrected_url": "https://books.google.com/books?id=tWdJAAAAYAAJ&q=%2522semini%2Btuo%2Bqui%2Best%2BChristus%2522&pg=PP1&spell=1&oi=spell"
+    },
+    "search_query_escaped": "&quot;semini tuo qui est Xristus&quot;"
+   }
+  },
+  {
+   "query": "\"ex deuocatione\"",
+   "response": {
+    "number_of_results": 2,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... ex deuocatione ' ille ' prime persone est , per se tamen tertie . In qua ergo persona eum consequitur ' qui ' ? Nam si ' qui ' refertur ad ' ille ' , sed ' ille ' est tertie persone , ergo ' qui ' tertie ; ergo debet sequi uerbum tertie ..."
+     },
+     {
+      "page_id": "PA10",
+      "page_number": "10",
+      "snippet_text": "... ex deuocatione ' ille ' est prime , ideo et illud quod ad ipsum refertur , ad eandem deuocabitur . Si autem non ad pronomen , f . 52ra / sed ad nomen fiat relatio , queritur utrum similiter utrumque bene dicatur , ut ' ego sum homo ..."
+     }
+    ],
+    "search_query_escaped": "&quot;ex deuocatione&quot;"
+   }
+  },
+  {
+   "query": "\"Ad hoc dicunt quidam quoniam\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... Ad hoc dicunt quidam quoniam si referatur ' qui ' ad ' ille ' non potest esse locutio nisi falsa , ut si demonstrarem aliquem dicens ' tu es ille qui stat ' . Ad hoc autem ut uera sit locutio , semper ' qui ' refertur ad suppositum , ut ..."
+     }
+    ],
+    "spellresults": {
+     "correct_spell": "\"Ad hoc discount quidam quoniam\"",
+     "spell_corrected_url": "https://books.google.com/books?id=tWdJAAAAYAAJ&q=%2522Ad%2Bhoc%2Bdiscount%2Bquidam%2Bquoniam%2522&pg=PP1&spell=1&oi=spell"
+    },
+    "search_query_escaped": "&quot;Ad hoc dicunt quidam quoniam&quot;"
+   }
+  },
+  {
+   "query": "\"Eneas qui est genitus\"",
+   "response": {
+    "number_of_results": 2,
+    "search_results": [
+     {
+      "page_id": "PA9",
+      "page_number": "9",
+      "snippet_text": "... ' tu es ille Eneas quem genuit Venus ' . Quare facta conuersione in passiuum uere dicetur ' Tu 11 Verg . Aen . VII , 110 12 Galat . 3 , 16 13 Verg . Aen . I , 617 8 es ille Eneas qui est genitus a Venere ' . 9 ABSOLVTA CVIVSLIBET."
+     },
+     {
+      "page_id": "PA10",
+      "page_number": "10",
+      "snippet_text": "C. H. Kneepkens. es ille Eneas qui est genitus a Venere ' . Propterea dico quoniam facta relatione huius nominis ' qui ' ad ' ille ' , bene sequetur tam sue persone uerbum quam precedentis . Nam ' ego sum ille qui patriam conseruaui ' et ..."
+     }
+    ],
+    "search_query_escaped": "&quot;Eneas qui est genitus&quot;"
+   }
+  },
+  {
+   "query": "\"facta relatione\"",
+   "response": {
+    "number_of_results": 1,
+    "search_results": [
+     {
+      "page_id": "PA10",
+      "page_number": "10",
+      "snippet_text": "... facta relatione huius nominis ' qui ' ad ' ille ' , bene sequetur tam sue persone uerbum quam precedentis . Nam ' ego sum ille qui patriam conseruaui ' et ' ego sum ille qui patriam conseruauit utrumque bene dicitur et utrumque uere ..."
+     }
+    ],
+    "spellresults": {
+     "correct_spell": "\"facta relations\"",
+     "spell_corrected_url": "https://books.google.com/books?id=tWdJAAAAYAAJ&q=%2522facta%2Brelations%2522&pg=PP1&spell=1&oi=spell"
+    },
+    "search_query_escaped": "&quot;facta relatione&quot;"
+   }
+  },
+  {
+   "query": "\"ego sum ille qui patriam\"",
+   "response": {
+    "number_of_results": 3,
+    "search_results": [
+     {
+      "page_id": "PA10",
+      "page_number": "10",
+      "snippet_text": "... ego sum ille qui patriam conseruaui ' et ' ego sum ille qui patriam conseruauit utrumque bene dicitur et utrumque uere eadem ratione qua alterum . Nam quoniam ' ille ' ex se tertie est persone , ideo et eius relatiuum cum tertia persona ..."
+     },
+     {
+      "page_id": "PA16",
+      "page_number": "16",
+      "snippet_text": "... ego sum ille qui patriam conseruauit ' attribuendo formam per relationem . Idem est enim acsi dicerem ' ego sum qui patriam conseruaui ' . Opponitur . ' Ego sum ille ' . Ibi significat ' ego ' meram substantiam , ' sum meram , ' ille ..."
+     },
+     {
+      "page_id": "PA101",
+      "page_number": "101",
+      "snippet_text": "... ego sum ille qui patriam conseruaui ego sum ille qui sedeo / sedet ego sum ille qui sum animal ego sum illud quod sedeo ego sum illud quod sum animal 10 16,39 18 ; 10 , 16 9,10 11 10 11 ego sum Petrus ego sum qui curro ego sum qui 101 ..."
+     }
+    ],
+    "search_query_escaped": "&quot;ego sum ille qui patriam&quot;"
+   }
+  }
+ ]
+}

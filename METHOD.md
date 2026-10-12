@@ -22,6 +22,16 @@ an independence attestation or keep restarting without a workable isolation
 mechanism. If images cannot be inspected, pursue access or textual leads, but
 leave image-dependent claims unresolved.
 
+A first reading full of gaps is a measurement of that reader, not of the leaf.
+Before recording a fragment as unreadable, the coordinator looks at the image at
+reading size: bands of ten to twenty lines, one column wide, enlarged until the
+letters are large (`tools/localcrop.py --strips` cuts these from a cached native
+image). If connected prose is visible there, obtain a better reading, assisted
+if necessary and labelled so, and search it; do not let an isolated reader's
+`[illegible]` decide that no search is justified. The recheck in
+[audits/recheck-2026-10-11.md](audits/recheck-2026-10-11.md) found three
+identifications among records stopped this way.
+
 [HTR](HTR.md) is an optional second measurement. Try it when it could clarify
 uncertain text or when the task calls for a comparison. Inspect segmentation
 before relying on its output. If it fails, try a targeted correction when there
@@ -41,6 +51,18 @@ noisy OCR, or comparisons across candidate texts. Simple direct searches need
 not become a corpus-building exercise. Once a plausible sustained passage is
 located, shift effort to verification. More query variants returning the same
 passage add little evidence.
+
+Catalogue genre labels are leads to test. In one batch a "legal treatise" was a
+commentary on Priscian, a "treatise on logic" was a grammatical summa, and a
+suspected Psalm 118 commentary was on Psalm 50; searching only within the
+catalogued genre would have missed each.
+
+For early printed books, Google Books often returns a garbled snippet and no
+page. Adding the book's title phrase to the query can surface a volume that a
+bare phrase search misses. Treat the snippet as a lead and read the page:
+`tools/gw.py <GW number>` lists libraries holding a digitised copy, and the GW
+number is given in ISTC and most incunable catalogues. Confirm the scan is the
+same work, since unrelated books share short titles.
 
 ## 3. Verify the proposed claim
 
