@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-10-12T19:12:59.182179+00:00",
+  "fragment": "F-imyy",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "a560cbf5e2c2f2bd4ae20a84e66fc81e7ef02f64fe9768d05f70eb9ff334a648",
+        "source": "https://fragmentarium.ms:443/loris/F-6zx2/strip_3_back.jp2/full/1890,/0/default.jpg (canvas 0, fol. [1]r): whole image 1890x1326 reduced to 1800x1263 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "23007bc68d8bfa025f238b67a6564350a9b84407be3e66fef173ca039f39ef5a",
+        "source": "https://fragmentarium.ms:443/loris/F-6zx2/strip_3_back.jp2/full/1890,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 37,26,757,424; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "776f6873741d5be6b74b1edb46a46ceb3769a973d943e73f0e0f484224e81bc8",
+        "source": "https://fragmentarium.ms:443/loris/F-6zx2/strip_3_back.jp2/full/1890,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 602,26,1323,424; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "067ab75314aa0587063acb9fea08ffcceea27a2c132dbd2680706fe25b91a885",
+        "source": "https://fragmentarium.ms:443/loris/F-6zx2/strip_3_front.jp2/full/2018,/0/default.jpg (canvas 1, fol. [1]v): whole image 2018x1198 reduced to 1800x1069 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "51c5bbeb7bc81426a2af23a729c0f6f2fa0e269ca6061226c3774eb4378a7d9b",
+        "source": "https://fragmentarium.ms:443/loris/F-6zx2/strip_3_front.jp2/full/2018,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 60,0,794,383; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "428f63e74d11d7325d63c06cb63130f2dfc7d29b47d435dd61eae2b09288e505",
+        "source": "https://fragmentarium.ms:443/loris/F-6zx2/strip_3_front.jp2/full/2018,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 637,0,1372,383; unrotated grid position column 2 of 2, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-15)",
+  "text": "PACKET-15 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification of the work or author. I opened only PROMPT.md and the six image files of this packet (plus a file-name listing of the packet directory to find the images). No web, search, catalogue or edition was used. I make no identification.\n\nLAYOUT SURVEY (observation)\n- One small crumpled parchment piece, c. 10 x 5 cm, photographed on both sides beside a ruler. image-001 and image-004 are the two overviews; image-002/-003 are left/right tiles of the face in image-001, image-005/-006 left/right tiles of the face in image-004. The tiles overlap in the middle of each line.\n- Each face carries only two lines of writing along the top edge; the rest (about 4 cm) is blank, with an irregular hole/tear in the middle and one brown spot. Tentative: the blank area is a lower margin and the two lines are the last two lines of a column or page; equally possible from the image alone is a note written at the head of an otherwise blank piece.\n- The first line of each face is trimmed along its top (heads of tall letters partly cut); small strokes above it on image-006 may be descenders of a line now lost.\n- Script: small gothic cursive/hybrid book hand, black ink, heavily abbreviated, words separated by mid-height points. Ink has flaked in places (speckled strokes). No rubric, no red, no enlarged initials, no underlining, no glosses visible.\n- Abbreviated source references are written into the text line itself (\"Eze.\" on one face, \"ps.\" at the end of the other) - observation; tentatively citation tags introducing quotations.\n- Lines appear cut at the left on the image-001 face (first word is a word-end) and possibly complete at the right; on the image-004 face the left edge looks like a real line beginning and the right edge ends in \"ps.\" close to the parchment edge.\n\nAREAS SELECTED: both lines of both faces (all the text there is). Nothing left unread except the damaged words marked below.\n\nLine numbers are counted from the top of the named tile.\n\n--- Face shown in image-001 (tiles image-002 left, image-003 right) ---\nimage-002 L1: [...]am? . vicia? (con)te(m)ptor(um)? . b(e)lla? d(omi)n[...]?      (continues in image-003 L1; \"vicia\"/\"victa\"/\"vide\" uncertain; third word reads \"9teñoz\" with -rum sign; word after it begins with a tall letter, \"bla\"/\"lila\")\nimage-003 L1: [...] d(omi)n(u)m?/d(omi)ni? . Eze. i(n) mo(n)tib(us)     (\"Eze\" with two z-like letters and a point; \"īmōtib;\" fairly clear)\nimage-002 L2: isr(ae)l? pascam eos i(n) locis er[...]      (first word reads \"iſrl'\" with cut left stroke; \"pascam eos ī locis\" clear)\nimage-003 L2: [er...]enis? / eremitis?? . De hoc monte     (the word spanning the tile join is flaked: letters seen \"ercenulis/eremitis\"; I cannot decide; \"De hoc monte\" clear, with a final flourish/abbreviation after \"monte\")\n\nJoined reading of the face:\nL1: [...]am? . vicia? (con)te(m)ptor(um)? . b(e)lla? d(omi)n[..]? . Eze. i(n) mo(n)tib(us)\nL2: isr(ae)l? pascam eos i(n) locis [er...is?] . De hoc monte[...]\n\n--- Face shown in image-004 (tiles image-005 left, image-006 right) ---\nimage-005 L1: dolore . (et) sudore . [illegible word, flaked, c. 8 letters, perhaps beginning \"ag-\" or \"con-\"]\nimage-006 L1: [...] . ossa q(uasi)?/q(ui)? fortitudine(m) . (et)     (\"ossa\" fairly clear; the single abbreviated q-word uncertain)\nimage-005 L2: v(ir)tute(m) sua(m) o(mn)i(n)o?/o(mn)e(m)? d[.]uic[...]?     (first word reads \"ỽtutē\"; fourth word begins with a tall letter, \"deuict-\"/\"deuote\"? flaked)\nimage-006 L2: [...] in? dei? seruitio expendit . ps.     (\"seruitio expendit\" clear; the short words before it are flaked - \"in dei\"/\"et dei\"; \"ps.\" with abbreviation stroke at the edge)\n\nJoined reading of the face:\nL1: dolore . (et) sudore . [illegible] . ossa q(?) fortitudine(m) . (et)\nL2: v(ir)tute(m) sua(m) o(mn)i(n)o? d[...]? [in?] dei? seruitio expendit . ps.\n\nLIMITATIONS\n- Only two lines per face survive; a span of ten lines is physically impossible here.\n- Which face is recto and which verso is not determinable. Whatever followed \"De hoc monte\" and \"ps.\" was on the next column/page.\n- Ink loss makes four or five words uncertain as marked; I have not supplied them from sense.\n- The parchment is creased; a flattened or raking-light image, or an adjacent piece from the same leaf, would help with the flaked words in the middle of each line.\n",
+  "text_sha256": "42a4ba2b496c3296e44f82d1f1249507d2572ab9a5c35b00257654714c27c918"
+}

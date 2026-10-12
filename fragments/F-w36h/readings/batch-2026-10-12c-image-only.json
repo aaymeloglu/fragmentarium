@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-10-12T19:12:59.193773+00:00",
+  "fragment": "F-w36h",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "c4c3d896196398d8fe503cf1641f16b8ad93056bbd9a3ad7b66966a5a6ffb89a",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): whole image 4012x5652 reduced to 1278x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "1a40ae008cb277f3c29324064632461af0654fa78c992ad06d82f45879167703",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 0,0,1497,1582; unrotated grid position column 1 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "8b4946899ec94fbd31a6f5b05507bbe64ce1af4f09b80e8d26c14e5f3d68f60c",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 1176,0,2835,1582; unrotated grid position column 2 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "0168eed6a3a32ba4c13b8fe3f0524e6ff0ace05c05425597fd2846308df6431b",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 2514,0,4012,1582; unrotated grid position column 3 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "e51db87bdbf17524efe0080e9a46c933cc5f249ebc9c63f29f55791349dc38f6",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 0,1243,1497,2995; unrotated grid position column 1 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "af14fa5d65e70f94c0a0174838a4d73249aeddeee11344328983e597defd42c0",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 1176,1243,2835,2995; unrotated grid position column 2 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "cee00b8316333c93440d7ef93c987be1f52bcc14aca3f0f146dde7e5b3f62458",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 2514,1243,4012,2995; unrotated grid position column 3 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "90bc7286e02536d86959365554037565799f1070bbfb21534b5c09697d594054",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 0,2656,1497,4408; unrotated grid position column 1 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "4919628871bae5a84156ae70ba70034c4c904830825eb873c828c518b1abc583",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 1176,2656,2835,4408; unrotated grid position column 2 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "64426e04a8683af3ca93e5bed60082bc67407c4a0f201250eff837f84e752f3b",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 2514,2656,4012,4408; unrotated grid position column 3 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "45f9cae0daddca9ba035341ccbf1113e02439ea1e933e5c2b5e48db1efb96d8a",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 0,4069,1497,5652; unrotated grid position column 1 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "5a5fcb2953dc66e17101c8e039609125cfaec4a716ade278f8e452ee9536389e",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 1176,4069,2835,5652; unrotated grid position column 2 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "df4d09606b573c6c4056441baa81fdcebd74f159de4509b148d711e69513ccce",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236630/full/4012,/0/default.jpg (canvas 0, fol. 179r): native-pixel box 2514,4069,4012,5652; unrotated grid position column 3 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "01944aff61175f9cd6f50255075096067911662a7e5e047afab44a8ba280d658",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): whole image 4012x5652 reduced to 1278x1800 for layout"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "791f28fffc3bcb74095c1b6686fa79d947cd6541b6527ec86b8c56751d98f6d4",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 0,0,1497,1582; unrotated grid position column 1 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "f3a3168396356535e787ce589183365704dd9919aeb7f82613db41001439b67e",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 1176,0,2835,1582; unrotated grid position column 2 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "a71e67caa942e4231d83c50ac7381cf96321b00fc277948f71a097c6cab8a23a",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 2514,0,4012,1582; unrotated grid position column 3 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "7d41a67c4ced2b55f944586942d5af20d3a7022f3a630b8da8e52514a58240aa",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 0,1243,1497,2995; unrotated grid position column 1 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "15b05f4210578eb7fe30cdff87ee4268c67ccc261377f9bcd521d5d2b2e44263",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 1176,1243,2835,2995; unrotated grid position column 2 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "dbd3da1c2bf24a44e89e47952a76baffee561fa4085f81d660cbeda85bd8d8c9",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 2514,1243,4012,2995; unrotated grid position column 3 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "e9d3d25877bee520e7b634850f9a23711d76deda341446deeba44d21a337d816",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 0,2656,1497,4408; unrotated grid position column 1 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "159369bab52bb64fd23d573611d34a91ce88fb9ad932e01515079a37471fb95a",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 1176,2656,2835,4408; unrotated grid position column 2 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "b5408568af52db0c528829c013619686ea5ff536c6425a22fa5449aacbe1e84c",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 2514,2656,4012,4408; unrotated grid position column 3 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "99f06ecd57f90d70fd6658ef9382417cf8859e80a4ba901f4dc702ea7b147ebc",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 0,4069,1497,5652; unrotated grid position column 1 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "e89e65b11886f59ec320cb9ef6faf38e94c859c425f984b8177c9cde5cb8b9af",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 1176,4069,2835,5652; unrotated grid position column 2 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "76ce8f1d5f62629ba730380ae13a733b60dae95a3b32c742aabc068bd217162d",
+        "source": "https://lib.is/IE2236625/iiif/2/FL2236631/full/4012,/0/default.jpg (canvas 1, fol. 179v): native-pixel box 2514,4069,4012,5652; unrotated grid position column 3 of 3, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-17)",
+  "text": "PACKET 17 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification or an earlier reading. I opened only PROMPT.md and the 26 image files of this packet. I did nothing beyond the rules. I make no attempt to identify work or author.\n\nLANGUAGE: the text is not Latin. It is a Netherlandic vernacular (Middle Dutch, spellings such as \"outare\", \"bisscop\", \"wijnwater\", \"houcken\", \"kerken\") with short Latin source references underlined in red.\n\n1. LAYOUT SURVEY (image only)\n\nTwo overviews, image-001.jpg (face A) and image-014.jpg (face B): two faces of one parchment leaf that was reused as a binding cover/wrapper. Fold lines, turn-ins, mitred corners with lozenge-shaped cut-outs, and a horizontal spine fold across the middle are visible. Text runs upright in both overviews.\n\nObservations:\n- Two columns per face. On face A the right-hand column is nearly complete in width; the left-hand column survives only as its right-hand portion, on narrow strips separated by a vertical cut. On face B (mirror) the left-hand column is the wide one and the right-hand column survives as strips.\n- Red running title across the upper margin. Face A: \"der kerken\" at left-centre and, at right, a red number \".C.l[hole]viij.\" (a hole removes one or more characters after \"l\", perhaps x; tentatively a folio or chapter number). Face B: \"Van\" at left and \"der [faded red, illegible]\" further right; a faded red offset or erased red text is also visible at far upper left.\n- Red paragraph marks (pilcrows), red strokes touching ordinary capitals (I, E, D, H, T), red points flanking Roman numerals (\".iiij.\", \".vij.\"), and red underlining of two short phrases that look like source citations.\n- No enlarged decorated initials, no interlinear gloss, no marginal gloss seen. A small \"o\" or ring mark sits in the right margin of face A (image-010.jpg), not read as text.\n- Script: a small book hand, about 38-40 lines to the column as far as can be counted across the central fold.\n\nTentative interpretation (not observation): continuous expository prose arranged by numbered points (\"ten anderen\", \"ten derden\", \"ten vierden\", \"ten vijfsten\"; \"Deerste\", \"Dander\"), with scriptural citations underlined in red. Running title across the opening probably reads \"Van ... der kerken\" but the middle is not legible.\n\nCondition: face A is rubbed but largely readable in the right column. Face B is very dark over the whole area that was the outside of the cover; there only isolated letters can be made out, and the readable text is confined to the paler turn-ins (bottom strip and right-hand strips).\n\n2. SPANS SELECTED\n\nA. Face A, right column, upper half (image-003, -004, -006, -007).\nB. Face A, right column, lower half (image-009, -010, -012, -013).\nC. Face A, left column strips (image-002, -005, -008, -011): partial line-ends only.\nD. Face B, bottom turn-in of the wide column (image-024, -025) and right-hand strips (image-017, -020, -023, -026).\nUnread: almost all of the dark central area of face B (image-015, -016, -018, -019, -021, -022).\n\nLine numbers below are counted from the top of the named image. Where a line appears in two overlapping tiles I give it once and name the other tile.\n\n3. TRANSCRIPTION\n\nA. FACE A, RIGHT COLUMN, UPPER HALF\n\nRunning title (image-003.jpg, red): der kerken   [image-002.jpg shows \"der\" and the start of \"ker\"]\nRunning number (image-004.jpg, red): .C.l[hole]viij.   [faint red traces, illegible, to its left]\n\nimage-003.jpg (left part of each line) with image-004.jpg (line-ends):\nimage-003 l.1 : daermense met uerdriuen(?) en sal . en(de)\nimage-003 l.2 : dat doet men bi huwelike [red pilcrow] Ten(?) an\nimage-003 l.3 : deren sal men besien hoeme(n)se con\nimage-003 l.4 : sacreert . maer eerst sullen wijt(?) sie(n)(?)\nimage-003 l.5 : uanden outare . ende ten anderen\nimage-003 l.6 : uander kerke(n) . In deser consecratie(n)\n   [l.5-6 repeat as image-006.jpg l.1-2]\n\nimage-006.jpg (left) with image-007.jpg (line-ends):\nimage-006 l.3 : uande(n) outare . so sijn vele dinghen\nimage-006 l.4 : want eerst maect de bisscop .iiij.\nimage-006 l.5 : crucen uan wijnwat(er)e ten .iiij. hor(n)(?)\nimage-006 l.6 : den(?) uande(n) outare . Ende ten an\nimage-006 l.7 : dere(n) so gaet hi .vij. waerf om den\nimage-006 l.8 : outare . ten derden bespeit(?) [1 short word illegible, \"m..tie\"?]\nimage-006 l.9 : met wijnwat(er)e mette(n) quispele . ten\nimage-006 l.10: vierde(n) so bernent hi daer up wie(?)\nimage-006 l.11: rooc . ten vijfsten so be[..]st(?) hine ten(?)   [a small superscript letter above \"be..st\"; reading of the verb uncertain]\nimage-006 l.12: [in the spine crease: illegible, \"...beclet(?) hi... \"?]\nimage-006 l.13: ne met suuere(n)(?) cleedere(n) . Hier bi w[..]   [red stroke on H; repeats as image-009.jpg l.2]\n\nB. FACE A, RIGHT COLUMN, LOWER HALF\n\nimage-009.jpg (left) with image-010.jpg (line-ends):\nimage-009 l.3 : [crease] [illegible] ... gaen(?) want\nimage-009 l.4 : se sijn(?) sculdich te e[..]he(?) [illegible]\nimage-009 l.5 : vierhande(?) [..] caritate . dat dat si(?)\nimage-009 l.6 : gode minne(n) en(de) hem selue(n) en(de) ho\nimage-009 l.7 : re vriende . ende hore viande . en(de)\nimage-009 l.8 : dit beteekenen de .iiij. crucen die\nimage-009 l.9 : de bisscop in maect met wijnwa\nimage-009 l.10: t(er)e ten .iiij. houcke(n) uande(n) outare .\nimage-009 l.11: Ende uan desen .iiij. houcke(n) uan\nimage-009 l.12: caritaten so lese(n) wi(?)/me(n)(?) in genesi   [\"in genesi\" underlined red]\nimage-009 l.13: .xxviij. cap(itu)lo(?) [underlined red; the word after the numeral is rubbed, \"capitele\" or \"capitulo\"] . Du sils wer(?)\nimage-009 l.14: den ghespreedt(?) ten oosten ten wes\n   [l.12-14 repeat as image-012.jpg l.1-3]\n\nimage-012.jpg (left) with image-013.jpg (line-ends):\nimage-012 l.4 : ten ten noorde(n) ende te(n) zuden .\nimage-012 l.5 : D[..]r[..] maect .iiij. cruce(n) [..] maer(?) [..]\nimage-012 l.6 : [illegible] dat(?) [..] dor dien dat(?)\nimage-012 l.7 : hi be[..]ghe(n)(?) moet(?) dat ziin(?) dien(?)\nimage-012 l.8 : [in fold; illegible]\nimage-012 l.9 : mette(n) cruce . Jof(?) om te betoghene(?)   [red stroke on the capital; \"Oft\"/\"Jof\"]\nimage-012 l.10: dat wi(?) ande(?)[..] manne(n) [..]\nimage-012 l.11: sijn sculdich te draghene dat cru\nimage-012 l.12: ce ons(?) [..]re(n)(?) [..] ghepeinse inde mont(?)\nimage-012 l.13: [tops of letters only, cut by the lower edge]\n\nC. FACE A, LEFT COLUMN (right-hand portion of each line only; a vertical cut divides each line and some letters are lost at it)\n\nimage-002.jpg:\nl.1 : [..]h zweet [..]nde sijn staf(?)\nl.2 : [..]en te wa[..]ene . ende\nl.3 : [..]esen wa[.] so uoorscyn(?)[..]\nl.4 : [..]ghene(n) te [..] sei(?) tren(?) w[..]\nl.5 : [..]ne so lon[.] [..] in gode(?) te\nl.6 : Hoe we[..] loue shulsal(?)[..]   [red stroke on H; = image-005.jpg l.3]\nimage-005.jpg:\nl.4 : [..]udene(n) Le[......]   [phrase beginning \"Le..\" underlined in red, rubbed; apparently a short citation]\nl.5 : [..]als wi off[..]e(n) sullen off(er)(?)\nl.6 : [..]s loofs [..]uge(?) ons(?) wi(?)\nl.7 : [..]n mette(n) [..] so(?)[..] de be\nl.8 : [..]ette(n) siin(?) [..] si(?) met\nl.9 : [..]n . Zwan(?)[..] den lijs(?)\nl.10: [..]oedichei[t] [illegible]\nl.11: [..] oetmo[..] [red pilcrow] T[..]\nl.12: [..]onsoene[..]\nLower strips (image-008.jpg, image-011.jpg): only fragments, e.g. \"[..]there\", \"[..]olele(?)\", \"Dachare(?)\", \"[..] ghene\", \"Oft(?) [..] ende\", \"[..] dese\", \"[..]ghee(?)\". Not connected text; I could not read these reliably.\n\nD. FACE B\n\nRunning title (image-015.jpg, -016.jpg, red): Van        der [faded, illegible]\n\nBottom turn-in, wide (left) column, last four lines of the column (image-024.jpg left part, image-025.jpg right part):\nimage-024 l.1 : die ue(?)[..]tiunste(n)(?) . Jof(?) biden .vij. ou   [first words rubbed; red stroke on capital]\nimage-024 l.2 : ganghe(n) sijn beteekent xpc(?) .vij.\nimage-024 l.3 : uutghi(?)[..] . Deerste was uande(n) heme\nimage-024 l.4 : le in marie(n) lichame . Dand[er] [cut]\n\nBottom turn-in, right column (image-026.jpg, last four lines):\nl.1 : ghene(?) [..] so(?) [illegible]\nl.2 : te makene(?) der(?) [illegible]\nl.3 : tijdd(?) Als [..] sprac(?) dat   [red stroke on A]\nl.4 : [..] dode(?) [..] ghedaen(?)\n\nRight-hand strip, upper part (image-017.jpg bottom, image-020.jpg; left part of each line of the right column, right part hidden/cut):\nimage-020 l.1 : [..]e seuend[e ..]\nimage-020 l.2 : [..]nuel [red pilcrow] T[..]\nimage-020 l.3 : [h]ebbe(n) mel(?) t[..]\nimage-020 l.4 : [..]n . ende d[..]\nimage-020 l.5 : sprecne(?) [..]\nimage-020 l.6 : de .vij. b(?)[..]\nimage-020 l.7 : [..]n de .vij. [..]\nimage-020 l.8 : Deerst[e ..]\nimage-020 l.9 : [..]s Dand[er ..]\nimage-020 l.10: [..]essie . D[..]\nimage-020 l.11: [..] was D[..]\nimage-020 l.12: [..]nt met [..]\n(At the very top of this strip, image-017.jpg, two or three lines in a darker, more cursive ink run at the fold: \"[..] jar(?)[..]\", \"[..]mer(?) [..]\" - not read; possibly a later note or offset. Faint red traces to their right.)\n\nRight-hand strip, lower part (image-023.jpg, image-026.jpg top):\nimage-023: \"[..] ysop(?)[..]\", \"ende on[..]\", \"ysope e(n)[..]\", \"[..]ene de[..]\", \"beteek[ent ..]\", \"[w]erden gh[..]\", \"[..] beteek[..]\", \"[..]on lijde(?)[..]\", \"de [..]ote(?) [..]\", \"don were(?)[..]\"\nimage-026: \"[..] up de[..]\", \"[..]or hede(?) [..]\", \"[..] gh[..]\"\n\nDark central area of face B (image-016, -018, -019, -021, -022): ruling and the positions of red capital strokes and two red underlines are visible, but I could not read connected words; isolated shapes only (e.g. \"Dand[..]\"(?) in image-021/-022). Not transcribed.\n\n4. LIMITATIONS\n\n- Left column of face A and right column of face B survive only as strips; every line there is incomplete, and letters are lost at the vertical cut.\n- The spine fold destroys or hides 2-3 lines in the middle of each column (image-006 l.12, image-009 l.3-4).\n- The red running number is interrupted by a hole.\n- Line numbers within tiles are approximate to within one line where a tile begins or ends on a cut line or a crease.\n- u/n, c/t and minims are hard to separate in this rubbed hand; all readings marked (?) are open. Expansions in parentheses are mine. Nothing was supplied from sense where letters were not visible.\n- Column order: I take the wide right column of face A to be column b of that page, and the wide left column of face B to be column a of the other page; which face is recto is not determined from the images.\n- For a usable reading of face B's central area a raking-light, infrared or UV capture would be needed; an adjacent crop will not help.\n",
+  "text_sha256": "3328e31e0a9236dce7ba052ef4619c2f5ec49adc657baa84c813bb85bd897796"
+}

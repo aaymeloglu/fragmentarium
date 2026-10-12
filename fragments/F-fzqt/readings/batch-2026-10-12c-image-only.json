@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-12T19:12:59.125643+00:00",
+  "fragment": "F-fzqt",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "07bf7298ad68cac664833be99c4d05c78b9ba2fc3a251cc231e9ccf7c0316142",
+        "source": "https://fragmentarium.ms:443/loris/F-fzqt/ehc_20220623a_0009_Fragm_152a.jp2/full/2505,/0/default.jpg (canvas 0, Fragm. 152a r): whole image 2505x1546 reduced to 1800x1111 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "5d224c17aaadc7188c719820e5c19afa8974a01511bbe7d227384fc0841b86f2",
+        "source": "https://fragmentarium.ms:443/loris/F-fzqt/ehc_20220623a_0009_Fragm_152a.jp2/full/2505,/0/default.jpg (canvas 0, Fragm. 152a r): native-pixel box 200,278,1503,850; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "f2f3a155914dd0f097dcfc850eb635d708f081fd8eacb3cd6a56fdb33641fde8",
+        "source": "https://fragmentarium.ms:443/loris/F-fzqt/ehc_20220623a_0010_Fragm_152a.jp2/full/2555,/0/default.jpg (canvas 1, Fragm. 152a v): whole image 2555x1538 reduced to 1800x1084 for layout"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "a85eef6db0067e5c466989db925ea60c8e33b56f7f5019d84edd545689404332",
+        "source": "https://fragmentarium.ms:443/loris/F-fzqt/ehc_20220623a_0010_Fragm_152a.jp2/full/2555,/0/default.jpg (canvas 1, Fragm. 152a v): native-pixel box 178,261,1533,799; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "8436a6720096d5c78912db9d2379989676ba18db1f975c626ec585d1919f18ea",
+        "source": "https://fragmentarium.ms:443/loris/F-fzqt/ehc_20220623a_0011_Fragm_152b.jp2/full/2595,/0/default.jpg (canvas 2, Fragm. 152b r): whole image 2595x1728 reduced to 1800x1199 for layout"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "8800a21917852a2e1806734ea8cbbeac83ab3407fa7afe7e0445ef16791d4bcf",
+        "source": "https://fragmentarium.ms:443/loris/F-fzqt/ehc_20220623a_0011_Fragm_152b.jp2/full/2595,/0/default.jpg (canvas 2, Fragm. 152b r): native-pixel box 207,293,1557,950; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "8142a800ea22ca06d9a2de37afd11f41257bcb527ad64a3613abc0fc1d9e804e",
+        "source": "https://fragmentarium.ms:443/loris/F-fzqt/ehc_20220623a_00012_Fragm_152b.jp2/full/2504,/0/default.jpg (canvas 3, Fragm. 152b v): whole image 2504x1708 reduced to 1800x1228 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "056288a0553f556b2b91fb8c8eea4375231163b5c5003a2c8699116f0bcd32d5",
+        "source": "https://fragmentarium.ms:443/loris/F-fzqt/ehc_20220623a_00012_Fragm_152b.jp2/full/2504,/0/default.jpg (canvas 3, Fragm. 152b v): native-pixel box 225,307,1577,1076; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-03)",
+  "text": "PACKET-03 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification of the work or author. I opened only PROMPT.md and the eight image files of this packet (plus a file-name listing of the packet directory to find the images). No web, search, catalogue or edition was used. I make no identification.\n\nLAYOUT SURVEY (observation)\n- Four faces are shown: two small horizontal parchment strips, each photographed on both sides, with a label \"A\" (image-001, image-003) or \"B\" (image-005, image-007) and a 17 cm ruler. image-002, -004, -006, -008 are native-resolution tiles of the same four faces.\n- Each strip is c. 10 cm wide and 3-4 cm high, text upright as photographed.\n- Two columns on every face; one column is nearly complete in width, the neighbouring column is preserved only as a few letters at the strip edge.\n- Strip A keeps 3 full lines plus the tops of a 4th line on each face, with a blank band above the first line (tentative: upper margin, so these are the first lines of the columns).\n- Strip B keeps 2 lines at the top edge on each face (the first of them cut through its upper half) and a wide blank band below with two horizontal rows of sewing/stitch holes and slits (tentative: lower margin, so these are the last lines of the columns; the strip was reused as a binding stay).\n- Script: a small formal gothic book hand, brown-black ink. One red paraph or small red initial flourish stands in the intercolumnar space on image-002 beside line 3. No running titles, no rubric text, no underlining, no interlinear or marginal glosses visible.\n- The text itself uses \".i.\" and \".s.\" (id est / scilicet) glossing formulas inside the lines (tentative: an expository or commentary-type prose; observation only).\n\nAREAS SELECTED: every legible line on all four faces (all is transcribed; nothing left unread except the cut lines noted).\n\nLine numbers are counted from the top of the named tile image. Overview images 001/003/005/007 show the same lines and add nothing.\n\n--- STRIP A, face shown in image-001 / image-002 ---\n\nLeft column (only line ends survive, left part lost and darkened):\nimage-002 L1: [illegible, 4-6 letters, torn and stained]\nimage-002 L2: [...]diablo?   (reads \"diablo\" or \"diabło\"; possibly diab(o)lo; first letters stained)\nimage-002 L3: [...] mali\n(red paraph / flourish in the gap between the columns at L2-L3)\n\nRight column:\nimage-002 L1: ieiunia n(ost)ra in eam? n(on) esurire     (\"in eam\" uncertain: minims read \"mcam\"/\"in eam\"; a superscript mark stands over the end of that word)\nimage-002 L2: ut ho(m)i(n)es .i. t(er)rena amare. (et) esu-\nimage-002 L3: rire ut d(eu)s esuriit .s. salutem\nimage-002 L4: [cut off: only tops of letters visible at the lower edge of image-001, not readable]\n\n--- STRIP A, other face, image-003 / image-004 ---\n\nLeft column:\nimage-004 L1: q(ua)m laboram(us) p(ro) cibo corp(or)is acq(ui)-\nimage-004 L2: rendo. De q(u)o tam(en) n(on) uiuit corp(us) n(isi)\nimage-004 L3: comedat(ur). nec a(n)i(m)a de u(er)bo dei.\nimage-004 L4: [cut off: tops only; visible in image-003 as \"n(?)isi fa[...]\" - very uncertain]\n\nRight column (only line beginnings survive, torn):\nimage-004 L1: iu[...]?   (or \"ui\", \"in\")\nimage-004 L2: gl(ori)osa? [...]   (reads \"gło ſa\"; could be gl(os)a)\nimage-004 L3: uicit? / uien[...]?\n\n--- STRIP B, face shown in image-005 / image-006 ---\n\nLeft column (line ends):\nimage-006 L1: [...]ciat? a(u)t(em)? de     (upper half of line cut away; reading uncertain)\nimage-006 L2: de luto? terre     (first word reads \"delu(?)to\" with a descender under the middle; \"de luto\" probable but uncertain)\n\nRight column:\nimage-006 L1: rede(m)pt(u)s? .i. am[...]i? ih(es)u (christ)i.     (upper half of line cut; \"redeptus\"/\"redeptiis\" and the word after \".i.\" uncertain - possibly \"amici\" or \"a morte\"; \"ihu xpi\" fairly clear)\nimage-006 L2: amor tanti rede(m)ptoris eu(m) reuo-\n(below: blank parchment with two rows of stitch holes; no text)\n\n--- STRIP B, other face, image-007 / image-008 ---\n\nLeft column:\nimage-008 L1: hostes p(er)seq(ue)ndos. (con)uocat d(omi)n(u)s     (top of line slightly trimmed; \"dns\" could also be read \"ans\")\nimage-008 L2: p(o)p(u)l(u)m suu(m) qui boni s(un)t milites\n\nRight column (line beginnings, cut at right edge):\nimage-008 L1: [...]tionis? . q(ui)a? [...]     (reads \"aonis\"/\"ctionis\"; top trimmed)\nimage-008 L2: (et) reu(er)titur [...]\n(below: blank, stained parchment with two rows of stitch holes; no text)\n\nLIMITATIONS\n- Which face of each strip is recto and which verso cannot be determined from the images, nor the order of strips A and B relative to each other.\n- Column order within a face: the wider preserved column is on the right on image-002 and image-006, on the left on image-004 and image-008, consistent with the two sides of the same strips.\n- Each line continues onto text not preserved (hyphenated breaks \"esu-/rire\", \"acq(ui)-/rendo\", \"reuo-\"). No continuous run of more than three lines exists on any face; ten-line spans are physically impossible here.\n- First lines on strip B and fourth lines on strip A are cut through and are given as uncertain or unread.\n- A wider view is not available; an adjacent strip from the same leaf would be needed to connect these lines.\n",
+  "text_sha256": "0eb09ecc37ed233e86e17692ff0d7692943cf65bc5850004d3562a383cd02cd0"
+}

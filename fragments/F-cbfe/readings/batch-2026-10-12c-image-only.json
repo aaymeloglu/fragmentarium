@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-10-12T19:12:59.180832+00:00",
+  "fragment": "F-cbfe",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "5c60a6dde55fcb052302b79804fe668b47898299192914e72d42314815cacef4",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): whole image 5780x3077 reduced to 1800x958 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "044d6b2f3b2586eb4f3952ba8560a818e2447716f724573a3a03bb0f821085f3",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 0,1292,2157,3077; unrotated grid position column 1 of 3, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "f68ede3fc58b459ee04b0db4cca436e82479a7bb244b58e0366d26604128585b",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 1695,1292,4084,3077; unrotated grid position column 2 of 3, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "1c82123a2cb0979c1fee3b935e2a81750f087a57c27edef9585a0b7f3ab85a98",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 3622,1292,5780,3077; unrotated grid position column 3 of 3, row 1 of 1"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "f3adbb5fba4be4a0bf4cc5dcd57b795c717922c78daff1782dd0f7e696ff4727",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): whole image 5780x3077 rotated 90 degrees counterclockwise and reduced to 958x1800 for layout"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "cd8fa42e97e32433bd35e9c97bf195a23c72934c977aa62b58527de0066ffc67",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 0,1292,2157,3077, rotated 90 degrees counterclockwise; unrotated grid position column 1 of 3, row 1 of 1"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "031d239741fd763137953b3d58007a88e19342f82495c799c0460e91c451e148",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 1695,1292,4084,3077, rotated 90 degrees counterclockwise; unrotated grid position column 2 of 3, row 1 of 1"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "5f28ced3bff06bc7d4dd50a8467a82f12543b366025c29c4caaf42195e83c53a",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 3622,1292,5780,3077, rotated 90 degrees counterclockwise; unrotated grid position column 3 of 3, row 1 of 1"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "589be9523d2cbd564abef76d6da9cc5fc26aed533af69edf831491364b40bfa8",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): whole image 5780x3077 rotated 270 degrees counterclockwise and reduced to 958x1800 for layout"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "9cda73eee03944fac214ea8013a0a4b36d542819d6766c3e2a7aef8a9f980f77",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 0,1292,2157,3077, rotated 270 degrees counterclockwise; unrotated grid position column 1 of 3, row 1 of 1"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "71c3499781ca03c93e0a4b350ea09301a4a53f7bc422ba1f1d80c495b69cba95",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 1695,1292,4084,3077, rotated 270 degrees counterclockwise; unrotated grid position column 2 of 3, row 1 of 1"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "fcc09018e008a77e79deb7792832405ad64080f7c92ad55610e4258aea8c17fb",
+        "source": "https://fragmentarium.ms:443/loris/F-cbfe/DSC00209.JPG/full/5780,/0/default.jpg (canvas 0, binding strips): native-pixel box 3622,1292,5780,3077, rotated 270 degrees counterclockwise; unrotated grid position column 3 of 3, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-14)",
+  "text": "PACKET-14 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification of the work or author. I opened only PROMPT.md and the twelve image files of this packet (plus a file-name listing of the packet directory to find the images). No web, search, catalogue or edition was used. I make no identification of work or author. (The proper name \"zacharia\" is simply read off the parchment.)\n\nLAYOUT SURVEY (observation)\n- The images show the exposed spine of a bound volume, with a colour chart/ruler laid beside it. image-001, image-005 and image-009 are reduced overviews of the same spine in three rotations; image-002 to -004, -006 to -008 and -010 to -012 are native-resolution tiles of the same areas in those rotations. All tiles show the same four pieces of text; they overlap heavily and add no further text to each other.\n- The spine has three raised sewing supports and an endband at each end. Pasted into the four compartments between them are four small rectangular pieces of written parchment (spine linings), each c. 4-5 cm across the spine and 3.5-4 cm high. Numbering them from the end shown at the bottom of image-005:\n  Panel 1 (end compartment, partly under endband tie-downs) - upright in image-005/-006.\n  Panel 2 - upside down relative to panel 1; upright in image-009/-011. Paler, greyer surface, ink fainter (tentative: flesh side or show-through side, or abraded).\n  Panel 3 - written at right angles to the spine; upright in image-001/-003/-004. Its lower left corner is torn away.\n  Panel 4 (other end compartment, partly under endband tie-downs) - upright in image-005/-008.\n- Script: small, rounded late-caroline / early-gothic-looking book minuscule (observation of form only; no dating intended), black-brown ink, \"&\" and tironian-style \"7\" both used for et. Sentence-initial capitals are touched or written in red (S, C, N, I, A, E, Q). No running titles, rubrics, underlining, or glosses visible. Each panel shows a single text block cut on both sides, so the column layout of the original leaf cannot be seen; a tight strip like this does not show whether the leaf had one or two columns.\n- Tentative interpretation only: continuous prose narrative/exposition; the four pieces look like the same hand and are probably cut from one leaf or bifolium.\n\nAREAS SELECTED: all four panels, every line that can be made out. Unread: the lines under the endband threads (panel 1 lines 5-7 in part, panel 4 lines 1-3 largely), and the cut first/last lines of each panel.\n\nLine numbers are counted from the top of the named tile, counting only the lines of the panel that is upright in that tile.\n\n--- PANEL 1 (image-006, upright; also image-002 sideways, image-010 inverted) ---\nimage-006 L1: apparuit in te(m)plo. & nuntiauit ei nat[...]\nimage-006 L2: te(m) filii sui noluit credere. & p(ro)pter[...]\nimage-006 L3: dit loquela(m). S(ed) cu(m) credidit u(er)b[...]          (S touched red)\nimage-006 L4: ilico ap(er)tu(m) e(st) os ei(us). (et) stati(m) ap(er)uit? d(eu)s e[...]     (\"aperuit\" uncertain: a hole breaks the word, \"ap..uit\")\nimage-006 L5: loque[...]t? . [illegible] ubi? t[...] i[..]o[...]     (under tie-down threads)\nimage-006 L6: [...]er[...] [illegible] . (et) fac(tus)? e(st) tim(or) sup(er)[...]     (under threads; \"fac9 e tim9 sup\" fairly visible)\nimage-006 L7: [...]eos? . (et) sup(er)? o(mn)ia montana iude[...]     (\"montana\" clear; the rest uncertain)\nLeft edge appears to be the true beginning of the lines (letters aligned, small margin); right edge is cut.\n\n--- PANEL 2 (image-011, upper half, upright; also image-010 lower edge, image-007 inverted, image-003 sideways) ---\nimage-011 L1: [cut line: only descenders and bottoms, \"...uoiui? q(?)...\" not readable]\nimage-011 L2: p(er)seuerauerit usq(ue) in fine(m). E[...] p[...]co[...]      (E in red; following word abraded)\nimage-011 L3: [...]it se e(ss)e plen[um] uirtutis? potest[...] d[...]     (\"uirtutis\" uncertain, \"u..tus/uirtus\"; \"potestate\"?)\nimage-011 L4: [...] restituit? s[...] lib(er)[...] de? manu d[i]aboli?      (very uncertain; letters seen: \"restituit ſ; libir; demanu dadoh\")\nimage-011 L5: [...]erant implere. hoc q(uo)q(ue)? d(i)c(tu)m? e(st) accipi[...]     (\"hoc q; oc̄e\" - abbreviations uncertain)\nimage-011 L6: [...] q(ua)ndo uenerit dies iudicii? in ead[...]? ip[...]     (\"dies iudicii\" probable but abraded)\nimage-011 L7: [...] impiis (et) cu(m) peccatorib(us). S(ed) cu(m) alliga[...]?     (S touched red; last word uncertain \"alliqu-/alliga-\")\nimage-011 L8: [...]uer(un)t? iusti (et) mis(er)icordes possint? a[...]     (\"iusti 7 mi(sericor)des\" fairly clear; verb forms uncertain)\nBoth edges cut; a red mark at the far left of L6 and right of L4 may be further red-touched capitals lost at the edges.\n\n--- PANEL 3 (image-003 right half and image-004 left half, upright; the two tiles overlap and show the same lines) ---\nimage-003 L1: [...]ui?. Q(u)ia zacharia pat(er) [...]      (top of line cut; Q in red; \"pat(er)\" from image-004 L1)\nimage-003 L2: angelum in te(m)plo. q(ui) nu(n)tiaui[t]      (end from image-004 L2 \"qui nūtiaui\")\nimage-003 L3: [...]ui. stati(m) mut(us) factus est\nimage-003 L4: [...]e. Cu(m)q(ue) uellent eu(m) uocar[e]     (C in red)\nimage-003 L5: [...]i zacharia(m). ei? respondet     (\"ei\"/\"ti\"/\"t(un)c\" uncertain; \"respondet\" ends at panel edge, could continue)\nimage-003 L6: Nequaqua(m). S(ed) uocabit(ur)     (N touched red)\nimage-003 L7: [...]h non recognouit hoc     (first letter(s) lost; an \"h\" or \"b\" with abbreviation stroke before \"non\")\nimage-003 L8: [...]tu s(an)c(t)o. Iustu(m) erat in ips[...]     (I in red; could be \"ut ips-\")\nimage-003 L9: [...] nom(en) q(uod) [d]ebebat ess[e]     (small hole in \"debebat\")\nThe right edge looks like the true line end in several lines (est, hoc); the left edge is torn diagonally, losing more at the bottom.\n\n--- PANEL 4 (image-008, upper part, upright; also image-004 sideways, image-012 inverted) ---\nimage-008 L1: [under endband threads; scattered letters only: \"...erat? ...\" not readable]\nimage-008 L2: [...]ue? [...] in suu(m)? [...]oc b[...] p(?)[...]m[...]     (under threads; unreliable)\nimage-008 L3: [...]ne? E[...] [illegible] uita(m)?. R[...]enun[...]?     (red E near left; under threads; unreliable)\nimage-008 L4: [...]di con[...]odere? q(uod)? in iuuene? [...]erit u[...]     (uncertain throughout)\nimage-008 L5: [...] (est)? s(e)c(un)d(u)m? [...]cedarent? (et) maxime de hoc\nimage-008 L6: [...]atus. q(ui)a nullus erat in cognatione\nimage-008 L7: [...] qui ille? nom(en) haberet. Apertu(m)[...]     (A in red; a superscript letter over \"haberet\"; word after \"qui\" damaged by a ridge)\nimage-008 L8: [cut: only superscript marks/tops visible above the sewing support]\n\nLIMITATIONS\n- All four pieces are cut on at least one side; no line is certainly complete, and the order of the four panels in the original leaf is not established by the images. Panels 1 and 3 share vocabulary (in templo, nuntiauit, zacharia, loquela, nomen), as do 3 and 4 (nomen, cognatione), so they are probably close together in the text, but I have not arranged them.\n- The reverse sides are pasted down and unseen.\n- Panel 2 is abraded and several readings there are guesses from letter shapes; panel 4 lines 1-4 and panel 1 lines 5-7 are obscured by endband tie-down threads and worm holes.\n- Lifting the linings, raking light, or multispectral images of panel 2 and of the areas under the tie-downs would be needed for more text.\n",
+  "text_sha256": "03feed3c1802970780f4b4edb729a4c2238d109109fb8637d972d2b197457c60"
+}

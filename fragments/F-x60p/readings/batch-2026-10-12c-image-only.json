@@ -1,0 +1,257 @@
+{
+  "captured_at": "2026-10-12T19:12:59.168205+00:00",
+  "fragment": "F-x60p",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "6bbe7ed78bf678be238435bb4c152e9b2ad726e9f450db4fd211cf693039e489",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215261/full/1618,/0/default.jpg (canvas 0, fragment 1 recto): whole image 1618x3347 reduced to 870x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "0f01e9b00cd74f949c13ed56fb53a92af107ea6aeca704b700bef2480fe0c605",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215261/full/1618,/0/default.jpg (canvas 0, fragment 1 recto): native-pixel box 0,0,1618,1874; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "6c8dcf6d3c5732099ceeeb062f9e735d8b52d437646c7e0cd0c7525301035dc5",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215261/full/1618,/0/default.jpg (canvas 0, fragment 1 recto): native-pixel box 0,1472,1618,3347; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "8a23ae576d7e4149d9b851d5b362a2b6165f7af4e34ae864fe02d3a419ed6d2f",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215262/full/1618,/0/default.jpg (canvas 1, fragment 1 verso): whole image 1618x3347 reduced to 870x1800 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "6a9f659a179b8fba9ade5c291595d30ace90ecfcb54155336f06e35d7ce21269",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215262/full/1618,/0/default.jpg (canvas 1, fragment 1 verso): native-pixel box 0,0,1618,1874; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "893787f5800413177362f06df5254b54a6f247a5e4bceb3ca618d336743ba03f",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215262/full/1618,/0/default.jpg (canvas 1, fragment 1 verso): native-pixel box 0,1472,1618,3347; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "b0084471fc16833f255e4ec45cee47925cf885f9a22ff8a6f6d9dbd64f259c57",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215263/full/3571,/0/default.jpg (canvas 2, fragment 2 recto): whole image 3571x3214 reduced to 1800x1620 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "c3aa709590eaac1fb69601377945b64366774a980b7a4b31068394485f6478ac",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215263/full/3571,/0/default.jpg (canvas 2, fragment 2 recto): native-pixel box 0,0,1999,1799; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "6bda21d69fef5450d521269072228338b77557da5b462446cd389a39542b958c",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215263/full/3571,/0/default.jpg (canvas 2, fragment 2 recto): native-pixel box 1571,0,3571,1799; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "b4a8b325c929ce762b455eb4654fcfe8e6468599c170fd384b88aa02e17c79f7",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215263/full/3571,/0/default.jpg (canvas 2, fragment 2 recto): native-pixel box 0,1414,1999,3214; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "4884aa806fcfc7e02df1433ffec51fd14988b85b8e141097856d26cdba69f5e9",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215263/full/3571,/0/default.jpg (canvas 2, fragment 2 recto): native-pixel box 1571,1414,3571,3214; unrotated grid position column 2 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "3e004b79fd8001388f15c47ddcd3320b01f4b4076c6f23aa4c023d4c30d9a897",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215264/full/3570,/0/default.jpg (canvas 3, fragment 2 verso): whole image 3570x3214 reduced to 1800x1621 for layout"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "b33ce059288e6760b0834c7f22e2ada8d878a1c50f39293c5773325ee952fe4b",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215264/full/3570,/0/default.jpg (canvas 3, fragment 2 verso): native-pixel box 0,0,1999,1799; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "b050e6251d550236f30db8864994168498ceadff26b711dcf5c7d4bd8d104d2a",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215264/full/3570,/0/default.jpg (canvas 3, fragment 2 verso): native-pixel box 1570,0,3570,1799; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "ab39eee3023c16720c664cf9021519f0d58395a3d0a8542211194e66638c1d5e",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215264/full/3570,/0/default.jpg (canvas 3, fragment 2 verso): native-pixel box 0,1414,1999,3214; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "18e93d9f4d7235138fc78677abcc206457f753f4e10b54bb862158f7908d881f",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215264/full/3570,/0/default.jpg (canvas 3, fragment 2 verso): native-pixel box 1570,1414,3570,3214; unrotated grid position column 2 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "ae2d07358742c5ca94417b6a69319fbf0cbd23663e3858775c7f4f90f7ed0162",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215265/full/1739,/0/default.jpg (canvas 4, fragment 3 recto): whole image 1739x2689 reduced to 1164x1800 for layout"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "ed4f472161d6fdb5ce796f433571cc66d97cf60a4434b8f8742bdf7d9f107e23",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215265/full/1739,/0/default.jpg (canvas 4, fragment 3 recto): native-pixel box 0,0,1739,1505; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "df2ddb6df8e4c4a0589ed60fad0ecc816d1efde033000ed33a85ad0332ba243f",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215265/full/1739,/0/default.jpg (canvas 4, fragment 3 recto): native-pixel box 0,1183,1739,2689; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "692d5e0b5e8ebf0d04c89a278bfb4ddadcde3b4f2b48af8abe52cabbf3318827",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215266/full/1739,/0/default.jpg (canvas 5, fragment 3 verso): whole image 1739x2688 reduced to 1165x1800 for layout"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "3376deef686517b737668cb5f100b61da22620bd90dade4b80006105aac4819d",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215266/full/1739,/0/default.jpg (canvas 5, fragment 3 verso): native-pixel box 0,0,1739,1505; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "f086edce14bce54ede3638e359f62de722278678d671e52939f86043b82d71a5",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215266/full/1739,/0/default.jpg (canvas 5, fragment 3 verso): native-pixel box 0,1182,1739,2688; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "b330827d4c361a25e45a639729f5f8d9b929dc5f9bc408b265940b92103cff8c",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215267/full/1391,/0/default.jpg (canvas 6, fragment 4 recto): whole image 1391x3420 reduced to 732x1800 for layout"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "71f3297a30eb56298f19c3b3ffa38542aabcf1cbd824af2aa0d99ffc98ba394f",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215267/full/1391,/0/default.jpg (canvas 6, fragment 4 recto): native-pixel box 0,0,1391,1915; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "a431f6c67755a35e7ca110420471ee9baf2617e6938f0d063c736f2dec33b9c7",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215267/full/1391,/0/default.jpg (canvas 6, fragment 4 recto): native-pixel box 0,1504,1391,3420; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "f81c8ae2e1bf927ab5207abf559a4b774d01df3179fc4244f5d4814b8d798497",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215268/full/1392,/0/default.jpg (canvas 7, fragment 4 verso): whole image 1392x3420 reduced to 733x1800 for layout"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "43d9c19a263267ea8258195a575e0d2323438e386ee83974db6c44f350c39703",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215268/full/1392,/0/default.jpg (canvas 7, fragment 4 verso): native-pixel box 0,0,1392,1915; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "0efed481d9ec68b892fc124cb90d7c579ee61b90c6bad7e1d657df1b112d5f33",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215268/full/1392,/0/default.jpg (canvas 7, fragment 4 verso): native-pixel box 0,1504,1392,3420; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "9297f4071928ab062dd786155eead62ddfa33b59485aa86481d233519fc425c6",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215269/full/3384,/0/default.jpg (canvas 8, fragment 5 recto): whole image 3384x2890 reduced to 1800x1537 for layout"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "0f7ba179d35fa48cfad357c3df3d22c15e733171dc7d77c83c4f97b9205ff7fc",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215269/full/3384,/0/default.jpg (canvas 8, fragment 5 recto): native-pixel box 0,0,1895,1618; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "84af51a5ff5859ec2c311a107fe5df5ecc2a365b522364ce5bfc3767f4931c1e",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215269/full/3384,/0/default.jpg (canvas 8, fragment 5 recto): native-pixel box 1488,0,3384,1618; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "5f8fe1342d693b328ddae8fd634e24c13d880a12c36875260f3a094d6ee0c34b",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215269/full/3384,/0/default.jpg (canvas 8, fragment 5 recto): native-pixel box 0,1271,1895,2890; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "d39b725a1a2313508a0746ec66e5d0d93917c86a192d30a9b6b4080246d72cb7",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215269/full/3384,/0/default.jpg (canvas 8, fragment 5 recto): native-pixel box 1488,1271,3384,2890; unrotated grid position column 2 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "fa7f6b3d9c5057376edc8eb77e70cfabc13c1feb82e4544413ccc9598e719364",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215270/full/3384,/0/default.jpg (canvas 9, fragment 5 verso): whole image 3384x2891 reduced to 1800x1538 for layout"
+      },
+      {
+        "name": "image-035.jpg",
+        "sha256": "5ac4e36e6207e658c9929f9f3f7e4a5b0425990caa4158490d689bbff5bb73fb",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215270/full/3384,/0/default.jpg (canvas 9, fragment 5 verso): native-pixel box 0,0,1895,1618; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-036.jpg",
+        "sha256": "680825077a2f4d86eb0a138b4e305ea0541717f4f83bee58735e5c9fdf03190d",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215270/full/3384,/0/default.jpg (canvas 9, fragment 5 verso): native-pixel box 1488,0,3384,1618; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-037.jpg",
+        "sha256": "2b8a44074f23f6a9feb9c3bead6f50bccf54db98760d4a278908c2b60c3afc44",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215270/full/3384,/0/default.jpg (canvas 9, fragment 5 verso): native-pixel box 0,1272,1895,2891; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-038.jpg",
+        "sha256": "20687cdb18fd05fd97e3139a6995fc15d1c3dbb14477c30d1873d5d93751743a",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215270/full/3384,/0/default.jpg (canvas 9, fragment 5 verso): native-pixel box 1488,1272,3384,2891; unrotated grid position column 2 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-039.jpg",
+        "sha256": "3fa240ee6bbdfcbd250a73c432f08362a400065097a270bc0e889c5491da6637",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215271/full/3384,/0/default.jpg (canvas 10, fragment 6 recto): whole image 3384x2741 reduced to 1800x1458 for layout"
+      },
+      {
+        "name": "image-040.jpg",
+        "sha256": "646255dab3ad9bd6fc2226848213d5bfaf93df1f64c0664a036f2b609b977525",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215271/full/3384,/0/default.jpg (canvas 10, fragment 6 recto): native-pixel box 0,0,1895,1534; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-041.jpg",
+        "sha256": "676b3c0b325865d727310844721565446599f6f9820e5ea336ac571a3fd98819",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215271/full/3384,/0/default.jpg (canvas 10, fragment 6 recto): native-pixel box 1488,0,3384,1534; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-042.jpg",
+        "sha256": "4a0d3d136677cf17ad54f88d9f053c1e8d70dfb06acdee5f189ab17527afa3db",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215271/full/3384,/0/default.jpg (canvas 10, fragment 6 recto): native-pixel box 0,1206,1895,2741; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-043.jpg",
+        "sha256": "333633676c0de0dea7c2c06e78c67db8d678c43a32536e5bfd3fca0290c5d5bf",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215271/full/3384,/0/default.jpg (canvas 10, fragment 6 recto): native-pixel box 1488,1206,3384,2741; unrotated grid position column 2 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-044.jpg",
+        "sha256": "d54197e676c57a6e9062bfbe84acc1f49ce63d73a6b7e0b89599c841dafafb16",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215272/full/3384,/0/default.jpg (canvas 11, fragment 6 verso): whole image 3384x2741 reduced to 1800x1458 for layout"
+      },
+      {
+        "name": "image-045.jpg",
+        "sha256": "f4df17cda08e7387c69b606cb16b8eea5217c9f3d02be3f11c97fe493279e38f",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215272/full/3384,/0/default.jpg (canvas 11, fragment 6 verso): native-pixel box 0,0,1895,1534; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-046.jpg",
+        "sha256": "0ca17a3aa668baacbf664c2d9c9611c0af72fa773e643d253717b3c7a863c553",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215272/full/3384,/0/default.jpg (canvas 11, fragment 6 verso): native-pixel box 1488,0,3384,1534; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-047.jpg",
+        "sha256": "f7b8768d33aef658d53dc429053d706a9b18422048c9b726548a9f1586f7b539",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215272/full/3384,/0/default.jpg (canvas 11, fragment 6 verso): native-pixel box 0,1206,1895,2741; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-048.jpg",
+        "sha256": "3497a083c0834ec8a27873f7ba7b8551a23906926b78ae65fbde3c402c7dc242",
+        "source": "https://lib.is/IE2215246/iiif/2/FL2215272/full/3384,/0/default.jpg (canvas 11, fragment 6 verso): native-pixel box 1488,1206,3384,2741; unrotated grid position column 2 of 2, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-10)",
+  "text": "PACKET 10 - FIRST READING (image only, unverified)\n\nEXPOSURE / RULES STATEMENT\nNothing in my context revealed a proposed identification of any work or author for these pieces, and I do not offer one. I opened only PROMPT.md and the 48 image files. One thing beyond the bare rules: I ran a file listing of the packet directory to learn the image names and pixel sizes (this showed the name packet.json, which I did not open), and I kept private working notes in a scratch file while reading. No web, search, catalogue or edition was used.\n\nHOW THE PACKET IS ORGANISED (from the images)\nSix separate parchment pieces, each with two faces. Faces are labelled \"A\"/\"B\" only by order of appearance; I cannot say which is recto.\n  Piece 1: image-001 (overview, face A), image-002 (top tile), image-003 (bottom tile); image-004 (overview, face B), image-005 (top), image-006 (bottom).\n  Piece 2: image-007 (overview, face A), image-008..011 (tiles TL, TR, BL, BR); image-012 (overview, face B), image-013..016 (TL, TR, BL, BR).\n  Piece 3: image-017 (overview, face A), image-018 (top), image-019 (bottom); image-020 (overview, face B), image-021, image-022.\n  Piece 4: image-023 (overview, face A), image-024 (top), image-025 (bottom); image-026 (overview, face B), image-027 (top), image-028 (bottom).\n  Piece 5: image-029 (overview, face A), image-030..033 (TL, TR, BL, BR); image-034 (overview, face B), image-035..038.\n  Piece 6: image-039 (overview, face A), image-040..043 (TL, TR, BL, BR); image-044 (overview, face B), image-045..048.\nTiles overlap their neighbours; where a line appears in two tiles I give it once and note the repeat.\n\nGENERAL LAYOUT SURVEY (observation)\nAll six are small, worm-eaten binding scraps on a black background. None preserves a full column width, a running title or a folio number. Two sizes of script recur: a larger, upright gothic book hand, and a much smaller, heavily abbreviated hand full of single-letter sigla separated by points (\".ff.\", \"C.\", \"§\", \".l.\", \".j.\", \".e.\"). On pieces 2, 5 and 6 the two sizes sit side by side on the same face. Red is used for paraph signs, for large pen-flourished initials, for one two-line rubric (piece 4) and for ruled red frames/boxes (pieces 2 and 6). There are small marginal signs and letters beside the text on piece 1.\nTentative interpretation only: a main text in the larger hand accompanied by a surrounding gloss or apparatus in the small hand, the small hand being dense with abbreviated references. I do not infer author, work, date or provenance. Whether all six pieces come from one book is not something the images settle: piece 4 is a cleaner, blacker hand than the rest and could be a different book.\n\nWHAT I SELECTED AND WHAT REMAINS UNREAD\nSelected: piece 2 face B (the only face with ten or more consecutive lines of legible small script, plus the larger column beside it); piece 6 face A (ten lines of the larger hand); piece 4 both faces (clear but only 2-8 letters per line); piece 5 face B right column (about sixteen short lines of small script); piece 1 face A line openings.\nLeft essentially unread because the surface is abraded, flaked or blank, not for want of looking: piece 3 face B (no writing visible at all), piece 6 face B (traces only), piece 5 face A (isolated words), piece 2 face A (isolated words), piece 1 face B and the lower half of piece 1 face A.\nNo span here is long enough to be called connected prose with confidence. Every line is cut at one or both ends. A wider view is not available in the packet; raking-light or multispectral images of piece 2 face A, piece 5 face A and piece 6 face B would be the useful addition.\n\nConventions: (..) proposed expansion; ? after an uncertain reading; [illegible] or [..] unreadable; [hole] physical loss; \"/\" between alternative readings of the same letters; ⁊ = Tironian et; § as written. Line numbers count from the top of the named image.\n\n======================================================================\nPIECE 1, FACE A  (image-001 overview; image-002 top; image-003 bottom)\nLayout: narrow vertical strip. Left two fifths is margin, carrying small marginal marks. The right part holds only the first three to seven letters of each line of one column in the smaller-to-medium hand; everything further right is torn away. Two paraph-like signs (a C-shape with a tail) open lines 5 and 9. Lower half is whitened and rubbed.\n\nimage-002\n 1  [..]iteui?/[..]ucin?        (at the very top edge, left of the column; faint)\n 2  [..] a?uī(?) m[..]          (same; a macron over the group)\n 3  re. Me? ur[..] / reMe' ui[..]\n 4  illi?[..] / uli[..]\n 5  ¶ . S[..]/. E[..]           margin, left: a cross \"+\"\n 6  ut?. e[..] / uc. d[..]      margin, left: a small word \"aus?\"/\"oins?\"/\"ains?\"\n 7  ɔsister?[..]  ((con)sist-?)\n 8  tas?. a[..] / ras. u[..]\n 9  ¶ . D?[..]/. S[..]          margin, left: a short stroke and a figure or letter \"8\"/\"6\"/\"b\"\n10  oo? m[..] / co in[..]\n11  re[..]                      (also image-003 line 1)\n12  un?[..] / illi?[..]         (also image-003 line 2)\n\nimage-003  (lines 1-2 repeat image-002 lines 11-12)\n 3  liu?[..] / hu?[..]\n 4  [..]                        margin, left: a short dash\n 5  aud?[..]\n 6  auc?[..] / [illegible]\n 7  [illegible]\n 8  [.]t. 2? [..]\n 9  P[..]\n10  lo. c?[..]\n11  [.]til?[..] / ɔtu?[..]      margin, left: a dash; a blue-green stain crosses here\n\nPIECE 1, FACE B  (image-004 overview; image-005 top; image-006 bottom)\nLayout: mirror of face A. Line ENDS of one column survive at the left edge; the right three fifths is blank margin with only faint offset marks.\nimage-005\n 1  [..]quis?. So. ibi.\n 2  [..] sic ut ibi\n 3  [hole] ut\n 4  [..]no i(n)ret?. un.         (a stroke over the last group)\n 5  [blank / rubbed]\n 6  [.]n suscep. f?\n 7  [.]tulit? e(ss)e in\n 8  [..]n[hole] d(e)be(n)t?\nimage-006\n mid-margin: two faint pairs of tall strokes, \"ff\"? and \"ll\"? (could be offset)\n near bottom, left edge:  [..]ceat? in o? in\n                          si n[..]auit?\n                          [trace of a further line]\n\n======================================================================\nPIECE 2, FACE B  (image-012 overview; image-013 TL; image-014 TR; image-015 BL; image-016 BR)\nLayout: wider than tall. Left two thirds: a block of about fifteen lines in the small abbreviated hand, cut at the left and broken by holes at the top. Right third: a column in the larger hand, of which only the first six to nine letters of each line survive before the right edge; a red paraph sign sits at the edge beside its line 4, and there are two tiny interlinear glosses in the small hand between its lines. A faint pink ruling or offset crosses the small-script block.\n\nSmall-script block (line numbers from the top of image-013; lines 10-15 are in image-015, their right-hand ends in image-016)\n 1  [a line struck through or rubbed out, crossed by a horizontal stroke; illegible]\n 2  [.]ndio?/medios? [hole] p?inc?/⁊ inc? sen[hole]ati. a[..]\n 3  [.]. me in[..] aquitā?/aquita(m)? qui o(mn)ib(us)?. d[..] inqui?[..]\n 4  [..]l./ff.? C. h. d(e) ch?. p(rae)sp?. C. j. e. §. f. do. [..]\n 5  [.]p(er)se?/[.]p se? corrigit(ur). ali(a)s hic loq(uitur)?\n 6  [..]e?q(ua)m?/apu? datum C. ar?j. e. dent?[..]\n 7  [..] le. §. ibi pup?. l. Ce?[..]\n 8  [.]or. id e(st) magi(s)?. un(de) mala? ma[.]e? [..]\n 9  [.]or ac ubi? creator?/reator? [hole] n. u. t(ame)n d(e)[..]ta?\n10  [..]ar. ar[..] l[..]\n    [gap, about one line]\n11  S?/§? n. or? p(rae)sumit(ur)?. ac.\n12  ho?. q. ue?. j. simil? [hole]ols?. non. nau?. ma. g. p. [.]\n13  [.]n no(m)i(n)at(um)? dic(itur)? se? no(n)? t?age? - Tesp?/Resp? le[..]     (this line is underlined, or a line is ruled beneath it)\n14  [.]l. alt? in d(e) en?. ecc?. dic(it)? que d(e) sus[..]\n15  [..]m[..] .b. hic [..]\nThese are observations of letter groups; lines 4, 6, 7, 11 and 12 are strings of abbreviated sigla (tentatively, references), and I have not expanded them.\n\nLarger-hand column, right (line numbers from the top of image-014; lines 6 onward repeat in image-016)\n 1  [.]inuan?[..] / [.]muan?[..]\n 2  rantes?/mundos?/inuid? eos q[..]\n 3  nec e(ss)e? c[..] / nec p(o)ene? c[..]\n 4  fraudib(us).                 red paraph sign at the edge after this word\n 5  inuita?/inuit?/muta(n)t? d(e)i?/d(omi)ni? m[..]\n 6  tam accep[..]\n    small interlinear gloss beneath line 6:  .i. mortalia?\n 7  creat?/erant? q(ui)a?/q(ua)m? [..]\n    [gap]\n 8  qui? nouit?/hauit? [.]\n 9  sit. h? re er[..]\n    small interlinear gloss:  lo?\n10  ac nec cu[..]\n11  [trace]\n\nPIECE 2, FACE A  (image-007 overview; image-008 TL; image-009 TR; image-010 BL; image-011 BR)\nLayout: yellowed and abraded. Left: larger hand, with a red-ruled box enclosing one word and a red rule lower down. Centre: small hand, about ten short lines. Right strip: traces only. Isolated words only; no connected span.\n Left, larger hand (top to bottom, image-008 then image-010):\n   [..]x fren?[..]\n   [in a red-ruled box]  alter?/aller?\n   [..]=\n   re[..]mus?\n   [..]is fuio?\n   [..]ossa?/posita?\n   hunc? imag?[..]\n   [.]ar cantat?\n   [red rule]\n   [.]sit? ados? li[..]\n Centre, small hand (image-008/009 then image-010/011):\n   [..]du[..]\n   [..]asso?[..]\n   [..] th. 4?. [..]\n   h. dic. imo dic? adm[..]\n   Minus? p[..]\n   d(e) vi? p[..]\n   [..]q(ui)ppe?[..]\n   [..]q(uan)to? aut(em) q(uo)d? [..]\n   [.]os mascu?[hole] dua?. vi[..]\n   [.]usq(ue) ma.\n\n======================================================================\nPIECE 3, FACE A  (image-017 overview; image-018 top; image-019 bottom)\nLayout: irregular piece, mostly abraded; a few line-fragments in a medium hand, with one small cursive addition at the right of line 2. A projecting tab at the bottom carries a trace.\nimage-018\n 1  [..]mores?                   (cut by the top edge)\n 2  [..] et m[..]                small cursive addition to the right:  [.]dym?\n 3  [..]atum?/[..]tinum?\n 4  [..]d?. d. .i. mag(is)?\n 5  .ff.?/.ll.?                  (small)\n 6  [..]ae.\nimage-019\n 7  m[..]m?\n 8  n. q(uod)? si inu(en)it?     (very uncertain)\n 9  [.]o[..]m[..]\n    on the lower tab: a single trace, \"m\"?\n\nPIECE 3, FACE B  (image-020 overview; image-021 top; image-022 bottom)\nNo legible writing. The surface is flaked and rubbed; only a few dark specks. Nothing transcribed.\n\n======================================================================\nPIECE 4, FACE A  (image-023 overview; image-024 top; image-025 bottom)\nLayout: narrow vertical strip, clean, black, upright gothic book hand; the clearest script in the packet. Left: the last four to eight letters of each line of one column (cut at the left by the edge of the strip). Then an intercolumnar space. Right: the first two or three letters of lines of a second column before the worm-eaten edge. Lines 3-4 of the left column are a RUBRIC in red. Small cursive additions in lighter ink sit between and after some lines.\n\nLeft column, line ends (image-024 lines 1-8; image-025 lines 8-14; line 8 appears in both)\n 1  [..]derit?/[.]ierit? p(ro)?        (a trace of a line above it at the top edge)\n 2  [.]solue(n)\n 3  RED:  [..]mes ⁊\n 4  RED:  [..]ua(n)t(ur)?/[..]uat(ur)? [hole]      (macron above; ends in a red abbreviation sign; a hole follows)\n 5  [..]iar?e?.                       (faint; a small mark above the line)\n 6  [..]re re\n 7  [.]ii?/[.]u dabe?./dabi?.         followed by a light cursive flourish or addition, illegible\n 8  [.]q(u)a?/[.]ga nece(ss)?         (macron over the last letters)\n    beneath line 8, small cursive in light ink:  [..]too?/[..]ooo?\n 9  [..]rere:/[..]ccere:\n10  [.]ec?/[.]oc ad                   (a light pen stroke after \"ad\")\n11  [.] arbi\n12  [.]pac?/[.]ac o(mn)e?/cet?        (macron over the last word)\n13  [.]rb(us)?/[.]rbi? ad             (\"rb\" followed by a ;-shaped sign)\n    small interlinear above line 14:  car?/cur?\n14  [.]idi?./[.]ndi?. cu?[..]         (a blue-grey stain over the end)\n\nRight column, line starts\n image-024:  ni?[..] (level with left line 3);  m[..] (line 6);  ʒel?/sel?[..] (line 7);  inn?/mi?[..] (line 8)\n image-025:  sl?/fl?[..] (level with left line 9)\n\nPIECE 4, FACE B  (image-026 overview; image-027 top; image-028 bottom)\nLayout: the reverse arrangement. Right: the first four to six letters of each line of one column, cut by the right edge. In the space to its left stand three large RED pen-flourished initials - V, P and I - each two to three lines tall, placed outside the column. Lines 3-4 are a RUBRIC in red. Far left: last letters of another column, almost entirely eaten.\n\nRight column, line starts (image-027 lines 1-7; image-028 lines 7-14)\n 1  p(rae)sen?[..]                    (written \"p\" with a bar, then \"sen\")\n 2  h?is?. in?[..] / ħs. ta?[..]      (a red line is ruled above/through this line)\n    RED initial V (large) in the space to the left\n 3  RED:  nom?[..]/oom?[..]\n 4  RED:  [.]ta?[..]                  (damaged)\n    RED initial P (large) in the space to the left\n 5  [..]m?[..]                        (abraded)\n 6  nisio?/iusto?/nasio?[..]\n 7  frie?/fine?/fric?[..]\n    RED initial I (large, three lines) in the space to the left\n 8  uli?. m?/udi?. in?[..]\n 9  sit in?/fit u?[..]\n10  arbitr?[..]                       (letters \"arbm\"/\"arbitr\")\n11  r(ati)o(n)ib(us)?/ratib(us)?      (written \"roib\" with a macron and a ;-sign)\n12  [..]can?[..]                      (abraded)\n13  nisi r?/uisi?[..]\n14  sua? si?/p(er)ua? h[..]\nFar-left column ends:  [..]ini?/um  ;  [.]cu?  ;  lower: \"a\", \"e\" (single letters only).\nObservation: the letter group \"arbi-/arb-\" occurs on both faces (face A lines 11 and 13, face B line 10). I draw no inference from it.\n\n======================================================================\nPIECE 5, FACE B  (image-034 overview; image-035 TL; image-036 TR; image-037 BL; image-038 BR)\nLayout: left two thirds, a block in a medium-to-small hand, badly rubbed, with a red pen-flourished initial at the far left edge (rounded, S- or G-like, with long horizontal red flourishes above and below and a red tail running down the margin) opening its fourth line. Right third, separated by a crease: a column of about sixteen short lines in the small abbreviated hand, cut by the right edge.\n\nLeft block (image-035, continued to the right in image-036)\n 1  [.]ntt? o(mn)i? gu?[.]tean?/reari? [holes]  ...  [..]cta? in\n 2  [.]natiu(m)? ubie? sut?. .t? tue?. ad[..]  ...  [..]no? nite?\n    small interlinear under the start of line 2:  [.]gac?\n 3  [.]u p(ri)m?ar? a[..]  [gap]  lib?/lih? auctor?/aucto(r)?\n 4  RED initial, then  icer?[..]\n 5  [abraded]\n 6  [..]s d(e) filio? [..]\n lower (image-037, image-038): only line ends -  [..]in  ;  [..]u in  ;  [..]r.c.n.?  ;  p(ri)mat?/p?minet?  ;  [..]dem? in  ;  [..]in in\n\nRight column, small hand (image-036 lines 1-10; image-038 lines 9-16; lines 9-10 appear in both)\n 1  [..]p? si r?\n 2  [..] huius. ff?\n 3  [.]ius? sup?\n 4  [..]o[..]\n 5  [..]a? ⁊ d(icit)? aut?\n 6  [..] inquit?/inq(ui)e?[..]\n 7  nicto?/nicu?. d(e)?/ff? [..]\n 8  [.]nst?/[.]ust? ecti?/erti? ni?/na?[..]\n 9  s na[..]n. ac\n10  do. u. bi.\n11  ⁊? .s. et respo(n)d[..]/respo(n)de[..]\n12  sup(er)? p(ro)p(ri)u(m) l[..]\n13  [..] ⁊ iudicat eu(m)\n14  [..] culpe eo[..]\n15  f. [.]e. q?. §. e. ul?[..]\n16  R[..]ic?\nLines 11-14 are the nearest thing to connected words on this piece: \"... et respond[..] / super? proprium l[..] / ... et iudicat eum / ... culpe eo[..]\". Each is cut at the right.\n\nPIECE 5, FACE A  (image-029 overview; image-030 TL; image-031 TR; image-032 BL; image-033 BR)\nLayout: yellow, heavily abraded. Left third is margin with faint traces of small writing. After a vertical crease comes one column in the larger hand. Traces of red paint at the top near the crease. Near the bottom, a large RED rounded initial (D- or O-like, with flourishes) opens a line, and a second red rounded letter or paraph stands further right on the same line.\n Margin, small hand (image-030): a row of minims, perhaps  [..]iuditiu(m)?[..]  ; lower  [..]h[..]d? ; otherwise illegible.\n Column, larger hand (image-030/031 lines 1-8; image-032/033 lines 9-13):\n 1  [illegible]\n 2  [..]co? n? tenui?/tenuit?\n 3  [..]catha?[..]  ...  [..]de c[..]a?\n 4  [..]merent? p(er)?[..]  ...  l? du? ad\n 5  [..] a?[..]\n 6  tino?/tum?[..]\n 7  h? ni?/m?[..]sto?/[..]to rent?/erit?\n 8  [..] sace?/feci?[..]\n 9  rect?/ricte?[..]\n10  ne(c)?/te?[..]\n11  RED initial, then  ecu(n)d?/ceu(m)?.i.?[..]   then the second red letter\n12  [..] sequit(ur)?/segnit?[..]\n13  [..]an[..]c[..]\n\n======================================================================\nPIECE 6, FACE A  (image-039 overview; image-040 TL; image-041 TR; image-042 BL; image-043 BR)\nLayout: very worm-eaten. Left two thirds: ten lines in the larger hand, the left margin preserved for some lines, the right ends lost in holes. Right third: a column of small faint script (about six lines at the top), and lower down a small rectangle ruled in RED enclosing two short lines of small faint writing. A red pen stroke stands at the left beside line 9.\n\nLeft column, larger hand (image-040 lines 1-5; image-042 lines 5-10; line 5 appears in both; line ends in image-041/043)\n 1  [..]u[..] l[..]                              (traces at the top edge)\n 2  [.]u habemus . q[hole][..]o?. a?.i. in.\n 3  [.]s? satur?/saltu? p(er)?/k?[..]ali? a?[hole]e rex\n 4  [.]enac?/[..]nas? mead?/mea?. a?/n?. l?. f[hole]cuius?/sup(er)? tene?[..]\n 5  [..]moles?/[..]mob? is? magn?/mign? u?ad?[..]\n 6  leuit?. ⁊ id(e)o h?/hi? reg?/rex? noi?/no(m)i(n)? in?/m[..]\n 7  exasuam?/exasuari? nanieta?/naneta? ne m[..]\n 8  [.]. m?[..] ante?/ans? ⁊ ingeb?/reqeb?. c. iam\n 9  [..]n[..] a[hole]dan?/[..]a fore se?/fere?[..]\n10  [..]malle? alia?[..]\nSecure-looking words: \"habemus\" (line 2), \"rex\" (line 3, line end), \"⁊ ideo\" (line 6), \"iam\" (line 8, line end), \"fore\" (line 9). The rest are letter-shapes I could not resolve; the alternatives show the range.\n\nRight column, small hand (image-041)\n 1  [..]ui?[..]\n 2  n? ⁊. d(i)c(t)o? op[..]\n 3  f?. s?. e(st)? au?/a[..]\n 4  [..]ob? [.] ab? e[..]\n 5  hic h[..]n?\n 6  [illegible]\nRed-ruled box (image-043):  P?[..]  /  [..]a ar?[..]      (two short faint lines)\n\nPIECE 6, FACE B  (image-044 overview; image-045 TL; image-046 TR; image-047 BL; image-048 BR)\nLayout: surface flaked and stained; no line can be followed. Upper centre-left: traces of a red rectangular bracket or frame (image-045). Upper centre-right: a red paraph sign, a filled half-circle with two vertical strokes (image-046).\nAlong the right side run TWO LINES OF WRITING TURNED 90 DEGREES to the rest (reading bottom to top), in greyer ink and rounder letterforms than anything else in the packet. I cannot tell from the image whether this is a later inscription or an offset/transfer from another surface. Reading upward:\n   inner line:  [..]8?o?2?[..] O m n[..] d?[..] G?[..]      (a large round \"O\" is the clearest letter)\n   outer line (right edge):  [..]u?[..] d? o?[..]\nHorizontal traces in the main orientation:\n   image-045:  m?[..]\n   image-047 (lower centre):  [..]m.no(m)i(n)?/[..]m.noi   ;   [.]agnq(ue)?/[..]a qui? m[..]   ;   [..]h? si reg?/[..]sufi? tene?[..]\n   image-048:  [..]mue?[..]   ;   [..]uci?\nNothing further transcribed.\n\n======================================================================\nLIMITATIONS\n- Every line on every piece is cropped at one end or both. I have not supplied any missing word or letter from sense.\n- The request for several ten-line spans per face cannot be met by these leaves: only piece 2 face B (small-script block, 15 lines) and piece 6 face A (10 lines) reach that length, and both are cut and rubbed. Piece 4 gives 14 lines per face but only a few letters of each.\n- Readings marked with ? are frequent and real. In the small hand, minims and the single-letter sigla are easily confused (u/n, c/t, f/s, l/i); the alternatives separated by \"/\" are of roughly equal weight unless one is listed first.\n- I may have miscounted a line where a tile boundary or a hole falls; line numbers are for locating text in the named tile, not a claim about the original ruling.\n- Column order across a piece (which column was read first) is not determinable from these scraps, and I cannot tell recto from verso.\n- Whether the six pieces belong together is not established by the images.\n- This is an unverified image reading.\n",
+  "text_sha256": "c38630f175ac1d1ec985bbe0b265d225286d5b837a1dda0416b7095585620f25"
+}

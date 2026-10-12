@@ -1,0 +1,107 @@
+{
+  "captured_at": "2026-10-12T19:12:59.143229+00:00",
+  "fragment": "F-pdds",
+  "id": "batch-2026-10-12c-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "16377bf99b08e765cc57b08f087937cacd9861b05031d886d6bf73ad9ec2ea95",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): whole image 4936x7049 reduced to 1260x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "d28f671e939d8bc81eb8b3f359968ca136900dce492ae7dd21bd385015a5f82a",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): native-pixel box 98,281,2751,2136; unrotated grid position column 1 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "747ffea81c6c2d5900ff8be2e6ecd559e5d8f97aa5b1a6d0fda548e1bcc96c1e",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): native-pixel box 2183,281,4837,2136; unrotated grid position column 2 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "84b1041f7c09634051f36b6bf7d0bee870ad2f4346a29e24bb0709b335eee988",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): native-pixel box 98,1738,2751,3793; unrotated grid position column 1 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "222e92d041c43bc417199e6a903de85952ac1b4b2bcfde7518b672b83b35dd51",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): native-pixel box 2183,1738,4837,3793; unrotated grid position column 2 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "cdca2fc124159649a81c8f7ab760df6cf7dcf150221368d12aa0454c50cd87c0",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): native-pixel box 98,3395,2751,5450; unrotated grid position column 1 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "9e8f8ceae1a489fac4ce8d0a5ae2a174524742a17bb62fc1d147e2819b845512",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): native-pixel box 2183,3395,4837,5450; unrotated grid position column 2 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "f1cdf456f1d2ce78c0b6acd44af18f88240c833aeb992a94395e52c63db496f8",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): native-pixel box 98,5052,2751,6908; unrotated grid position column 1 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "7be5184aaae3f32ede5e2556d55473b6130129317871f5a65976133490002722",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1r.jpg/full/4936,/0/default.jpg (canvas 0, Fragm127_1r): native-pixel box 2183,5052,4837,6908; unrotated grid position column 2 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "c1ab0b2936fa65f917dd2d4924ec086271cc5cf5ae8643c2849083a13437030e",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): whole image 4936x7049 reduced to 1260x1800 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "65e6126ab61d9685c9b76bd912f789e525e8a5f9d1f1216e19117cf6d09fece1",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): native-pixel box 98,281,2751,2136; unrotated grid position column 1 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "575d14d7f6c1ba7d3b8ed396453cd36e0977120541d5bd2d7b439ab38fb4d91b",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): native-pixel box 2183,281,4837,2136; unrotated grid position column 2 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "5413dedea26764b4d34d495f56a562faf6851ab1eb8282ae8b7e87471030a23f",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): native-pixel box 98,1738,2751,3793; unrotated grid position column 1 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "8e054bb311509c438ae121ef2a2952dd47d680be035ee5503dce1b75434a5f4f",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): native-pixel box 2183,1738,4837,3793; unrotated grid position column 2 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "d5b59fbfb4d7777988e5259c5461231f5e71ddd4a9cb9b738966ce3a68937a7e",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): native-pixel box 98,3395,2751,5450; unrotated grid position column 1 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "8da005f369fa2355e443a21f746ec04a518fe51049a1e2c177087eba31c1c8b6",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): native-pixel box 2183,3395,4837,5450; unrotated grid position column 2 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "d5b6f06e48fb1fb0f2aab795bbc97bb60c8ad3daa63ec966e432d19d9d451b11",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): native-pixel box 98,5052,2751,6908; unrotated grid position column 1 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "6db0317d31169abf26c3d8b7a21c9e64d28ad5389be3bd1030fc2648d8c06055",
+        "source": "https://fragmentarium.ms:443/loris/F-pdds/Fragm127_1v.jpg/full/4936,/0/default.jpg (canvas 1, Fragm127_1v): native-pixel box 2183,5052,4837,6908; unrotated grid position column 2 of 2, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12c (packet-07)",
+  "text": "PACKET-07 - UNVERIFIED IMAGE READING (first reader)\n\nEXPOSURE / RULES STATEMENT\nNothing in my context revealed a proposed identification of a work or author before or during this reading.\nVisible inside the images themselves (not from any outside context): a round ink stamp reading \"ÖSTERR. NATIONALBIBLIOTHEK WIEN\" and a modern pencil note \"Fragm. 127\" at the lower left of the written face (image-001, image-008), with a pencil \"1\" at the top left (image-002). I report these as things seen on the leaf.\nBeyond the stated rules I did one thing: I listed the file names of the packet directory itself (to learn how many image files there were). That listing showed the name \"packet.json\"; I did not open it. I opened only PROMPT.md and image-001.jpg to image-018.jpg. No web, search, catalogue or edition was used.\n\n1. LAYOUT SURVEY (observations)\n- Two faces. image-001.jpg is the overview of the written face; image-002 to image-009 are its overlapping native-resolution tiles (two across, four down: 002/003 top, 004/005, 006/007, 008/009 bottom). image-010.jpg is the overview of the other face; image-011 to image-018 are its tiles.\n- The other face (image-010 to image-018) carries NO writing of its own that I can see. What is visible there is the mirror-image show-through of the written face (the same hole, the same line pattern reversed), plus the reversed ghost of the stamp and pencil shelfmark at lower right (image-018) and a small \"x\"/cross mark. I transcribe nothing from it.\n- Written face: upright, single block of long lines, widely spaced (about 25-26 lines), in a cursive documentary-looking hand with long descenders and looped ascenders. No columns, no running title, no rubric, no enlarged or decorated initial, no underlining, no interlinear or marginal gloss. Brown ink, very faded in the lower third; a reddish stain in the middle; an oval hole right of centre (image-005/007); the top edge is torn with a large loss at top centre that removes the middle of lines 1-3; the lower left is abraded.\n- The last line is short and ends with the word \"appenso\", after which the parchment is blank. A small cross-like mark stands below the text at lower left (image-008 line 6).\n- Tentative interpretation (not an identification of a work): the wording is that of a legal/administrative instrument rather than a book text - a letter by which someone, on a presentation by a holder of a right of patronage, institutes and invests a named cleric in a church and orders that he be led into corporal possession, closing with a sealing clause. This rests on the phrases read below (Jus patronatus, Instituimus, auctoritate ordinaria, per libri tradicionem, corporalem possessionem vel quasi pacificam et quietam, inducatis, appenso).\n\n2. AREAS SELECTED / UNREAD\nI read the whole written face line by line as far as I could, since it is short. Weakest areas: line 1 (almost wholly lost), the middles of lines 2-4 (hole), lines 9-11 (stain and cockling), and lines 20-26 (faded/abraded). The show-through face is left unread on purpose.\n\n3. TRANSCRIPTION, WRITTEN FACE\nConventions: ( ) proposed expansion; (?) after a word = uncertain reading; [illegible] = unreadable; [hole]/[lost] = physical loss. Each physical line of the leaf is given once per tile; the left and right tiles of a pair show the same physical lines and overlap in the middle, so text repeated between them is NOT additional text. Vertically adjacent tiles also overlap by about one line.\n\nimage-002.jpg (top left)\nline 1: [only stray marks of a first line under the torn top edge; illegible]\nline 2: i(n)(?) D(omi)no sempiternam [lost]\nline 3: [..]hil[.](?) D(omi)n(u)m henricu(m)(?) [lost]      (first word uncertain: perhaps \"nob(is)\" or \"exhib-\"; not resolved)\nline 4: in heyrrenkem(?) q(?)[illegible] leg[...]      (place-name spelling uncertain; letters seen: h-e-y-r-r-e-n-k-e-m with a final mark)\nline 5: ad p(rese)ns(?) Cui(us) p(rese)nt[..](?) Jus pat(ro)[natus]\nline 6: D(omi)n(u)m henricu(m) de Cran[.]ſp(er)g(?)      (surname uncertain: C-r/t-a-n/u-c/t-h?-ſ-p-e-r-g; \"Cranchſperg\"/\"Cranſperg\" are both possible shapes)\nline 7: l(ite)ras(?) ſcribit(?) p(re)d(ic)t(u)m d(omi)n(u)m [illegible]\nline 8: henricu(m) De Cran[.]ſperg(?) ſt[...]\nline 9: nar[..](?) [illegible] Eccl(es)i[e](?) [illegible]\n\nimage-003.jpg (top right; same physical lines as image-002)\nline 1: [stray strokes at the torn edge; illegible]\nline 2: [lost] a diſcrecionem(?) [illegible]\nline 3: [lost] Cran[.]ſperg(?) Canon[..](?) [illegible]\nline 4: leg[..](?) [illegible] cu(m)(?) a(n)i(m)a(rum)(?) Cura(?) [illegible]      (very uncertain)\nline 5: [Jus] pat(ro)nat(us) ſui(?) Jo[..](?) p(rese)ntand(um)(?) d(e)ſup(er)(?)\nline 6: [...]ſp(er)g(?) eccl(es)ie(?) [illegible] ſine(?) p(re)iu[dicio](?)\nline 7: [illegible] defente(?) eccl(es)[ie](?) Ip(su)m(?)\nline 8: [...]perg ſt(atu)im(us)(?) de ip(s)a(?) et d(i)c(t)e(?) [illegible]\nline 9: eccl(es)iaſticam(?) Cenſura(m)(?)\n\nimage-004.jpg (left, second row)\nline 1: henricu(m) De Cran[.]ſperg(?) ſt[...]      (= image-002 line 8)\nline 2: nar[..](?) [illegible] Eccl(es)i[e](?) [illegible] eccl(es)i[...]      (= image-002 line 9)\nline 3: Aud[..](?) [illegible] h[..](?) de [illegible]\nline 4: ibid(em)(?) [illegible] Jur[..](?) et [illegible]\nline 5: Inueſtim(us)(?) [illegible] et Inſtituim(us)\nline 6: [illegible] d(i)c(t)u(m)(?) [illegible] p(er)mitt[...](?)\nline 7: nec(?) [illegible] eſt Inueſtit(us)(?) Delat[o]\nline 8: [illegible] p(re)ſtit[..](?) corp(or)al[i]\nline 9: [illegible] p(re)ſb(ite)ro(?) ſt(ri)cte(?) I(n)iu(n)[...](?)\n\nimage-005.jpg (right, second row; same physical lines as image-004)\nline 1: [...]perg ſt(atu)im(us)(?) de ip(s)a(?) et d(i)c(t)e(?) [illegible]      (= image-003 line 8)\nline 2: eccl(es)iaſticam(?) Cenſura(m)(?)      (= image-003 line 9)\nline 3: [illegible] ad p(re)[...](?) [illegible]\nline 4: et(?) [illegible] om(n)ib(us)(?) Jur[ibus](?) Inſtituim(us) et\nline 5: Inſtituim(us) auct(oritat)e ordinaria nob(is)(?) [illegible]\nline 6: p(er)mitt[...](?) p(er) libri t(ra)dicionem [illegible]\nline 7: Delato ſibi p(ri)us(?) [hole] fidel[...]\nline 8: corp(or)al(i) Juramento(?) [hole] Qu[...]\nline 9: [illegible] Mandam(us) q(ua)t(enu)s ip(su)m [illegible]\n\nimage-006.jpg (left, third row)\nline 1: [illegible] p(re)ſtit[..](?) corp(or)al[i]      (= image-004 line 8)\nline 2: [illegible] p(re)ſb(ite)ro(?) ſt(ri)cte(?) I(n)iu(n)[...](?) et      (= image-004 line 9)\nline 3: ip(su)m(?) ad(?) eandem Ecc(lesi)am(?) p(re)no[tatam](?)\nline 4: [corpo]ralem poſſeſſionem vel quaſ[i]\nline 5: [illegible] iuriu(m)(?) [illegible] p(er)ti(nenciarum)(?) p(re)miſſ[...]\nline 6: [illegible] de [illegible] ip(s)i(?) [illegible]\nline 7: fructib(us)(?) reddit(ibus)(?) [illegible] o(mn)ib(us) J[uribus]\nline 8: [illegible] Ecc(lesi)e(?) [illegible]\nline 9: eccl(es)ie(?) p(re)d(i)c(t)e(?) [illegible] debitis(?)\n\nimage-007.jpg (right, third row; same physical lines as image-006)\nline 1: [cor]pal(i) Juramento(?) [hole] Qu[...]      (= image-005 line 8)\nline 2: et(?) Mandam(us) q(ua)t(enu)s ip(su)m [illegible]\nline 3: p(re)notata(m)(?) et Inueſtitu(m) i(n) corp[oralem]\nline 4: vel quaſi pacificam et quieta(m) Indu[...]\nline 5: p(re)miſſ[..] mittatis(?) et inducatis ſibi ta[...]\nline 6: ip(s)i(?) [illegible] et ad q(uo)s p(er)tinet de Vniu(er)[sis]\nline 7: o(mn)ib(us) Jurib(us) et obuenc(ionibus)(?) [illegible] int(e)g(r)e(?) re[...]\nline 8: [illegible] [faded; a few letter-shapes only]\nline 9: p(re)miſſis ſollemp(nitatibus)(?) [illegible] iuxta(?) de[...]\n\nimage-008.jpg (bottom left)\nline 1: [illegible; = image-006 line 8]\nline 2: eccl(es)ie(?) p(re)d(i)c(t)e(?) [illegible] debitis(?) [illegible]      (= image-006 line 9)\nline 3: [illegible] Dat[..](?) [illegible] has(?)\nline 4: [illegible]\nline 5: [illegible]\nline 6: [a short mark and a cross-shaped sign, below the text block]\nAlso on this tile: round stamp \"ÖSTERR. NATIONALBIBLIOTHEK WIEN\"; pencil \"Fragm. 127\".\n\nimage-009.jpg (bottom right; same physical lines as image-008)\nline 1: p(re)miſſis ſollemp[...](?) [illegible] iuxta(?) de[...]      (= image-007 line 9)\nline 2: has(?) p(rese)nt(e)s(?) d(e)dim(us)(?) [illegible] Qu[...]\nline 3: [illegible] Secund[..](?) [illegible] Ep(iscop)i(?) b[...]\nline 4: [illegible] p(re)d(i)c(t)[.](?) [illegible] appenſo      (text ends here; blank parchment below)\n\n4. CONNECTED READING OF THE BEST SPAN (assembled from the paired tiles; same uncertainties apply)\nPhysical lines 12-19 of the face, counting the lost first line as 1:\n... Inueſtim(us)(?) ... et Inſtituim(us) auct(oritat)e ordinaria nob(is)(?) ... /\n... p(er)mitt...(?) p(er) libri t(ra)dicionem ... /\n... eſt Inueſtit(us)(?) Delato ſibi p(ri)us(?) [hole] fidel... /\n... p(re)ſtit..(?) corp(or)al(i) Juramento(?) [hole] Qu... /\n... p(re)ſb(ite)ro(?) ſt(ri)cte(?) ... et(?) Mandam(us) q(ua)t(enu)s ip(su)m ... /\n... ad(?) eandem Ecc(lesi)am(?) p(re)notata(m)(?) et Inueſtitu(m) i(n) corp- /\n-ralem poſſeſſionem vel quaſi pacificam et quieta(m) Indu... /\n... p(re)miſſ.. mittatis(?) et inducatis ſibi ta... /\n... et ad q(uo)s p(er)tinet de Vniu(er)[sis] / fructib(us)(?) reddit(ibus)(?) ... o(mn)ib(us) Jurib(us) et obuenc(ionibus)(?) ...\n\nMost secure words on the face: \"D(omi)no sempiternam\", \"D(omi)n(u)m henricu(m) de\" + surname (three times: lines 3?, 6, 8), \"Jus pat(ro)nat(us)\", \"Inſtituim(us)\", \"auct(oritat)e ordinaria\", \"p(er) libri t(ra)dicionem\", \"corp(or)al(i) Jurament-\", \"Mandam(us) q(ua)t(enu)s ip(su)m\", \"poſſeſſionem vel quaſi pacificam et quieta(m)\", \"inducatis ſibi\", \"et ad q(uo)s p(er)tinet\", \"appenſo\".\n\n5. LIMITATIONS\n- Line 1 and the centres of lines 2-4 are physically lost; the right ends of most lines run to the trimmed edge and some may be clipped.\n- Lines 20-26 are badly faded; I could only pick out isolated words there. The date and sealing clause presumably sit in these lines but I could not read a date, and I have not supplied one.\n- Proper names are the least secure readings: the surname after \"henricum de\" and the place-name after \"in\" (line 4) are given as letter-shapes, not as resolved names.\n- The other face shows only mirror-image show-through; if any endorsement exists there it is not visible in these images.\n- A raking-light or contrast-enhanced image of the lower third of the written face would be the most useful addition.\n",
+  "text_sha256": "e969dd473e0870a68a26f309d442564988ad7d9aa97910cfe61a176fffa78b6e"
+}
