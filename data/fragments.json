@@ -1381,7 +1381,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Cibaldone (anonymous Italian verse regimen, \"Libro terzo dello Almansore\"), end of the chapter on bathing, fol. 38r col. a",
-  "note": "The Italian verses on the recto are the last three and a half stanzas of the Cibaldone and end the work, followed by the scribe's explicit. A research reader compared nineteen manuscript lines with page images of the last two pages of the first edition, [Vicenza, about 1475], Florence BNC copy: same stanzas in the same order, but the manuscript has its own spelling, lacks one couplet and keeps rhymes the print has lost, so it is an independent witness. Lines 1-15 were reread on the image; lines 16-19 were corrected from the print. The Frederick powder on the recto is a longer version of a recipe printed by Sudhoff in 1915 (OCR only), and the list of women's faults on the verso reuses three known sayings but is unidentified as a whole. No human review.",
+  "note": "The Italian verses on the recto are the last three and a half stanzas of the Cibaldone and end the work, followed by the scribe's explicit. A research reader compared nineteen manuscript lines with page images of the last two pages of the first edition, [Vicenza, about 1475], Florence BNC copy: same stanzas in the same order, but the manuscript has its own spelling, lacks one couplet and keeps rhymes the print lacks; whether it descends from a print or from a manuscript of the poem is not determined. Lines 1-15 were reread on the image; lines 16-19 were corrected from the print. The Frederick powder on the recto is a longer version of a recipe printed by Sudhoff in 1915 (OCR only), and the list of women's faults on the verso reuses three known sayings but is unidentified as a whole. No human review.",
   "verify": "https://archive.org/download/ita-bnc-in2-00001305-001/page/n49_w1100.jpg",
   "examined": "2026-10-12",
   "identified_on": "2026-10-12"
@@ -1397,13 +1397,13 @@
   "shelfmark": "fragment nr. 17",
   "catalogue_title": "Table of contents of a lost or unidentified book",
   "catalogue_date": "1476 – 1500 CE",
-  "status": "identified",
-  "confidence": "high",
-  "identification": "St Leonard near Liège (canons regular), contents leaf of a composite quarto volume, after 1492; first piece Den Haag KB KW 169 G 7 (Gregory, Dialogi, Louvain c. 1484), ninth Brussels KBR II 734",
-  "note": "The leaf lists ten pieces of one bound volume of the canons of St Leonard. A research reader matched entries 1, 2, 3 and 6 to incunable editions (Gregory, Dialogi, Louvain, Westfalia; Beissel, Rosacea corona, Antwerp, Bac; Wimpfeling and Gaguin, Epistole et carmina, Cologne, Renchen; Tabulare de Carmelo, Alost, Martens) and entry 9 to the Life of Gerard of Brogne, using ISTC, GW and MEI records, the 1884 Vergauwen sale catalogue (lots 119, 128, 164, 469; two pages read as images, two in OCR), the Brussels manuscript catalogue (OCR) and the Munich title-page image of entry 3. The Hague Gregory bears the priory's note and came from lot 119; Brussels KBR II 734 has the leaf's title for entry 9, the leaf's format and came from the same sale. The link between the leaf and these pieces is by convergence of catalogue evidence; neither book was seen and no physical comparison was made, and the house inscription is a standard formula found in other St Leonard books. Entries 4, 5, 7 and 10 are unidentified and entry 8 is matched by title only. No human review.",
-  "verify": "https://data.cerl.org/mei/02101407",
+  "status": "partial",
+  "confidence": "medium",
+  "identification": "Contents leaf of a composite volume of the canons of St Leonard near Liège, after 1492; entries 2, 3, 6 and 9 matched to works or editions; the volume itself is not securely traced",
+  "note": "The leaf lists ten pieces of one bound volume. The catalogue already recognises a composite volume with prints and links entries 2 (Beissel, Rosacea corona, Antwerp, Bac) and 6 (Tabulare de Carmelo, Alost, Martens) to incunables. Added here: entry 3 is Wimpfeling and Gaguin, Epistole et carmina, Cologne, Renchen, after 20 February 1492 (title-page image of the Munich copy), which dates the list; entry 9 is the Life of Gerard of Brogne; entry 8 matches a sermon printed under Gerson's name by title only; entries 4, 5, 7 and 10 are unmatched. Candidates for surviving pieces, not established: Den Haag, KB, KW 169 G 7 (Gregory, Dialogi, Louvain, Westfalia, with the priory's ownership note, which is its standard formula and occurs in other books) and Brussels, KBR, ms. II 734 (a Life of Gerard with the leaf's title and nearly its format). Both were bought at the 1884 Vergauwen sale, which also had a Beissel and a Tabulare, but shared ownership, similar size, one sale and matching nineteenth-century bindings do not show that these copies were bound in this volume, and the edition of entry 1 rests on that link. Known only from MEI, the Brussels catalogue (OCR) and the sale catalogue; neither book was seen. Comparing paper, edges, sewing holes and offsets of those two books with the leaf would settle it.",
+  "verify": "https://fragmentarium.ms/overview/F-x3yo",
   "examined": "2026-10-12",
-  "identified_on": "2026-10-12"
+  "identified_on": null
  },
  {
   "id": "F-10zj",

@@ -16,12 +16,11 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-82 fragments examined; 27 identifications published.
+82 fragments examined; 26 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
 | [F-v0qx](https://aaymeloglu.github.io/fragmentarium/F-v0qx.html) | Johannes Matthaeus, Concionum dispositiones (Wittenberg, 1581; 2nd ed. 1590), end of the outline "De templorum dedicatione" (handwritten copy of pp. 865-868) | 2026-10-12 |
-| [F-x3yo](https://aaymeloglu.github.io/fragmentarium/F-x3yo.html) | St Leonard near Liège (canons regular), contents leaf of a composite quarto volume, after 1492; first piece Den Haag KB KW 169 G 7 (Gregory, Dialogi, Louvain c. 1484), ninth Brussels KBR II 734 | 2026-10-12 |
 | [F-x61h](https://aaymeloglu.github.io/fragmentarium/F-x61h.html) | Cibaldone (anonymous Italian verse regimen, "Libro terzo dello Almansore"), end of the chapter on bathing, fol. 38r col. a | 2026-10-12 |
 | [F-eflq](https://aaymeloglu.github.io/fragmentarium/F-eflq.html) | Johannes Versor, Quaestiones super libros Posteriorum Aristotelis, book II qq. 1, 2, 8 (reworded against the Cologne prints) | 2026-10-12 |
 | [F-ziuq](https://aaymeloglu.github.io/fragmentarium/F-ziuq.html) | Henricus de Piro, Super Institutiones, on Inst. 1.7-1.8 and 1.21-1.24 | 2026-10-12 |
