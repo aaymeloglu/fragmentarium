@@ -14,7 +14,9 @@
 Every result updates the fragment's ledger row and sets `examined`. An identified result must be
 `high`, must bring a report, and gets `identified_on` (kept if already set). `report` is copied to
 `fragments/<id>/README.md`; `assisted` is saved as the source-assisted reading `<batch>-source-assisted`,
-linked to the first reading `<batch>-image-only`. Paths are relative to the results file. Reports
+linked to the first reading `<batch>-image-only`. An identified result whose identification the
+scholarship had already published for this fragment carries `known_from` (the citation): it is
+recorded like any other and kept off the site and out of its count. Paths are relative to the results file. Reports
 and readings are refused if they contain a local path. Rebuild the site afterwards
 (`docs/_build_site.py`). Standard library only.
 """
@@ -59,6 +61,10 @@ def apply(root, results, base, batch, reader, today):
         row.update(status=status, confidence=confidence, identification=result["identification"],
                    note=result["note"], verify=result.get("verify") or row["record"], examined=today,
                    identified_on=(row.get("identified_on") or today) if status == "identified" else None)
+        if status == "identified" and result.get("known_from"):
+            row["known_from"] = result["known_from"]
+        else:
+            row.pop("known_from", None)
         print(fid, status, confidence)
     ledger_path.write_text(json.dumps(ledger, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 

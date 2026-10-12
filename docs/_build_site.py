@@ -156,7 +156,9 @@ document.querySelectorAll('table.sortable th[data-col]').forEach(function(th){
 
 
 def publishable(row):
-    return row["status"] == "identified" and row["confidence"] == "high"
+    # `known_from` marks an identification the scholarship had already published for this fragment:
+    # recorded in the ledger, kept off the site and out of its count.
+    return row["status"] == "identified" and row["confidence"] == "high" and not row.get("known_from")
 
 
 GENRE_BOOST = ("law", "decret", "canon", "gloss", "commentar", "sermon", "homil", "postil", "bible", "genesis",
@@ -193,6 +195,8 @@ def build_burndown(done):
         d = done.get(fid)
         if d and publishable(d):
             st = f'<a href="{fid}.html">Identified</a>'
+        elif d and d.get("known_from"):
+            st = 'Examined; already identified in the literature'
         elif d:
             st = 'Examined; not identified'
         else:

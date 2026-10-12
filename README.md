@@ -16,7 +16,7 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-102 fragments examined; 32 identifications published.
+102 fragments examined; 31 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
@@ -25,7 +25,6 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 | [F-w36h](https://aaymeloglu.github.io/fragmentarium/F-w36h.html) | Jacobus de Voragine, Legenda aurea, Southern Middle Dutch translation of c. 1357 attributed to Petrus Naghel (Gulden legende), chapter on the dedication of a church (Vander wiinghen der kerken): end of the canonical hours to the seven sprinklings of the altar | 2026-10-12 |
 | [F-x60p](https://aaymeloglu.github.io/fragmentarium/F-x60p.html) | Justinian, Digestum vetus with the Accursian Glossa ordinaria, Digest 4.8.42-49 and 4.8.52-4.9.3 pr. (five of six strips placed, in one leaf) | 2026-10-12 |
 | [F-cjzj](https://aaymeloglu.github.io/fragmentarium/F-cjzj.html) | Accursius, Glossa ordinaria on the Authenticum, Collatio IX: end of Ut iudices non expectent sacras iussiones (Nov. 125) and rubric to c. 1 of Ut litigantes iurent in exordio litis (Nov. 124); gloss only | 2026-10-12 |
-| [F-qvgd](https://aaymeloglu.github.io/fragmentarium/F-qvgd.html) | 'Die Freuden und Schmerzen Mariä' (anonymous German rhymed cycle), Seventh Sorrow; edited by Hamburger 2010 (identification already in the literature) | 2026-10-12 |
 | [F-v0qx](https://aaymeloglu.github.io/fragmentarium/F-v0qx.html) | Johannes Matthaeus, Concionum dispositiones (Wittenberg, 1581; 2nd ed. 1590), end of the outline "De templorum dedicatione" (handwritten copy of pp. 865-868) | 2026-10-12 |
 | [F-x61h](https://aaymeloglu.github.io/fragmentarium/F-x61h.html) | Cibaldone (anonymous Italian verse regimen, "Libro terzo dello Almansore"), end of the chapter on bathing, fol. 38r col. a | 2026-10-12 |
 | [F-eflq](https://aaymeloglu.github.io/fragmentarium/F-eflq.html) | Johannes Versor, Quaestiones super libros Posteriorum Aristotelis, book II qq. 1, 2, 8 (reworded against the Cologne prints) | 2026-10-12 |

@@ -17,6 +17,12 @@ def test_publication_requires_identification_and_high_confidence():
                 status == 'identified' and confidence == 'high')
 
 
+def test_identifications_already_in_the_literature_are_not_published():
+    row = dict(status='identified', confidence='high')
+    assert site.publishable(row)
+    assert not site.publishable(dict(row, known_from='Edition, 2010'))
+
+
 def test_index_has_only_identifications_and_original_dates():
     data = json.loads((ROOT / 'data/fragments.json').read_text())
     page = (ROOT / 'docs/index.html').read_text()

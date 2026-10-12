@@ -26,6 +26,7 @@ def test_fields_and_vocabulary():
             assert r["confidence"] == "high", (r["id"], "identified requires high confidence in a sustained textual match")
         else:
             assert r["identified_on"] is None, r["id"]
+            assert "known_from" not in r, (r["id"], "known_from belongs to an identified row")
         if r["status"] == "unidentified":
             assert r["confidence"] == "none", r["id"]
         for k in ("verify", "record", "manifest", "thumbnail"):
@@ -73,7 +74,7 @@ def test_site_is_up_to_date():
         for p in (work / "docs").glob("*.html"):
             committed = ROOT / "docs" / p.name
             assert committed.exists() and committed.read_text() == p.read_text(), f"docs/{p.name} is stale: run python3 docs/_build_site.py and commit"
-    expected = {f"{r['id']}.html" for r in DATA if r['status'] == 'identified'}
+    expected = {f"{r['id']}.html" for r in DATA if r['status'] == 'identified' and not r.get('known_from')}
     assert {p.name for p in (ROOT / 'docs').glob('F-*.html')} == expected
     assert not (ROOT / 'docs/review.html').exists()
 
@@ -86,12 +87,13 @@ def test_burndown_page_lists_corpus_and_marks_done():
     assert page.count("<tr>") == len(csv_rows) + 1
     for r in DATA:
         link = f'href="{r["id"]}.html"'
-        if r['status'] == 'identified':
+        if r['status'] == 'identified' and not r.get('known_from'):
             assert link in page, r['id']
         else:
             assert link not in page, r['id']
             row = next(row for row in page.split('<tr>') if f'>{r["id"]}</a>' in row)
-            assert 'Examined; not identified' in row
+            assert ('Examined; already identified in the literature' if r.get('known_from')
+                    else 'Examined; not identified') in row
     assert 'href="burndown.html"' in (ROOT / "docs" / "index.html").read_text()
 
 
