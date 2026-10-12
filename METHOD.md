@@ -69,7 +69,12 @@ Many sermon collections and school texts have no edition. A repertory incipit
 it through the repertory's manuscript list or a union catalogue (Biblissima,
 ARCA, DigiVatLib, e-codices, MDZ) and compare the bodies of the text on the page
 images. An incipit and explicit matched against a repertory are a lead; the
-collation carries the identification.
+collation carries the identification. Manuscripts catalogued under one author and
+title can carry different texts, so a candidate tested in one witness of an
+unprinted work is not excluded by that witness alone.
+
+Read every leaf and face of a fragment before characterising it. A bifolium's
+second leaf can hold the passage that names the work.
 
 ## 3. Verify the proposed claim
 
