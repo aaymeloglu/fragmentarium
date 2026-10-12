@@ -104,6 +104,10 @@ git add fragments/F-eo5z/readings/first-01.json
 git commit -m 'Preserve image-only reading for F-eo5z'
 ```
 
+For a batch built with `tilepacket.py`, `readings.py freeze-batch NAME --mapping
+MAPPING.json --responses DIR --reader ... --session ... --attest-isolated` freezes
+every response present (`DIR/<packet-name>.txt`) with the citations from the mapping.
+
 Supply one public `--image-source` citation per image, in packet order, and an
 opaque session reference. The command verifies packet hashes and creates a new
 record with exact response text, prompt, image provenance, reader, time, and

@@ -172,3 +172,54 @@ def test_first_reading_creates_folder_without_report(work):
     (root / 'data/fragments.json').write_text('[]')
     with pytest.raises(ValueError, match='Unknown fragment'):
         readings.check(root)
+
+
+def test_freeze_batch_freezes_present_responses_once(work):
+    root, args = work
+    responses = root / 'responses'
+    responses.mkdir()
+    (responses / 'packet.txt').write_bytes(args.text.read_bytes())
+    mapping = root / 'mapping.json'
+    mapping.write_text(json.dumps({'F-test': {'packet': str(args.packet), 'files': [],
+                                              'sources': ['https://example.org/iiif/crop.jpg']}}))
+    batch = argparse.Namespace(name='batch-image-only', mapping=mapping, responses=responses,
+                               reader='test reader', session='batch reader-a', attest_isolated=True)
+    saved = readings.freeze_batch(root, batch)
+    record = json.loads(saved[0].read_text())
+    assert record['text'].encode('utf-8') == args.text.read_bytes() and record['session'] == 'batch reader-a (packet)'
+    assert readings.freeze_batch(root, batch) == [], 'a frozen reading is never written twice'
+
+
+def test_record_updates_ledger_and_installs_only_clean_identifications(work):
+    import record
+    root, args = work
+    args.name = 'b1-image-only'
+    readings.freeze(root, args)
+    ledger = root / 'data/fragments.json'
+    ledger.write_text(json.dumps([{'id': 'F-test', 'record': 'https://fragmentarium.ms/overview/F-test',
+                                   'status': 'unidentified', 'confidence': 'none', 'identified_on': None}]))
+    out = root / 'out'
+    out.mkdir()
+    (out / 'r.md').write_text('# F-test: Author, Work\n')
+    (out / 'a.txt').write_text('source-assisted reading\n')
+    good = {'F-test': {'status': 'identified', 'confidence': 'high', 'identification': 'Author, Work',
+                       'note': 'n', 'verify': 'https://example.org/ed', 'report': 'r.md', 'assisted': 'a.txt',
+                       'sources': ['Edition, p. 1'], 'reason': 'resolved abbreviations'}}
+    with pytest.raises(ValueError, match='cannot have confidence'):
+        record.apply(root, {'F-test': dict(good['F-test'], confidence='medium')}, out, 'b1', 'r', '2026-01-02')
+    with pytest.raises(ValueError, match='needs a report'):
+        record.apply(root, {'F-test': {k: v for k, v in good['F-test'].items() if k != 'report'}}, out, 'b1', 'r', '2026-01-02')
+    (out / 'bad.md').write_text('see /tmp/scratch/x.jpg\n')
+    with pytest.raises(ValueError, match='local path'):
+        record.apply(root, {'F-test': dict(good['F-test'], report='bad.md')}, out, 'b1', 'r', '2026-01-02')
+    assert json.loads(ledger.read_text())[0]['status'] == 'unidentified', 'a refused result changes nothing'
+    record.apply(root, good, out, 'b1', 'r', '2026-01-02')
+    row = json.loads(ledger.read_text())[0]
+    assert (row['status'], row['identified_on'], row['examined']) == ('identified', '2026-01-02', '2026-01-02')
+    assert (root / 'fragments/F-test/README.md').read_text().startswith('# F-test')
+    assisted_record = json.loads((root / 'fragments/F-test/readings/b1-source-assisted.json').read_text())
+    assert assisted_record['first_reading'] == 'b1-image-only'
+    record.apply(root, {'F-test': {'status': 'partial', 'confidence': 'low', 'identification': 'x', 'note': 'y'}},
+                 out, 'b1', 'r', '2026-01-03')
+    row = json.loads(ledger.read_text())[0]
+    assert row['identified_on'] is None and row['verify'] == 'https://fragmentarium.ms/overview/F-test'

@@ -112,6 +112,22 @@ def freeze(root, args):
     })
 
 
+def freeze_batch(root, args):
+    """Freeze one response per fragment from a tilepacket.py mapping; skips fragments already frozen."""
+    mapping = json.loads(args.mapping.read_text())
+    saved = []
+    for fragment, entry in mapping.items():
+        packet_dir = Path(entry['packet'])
+        response = args.responses / f'{packet_dir.name}.txt'
+        if (root / 'fragments' / fragment / 'readings' / f'{args.name}.json').exists() or not response.exists():
+            continue
+        saved.append(freeze(root, argparse.Namespace(
+            fragment=fragment, name=args.name, packet=packet_dir, text=response, reader=args.reader,
+            session=f'{args.session} ({packet_dir.name})', attest_isolated=args.attest_isolated,
+            image_source=entry['sources'])))
+    return saved
+
+
 def freeze_htr(root, args):
     import htr
     run = json.loads(args.run.read_text())
@@ -223,6 +239,13 @@ def main():
     p.add_argument('--attest-isolated', action='store_true')
     p.add_argument('--image-source', action='append', required=True,
                    help='Image URL or canvas/region citation, one per image in packet order; kept from reader')
+    p = sub.add_parser('freeze-batch', help='Freeze every response present for a tilepacket.py mapping')
+    p.add_argument('name')
+    p.add_argument('--mapping', required=True, type=Path, help='tilepacket.py --mapping file')
+    p.add_argument('--responses', required=True, type=Path, help='Directory of <packet-name>.txt responses')
+    p.add_argument('--reader', required=True)
+    p.add_argument('--session', required=True, help='Batch and reader reference; the packet name is appended')
+    p.add_argument('--attest-isolated', action='store_true')
     p = sub.add_parser('freeze-htr', help='Preserve a raw Kraken/CATMuS run without claiming an LLM session')
     p.add_argument('fragment')
     p.add_argument('name')
@@ -245,6 +268,9 @@ def main():
             print(packet(args.output, args.images))
         elif args.command == 'freeze':
             print(freeze(ROOT, args))
+        elif args.command == 'freeze-batch':
+            for path in freeze_batch(ROOT, args):
+                print(path)
         elif args.command == 'freeze-htr':
             print(freeze_htr(ROOT, args))
         elif args.command == 'revise':
