@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-12T19:44:52.585323+00:00",
+  "first_reading": "batch-2026-10-12c-image-only",
+  "first_sha256": "1c6efdd11589f2f115a65f953994df1ce68e6622a38e460e159209b2b542abea",
+  "fragment": "F-cjzj",
+  "id": "batch-2026-10-12c-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "The first reading saw only line-ends and could not connect them; with the printed gloss open, provinciales became principales, the repeated ac. was recognised as Accursius's signature, and the cross-references fell into place.",
+  "schema_version": 1,
+  "sources": [
+    "Volumen legum parvum ... cum commentariis Accursii (1566), Authenticorum Collatio nona, tit. 4-5 (Nov. 125, 124), col. 471-472, BSB bsb11057347, image 420",
+    "Volumen legum parvum (1566), Collatio nona, tit. 3 (Nov. 120 c. 9-11), col. 469-470, BSB bsb11057347, image 419 (main-text lead only)"
+  ],
+  "text": "F-cjzj. Source-assisted reading. All 25 line-ends of the strip were reread on the image by a research reader; lines 1-5 before the source was found, lines 6-25 with the 1566 Volumen (BSB bsb11057347, image 420, col. 471) open. The other face (canvas 1) was not reread to a usable standard and is not included. Accuracy has not been measured.\n( ) expansion; [ ] hidden under the pastedown, lost or supplied; ? uncertain. | marks the edge of the pastedown; everything to its left is hidden.\n\nCanvas 0 (Quadrante anteriore_cont), 3446 x 5163, native box 1950,600,2650,3200.\n1  |...]tis? ad\n2  |...] in ordinari[is] .                 (blue stroke beneath)\n3  |...] (et) h(ic)? [...]isato?\n4  |...]ectent . sac[...]\n5  |...]ussiones .                          (red stroke beneath)\n6  |...]urent . hec\n7  |...]s expedit(ur)\n8  |...]s(que) ad § . (et) h(oc)\n9  |...]ortul(is) . h(ec) s(ecund)a\n10 |...]ditur . j(nfra) . eo(dem)\n11 |...] quoq(ue) . ac .                    (blue stroke beneath)\n12 |...]t q(ue) . hec\n13 |...]ditur . j(nfra) . eo(dem)\n14 |...] us(que) in fi(nem) .               (red stroke beneath)\n15 |...]sentem . suf[...\n16 |...]gium . i(d est) . pe[...\n17 |...]ia p(ro) suffra[...\n18 |...]ata . ac .                          (blue stroke beneath)\n19 |...]tes p(r)inci\n20 |...]ales . ac .                         (red stroke beneath)\n21 |...] app(el)lo(nes) . sic (er)g(o)\n22 |...]ca? in p(ri)ma in[...\n23 |...]atur . in c(aus)a ap(pellationis)\n24 |...] (et) sic e(st) alia c(aus)a .\n25 |...]e(spondeo)? . e(st) alia c(aus)a . (et)\n",
+  "text_sha256": "eafae968ededc39cdb1495d363f78d95d826d66039ecdd68065e5d2da7be7c6f"
+}
