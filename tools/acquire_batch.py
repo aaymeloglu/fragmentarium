@@ -31,13 +31,21 @@ def acquire(fid, destination, packet_root, number, count=2, max_width=0):
     url = f'https://fragmentarium.ms/metadata/iiif/{fid}/manifest.json'
     manifest = json.loads(fetch(url, folder / 'manifest.json'))
     sources, images, errors = [], [], []
-    for i, canvas in enumerate(manifest['sequences'][0]['canvases'][:count]):
+    canvases = manifest['sequences'][0]['canvases']
+    resolved = []
+    for canvas in canvases:
+        resource = canvas['images'][0]['resource']
+        service = resource.get('service')
+        base = service.get('@id') if isinstance(service, dict) else None
+        resolved.append(iiif.image_base(base or resource['@id'].split('/full/')[0]))
+    # A manifest can give several canvases one image; correct what can be verified, refuse the rest.
+    bases, notes = iiif.resolve_duplicates(
+        [base for base, _, _ in resolved], [(c.get('width'), c.get('height')) for c in canvases])
+    for i, canvas in enumerate(canvases[:count]):
         try:
-            resource = canvas['images'][0]['resource']
-            service = resource.get('service')
-            base = service.get('@id') if isinstance(service, dict) else None
-            base = base or resource['@id'].split('/full/')[0]
-            base, ext, _ = iiif.image_base(base)
+            base, ext = bases[i], resolved[i][1]
+            if (notes[i] or '').startswith('FAULT'):
+                raise ValueError(notes[i])
             info = json.loads(fetch(base + '/info.json', folder / f'canvas-{i}-info.json'))
             width, height = info['width'], info['height']
             target_width = min(width, max_width) if max_width else width
@@ -50,7 +58,8 @@ def acquire(fid, destination, packet_root, number, count=2, max_width=0):
                 path.unlink()
                 raise ValueError('Not a JPEG image')
             sources.append({'canvas': i, 'label': canvas.get('label'), 'source': image_url,
-                            'native_width': width, 'native_height': height, 'requested_width': target_width})
+                            'native_width': width, 'native_height': height, 'requested_width': target_width,
+                            **({'note': notes[i]} if notes[i] else {})})
             images.append(path)
         except Exception as error:
             errors.append({'canvas': i, 'error': str(error)})

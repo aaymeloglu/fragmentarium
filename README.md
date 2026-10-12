@@ -92,6 +92,7 @@ tools/gbwithin.py              search inside one Google Books volume: printed pa
 tools/tilepacket.py            neutral reading packets of overview plus reading-size tiles from an acquire_batch cache
 tools/schneyer.py              search Schneyer's sermon repertory volume by volume in archive.org full text
 tools/hspsearch.py             search Handschriftenportal catalogue texts for an incipit, title or shelfmark; lists digital copies
+tools/contactsheet.py          labelled thumbnails of every image in a record, for surveying before reading
 tools/register.py              add unresearched fragments to the ledger from their cached manifests
 tools/mdzsearch.py             full-text search of the Munich digital library's OCR (early printed books), no key
 tests/                         data/folder/site consistency; CI fails if docs/ is stale
