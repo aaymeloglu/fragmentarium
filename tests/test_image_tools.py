@@ -73,3 +73,12 @@ def test_gbwithin_reads_page_numbers_and_builds_exact_volume_query():
     assert gb.hits({"number_of_results": 0}) == []
     u = gb.url("tWdJAAAAYAAJ", '"ad oculum"')
     assert "id=tWdJAAAAYAAJ" in u and "q=%22ad+oculum%22" in u and "jscmd=SearchWithinVolume2" in u
+
+
+def test_bnf_manifest_addresses_are_rewritten_to_the_api_host():
+    iiif = load("iiif")
+    base, ext, scale = iiif.image_base("https://gallica.bnf.fr/iiif/ark:/12148/btv1b84386681/f219")
+    assert base == "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b84386681/f219"
+    assert ext == "default.jpg" and scale == 1.0
+    other = "https://fragmentarium.ms/loris/F-z56d/x.jp2"
+    assert iiif.image_base(other) == (other, "default.jpg", 2.0)

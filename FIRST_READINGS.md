@@ -36,6 +36,7 @@ that the resulting crop contains the intended text. Common acquisition problems:
 | Symptom | Practical next step |
 |---|---|
 | Ghent legacy image URL fails | Use the Ex Libris service resolved by `iiif.py`. |
+| BnF (Gallica) image returns HTTP 403 | The manifest's `gallica.bnf.fr/iiif` address blocks scripts. The helpers rewrite it to `openapi.bnf.fr/iiif/image/v3`, which serves the same image; it does not upscale, and takes `full/max`, not `full/full`. |
 | Gallica region crop contains the wrong area | Download the full image and crop locally; record the transform. |
 | Upscaled IIIF request fails | Request native resolution; the helper caps scaling at 2. |
 
