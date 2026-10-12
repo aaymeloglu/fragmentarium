@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-12T16:24:29.136374+00:00",
+  "first_reading": "batch-2026-10-12b-image-only",
+  "first_sha256": "9a51d64080767935a8bc5380e757af7121b5b4384cf26e82d2262f9a0db0219a",
+  "fragment": "F-1szi",
+  "id": "batch-2026-10-12b-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research subagent with the source at hand",
+  "reason": "A manuscript of the identified homily resolved rubbed words on fol. 6r and the words lost to holes on fol. 6v.",
+  "schema_version": 1,
+  "sources": [
+    "Paris, BnF, Latin 3806, fols. 163v-165r (Gallica btv1b100325598, views 165-166)",
+    "F. Liverani, Spicilegium Liberianum (Florence, 1863), homily LIII, pp. 465-466, read as Google Books search-within snippets (volume mxTNWbV9KNQC)"
+  ],
+  "text": "Source-assisted selected reading of F-1szi (Paris, BnF, NAL 2317, f. 6). The lines below were reread on the image by a research reader with Paris, BnF, Latin 3806, fols. 163v-165r, and Liverani's printed text (snippets) at hand. All other lines of the leaf rest on the image-only first reading; fol. 6r column a is not read continuously. (..) = expanded abbreviation; [..] = lost or not read; ? = uncertain; & = et-ligature.\n\nCanvas 0, fol. 6r, https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f17/full/4620,/0/default.jpg, column b, native box 2250,2100,4527,4300\n 9  Respicite coruos .; tale e(st) hac si di\n10  cer& .; Si d(eu)s [tam] uilia uolatilia p(ro)cur\n11  at .; Multo mag(is) homine(m) que(m) ad lau\n12  dem & gl(ori)am nominis sui formauit fa\n13  me p(er)ire non p(er)mitt& .; Unde & psal\n14  mista dicit(ur)? .; Iunior fui & eni(m)\n15  [senui ...] .; Quo pastu? [...] psal\n16  mista [...]\n17  [...] pascit me & nihil mihi? de[erit]?\n18  [.] nonne uos ma[gis] pluris estis [illis]\n19  pluris in oc loco non p(ro) numer[o] sed\n20  p(ro) dignitate . ponitur ac si dicat?\n21  & nonne uos meliores [es]tis .; Quis\n22  aute(m) u(est)r(u)m cogitans potest adicere\n23  ad statura(m) sua(m) cubitum unum . h(oc)\n24  non adfirmando s(ed) abnegando? dix(it)\n25  non solu(m) enim ad statura(m) sua(m) cubi\n26  tu(m) unu(m) quis cogitando adicere pote(st)\n27  s(ed) nec paru[um] aliquid . [...]\n28  [...] Neq(ue) unu(m) capillu(m) albu(m) aut\n29  nigrum quis facere ualet . quia\n30  [cre]ator & formator omnium qui\n    (lines 15-18, 20 and 24 are rubbed; \"Quo pastu\", \"ac si dicat\" and \"abnegando\" follow the source where the letters seen allow it; the first reading had \"an etiam dicit\" and \"dubitando?\")\n\nCanvas 1, fol. 6v, https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b52513241j/f18/full/4620,/0/default.jpg, column b, native box 2060,1000,4389,2900\n 1  [ru]beum ut rosa sic pu[rpureum ut] uiola .;\n 2  sed q(uo)d terrenus salomon h[abere non]\n 3  potuit . n(oste)r . salomon uidel[icet paci]\n 4  ficus d(omi)n(u)s n(oste)r ih(esu)s xp(istu)s hab& ip(s)e . h eni(m)\n 5  ab& lilium in uirginib(us) rosam in ma\n 6  tirib(us) uiola(m) in confessorib(us) . Si aute(m)\n 7  fenum agri q(uo)d hodie e(st) . & cras in cli\n 8  banum mittitur d(eu)s sic uestit .; hic\n 9  datur intellegi quia sup(er)ius lilia\n10  agri p(ro) omnib(us) herb(is) terre posuit .;\n11  Ac si diceret si d(eu)s erb(as) terre q(ue) [su]bito\n12  crescunt . & subito exares[cunt ...]\n13  soll&? & siccantur sic uestit . [...]\n    (holes in the parchment account for the bracketed words in lines 1-3 and 11-13)\n",
+  "text_sha256": "6c7f6511b24de4bf2c47df55ca4e664225b5b44b52844c9f1d9d2e8d7771d9ef"
+}

@@ -1188,13 +1188,13 @@
   "shelfmark": "NAL 2317",
   "catalogue_title": "Homiliarium (unidentified)",
   "catalogue_date": "1001 – 1050 CE",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Not identified",
-  "note": "First reading preserved; source research not yet recorded.",
-  "verify": "https://fragmentarium.ms/overview/F-kr2n",
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Pseudo-Haymo, Liverani homiliary (anonymous Carolingian reworking of Haymo of Auxerre): homilies on Mark 8:1-9 (Barré 55, Liverani XLII), Matthew 7:15-21 (Barré 56, Liverani XLIV, end) and Luke 16:1-9 (Barré 57, Liverani XLV, start)",
+  "note": "Four passages on fols. 4r, 4v, 5r and 5v agree in sequence and distinctive wording with the collection printed by Liverani in 1863 and with Paris, BnF, Latin 3806, fols. 137r-138r; a research reader compared two with Liverani through Google Books snippets and two with page images of Latin 3806. The leaf differs in detail from both witnesses (reworded incipit of the steward homily, some sentences absent, readings shared now with one, now with the other), so the recension is undetermined. The bifolium belongs to the same manuscript as NAL 2317 ff. 6 and 7 (F-1szi, F-vpe8). The catalogue had already noted that fol. 4r is close to Haymo, PL 118, 637-639. The coordinator read the fol. 4v column b passage on the image; Liverani was not seen as page images; no human review.",
+  "verify": "https://gallica.bnf.fr/ark:/12148/btv1b100325598/f139.item",
   "examined": "2026-10-12",
-  "identified_on": null
+  "identified_on": "2026-10-12"
  },
  {
   "id": "F-1szi",
@@ -1207,13 +1207,13 @@
   "shelfmark": "NAL 2317",
   "catalogue_title": "Commentarium biblicum (unidentified) | Super Mt. 6,25-31",
   "catalogue_date": "951 – 1000 CE",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Not identified",
-  "note": "First reading preserved; source research not yet recorded.",
-  "verify": "https://fragmentarium.ms/overview/F-1szi",
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Pseudo-Haymo, Liverani homiliary (anonymous Carolingian reworking of Haymo of Auxerre): homily on Matthew 6:24-33 (Barré 67, Liverani LIII), ravens and lilies",
+  "note": "The ravens passage on fol. 6r and the Solomon and lilies passage on fol. 6v ('lilium in uirginibus rosam in martiribus uiolam in confessoribus') agree in sequence and wording with Paris, BnF, Latin 3806, fols. 163v-165r, read as page images by a research reader, and with Liverani's 1863 print read through Google Books snippets; the coordinator read the lilies passage on the image. The leaf is a homily, not the biblical commentary of the catalogue title. Its lilies section is shorter and partly reworded against both witnesses, and two of its glosses were not found in either, so the recension is undetermined. It belongs to the same manuscript as NAL 2317 ff. 4-5 and 7 (F-kr2n, F-vpe8). Liverani was not seen as page images; no human review.",
+  "verify": "https://gallica.bnf.fr/ark:/12148/btv1b100325598/f166.item",
   "examined": "2026-10-12",
-  "identified_on": null
+  "identified_on": "2026-10-12"
  },
  {
   "id": "F-vpe8",
@@ -1226,13 +1226,13 @@
   "shelfmark": "NAL 2317",
   "catalogue_title": "Commentarium biblicum (unidentified)",
   "catalogue_date": "976 – 1000 CE",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Not identified",
-  "note": "First reading preserved; source research not yet recorded.",
-  "verify": "https://fragmentarium.ms/overview/F-vpe8",
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Pseudo-Haymo, Liverani homiliary (anonymous Carolingian reworking of Haymo of Auxerre): homilies on Luke 7:11-16 (Barré 68, Liverani LIV, end) and Luke 14:1-11 (Barré 69, Liverani LV, start)",
+  "note": "Three passages of the Nain homily (mother as the Church, bearers of the bier as flatterers, 'Dedit illum matri sue') and the opening of the Luke 14 homily ('peritissimus piscator ... auceps uel uenator') agree in sequence and wording with Paris, BnF, Latin 3806, fols. 170r-171r and 175r-175v, read as page images by a research reader, and with Liverani's 1863 print read through Google Books snippets; the coordinator read 'Mater autem huius defuncti ... filios gignere non cessat' on the image. The leaf is from a homiliary, not the biblical commentary of the catalogue title, and belongs to the same manuscript as NAL 2317 ff. 4-5 and 6 (F-kr2n, F-1szi). The Luke 14 homily lacks the proem both witnesses have and opens 'Quociescumque legimus', nearer Haymo's own text, so the recension is undetermined. Liverani was not seen as page images; no human review.",
+  "verify": "https://gallica.bnf.fr/ark:/12148/btv1b100325598/f172.item",
   "examined": "2026-10-12",
-  "identified_on": null
+  "identified_on": "2026-10-12"
  },
  {
   "id": "F-4usd",
@@ -1245,13 +1245,13 @@
   "shelfmark": "Latin 11411",
   "catalogue_title": "Medical text (unidentified)",
   "catalogue_date": "1101 – 1200 CE",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Not identified",
-  "note": "First reading preserved; source research not yet recorded.",
-  "verify": "https://fragmentarium.ms/overview/F-4usd",
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Pseudo-Galen, Liber de dynamidiis (Juntine 'Liber alter de dynamidiis'): De catharticis to De opio (f. 104) and recipes Contra vitia faciei to Electuarium dianthu (f. 105)",
+  "note": "Four passages on three faces (agaric and cnicus, opium and omphacomel, impetigo and morphea recipes, Diamoron for the throat) agree in wording and order with the 1625 Giunta print, read as page images by a research reader; the coordinator read f. 105r lines 10-20 on the image against the print text. The leaf has an older form than the corrected print: it keeps 'Diamoron batinum' and 'mororum bati', lacks the print's glosses, and on f. 105r has one recipe the print lacks and lacks two it has. Two passages were also compared with images of Cologny, Cod. Bodmer 58 (14th c.), which shares the leaf's wording against the print. Oribasius Latinus, Synopsis I 17, was tested and rejected. Most lines rest on the image-only first reading, the recension is undetermined, and there has been no human review.",
+  "verify": "https://archive.org/details/CAS222AGalenoSpuriiGalenoAscriptiLibri",
   "examined": "2026-10-12",
-  "identified_on": null
+  "identified_on": "2026-10-12"
  },
  {
   "id": "F-osrv",
@@ -1302,13 +1302,13 @@
   "shelfmark": "Fragm. 101 a-v",
   "catalogue_title": "Unidentified text on Roman law",
   "catalogue_date": "1501 – 1600 CE",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Not identified",
-  "note": "First reading preserved; source research not yet recorded.",
-  "verify": "https://fragmentarium.ms/overview/F-ziuq",
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Henricus de Piro, Super Institutiones, on Inst. 1.7-1.8 and 1.21-1.24",
+  "note": "Six passages on five of the 22 faces (fragm. a-b recto and verso, q-r recto, s-t recto last paragraph, u-v recto) agree in wording, order and legal citations with the Cologne c. 1481 edition (GW 12256), read by a research reader from page images of the Munich copy; the coordinator checked fragm. u-v recto lines 1-10 on the image. Differences are minor (sint/fuerint, an added videre, Continuatio/Continuatur, usque ad/in, singular or plural of ultima voluntas), and the manuscript leaves the title headings blank. The other 17 faces were only surveyed, the lettering of the leaves does not follow the text order, and only one of three incunable editions was compared. Whether the leaves were copied from a print or are an independent manuscript witness is not determined. No human review.",
+  "verify": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00043811_00084/full/1500,/0/default.jpg",
   "examined": "2026-10-12",
-  "identified_on": null
+  "identified_on": "2026-10-12"
  },
  {
   "id": "F-eflq",
@@ -1321,13 +1321,13 @@
   "shelfmark": "HS.2582/298",
   "catalogue_title": "Unidentified philosophical text",
   "catalogue_date": "1501 – 1525 CE",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Not identified",
-  "note": "First reading preserved; source research not yet recorded.",
-  "verify": "https://fragmentarium.ms/overview/F-eflq",
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Johannes Versor, Quaestiones super libros Posteriorum Aristotelis, book II qq. 1, 2, 8 (reworded against the Cologne prints)",
+  "note": "All four pages of the bifolium follow Versor's questions on Posterior Analytics II in question titles, order of arguments and conclusions and long runs of wording; seven passages were set against page images of the Quentell print of about 1487 (BSB bsb00044403, scans 100, 101, 110), and question 8 was read again in the 1497 print. A research reader reread five of the passages on the image with the source at hand and the coordinator read the magnanimity passage (fol. 2v col. a); two passages rest on the image-only first reading; no human review. The manuscript rewords and shortens the printed text throughout and drifts in places towards Thomas Aquinas's wording, so it is a version or reworking of Versor, not a straight copy. Thomas (source layer) and the Cologne Copulata novae logicae (running exposition without these questions; it also has the Hercules gloss) were read at the same place and excluded as the containing work. Not tested: Welker 1486 Nova logica, non-Cologne editions, Harderwijck, Tartaretus; lower inner columns are lost.",
+  "verify": "https://www.digitale-sammlungen.de/en/view/bsb00044403?page=110",
   "examined": "2026-10-12",
-  "identified_on": null
+  "identified_on": "2026-10-12"
  },
  {
   "id": "F-lg7g",
@@ -1530,13 +1530,13 @@
   "shelfmark": "RARA Musik L 46",
   "catalogue_title": "Text on churches",
   "catalogue_date": "1570 – 1600 CE",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Not identified",
-  "note": "First reading preserved; source research not yet recorded.",
-  "verify": "https://fragmentarium.ms/overview/F-v0qx",
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Johannes Matthaeus, Concionum dispositiones (Wittenberg, 1581; 2nd ed. 1590), end of the outline \"De templorum dedicatione\" (handwritten copy of pp. 865-868)",
+  "note": "Four paper pieces are a pen copy of the last four pages of a printed book, with its running titles, page numbers 865-868 and signatures Kkk and Kkk2. A research reader compared six passages from all four pages with page images of the 1581 Wittenberg edition (part 2, pp. 408-412), where the text agrees closely, including the Epilogus, the Greek doxology and the print's slip \"1. Pet. 3\"; the coordinator compared the Epilogus and doxology on the fragment image with the 1581 page image of p. 412. Differences: page and line division, and a few words (significabat for significat, purgarit for purgaverit, ita for ibi facere). The page numbers fit the catalogued collation of the 1590 edition (VD16 E 4591: 8 leaves, 868 pages, 2 leaves), which was not seen, so the edition copied is inferred and the variants are unassigned. Aretius, De encaeniis, and Legenda aurea c. 182 are Matthaeus's sources, not the work copied; no human review.",
+  "verify": "https://www.digitale-sammlungen.de/en/view/bsb12187919?page=928",
   "examined": "2026-10-12",
-  "identified_on": null
+  "identified_on": "2026-10-12"
  },
  {
   "id": "F-yjo1",
