@@ -849,7 +849,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Tabula utriusque iuris attributed to Johannes de Erfordia, article Appellatio (on tacit renunciation of an appeal)",
-  "note": "Three passages, two consecutive, agree with Bremen, SuUB, msa 0137, f. 27v (page images; coordinator compared about fourteen lines), and most of the recto was placed at f. 26r by the research reader. Not the same form of the text: the case is reworded (ad papam ... ad ordinarium), citations, sigla and order differ. A second witness, Bruges Grootseminarie 46/57 f. 31v, agrees with Bremen against the leaf and adds Sext citations; recension of the leaf not decided. Unprinted; attribution is the catalogues'. Kurtscheid 1914 not seen. Excluded on page images: Monaldus (Pal. lat. 695) and the short article of Pal. lat. 804.",
+  "note": "Three passages, two consecutive, agree with Bremen, SuUB, msa 0137, f. 27v (page images; coordinator compared about fourteen lines), and most of the recto was placed at f. 26r by the research reader. Not the same form of the text: the case is reworded (ad papam ... ad ordinarium), citations, sigla and order differ. A second witness, Bruges Grootseminarie 46/57 f. 31v, agrees with Bremen against the leaf and adds Sext citations; recension of the leaf not decided. Leipzig Ms 885 f. 22r, assigned by Kurtscheid 1914 p. 280 to the first redaction, also matches the renunciation sequence but shares Bremen's episcopo wording and lacks e. ut debitus. Thus an early-versus-late explanation of the leaf's variants is not established. No edition used; attribution follows catalogues and Kurtscheid. Excluded on page images: Monaldus (Pal. lat. 695) and the short article of Pal. lat. 804.",
   "verify": "https://brema.suub.uni-bremen.de/ms/content/pageview/2782185",
   "examined": "2026-10-12",
   "identified_on": "2026-10-12"
@@ -887,7 +887,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Bede, De temporum ratione, chapter 43 (fol. F)",
-  "note": "Twenty-seven lines of fol. F recto follow Giles vol. 6 pp. 232-233 (OCR text) in order, and the first lines of the verso continue the chapter; coordinator checked lines 10-19 on the image. Variants include calculatorum and discernerent; not compared with Jones's edition. The first image-only reading used canvases that do not show fol. F. The sideways leaf in the same images (Priscian, Institutiones XIV) belongs to record F-fwl6. Stub before fol. D unread.",
+  "note": "The readable portions of fol. F recto follow Giles vol. 6 pp. 232-233 in order, and the first lines of the verso continue the chapter; coordinator checked lines 10-19 on the image; Codex compared the quoted passages with the printed page images and re-examined both faces at native resolution. No reliable extended verso transcription obtained. Variants include calculatorum and discernerent; not compared with Jones's edition. The first image-only reading used canvases that do not show fol. F. The sideways leaf in the same images (Priscian, Institutiones XIV) belongs to record F-fwl6. Stub before fol. D unread.",
   "verify": "https://archive.org/details/completeworksofv06bede",
   "examined": "2026-10-12",
   "identified_on": "2026-10-12"
