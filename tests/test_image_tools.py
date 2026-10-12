@@ -73,3 +73,50 @@ def test_gbwithin_reads_page_numbers_and_builds_exact_volume_query():
     assert gb.hits({"number_of_results": 0}) == []
     u = gb.url("tWdJAAAAYAAJ", '"ad oculum"')
     assert "id=tWdJAAAAYAAJ" in u and "q=%22ad+oculum%22" in u and "jscmd=SearchWithinVolume2" in u
+
+
+def test_bnf_manifest_addresses_are_rewritten_to_the_api_host():
+    iiif = load("iiif")
+    base, ext, scale = iiif.image_base("https://gallica.bnf.fr/iiif/ark:/12148/btv1b84386681/f219")
+    assert base == "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b84386681/f219"
+    assert ext == "default.jpg" and scale == 1.0
+    other = "https://fragmentarium.ms/loris/F-z56d/x.jp2"
+    assert iiif.image_base(other) == (other, "default.jpg", 2.0)
+
+
+def test_tilepacket_grid_covers_box_with_overlap():
+    tp = load("tilepacket")
+    tiles = tp.grid((100, 200, 1100, 2200), cols=2, rows=4, overlap=0.1)
+    assert len(tiles) == 8
+    assert min(t[0] for t in tiles) == 100 and max(t[2] for t in tiles) == 1100
+    assert min(t[1] for t in tiles) == 200 and max(t[3] for t in tiles) == 2200
+    assert tiles[0][2] > tiles[1][0], "neighbouring columns must share pixels"
+    assert tiles[0][3] > tiles[2][1], "neighbouring rows must share lines"
+    for bad in (dict(cols=0, rows=1), dict(cols=1, rows=1, overlap=1.0)):
+        with pytest.raises(ValueError):
+            tp.grid((0, 0, 10, 10), **bad)
+    with pytest.raises(ValueError):
+        tp.grid((5, 0, 5, 10), 1, 1)
+
+
+def test_schneyer_query_is_scoped_to_one_volume_and_highlights_are_flattened():
+    sch = load("schneyer")
+    u = sch.url('"ter flevit"', "repertoriumderla0004schn")
+    assert "identifier%3Arepertoriumderla0004schn" in u and "%22ter%20flevit%22" in u
+    response = {"hits": {"hits": [{"highlight": {"text": ["a  {{{ter flevit}}}\n b", "c"]}}, {}]}}
+    assert sch.highlights(response) == ["a {{{ter flevit}}} b", "c"]
+    assert sch.highlights({}) == []
+    assert len(sch.VOLUMES) == 9
+
+
+def test_hspsearch_rows_carry_digital_links_and_matched_passages():
+    hsp = load("hspsearch")
+    assert "q=%22De+regiminibus%22" in hsp.url('"De regiminibus"')
+    response = {"metadata": {"highlighting": {"d1": {"text": ["Sermones  <em>Ungarus</em>\n f. 55r"]}}},
+                "payload": [{"hspObject": {"id": "o1", "settlement-display": "Leipzig", "repository-display": "UB",
+                                           "idno-display": "Ms 720", "orig-date-lang-display": "13. Jh."},
+                             "hspDescriptions": [{"id": "d1"}],
+                             "hspDigitizeds": [{"manifest-url-display": "https://example.org/manifest.json"}, {}]}]}
+    assert hsp.rows(response) == [("Leipzig", "UB", "Ms 720", "13. Jh.", ["https://example.org/manifest.json"],
+                                   ["Sermones Ungarus f. 55r"])]
+    assert hsp.rows({}) == []

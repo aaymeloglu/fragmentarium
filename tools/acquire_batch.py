@@ -37,9 +37,9 @@ def acquire(fid, destination, packet_root, number, count=2, max_width=0):
             service = resource.get('service')
             base = service.get('@id') if isinstance(service, dict) else None
             base = base or resource['@id'].split('/full/')[0]
+            base, ext, _ = iiif.image_base(base)
             info = json.loads(fetch(base + '/info.json', folder / f'canvas-{i}-info.json'))
             width, height = info['width'], info['height']
-            ext = 'native.jpg' if 'gallica' in base else 'default.jpg'
             target_width = min(width, max_width) if max_width else width
             image_url = f'{base}/full/{target_width},/0/{ext}'
             # Include requested width so a cached overview cannot be relabelled

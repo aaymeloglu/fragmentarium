@@ -7,9 +7,11 @@
                                                       # cut canvas N into a grid of crops at native x scale
     python3 tools/iiif.py F-ss0e crop OUTDIR x,y,w,h [--canvas N] [--scale 2]
 
-Quirks handled: Ghent (adore.ugent.be) manifests point at dead URLs and the working base is the
-ExLibris service id inside the canvas; BnF canvases resolve to Gallica (native.jpg); upscaling
-beyond about 2x is refused by most servers, so --scale is capped at 2. Standard library only.
+Quirks handled: Ghent (adore.ugent.be, libcatalog.ugent.be) manifests point at dead URLs and the working base is the
+ExLibris service id inside the canvas; BnF manifests give gallica.bnf.fr/iiif addresses, which
+answer scripts with 403, so they are rewritten to BnF's API host (openapi.bnf.fr, IIIF Image 3,
+no upscaling); upscaling beyond about 2x is refused by most servers, so --scale is capped at 2.
+Standard library only.
 """
 import json
 import sys
@@ -17,6 +19,17 @@ import urllib.request
 from pathlib import Path
 
 UA = {"User-Agent": "Mozilla/5.0 (fragmentarium tools)"}
+
+
+GALLICA = "https://gallica.bnf.fr/iiif/"
+BNF_API = "https://openapi.bnf.fr/iiif/image/v3/"
+
+
+def image_base(base):
+    """Working image-service base for a manifest's base: (base, file name, largest allowed scale)."""
+    if base.startswith(GALLICA):
+        return BNF_API + base[len(GALLICA):], "default.jpg", 1.0
+    return base, "default.jpg", 2.0
 
 
 def manifest(fid):
@@ -32,13 +45,13 @@ def canvases(fid):
         rid = res["@id"]
         svc = res.get("service")
         svc_id = svc.get("@id") if isinstance(svc, dict) else None
-        if "adore.ugent.be" in rid and svc_id:
+        if ("adore.ugent.be" in rid or "libcatalog.ugent.be" in rid) and svc_id:
             base = svc_id
         elif "/full/" in rid:
             base = rid.split("/full/")[0]
         else:
             base = svc_id or rid
-        ext = "native.jpg" if "gallica" in base else "default.jpg"
+        base, ext, max_scale = image_base(base)
         w, h = c.get("width"), c.get("height")
         if not (w and h):  # some manifests (e.g. Leuven lib.is) omit sizes; the image server's info.json has them
             try:
@@ -46,7 +59,7 @@ def canvases(fid):
                 w, h = info.get("width"), info.get("height")
             except Exception:
                 pass
-        out.append({"label": c.get("label"), "base": base, "ext": ext, "w": w, "h": h})
+        out.append({"label": c.get("label"), "base": base, "ext": ext, "w": w, "h": h, "max_scale": max_scale})
     return out
 
 
@@ -88,14 +101,14 @@ def main(argv):
                 for k in range(cols):
                     x, y = k * tw, r * th
                     p = out / f"{fid}_c{i}_r{r}c{k}.jpg"
-                    n = fetch(f"{c['base']}/{x},{y},{tw},{th}/{int(tw * scale)},/0/{c['ext']}", p)
+                    n = fetch(f"{c['base']}/{x},{y},{tw},{th}/{int(tw * min(scale, c['max_scale']))},/0/{c['ext']}", p)
                     print(p, n, "bytes")
     elif cmd == "crop":
         x, y, w, h = (int(v) for v in args[1].split(","))
         for i in sel:
             c = cs[i]
             p = out / f"{fid}_c{i}_{x}_{y}_{w}x{h}.jpg"
-            print(p, fetch(f"{c['base']}/{x},{y},{w},{h}/{int(w * scale)},/0/{c['ext']}", p), "bytes")
+            print(p, fetch(f"{c['base']}/{x},{y},{w},{h}/{int(w * min(scale, c['max_scale']))},/0/{c['ext']}", p), "bytes")
     else:
         sys.exit(__doc__)
 

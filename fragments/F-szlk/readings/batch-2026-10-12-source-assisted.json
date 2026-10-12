@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-12T04:30:40.786848+00:00",
+  "first_reading": "batch-2026-10-12-image-only",
+  "first_sha256": "e4f19d65acdddf53a077766ba6fe46bc776f32f1481317a782d7a4ad9e5b8ff1",
+  "fragment": "F-szlk",
+  "id": "batch-2026-10-12-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude (Opus 5.5), coordinator of the 12 October 2026 batch, with a research subagent; source-assisted, not isolated",
+  "reason": "Passages on both leaves reread against the print to test the identification; leaf Z was not in the first reading.",
+  "schema_version": 1,
+  "sources": [
+    "Servasanctus de Faventia, Antidotarius animae (Louvain: Johannes de Westfalia, GW M41855), Wolfenbuettel HAB copy, fols. xlv-xlvii, page images http://diglib.hab.de/inkunabeln/505-6-theol-2f-1/start.htm?image=00102"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING (batch of 12 October 2026, second pass)\n\nBase: batch-2026-10-12-image-only, which covers leaf X only. Made after the candidate was known, with the Louvain print of Servasanctus de Faventia, Antidotarius animae (Wolfenbüttel copy, fols. xlv-xlvii) to hand. Span A was read on the fragment image and the print page image by the coordinator, after a research reader; the other spans are the research reader's. Parentheses expand abbreviations; square brackets mark text lost or not read; a question mark follows an uncertain reading.\n\nA. Canvas \"fol. Zv\", right column, foot. Physical lines:\n1: [...] claude cura p(er)vigili porta(m) tact(us)\n2: q(uia) totus est lascivie flam(m)ativus. [rubric, continued on next line]\n3: [rubric] Claud(enda) e(st) porta int(er)ioris aff(ec)t(us)\n4: [red initial S]exta porta q(ue) maxi(m)e et\n5: p(ri)ncipal(ite)r est claude(n)da est\n6: porta int(er)ior(is) aff(e)ctus q(ua) sola\n7: no(n) clausa aliar(um) est o(mn)i(u)m frust(ra) clau-\n8: sura et sola hac b(e)n(e) vectib(us) obfirmata\n9: salva su(n)t om(n)ia que inf(ra) castellum\n10: hoc regiu(m) su(n)t inclusa. hec aut(em) int(er)ior\n11: porta iux(ta) [...]\nLine 2: the print has \"inflammativus\"; the manuscript's word may carry an abbreviation for the first syllable that was not seen.\n\nB. Canvas \"fol. Zv\", left column (research reader): ... p(res)b(yte)r quidam [...] suam a se separavit ... sed cum ad mortem venisset ... At ille eam adesse sentiens ... in hanc vocem prorupit dicens: Recede mulier, tolle paleas quia adhuc ardet igniculus. Ob huius cause periculum beatissimus Augustinus nullam feminam quantumcumque propinquam secum habitare sinebat ...\n\nC. Canvas \"fol. Xr\", left column (research reader, after the first reading): ... heretici falsi doctores Christum in cordibus simplicium occidentes. Ergo tales sunt merito capiendi, merito [...]andi et merito occidendi ... qui falsificant ... monetam ... si deo fidem non servasti puto quod nec servares et michi. Fuit et quidam episcopus arrianus nomine Olimpius ...\n\nCorrection to the research reader's earlier reading of the rubric on fol. Zr: \"[Quod] cohibendus est tactus ...\", as in the print, not \"Cavendum est a ...\".\n\nThis is a model reading made with the printed text to hand, not a human palaeographic transcription.\n",
+  "text_sha256": "0826c7886f0afea898b2db39f93b47f6e1733a15a7f6c7488d5a10ac50a2e0cd"
+}

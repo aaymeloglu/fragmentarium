@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-12T03:47:03.065713+00:00",
+  "first_reading": "batch-2026-10-12-image-only",
+  "first_sha256": "e99468e932f21db09dafa3271b81fef5b768d51c4ad492e42faec29f500b6305",
+  "fragment": "F-7nce",
+  "id": "batch-2026-10-12-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude (Opus 5.5), coordinator of the 12 October 2026 batch, with a research subagent; source-assisted, not isolated",
+  "reason": "Two passages reread against a manuscript of the Scala fidei to test the identification.",
+  "schema_version": 1,
+  "sources": [
+    "Vatican, BAV, Pal. lat. 449, ff. 167ra and 172va (page images, https://digi.vatlib.it/view/MSS_Pal.lat.449/0343 and /0354)",
+    "J. B. Schneyer, Repertorium der lateinischen Sermones des Mittelalters, vol. 1, pp. 250-252 (search snippets)"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING (batch of 12 October 2026)\n\nBase: batch-2026-10-12-image-only. Made after the candidate was known, with Vatican, BAV, Pal. lat. 449 to hand. The coordinator read the two spans below on the fragment tiles and on the manuscript page images; a research reader had read them first. Parentheses expand abbreviations; square brackets mark text not read; a question mark follows an uncertain reading. Physical lines are kept.\n\nA. Canvas \"ff. 1v-2r\" (Tra_MF_2019_09_01_2_), fourth column, native-pixel box 2683,309,3395,1321, from the red initial T:\n1: [T]ercia die\n2: resur(r)exit a mortuis. hunc\n3: g(ra)du(m) sive articulu(m) posuit beatus\n4: bartholome(us). Nam sicut n(e)c(essariu)m? est\n5: nobis cred(er)e q(uod) (christus) mortu(us) fuit\n6: ita etia(m) q(uod) a mortuis resurrexit.\n7: S(ed) q(ue)rend(um) est q(ua)re d(omi)n(u)s resurrec-\n8: t(i)o(n)em sua(m) usq(ue) ad g(e)n(er)alem resur-\n9: rect(i)one(m) no(n) distulit. Et d(icen)d(um) q(uod) h(oc) fuit\n10: factu(m) q(ua)druplici r(ati)o(n)e. p(rimo) p(ro)p(ter) exemplu(m)\n11: bonitatis. s(ecund)o p(ro)p(ter) firmamentu(m) v(er)ita-\n12: tis. t(er)cio p(ro)p(ter) [...]tatis. Et quar[to ...]\nThe word in line 4 is abbreviated and was first read \"verum\"; the manuscript witness has \"necessarium\".\n\nB. Canvas \"f. 1r\" (Tra_MF_2019_09_01_1_), left column, native-pixel box 1873,1161,2597,2169:\n1: paup(er) su(m) ego (et) in labore a iuventu-\n2: te mea. Conveniens (er)g(o) (et) iustu(m) fuit.\n3: p(ost) tantu(m) labore(m) tend(er)et ad quiete(m)\n4: p(ro)p(ter) q(uod) d(icitu)r sed(er)e ad dext(er)am p(at)ris. un(de) d(icitu)r\n5: in ev(angeli)o. Et d(omi)n(u)s quide(m) ih(esu)s p(ost)q(uam) lo-\n6: cut(us) est assu(m)pt(us) est in celu(m) (et) se-\n7: det ad dext(er)am dei p(at)ris. (et) sic patet\n8: terciu(m).\n9: [red initial S]edet ad dext(er)am d(e)i p(at)ris om-\n10: nipotentis. Quia bonu(m) q(uan)to mag(is)\n11: cognoscitur tanto mag(is) desid(er)at(ur).\n12: Ideo de co(n)dic(i)o(n)ib(us) celestis p(at)rie adh(uc)\n13: ampli(us) est d(icen)d(um). Dicendu(m) est (er)g(o)\n14: q(uod) (christus) d(icitu)r sed(er)e ad dext(er)am dei .i. in\n15: eq(u)alitate dei q(uan)tu(m) ad divi(ni)tate(m) (et) in\n\nThis is a model reading made with a manuscript of the work to hand, not a human palaeographic transcription. The rest of the bifolium is covered only by the first reading.\n",
+  "text_sha256": "fca23ce84b6ca8bfe318010fc540ca7a824cb63bec0b214cb2bb72b3760facf0"
+}

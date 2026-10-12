@@ -16,10 +16,15 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-42 fragments examined; 13 identifications published.
+62 fragments examined; 18 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-szlk](https://aaymeloglu.github.io/fragmentarium/F-szlk.html) | Servasanctus de Faventia, Antidotarius animae: the castle of the soul, chapters on feast days, on restraining touch and on the sixth gate | 2026-10-12 |
+| [F-cckq](https://aaymeloglu.github.io/fragmentarium/F-cckq.html) | Tabula utriusque iuris attributed to Johannes de Erfordia, article Appellatio (on tacit renunciation of an appeal) | 2026-10-12 |
+| [F-bcte](https://aaymeloglu.github.io/fragmentarium/F-bcte.html) | Bede, De temporum ratione, chapter 43 (fol. F) | 2026-10-12 |
+| [F-7nce](https://aaymeloglu.github.io/fragmentarium/F-7nce.html) | Aldobrandinus de Toscanella, Scala fidei (sermons on the Apostles' Creed): Tertia die resurrexit and Sedet ad dexteram | 2026-10-12 |
+| [F-03xq](https://aaymeloglu.github.io/fragmentarium/F-03xq.html) | John of Abbeville, sermons for saints' days: Sicut exaltavit Moyses serpentem and Ego quasi vitis (Nativity of the Virgin) | 2026-10-12 |
 | [F-su3k](https://aaymeloglu.github.io/fragmentarium/F-su3k.html) | Pharetra doctorum et philosophorum, section De amore inimicorum | 2026-10-11 |
 | [F-z56d](https://aaymeloglu.github.io/fragmentarium/F-z56d.html) | Petrus Hispanus (non-papa), Summa "Absoluta cuiuslibet", on devocatio and on ille as demonstrative or relative | 2026-10-11 |
 | [F-au0s](https://aaymeloglu.github.io/fragmentarium/F-au0s.html) | Bernard of Parma, Casus longi on the Decretals, X 3.4.11–12 and X 3.5.5–6 | 2026-10-11 |
@@ -75,6 +80,9 @@ tools/iiif.py                  fetch a fragment's images: info, overview, tiles,
 tools/ia_cluster.py            do the anchor phrases sit in one passage of an archive.org volume's OCR?
 tools/gbsearch.py              Google Books full-text search from the command line (needs GOOGLE_BOOKS_API_KEY)
 tools/gbwithin.py              search inside one Google Books volume: printed page number and snippet per hit, no key
+tools/tilepacket.py            neutral reading packets of overview plus reading-size tiles from an acquire_batch cache
+tools/schneyer.py              search Schneyer's sermon repertory volume by volume in archive.org full text
+tools/hspsearch.py             search Handschriftenportal catalogue texts for an incipit, title or shelfmark; lists digital copies
 tests/                         data/folder/site consistency; CI fails if docs/ is stale
 ```
 

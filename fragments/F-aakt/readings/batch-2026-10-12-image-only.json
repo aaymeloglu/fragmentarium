@@ -1,0 +1,102 @@
+{
+  "captured_at": "2026-10-12T03:05:58.603522+00:00",
+  "fragment": "F-aakt",
+  "id": "batch-2026-10-12-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "7f52494af13ab0ab31043f087c82acfe5b20bd733b4ecdd34b929e48e8c3036d",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): whole image 11445x7911 reduced to 1800x1244 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "2629554644359d8e7fe5b16e743405d5ae5ccde23486ab79f51729fe2f1a4ea9",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 0,0,3204,2215; grid position column 1 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "c304700277289007416a30d26da45ebef3c4468cde034d380b276715178e1b8c",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 2517,0,6065,2215; grid position column 2 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "e89a968730c191c662bf40fefb208c289f824d9d7d7c0dee55eb35911444c37d",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 5379,0,8927,2215; grid position column 3 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "1028ac671aff4ed69a41e3b3338b90fd10f90cc7906477bc27f19cb31fc8e334",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 8240,0,11445,2215; grid position column 4 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "56d27fcfa4ff862288e49a7fd86ff7aef2b4ed005353b5de2de372beb0eae7fb",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 0,1740,3204,4192; grid position column 1 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "daafc8010c92deea6309c21cc1cda15f9cce12760f678e3ee430ef89493465be",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 2517,1740,6065,4192; grid position column 2 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "431b525a5c7fc64df7f2916033aeeca881977922841d4dc6e85a017ac1c976d2",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 5379,1740,8927,4192; grid position column 3 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "96d38e43c6a01f6b3fdfb96738409fd918be5c2f30b0fd5cfa54b39a199e96c3",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 8240,1740,11445,4192; grid position column 4 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "c76d744bbfd40a38cef2614d1c992c25f18cc4710485dc760586f6a6e80d64e3",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 0,3718,3204,6170; grid position column 1 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "e874b467907f49103ad1b985b4e341ddc48d7164cd8358616547f4b086b36094",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 2517,3718,6065,6170; grid position column 2 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "fe8bef1aed012bb0fb29aba1a482411ef31687c617dec02c2d0fe1317b933c55",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 5379,3718,8927,6170; grid position column 3 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "7a0a8cb17b6f55fc667f6e541f7ef222f538a57a5b81c03230d2e89f8b4506b1",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 8240,3718,11445,6170; grid position column 4 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "c3642f4c66ea8378b36debc9413c2702049d588fba7ed5e92e1eaa49eaa35b48",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 0,5695,3204,7911; grid position column 1 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "05534c00b95a0714ee6c3dffdf84d59487ee76b2d02a02f9ab7d46ddfb754c10",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 2517,5695,6065,7911; grid position column 2 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "e74039f749158b2054eed15886edd82cff3d02497facc7897a9c875d8c4bd686",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 5379,5695,8927,7911; grid position column 3 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "8fb6351fe7d8eab9d9c3e2286d1724e40c7cd2fb26d8e417f61303cf615dde23",
+        "source": "https://fragmentarium.ms:443/loris/F-aakt/LAS_Riva_004.jp2/full/11445,/0/default.jpg (canvas 0, LAS_Riva_004): native-pixel box 8240,5695,11445,7911; grid position column 4 of 4, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated reader subagent",
+  "schema_version": 1,
+  "session": "batch-2026-10-12 reader-a (fresh subagent session, packet-01)",
+  "text": "PACKET-01 - UNVERIFIED IMAGE READING (blind; no outside source consulted)\n\nExposure note: the only non-fragment text I saw is a later ink label on the spine of the host\nbinding (image-003/004), reading \"ABB: PANO[R?] / in / 3: DECRET. LIB\" (label of the bound book,\nnot of the fragment). I did not use it to supply any reading below.\n\n1. LAYOUT SURVEY (observation)\n- image-001 is an overview of an opened-out limp parchment binding: back cover (left), spine with\n  four raised bands, front cover (right), ruler at right edge. The cover is a reused manuscript\n  leaf/bifolium, written side outward.\n- Back cover (left half): two columns of small, compressed gothic bookhand, c. 75-80 lines per\n  column, text upright in the photograph. The first column begins a little below the top edge;\n  both columns end c. 4/5 down, leaving a large empty lower margin. No running title seen (top\n  edge is abraded/torn). I see no interlinear gloss and no surrounding gloss frame: it looks like\n  continuous two-column prose.\n- Small coloured paragraph marks inside the columns (green/blue and red traces; e.g. image-010\n  line 15, image-006 around lines 4 and 15, image-007 left edge and lower right), and faint red\n  strokes in the left margin (image-010, image-014). A darker later-ink word is written between\n  lines in the left column (image-002 c. line 6; image-010 c. line 8), probably an interlinear\n  correction or catchword-like addition; I cannot read it securely (\"...?ma\" / \"...ndum?\").\n- Front cover (right half): the same kind of two-column text, but almost wholly rubbed away and\n  spotted with dark mould. Only line beginnings by the spine survive (image-004, -008, -012,\n  -016). Visible there: a 2-3-line coloured initial, apparently \"Q\" or \"O\", red/green\n  (image-012, mid-height), a second coloured initial in the outer column (image-013, blue/red,\n  round letter), further ghost initials (image-009), a red paragraph mark (image-012 right of\n  centre) and a faint red rubric line near the top of the outer column (image-005 bottom left /\n  image-009 top left). A later ink mark like \"d\" or \"∂\" in the spine-side margin (image-012).\n- Tentative interpretation only: a text divided into short sections with coloured initials and\n  rubrics on the front-cover side, and dense citation-heavy prose on the back-cover side.\n\n2. AREAS SELECTED / UNREAD\nSelected: back cover, lower left column (image-010, image-014) and lower right column\n(image-011, image-015), which are the only areas where letter-forms resolve. Upper back cover\n(image-002, -003, -006, -007) is mostly a blurred offset-like ghost; only isolated words read.\nFront cover (image-004, -005, -008, -009, -012, -013, -016, -017): unread, effectively illegible\nat this resolution. Raking or UV/multispectral images, or higher-resolution crops of the back\ncover, would be needed for a real transcription.\n\n3. TRANSCRIPTION (very low confidence throughout; line numbers counted from top of each image\nand approximate because the top lines of each crop are cut)\n\nBack cover, left column, lower part - image-010\nimage-010 L3:  [illegible] ... ad ei(us)? ... [illegible]\nimage-010 L4:  [illegible] co(n)tra? ... [illegible] quod? ad\nimage-010 L5:  [illegible] ad q(ue)? cum ... [illegible]\nimage-010 L8:  [illegible] ... e. q(ua)l(ite)r? .4. .i.? Quo(modo)? [illegible]   (darker later ink word\n               written over/between here)\nimage-010 L9:  [illegible] ... ergo? ... om(n)e? eor(um)?\nimage-010 L10: iu(n)cto? diligentes? ... ad consanguineos?\nimage-010 L11: i(n)terrogat(ur)? e. et c(eter)o? ... [illegible]\nimage-010 L12: [illegible] ut. p(ro)? [illegible]\nimage-010 L14: conueniente? et sup(er)? ... [illegible]\nimage-010 L15: [coloured paraph] Ego? hic casum? ... [illegible, mould stain]\nimage-010 L16: officio et illum? que? sit ad que? [illegible]\nimage-010 L17: pedaneo? prout? tunc ... [illegible] in h(oc)? eo\nimage-010 L18: a quo inquirere? ... [illegible] aliis?\nimage-010 L19: q(ui)? iudicio? p(ro)pria(m)? non ... [illegible]\nimage-010 L20: [illegible] p(ro)hibita? ... dicit(ur)?\nimage-010 L21: p(ri)mitiui?. i. e. cum oporteat etc. seq(uitur)? ego? in ...\nimage-010 L22: in ... ergo? aliunde? ort(um)? [illegible]\nimage-010 L24: cognita? ... uno modo co(m)mittit(ur)? e. c. ...\nimage-010 L25: [illegible] etc. eo. ... [coloured paraph] ... [illegible]\n\nimage-014 (overlaps image-010 L21-25 at its top; then the last lines of the column)\nimage-014 L6:  [illegible] ex officio? p(ro)? ... [illegible]\nimage-014 L7:  [illegible] alio? ali(u)s? ... inquirere? [illegible]\nimage-014 L9:  [illegible] non licet? ... [illegible]\nimage-014 L10: [illegible] ... [last line of column; nothing secure]\n\nBack cover, right column, lower part - image-011\nimage-011 L3:  [illegible] q(uod)? ... q(uod) ... [illegible]\nimage-011 L4:  [illegible] presenti?a sit inquisitio ex quo ait? est\nimage-011 L5:  [illegible] inspectione(m)? ... [illegible]\nimage-011 L8:  [illegible] p(ro)ut? .p. ... in eisdem?\nimage-011 L9:  [illegible] ...ionib(us)? ... casum in qua?\nimage-011 L10: [illegible] ... est non quod? a iudicio?\nimage-011 L11: [illegible] ab ho(m)i(n)e? et nat(ur)a?/natione? ut. p.\nimage-011 L12: [illegible] e. qual(ite)r .p. .i.? et .R.? et nota\nimage-011 L13: est illud? ar(gumentum)? q(uod) sit inquisitio d(icitu)r? p(er)? ex...ones?\nimage-011 L14: [illegible] et nisi? ... e. i. et c. ad. cc.? ex.?\nimage-011 L15: [illegible] in quo casu? p(ri)mo? inquirit(ur)? ...\nimage-011 L16: [illegible] est q(uod)? iudica(n)do? loca? licent(er)? ...\nimage-011 L20: [illegible] q(uod) sic? ... et iuram(en)t(um)? et co-?\nimage-011 L22: [illegible] q(uod) si? ... sic ad alt(er)am? p(ar)te(m)? possit?\nimage-011 L23: [illegible] sit ex? officio? inquisitione(m)? ... iusta?\nimage-011 L24: inquisitio? cum e(st)? fama? ... et graues? le-\nimage-011 L25: [illegible] iudic(is)? inquirere? ... [illegible]\n\nimage-015 (overlaps image-011 L22-25 at top; last lines of the column)\nimage-015 L7:  [illegible] ... p(ro)? ... [illegible]\nimage-015 L10: [illegible] ... e. p(ro)? c(etera)? et p(er)?\nimage-015 L11: [illegible] ... et? ... ad?... [last line of column]\n\nIsolated words elsewhere (back cover upper part): image-006 c. L9 \"...ac figuris? p...\" ;\nimage-006 c. L13 \"p(ri)mus? ... causis? ...\"; image-007 c. L12 \"...ut eo q(uod)? ... et ... si\n... ar. ...\" ; image-007 c. L19 \"Cartoria? ... monasterii? in eccl(es)ia? sua?\" (very doubtful).\n\n4. LIMITATIONS\n- The ink is rubbed to a ghost over most of the cover; many \"readings\" above are word-shapes\n  rather than letter-by-letter readings and should be treated as unverified. The recurring word\n  I am most confident of is \"inquisitio\"/\"inquirere\" in the right column of the back cover, with\n  \"ex officio\" and strings of short sigla (\".p.\", \".i.\", \"e.\", \"c.\", \"ar.\") that look like\n  abbreviated citations.\n- Line numbers are approximate; crops overlap (image-010/014, image-011/015, 006/010, 007/011).\n- Column order across the two covers, and which side of the original leaf this is, cannot be\n  determined from these images. Front-cover text not read.\n- I could not reach the 15-25 consecutive securely read lines requested; the script does not\n  allow it at this resolution.\n",
+  "text_sha256": "c25b0ef32a9c8dfeefe03d702d584be5b62db323f308eb6422689968338e28a3"
+}
