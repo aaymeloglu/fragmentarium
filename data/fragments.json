@@ -846,13 +846,13 @@
   "shelfmark": "Archief Sint-Leonarduskapittel te Zoutleeuw, nr. 1132",
   "catalogue_title": "Unidentified canon law text",
   "catalogue_date": "1250 – 1300 CE",
-  "status": "partial",
-  "confidence": "medium",
-  "identification": "Alphabetical canon-law repertory, article Appellatio, digesting the Decretals title De appellationibus with its gloss; work not identified",
-  "note": "Running title Appellatio, bracketed distinctions, cross-reference \"Require in vocabulo electio\"; cites Innocent IV constitutions of 1245 without \"li. vi\". Ten connected lines reword Bernard of Parma's gloss on X 2.28 a clause at a time (1473 and 1582 prints, snippets). Ruled out: Monaldus (Vatican Pal. lat. 695, page images, part of the article), Johannes de Erfordia's Tabula as in Pal. lat. 804, Margarita decretalium (OCR). Untested: Brocarda and the Guido de Baysio and Hostiensis tabulae.",
-  "verify": "https://fragmentarium.ms/overview/F-cckq",
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Tabula utriusque iuris attributed to Johannes de Erfordia, article Appellatio (on tacit renunciation of an appeal)",
+  "note": "Three passages, two consecutive, agree with Bremen, SuUB, msa 0137, f. 27v (page images; coordinator compared about fourteen lines), in the order of the two faces. Not the same form of the text: the case is reworded (ad papam ... ad ordinarium), citations and sigla differ, and the surrounding material diverges; recension not established. Unprinted; attribution is the Bremen catalogue's. Excluded on page images: Monaldus (Pal. lat. 695) and the short article of Pal. lat. 804. The work is usually dated about 1285 or later, at the end of the catalogue range for the leaf.",
+  "verify": "https://brema.suub.uni-bremen.de/ms/content/pageview/2782185",
   "examined": "2026-10-12",
-  "identified_on": null
+  "identified_on": "2026-10-12"
  },
  {
   "id": "F-ndvo",
