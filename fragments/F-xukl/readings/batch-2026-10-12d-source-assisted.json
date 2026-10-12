@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-12T22:23:56.093074+00:00",
+  "first_reading": "batch-2026-10-12d-image-only",
+  "first_sha256": "e9107eba808d1c327589f6f9bacbb503691d04a5d6472427b78f7a9cc2ad6821",
+  "fragment": "F-xukl",
+  "id": "batch-2026-10-12d-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with source",
+  "reason": "The image-only reading gave disconnected letter groups at about 50 px a line; with the psalm text beside the images the groups resolve into consecutive lines and several misread words (creaturen, ulammende, confirmatie) are corrected to crachten, versamenden, vergaderinghe.",
+  "schema_version": 1,
+  "sources": [
+    "N. van Wijk, Het getijdenboek van Geert Grote naar het Haagse handschrift 133 E 21, Leiden 1940, pp. 46-47 and 192 (DBNL transcription; Google Books snippets of volume lvdZAAAAIAAJ)",
+    "Psalmen, Bijbelvertaling van 1360, Ps 149:1-4, in the Corpus Middelnederlands (Instituut voor de Nederlandse Taal), https://corpusmiddelnederlands.ivdnt.org/",
+    "Gebedenboek uit de kring van de Moderne Devotie, Ps 149-150, in the Corpus Middelnederlands (second witness of the same translation)"
+  ],
+  "text": "F-xukl - SOURCE-ASSISTED reading (made with Van Wijk's edition of Geert Grote's Getijdenboek, pp. 46-47, in the DBNL transcription beside the images). Reread by a research reader on 5x enlargements of the native images, 12 October 2026: fol. [2]r lines 3-12, fol. [2]v lines 3-12, fol. [1]r lines 7-12, fol. [1]v lines 2 and 5-12. Other lines not reread. Not an independent reading; a script line is about 50 px high and minims cannot be divided. Accuracy not measured.\nConventions: only letters visible on the strips are given; every line is cut on one or both sides. [ ] = lost at the cut and supplied from the edition; (..) = expansion; (?) = uncertain; | = cut between the two strips. Line numbers count the twelve surviving lines from the top of each face.\n\nCanvas 2, fol. [2]r (C r | D r), native box 270,130,580,720. Right margin preserved: lines end here. Ps 149:1-4.\n3   ..]yen(?) sanc si[n\n4   ..ver]gaderinghe(?)\n5   ..]in dien die hem\n6   ..]die dochteren van\n7   ..vr]ouwen he(m) in hore[n]\n8   ..l]ouen sinen na\n9   ..]en v(er)samenden sa\n10  ..i]n santoren(?) sin\n11  ..d]en here(?) wel beha\n12  ..]en(de) die sachtmo\n\nCanvas 3, fol. [2]v (D v | C v), native box 320,120,640,700. Left margin preserved: lines begin here. Ps 149:8 - 150:3.\n3   ..(?) e|deling(he)(?) [..\n4   ..(?) | doen moeg(?)[hen ..\n5   ..(?) | gerichte(?) d[..\n6   heilighen   [space, faint red]   (?)[..\n7   lighen louet de[n ..\n8   te sinre(?) crachte[n ..\n9   crachten louet [..\n10  (v)oudicheit sin[re ..\n11  he(m) in den(?) ghelu[de ..\n12  he(m) in d..(?) ...(?)   [unresolved: \"in den san[toer]\" or \"in der bon[ghen]\"]\n\nCanvas 0, fol. [1]r (A r | B r), native box 160,440,500,780. Rubbed. Ps 149:2-4.\n7   ..s]yon hogh[e ..\n8   ..coninc / coninghe(?) ..\n9   ..] in eend[rachtighen ..\n10  ..]he in bon|ghen en[de\n11  ..]ghen si hem | wa(?)[nt\n12  ..]het in sine(n) | vol[c\n\nCanvas 1, fol. [1]v (B v | A v), native box 260,130,610,740. Ps 149:8 - 150:3.\n2   ..v]oethelden(?)\n5   ..i]s alle sin[en\n6   ..]in sinen h[eilighen\n7   he.. in den(?) | firmamen[te\n8   ..l]ouet | he(m) in sin[en\n9   ..na d]er menich(?)[..\n10  ..gr]oetheit(?) ..\n11  ..b]asunen lou[et\n12  ..]er(?) en(de) in | der herpe[n\n",
+  "text_sha256": "f0fc6cb2161d8fd216a4a5dc105309bec9929f511c03e31468365243b8a5afcb"
+}

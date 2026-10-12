@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-12T21:37:20.937853+00:00",
+  "fragment": "F-wlir",
+  "id": "batch-2026-10-12d-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "236a51789c9d1cf36dd11cef2677cf5442265f51efa4a1df3343a6d3d7199fd0",
+        "source": "https://fragmentarium.ms:443/loris/F-wlir/fol_1r.jp2/full/2714,/0/default.jpg (canvas 0, fol. [1]r): whole image 2714x2469 reduced to 1800x1638 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "a40e771a5443311f84173e7b0e7b703998018029b5444f6dcd58077187b1a87c",
+        "source": "https://fragmentarium.ms:443/loris/F-wlir/fol_1r.jp2/full/2714,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 189,246,678,891; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "2a0f34aebd1d46f7d35d6a780be300e0ae451fdb34d6b4be38ac49fae161ae8b",
+        "source": "https://fragmentarium.ms:443/loris/F-wlir/fol_1r.jp2/full/2714,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 189,753,678,1467; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "9cdca744f9e7149afcbd1b2e6fb00761de9e6f361f2b3d3ba5f37c1a91154358",
+        "source": "https://fragmentarium.ms:443/loris/F-wlir/fol_1r.jp2/full/2714,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 189,1329,678,1975; unrotated grid position column 1 of 1, row 3 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "1b2f35e8efb8999842172c64d94b6a9a907f80773532e05972b79275a2560340",
+        "source": "https://fragmentarium.ms:443/loris/F-wlir/fol_1v.jp2/full/2658,/0/default.jpg (canvas 1, fol. [1]v): whole image 2658x2400 reduced to 1800x1625 for layout"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "58d3088344f299f423c9f4d432efdfb1ac20c57930c759d070af377d5a8dbf76",
+        "source": "https://fragmentarium.ms:443/loris/F-wlir/fol_1v.jp2/full/2658,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 212,168,691,804; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "e0dcb03efe78d0203da9f746e49a0ed6a90e8f734d604fb7b2b85de6de7668f3",
+        "source": "https://fragmentarium.ms:443/loris/F-wlir/fol_1v.jp2/full/2658,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 212,667,691,1372; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "f70b374505fd21c11672a0a4c8d49c63fbb963157e3defe1f132c3538e49a753",
+        "source": "https://fragmentarium.ms:443/loris/F-wlir/fol_1v.jp2/full/2658,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 212,1235,691,1872; unrotated grid position column 1 of 1, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-12d (packet-14)",
+  "text": "PACKET-14 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification or reading of this piece. I opened only PROMPT.md and image-001..008 of this packet (plus one filename listing of the packet directory; packet.json not opened).\n\nLAYOUT SURVEY (observation)\n- One narrow vertical parchment strip, two faces: image-001 (overview, face 1) with tiles 002-004; image-005 (overview, face 2) with tiles 006-008. Strip about 2.5 cm wide and about 12 cm tall, on black cloth with ruler.\n- Each face carries about 19-20 lines of a small, heavily abbreviated cursive hand in brown-black ink, upright. Lines are cut at both left and right, so only some 10-15 letters of each line survive. Column structure cannot be judged from the strip.\n- Red: short vertical red strokes (paraph or initial-stroking type) on face 1 at lines 4, 8, 12, 16 (approx.) and a red underline plus a red stroke in the next-to-last line; on face 2 small red marks at the right edge near lines 15 and 19 and a faint red line near line 17. No running title or enlarged initial visible. No gloss visible.\n- Face 1 is partly covered at left and top by white fibrous residue (paper/paste); face 2 is rubbed, with white flecks, and its lower third is very faint.\n- Language: Latin by the abbreviation system (observation). Content type not inferred.\n\nSPANS SELECTED: I attempted every line; what follows is all I can read. Much remains unread, especially face 1 lines 1-6 and face 2 lines 14-20.\n\nFACE 1\n(image-002; its lines 8-9 repeat as image-003 lines 1-2)\nimage-002 L1: [..]gdd(?)[..]   [under residue]\nimage-002 L2: [illegible]\nimage-002 L3: [illegible] e(?)\nimage-002 L4: [red stroke] [..]as(?) e(st?) q(?)\nimage-002 L5: [..] p(ro)p(?) [..] d(?)[..]\nimage-002 L6: [..]atio(n)e(?) ad(?)[..]\nimage-002 L7: [..] (or)dine(?) u(?)\nimage-002 L8 = image-003 L1: e(?) m(?)er[..] [red stroke] hic(?) e(st) s(?)\nimage-002 L9 = image-003 L2: [..]ligio(n)e(?) p(ro)pria(?)\n(image-003 continued; its lines 10-11 repeat as image-004 lines 1-2)\nimage-003 L3: [..]sp(?)o . 2(?) Dico(?)\nimage-003 L4: [..] susc(?)[..] sp(?)e(?)\nimage-003 L5: [..]uali(?). [red stroke] Dic(it?)\nimage-003 L6: [..]pulsata(?) q(uo)d(?) p(?)\nimage-003 L7: [..] Dicta(?) o(?)\nimage-003 L8: [..]mdi(?)[..]mp(?)[..]\nimage-003 L9: [red stroke] P(?) ar(?)[..] ill(?)\nimage-003 L10 = image-004 L1: [..]adi(?)[..] e(st?) i(n?)\nimage-003 L11 = image-004 L2: [..] s(ed?) Dimi(?)\nimage-004 L3: [..]t(?) mandau(?)[..]\nimage-004 L4: [..] ad lice(n)(?) / ad lite(?)\nimage-004 L5: [..] no(?)ta(?)t(?)\nimage-004 L6: [..]minus(?)\nimage-004 L7: [..] [red underline beneath several letters] [red stroke] l(?)\nimage-004 L8: [bottom line, cut through; illegible]\n\nFACE 2\n(image-006; its lines 8-9 repeat as image-007 lines 1-2)\nimage-006 L1: [.]i corp(or)i(s?)\nimage-006 L2: [illegible]\nimage-006 L3: [..] dom(?)[..]\nimage-006 L4: [..]s(?)[..]tate(?)[..]\nimage-006 L5: [..]uis(?)[..]\nimage-006 L6: eod(em?) euage(?) / eudge(?)\nimage-006 L7: [..]tur(?) p(?)[..]\nimage-006 L8 = image-007 L1: [.]lus(?) op(or)tu(?) / sp(irit)u(?)[..]\nimage-006 L9 = image-007 L2: p(?) posse(n)t(?) equ(?)\n(image-007 continued; its last lines overlap image-008 top)\nimage-007 L3: [.]nete(?) ubiq(ue) q(?)\nimage-007 L4: [.]ndu(m) i(n)sta(n)(?)[..]\nimage-007 L5: do(?) off(icium?) mun(?)\nimage-007 L6: [.]b(us) r(e)ligio(?)[..]\nimage-007 L7: s(?) Adorat(?) off(?)\nimage-007 L8: [illegible]\nimage-007 L9: [..] ofm(?)[..] [red mark at right edge]\nimage-007 L10 = image-008 L1: [.]rat(?) offic(?)[..]\nimage-008 L2: [..] sic(?) [..]\nimage-008 L3: [faint red line] [illegible]\nimage-008 L4: [illegible]\nimage-008 L5: [..] sub(?)[..]\nimage-008 L6: [..] sub(?)[..] [red mark at right]\nimage-008 L7: [illegible]\nimage-008 L8: [bottom line; illegible]\n\nRecurrent letter groups that I am moderately confident of: \"Dic-\" with capital D three or four times on face 1 after red strokes (\"Dico\"/\"Dicit\"/\"Dicta\" not distinguishable); \"p(ro)pria\"; \"ubiq(ue)\"; \"posse(n)t\"; \"off-\" (officium type abbreviation) three or four times on face 2; \"r(e)ligio-\".\n\nLIMITATIONS\n- Line numbers are counted from the top of each tile and are approximate where residue hides line beginnings; the overlaps between tiles are stated above and must not be counted twice.\n- Resolution (about 490 px across 2.5 cm) is too low for this small cursive; most abbreviation strokes cannot be resolved. Nearly every word is a tentative reading and should not be used alone for a source match.\n- Needed: native-resolution capture at 3-4x, and removal or transmitted-light imaging of the white residue on face 1.\n",
+  "text_sha256": "4d91d31795b8ff66ec8afef41bf9b588ca52dd302de3ac64e8a2c4c0ded5dbcb"
+}

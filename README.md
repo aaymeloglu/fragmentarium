@@ -16,10 +16,14 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-102 fragments examined; 31 identifications published.
+122 fragments examined; 35 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-t273](https://aaymeloglu.github.io/fragmentarium/F-t273.html) | Caesarius of Arles, Sermo 144 (ed. Morin), In letaniis, De agenda paenitentia et Ninevitis, complete (inc. Evangelica lectio fratres carissimi dum legeretur); the sermon between the catalogue's Maximus and Gregory texts | 2026-10-12 |
+| [F-a07w](https://aaymeloglu.github.io/fragmentarium/F-a07w.html) | Aegidius de Fuscarariis, Ordo iudiciarius, cc. LXIX (Conclusio causae, second half) - LXX (Forma sententiae diffinitivae, opening); ed. Wahrmund pp. 124-126 | 2026-10-12 |
+| [F-xukl](https://aaymeloglu.github.io/fragmentarium/F-xukl.html) | Psalms 149:1-4 and 149:8-150:3 in Geert Grote's Middle Dutch translation (as in his Getijdenboek, ed. Van Wijk 1940, pp. 46-47), on each of two leaves; probably a book of hours, kind of book and unity of the leaves not established | 2026-10-12 |
+| [F-n5r2](https://aaymeloglu.github.io/fragmentarium/F-n5r2.html) | Bible, Canticle of Moses (Audite caeli), Deuteronomy 32:1-27, Vulgate; book type (psalter with canticles, breviary or Bible) not established | 2026-10-12 |
 | [F-ja1n](https://aaymeloglu.github.io/fragmentarium/F-ja1n.html) | Johannes Faventinus, Summa super Decretum Gratiani, pars I, D. 86 (comment on c. 8 Qui venatoribus to c. 24 Tanta nequitia) | 2026-10-12 |
 | [F-n8nv](https://aaymeloglu.github.io/fragmentarium/F-n8nv.html) | (Pseudo-)Hugh of St Victor, Expositio in regulam sancti Augustini, Middle Dutch translation with the lemmata of the Rule, chapters 6-7 (PL 176, cols 899-904) | 2026-10-12 |
 | [F-w36h](https://aaymeloglu.github.io/fragmentarium/F-w36h.html) | Jacobus de Voragine, Legenda aurea, Southern Middle Dutch translation of c. 1357 attributed to Petrus Naghel (Gulden legende), chapter on the dedication of a church (Vander wiinghen der kerken): end of the canonical hours to the seven sprinklings of the altar | 2026-10-12 |
