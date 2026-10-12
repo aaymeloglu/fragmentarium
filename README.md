@@ -16,10 +16,11 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-62 fragments examined; 17 identifications published.
+62 fragments examined; 18 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-szlk](https://aaymeloglu.github.io/fragmentarium/F-szlk.html) | Servasanctus de Faventia, Antidotarius animae: the castle of the soul, chapters on feast days, on restraining touch and on the sixth gate | 2026-10-12 |
 | [F-cckq](https://aaymeloglu.github.io/fragmentarium/F-cckq.html) | Tabula utriusque iuris attributed to Johannes de Erfordia, article Appellatio (on tacit renunciation of an appeal) | 2026-10-12 |
 | [F-bcte](https://aaymeloglu.github.io/fragmentarium/F-bcte.html) | Bede, De temporum ratione, chapter 43 (fol. F) | 2026-10-12 |
 | [F-7nce](https://aaymeloglu.github.io/fragmentarium/F-7nce.html) | Aldobrandinus de Toscanella, Scala fidei (sermons on the Apostles' Creed): Tertia die resurrexit and Sedet ad dexteram | 2026-10-12 |
