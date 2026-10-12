@@ -16,10 +16,13 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-42 fragments examined; 10 identifications published.
+42 fragments examined; 13 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-su3k](https://aaymeloglu.github.io/fragmentarium/F-su3k.html) | Pharetra doctorum et philosophorum, section De amore inimicorum | 2026-10-11 |
+| [F-z56d](https://aaymeloglu.github.io/fragmentarium/F-z56d.html) | Petrus Hispanus (non-papa), Summa "Absoluta cuiuslibet", on ille as demonstrative or relative | 2026-10-11 |
+| [F-au0s](https://aaymeloglu.github.io/fragmentarium/F-au0s.html) | Bernard of Parma, Casus longi on the Decretals, X 3.4.11–12 and X 3.5.5–6 | 2026-10-11 |
 | [F-rl44](https://aaymeloglu.github.io/fragmentarium/F-rl44.html) | Serapion Senior, Breviarium, tract VII (antidotarium), chapter 20 | 2026-10-11 |
 | [F-rygw](https://aaymeloglu.github.io/fragmentarium/F-rygw.html) | Galen, De regimine sanitatis, Book VI, medieval Latin translation | 2026-10-11 |
 | [F-1exy](https://aaymeloglu.github.io/fragmentarium/F-1exy.html) | Nicholas of Lyra, Tractatus de differentia nostrae translationis ab hebraica littera, Genesis section | 2026-09-20 |
@@ -33,8 +36,9 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 Dates record when the project first established the identification, not a later review or
 site update. The eight original dates are supported by the original 20 September 2026 research commits
-(`3c9d6db` and `6b7c316`). The two new identifications come from the
-[11 October batch](audits/batch-2026-10-11.md). `examined` separately records the latest examination.
+(`3c9d6db` and `6b7c316`). Two identifications come from the
+[11 October batch](audits/batch-2026-10-11.md) and three more from a
+[recheck of its unresolved records](audits/recheck-2026-10-11.md). `examined` separately records the latest examination.
 
 Research and comparisons were performed by LLMs. The reports link selected manuscript passages
 to printed sources and state the scope and limits of the evidence. Richard of Middleton was

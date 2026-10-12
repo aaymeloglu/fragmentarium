@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-12T00:19:53.809589+00:00",
+  "first_reading": "batch-2026-10-11-image-only",
+  "first_sha256": "5893295b251b2c2bb4103e2969c77a62387ec736a74baa965869cf83d2061432",
+  "fragment": "F-au0s",
+  "id": "recheck-2026-10-11-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude (Opus), coordinator of the 11 October 2026 recheck; source-assisted, not isolated",
+  "reason": "Selected lines on both faces reread after the casus was found in print; supports the Casus longi identification.",
+  "schema_version": 1,
+  "sources": [
+    "https://fragmentarium.ms/loris/F-au0s/fol_1v.jp2/full/full/0/default.jpg",
+    "https://fragmentarium.ms/loris/F-au0s/fol_1r.jp2/full/full/0/default.jpg",
+    "https://archive.org/details/cuadecretumgrav202xxxx"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING (recheck, 11 October 2026)\n\nBase: batch-2026-10-11-image-only. The reader knew the earlier ledger entry (Decretals X 3.5.6 as source locus) before reading, read the image directly, then compared with the printed casus. Parentheses expand abbreviations; square brackets mark text lost or supplied; a question mark follows an uncertain reading. Native-pixel boxes are x0,y0,x1,y1.\n\nFace A: manifest canvas labelled fol. [1]r (image file fol_1v.jp2, 3013 x 3369), main column, box 400,520,1330,1260.\nA1: [..]or(um) corrigatur p(er) ep(iscop)os in quor(um)\nA2: [iuris]dic(ti)o(n)e? cl(er)ici (con)sistunt (et) de b(e)n(e)ficiis\nA3: istor(um) que optinent c(ontra) canones\nA4: (et) p(er)ic(u)l(u)m a(n)i(m)ar(um) inducunt p(ro)vide-\nA5: atur paup(er)ib(us) cl(er)icis qui eccl(es)iis va-\nA6: leant deservire. [red paragraph] No(ta) q(uod) nemo\nA7: pot(est) h(abe)re duas eccl(es)ias sine p(er)ic(u)lo\nA8: anime n(isi) dispensative p(er) p(a)p(a)m.\nA9: [large red C] Um teneamur. Aliquis h(abe)ns\nA10: sufficiens b(e)n(e)ficiu(m) impetra-\nA11: vit l(itte)ras p(ro) alio b(e)n(e)ficio in alia ec-\nA12: cl(es)ia optinendo. nec fecit m(en)c(i)o(n)em\nA13: de b(e)n(e)ficio q(uod) h(abe)bat. q(ue)situm fuit\nA14: a p(a)p(a). utr(um) teneretur ille cui l(itte)re diri-\nA15: guntur p(ro)vid(er)e illi auct(oritat)e illar(um) lit-\nA16: terar(um). R(espondet) p(a)p(a). si ma(n)datu(m) [nostrum ...]\nA2 is the least secure line: the word before \"clerici consistunt\" is damaged.\n\nFace B: manifest canvas labelled fol. [1]v (image file fol_1r.jp2, 3063 x 3091), main column, box 740,400,1680,1130. The upper lines are rubbed; only the following are offered.\nB2: [suspen]sionis (et) ex(com)m(unication)is ut ad obedientiam ep(iscop)i\nB3: sui [archi]ep(iscop)i? redeant. (et) si eor(um) mali-\nB4: cia [sic] (com)pesci n(on) pot(er)it cardi-\nB5: nalis ap(osto)lice se(dis) legatus remove-\nB6: at eos ab adm(in)istrac(i)o(n)e suar(um) ec-\nB7: cl(es)iar(um) (et) eccl(es)iis ill(is) de p(er)sonis ido-\nB8: neis faciat p(ro)videri. S(ed) eos n(on)\nB9: deponat ut cu(m) eis si expedi(er)it\nB10: mis(er)icordit(er) agi possit. [No(ta) quod]\nB11: q(ui) n(on) (com)paret ap(ud) domiciliu(m) [suum ...]\nB13: [...] expectatur p(er) vi\nB14: me(n)ses. It(em) ar(gumentum) q(uod) cu(m) deposito n(on) fit\nB15: [rubric and decorated initial; rubric not read]\nB16: [...] Quida(m) cl(er)ici obti[nuerunt ...]\nB3, B11 and B13 are partial. The rubric in B15 was not read and is not used.\n\nLeft unread: the slivers of the adjacent columns on both faces, and the marginal notes. This is a model reading made with the printed text to hand, not a human palaeographic transcription.\n",
+  "text_sha256": "5207c217e0836394bdce2b0eedd6acf0003826064d823dac89f6d820d87b5694"
+}
