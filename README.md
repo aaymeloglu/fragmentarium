@@ -16,10 +16,19 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-62 fragments examined; 18 identifications published.
+82 fragments examined; 27 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-v0qx](https://aaymeloglu.github.io/fragmentarium/F-v0qx.html) | Johannes Matthaeus, Concionum dispositiones (Wittenberg, 1581; 2nd ed. 1590), end of the outline "De templorum dedicatione" (handwritten copy of pp. 865-868) | 2026-10-12 |
+| [F-x3yo](https://aaymeloglu.github.io/fragmentarium/F-x3yo.html) | St Leonard near Liège (canons regular), contents leaf of a composite quarto volume, after 1492; first piece Den Haag KB KW 169 G 7 (Gregory, Dialogi, Louvain c. 1484), ninth Brussels KBR II 734 | 2026-10-12 |
+| [F-x61h](https://aaymeloglu.github.io/fragmentarium/F-x61h.html) | Cibaldone (anonymous Italian verse regimen, "Libro terzo dello Almansore"), end of the chapter on bathing, fol. 38r col. a | 2026-10-12 |
+| [F-eflq](https://aaymeloglu.github.io/fragmentarium/F-eflq.html) | Johannes Versor, Quaestiones super libros Posteriorum Aristotelis, book II qq. 1, 2, 8 (reworded against the Cologne prints) | 2026-10-12 |
+| [F-ziuq](https://aaymeloglu.github.io/fragmentarium/F-ziuq.html) | Henricus de Piro, Super Institutiones, on Inst. 1.7-1.8 and 1.21-1.24 | 2026-10-12 |
+| [F-4usd](https://aaymeloglu.github.io/fragmentarium/F-4usd.html) | Pseudo-Galen, Liber de dynamidiis (Juntine 'Liber alter de dynamidiis'): De catharticis to De opio (f. 104) and recipes Contra vitia faciei to Electuarium dianthu (f. 105) | 2026-10-12 |
+| [F-vpe8](https://aaymeloglu.github.io/fragmentarium/F-vpe8.html) | Pseudo-Haymo, Liverani homiliary (anonymous Carolingian reworking of Haymo of Auxerre): homilies on Luke 7:11-16 (Barré 68, Liverani LIV, end) and Luke 14:1-11 (Barré 69, Liverani LV, start) | 2026-10-12 |
+| [F-1szi](https://aaymeloglu.github.io/fragmentarium/F-1szi.html) | Pseudo-Haymo, Liverani homiliary (anonymous Carolingian reworking of Haymo of Auxerre): homily on Matthew 6:24-33 (Barré 67, Liverani LIII), ravens and lilies | 2026-10-12 |
+| [F-kr2n](https://aaymeloglu.github.io/fragmentarium/F-kr2n.html) | Pseudo-Haymo, Liverani homiliary (anonymous Carolingian reworking of Haymo of Auxerre): homilies on Mark 8:1-9 (Barré 55, Liverani XLII), Matthew 7:15-21 (Barré 56, Liverani XLIV, end) and Luke 16:1-9 (Barré 57, Liverani XLV, start) | 2026-10-12 |
 | [F-szlk](https://aaymeloglu.github.io/fragmentarium/F-szlk.html) | Servasanctus de Faventia, Antidotarius animae: the castle of the soul, chapters on feast days, on restraining touch and on the sixth gate | 2026-10-12 |
 | [F-cckq](https://aaymeloglu.github.io/fragmentarium/F-cckq.html) | Tabula utriusque iuris attributed to Johannes de Erfordia, article Appellatio (on tacit renunciation of an appeal) | 2026-10-12 |
 | [F-bcte](https://aaymeloglu.github.io/fragmentarium/F-bcte.html) | Bede, De temporum ratione, chapter 43 (fol. F) | 2026-10-12 |
@@ -83,6 +92,8 @@ tools/gbwithin.py              search inside one Google Books volume: printed pa
 tools/tilepacket.py            neutral reading packets of overview plus reading-size tiles from an acquire_batch cache
 tools/schneyer.py              search Schneyer's sermon repertory volume by volume in archive.org full text
 tools/hspsearch.py             search Handschriftenportal catalogue texts for an incipit, title or shelfmark; lists digital copies
+tools/register.py              add unresearched fragments to the ledger from their cached manifests
+tools/mdzsearch.py             full-text search of the Munich digital library's OCR (early printed books), no key
 tests/                         data/folder/site consistency; CI fails if docs/ is stale
 ```
 

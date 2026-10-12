@@ -77,7 +77,9 @@ The packet prompt specifies physical line labels and uncertainty notation.
 
 ## Freeze and commit before candidate discovery
 
-Register the fragment in `data/fragments.json` before saving a reading. A report
+Register the fragment in `data/fragments.json` before saving a reading
+(`tools/register.py --cache /tmp/source-images F-xxxx ...` writes the row from the
+cached manifest, as unidentified, with a placeholder note). A report
 is not required: the preservation tool creates the fragment's readings directory.
 Unresolved attempts can retain their evidence without a public writeup.
 

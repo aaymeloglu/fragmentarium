@@ -76,6 +76,15 @@ unprinted work is not excluded by that witness alone.
 Read every leaf and face of a fragment before characterising it. A bifolium's
 second leaf can hold the passage that names the work.
 
+Read the catalogue record before choosing what to read. The manifest's metadata
+(folio reference, reconstruction summary, dimensions) and its canvas labels say
+which object in the images is the catalogued fragment and what the catalogue
+already identifies, sometimes under a sibling record for the same volume. A host
+page or a neighbouring leaf can be far more legible than the fragment itself; in
+one batch a first reading and a research pass matched a flyleaf to Priscian that
+the catalogue already named under another record, while the unidentified item
+was a small leaf beside it. State in the result what the catalogue already knew.
+
 ## 3. Verify the proposed claim
 
 Compare the selected manuscript passages with the candidate edition, inspecting
