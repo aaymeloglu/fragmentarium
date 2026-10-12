@@ -81,6 +81,7 @@ tools/ia_cluster.py            do the anchor phrases sit in one passage of an ar
 tools/gbsearch.py              Google Books full-text search from the command line (needs GOOGLE_BOOKS_API_KEY)
 tools/gbwithin.py              search inside one Google Books volume: printed page number and snippet per hit, no key
 tools/tilepacket.py            neutral reading packets of overview plus reading-size tiles from an acquire_batch cache
+tools/schneyer.py              search Schneyer's sermon repertory volume by volume in archive.org full text
 tests/                         data/folder/site consistency; CI fails if docs/ is stale
 ```
 

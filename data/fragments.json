@@ -942,9 +942,9 @@
   "catalogue_title": "Commentary on Luke",
   "catalogue_date": "1201 – 1300 CE",
   "status": "partial",
-  "confidence": "low",
-  "identification": "Short model sermons on the Sunday gospels after Pentecost (Lucan pericopes), not a commentary on Luke; collection not identified",
-  "note": "Openings include \"Duo homines ascenderunt in templum. Videamus quid templum, qui gradus templi et qui illi duo homines significent\" (checked on the image) and \"Videns Ihesus civitatem ... ter flevit\". None is in the nine Schneyer volumes as searchable on archive.org, nor in Patrologia Latina by proximity search.",
+  "confidence": "medium",
+  "identification": "Short Sunday gospel sermons after Pentecost, related to the anonymous thirteenth-century cycle called \"Ungarus\" or \"Cordulus\"; the text itself is not identified",
+  "note": "One short sermon per Sunday: Dom. III-V on one leaf, IX-XI on the other, in Roman/German order. The Estote and Cum turbae sermons share their three-part division with the \"Ungarus\"/\"Cordulus\" cycle (Schneyer, anonymous volumes; Berlin lat. qu. 699, Clm 16036, Innsbruck 312, Magdeb. 173), and the Videns opening formula recurs in that cycle at another sermon; but the cycle's own Videns and Duo homines sermons open differently, and its witnesses are reported to fall into two groups with no uniform text. No sermon body was collated: no digitised witness was found (Clm 16036, 8210 and 21542 are not in the Munich digital collections). The fragment's incipits are in none of the nine Schneyer volumes by per-volume proximity search, nor in Patrologia Latina or Google Books. Ruled out on page images: Antonius Azaro (Pal. lat. 437); by text: Anthony of Padua; by incipit only: a dozen named collections.",
   "verify": "https://fragmentarium.ms/overview/F-xmrx",
   "examined": "2026-10-12",
   "identified_on": null

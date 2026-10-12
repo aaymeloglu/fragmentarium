@@ -97,3 +97,13 @@ def test_tilepacket_grid_covers_box_with_overlap():
             tp.grid((0, 0, 10, 10), **bad)
     with pytest.raises(ValueError):
         tp.grid((5, 0, 5, 10), 1, 1)
+
+
+def test_schneyer_query_is_scoped_to_one_volume_and_highlights_are_flattened():
+    sch = load("schneyer")
+    u = sch.url('"ter flevit"', "repertoriumderla0004schn")
+    assert "identifier%3Arepertoriumderla0004schn" in u and "%22ter%20flevit%22" in u
+    response = {"hits": {"hits": [{"highlight": {"text": ["a  {{{ter flevit}}}\n b", "c"]}}, {}]}}
+    assert sch.highlights(response) == ["a {{{ter flevit}}} b", "c"]
+    assert sch.highlights({}) == []
+    assert len(sch.VOLUMES) == 9
