@@ -118,7 +118,11 @@ def manifest(fid):
 
 
 def canvases(fid):
-    m = manifest(fid)
+    return canvases_of(manifest(fid))
+
+
+def canvases_of(m, probe=image_size):
+    """Working image base, size and any fault note for each canvas of a manifest (see module docstring)."""
     out = []
     for c in m["sequences"][0]["canvases"]:
         res = c["images"][0]["resource"]
@@ -135,12 +139,11 @@ def canvases(fid):
         w, h = c.get("width"), c.get("height")
         if not (w and h):  # some manifests (e.g. Leuven lib.is) omit sizes; the image server's info.json has them
             try:
-                info = json.load(urllib.request.urlopen(urllib.request.Request(base + "/info.json", headers=UA), timeout=60))
-                w, h = info.get("width"), info.get("height")
+                w, h = probe(base)
             except Exception:
                 pass
         out.append({"label": c.get("label"), "base": base, "ext": ext, "w": w, "h": h, "max_scale": max_scale})
-    bases, notes = resolve_duplicates([c["base"] for c in out], [(c["w"], c["h"]) for c in out])
+    bases, notes = resolve_duplicates([c["base"] for c in out], [(c["w"], c["h"]) for c in out], probe)
     for c, base, note in zip(out, bases, notes):
         c["base"], c["note"] = base, note
     return out

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Cache selected Fragmentarium manifests and neutral image packets for a research batch.
+"""Cache the manifests and first images of selected Fragmentarium records for a research batch.
 
-Downloads at most the requested number of canvases per fragment, sequentially.
-Images use library-native width unless --max-width requests smaller overviews.
-Source metadata stays with the coordinator, outside the neutral packets.
+Downloads at most the requested number of canvases per fragment, sequentially, at
+library-native width unless --max-width asks for less, and writes `acquisition.json`
+(public source address and size of each image) beside them. `tilepacket.py` builds
+reading packets from this cache. Canvases the manifest links to another canvas's
+image are corrected or refused as `iiif.py` describes. Keep the cache away from readers.
 """
 import argparse
 import hashlib
@@ -31,21 +33,15 @@ def acquire(fid, destination, packet_root, number, count=2, max_width=0):
     url = f'https://fragmentarium.ms/metadata/iiif/{fid}/manifest.json'
     manifest = json.loads(fetch(url, folder / 'manifest.json'))
     sources, images, errors = [], [], []
-    canvases = manifest['sequences'][0]['canvases']
-    resolved = []
-    for canvas in canvases:
-        resource = canvas['images'][0]['resource']
-        service = resource.get('service')
-        base = service.get('@id') if isinstance(service, dict) else None
-        resolved.append(iiif.image_base(base or resource['@id'].split('/full/')[0]))
-    # A manifest can give several canvases one image; correct what can be verified, refuse the rest.
-    bases, notes = iiif.resolve_duplicates(
-        [base for base, _, _ in resolved], [(c.get('width'), c.get('height')) for c in canvases])
+    def size(base):
+        info = json.loads(fetch(base + '/info.json', folder / ('info-' + hashlib.sha256(base.encode()).hexdigest()[:12] + '.json')))
+        return info['width'], info['height']
+    canvases = iiif.canvases_of(manifest, probe=size)
     for i, canvas in enumerate(canvases[:count]):
         try:
-            base, ext = bases[i], resolved[i][1]
-            if (notes[i] or '').startswith('FAULT'):
-                raise ValueError(notes[i])
+            base, ext, note = canvas['base'], canvas['ext'], canvas['note']
+            if (note or '').startswith('FAULT'):
+                raise ValueError(note)
             info = json.loads(fetch(base + '/info.json', folder / f'canvas-{i}-info.json'))
             width, height = info['width'], info['height']
             target_width = min(width, max_width) if max_width else width
@@ -57,14 +53,14 @@ def acquire(fid, destination, packet_root, number, count=2, max_width=0):
             if not content.startswith(b'\xff\xd8'):
                 path.unlink()
                 raise ValueError('Not a JPEG image')
-            sources.append({'canvas': i, 'label': canvas.get('label'), 'source': image_url,
+            sources.append({'canvas': i, 'label': canvas['label'], 'source': image_url,
                             'native_width': width, 'native_height': height, 'requested_width': target_width,
-                            **({'note': notes[i]} if notes[i] else {})})
+                            **({'note': note} if note else {})})
             images.append(path)
         except Exception as error:
             errors.append({'canvas': i, 'error': str(error)})
     output = {'fragment': fid, 'manifest': url, 'sources': sources, 'errors': errors}
-    if images:
+    if images and packet_root:
         packet = packet_root / f'packet-{number:02d}'
         if not packet.exists():
             readings.packet(packet, images)
@@ -83,14 +79,15 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--selection',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True)
-    parser.add_argument('--packets',type=Path,required=True)
+    parser.add_argument('--packets',type=Path,help='also make whole-image packets (tilepacket.py makes better ones)')
     parser.add_argument('--canvases',type=int,default=2)
     parser.add_argument('--max-width',type=int,default=0,
                         help='Overview width cap; 0 (default) preserves native pixels')
     args=parser.parse_args()
     if args.canvases < 1 or args.max_width < 0:
         parser.error('--canvases must be positive and --max-width nonnegative')
-    args.packets.mkdir(parents=True,exist_ok=True)
+    if args.packets:
+        args.packets.mkdir(parents=True,exist_ok=True)
     failed = False
     for i,fid in enumerate(json.loads(args.selection.read_text()),1):
         try:

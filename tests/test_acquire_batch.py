@@ -77,3 +77,10 @@ def test_canvas_with_another_canvas_image_is_an_error_not_a_download(tmp_path, m
     assert [s['canvas'] for s in result['sources']] == [0]
     assert result['errors'][0]['canvas'] == 1 and 'same image as canvas 0' in result['errors'][0]['error']
     assert not (tmp_path / 'images/F-test/canvas-1-w7000.jpg').exists()
+
+
+def test_cache_can_be_built_without_whole_image_packets(tmp_path, monkeypatch):
+    fake_library(monkeypatch)
+    result = acquire_batch.acquire('F-test', tmp_path / 'images', None, 1)
+    assert 'packet' not in result and result['sources'][0]['requested_width'] == 7000
+    assert (tmp_path / 'images/F-test/acquisition.json').exists()

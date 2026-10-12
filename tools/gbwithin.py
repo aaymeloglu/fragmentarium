@@ -4,7 +4,7 @@
 Usage:
     python3 tools/gbwithin.py VOLUME_ID '"phrase one"' ['"phrase two"' ...] [--save responses.json]
 
-`tools/gbsearch.py` finds which volume holds a phrase; this asks that volume where. It works on
+The search service's `/gb` endpoint (`tools/searchd.py`) finds which volume holds a phrase; this asks that volume where. It works on
 snippet-view books still in copyright, where neither page images nor a full text can be had, and
 needs no API key. Each hit gives a page number and about forty words, so a passage can be followed
 through an edition by searching again for the last words of the previous snippet. Quote a phrase to

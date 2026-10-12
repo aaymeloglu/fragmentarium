@@ -17,13 +17,11 @@ uv run python tools/iiif.py F-xxxx tiles /tmp/crops --canvas 0 --cols 2 --rows 4
 ```
 
 For a batch, `tools/acquire_batch.py --selection /tmp/selection.json --output
-/tmp/source-images --packets /tmp/neutral-packets` accepts a JSON list of fragment
-IDs, caches the first two canvases each, and creates numbered neutral packets.
-It defaults to native image width; `--canvases N` changes coverage and
-`--max-width N` explicitly requests smaller overviews. Keep the source cache
-separate from readers. Use a fresh packet root when changing the image inputs.
+/tmp/source-images` accepts a JSON list of fragment IDs and caches the first two
+canvases of each at native width; `--canvases N` changes coverage and
+`--max-width N` asks for smaller images. Keep the cache away from readers.
 
-A reader shown only whole native images sees small script reduced and reports gaps.
+A reader shown a whole native image sees small script reduced and reports gaps.
 `tools/tilepacket.py` turns the cache into packets of one reduced overview per canvas
 plus overlapping native tiles of the text area (ten to twenty lines each), with a
 rotation for sideways or upside-down leaves, and writes the per-image source citations
@@ -124,7 +122,7 @@ uv run python tools/readings.py revise F-eo5z assisted-01 \
   --reason 'Expanded an uncertain abbreviation after comparison'
 ```
 
-The base must be an existing image-only or HTR record. Repeat `--source` for the
+The base must be an existing image-only record. Repeat `--source` for the
 readings and editions used; cite intermediate revisions if applicable. The new
 record links to the base by name and checksum. Corrections do not replace the base.
 Link saved records in the report with their actual labels and full GitHub file
@@ -139,5 +137,4 @@ uv run python tools/readings.py check --base origin/main
 This validates record contents/references and byte-for-byte preservation against
 the base commit, including deletion and renaming. CI compares against the PR base
 or previous main commit. Review of the first record still needs to establish that
-the isolation and freeze-before-search procedure was followed. HTR is optional;
-its commands are in [HTR.md](HTR.md).
+the isolation and freeze-before-search procedure was followed.

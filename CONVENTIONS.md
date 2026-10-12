@@ -77,7 +77,7 @@ or a paragraph are enough; no additional scores or fixed table are required:
 
 - **Identification:** state the proposed work or source connection, its status
   and identification confidence, the diagnostic basis, and material alternatives.
-- **Transcription:** describe the reading's basis (image-only, HTR, or assisted),
+- **Transcription:** describe the reading's basis (image-only or assisted),
   the passages covered, and known errors or unresolved readings. State who reviewed
   which lines against the manuscript image; if accuracy has not been assessed,
   say so. Identification confidence does not transfer to the transcription.
@@ -111,9 +111,9 @@ marked. State the coverage; do not imply unread sides were transcribed. Provide
 an edition/facsimile link and locus, and use a comparison table when it helps.
 Dates are absolute, for example "22 September 2026".
 
-Link preserved `readings/*.json` records by their actual kind: image-only, HTR,
-or source-assisted. Use the preservation commands when those records exist;
-[HTR.md](HTR.md) covers raw recognizer output. If isolation was unavailable and
+Link preserved `readings/*.json` records by their actual kind: image-only or
+source-assisted (two records of a September 2026 recognition trial are kind `htr`). Use the preservation commands when those records exist;
+If isolation was unavailable and
 there is no independent base record, keep the assisted text and its provenance
 in the report or a separate labelled file outside `readings/`; the CLI cannot
 create an assisted record without a base. The report states the missing

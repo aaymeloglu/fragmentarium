@@ -22,7 +22,7 @@ uv run python docs/_build_site.py
 ```
 
 Run the relevant checks before submitting changes; include the generated site
-when reports or data change. HTR dependencies are optional (`--group htr`).
+when reports or data change. Image tools need Pillow (`--group images`).
 
 ## References, when needed
 
@@ -30,9 +30,8 @@ when reports or data change. HTR dependencies are optional (`--group htr`).
 |---|---|
 | Run a batch of fragments end to end | [prompts/README.md](prompts/README.md) |
 | Acquire images or preserve an independent reading | [FIRST_READINGS.md](FIRST_READINGS.md) |
-| Run or troubleshoot Kraken/CATMuS | [HTR.md](HTR.md) |
-| Configure search access or match noisy Latin text | [RETRIEVAL.md](RETRIEVAL.md) |
-| Understand earlier findings and limits | [REVIEW.md](REVIEW.md), the relevant fragment report, or `audits/` |
+| Where to search, and how to reach each source | [RETRIEVAL.md](RETRIEVAL.md) |
+| Understand earlier findings and limits | the relevant fragment report, or `audits/` |
 
 These references are not a reading checklist. Keep reports and candidate-bearing
 repository context away from an isolated first reader.

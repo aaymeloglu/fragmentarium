@@ -128,21 +128,6 @@ def freeze_batch(root, args):
     return saved
 
 
-def freeze_htr(root, args):
-    import htr
-    run = json.loads(args.run.read_text())
-    htr.validate_run(run)
-    require(len(args.image_source) == len(run['pages']) and all(s.strip() for s in args.image_source),
-            'Provide one --image-source per HTR page, in packet order')
-    require(all(htr.lines(page) and any(line['text'].strip() for line in htr.lines(page))
-                for page in run['pages']), 'Cannot freeze HTR with zero lines or entirely empty recognition')
-    return save(root, args.fragment, args.name, {
-        'kind': 'htr', 'reader': f"Kraken {run['engine']['kraken']} / CATMuS Medieval",
-        'purpose': args.purpose, 'htr': run, 'image_sources': args.image_source,
-        'text': run['text'],
-    })
-
-
 def revise(root, args):
     require(FRAGMENT.fullmatch(args.fragment), 'Invalid fragment ID')
     require(SLUG.fullmatch(args.first), 'Invalid first-reading name')
@@ -178,14 +163,12 @@ def validate(r, path):
             names.append(image['name'])
         require(len(names) == len(set(names)), f'{path}: duplicate images')
     elif r['kind'] == 'htr':
-        import htr
-        htr.validate_run(r['htr'])
+        # Records of the September 2026 recognition trial. The runner was removed; the records stay
+        # preserved byte for byte, and only their outer shape is checked here.
         require(r['purpose'] in {'tool-validation', 'independent-reading'}, f'{path}: invalid HTR purpose')
         require(r['text'] == r['htr']['text'], f'{path}: HTR text mismatch')
         require(len(r['image_sources']) == len(r['htr']['pages']) and all(s.strip() for s in r['image_sources']),
                 f'{path}: missing HTR image sources')
-        require(all(htr.lines(page) and any(line['text'].strip() for line in htr.lines(page))
-                    for page in r['htr']['pages']), f'{path}: incomplete HTR')
     elif r['kind'] == 'source-assisted':
         require(SLUG.fullmatch(r['first_reading']), f'{path}: invalid first-reading reference')
         require(DIGEST.fullmatch(r['first_sha256']), f'{path}: invalid first-reading digest')
@@ -246,12 +229,6 @@ def main():
     p.add_argument('--reader', required=True)
     p.add_argument('--session', required=True, help='Batch and reader reference; the packet name is appended')
     p.add_argument('--attest-isolated', action='store_true')
-    p = sub.add_parser('freeze-htr', help='Preserve a raw Kraken/CATMuS run without claiming an LLM session')
-    p.add_argument('fragment')
-    p.add_argument('name')
-    p.add_argument('--run', required=True, type=Path)
-    p.add_argument('--image-source', action='append', required=True)
-    p.add_argument('--purpose', choices=['tool-validation', 'independent-reading'], required=True)
     p = sub.add_parser('revise', help='Save a separately labelled source-assisted reading')
     p.add_argument('fragment')
     p.add_argument('name')
@@ -271,8 +248,6 @@ def main():
         elif args.command == 'freeze-batch':
             for path in freeze_batch(ROOT, args):
                 print(path)
-        elif args.command == 'freeze-htr':
-            print(freeze_htr(ROOT, args))
         elif args.command == 'revise':
             print(revise(ROOT, args))
         else:
