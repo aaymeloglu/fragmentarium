@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-12T03:47:03.096508+00:00",
+  "first_reading": "batch-2026-10-12-image-only",
+  "first_sha256": "b1b094c92d5cee9207e23eecfd19324fc186d165bd1b11450d639f49de175afc",
+  "fragment": "F-03xq",
+  "id": "batch-2026-10-12-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude (Opus 5.5), coordinator of the 12 October 2026 batch, with a research subagent; source-assisted, not isolated",
+  "reason": "Passages reread against a manuscript of John of Abbeville's sermons to test the identification.",
+  "schema_version": 1,
+  "sources": [
+    "Charleville-Mezieres, BM, Ms. 218, ff. 38r-40r (IRHT microfilm page images, https://arca.irht.cnrs.fr/ark:/63955/md19s1786r4p)",
+    "J. B. Schneyer, Repertorium der lateinischen Sermones des Mittelalters, vol. 3, p. 529 (search snippets)"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING (batch of 12 October 2026)\n\nBase: batch-2026-10-12-image-only. Made after the candidate was known, with Charleville-Mezieres, BM, Ms. 218, ff. 38r-40r to hand. The coordinator read span A on the fragment tile and on the Charleville page image; span B was read on the fragment by a research reader and the coordinator did not recheck every word. Parentheses expand abbreviations; square brackets mark text not read; a question mark follows an uncertain reading. The text is given as running prose, not by physical line, because line ends on this side are lost under a turn-in.\n\nA. Canvas \"lower flyleaf r\", left column, native-pixel box 113,1229,1261,1980:\n... ip(s)e exaltat(us) siq(ui)de(m) a t(er)ra o(mn)ia ad se t(ra)x(i)t. [na]m ut forti(us) ad se trah(er)et o(mn)ia cu(m) funic(u)l(i)s Adam adiunx(it) vinc(u)la caritatis adimplens q(uod) d(icitu)r in Osee xi. in funic(u)lis Adam traham eos in vinc(u)lis caritatis. funic(u)li Ada(m) s(un)t funic(u)li penar(um) (et) miseriar(um) (et) defectuu(m)? q(uo)s paciunt(ur) filii Ada(m) in corp(or)e (et) a(n)i(m)a. hiis funic(u)lis nos ad se t(ra)hebat [... one and a half lines rubbed ...] multiplicit(er) caro mea. Multiplices [...] multiplices q(uo)q(ue) pene (et) miserie q(ua)s [paci]ebat(ur) p(ro)ph(et)a tam in corp(or)e q(uam) in a(n)i(m)a [...] appellabat d(omi)n(u)m p(er) q(uem) solu(m) sanari pot(er)at ei(us) desid(er)iu(m). In passione q(uo)q(ue) sup(er)addidit d(omi)n(u)s vinc(u)la caritatis. maiore(m) e(ni)m caritate(m) nemo h(abe)t q(uam) ut ponat q(ui)s a(n)i(m)am sua(m) p(ro) amicis suis. vinc(u)la caritatis sup(er)addidit d(omi)n(u)s ut du[plici] ...\n\nB. Canvas \"lower flyleaf r\", right column, top, native-pixel box 1015,91,2163,769 (research reader):\n[...] est ut omnis qui credit in ipsum non pereat sed habeat [vitam eter]nam ad quam nos perducere dignetur qui vivit [...]\n[red initial] Ego quasi vitis fructificavi [rubric: In nat...] suavitatem odoris. In nativitate beat[e] virginis legitur pro epistola leccio ista sumpta de ecc[lesiastico] et exponitur de Christo filio beate virginis ...\n\nCorrections to the first reading established by the comparison, as reported by the research reader and not all rechecked on the image: \"fractis portis inferni\" (first reading \"fratris penas inferni\"); the side labelled v precedes the side labelled r.\n\nThis is a model reading made with a manuscript of the work to hand, not a human palaeographic transcription.\n",
+  "text_sha256": "4105dd6e13325f81737f3b52efbc68e08c1cffde2969bd7a67544221817a4ab0"
+}

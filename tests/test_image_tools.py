@@ -82,3 +82,18 @@ def test_bnf_manifest_addresses_are_rewritten_to_the_api_host():
     assert ext == "default.jpg" and scale == 1.0
     other = "https://fragmentarium.ms/loris/F-z56d/x.jp2"
     assert iiif.image_base(other) == (other, "default.jpg", 2.0)
+
+
+def test_tilepacket_grid_covers_box_with_overlap():
+    tp = load("tilepacket")
+    tiles = tp.grid((100, 200, 1100, 2200), cols=2, rows=4, overlap=0.1)
+    assert len(tiles) == 8
+    assert min(t[0] for t in tiles) == 100 and max(t[2] for t in tiles) == 1100
+    assert min(t[1] for t in tiles) == 200 and max(t[3] for t in tiles) == 2200
+    assert tiles[0][2] > tiles[1][0], "neighbouring columns must share pixels"
+    assert tiles[0][3] > tiles[2][1], "neighbouring rows must share lines"
+    for bad in (dict(cols=0, rows=1), dict(cols=1, rows=1, overlap=1.0)):
+        with pytest.raises(ValueError):
+            tp.grid((0, 0, 10, 10), **bad)
+    with pytest.raises(ValueError):
+        tp.grid((5, 0, 5, 10), 1, 1)

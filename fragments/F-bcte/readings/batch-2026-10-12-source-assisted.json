@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-12T03:47:03.128712+00:00",
+  "first_reading": "batch-2026-10-12-image-only",
+  "first_sha256": "fb574d6d851545409178143176683be5115a555828d3663790079eea00a810c1",
+  "fragment": "F-bcte",
+  "id": "batch-2026-10-12-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude (Opus 5.5), coordinator of the 12 October 2026 batch, with a research subagent; source-assisted, not isolated",
+  "reason": "Fol. F, absent from the first reading's images, read against the edition.",
+  "schema_version": 1,
+  "sources": [
+    "J. A. Giles, The Complete Works of Venerable Bede, vol. 6 (1843), pp. 232-233, De temporum ratione ch. 43 (archive.org completeworksofv06bede, OCR text)"
+  ],
+  "text": "SOURCE-ASSISTED SELECTED READING OF FOL. F (batch of 12 October 2026)\n\nBase: batch-2026-10-12-image-only, which was made from the record's first two canvases (the stub before fol. D and the neighbouring leaves) and does not include fol. F. There is therefore no independent first reading of the text below; the base is cited only because the record format requires one. The lines were read by a research reader from the canvas \"fol. F recto\" with the OCR text of Giles's edition of Bede, De temporum ratione, chapter 43, to hand; the coordinator checked lines 10-19 on the image. Square brackets mark text lost at the left edge (gutter and worm damage) or not read; parentheses expand abbreviations; a question mark follows an uncertain reading.\n\nCanvas \"fol. F recto\", right-hand leaf, native-pixel box about 5350,150,8950,6100. Physical lines:\n1: [...]s pridie non(as) ap[riles ...]\n2: [... a no]bis huius causae [...]\n3: [...] deficiat pate[rnae ...]\n5: [...] enim auctoritatis subsidio fulci[mur]\n6: [... Ni]caeni synodi scita sectamur qu[ae]\n7: [... pascha]lis lunas tam firma stabi[litate]\n8: [...] ut decennovennalis eoru(m) circuitus nusq(uam)\n9: [... fallere] possit. In quo videlicet circuitu lun[am]\n10: [paschal]em anni de quo agitur pridie non(as) ap[riles]\n11: [...] nulli calculatorum in dubio e(st).\n12: [... de]finire nulli fidelium fas e(st); quid\n13: [...] credendum e(st) q(uod) illam quam nos IIII\n14: [...] vidimus luna(m) nemo viderit de illis\n15: [...] pontificibus qui in niceno concilio reside[bant]\n16: [...] minoru(m) coetu graduu(m) qui illoru(m)\n17: [...] adstarent? et non potius ad intel[...]?\n18: [...]m quartadecima(m)? anni illius paschalem\n19: [...] incipere signabant aliud\n20: [maius] periculu(m) p(er) haec declinaverint. Ne vi[delicet]\n21: [si] aliter discernerent indissolubilis ille\n22: [com]munium annorum et embolismorum status\n23: [solve]retur quem inviolabiliter observan[dum]\n24: [divi]nae legis auctoritate haebreis traden[ti-]\n25: [bu]s agnoverant. Sed et specialibus divi[nae]\n26: [au]ctoritatis indiciis observantiam\n27: [lunarem] quam tenemus defendimus\nLine 4 was not read.\n\nCanvas \"fol. F verso\", top (research reader; abraded, with offset):\n1: [apostol]icae gratiae funda[torque]\n2: [...] ad m[on]aste[ria]\n3: q[uas] angelo dic[tante]\n\nThis is a model reading made with the printed text to hand, not a human palaeographic transcription.\n",
+  "text_sha256": "8121492fb9d4ebffd8968a3a15f9734601f43995e12a0f52790faa702dc73c81"
+}

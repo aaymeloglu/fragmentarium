@@ -64,6 +64,13 @@ bare phrase search misses. Treat the snippet as a lead and read the page:
 number is given in ISTC and most incunable catalogues. Confirm the scan is the
 same work, since unrelated books share short titles.
 
+Many sermon collections and school texts have no edition. A repertory incipit
+(Schneyer for sermons) can locate the work; then find a digitised manuscript of
+it through the repertory's manuscript list or a union catalogue (Biblissima,
+ARCA, DigiVatLib, e-codices, MDZ) and compare the bodies of the text on the page
+images. An incipit and explicit matched against a repertory are a lead; the
+collation carries the identification.
+
 ## 3. Verify the proposed claim
 
 Compare the selected manuscript passages with the candidate edition, inspecting

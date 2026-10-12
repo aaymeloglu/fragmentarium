@@ -7,7 +7,7 @@
                                                       # cut canvas N into a grid of crops at native x scale
     python3 tools/iiif.py F-ss0e crop OUTDIR x,y,w,h [--canvas N] [--scale 2]
 
-Quirks handled: Ghent (adore.ugent.be) manifests point at dead URLs and the working base is the
+Quirks handled: Ghent (adore.ugent.be, libcatalog.ugent.be) manifests point at dead URLs and the working base is the
 ExLibris service id inside the canvas; BnF manifests give gallica.bnf.fr/iiif addresses, which
 answer scripts with 403, so they are rewritten to BnF's API host (openapi.bnf.fr, IIIF Image 3,
 no upscaling); upscaling beyond about 2x is refused by most servers, so --scale is capped at 2.
@@ -45,7 +45,7 @@ def canvases(fid):
         rid = res["@id"]
         svc = res.get("service")
         svc_id = svc.get("@id") if isinstance(svc, dict) else None
-        if "adore.ugent.be" in rid and svc_id:
+        if ("adore.ugent.be" in rid or "libcatalog.ugent.be" in rid) and svc_id:
             base = svc_id
         elif "/full/" in rid:
             base = rid.split("/full/")[0]

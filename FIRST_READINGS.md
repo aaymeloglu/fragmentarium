@@ -23,6 +23,13 @@ It defaults to native image width; `--canvases N` changes coverage and
 `--max-width N` explicitly requests smaller overviews. Keep the source cache
 separate from readers. Use a fresh packet root when changing the image inputs.
 
+A reader shown only whole native images sees small script reduced and reports gaps.
+`tools/tilepacket.py` turns the cache into packets of one reduced overview per canvas
+plus overlapping native tiles of the text area (ten to twenty lines each), with a
+rotation for sideways or upside-down leaves, and writes the per-image source citations
+that `readings.py freeze` needs. Look at every canvas the record lists before choosing
+areas: the first two may show a host volume or a neighbouring leaf, not the fragment.
+
 When the native image is already cached, `tools/localcrop.py` cuts the same
 regions locally (it needs Pillow: `uv run --group images python tools/localcrop.py
 SRC OUT x0,y0,x1,y1`), can rotate an upside-down wrapper and stretch contrast,
