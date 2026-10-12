@@ -1,236 +1,36 @@
-# Candidate retrieval from imperfect Latin readings
+# Where to search
 
-Use this reference for search access or tolerant passage matching. Choose resources
-and effort using [METHOD.md](METHOD.md); evidence rules are in
-[CONVENTIONS.md](CONVENTIONS.md). The local matcher uses the existing Python
-standard library and expects downloaded UTF-8 plain text, not HTML/XML markup.
-It is optional when direct searches already answer the retrieval question.
+Choose the source most likely to hold the text; this is not an order of work.
+[METHOD.md](METHOD.md) says how to use a hit, and [CONVENTIONS.md](CONVENTIONS.md)
+what it proves. Search distinctive connected prose of four to eight words. A hit
+is a lead: read the page before relying on it.
 
-## Search access and troubleshooting
+| Source | Reach it with | Good for |
+|---|---|---|
+| Google Books | `searchd.py` `/gb?q=` (needs `GOOGLE_BOOKS_API_KEY` in the service's environment). `tools/gbwithin.py <volume id> '"phrase"'` then searches inside one volume and gives printed page numbers, with no key, also for snippet-view books in copyright. | Anything printed, above all after 1250. Snippets and volume ids, not page images. |
+| Munich digital library (MDZ) | `tools/mdzsearch.py '"phrase" "phrase"'`, no key. | OCR full text of incunables and prints to about 1700; has found texts a Google Books phrase search missed. |
+| Internet Archive | `searchd.py` `/ia?q=`. Google Books scans are often mirrored as `bub_gb_<volume id>`; a volume's OCR is at `archive.org/download/<id>/<id>_djvu.txt`. | Editions and repertories in full text. |
+| Corpus Corporum | `searchd.py` `/cc?q=&index=p` (paragraph) or `index=s` (sentence); accepts `NEAR/N`. | Patrologia Latina and other early and high-medieval Latin. Thin for scholastic and late texts. |
+| Sermon repertory | `tools/schneyer.py '"theme words"' '"word word word"~8'` searches Schneyer (1150-1350) volume by volume. | Sermon incipits. An incipit is a lead; compare the sermon body. |
+| Manuscript catalogues | `tools/hspsearch.py '"incipit words"'` for German collections, with links to digitised copies; manuscripta.at for Austria; Biblissima and ARCA for France. | Unprinted works: find a digitised manuscript and collate. |
+| Incunable copies | `tools/gw.py <GW number>` lists libraries holding a digitised copy. | Reading the page behind a snippet. |
+| Subject sources | Corpus Thomisticum, Gloss-e, Friedberg's canon law, Analecta Hymnica, Cantus, and the like, directly. | Their own fields. |
 
-Use the resource suited to the lead; this list is not an execution order.
-
-| Resource | Access |
-|---|---|
-| Google Books | `tools/gbsearch.py` or `searchd.py` `/gb?q=`; requires `GOOGLE_BOOKS_API_KEY`. Returns snippets and volume IDs, not page images. `tools/gbwithin.py <volume id> '"phrase"'` then searches inside one volume and gives the printed page number of each hit, with no key; it works on snippet-view books in copyright. |
-| Internet Archive | `searchd.py` `/ia?q=` for discovery; `ia_cluster.py` downloads a volume's `_djvu.txt`. Google Books scans may be mirrored as `bub_gb_<volume id>`. |
-| Munich digital library (MDZ) | `tools/mdzsearch.py '"phrase" "phrase"'` searches the OCR full text of digitised prints in Bavarian libraries, with no key. It is strong for incunables and sixteenth-century books and has found texts that a Google Books phrase search missed. A hit gives the volume id; read the page image before relying on it. |
-| Sermon repertory | `tools/schneyer.py '"theme words"' '"word word word"~8'` searches Schneyer's Repertorium (1150-1350, vols. 1-9) volume by volume in archive.org full text. A hit is an incipit, so a lead; compare the sermon body in an edition or manuscript. |
-| Manuscript catalogues | `tools/hspsearch.py '"incipit words"'` searches Handschriftenportal (German collections, full text of catalogue descriptions) and lists IIIF manifests of digitised copies. For Austria use the incipit search at manuscripta.at. |
-| Corpus Corporum | `searchd.py` `/cc?q=&index=p` (paragraph) or `index=s` (sentence); accepts Sphinx `NEAR/N` queries. Corpus coverage varies by period and genre. |
-| Genre-specific sources | Examples include Corpus Thomisticum, Gloss-e, Friedberg's canon-law editions, Quaracchi Bonaventure, and Borgnet Albert. Use the relevant source directly. |
-
-For Google Books, export a key with Books API access in the service environment:
+The search service is started once and shared:
 
 ```sh
-uv run python tools/gbsearch.py '"phrase one" "phrase two"'
-# Optional shared service, with GOOGLE_BOOKS_API_KEY in its environment:
-uv run python tools/searchd.py
-# From another shell:
+GOOGLE_BOOKS_API_KEY=... uv run python tools/searchd.py   # listens on 127.0.0.1:8790
 curl -s '127.0.0.1:8790/gb?q=%22phrase%20one%22%20%22phrase%20two%22'
 ```
 
-The localhost service holds the key, caches results, and spaces Google Books calls
-2.5 seconds apart. It is useful for concurrent searches; workers need no credential.
-Other services can be used without a Google Books key.
+It holds the key, caches results and spaces Google Books calls, so sessions that
+use it need no credential. Google Books has a daily quota and fails
+intermittently; when it does, use the other sources and say which searches were
+not run.
 
-Do not browse or scrape books.google.com page/image URLs: previous bursts triggered
-network-wide captchas that also disrupted API access. Use the API and an accessible
-scan elsewhere. On rate limiting, stop the burst and switch sources or defer that
-service. Treat access-restricted OCR as unavailable, not an exclusion. A browser
-can help with form-driven corpora or viewers, but need not be set up for every run.
+Do not fetch books.google.com page or image addresses: bursts have triggered
+captchas that also broke the search service. Treat a blocked or restricted
+source as unavailable, not as a negative result.
 
-## Preparing passage queries
-
-Select anchors in manuscript reading order and carry their line references and
-reading/expansion provenance into the query. Label edition-informed variants as
-source-assisted. HTR output is not required. The commands below are for candidate
-retrieval; verification remains a separate research step.
-
-## One Internet Archive volume
-
-The existing command uses the new engine:
-
-```sh
-uv run python tools/ia_cluster.py richarddemiddlet0000edga \
-  'materia ipsius asini' 'denudatio ab omni alia forma' --show
-```
-
-Use `--max-edits 1` to allow one character insertion, deletion, or substitution per
-anchor. `--window 1800` bounds the **entire passage** in original characters.
-The best chain can start at any anchor, but matches must be in query order and
-must not overlap. Missing anchors are reported. Results include original offsets,
-line numbers, the matched variant, and edit counts. `--json` saves the full result
-via shell redirection. `--cache-dir` chooses the OCR cache.
-
-Nearby phrases in the wrong order do not receive full coverage. Long-s (`ſ`)
-matches `s`; conflating OCR `f` with `s` requires `--ocr-long-s` because it also
-creates false matches.
-
-## Competing texts and uncertain expansions
-
-A query JSON lists anchors in reading order. Each variant is a **whole alternative
-phrase**, supplied by the researcher; the tool does not invent expansions or
-combine alternatives into a new reading. `line_ref` and other provenance fields
-are retained unchanged. For example:
-
-```json
-{
-  "source": "Preserved reading record and checksum, or explicit source-assisted basis",
-  "anchors": [
-    {
-      "id": "maxim",
-      "common": true,
-      "reason": "Shared maxim; not diagnostic of a work",
-      "variants": [{"text": "leprosus generat leprosum", "basis": "Proposed expansion of the reading"}]
-    },
-    {
-      "id": "passage",
-      "line_ref": "image-001.jpg:L020",
-      "variants": [
-        {"text": "mater* ipsius asini", "basis": "Uncertain word ending"},
-        {"text": "materia ipsius asini", "basis": "Alternative proposed expansion; unverified"}
-      ]
-    }
-  ]
-}
-```
-
-`*` matches within a single word. Each partial word needs at least three literal
-characters. Partial-word variants use only wildcard matching, even when fuzzy
-search is enabled; they do not also receive edit tolerance. A match reports the
-best variant (fewest edits, then first supplied) when alternatives hit the same
-span. Punctuation separates words; it is not a wildcard for missing text.
-
-For missing spans, use `parts` and a `gaps` list instead of `text` in a variant:
-
-```json
-{
-  "parts": ["materia ipsius asini", "animam intellectivam"],
-  "gaps": [{"min": 1, "max": 120}],
-  "basis": "Surviving spans separated by damage; spacing is a search hypothesis"
-}
-```
-
-Each gap bounds the number of **normalized characters**, including spaces,
-between successive non-overlapping parts. Every part must match, in order. Use
-several parts for successive line ends, with one min/max pair per gap. These are
-bounds in the searched edition's normalized text, not physical line lengths or
-pixel measurements; allow for uncertain abbreviation expansion. Derive them
-from a stated reading/layout hypothesis, not a candidate match chosen afterward.
-
-Existing partial-word and edit-tolerance rules apply to each part separately.
-The hit reports each surviving segment's original offsets, text and edits, plus
-the measured normalized gaps. Its overall excerpt also contains the intervening
-edition text; that text is not a recovered manuscript reading. Scores count the
-whole variant as one anchor, with summed segment edits. Alternatives remain
-explicit variants, and `common` anchors remain excluded from ranking.
-
-A corpus JSON lists downloaded texts, with paths relative to the manifest:
-
-```json
-{
-  "documents": [
-    {"id": "candidate", "path": "candidate.txt", "source": "Public edition/OCR URL"},
-    {"id": "competitor", "path": "competitor.txt", "source": "Public edition/OCR URL"}
-  ]
-}
-```
-
-```sh
-uv run python tools/latin_search.py --corpus scratch/corpus.json \
-  --query scratch/query.json --max-edits 1 --window 1800 \
-  --output scratch/retrieval.json
-```
-
-Output files must be new. Inputs are never rewritten. The JSON includes the exact
-query, its file hash, source citations, decoded-text hashes, every hit and its
-original excerpt, normalized query/match, and ranked non-overlapping passages per
-document. A source offset is a zero-based Unicode character index, with an
-exclusive end, in that exact decoded UTF-8 text. Newlines are preserved. Lines
-are one-based; `form_feed_page` is a one-based OCR section only when form feeds
-exist, otherwise null. It is **not** a printed page or an Internet Archive scan
-number. Use edition facsimiles to establish the physical locus.
-
-## Reusing downloaded texts and page references
-
-Register a text once, then search the same local corpus on subsequent fragments:
-
-```sh
-uv run python tools/corpus.py --corpus scratch/corpus.json \
-  --id hocedez-1925 --text scratch/hocedez.txt \
-  --source 'https://archive.org/details/richarddemiddlet0000edga' \
-  --edition 'Edgar Hocedez, Richard de Middleton (1925)'
-```
-
-The importer makes no network requests. It copies exact UTF-8 bytes into a
-content-addressed `texts/` cache beside the manifest and records their SHA-256.
-Repeated searches reuse that cache; search refuses changed text. A duplicate ID
-is refused, and concurrent imports cannot overwrite each other's manifest edits.
-Keep corpora in local scratch storage; do not commit downloaded books by default.
-Continue to respect each source's access restrictions and rate limits when first
-obtaining a text. Reuse existing downloads instead of requesting them again.
-
-Optional `--attribution-source` records a checked title-page, catalogue or scholarly
-attribution URL alongside `--edition`. This is supplied provenance, not automatic
-certification of authorship. Optional `--pages pages.json` supplies checked spans:
-
-```json
-[
-  {"start": 0, "end": 1200, "locus": "printed fol. 12r",
-   "url": "https://example.org/edition/12r"}
-]
-```
-
-Offsets are zero-based Unicode character positions in the **exact original text**,
-with exclusive ends, as in retrieval results. Ranges must be ordered and
-non-overlapping. Map only spans whose physical page you have checked; gaps are
-allowed and a range may cover only an excerpt of a page. Search attaches only
-intersecting page references, with matched overlap offsets, to each hit and each
-gapped segment. An empty or partial mapping does not establish the page for the
-remaining text. OCR form-feed counts still do not establish printed foliation.
-
-Existing manifests containing only `id`, `path` and `source` remain supported;
-they simply lack checksum enforcement and physical page mappings. Source text is
-never rewritten to make an edition or page mapping fit.
-
-## Matching and ranking
-
-The separate search view uses Unicode NFC/lowercase, `ſ/s`, `u/v`, `i/j`, and
-`ae/oe/æ/œ/e` folding. It joins hyphens at line breaks and collapses punctuation
-and whitespace. Combining abbreviation marks are retained, not silently expanded.
-Every normalized character maps to its original span, so lossy search rules never
-destroy the source. `--ocr-long-s` also conflates `f/s` and records that choice.
-These equivalences deliberately broaden retrieval; they are not editorial rules.
-
-Fuzzy search uses character trigrams to locate candidate spans, followed by
-bounded Levenshtein verification at word boundaries. `--max-edits` is 0 by default,
-with a maximum of 3 per whole anchor. Fuzzy phrases need at least
-`3 * (max_edits + 1)` normalized characters. Edit distance is measured **after**
-normalization; zero edits is not a claim of verbatim agreement. This is intended
-for selected anchors in a modest set of candidate volumes, not a universal index.
-
-For N supplied documents, each diagnostic anchor has weight
-`1 + log((N + 1) / (document_frequency + 1))`. Frequency counts documents containing
-any accepted variant, using the selected matching rules. A chain sums
-`weight / (1 + edits)` for its non-overlapping, ordered anchor matches. Reports show
-coverage, missing anchors, total edits, and intervening character gaps. Explicit
-`common: true` anchors have zero weight and do not contribute to diagnostic
-coverage or form a ranked passage on their own. Their hits remain visible.
-
-Supply one document per work when practical; duplicated editions and unequal
-text coverage distort frequency. Rarity within the supplied corpus is not
-universal rarity. A two-document trial cannot establish that a phrase is unique.
-Interpret scores under the evidence rules in CONVENTIONS; they are not confidence
-percentages or identification thresholds.
-
-The [F-eo5z tooling trial](audits/retrieval-2026-09-22.md) records the effect on an
-actual known passage and a commonplace control. It is not the planned pilot or a
-fresh adjudication.
-
-The [bounded-gap replay](audits/retrieval-bounded-gaps-2026-10-11.json) and
-[local-corpus replay](audits/retrieval-local-corpus-2026-10-11.json) exercise a known,
-source-assisted Hocedez phrase against two previously downloaded texts. The latter
-maps only the matched excerpt to the previously checked p. 392, not the entire
-OCR volume. These are reproducibility checks, not measurements of identification
-yield, accuracy, or token savings.
+For a reading too uncertain for a phrase search, or to compare one passage
+across several downloaded texts, see [tools/MATCHING.md](tools/MATCHING.md).

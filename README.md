@@ -67,7 +67,7 @@ as research records. They are not additional published identifications.
 
 Start with [AGENTS.md](AGENTS.md). [METHOD.md](METHOD.md) is the short research
 workflow and [CONVENTIONS.md](CONVENTIONS.md) defines the evidence standards.
-Image/reading, HTR, and retrieval manuals are references for the task at hand,
+The image, reading and search manuals are references for the task at hand,
 not prerequisites to read or execute in full.
 
 ## Layout
@@ -79,15 +79,12 @@ fragments/<F-id>/README.md     report required for published identifications; ea
 prompts/                       the reading prompt and the briefs for reader, research and report sessions; prompts/README.md gives the batch sequence
 docs/                          the site; python3 docs/_build_site.py regenerates it (stdlib only)
 tools/searchd.py               local search service: Google Books, archive.org full text, Corpus Corporum on localhost (holds the key)
-htr/models.json               pinned recognition and segmentation model identities
-pyproject.toml + uv.lock       one Python 3.13 environment; optional htr dependency group
-tools/latin_search.py         tolerant Latin retrieval with original offsets and ordered passage ranking (see RETRIEVAL.md)
-tools/htr.py                  Kraken/CATMuS runner, segmentation review, separate text layers (see HTR.md)
+pyproject.toml + uv.lock       one Python 3.13 environment; optional `images` dependency group (Pillow)
+tools/latin_search.py         tolerant Latin retrieval with original offsets and ordered passage ranking (optional; see tools/MATCHING.md)
 tools/readings.py              neutral image packets, preserved first readings, separate source-assisted revisions
 FIRST_READINGS.md             isolated-reader procedure and command examples
 tools/iiif.py                  fetch a fragment's images: info, overview, tiles, crop; resolves each library's IIIF quirks
 tools/ia_cluster.py            do the anchor phrases sit in one passage of an archive.org volume's OCR?
-tools/gbsearch.py              Google Books full-text search from the command line (needs GOOGLE_BOOKS_API_KEY)
 tools/gbwithin.py              search inside one Google Books volume: printed page number and snippet per hit, no key
 tools/tilepacket.py            neutral reading packets of overview plus reading-size tiles from an acquire_batch cache
 tools/schneyer.py              search Schneyer's sermon repertory volume by volume in archive.org full text
