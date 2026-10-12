@@ -24,6 +24,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 
 VOLUMES = ["repertoriumderla0001schn", "repertoriumderla0002unse", "repertoriumderla0003unse",
            "repertoriumderla0004schn", "repertoriumderla0005schn", "repertoriumderla0006schn",
@@ -42,26 +43,32 @@ def highlights(response):
             for x in hit.get("highlight", {}).get("text", [])]
 
 
+def ask(query, volume):
+    """One volume's response, or None after three failed tries."""
+    for _ in range(3):
+        try:
+            req = urllib.request.Request(url(query, volume), headers={"User-Agent": "Mozilla/5.0"})
+            return json.load(urllib.request.urlopen(req, timeout=90))
+        except Exception:
+            time.sleep(5)
+    return None
+
+
 def main(argv):
     if not argv:
         sys.exit(__doc__)
     for query in argv:
         print("##", query, flush=True)
-        for volume in VOLUMES:
-            response = None
-            for _ in range(3):
-                try:
-                    req = urllib.request.Request(url(query, volume), headers={"User-Agent": "Mozilla/5.0"})
-                    response = json.load(urllib.request.urlopen(req, timeout=90))
-                    break
-                except Exception:
-                    time.sleep(5)
+        # Each call takes ten seconds or more at archive.org; three at a time keeps a query under a
+        # minute without crowding the service. Results print in volume order.
+        with ThreadPoolExecutor(max_workers=3) as pool:
+            responses = list(pool.map(lambda volume: ask(query, volume), VOLUMES))
+        for volume, response in zip(VOLUMES, responses):
             if response is None:
                 print("  ", volume[-8:], "| no response")
                 continue
             for text in highlights(response):
                 print("  ", volume[-8:], "|", text[:300], flush=True)
-            time.sleep(0.4)
 
 
 if __name__ == "__main__":

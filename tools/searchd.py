@@ -10,9 +10,9 @@ Endpoints (GET, JSON back):
     /cc?q=<sphinx query>&index=p      Corpus Corporum (mlat.uzh.ch), supports NEAR/N; sentence index 's' or paragraph 'p'
     /health
 
-Pacing: Google Books calls are spaced 2.5 s apart process-wide and Corpus Corporum calls run one
-at a time, a second apart, with one retry; results are cached in memory for the life of the
-process. Binds to 127.0.0.1 only. Standard library only.
+Pacing: Google Books calls are spaced 2.5 s apart process-wide; Corpus Corporum calls run one at
+a time, a second apart, with one retry; an Internet Archive call is retried once. Results are
+cached in memory for the life of the process. Binds to 127.0.0.1 only. Standard library only.
 """
 import json
 import os
@@ -55,7 +55,12 @@ def gb(q):
 
 
 def ia(q):
-    d = get_json("https://be-api.us.archive.org/fts/v1/search?q=" + urllib.parse.quote(q) + "&size=15", timeout=90)
+    url = "https://be-api.us.archive.org/fts/v1/search?q=" + urllib.parse.quote(q) + "&size=15"
+    try:
+        d = get_json(url, timeout=90)
+    except OSError:  # about one call in twelve fails and succeeds when repeated
+        time.sleep(3)
+        d = get_json(url, timeout=90)
     hits = []
     for h in d.get("hits", {}).get("hits", []):
         f = h.get("fields", {})
