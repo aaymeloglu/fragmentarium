@@ -10,8 +10,9 @@ Endpoints (GET, JSON back):
     /cc?q=<sphinx query>&index=p      Corpus Corporum (mlat.uzh.ch), supports NEAR/N; sentence index 's' or paragraph 'p'
     /health
 
-Pacing: Google Books calls are spaced 2.5 s apart process-wide; results are cached in memory for
-the life of the process. Binds to 127.0.0.1 only. Standard library only.
+Pacing: Google Books calls are spaced 2.5 s apart process-wide and Corpus Corporum calls run one
+at a time, a second apart, with one retry; results are cached in memory for the life of the
+process. Binds to 127.0.0.1 only. Standard library only.
 """
 import json
 import os
@@ -27,6 +28,8 @@ KEY = os.environ.get("GOOGLE_BOOKS_API_KEY")
 UA = {"User-Agent": "Mozilla/5.0 (fragmentarium searchd)"}
 LOCK = threading.Lock()
 LAST_GB = [0.0]
+CC_LOCK = threading.Lock()
+LAST_CC = [0.0]
 CACHE = {}
 
 
@@ -63,7 +66,19 @@ def ia(q):
 def cc(q, index="p"):
     url = ("https://mlat.uzh.ch/php_modules/fulltext_search.php?&query=" + urllib.parse.quote(q)
            + "&offset=0&limit=30&order_by=&index_type=" + index)
-    t = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120).read().decode("utf-8", "replace")
+    # One request at a time, a second apart: the server answers in about a second when asked singly
+    # and slowed to minutes when ten sessions queried it at once.
+    with CC_LOCK:
+        for attempt in (1, 2):
+            time.sleep(max(0.0, 1.0 - (time.time() - LAST_CC[0])))
+            try:
+                t = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=45).read().decode("utf-8", "replace")
+                break
+            except OSError:
+                if attempt == 2:
+                    raise
+            finally:
+                LAST_CC[0] = time.time()
     total = re.search(r"<total>(\d+)</total>", t)
     hits = []
     for r in re.findall(r'<search_result n="\d+">(.*?)</search_result>', t, re.S):
