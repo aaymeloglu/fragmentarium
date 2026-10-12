@@ -905,8 +905,8 @@
   "catalogue_date": "1301 – 1400 CE",
   "status": "partial",
   "confidence": "low",
-  "identification": "Grammatical tract on regimen and construction (double accusatives, De regiminibus, gerunds and supines, impersonal verbs); not identified",
-  "note": "Closest printed parallel is Gutolf of Heiligenkreuz's Summa grammatica as excerpted by Schönbach (1904, OCR): one shared sentence and the same doctrine in the same order, but different mnemonic verses and examples, so a sibling tract or common source. Gutolf's full text is unprinted. No incipit match for \"De regiminibus tractantes\".",
+  "identification": "Prose tract on construction and regimen (double accusatives, De regiminibus, gerunds and supines, impersonal verbs); not identified",
+  "note": "A magister weighs opinions in the first person (\"quibus consentimus\"); the last chapter opens \"Ultimo videamus de constructione inpersonalium\" with three etymologies of impersonalia. Closest printed parallel is Gutolf of Heiligenkreuz's Summa grammatica as excerpted by Schönbach (1904, OCR): one shared sentence, but a different chapter order, mnemonic verses and examples. No match in Bursill-Hall's Census (snippets), Thurot (OCR), Google Books or archive.org. Untested for want of text: Dybin's Regimina and other unedited regimen tracts.",
   "verify": "https://fragmentarium.ms/overview/F-8srm",
   "examined": "2026-10-12",
   "identified_on": null
@@ -1153,7 +1153,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Question-commentary on Peter of Spain, Tractatus V (De locis), close to the Cologne Copulata; the commentary is not identified",
-  "note": "The \"rusticus est amator sapientie\" argument and its reply, and the \"nullum animal currit\" argument, run parallel in content and order to Lambertus de Monte's Copulata (Cologne 1494, OCR) in other words; one argument on totum integrale is Versor's. Not verbatim Versor, the printed Copulata, Marsilius or Tartaret.",
+  "note": "The \"amator sapientie ... desiderator\" argument and reply, and the \"nullum animal currit\" argument, run parallel in content and order to Lambertus de Monte's Copulata (Cologne 1487 and 1494, OCR) in other words; one argument on totum integrale is Versor's. No printed commentary matches verbatim for five lines: also tested Johannes de Magistris, Tartaret, Marsilius and an anonymous Scotist exposition (OCR); Bricot's OCR was too corrupt to test; Gerardus de Harderwijk and the Louvain commentaries were not found online. The subject of the first argument is read \"rusticus\" or \"iustus\"; the letters are ambiguous. Probably a student reportatio of Cologne Thomist teaching.",
   "verify": "https://fragmentarium.ms/overview/F-die2",
   "examined": "2026-10-12",
   "identified_on": null
