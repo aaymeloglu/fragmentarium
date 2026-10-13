@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-10-13T17:11:01.759377+00:00",
+  "fragment": "F-uf5g",
+  "id": "batch-2026-10-13b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "077a9e0f183ca24e0fa36cce01ea5c30197840d20d81a76036fa468d07bd95ad",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a004_e002_s001.jp2/full/3534,/0/default.jpg (canvas 2, mds_57Aa02_a004_e002_s001): whole image 3534x5478 reduced to 1161x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "a3888fc3ae324e13457f2f5d7219b7cacbdb0c1adbffc869e3de6e26f1d63eda",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a004_e002_s001.jp2/full/3534,/0/default.jpg (canvas 2, mds_57Aa02_a004_e002_s001): native-pixel box 1236,1424,2332,3203; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "717b6d69a39c70439dc3f1dff8571890d95435fcc083ce9ce56e1836d3135d01",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a004_e002_s001.jp2/full/3534,/0/default.jpg (canvas 2, mds_57Aa02_a004_e002_s001): native-pixel box 1236,2821,2332,4601; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "24ba6d9136e835cfa7a782412a4aab568a12605d58dabf481579409788ce4b75",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_e002_s001.jp2/full/6325,/0/default.jpg (canvas 3, mds_57Aa02_e002_s001): whole image 6325x11625 reduced to 979x1800 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "e37fac0868001f686b6f34b660d3e7da7af3984554419c85e0c7862b62e5de19",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_e002_s001.jp2/full/6325,/0/default.jpg (canvas 3, mds_57Aa02_e002_s001): native-pixel box 1201,8486,2087,9755; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "b3ae71fae0776bdee392309804a79d4b509bf8ec511d7aec71f23af4578afcaa",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_e002_s001.jp2/full/6325,/0/default.jpg (canvas 3, mds_57Aa02_e002_s001): native-pixel box 1201,9483,2087,10753; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "ae18bcb31c97d2da99016aa65eba9d38c50fb2933861408671e4d32ba7e0f46c",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a002_e002_s001.jp2/full/3534,/0/default.jpg (canvas 0, mds_57Aa02_a002_e002_s001): whole image 3534x5478 reduced to 1161x1800 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "8a95aa6f0a507ac022dcfce96280249f5acf0eb7e2b318d105fb4d0e6e0160af",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a002_e002_s001.jp2/full/3534,/0/default.jpg (canvas 0, mds_57Aa02_a002_e002_s001): native-pixel box 1484,821,1908,2201; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "9f05aeff2e5276b98731140104cd9337214bee1e516d2686d54928b0d303fa52",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a002_e002_s001.jp2/full/3534,/0/default.jpg (canvas 0, mds_57Aa02_a002_e002_s001): native-pixel box 1484,1905,1908,3286; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "5ed11af5cc8940d75edf5b65149ba18ba016a01a6226e9f54df98973a6221fb8",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a003_e002_s001.jp2/full/3534,/0/default.jpg (canvas 1, mds_57Aa02_a003_e002_s001): whole image 3534x5478 reduced to 1161x1800 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "a842698544d6b29ff396e25a5c29d2fe2fc85074e929677f81b86fc82ddd5c5e",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a003_e002_s001.jp2/full/3534,/0/default.jpg (canvas 1, mds_57Aa02_a003_e002_s001): native-pixel box 2014,821,2438,2815; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "8e21a2e4248978efdb118beab0323db3d43044f021924f68df1bb0815b1a8313",
+        "source": "https://fragmentarium.ms:443/loris/F-uf5g/mds_57Aa02_a003_e002_s001.jp2/full/3534,/0/default.jpg (canvas 1, mds_57Aa02_a003_e002_s001): native-pixel box 2014,2387,2438,4382; unrotated grid position column 1 of 1, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-13b reader (packet-20)",
+  "text": "PACKET 20 - unverified image-only reading\n\nExposure statement: nothing in my context revealed a proposed identification\nor earlier reading of the FRAGMENT. I did not read packet.json. Note however\nthat the overview image-004 shows the printed title lines of the HOST volume\nin which the strip is bound (\"[Q]uodlibet d(omi)ni Egidii Romani.\" / \"[..]be\n[...]ore christi.\" / \"[..]ul[...]mento altaris\", partly hidden by the colour\ncard) and a violet stamp \"SCAFFALE / PALCHETTO\". That is the host book, not\nthe fragment, and I have not used it for the reading.\nThings done beyond the strict rules: (1) one directory listing of the packet\ndirectories (filenames/sizes only); (2) because the orientation of the script\nwas in doubt, I made 180-degree rotated copies of the supplied tiles in my own\nscratch directory (scratchpad/reader-rot20/) and viewed those as well. No other\nfile, directory, web page or search tool was opened.\n\nIMAGES\n- image-001: overview, pasted strip at the foot of the gutter (ruler 1-10 cm).\n- image-002, image-003: native tiles of that strip, upper and lower halves\n  (they overlap by about three lines).\n- image-004: wider overview of the same opening (host title page, colour\n  card, ruler); the strip is at lower left.\n- image-005, image-006: second, slightly smaller-scale capture of the same\n  strip face, upper and lower halves. They show the same lines as 002/003.\n- image-007: overview of the head of the gutter, where another piece of\n  written parchment is visible inside the spine between about 28 and 32 cm.\n- image-008, image-009: native tiles of that upper piece.\n- image-010: oblique view into the gutter at the head; image-011, image-012:\n  tiles of it (out of focus).\n\nLAYOUT SURVEY\nLower strip (image-001/-002/-003/-005/-006)\n- Observation: a parchment strip about 2.3 cm wide and 6 cm tall, pasted\n  vertically into the gutter at the foot of the book, hair side up (follicle\n  dots all over). A ragged band of paper/paste residue runs down its middle\n  and hides the centre of every line. About 17-18 lines of writing run\n  horizontally across the strip (line pitch roughly 3.5 mm).\n- Observation: at the left edge (as mounted), level with lines 2-5, part of a\n  painted initial or initial panel: red pen-flourishing (spirals/knots) on a\n  blue ground, with red penwork extending above and below. Only its right\n  part is visible; the letter itself cannot be made out. A small red mark\n  (paraph, or the tip of a red letter) shows at the edge of the residue band\n  beside line 4.\n- Observation: the brown ink is blurred and blotchy, strongest on the right\n  half of the strip (as mounted); left of the residue band only scattered\n  traces remain. No rubric text, running title, underlining or gloss visible.\n- Orientation is NOT certain; see the note below.\n\nUpper piece (image-007 to -012)\n- Observation: a second parchment piece inside the spine at the head, largely\n  hidden behind sewing thread and the text block; small dark writing in\n  several lines can be seen through the gap, some strokes blocky with\n  horizontal bars. Whether it is the same script/leaf as the lower strip\n  cannot be decided from these views.\n\nORIENTATION AND SCRIPT: UNRESOLVED (this is the main result)\nI could not establish which way up, or which way round, the writing on the\nlower strip is to be read, and so could not produce a connected transcription.\nI examined the tiles as supplied, rotated 180 degrees, mirrored left-right,\nand flipped top-bottom. What I can report:\n- As supplied (initial at the LEFT, which is what a left-to-right text with a\n  decorated initial would show), the strokes do not resolve into Latin words.\n  The letter bodies are mostly cup shapes open at the top and joined along the\n  foot; several tall strokes descend below the line and hook to the left.\n- The ink is soft-edged and blotchy, without hairlines, which would suit\n  either an offset left by something once pasted over the strip (note the\n  paste/paper residue band) or writing showing through from the other side.\n  Either would be mirror-reversed. Mirrored left-right, the same strokes give\n  ascender letters with a bowl at lower right (\"b\"/\"l\"-like) and some\n  plausible Latin-cursive shapes, but still no word I can read with\n  confidence.\n- Rotated 180 degrees (initial at the RIGHT), the bodies become arches closed\n  at the top and hanging from a head-line, with tall strokes rising above the\n  line. I considered whether this could be a right-to-left script (the\n  position of the decorated panel at the line start would then also fit),\n  but I cannot read it as such either and do not assert it.\n- Tentative conclusion only: the bold brown writing may not be in its direct,\n  upright state in these images. A specialist glance, or an image of the\n  other side / a transmitted-light image, should settle it quickly.\n\nLETTER-SHAPE REPORT, lower strip, AS SUPPLIED\n(right-hand part of each line only; the centre is under the residue band and\nthe left part is abraded. These are shape descriptions, not readings. \"u\" =\ncup open at top, \"o\" = closed round body, \"l\" = tall upright, \"J\" = stroke\ndescending below the line with a leftward hook, \"-\" = horizontal bar.)\n--- image-002 (= image-005, same lines at smaller scale) ---\nimage-002 L1:  [..] h v o   (three bodies; mirrored it looks like \"o r/v d\")\nimage-002 L2:  [..] o l [gap] v -   (tall upright hooked left at the foot,\n               joined to a small round body; fainter marks to the right)\nimage-002 L3:  [..] - o a u u [space] ı u   (a continuous row of five or six\n               round/cup bodies on a joined baseline, entering from under the\n               residue band; then two more strokes)\nimage-002 L4:  (small red mark at the edge of the residue band) h [gap] d h\n               [gap] c   (beside a round hole in the parchment)\nimage-002 L5:  [..] u l J u l   (two tall strokes with left-hooked feet)\nimage-002 L6:  [..] J u u ı [gap] -   (ends with a long horizontal bar)\nimage-002 L7:  [..] ı [gap] ı u ı   (beside damage at the right edge)\nimage-002 L8:  [..] - ı g g ı   (heavier, blotted; a horizontal bar above)\nimage-002 L9:  [..] 9 ı . 2-like sign   (a large closed loop, a short stroke,\n               a point, then a hooked sign)\nimage-002 L10: [..] ı ı u ı\nimage-002 L11: traces only\n--- image-003 (= image-006); its first three lines repeat image-002 L8-L10 ---\nimage-003 L4:  [..] u u ı\nimage-003 L5:  [..] ı d (a round body with a tall stroke, standing apart)\nimage-003 L6:  [..] ı ı u ı ı\nimage-003 L7:  [..] u u [faint]\nimage-003 L8:  [..] s 7 9-like forms (blotted)\nimage-003 L9-10: a heavy two-line-high blot of interlaced strokes (\"B X\"-like):\n               either an enlarged letter/sign or a smeared or cancelled word.\nimage-003 L11: [..] m a u [..] (a row of low rounded bodies)\nimage-003 L12: [..] ı ı ı s ı o ı ı (faint row)\nimage-003 L13: traces of a last line at the lower edge.\nLeft of the residue band, in both tiles: scattered dark flecks and a few\nvertical strokes in each line position, nothing describable.\n\nUPPER PIECE\n--- image-008 / image-009 ---\nSix to eight line positions with short dark strokes are visible between the\nsewing thread and the text block (image-008, middle and lower part); image-009\nshows more of the same piece under paper residue, with only stains. Several\nmarks are blocky with a horizontal head-stroke. No letter is securely\nidentifiable and I transcribe nothing.\n--- image-010 / image-011 / image-012 ---\nOblique, out-of-focus views into the gutter. Dark marks in rows are visible on\nthe parchment inside the spine (image-012 upper half), unreadable.\n\nAREAS SELECTED / UNREAD\n- Selected: the right-hand part of the lower strip (image-002/-003, checked\n  against image-005/-006). Everything else is unread: the left part and\n  centre of the lower strip, and the whole upper piece.\n\nLIMITATIONS AND SUGGESTIONS\n- No connected text was obtained from this packet. The gap is partly the\n  object (narrow strip, residue band, blurred ink) and partly my inability to\n  fix orientation/handedness; I prefer to say so than to offer invented words.\n- Needed: (a) confirmation of orientation and of whether the visible writing\n  is direct, offset, or show-through; (b) an image of the reverse of the strip\n  if it can be lifted, or transmitted/raking light; (c) for the upper piece,\n  an in-focus view with the gutter opened further.\n- The initial panel (red penwork on blue) is the one firmly observed\n  codicological feature; its letter is not visible.\n- This is an unverified image reading.\n",
+  "text_sha256": "1ee9e993ded98ae28b09e27c814f48ff2f51a07c1a4584a7f449e710a063321b"
+}

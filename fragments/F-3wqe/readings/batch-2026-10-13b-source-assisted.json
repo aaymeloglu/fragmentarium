@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-13T17:29:12.970394+00:00",
+  "first_reading": "batch-2026-10-13b-image-only",
+  "first_sha256": "66aad141d8f669256cca4bf298b2027978362e3b3fb515c466b35cd196f38b2c",
+  "fragment": "F-3wqe",
+  "id": "batch-2026-10-13b-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "With the Graecismus text in view the lower strip's line 2 resolved as orno como, line 3 as -das huic quoque in place of satis huic quoque, and line 4 as dicas gale-.",
+  "schema_version": 1,
+  "sources": [
+    "Eberhardi Bethuniensis Graecismus, ed. Johannes Wrobel (Breslau 1887), cap. XIX, vv. 118-121, p. 186, with apparatus (OCR text of the archive.org scan eberhardibethuniensisgraewro)"
+  ],
+  "text": "Source-assisted reading of F-3wqe (Orselina-Locarno, Biblioteca Madonna del Sasso, MdS 58 Ba 27). Made with the candidate text in view for the lower strip; all four lines of the lower strip and all seven lines of the upper strip were reread on enlarged crops of the image by a research reader. Square brackets mark what is cut away or damaged; round brackets resolve abbreviations; a question mark marks a doubtful reading. Nothing inside square brackets was read.\n\nCanvas 2 (mds_58Ba27_phyb, 5407 x 7982), lower strip (Frammento 3), native box 3100,4000,4290,5250. Middles of four consecutive verses, each line cut at both ends. Eberhard of Bethune, Graecismus XIX 118-121.\n\n1  ]t(?) ex se reliq[            (verse 118; letter before ex cut, doubtful)\n2  ] orno como s[                (verse 119)\n3  ]das huic q(u)oq(ue) s[       (verse 120)\n4  ]es dicas g[a]le[             (verse 121; a damaged)\n\nCanvas 2, upper strip (Frammento 2), native box 3100,2155,4290,3432. Small abbreviated cursive; text not identified; read without a source. Word groups only.\n\n1  ] p(ro)p(ter)? [stain] (con)? s(u)b(stanti)a [\n2  ] p(ar)ti? sicut albu(m)? [\n3  ] (con)tingit? or attingit? p(ro)/p(er) n(on) s(u)b(stanti)am? [\n4  ]t(ur) p(ro)/p(er) ill(u)d? sig(nifica)re ad[\n5  n(on) s(ecundu)m? [..] s(u)b(stanti)am inf[\n6  ] s(ed)? infinita f(or)ma? [\n7  ]t(ur) actu inf[ ] int(er)? [\n",
+  "text_sha256": "f6a19a88feb7460a21790234ed2cb1bcb6cf929783b2435f974f748302da567e"
+}

@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-13T17:29:12.968003+00:00",
+  "first_reading": "batch-2026-10-13b-image-only",
+  "first_sha256": "36f0557b4cc4e722ab787c89ff9ed35256381ff2ef06554af864c44820240c5e",
+  "fragment": "F-ne56",
+  "id": "batch-2026-10-13b-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "With the missal text in view the rubbed letter groups of both faces resolved into words of Mark 15 and Isaiah 63, changing recto lines 2 and 6 and verso lines 2, 3, 4, 6, 7, 15 and 16.",
+  "schema_version": 1,
+  "sources": [
+    "Liber ecclesie beati Terrenani de Arbuthnott, ed. A. P. Forbes and G. H. Forbes (Burntisland 1864), pp. 133-134 (OCR text of the archive.org scan liberecclesiaebe00cath)",
+    "Vetus missale Romanum monasticum Lateranense, ed. Shin-Ho Chang (2002), p. 167 (Google Books snippet, volume yXTZAAAAMAAJ)"
+  ],
+  "text": "Source-assisted reading of F-ne56 (Antwerpen, Erfgoedbibliotheek Hendrik Conscience, Fragm. 127). Made with the candidate text in view; every line of both faces was reread on enlargements of the native images by a research reader. Square brackets mark what is cut away; round brackets resolve abbreviations; a question mark marks a doubtful reading. Nothing inside square brackets was read.\n\nCanvas 0, fol. [1]r, native box about 172,540,565,2070. Line beginnings (left edge of a column). Mark 15:43-46.\n\n1  ter intr[\n2  et petijt [\n3  aute(m) m[\n4  bisset. E[          (E touched with red)\n5  turion[\n6  eum si [\n7  set. Et c[          (E touched with red)\n8  a centu[\n9  corpus [\n10 tem m[\n11 et depo[\n12 syndone [\n13 monum[\n14 excisum [\n15 uoluit [\n16 ium mo[\n17 (red) debet sa[ ?   (rubric, lower half cut away, reading uncertain)\n\nCanvas 1, fol. [1]v, native box about 208,530,601,2000. Line ends (right edge of a column). Isaiah 63:5 and 7, then the gradual Ne avertas (Psalm 68:18 and 2).\n\n1  ]no(n) erat\n2  ]esiui et           (rubbed)\n3  ]diuuaret           (rubbed)\n4  ]chi bra\n5  ]digna\n6  ]liata              (rubbed)\n7  ]a(ti)onum          (rubbed; abbreviation stroke over a)\n8  ]laudem\n9  ]s que\n10 ]d(omi)n(u)s de(us)\n11 ]rtas fa\n12 ]ro tuo\n13 ]uelocit(er)\n14 ]aluu(m) me\n15 ](m) intraue\n16 ]ad a(n)i(m)am\n17 tops of letters only, unread\n\nOn the verso the letters nearest the cut edge are the least sure.\n",
+  "text_sha256": "0783ac4b4dbff77e3bbb8935e9c35d5c80a6bd452c600d1abaa343c3e0471aa9"
+}
