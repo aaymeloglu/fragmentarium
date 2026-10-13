@@ -1,0 +1,97 @@
+{
+  "captured_at": "2026-10-13T15:12:10.768109+00:00",
+  "fragment": "F-srfk",
+  "id": "batch-2026-10-13-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "760f4d5fb1cf3cde773fa7b2bb58a685992117abb8a8caa60d717e68c85901b7",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0052_Neerl_413_43.jp2/full/2314,/0/default.jpg (canvas 0, fol. [1]r): whole image 2314x1140 reduced to 1800x887 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "480492b848dfaaf18a96eea2f2fc21a55890fde6e8e412bb4cce066fbb39a062",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0052_Neerl_413_43.jp2/full/2314,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 185,114,879,478; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "2a8d189fb630a531f6aba3655293f4fb539b9b9df1a3c7264c387ab43ec9a7cf",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0053_Neerl_413_43.jp2/full/2290,/0/default.jpg (canvas 1, fol. [1]v): whole image 2290x1201 reduced to 1800x944 for layout"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "ce039363865731d3e8b46162728a5f16bf67063e73fcd6af67b58b903c661b2d",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0053_Neerl_413_43.jp2/full/2290,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 114,168,824,528; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "f645b6bd0d98e1e8db0f245fe541b970ce998f0b980ce00b482786dfb8dbd1d8",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0054_Neerl_413_43.jp2/full/1677,/0/default.jpg (canvas 2, fol. [2]r): whole image 1677x1101 reduced to 1677x1101 for layout"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "ef4691e3c20b6692505f9774add343e274273d9c4254deae2cb6b560146de541",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0054_Neerl_413_43.jp2/full/1677,/0/default.jpg (canvas 2, fol. [2]r): native-pixel box 218,165,1006,572; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "64a916f9cf7694721a4a3dd1fde81351e8b1a4e702f20a0b2dbfa0b9166fea8f",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0055_Neerl_413_43.jp2/full/1516,/0/default.jpg (canvas 3, fol. [2]v): whole image 1516x1178 reduced to 1516x1178 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "df2f2afb9a1247b1ef17b876cfc81c73420fe56a8fa5b46ecc0bc070ae765464",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0055_Neerl_413_43.jp2/full/1516,/0/default.jpg (canvas 3, fol. [2]v): native-pixel box 121,117,879,494; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "5ff76bd088409d955c35952da7ab2a41a883e5c15c6280d2d28c69def49c016a",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0056_Neerl_413_43.jp2/full/1853,/0/default.jpg (canvas 4, fol. [3]r): whole image 1853x1117 rotated 180 degrees counterclockwise and reduced to 1800x1085 for layout"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "25fbf32863014384ffc8b31cddefc91497a5fe0537632fb8e32f4cd7459dbe3b",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0056_Neerl_413_43.jp2/full/1853,/0/default.jpg (canvas 4, fol. [3]r): native-pixel box 185,111,778,502, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "de8535dee5a1ce056cc925f04d10a44f699b198a7fa6a768238e7f8904cd0f81",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0057_Neerl_413_43.jp2/full/1865,/0/default.jpg (canvas 5, fol. [3]v): whole image 1865x1086 reduced to 1800x1048 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "20dc0073e9105f7b305a3ac9e1481d6f8022df4b551b88be0f80a8377d86b405",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0057_Neerl_413_43.jp2/full/1865,/0/default.jpg (canvas 5, fol. [3]v): native-pixel box 149,130,746,488; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "3612f9b3ea7748eac111cf121e82aecd18486cabdf35251c5201c297690c877a",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0059_Neerl_413_43.jp2/full/2069,/0/default.jpg (canvas 6, fol. [4]r): whole image 2069x1180 reduced to 1800x1027 for layout"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "0d2f8839ed28865decbff165d62baeacd3346fb97790722ca86f846b5662248e",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0059_Neerl_413_43.jp2/full/2069,/0/default.jpg (canvas 6, fol. [4]r): native-pixel box 0,177,517,566; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "7e5ca4757d4bb001343b2db9fc484f60cd62487c546b08a3b996dcc8a0778ea6",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0058_Neerl_413_43.jp2/full/1736,/0/default.jpg (canvas 7, fol. [4]v): whole image 1736x1215 reduced to 1736x1215 for layout"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "49c01f5f125ee0f182ec354bb8e4fd28bcade51482b027ec9c7f25c40af6af3a",
+        "source": "https://fragmentarium.ms:443/loris/F-srfk/ua_rb_20220317c_0058_Neerl_413_43.jp2/full/1736,/0/default.jpg (canvas 7, fol. [4]v): native-pixel box 138,182,1076,546; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-13 reader (packet-15)",
+  "text": "PACKET 15 - unverified image reading (blind; no identification was present in my context)\n\nRUNNING NOTES PER IMAGE (appended as viewed)\n\nimage-001.jpg (overview, with ruler): small parchment strip, about 4.7 cm wide x 2 cm high, held by clear clips. Three lines of text at the top edge, upright; lower half blank (looks like a lower margin, tentative). Left and right edges cut through text. Gothic book hand (textualis), vernacular (Dutch/Low German-looking forms). A red-touched capital in line 1.\nimage-002.jpg (native crop of the same face):\n image-002 l.1: [..]t(?) . En(de) [E touched red] mit groter de[..]  (after \"groter\" a d + one or two letters, cut at right edge; first letters at left cut: \"ert\"/\"cet\"?)\n image-002 l.2: [.]mi(n)ē(?) vielen si neder t[..]  (first word begins at cut edge, reads \"mie\" with macron, perhaps \"[..]nnie(n)\"; after \"neder\" traces, \"to\"/\"te\"? at edge)\n image-002 l.3: en̄(de) dancten gode de[..]  (\"en̄\" with abbreviation stroke at cut left edge; last word cut, \"de\"/\"do\")\n\nimage-003.jpg (overview, with ruler): another face of a strip the same size (tentatively the reverse of the strip in 001, edges mirror). Three lines at top, much more abraded/offset-looking ink; blank below.\nimage-004.jpg (native crop):\n image-004 l.1: [.]pp(?)ie [illegible, c. 10-12 letters; strokes like \"(en̄) ... ere ...\"] [illegible]   (very rubbed; only the shafts survive)\n image-004 l.2: [..]ren seluen mit haer[..]   (\"seluen mit\" fairly clear; first word cut \"-ren\"/\"-reu\"; last word \"haer\"/\"hoer\"/\"herc\" cut)\n image-004 l.3: [.] gode(?) lancdurgh(?) [..]  (very uncertain: reads visually like \"· gude lancdurg\" / \"... dancbaer ...\"; letters l/d, a, n/u, c/t, d, a/u, r, g are visible but word division unsure)\n\nimage-005.jpg (overview, ruler): a second strip, c. 5.6 cm wide x 2.8 cm, one line of text along the top edge (tops of letters partly shaved), ruled line visible beneath it, rest blank (lower margin, tentative). Left edge torn.\nimage-006.jpg (native crop):\n image-006 l.1: [..]ringe(?) . Hier om so creech [cut]   (H touched red; first word cut at left, \"-ringe\"/\"-nige\"/\"-uuge\"; last word runs into the right cut edge, \"creech\"/\"creegh\")\n\nimage-007.jpg (overview, ruler): other face of the one-line strip (tentative; outline mirrors 005). One line at the top edge, heavily abraded, with glue/sewing ridges running vertically through it; rest blank.\nimage-008.jpg (native crop):\n image-008 l.1: [.]elke(?) der v[..] [gap at ridge] s[illegible c. 6-8 letters, perhaps \"s...n(en)\"] [illegible] ē(?) en(?)[cut]   (first word cut at left: \"ulke\"/\"elke\"/\"alze\"; \"der\" clear; then \"v\"/\"y\" + 1-2 letters lost in ridge; a tall s after the ridge; near the right edge a letter with a macron and \"eul\"/\"en\" - not readable with confidence)\n\nimage-009.jpg (overview; the ruler lies upside down but the script on the strip is upright): third strip, c. 4.3 cm wide x 2.4 cm, three lines at top, blank below. Edges cut through text both sides.\nimage-010.jpg (native crop of the strip in 009):\n image-010 l.1: [.]eit(?) In(?) den(?) [illegible c. 6-8 letters, minims; \"... mi(n)e\"?] [cut]   (tops shaved; \"I\"/\"J\" with a red touch after the first word; the rest is a run of rubbed minims)\n image-010 l.2: [..]mmikus(?) geuaren(?) . [cut]   (first word cut at left; I see minims + \"ikus\"/\"ilius\"/\"ibus\" with a tall letter before -us; second word \"geuaren\"/\"genacem\"/\"genaren\" followed by a point or a superscript mark)\n image-010 l.3: [..]s is menichat(?) h[..] [cut]   (start rubbed: \"des is\"/\"[.]ls is\"; \"menichat\"/\"menichac\"/\"menichar\" - the last letter has a head-stroke; then a word beginning with a tall letter, \"hee\"/\"ke\", cut)\n\nimage-011.jpg (overview, ruler): other face of the third strip (tentative). Here the three faint lines sit in the LOWER part of the strip with blank parchment above, i.e. the strip appears to be lying upside down relative to 009 (or it is an offset). Ink almost gone; a red-touched letter at the left of the first visible line as photographed.\nimage-012.jpg (native crop). I could not obtain a secure reading in either orientation. As photographed:\n image-012 l.1: [red-touched tall letter, N/M/ll?] [illegible c. 6] : [illegible \"ha\"/\"he\" + c. 6] \n image-012 l.2: [illegible c. 5] d[..] p[..]re(?) si[.] [illegible]\n image-012 l.3: [illegible c. 6] s[.] mer(?) [..] p[..]en(?) [illegible]\n Turned 180 degrees (which I think is the true orientation, so that the red-touched letters fall at the right end of the last line): l.1 \"[illegible] ... been(?)\"; l.2 \"[illegible] q[..]d[.] ... d[..] gaer(?)\"; l.3 \"[illegible] ... [red-touched ll/N]\". None of this is reliable. A raking-light or UV image is needed.\n NOTE (beyond-the-rules disclosure): for this one tile I made a 180-degree rotated, enlarged copy in a scratch directory to try the other orientation. No other file was opened.\n\nimage-013.jpg (overview, ruler): fourth strip, c. 4.2 cm wide (left end runs out of frame, so its full width is not shown) x 2.5 cm; six lines, filling the whole height - text cut through at top, bottom and both sides. Left end damaged with a lighter patch (paste/paper residue?). No margin visible. A wider view to the left is needed to see the left end.\nimage-014.jpg (native crop):\n image-014 l.1: [..]gen ouer die heilige(?) [..]   (upper halves shaved; \"ouer die\" fairly sure, \"heilige\"/\"hemelsche\" not sure)\n image-014 l.2: [.]t daer also genuchel[ic cut]   (\"genuchel-\"/\"genuechel-\" runs into the edge)\n image-014 l.3: [..]mer(?) also menichuou[d.. cut]   (first word cut: \"-mer\"/\"-uer\"; \"menichuou-\" runs into the edge)\n image-014 l.4: [.]e(?) sieken of gequets(?)[cut]   (first letter(s) damaged, looks like a 2-shaped sign or \"de\"; last word \"geq\" + minims + \"e\" with a macron: \"gequetsē\"/\"gegeuē\" uncertain)\n image-014 l.5: [..]en was die eerde dit(?)[cut]   (\"eerde\" clear; last \"dit\"/\"dic\"/\"die\" at edge)\n image-014 l.6: [lower halves cut away; only tops: \"... en(de) die(?) h..l...\"] [illegible]\n\nimage-015.jpg (overview, ruler): other face of the fourth strip (tentative; six lines, same height). Ink badly flaked; a white paste/paper band covers the left end; a clip tip sits on the upper right corner.\nimage-016.jpg (native crop):\n image-016 l.1: [only feet of letters at the top edge] [illegible]\n image-016 l.2: [..]y(?) [.]onnige(?) [..] [..]rech(?)[.] [under clip]   (flaked; \"y\" + gap + minims \"omuge/oninge/onnige\", then \"e\" + gap + \"...reel/rech\")\n image-016 l.3: [..]er sal en̄(de)(?) [..]eid(?) [..]   (\"sal\" clear; after it a 2-shaped/z-like sign and a letter with a macron, then flaked letters \"...eod/..oech\")\n image-016 l.4: g[...] [..]eu(?)elen (s[..]ic(?)) [..]   (a \"g\" at the left edge, large flaked gap, then \"er...elen\" - perhaps \"ereuelen\"/\"-engelen\" - then a tall s-word, flaked)\n image-016 l.5: o[.... ]s een sinte(?) [.]el[cut]   (\"o\" + flaked minims; \"een\" clear; \"sinte\"/\"sunde\"/\"suuer\" uncertain; edge letters)\n image-016 l.6: de[.] [flaked] [..]ch(?) der h[..]l[cut]   (bottoms cut; \"der h\" + tall letters, cf. \"hel-\"/\"heil-\")\n\n---------------------------------------------------------------\nSUMMARY FOR PACKET 15\n\nLayout survey (observation): the packet shows four small parchment strips (binding waste by the look of the cuts, paste and sewing ridges - tentative), each photographed on both faces, each c. 4-6 cm wide and 2-3 cm high. Script upright on all faces except 011/012, where the strip seems to lie inverted. One gothic textualis book hand throughout (tentative: all four from one manuscript), vernacular with Dutch-type spellings (en(de), mit, vielen si neder, dancten gode, hier om so, sieken, eerde). No columns can be determined: every strip is cut on both sides, so I cannot say whether the leaf was in one or two columns. No running titles, no rubrics, no enlarged initials, no underlining, no glosses. The only decoration is red touching of sentence-initial capitals (E in 002 l.1, H in 006 l.1, I in 010 l.1, a tall letter in 012). Sentences are marked by a point followed by a red-touched capital. Three strips (001-012) keep 1-3 lines plus a blank band below, which I take as a lower margin (tentative); the fourth (013-016) is from the middle of a text block. Ruling is visible under the single line on 006.\n\nSelected spans: there are no headings or openings to choose; I read every line present. Best-preserved faces: 002, 006, 014. Poor: 004, 008, 010, 016. Essentially unread: 012.\n\nCollected readings (see per-image entries above for line labels and doubts):\n 002: ...t . En(de) mit groter de... / ...mi(n)ē vielen si neder t... / en̄(de) dancten gode de...\n 004: ...ppie(?) ... / ...ren seluen mit haer... / ... gode(?) lancdurgh(?) ...\n 006: ...ringe(?) . Hier om so creech ...\n 008: ...elke(?) der v... s... ...\n 010: ...eit(?) In den ... / ...mmikus(?) geuaren(?) . / ...s is menichat(?) h...\n 012: not read\n 014: ...gen ouer die heilige(?) ... / ...t daer also genuchel... / ...mer also menichuou... / ...e sieken of gequets(?)... / ...en was die eerde dit(?)... / [cut]\n 016: ... / ...y ...onnige(?) ... / ...er sal en̄(de) ... / g... ...elen s... / o... een sinte(?) ... / de... der h...l...\n\nLimitations: every line is a fragment of perhaps 15-25 letters out of an unknown line length; no line is complete at either end. Uncertain n/u/m/i minim counts throughout. Recto/verso pairing and the order of the four strips are not established; the pairings above rest only on matching outlines. Wider views would not help (the strips are shown whole, except the left end of the strip in 013 which runs out of frame); better imaging (raking/UV) of 004, 008, 012 and 016 would.\n\nExposure statement: nothing in my context revealed a proposed identification of the text. I did not search or consult anything. The only step beyond viewing the supplied images was making one rotated/enlarged scratch copy of image-012. (A directory listing I ran showed the filename packet.json; I did not open it.)\nThis is an unverified image reading.\n",
+  "text_sha256": "78e52f73ebf2af0a6ac5cc2fc120243c88112dc34a34e04ca923e3c7626f0fe2"
+}
