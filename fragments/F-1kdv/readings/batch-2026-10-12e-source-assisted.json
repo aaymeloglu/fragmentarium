@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-13T01:03:01.600855+00:00",
+  "first_reading": "batch-2026-10-12e-image-only",
+  "first_sha256": "695da12af71b174f85aba23f5efd5f052f25503b8fda21147495dce474409a05",
+  "fragment": "F-1kdv",
+  "id": "batch-2026-10-12e-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with coordinator check",
+  "reason": "The first reading gave only letter groups from 2 cm panels; rereading against the Codex text resolved them into consecutive line ends and beginnings.",
+  "schema_version": 1,
+  "sources": [
+    "P. Krueger, Codex Iustinianus (Berlin 1877), p. 700 (C. 7.62.31) and p. 711 (C. 7.65.8), MDZ bsb11358155 scans 202 and 213",
+    "Corpus iuris civilis (Leipzig: Cnobloch, 1831), vol. 2,1, MDZ bsb10566233 scan 772 (C. 7.62.32)",
+    "Codex Dn. Iustiniani ... Accursii commentariis (Paris 1559), cols. 1715-1716, MDZ bsb10146588 scan 926 (C. 7.62.31-32 with the Accursian gloss)",
+    "The Latin Library transcription of the Codex, book 7 (used for discovery only)"
+  ],
+  "text": "Source-assisted reading of F-1kdv (Gent, Universiteitsbibliotheek, HS.2583/243). All lines below were reread on the images by a research reader, first without and then with Krueger's text of Codex Iustinianus 7.62.31-32 and 7.65.8; the centre (gloss) panels and the cursive lines on fol. [2]v were not read.\nSquare brackets = supplied from the edition; (?) = uncertain; round brackets = abbreviation expanded. Boxes are native pixels x0,y0,x1,y1.\n\nCanvas 0, fol. [1]r, box 80,230,1000,1080 (line ends; C. 7.62.31 pr.)\n1  [lower halves only, unread]\n2  p(re)fecture sac(?)[rum\n3  pos]tulatur iu[dex\n4  (sign) suscepta ap(?)[pellatione\n5  co]piam de(?)[negauerit\n6  su]p(er)(?) hac(?) in(?)[iquitate   (cut through)\n\nCanvas 1, fol. [1]v, box 2450,280,3350,1120 (line beginnings; C. 7.62.32.1-1a)\n1  [lower halves] ...oru(?)\n2  con]cesso(?) ut sacr(?)[i\n3  ...int(?) . h(?) u. a...   (not resolved; edition: acceperint. Quod si a duce)\n4  ide]m (et) p(re)ses sit p(?)[refectura\n5  ... iure(?) ordi(?)[nario\n6  audito]rio(?) iudicabi[t   (upper halves)\n\nCanvas 1, fol. [1]v, centre, box 900,280,2600,1120 (gloss, smaller module)\n   ...nus . ex(?)...\n   . spectabil...\n\nCanvas 2, fol. [2]r, box 100,100,1100,920 (probably C. 7.65.8)\n1  [tails only]\n2  art]ibus differ(?)[an]tu(r)(?)\n   [blank of about two line heights; a short word in small script at the right, tu..t(?)]\n4  ... eor(um) appell(ati)o(n)e(?) ...   (continues rubbed)\n5  [tips only]\n\nCanvas 3, fol. [2]v, box 1700,120,3400,900 (not placed)\n1  ...t(?). eos(?)/cos(?) ex + 7 or 8 minims + a   (larger module)\n2-5  [four faint lines of small cursive, unread]\n6  ...aucta(?) ... ma(?)p(?)r(?)z(?). . mt(?). n(?)\n7  [upper halves, unread]\n",
+  "text_sha256": "7a871fd5717dd125b479176bb083f966ab495e3a2d90a8b40ece982e46105d6e"
+}
