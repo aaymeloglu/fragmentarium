@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-10-13T17:11:01.740923+00:00",
+  "fragment": "F-aj6w",
+  "id": "batch-2026-10-13b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "3e54852fab6d946b08044613f845319ce7fca67a98d44be9d83142c16b518207",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00055_00028r_tiff.jp2/full/6054,/0/default.jpg (canvas 0, fragment [1] recto): whole image 6054x1423 reduced to 1800x423 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "b09ee099163192ce734e281660254814f26a2693ca09dd99f38b253c644040ef",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00055_00028r_tiff.jp2/full/6054,/0/default.jpg (canvas 0, fragment [1] recto): native-pixel box 2784,0,3148,341; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "6faedd0b02ef865b6fbf15c86975acb84d493e7afc6cc2cebec99d21bcbc0d91",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00057_00029r_tiff.jp2/full/6054,/0/default.jpg (canvas 2, fragment [2] recto): whole image 6054x1578 reduced to 1800x469 for layout"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "da8a7a9f20f71c35b89ec1244be3a99bd5a2edd623730ae03e36c90642293314",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00057_00029r_tiff.jp2/full/6054,/0/default.jpg (canvas 2, fragment [2] recto): native-pixel box 2361,0,3511,536; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "c9b6039c9e96f6f0fd452e0684142e85dc99640263ec7d77516baeed8ef4f93b",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00059_00030r_tiff.jp2/full/6054,/0/default.jpg (canvas 4, fragment [3] recto): whole image 6054x1793 reduced to 1800x533 for layout"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "bba9a10fbae4fb79b12568de89fa5fcda15e63b6f018dd05c59b0cab8d508a96",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00059_00030r_tiff.jp2/full/6054,/0/default.jpg (canvas 4, fragment [3] recto): native-pixel box 2663,0,3148,770; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "ec4a5d42be19a066873e16be5ad45e6953df5edf086a1ae19801da58dbea5d59",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00060_00030v_tiff.jp2/full/6054,/0/default.jpg (canvas 5, fragment [3] verso): whole image 6054x1745 reduced to 1800x519 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "c176aefd603cffba01ea4efe6623a066214399f817c3f37c2af58e9e316e7e41",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00060_00030v_tiff.jp2/full/6054,/0/default.jpg (canvas 5, fragment [3] verso): native-pixel box 2724,0,3208,750; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "484a3ff4ba01c529c7e8d725395502703dad739902a7397cc661c09dfb906ba0",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00061_00031r_tiff.jp2/full/6054,/0/default.jpg (canvas 6, fragment [4] recto): whole image 6054x2273 reduced to 1800x676 for layout"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "ee8e260ec6a41ffc12ebb8be46f1c1be7d84685e5bebd0774f1d3ed9e6f8e7a6",
+        "source": "https://fragmentarium.ms:443/loris/F-aj6w/kd1qg1pm70_00061_00031r_tiff.jp2/full/6054,/0/default.jpg (canvas 6, fragment [4] recto): native-pixel box 2300,0,3692,1204; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-13b reader (packet-11)",
+  "text": "PACKET-11 - UNVERIFIED IMAGE READING (blind; no identification was revealed to me by prior context)\n\nLAYOUT SURVEY (image only)\nThe packet shows several very small torn scraps, each photographed on a dark\nground above a Munsell linear gray scale with mm rule (label \"230417\").\nimage-001, -003, -005 are reduced overviews (scrap + scale); image-002, -004,\n-006 are close crops of the scrap in the preceding overview. Further images\ndescribed below as viewed.\n\nScrap A (image-001 overview, image-002 crop): c. 5 x 9 mm on the mm rule, fibrous\ntorn edges, paper-like fibres. One short red vertical stroke at upper right\n(observation; possibly a paragraph mark or rubric stroke - tentative). Brown ink\ntraces on about four levels; no complete letter is certain.\nScrap B (image-003 overview, image-004 crop): c. 38 x 17 mm. Two ruled vertical\nlines in brown ink run through it, enclosing a blank band (observation; tentative\ninterpretation: an intercolumnar space, so the scrap preserves the right edge of\none column and the left edge of the next). Red ink: a dot/stroke at the top of\nthe right part and a large red paraph-like or initial-like curved sign at the\nbottom of the right part.\nScrap C (image-005 overview, image-006 crop): narrow vertical strip c. 8 x 27 mm,\nfive line-levels of brown ink, a gothic book hand; no ruling or red visible.\n\nNo running title, heading, or gloss is visible on any scrap; the crops are far\ntoo small to show page layout beyond the two vertical rules on scrap B.\n\nTRANSCRIPTION\n\nScrap A - image-002 (crop)\nimage-002 line 1: [illegible - ink traces] followed by a red vertical stroke\nimage-002 line 2: [illegible; perhaps two or three minims with a cross-stroke]\nimage-002 line 3: [illegible traces]\nimage-002 line 4: [illegible traces; possibly \"e\" or \"c\"?]\n(Nothing connected can be read from this scrap.)\n\nScrap B - image-004 (crop); image-003 shows the same scrap reduced\nLeft part (end of lines of a left-hand column, left of the first ruled line):\nimage-004 line 1: ]auit(?) or ]uilla(?)  [minims + tall final stroke with an abbreviation hook above; reading very uncertain, could be \"]aulla'\" / \"]mil(ite)r\"?]\nimage-004 line 2: ]= ad      [a line-filler or hyphen-like double stroke at the torn left edge, then \"ad\" with a curved abbreviation/ascender stroke above the a]\nimage-004 line 3: ]nc        [only the lower left; \"]nc\" or \"]ne\"; a long thin diagonal pen stroke runs to its right across the blank band]\nBlank band between the two ruled verticals: no text.\nRight part (beginnings of lines of a right-hand column):\nimage-004 line 1: [red dot/stroke and a black trace at the torn top edge: \"o\"? or \"e\"?] [illegible]\nimage-004 line 2: vatas(?) / v(er)itas(?)   [letters read as: r-shaped or v first letter, \"a\"/\"e\", \"t\", \"a\", \"s\" - i.e. \"ratas\"? \"vatas\"? \"v'tas\"?; final letter is a round s or \"o\"]\nimage-004 line 3: tione[   (\"tione\", clear; torn after e)\nimage-004 line 4: [large red sign, like a paraph or an \"A\"/alpha-shaped initial] then a black horizontal stroke and \"i\"/\"l\" with strokes: \"-1-\"? [illegible, cut by the tear]\n\nScrap C - image-006 (crop); image-005 shows the same scrap reduced\nimage-006 line 1: ]oni[ or ]om[   (round letter + minims; \"oin\"/\"om\"/\"oni\"?)\nimage-006 line 2: ]L(?) i[ or ]t . l[   (a letter like a capital L or a long-footed \"c/t\", then an upright stroke)\nimage-006 line 3: ]c(?) &(?) [   (trace at left edge; then a sign resembling \"&\"/\"et\" or a \"g\"/\"z\"-like form)\nimage-006 line 4: ]reu[ or ]teri[   (r/t + e + two minims with a descending stroke)\nimage-006 line 5: ]x[ or ]p(er)?[   (crossed strokes like \"x\")\n\nScrap D - image-008 (crop); image-007 shows the same scrap reduced\nNarrow strip c. 8 x 27 mm, heavily abraded/fibrous; only one line-level keeps ink.\nimage-008 line 1: [faint traces only, upper third]\nimage-008 line 2: ]x(?) l .[   (a small crossed form like \"x\" or a tironian-style sign, then a tall upright \"l\"/\"i\" with a foot, then a dot or the start of a round letter)\nRemaining two thirds of the strip: no ink visible (surface lost or blank).\n\nScrap E - image-010 (crop); image-009 shows the same scrap reduced\nLayout: scrap c. 12 x 30 mm mounted on a square of thin translucent tissue\n(c. 48 x 46 mm; the tissue to the right is blank). Six line-levels of a small\ncursive/bookhand in brown ink, preserved as line-beginnings (left edge torn,\nright edge torn straight). Red: a small red paraph-like mark at the left of\nline 3 and a red stroke filling the capital Q of line 3 (observation; tentative\ninterpretation: a new sentence or section opens at \"Qu...\"). A cross-shaped\nsign with a horizontal bar stands between lines 1 and 2 below \"sup\" (it may be\nthe descender-crossing of \"p\" = \"sup(er)\" continued downward, or an insertion/\nreference sign - uncertain).\nimage-010 line 0: [tops cut away; traces of two letters at the torn upper edge]\nimage-010 line 1: sup(er)? eu(m)?[      (\"sup\" with crossed descender, then \"eu\" with a horizontal abbreviation stroke above = \"eu(m)\" or \"en(\"; torn after)\nimage-010 line 2: no(n) pr[             (\"no\" with macron; then \"p\" with crossed descender + superscript/abbreviated letter: \"p(ro)\"/\"p(er)\"/\"pri\"? torn)\nimage-010 line 3: [red paraph] Qui[     (capital Q touched with red; \"Qui\" or \"Qua\"/\"Quo\"; torn after the third letter)\nimage-010 line 4: ]xit(?) di[ / ]uit ili[  (first group \"vit\"/\"xit\"/\"nit\" with its first letter cut by the left tear; second group begins with a tall stroke: \"di\"/\"ih\"/\"ill\")\nimage-010 line 5: ]o(?) di[             (a round letter, a 2-shaped/\"z\"-like sign above or before it possibly an abbreviation or \"et\", then \"di\")\nimage-010 line 6: dic(?)[ / dix(?)[     (\"di\" followed by a stroke rising to the right; torn)\n\nSELECTION AND WHAT REMAINS UNREAD\nAll ten images were viewed (five overviews, five crops). Every scrap was\nattempted in full; nothing was deliberately skipped. No span of connected text\nexists: the largest scraps (B and E) give at most one to two words per line\nover four to six lines. The securely legible strings are \"tione\" (B, right\npart, line 3), \"ad\" (B, left part, line 2), \"no(n)\" and a red-touched \"Qu..\"\n(E, lines 2-3), and \"sup.. eu..\" (E, line 1).\n\nLIMITATIONS\n- Scraps A, C, D carry only isolated letters; readings there are guesses at letter shapes.\n- Only one face of each scrap is shown; I cannot say whether the versos carry text.\n- Whether the five scraps come from one leaf, and their relative order, cannot be determined from the images. Scrap B's hand (rounder, larger) and scrap E's hand (smaller, more cursive) look different to me (tentative).\n- Scrap orientation is as photographed; scraps A, C, D could be rotated.\n- A wider view is not possible (these are the whole scraps); raking-light or verso images of scraps B and E would be the useful additions.\n- I did nothing beyond the rules: opened only PROMPT.md and the ten image files of this packet.\n",
+  "text_sha256": "1b63714232ea3cbf404106ca4e12905a8c10f864a0c45ced0f1146e00b5b9724"
+}
