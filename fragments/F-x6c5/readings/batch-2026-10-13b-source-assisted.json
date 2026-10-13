@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-13T17:29:12.969367+00:00",
+  "first_reading": "batch-2026-10-13b-image-only",
+  "first_sha256": "db3ba98b0991cdefe54d5ffb08a36c9d8fdafc49fad65d74f123b545dc298d32",
+  "fragment": "F-x6c5",
+  "id": "batch-2026-10-13b-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "With Psalm 49 in view the letter groups of the first strip resolved into consecutive words of verses 5-10, keeping holoca- and -ment- from the first reading and replacing its other groups.",
+  "schema_version": 1,
+  "sources": [
+    "Biblia sacra iuxta vulgatam versionem (Stuttgart edition), Psalmi iuxta Septuaginta and iuxta Hebraeos, Ps 49:5-20, as transcribed at vulgate.org/ot/psalms_49.htm (online transcription, no page image)"
+  ],
+  "text": "Source-assisted reading of F-x6c5 (Orselina-Locarno, Biblioteca Madonna del Sasso, MdS 58 Ba 6/F2-6). Made with Psalm 49 in view; every line of both strips was reread on enlargements of the native images by a research reader. Square brackets mark what is lost or unread; round brackets resolve abbreviations; a question mark marks a doubtful reading.\n\nStrip \"ant\": canvas 0 (mds_58Ba06_rinforzi_ant_cont), native box about 4760,2500,5300,3750; the same lines on canvas 1 (mds_58Ba06_rinforzi_ant_phy), box about 224,4252,813,5375, upside down. Psalm 49:5-10.\n\n1  ]icia. [red uncial E]t a[        icia clear; \"t a\" clear\n2  ]dex e(st) [hole; red descender of an initial] ud[     \"dex\", e with stroke and \"ud\" clear\n3  ]t(ibi)? . d[hole]tuus           first group short, abbreviated, uncertain; \"tuus\" as minims and s\n4  ]te [punctus elevatus] holocau[  \"holoca\" certain\n5  ]p(er). [red and blue N]on [     p with bar through the descender; \"on\" clear\n6  ]gib(us) tuis [                  \"gib\" and us-sign clear; \"tuis\" as minims and s, probable\n7  ]menta [                         clear\n8  tops of letters only, unread\n\nStrip \"post\": canvas 3 (mds_58Ba06_rinforzi_post_phy), native box about 4930,2100,5290,3350; the same lines on canvas 2 (mds_58Ba06_rinforzi_post_cont), box about 308,4492,785,5896, upside down. Probably Psalm 49:15-20; the placing is not secure.\n\n1  minims and a letter with a descender (]tu p[ ?), not placed\n2  ]o, minims, a tall letter; red upright with a foot at the cut edge (left side of an initial); letters not resolved\n3  ]e and three minims [..], not resolved\n4  ]ero od[                         e, 2-shaped r, o, d, then tall strokes; probable\n5  ]um [red S]                      minims and a red S\n6  abraded, unread\n7  ]tuu[ ?                          minims, weak\n8  traces, unread\n9  traces, unread\n",
+  "text_sha256": "f574014257e9948f8fefb500118284d2d30395dc8caddb86f6f793e4c1f49a8b"
+}
