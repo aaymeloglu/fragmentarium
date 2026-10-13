@@ -2673,8 +2673,8 @@
   "catalogue_date": "1351 – 1400 CE",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Rules of consequence on the integral whole; one rule ('a toto integrali distributo ad partem distributam') is that of Ockham, Summa logicae III-3 c. 3, but the strip is not a copy of that chapter; work unidentified",
-  "note": "The recto has the rule \"Alia regula est a toto [integrali] distributo ad partem distributam est consequentia bona\", which is Ockham, Summa logicae III-3, c. 3, in shortened wording; the neighbouring lines do not follow Ockham's text. Albert of Saxony, Buridan with Dorp, the pseudo-Ockham Elementarium and Tractatus minor, Burley and Greve were compared and do not have the distributed rule; Marsilius and Strode were not reached. The strip is an Ockham-derived set of rules of consequence whose work is not identified.",
+  "identification": "Rules of consequence on the integral whole; one rule ('a toto integrali distributo ad partem distributam') is closely parallel to Ockham, Summa logicae III-3 c. 3, the only text found with it; dependence not shown; work unidentified",
+  "note": "The recto has the rule \"Alia regula est a toto [integrali] distributo ad partem distributam est consequentia bona\", a close parallel in shortened wording to Ockham, Summa logicae III-3, c. 3; the neighbouring lines do not follow Ockham's text. Albert of Saxony, Buridan with Dorp, the pseudo-Ockham Elementarium and Tractatus minor, Burley and Greve were compared and do not have the distributed rule; Marsilius and Strode were not reached. One shared rule with differing context and untested alternatives is a promising connection, not shown dependence; the work is not identified.",
   "verify": "https://fragmentarium.ms/overview/F-7x8n",
   "examined": "2026-10-12",
   "identified_on": null
@@ -2693,7 +2693,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Avicenna, Canon medicinae (Latin of Gerard of Cremona), III, fen 3, tract. 1, end of ch. 1 (De anatomia oculi) and rubric of ch. 2",
-  "note": "Strip A keeps only the first or last few letters of the bottom 24 lines of two columns; 22 of 24 line ends on one side and all 24 line beginnings on the other, ending in the rubric [com]plexionum eius, stand in the order and spacing of Canon III.3.1.1-2 in the Padua 1479 print. A research reader compared them with the print's page images except lines 13-16 of the later side, which were compared with OCR only; the coordinator read the first eleven line beginnings of canvas 0 on the native image and found them in the same order. Two doubtful readings (similiter for simile, et ut lac-) could not be decided; only one print was compared and the attribution of the translation to Gerard of Cremona is the conventional one, not checked. Strip B carries only a marginal scheme. The catalogue's 'probably a treatise on optics' is corrected to medical anatomy of the eye.",
+  "note": "Strip A keeps only the first or last few letters of the bottom 24 lines of two columns; 22 of 24 line ends on one side and all 24 line beginnings on the other, ending in the rubric [com]plexionum eius, stand in the order and spacing of Canon III.3.1.1-2 in the Padua 1479 print. A research reader compared them with the print's page images; the coordinator read the first eleven line beginnings of canvas 0 on the native image and lines 1-19 of that side on the print's pages. One doubtful reading (similiter for the print's simile) could not be decided; only one print was compared and the attribution of the translation to Gerard of Cremona is the conventional one, not checked. Strip B carries only a marginal scheme. The catalogue's 'probably a treatise on optics' is corrected to medical anatomy of the eye.",
   "verify": "https://iiif.archive.org/iiif/4024853.med.yale.edu$73/full/2000,/0/default.jpg",
   "examined": "2026-10-12",
   "identified_on": "2026-10-12"
