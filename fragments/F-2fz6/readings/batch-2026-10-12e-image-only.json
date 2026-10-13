@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-10-13T00:17:58.311860+00:00",
+  "fragment": "F-2fz6",
+  "id": "batch-2026-10-12e-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "f0dd4c1662bbe7dcea8edd3e51cfabb05e5d76d83ce4f027630cafad4c6c3284",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): whole image 11127x8736 reduced to 1800x1413 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "6c0f778412bfeb430fd02fc9197de9180e9be4223acf41db4878411cbb67a1d6",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 556,436,4294,3208; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "d692365d228ea60a4ed0aadf11b92bfa820db7c3fc62e69378e1ca55a9b556bc",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 3493,436,7632,3208; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "430289830e5dd71cfdbef3c752ec087c5ea057874ffee74ec0a1f63fbd802cae",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 6831,436,10570,3208; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "972942c61ac9f3814e72cfa4a4b89ec4a3585638b58dfb8baaf62894542f76c5",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 556,2614,4294,5683; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "af2f21dcf5ebb53bd32159ed9cef4cfcddd652c7245dcb0092b376d260202886",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 3493,2614,7632,5683; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "29ec430ade16f71c24f5aa617982c492484b57a93dbf046a0246900efc169b28",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 6831,2614,10570,5683; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "6c330aee9496ef068f9242c9468075253b35712eddf9423e8a928b2b1638139c",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 556,5089,4294,7862; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "a3eaf9f7a01095e1690fe31d1dae3f0833b7ce20bcec27cb6d2114aeada8d981",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 3493,5089,7632,7862; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "4f0547dd33d897ec07847993eb3dad604c56d8480935f300cd95d804e40585b4",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001r.jp2/full/11127,/0/default.jpg (canvas 1, inwards (1v-2r)): native-pixel box 6831,5089,10570,7862; unrotated grid position column 3 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "aaa17b93b6ec06ba1c88ee33ba933f3a327fd8326713f2cfa248ca8fc4edb88a",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): whole image 11127x8736 reduced to 1800x1413 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "d60632241044283b5572bfb80dcaa83f4f02d2e51e1d24aca5afcbd44b915093",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 222,436,3877,3208; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "6422f33c0697c3c3ee21d26cb152859e8a30c3a596b966f9e54bff526b972762",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 3094,436,7141,3208; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "68c3ae1fbbafbe30d8a312b1f82bd12fc3ae2aa405dc870084895719dbc3a67a",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 6358,436,10014,3208; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "c9d94b2fed131ebee3ad55a526a8c46c38d714a8672abb82e1e20f54929d4046",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 222,2614,3877,5683; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "310e916a8d2401dc5651c768e427bdd700e3c9bfe799785d063c8bb292b21dd1",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 3094,2614,7141,5683; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "8d9849ed7b0b0fa4c4104db4ef42a4cd7e45739458268c2da9ebc587856eef5f",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 6358,2614,10014,5683; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "8889c661182e5561e864878e640b2dea9afc3c33b59be024d71959631ed80377",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 222,5089,3877,7862; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "a3eb44391e7f1444ec0b04835a7b6968bafdd200e0e722934683a3c1fcf9a56d",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 3094,5089,7141,7862; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "262fe4f485badbfcfc9e0ac49abaaac49db69f0627ff27abebf4364867c29dca",
+        "source": "https://fragmentarium.ms:443/loris/F-2fz6/kbt_frg_205_0001v.jp2/full/11127,/0/default.jpg (canvas 0, outwards (2v-1r)): native-pixel box 6358,5089,10014,7862; unrotated grid position column 3 of 3, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated image-only reader (Claude Code subagent)",
+  "schema_version": 1,
+  "session": "batch-2026-10-12e isolated readers (packet-17)",
+  "text": "PACKET 17 - unverified image reading\n\nEXPOSURE / RULES STATEMENT\nNothing in my context gave a proposed identification or reading for this item. I opened only PROMPT.md and image-001..020 in this packet (plus a file listing of the four packet directories to learn the image names; packet.json was not read). No web or search tool used. I make no identification of work or author.\n\nLAYOUT SURVEY (observation)\n- Two overviews: image-001 (face A) and image-011 (face B) of one small parchment piece, landscape, about 13 x 12.5 cm by the scale, with a vertical fold/gutter near the middle, sewing holes along a second vertical line, and binding slits. It looks like a small bifolium (or a piece folded for binding) seen opened flat: each face shows two leaf-halves.\n- Tiles: image-002..010 belong to face A (002 top left, 003 top centre, 004 top right, 005 mid left, 006 mid centre, 007 mid right, 008 bottom left = blank, 009 bottom centre, 010 bottom right). image-012..020 belong to face B in the same order (012 top left, 013 top centre, 014 top right, 015 mid left, 016 mid centre, 017 mid right, 018 bottom left, 019 bottom centre, 020 bottom right). Tiles overlap; repeated lines are not extra text.\n- Single column on each leaf-half; long lines. Small early-looking minuscule with open a (cc-shaped), tall r/s forms, et-ligature, few abbreviations (observation of letterforms only; no date inferred).\n- Face A, left half: 10 lines then blank lower half. The last line and a half are in a paler ink and looser ductus (possibly a different pen or hand). Enlarged initials P (twice, one with orange fill) and F. No rubric, no running title.\n- Face A, right half: 18 lines, cut off at the right edge (line ends lost). Paler ink. Enlarged S (with a yellow/orange fill) and L, and a large P in the last line. Interlinear corrections above lines 4, 9 and 16; one word in line 9 is overwritten/struck.\n- Face B, right half: 18 lines (the last only a trace at the bottom edge), full line width preserved but the left third is badly abraded, and binding slits interrupt lines 4 and 13-14. One orange rubric (line 6), green-filled initials (C? line 2, S line 6-7, round D or Q line 11, S line 17). Small ink marks in the right margin beside lines 2 and 15.\n- Face B, left half: very pale text, 16 or so lines, cut at the left; partly reads as if it were show-through or offset, and I could read only scattered words. Orange-filled initials (lines 1, 6, 10). Modern pencil marks (looks like \"232\"/\"23Z\" and a \"D\"-like loop) over the middle. A few orange dots above a word in line 11.\n- No glosses in the margins apart from the pen marks noted. Tentative interpretation only: continuous prose, with a headed section beginning on face B right half.\n\nSPANS SELECTED\nFace A left half complete (10 lines); face A right half complete as far as preserved (18 lines); face B right half complete as far as legible (18 lines); face B left half only fragments. Line numbers are counted from the top of the overview image for that face, per leaf-half. Tiles used for the reading are named in each heading.\n\nConventions: (..) = proposed expansion; ? after a word = uncertain reading; [illegible] = unreadable; [-- = line cut off at the edge.\n\n-----------------------------------------------------------------\nFACE A, LEFT HALF  (image-001; read from tiles image-002, 003, 005, 006)\n-----------------------------------------------------------------\nimage-001 L1   parte(m)? pro altera(m) ponamus ut puta si p(rae)\nimage-001 L2   positiones aduerbiis adplicemus  P(er) acceden\nimage-001 L3   tiam fit id e(st). p(er) ea quae accedunt partib(us) orat(ionis)?\nimage-001 L4   ut puta. p(er) qualitates. & genera numerum. figu\nimage-001 L5   ras & casus. P(er) ista igitur om(n)ia fiunt soloecismi\nimage-001 L6   sicut donatus exposuit.  Fiunt praeterea &\nimage-001 L7   plurimis modis. Nam lucilius centum genera\nimage-001 L8   soloecismorum dixit quos om(ne)s uitare potius\nimage-001 L9   quam sequi debemus.  qui regula(m) recte lo\nimage-001 L10  quendi studet tenere\n(rest of the half-leaf blank)\n\nNotes: L1 first word has a suspension stroke above; \"altera\" has a stroke over the final a/m (\"alterā\" or \"alteram\" with a mark). L2 and L5 \"P\" are enlarged initials with crossed descender (= per); the one in L5 has an orange fill. L3 \"orat\" carries a horizontal stroke. L5 \"omia\" with stroke. From \"qui regula\" (L9) to the end the ink is paler and the writing looser.\n\n-----------------------------------------------------------------\nFACE A, RIGHT HALF  (image-001; read from tiles image-004, 007, 010; all lines cut at right)\n-----------------------------------------------------------------\nimage-001 L1   ad morum finem relata [--        (a curl of a further letter survives at the edge)\nimage-001 L2   ligna sibi regem requirun[--\nimage-001 L3   & ad ficum. & ad uitem. &[--\nimage-001 L4   totum. ad mores fingitur. ut[--        (a short interlinear addition in darker ink above \"ad\", perhaps \"uel\"? or a rewritten \"ad\"; smudged)\nimage-001 L5   ficta(m)? quide(m)? narratione(m) se[--        (I see \"ficta quidam narrationem\"; marks of suspension unclear)\nimage-001 L6   ne ueniatur   Sic & demost[--        (enlarged S with coloured fill)\nimage-001 L7   usus? e(st)? & aduersus philippu[--        (first word reads \"uirē\"/\"usus ē\" - uncertain)\nimage-001 L8   [..]ibus postularet. ut sibi dece[--\nimage-001 L9   [one word overwritten/struck, illegible; interlinear letters \"d t\"? above it] & finxit ille fabula[--        (interlinear \"h(an)c\"? above the space between \"ille\" and \"fabula\")\nimage-001 L10  Lupus aliquando pastorib(us) q[--        (enlarged L)\nimage-001 L11  uolu[..]. r[..]p[..]? [illegible word, perhaps beginning \"suas-\" or \"p(er)su-\"]. ut ne[--\nimage-001 L12  Ea tam(en) condicione. ut si? canes [--\nimage-001 L13  giorum. iur[e]? illis traderentur[--        (third word very uncertain: \"in eis\"/\"iure\")\nimage-001 L14  In spe(m)? securitatis dedissent cane[--\nimage-001 L15  l[..]tissimos custodes habeban[--        (first word \"latissimos\"/\"lcatissimos\"; probably the end of a word begun in the lost end of L14)\nimage-001 L16  omni sollicitudine omne quod in[--        (written \"sollici dine\" with \"titu\"/\"citu\" added above the line)\nimage-001 L17  [.]a[..]citate? tantum [illegible][--        (a small \"e\"-like correction above the first word)\nimage-001 L18  lacerauer(unt)?   Philippus [--        (large P; text continues below the cut)\n\n-----------------------------------------------------------------\nFACE B, RIGHT HALF  (image-011; read from tiles image-013, 014, 016, 017, 019, 020)\n-----------------------------------------------------------------\nimage-011 L1   frequ[illegible] [..]leo. [illegible] l[..]uit? . latrocinando\nimage-011 L2   [C? green-filled initial] [.]onsu[illegible] & [illegible] [..]sus? facim(us) ut uirgilius\nimage-011 L3   longe [illegible] ex [illegible]bat? aliud exemplum\nimage-011 L4   ut [..]to[binding slit][..]to[..] [..]nos? hiatus uero & consi?luo?        (last word could also be read \"conlisio\"; letters after \"con\" are minims and an l/s)\nimage-011 L5   nes p(er) u[illegible] [illegible] consonantes fiunt\nimage-011 L6   RUBRIC (orange): De sol[..]cis[illegible]     then large green S:  [S]oloecismus e(st) plurimoru(m)\nimage-011 L7   uerbor(um)? [illegible] [in]?conueniens conpositio.\nimage-011 L8   sicut barb[illegible] unius uerbi corruptio. uerba e(ni)m?        (last sign looks like two tall strokes \"ff\"/\".n.\")\nimage-011 L9   non recte? [illegible] iuncta. soloecismus e(st) ut si quis di\nimage-011 L10  cat in[illegible] [illegible] inter nos. aut date ueniam sce\nimage-011 L11  lerator[illegible] [illegible]leratis?   [round green-filled initial, D or Q] [.]ctus? au(tem) soloecismus\nimage-011 L12  a cili?cib(us)? [illegible] urbe solo? qu(a)e nunc pompeio\nimage-011 L13  polis ap[binding slit; illegible] [illegible] p(ro)fecti? apud alios commo\nimage-011 L14  rantes? [illegible] [li]nguam uitiose? inconseq(ue)n\nimage-011 L15  terq(ue)? [illegible] soloecismo nom(en) deder(unt). unde & si\nimage-011 L16  mili(ter)? l[illegible] [illegible]os f[..]ere? dicuntur.\nimage-011 L17  [S initial, green/brown] Soloec[illegible] [illegible][..]us schema d(icitu)r quotiens\nimage-011 L18  in[illegible]        (only tops/traces at the cut bottom edge)\n\nNotes: \"soloecismus\" is spelled with what looks like \"solocismus\"/\"soloecismus\" (the oe is a small ligature or a single o in places: L6 \"olo'cismus\", L9 \"solocismus\", L11 \"solocismus\"). Pen marks in the right margin beside L2 and L15 (two short horizontal strokes with a small sign) - not text I can read. A few pale letters in the far right margin beside L5-6 (perhaps \"hi\"/\"hu..\") are too faint.\n\n-----------------------------------------------------------------\nFACE B, LEFT HALF  (image-011; tiles image-012, 015, 018) - fragments only\n-----------------------------------------------------------------\nVery pale; the left edge is cut. I read only isolated words and give them with their approximate line:\nimage-011 L1   [illegible] [orange-filled initial near the right] [illegible]\nimage-011 L2-3 [illegible]\nimage-011 L4   [illegible] [..]uisset? & [illegible]\nimage-011 L5   [orange-filled initial] De?lusi? enim? [illegible]\nimage-011 L6   [illegible] [..]ollig[..]?\nimage-011 L7-9 [illegible] (under pencil marks)\nimage-011 L10  [large S-like initial with orange dot] [illegible] [..]p\nimage-011 L11  L? huic e(ni)m? co(m)p[..]        (orange dots above the last word)\nimage-011 L12  [illegible]his p(er)suasi? mot[..]? p(er)\nimage-011 L13  [..]ant.  A? [illegible] mulier uoca\nimage-011 L14  [illegible] a[c]tionis? hircos? a\nimage-011 L15  [illegible]uisse? ab eo co[..]ce[..]? tan\nimage-011 L16  [illegible] au(tem) h[..] se? h[..]\nimage-011 L17  [illegible] postula[..] [illegible]\nThese are low-confidence and should not be used for matching without a better image.\n\nLIMITATIONS\n- Face A right half and face B left half are the two sides of the same cut leaf-half: every line there is incomplete (right ends lost on A, left beginnings lost on B).\n- Face B right half: left third of most lines abraded; binding slits and a fold cross the text.\n- Order of the four leaf-halves (which is recto/verso, and whether the two halves are consecutive) cannot be settled from the images; the face A left half ends with blank space, and the face B right half starts a headed section, so the halves need not read continuously across the fold.\n- Unread: nearly all of face B left half; beginnings of face B right half L1-5, 12-17.\n- Raking light or multispectral images of face B, and a view of any conjoint piece, would help.\n",
+  "text_sha256": "76f8e7b4b4cc40dfcd95e0a1e9027d1e97ea46c49708798320cc33be93ab44b5"
+}

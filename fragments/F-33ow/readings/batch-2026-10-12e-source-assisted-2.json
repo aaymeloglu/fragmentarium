@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-13T01:46:40.447428+00:00",
+  "first_reading": "batch-2026-10-12e-image-only",
+  "first_sha256": "8438068d82aa973b9c5d7af67f5a5c3a338dac139a4b6f8f42620c5afb7cb8cd",
+  "fragment": "F-33ow",
+  "id": "batch-2026-10-12e-source-assisted-2",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with coordinator check, corrected after review",
+  "reason": "Verso line 2 reads 's dne' (quesumus domine), not 's nra' (nostras), as a reviewer pointed out and the coordinator confirmed on the image; the abbreviation of domine is the same as in verso line 11. Nothing else changed.",
+  "schema_version": 1,
+  "sources": [
+    "H. A. Wilson, The Gregorian Sacramentary under Charles the Great (HBS 49, 1915), pp. 113, 116-117, https://archive.org/details/gregoriansacrame00cath",
+    "K. Mohlberg, Das fränkische Sacramentarium Gelasianum in alamannischer Überlieferung (Codex Sangall. 348) (1918), p. 216, nos. 1405, 1408, https://archive.org/details/dasfrnkischesa00cath"
+  ],
+  "text": "Source-assisted reading of F-33ow (Wien, ÖNB, Fragm. 3b). All 36 lines were reread on the native images by a research reader with the editions in hand (Wilson, Gregorian Sacramentary, pp. 113, 116-117; Mohlberg, St Gall 348, p. 216). Changed from the image-only reading: recto 4, recto 15, verso 2, verso 3, verso 15. Each line shows 4-6 letters; both ends of every line are cut away. (?) marks an uncertain letter.\n\nRECTO = canvas 2, onb_fragm_3b_2, 699 x 5344. Line n at about y = 260 + 222(n-1), full width of the strip (x 0-699).\nr1   ]am t[\nr2   ]ation[\nr3   ]is ho[\nr4   ]ntia(?)[        last letter r or t; taken as (pote)ntia(m) t(uam)\nr5   ]pecca[\nr6   ]mur[\nr7   ]salua[\nr8   ]am t[\nr9   ]misist[\nr10  ]enter[\nr11  ]' dn̄e[\nr12  ]filius[\nr13  ]b; inu[         (no)b(is) inu(eniat)\nr14  ]exp[\nr15  ]duen[           first reading \"luer\"; (a)duen(tu)\nr16  ]tib; p[         (ac)tib(us) p(resentemur)\nr17  ]ut m[\nr18  ]mnia[\nr19  ]riter[\nr20  ]discip[\n     blank lower margin; modern stamp\n\nVERSO = canvas 1, onb_fragm_3b_1, 699 x 5344. Line n at about y = 200 + 225(n-1).\nv1   ]ibus[\nv2   ]s dn̄e[          first reading \"s anc\"; (que)s(umus) d(omi)ne, with the same abbreviation of domine as in v11\nv3   ]a · ut[         first reading \"a · un\"\nv4   ]ter pr[         (in)ter pr(ospera); first reading \"terpr\"\nv5   ]. secur[\nv6   ] tui[\nv7   ]de ad[\nv8   ]rnē la[\nv9   ]n mai[\nv10  ]e uite[\nv11  ]dn̄e d[\nv12  ]ueni · [\nv13  ]bsolu[\nv14  ]nos co[\nv15  ]tui · [         first reading \"ritui\"; (desti)tui\nv16  ] cus[\n     blank, about three lines; then faint red capitals, I H or I N (?); modern stamp and pencil shelfmark\n",
+  "text_sha256": "e67afedec68f98fc2b2d264068bc5d36a70cd7dd3c14d2a831e86ad823c4c4b9"
+}

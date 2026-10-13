@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-13T01:03:01.603321+00:00",
+  "first_reading": "batch-2026-10-12e-image-only",
+  "first_sha256": "56fe299be6d0229f8ca0be11e8509640bd7556030fcbae109066f1d034a99c3e",
+  "fragment": "F-18n8",
+  "id": "batch-2026-10-12e-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with coordinator check",
+  "reason": "An unaided reading of line 2 as allegations of Qui satisdare cogantur and De procuratoribus matched nothing; with the printed gloss at hand the same letters read \"-nque. §. quod si servus. et de hiis\", which fits the gloss on illatae sunt line for line.",
+  "schema_version": 1,
+  "sources": [
+    "Digestum vetus seu Pandectarum iuris civilis tomus primus ... commentariis Accursii ... illustratus, Paris: Merlin, Desboys and Nivelle, 1566, cols 659-664 (gloss h to D. 4.9.1.8 at col. 663), Bayerische Staatsbibliothek copy at the Internet Archive, bub_gb_eLlFAAAAcAAJ, scans n439-n441",
+    "Leuven, KU Leuven Bibliotheken Bijzondere Collecties, Ms. 1032 (Fragmentarium F-x60p), strip 2 \"verso\", for the comparison of the gloss hand"
+  ],
+  "text": "Source-assisted reading of F-18n8 (Leuven, KU Leuven, Ms. 1033), strip 1 \"recto\". All six lines were reread on the image by a research reader with the printed Accursian gloss on \"illatae sunt\" (D. 4.9.1.8; Paris 1566, col. 663, gloss h) at hand; an earlier reading of line 2 made without the source (\"qui satisdare ... de procuratoribus\") was wrong and is replaced here. Accuracy has not been measured.\n\nImage: https://lib.is/IE2215286/iiif/2/FL2215296/full/2599,/0/default.jpg (canvas 0, \"fragment 1 recto\"), native box 1050,300,2000,1500, turned 90 degrees clockwise. Lines are cut at both ends. ( ) resolved abbreviation, [ ] lost, (?) uncertain.\n\n1. [...] e(st) (con)t(ra)rium [hole] [..]fu(?)[...\n2. [...]nq(ue). §. q(uod) si s[er]u[us] [hole] . (et) d(e) hi[is ...\n3. [...] v(e)l al(ios) [stain] ... [occ]ul(?). l. i. (et) [...\n4. [under black offset specks; not read] ... R(?)[...\n5. [...] l. seq(ui)t(ur)(?). §(?). t(un)c(?) [...     (firm: \"l. s.q.\")\n6. traces only\n\nNot part of the legal text (liturgical offset, separate layer, not studied): strip 2 \"recto\", canvas 2, https://lib.is/IE2215286/iiif/2/FL2215293/full/3187,/0/default.jpg, about 300,70,3187,920, image flipped top to bottom: \"... [..]lo(?) fui[t](?) / ... d(omi)n(u)m. Benedictus d(omi)n(u)s d[...\" (uncertain).\n",
+  "text_sha256": "ef03691f19638277df41152f23f0c00c12eefaf49b7ad7155984cfb6511b59b0"
+}

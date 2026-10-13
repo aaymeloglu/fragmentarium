@@ -16,10 +16,14 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-122 fragments examined; 35 identifications published.
+142 fragments examined; 39 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-33ow](https://aaymeloglu.github.io/fragmentarium/F-33ow.html) | Gregorian sacramentary, Advent orations: Suscipiamus, Excita ... saluari, the six 'Aliae orationes de adventu' (Excita ... operare, Conscientias, Prope esto, Concede ... ut magnae, Mentes nostras, Preces populi tui), Porrige nobis, Deus qui nos conspicis; kind of book open | 2026-10-12 |
+| [F-qycu](https://aaymeloglu.github.io/fragmentarium/F-qycu.html) | Avicenna, Canon medicinae (Latin of Gerard of Cremona), III, fen 3, tract. 1, end of ch. 1 (De anatomia oculi) and rubric of ch. 2 | 2026-10-12 |
+| [F-1kdv](https://aaymeloglu.github.io/fragmentarium/F-1kdv.html) | Justinian, Codex 7.62.31-32 (De appellationibus), with marginal gloss; second strip probably C. 7.65.8 | 2026-10-12 |
+| [F-18n8](https://aaymeloglu.github.io/fragmentarium/F-18n8.html) | Accursius, Glossa ordinaria on the Digestum vetus, gloss "illatae sunt" to D. 4.9.1.8 (strip 1) | 2026-10-12 |
 | [F-t273](https://aaymeloglu.github.io/fragmentarium/F-t273.html) | Caesarius of Arles, Sermo 144 (ed. Morin), In letaniis, De agenda paenitentia et Ninevitis, complete (inc. Evangelica lectio fratres carissimi dum legeretur); the sermon between the catalogue's Maximus and Gregory texts | 2026-10-12 |
 | [F-a07w](https://aaymeloglu.github.io/fragmentarium/F-a07w.html) | Aegidius de Fuscarariis, Ordo iudiciarius, cc. LXIX (Conclusio causae, second half) - LXX (Forma sententiae diffinitivae, opening); ed. Wahrmund pp. 124-126 | 2026-10-12 |
 | [F-xukl](https://aaymeloglu.github.io/fragmentarium/F-xukl.html) | Psalms 149:1-4 and 149:8-150:3 in Geert Grote's Middle Dutch translation (as in his Getijdenboek, ed. Van Wijk 1940, pp. 46-47), on each of two leaves; probably a book of hours, kind of book and unity of the leaves not established | 2026-10-12 |

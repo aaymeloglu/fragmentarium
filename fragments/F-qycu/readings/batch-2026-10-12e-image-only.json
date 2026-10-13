@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-10-13T00:17:58.318061+00:00",
+  "fragment": "F-qycu",
+  "id": "batch-2026-10-12e-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "68af4ba00975a09a38e12a2cc6fa489136fa39f9feb4416f8b627208dde52cac",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_1_r.jp2/full/2881,/0/default.jpg (canvas 0, fol. [1]r): whole image 2881x3468 reduced to 1495x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "db80fe2533ad475931abc6b50c8ced9b88ab3b8d6150d8a0b9aa909f71e480c9",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_1_r.jp2/full/2881,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 691,416,1152,1464; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "dd3c974f43c6b2ea688f2d4ccbf1c3bc15a01a7a883aec39cccfcb66ed9f768a",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_1_r.jp2/full/2881,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 691,1239,1152,2288; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "bd89dd92bb2ed5a0c946321f5ad3d434f325506d05315f73af25bcdde6925d04",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_1v.jp2/full/2663,/0/default.jpg (canvas 1, fol. [1]v): whole image 2663x3446 reduced to 1391x1800 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "924f8fdb072033d6847a8c1eec19ef290921e86dab64abb95e2028c1fd442527",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_1v.jp2/full/2663,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 532,482,958,1524; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "a6136beb6f7626c61a8790e457ede4c4174ec6e5e4603f2611e4f780d55d7b33",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_1v.jp2/full/2663,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 532,1300,958,2343; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "86bd2004caa9af69d770379351cf46db8c0396a8355ba54ed65adfb94ac3ad02",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_2r.jp2/full/2949,/0/default.jpg (canvas 2, fol. [2]r): whole image 2949x3453 reduced to 1537x1800 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "ee1a5f18c215dca570f054f085fdb8bb05630c92089d3f76e00323f723d5938b",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_2r.jp2/full/2949,/0/default.jpg (canvas 2, fol. [2]r): native-pixel box 294,552,825,1596; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "c1a39e49542109307080d5c5217bc62355974ddc679bba35876aefdcd2a50737",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_2r.jp2/full/2949,/0/default.jpg (canvas 2, fol. [2]r): native-pixel box 294,1372,825,2417; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "5af799adaa2302c3a2a55917fc450481fb8bbf6f80e2a7249dc8e54bf0fa3b86",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_2v.jp2/full/2954,/0/default.jpg (canvas 3, fol. [2]v): whole image 2954x3404 reduced to 1562x1800 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "8fe06ad5b2d88dec24ef5820a273fb8e929b6b2ac68329c1fcff731de5b32888",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_2v.jp2/full/2954,/0/default.jpg (canvas 3, fol. [2]v): native-pixel box 531,612,974,1660; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "12fe2af2d8a66f4b8aa7216e339d2ab26a882d419d44254aa8843416f6c3cec3",
+        "source": "https://fragmentarium.ms:443/loris/F-qycu/fol_2v.jp2/full/2954,/0/default.jpg (canvas 3, fol. [2]v): native-pixel box 531,1435,974,2484; unrotated grid position column 1 of 1, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated image-only reader (Claude Code subagent)",
+  "schema_version": 1,
+  "session": "batch-2026-10-12e isolated readers (packet-20)",
+  "text": "PACKET 20 - unverified image reading\n\nEXPOSURE / RULES STATEMENT\nNothing in my context gave a proposed identification or reading for this item. I opened only PROMPT.md and image-001..012 in this packet (the directory listing gave me the file names; packet.json was not read). No web or search tool used. No identification attempted.\n\nLAYOUT SURVEY (observation)\n- Four overviews of two narrow vertical parchment strips, each labelled with a card in the photograph:\n    image-001 = strip \"A\", first face     (tiles image-002 upper half, image-003 lower half; they overlap at the lines \"incuti.. / De.. / risu.. / est dim.. / a.. uen.. / red line\")\n    image-004 = strip \"A\", second face    (tiles image-005 upper right part, image-006 lower right part; overlap at \"..reda / ..quin / ..laret / ..mitas / ..uenis / ..mentu\")\n    image-007 = strip \"B\", first face     (tiles image-008, image-009 show only the left edge of the strip and the background)\n    image-010 = strip \"B\", second face    (tiles image-011 upper half, image-012 lower half)\n  The tiles are small (about 430-530 px wide); letters are legible only where the ink is dark.\n- Strip A: about 2.8 x 15 cm, with a lengthwise fold and a slit at the top. First face: along the right edge, the BEGINNINGS of 24 lines of a column in a small upright Gothic book hand (2-8 letters each survive), with red-touched capitals/paraphs at four places and one line of red (rubric) as the last line of the column; to the left of the column is blank margin. In the lower margin are notes in a smaller, later-looking cursive hand: short words stacked on the left, a small branching diagram (bracketed words), and two or three long lines running across the strip. Second face: along the left edge, the ENDS of 24 lines of a column in the same book hand, with three red marks; blank margin to the right carrying two short cursive marginal notes; the lower part of this face is blank.\n  Tentative interpretation: a strip cut from the outer/inner edge of a leaf, preserving the edge of one text column on each side plus margin, with later scholia in the margin. Which face is recto cannot be told.\n- Strip B: about 2.8 x 14.5 cm. First face (image-007/008/009) appears blank apart from brown stains along a fold; no writing seen. Second face (image-010/011): in the upper half, 8-10 short lines in a pale cursive documentary-looking hand, widely spaced, several of them ending in what looks like \"xx\"/\"x\" with strokes (possibly numerals), with a few more lines at the left edge lower down; lower half blank and stained. Tentative interpretation: a list or account rather than continuous prose, in a different hand and layout from strip A. Whether A and B come from the same leaf cannot be shown from the images.\n- No running titles seen. No underlining.\n\nSPANS SELECTED\nAll of strip A's column remains on both faces (they are only line beginnings and line ends); the margin notes as far as visible; strip B's traces. Line numbers are counted from the top of the tile named.\n\n-----------------------------------------------------------------\nSTRIP A, FIRST FACE - column, line BEGINNINGS only (image-002 L1-23, continued/overlapped in image-003)\n-----------------------------------------------------------------\nimage-002 L1   [.]y? uira[--        (or \"..uisa..\")\nimage-002 L2   que ss?[--        (two tall letters with a stroke, \"ss'\"/\"ff'\")\nimage-002 L3   uni? cor[--\nimage-002 L4   q(ui)? oppon[--\nimage-002 L5   forti?t[--        (or \"sortit..\"/\"foritu..\")\nimage-002 L6   iacere[--        (first letter could be l: \"lacere..\")\nimage-002 L7   alba c[--\nimage-002 L8   (et)? p(ro)hib[--?        (written \"ꝫ ꝑhib..\"/\"c' philo..\"; very uncertain)\nimage-002 L9   coron[--?        (or \"corpu..\")\nimage-002 L10  nia. [red-touched capital, P?][--\nimage-002 L11  q(uod)? ad q[--\nimage-002 L12  ex ea?[--\nimage-002 L13  [red-touched E] Et cu(m) e[--\nimage-002 L14  simil(ite)r?[--\nimage-002 L15  bona c[--\nimage-002 L16  (et)? ut lau?[--        (or \"t(ame)n ut lac..\")\nimage-002 L17  sic? o(mn)is? y[--        (or \"hic os y..\")\nimage-002 L18  s(ed)? coope[--\nimage-002 L19  incuti?[--        (or \"inculi..\"/\"macul..\")\nimage-002 L20  [red-touched D] Demo[--?        (or \"Deinde\"; = image-003 L2)\nimage-002 L21  risu? ex[--        (= image-003 L3)\nimage-002 L22  est dim[--        (= image-003 L4)\nimage-002 L23  a[..]? uen[--        (= image-003 L5; first word \"ap(u)d\"/\"as\"?)\nimage-003 L6   RUBRIC in red: p[..]lon[..][--        (written \"plonā..\"/\"p(ro)lo(n)ga..\"; only the first 6 or so letters survive)\n\nSTRIP A, FIRST FACE - lower-margin notes, cursive (image-003)\n  Left stack, one short item per line, some joined by pen lines (a branching diagram):\n    image-003 L8   [illegible] [..]ac[..]? dilectio\n    image-003 L9   liceo?\n    image-003 L10  fr[..]o?\n    image-003 L11  humido\n    image-003 L12  [..] aple?\n    image-003 L13  [illegible, two tiny lines]\n    image-003 L14  [..] pleno\n    image-003 L15  [..]e diuine?  -- bracket to three tiny stacked words: [illegible] / p[..]ulis? / [illegible]\n    image-003 L16  [..]ure loc[..]?\n  Long lines across the strip:\n    image-003 L17  [..]d(e)t? p(ri)m[..]? ex p(ar)te quo? y[..] ligno? [illegible]\n    image-003 L18  [..]dit? ex ligno n[..]? p[..]? q[..]? h[..] [illegible]        (with one or two tiny words added above/below at the right)\n    image-003 L19  [illegible] v[..] e[..]s?\n  Then three or four one-word stubs at the left edge: [illegible].\n  All of the margin-note readings are low-confidence.\n\n-----------------------------------------------------------------\nSTRIP A, SECOND FACE - column, line ENDS only (image-005 L1-22, continued/overlapped in image-006)\n-----------------------------------------------------------------\nimage-005 L1   --][red mark] [..]s? iuuen?\nimage-005 L2   --][..]usta?p[..]?\nimage-005 L3   --][..]lec tua\nimage-005 L4   --]s opp(ri)ma?\nimage-005 L5   --]rade [red mark]\nimage-005 L6   --][red mark] a(n)i(m)a?        (or \"ampl..\")\nimage-005 L7   --][..]t saciate?        (or \"laciate\")\nimage-005 L8   --][..]uginem\nimage-005 L9   --](et)? apud\nimage-005 L10  --][..]tionem        (or \"..atonem\")\nimage-005 L11  --]ex ipius?\nimage-005 L12  --][..]mat? tu\nimage-005 L13  --]sp(irit)us? sed        (written \"..pr̄us sed\")\nimage-005 L14  --][..]guit? ic?\nimage-005 L15  --][..]le c? sp(irit)us?\nimage-005 L16  --][..]e in u[..]?\nimage-005 L17  --][..] ip(su)m a\nimage-005 L18  --][s]icut?\nimage-005 L19  --][..]reda [red paraph or line-filler]        (= image-006 L1)\nimage-005 L20  --][..]re? quin        (= image-006 L2)\nimage-005 L21  --][..]laret        (= image-006 L3)\nimage-005 L22  --][..]mitas?        (= image-006 L4; or \"..initas\")\nimage-006 L5   --][..]uenis\nimage-006 L6   --][..]mentu(m)\n(below this the face is blank)\n\nSTRIP A, SECOND FACE - marginal notes, cursive (image-005)\n  beside L6:   [..]ter? in[--        (crossing the slit; cut at the edge)\n  beside L11:  [paraph-like sign] de[..]i[..]? ara[--?        (very pale)\n\n-----------------------------------------------------------------\nSTRIP B\n-----------------------------------------------------------------\nFirst face (image-007, 008, 009): no writing visible; the two tiles show only the left margin of the strip. A few minute marks near the right fold at about 11 cm down in image-007 may be ink but are unreadable.\nSecond face (image-010, tile image-011): pale cursive, each item on its own line:\n    image-011 L1   [..] uict[..]?\n    image-011 L2   [..]p[..]uenit? [illegible]\n    image-011 L3   [illegible] xx?\n    image-011 L4   [illegible] xx[..]?\n    image-011 L5   [..] xx? [illegible]\n    image-011 L6   [..]iura? xx?            and at the right edge: n? sit?\n    image-011 L7   D[..]? (left edge)   [..]aria? xx?\n    image-011 L8   D[..]ua? (left edge)\n    image-011 L9   [three or four tiny lines at the left edge and one longer line, illegible]\n  image-012: blank, stained.\n  The repeated \"xx\"-like endings are an observation of shape only; I cannot confirm that they are numerals.\n\nUNREAD / LIMITATIONS\n- No complete line survives anywhere: strip A gives only the first 2-8 letters of 24 lines on one face and the last 2-8 letters of 24 lines on the other, so nothing here is connected prose, and I have not filled any gap. The two faces are the same physical lines' opposite sides, not continuous text.\n- Resolution is low for the cursive notes; the margin diagram and long notes on strip A and all of strip B are barely legible.\n- Tiles for strip B's first face miss the right half of the strip; a tile covering the right fold there would settle whether it is truly blank.\n- A higher-resolution capture of strip A's lower margin (image-003 area) and of strip B second face, upper half, is the most useful next step. The wider leaf does not exist in these images, so column width and layout beyond \"one column edge plus margin\" are unknown.\n",
+  "text_sha256": "cb6a960834e06fcb89c3d4de46198b3f5e0a3132a8121381ed489d517050ab58"
+}

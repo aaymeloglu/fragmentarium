@@ -1,0 +1,157 @@
+{
+  "captured_at": "2026-10-13T00:17:58.287564+00:00",
+  "fragment": "F-pnkr",
+  "id": "batch-2026-10-12e-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "2b3cf4a6277828c99efd24db919a4774a369053f453fe7c48ddc75be6612cd30",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0057_Neerl_35.jp2/full/3926,/0/default.jpg (canvas 0, fol. [2]v-[1]r): whole image 3926x3748 reduced to 1800x1718 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "166abcae3747347344e1d7ca48c98cc97c31b5878297d9d68313c04a140130dc",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0057_Neerl_35.jp2/full/3926,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 157,449,1446,1792; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "7396f22d34ceae269e96040ef785a92e63878fc9337cddeddff6a3776fe79961",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0057_Neerl_35.jp2/full/3926,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 1170,449,2597,1792; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "25bec34f993a8c325e9bfc5ea283f256b2b56ed5a17648482ee0bdcfffc475ea",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0057_Neerl_35.jp2/full/3926,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 2321,449,3611,1792; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "85d7cb54a52dea272f3a7755422507f06e098d9e8cf84bf85c96e25792252598",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0057_Neerl_35.jp2/full/3926,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 157,1504,1446,2848; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "edf31668594bf3eda026272169918969679eb05133c4748d2a33b89b6c2b336c",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0057_Neerl_35.jp2/full/3926,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 1170,1504,2597,2848; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "073a151ae4cf74411e9d234200912730cd0f2cc375974fd81e8be5c66837c330",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0057_Neerl_35.jp2/full/3926,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 2321,1504,3611,2848; unrotated grid position column 3 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "008163ff37d549e9dc184ea21edbb44c84608d694edc735444b63098cb21813f",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0058_Neerl_35.jp2/full/4105,/0/default.jpg (canvas 1, fol. [1]v-[2]r): whole image 4105x3695 reduced to 1800x1620 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "0dd7f825467ca5b2343042a49c13c3c6f396f1afcf739bf1d160a9ddbda7e560",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0058_Neerl_35.jp2/full/4105,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 164,369,1543,1651; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "4819bd3c1929c9a92a937db7322857fd4413d6d56f6e4cb2b5650a67a87adf42",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0058_Neerl_35.jp2/full/4105,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 1247,369,2774,1651; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "6af5ae8a755fb83fb36b6c99361254b08a1361cf26f462ad72a16359602e2842",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0058_Neerl_35.jp2/full/4105,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 2478,369,3858,1651; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "7b74129203a829657e0ab8342ebc3cfa54a535555ea8c23de3426e9e4d118cae",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0058_Neerl_35.jp2/full/4105,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 164,1377,1543,2660; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "fce066264549f200d5e27d5a0891d71d50f98f07f53171201092b292fa461c73",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0058_Neerl_35.jp2/full/4105,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 1247,1377,2774,2660; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "63a67ad791d52f883bf76d432cb03d13cedd87860634ba920e580e60d37246d9",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0058_Neerl_35.jp2/full/4105,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 2478,1377,3858,2660; unrotated grid position column 3 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "3b550c3121c2c6416e40b8217cd35e2266225c6d4e335a16e3f415a64cdd42e1",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0059_Neerl_35.jp2/full/3954,/0/default.jpg (canvas 2, fol. [4]v-[3]r): whole image 3954x3376 reduced to 1800x1537 for layout"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "1b5aec2d9aebbdf5d227c402d0794a38016d7f34a7665a6068baf7eeb669c6b5",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0059_Neerl_35.jp2/full/3954,/0/default.jpg (canvas 2, fol. [4]v-[3]r): native-pixel box 79,337,1407,1622; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "380116df67d7d43a5156dc68252b91914065b81d08b4d4e92c95042650330ff2",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0059_Neerl_35.jp2/full/3954,/0/default.jpg (canvas 2, fol. [4]v-[3]r): native-pixel box 1122,337,2593,1622; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "7daf24a111015c4718431442a3c7f8bc0564dfede0646e92ff25761639b318ea",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0059_Neerl_35.jp2/full/3954,/0/default.jpg (canvas 2, fol. [4]v-[3]r): native-pixel box 2308,337,3637,1622; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "4920b68b86724f1b2e6d8d6fa04e7df2f3b7a1181ff7400a27cf781e373d8e53",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0059_Neerl_35.jp2/full/3954,/0/default.jpg (canvas 2, fol. [4]v-[3]r): native-pixel box 79,1347,1407,2633; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "aaaf4a713587d0a4e10e25f638c162aac96c6967c5a4d862596957e43aa8c7c9",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0059_Neerl_35.jp2/full/3954,/0/default.jpg (canvas 2, fol. [4]v-[3]r): native-pixel box 1122,1347,2593,2633; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "20708afd531db728a6cb3257ab0a9019a1a4bde820d40312a1b2a4b22dba6827",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0059_Neerl_35.jp2/full/3954,/0/default.jpg (canvas 2, fol. [4]v-[3]r): native-pixel box 2308,1347,3637,2633; unrotated grid position column 3 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "659824ff4a2843dc3f34b2a8b049f0e19811765484b1496824600e1a36e2e17e",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0060_Neerl_35.jp2/full/4160,/0/default.jpg (canvas 3, fol. [3]v-[4]r): whole image 4160x3605 reduced to 1800x1560 for layout"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "5cd4fb9bc2345e68bf1767dd67fb234c12e2493ac5a4b80fcea30f5a39e5cf63",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0060_Neerl_35.jp2/full/4160,/0/default.jpg (canvas 3, fol. [3]v-[4]r): native-pixel box 166,360,1563,1692; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "887bd7735ddf8abaf9f141e7332c6902597a43e884373ac70bc25db7ebbf6c6d",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0060_Neerl_35.jp2/full/4160,/0/default.jpg (canvas 3, fol. [3]v-[4]r): native-pixel box 1264,360,2811,1692; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "5260a0e54071c6d36aae4dabc9ffbadce969745e0ef065a15e044e21832cc5d1",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0060_Neerl_35.jp2/full/4160,/0/default.jpg (canvas 3, fol. [3]v-[4]r): native-pixel box 2512,360,3910,1692; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "3e98933338bbca05da665ad35a8be6c97d4bacf88638cbc45135ba7fbe749829",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0060_Neerl_35.jp2/full/4160,/0/default.jpg (canvas 3, fol. [3]v-[4]r): native-pixel box 166,1406,1563,2739; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "def40e57ac1eff70d64f3790ca4e79b3e45c524b9c884ef562c30b3f5b209f71",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0060_Neerl_35.jp2/full/4160,/0/default.jpg (canvas 3, fol. [3]v-[4]r): native-pixel box 1264,1406,2811,2739; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "75b3fb07cd1b0b19179d339cafe399d70e7fd6d4de1c0aa355779afbe2da491f",
+        "source": "https://fragmentarium.ms:443/loris/F-pnkr/ua_rb_20220310a_0060_Neerl_35.jp2/full/4160,/0/default.jpg (canvas 3, fol. [3]v-[4]r): native-pixel box 2512,1406,3910,2739; unrotated grid position column 3 of 3, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated image-only reader (Claude Code subagent)",
+  "schema_version": 1,
+  "session": "batch-2026-10-12e isolated readers (packet-14)",
+  "text": "PACKET 14 - UNVERIFIED IMAGE READING\n\nExposure statement: nothing in my context revealed a proposed identification or an\nearlier reading of this item. I opened only PROMPT.md and image-001..028 of this\npacket. I did not read packet.json (a directory listing I ran showed its filename\nand size only). No web, search, or other files.\n\nHEADLINE: I viewed all 28 images tile by tile. On all four faces the text ink is\nabraded or washed to a pale yellow-brown ghost under grey mould spotting, and I\ncould not obtain a single connected line of text. What follows is a layout survey\nand a list of the isolated features and letter-shapes that are actually visible.\nI have not filled anything from sense. This packet cannot support a source match\nfrom these images; multispectral or UV imaging would be needed.\n\n1. IMAGES AND FACES (observation)\n\n- image-001 overview; tiles image-002..007 (3 across top: 002 left, 003 centre,\n  004 right; 3 across bottom: 005 left, 006 centre, 007 right).\n- image-008 overview; tiles image-009..014 (same 3 x 2 arrangement).\n- image-015 overview; tiles image-016..021 (same arrangement).\n- image-022 overview; tiles image-023..028 (same arrangement).\n- Each overview shows a wide sheet about 25-27 cm across and about 16-17 cm high by\n  the ruler, with a vertical centre fold bearing a row of small slits or stitch\n  holes. I take each sheet to be a bifolium opened flat, or one large leaf folded\n  (interpretation). The upper edge is folded over as a narrow turn-in with small\n  holes along it, which looks like reuse as a cover or wrapper (interpretation).\n- image-001 and image-008 appear to be the two sides of one sheet: the tear and\n  hole at lower left of 001 reappear mirrored at lower right of 008, and the round\n  hole with dark mould ring at right of 001 reappears at left of 008.\n- image-015 and image-022 appear to be the two sides of a second sheet: the slit\n  at lower left of 015 reappears mirrored at lower right of 022.\n- Whether the two sheets are from the same manuscript cannot be decided from the\n  images; the script ghosts look broadly similar (small cursive), but that is weak.\n\n2. LAYOUT SURVEY\n\nSheet 1 (image-001 / image-008)\n- Orientation: the red initials are upside down as photographed, so the text on\n  both sides of this sheet is inverted relative to the image (observation from the\n  initials; the script ghosts in image-009..011 agree, with descender-like strokes\n  pointing up).\n- Red initials, two-line height, plain red with no pen-flourishing visible:\n  image-001 side: three clear (tile 002 upper right, at about mid-height, with a\n  small red stroke beside it; tile 002 lower centre; tile 003 centre right of the\n  fold) and two faint or showing through (tile 003 lower left / tile 006 upper\n  left; tile 004 right edge, a faint red ring). Turned upright, the shapes are\n  consistent with capital D or P in most cases and with a wider letter (U/V/A-like)\n  for the one beside the fold in tile 003; I do not regard any of these letter\n  identifications as secure.\n  image-008 side: three clear (tile 009 left edge; tile 010 lower centre right of\n  the fold, repeated in tile 013 top; tile 011 centre) plus a faint pink ghost at\n  the fold in tile 010 which is probably show-through.\n- Small red paragraph or capital strokes: tile 009 (top left, and two at the right\n  edge), tile 010 left edge, tile 007 centre, tile 003 beside the fold.\n- Columns: in tiles 009-011 the ghost lines break into blocks of roughly 3.5-4 cm\n  width, which suggests two columns on each half of the sheet (tentative\n  interpretation; the abrasion makes column edges unreliable).\n- A darker strip of dense, small writing runs down the outer vertical edge (left\n  edge in tiles 002/005; right edge in tiles 011/014). It reads as the beginning\n  or end of lines of a text column trimmed at the edge, or as an offset from\n  another leaf. I cannot read it.\n- Marginal notes: tile 012, left margin, three or four short lines in a darker,\n  possibly later ink (see section 3). Tile 005, lower left corner, two short words\n  in pale ink.\n- No running title or rubric heading visible.\n\nSheet 2 (image-015 / image-022)\n- Orientation: script ghosts appear upright as photographed (long ascenders up,\n  descenders down) on the image-015 side. On the image-022 side the one red\n  initial (tile 023 bottom left, repeated in tile 026 top left) has an angular\n  form that I cannot resolve; it may be upside down or sideways, so orientation\n  of that side is uncertain.\n- Columns: on the image-015 side, the left half shows at least two blocks of\n  ghost lines (tile 016: one hard against the left edge, in darker ink, one from\n  about the middle of the tile to the fold) and the right half two blocks (tiles\n  017 right and 018). Tentatively two columns per half; about 35-40 lines per\n  column can be counted as ghosts in tiles 016-018 and 021, with line spacing of\n  roughly 3.5-4 mm.\n- Red: one small red vertical stroke in tile 020 right / tile 021 left (the same\n  mark in the overlap). No other red on the image-015 side. One red two-line\n  initial on the image-022 side, as above.\n- Marginal: tile 026, a line of small, faint, later-looking cursive written\n  vertically up the left margin beside the red initial; illegible to me.\n- No running title or rubric heading visible.\n\nScript (all faces): a small cursive bookhand with long s and f descending below\nthe line and looped ascenders, heavily abbreviated. Language not determined from\nwhat I can read.\n\n3. WHAT CAN ACTUALLY BE READ\n\nI selected every tile and looked for the darkest patches. No span of connected\ntext could be transcribed. The following are isolated word-shapes only; each is\nuncertain, and line numbers are approximate counts of ghost lines from the top of\nthe tile.\n\nSheet 1, image-008 side (text inverted; readings made mentally rotated, so line\nnumbers here count from the BOTTOM of the tile, i.e. from the top of the text):\n  image-012, left margin (as photographed, upright small notes in darker ink):\n    about one third down: \"th\"(?) or \"sth\"(?) [short abbreviation]\n    next line: \"Juda\"(?)[illegible] or \"Inde\"(?)[illegible]\n    next line: \"fra\"(?)[illegible]\n    lower: \"Circa\"(?) or \"Arca\"(?) [illegible]\n    These notes appear upright in the image, i.e. opposite to the main text\n    orientation, which suggests they were added after reuse (interpretation).\n  image-012 lower right / image-013 lower left (overlap, same mark): a short dark\n    word, as photographed \"[illegible]daut\"(?) or \"[illegible]dans\"(?).\n  image-011, right edge strip: line-ends in darker ink, shapes like \"bon\"(?),\n    \"lony\"(?), \"to\"(?); not readable as words.\n  image-009 and image-010: ghost lines only; individual long s / f shafts and\n    minim groups visible; [illegible] throughout.\n  image-014: [illegible] throughout (surface dark, cockled and torn).\n\nSheet 1, image-001 side:\n  image-002..007: [illegible] throughout apart from the red initials. Tile 003\n    upper left has two ghost lines slightly clearer than the rest, still\n    [illegible]. Tile 005 lower-left corner: two short pale words, perhaps\n    \"[illegible]m\"(?) over \"Annis\"(?) or \"Aniid\"(?); not secure.\n\nSheet 2, image-015 side:\n  image-016, left-edge block (darker ink, line beginnings only, about 20 lines):\n    isolated shapes such as \"ad\"(?), \"in\"(?), \"de\"(?), \"qui\"(?), \"mi\"(?) at line\n    starts; nothing continuous. Lower left (overlap with image-019 top left): three\n    slightly darker lines, shapes like \"facies\"(?) [or \"sacris\"(?)], \"mult\"(?)...,\n    \"regis\"(?)... ; not secure.\n  image-016 centre and right, image-017, image-018, image-020, image-021: ghost\n    lines; [illegible]. In image-021 upper centre one line shows a run of minims\n    and letters like \"m o(?)n e(?) c u m\"(?) followed by further words; I cannot\n    turn it into a reading.\n  image-019: [illegible] (mould).\n\nSheet 2, image-022 side:\n  image-025, right side, about line 6 from the top of the writing: three or four\n    words in noticeably darker ink at the right edge, shapes like\n    \"[illegible] Dar(?) [or \"Our\"(?)] d(?)om(?)[illegible]\"; not secure.\n  image-024 upper right / image-025 upper left (overlap): first ghost line of the\n    right half begins with a larger letter and a long run of small letters;\n    [illegible].\n  image-023, image-026, image-027, image-028: [illegible].\n  image-026 left margin: vertical later note, [illegible].\n\n4. AREAS UNREAD\n\nEffectively the whole text of all four faces. I did not skip any tile; the\n[illegible] marks above reflect the condition of the surface in these images\n(ink loss, mould, cockling, show-through), compounded by the fact that the text\nof sheet 1 is inverted in the photographs.\n\n5. LIMITATIONS AND REQUESTS\n\n- No line of main text was read; the few shapes listed are not usable as\n  evidence for any identification and should not be treated as readings.\n- Initial letter identities, column counts, and the pairing of faces are\n  inferences from damage patterns and ghosts, not secure observations.\n- Useful next captures: UV fluorescence or multispectral images of all four\n  faces; sheet 1 re-photographed rotated 180 degrees; a close raking-light shot\n  of the outer edge strips (tiles 002/005 and 011/014) and of the marginal notes\n  in tiles 012 and 026, which have the darkest ink and the best chance of\n  yielding words.\n- This is an unverified image reading.\n",
+  "text_sha256": "0aec2f16cd76af3f947c80d3f6abb0454a28673b24a56fd7d9c3576500632b0e"
+}
