@@ -16,9 +16,16 @@ no author, work or passage.
   through nine successive lemmata (the words of the decretal that each comment starts
   from). Two alternatives were considered. The ordinary gloss on the Decretals has the same
   cross-reference to the chapter *Pastoralis* but none of the surrounding wording.
-  Text-recognition snippets of two editions of Johannes Andreae's Novella, which reuses
-  Hostiensis, differ at points the fragment preserves. Those differences favor Hostiensis;
-  exclusion of the Novella remains provisional until its page images are checked. One difference is
+  Johannes Andreae's Novella, which reuses Hostiensis, was read on the page image of the
+  Venice 1581 edition (vol. 3, leaves 146v-147r) and is not the text here. Where the
+  fragment has "[eccle]siasticam. ergo morta[le] / [ec]clesiis subaudi. et / hic nichil iu[ngit] /
+  ...tantum que ex lege / in fi. sed et subau[diri]", the Novella has "[Per cen. ec.] ergo
+  mortale peccatum est ... [Quibus] quod non aliis ... [De iure] dicit Inn. quod de consuetudine
+  non dixit: quia de praedialibus loquitur", with no comment on *Ecclesiis* and none of the
+  sentence "hic nihil iungit". On *Nisi cum ipsis* it has "vel nisi super his noviter acquisitis
+  habeant novum speciale privilegium, quod saepe impetrant, ut dicit Hostiensis", where the
+  fragment has Hostiensis's own "renouetur per s[peciale] / hiidem faciunt". The Novella's
+  comment on *Componendum* was not read. One difference is
   probable: between lines 6 and 7 of the first face the print has about twice as much text
   as between other lines, so the manuscript may have lacked about one line's worth there.
 - **Transcription:** the
@@ -31,7 +38,8 @@ no author, work or passage.
 - **Verification:** a research reader compared both faces of the fragment, on the published
   images, with the page image of the Strasbourg 1512 edition, and with text-recognition
   snippets of the Venice 1581 edition. The Novella was compared in text-recognition
-  snippets of two printed editions only, not on a page image. No manuscript of the Lectura
+  snippets of two printed editions and, by the coordinator, on the page image of the Venice
+  1581 edition at the two places described above. No manuscript of the Lectura
   was compared. The first line of the second face is cut through and is not placed.
   The coordinator read "-ciem littere est idem / renouetur per s- / hiidem faciunt / et non transactio / multiplic-" on fol. [1]r and "-siasticam. ergo morta- / subaudi. et / hic nichil iu- / -bus tantum que ex lege / in fi. sed et subau-" on fol. [1]v, on enlargements of the manuscript images, and read the first of these passages (the comments on the words "Nisi cum ipsis" and "Componendum") on the page image of the Strasbourg 1512 edition, fol. 114r, column b.
   No human review.
@@ -94,8 +102,9 @@ Segusio cardinalis Hostiensis In tertium Decretalium librum commentaria*), whose
 agrees for both passages in text-recognition snippets. The canonist Prospero Fagnani, on
 the same chapter, quotes the sentence "nisi antiquum renouetur per speciale privilegium de
 novo impetratum, sicut iidem faciunt tota die" as Hostiensis's and says that Johannes
-Andreae follows him. In the Novella of Johannes Andreae on these chapters (two printed
-editions, text-recognition snippets) the comment on "De iure" reads "dicit Inno. de
+Andreae follows him. In the Novella of Johannes Andreae on these chapters (Venice 1581,
+vol. 3, leaves 146v-147r, [page image](https://www.digitale-sammlungen.de/en/view/bsb10489396?page=292);
+also text-recognition snippets of two editions) the comment on "De iure" reads "dicit Inno. de
 consuetudine non dixit: quia de praedialibus loquitur", and "Quibus" follows directly on
 "mortale peccatum est, ut not. supra cap. proxi."; the fragment has Hostiensis's wording
 at both places.
