@@ -16,8 +16,9 @@ no author, work or passage.
   through nine successive lemmata (the words of the decretal that each comment starts
   from). Two alternatives were considered. The ordinary gloss on the Decretals has the same
   cross-reference to the chapter *Pastoralis* but none of the surrounding wording.
-  Johannes Andreae's Novella, which reuses Hostiensis, abridges and rewords these comments
-  at the points the fragment preserves, so it is not the text here. One difference is
+  Text-recognition snippets of two editions of Johannes Andreae's Novella, which reuses
+  Hostiensis, differ at points the fragment preserves. Those differences favor Hostiensis;
+  exclusion of the Novella remains provisional until its page images are checked. One difference is
   probable: between lines 6 and 7 of the first face the print has about twice as much text
   as between other lines, so the manuscript may have lacked about one line's worth there.
 - **Transcription:** the

@@ -1,6 +1,6 @@
 # F-lodh: Liturgical psalter, Psalm 68:15-22 (with probable Psalms 59, 61-62 and 67)
 
-Two small strips from a liturgical psalter, a book of the psalms laid out for the daily office. One face carries Psalm 68:15-22 (Vulgate numbering) in the Gallican version, the Latin psalter used in the medieval liturgy, with a two-line red initial at verse 17, "Exaudi me Domine quoniam benigna est". That is the verse at which the Benedictine office divides the psalm for Wednesday Matins. The other three faces are darker; they probably carry Psalm 67:20-24, the opening of Psalm 59 under a rubric for Wednesday, and Psalm 61:11 onward.
+Two small strips from a liturgical psalter, a book of the psalms laid out for the daily office. One face carries Psalm 68:15-22 (Vulgate numbering) in the Gallican version, the Latin psalter used in the medieval liturgy, with a two-line red initial at verse 17, "Exaudi me Domine quoniam benigna est". That division agrees with the Benedictine office for Wednesday Matins and suggests monastic use, which remains provisional. The other three faces are darker; they probably carry Psalm 67:20-24, the opening of Psalm 59 under a rubric for Wednesday, and Psalm 61:11 onward.
 
 The [Fragmentarium record](https://fragmentarium.ms/overview/F-lodh) describes Leipzig, Universitätsbibliothek, Fragm. lat. 367a: two parchment pieces of about 92 x 40 mm, used as endband cores in the volume Kirchg. 1112, Germany (?), dated to the second half or last third of the fourteenth century, titled "Unidentified (probably Breviarium)". Its description reports only single words and the rubric "fer. iiii" as legible. A psalter is often part of a breviary, so the title may well be right; the record names no text.
 
@@ -12,22 +12,22 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-lodh) describes L
 
 Manuscript image: [367a-1: 1v](https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0036/0000003640/00000002.jpx/full/3011,/0/default.jpg) (canvas 1, 3011 x 5760 pixels). The passages are in the native-pixel boxes [700,300,2500,1800](https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0036/0000003640/00000002.jpx/700,300,1800,1500/full/0/default.jpg) for lines 1-5 and [700,2300,2500,4600](https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0036/0000003640/00000002.jpx/700,2300,1800,2300/full/0/default.jpg) for lines 8-15. Only the beginning of each line survives; the rest is cut away or under the sewing thread. Abbreviations are resolved in parentheses; square brackets mark what is lost or unread; a question mark marks a doubtful reading.
 
-| 367a-1: 1v, line beginnings | Psalm 68, Gallican text |
+| 367a-1: 1v, line beginnings | Psalm 68, Weber Gallican text (Latin Library transcription) |
 |---|---|
-| 2: me de l[hole] ut n(on) inf[...] | (15) Eripe me de luto ut non infigar; libera me ab his qui |
+| 2: me de l[hole] ut n(on) inf[...] | (15) Eripe me de luto ut non infigar; liberer ab his qui |
 | 3: oderu(n)t me (et) de [...] | oderunt me et de profundis aquarum. (16) Non me demer- |
 | 4: g(a)t te(m)pestas [...] | -gat tempestas aquae neque absorbeat me profun- |
 | 5: du(m) neq(ue) urgeat [...] | -dum neque urgeat super me puteus os suum. |
 | 6: [red E, two lines high] xau[...] | (17) Exaudi me Domine quoniam benigna est misericordia tua |
-| 8: respice i(n) [...] | secundum multitudinem miserationum tuarum respice in me. (18) Et ne avertas faciem tuam a puero |
+| 8: respice i(n) [...] | secundum multitudinem miserationum tuarum respice me. (18) Et ne avertas faciem tuam a puero |
 | 9: tuo . q(uonia)m tribul[...] | tuo quoniam tribulor, velociter exaudi me. |
-| 11: scis? i(m)p(ro)p(er)i[...] | (20) Tu scis improperium meum et confusionem meam et reverentiam |
+| 11: scis? i(m)p(ro)p(er)i[...] | (20) Tu scis inproperium meum et confusionem et reverentiam |
 | 12: [...] mea(m) . [red I] (n) c[...] | meam. (21) In conspectu tuo sunt omnes qui tribulant |
-| 13: me . Imp(ro)p(er)iu(m) [...] | me. Improperium exspectavit cor meum et miseriam. Et |
+| 13: me . Imp(ro)p(er)iu(m) [...] | me. Inproperium expectavit cor meum et miseriam. Et |
 | 14: sustinui q(ui) si[...] | sustinui qui simul contristaretur et non fuit, et qui consola- |
 | 15: [.]ur (et) no(n) i(n)ueni : [red initial] | -retur et non inveni. (22) Et dederunt |
 
-The line breaks in the right-hand column are inferred from the surviving line beginnings; each line then holds about 40 letters of unabbreviated text. No difference of wording from the Gallican text was found in what survives. Line 8 reads "respice in", the form of the Clementine Vulgate and of liturgical psalters, where the Stuttgart text has "respice me". The beginning of line 11 is doubtful, and the word before "meam" in line 12 was not read. The E of verse 17 is two lines high and stands in the margin; the I of "In conspectu" is one line high and stands inside the line, as do red marks where other verses begin, so the E marks a division and is not an ordinary verse initial.
+The right-hand column follows the cited Latin Library transcription of Weber, with capitalization, punctuation and line breaks supplied for comparison. The line breaks are inferred from the surviving line beginnings; each line then holds about 40 letters of unabbreviated text. The words supplied across lost portions are comparison text, not manuscript readings; in particular, neither "liberer" in verse 15 nor the wording after "confusionem" in verse 20 can be checked on the fragment. Line 8 reads "respice in", the form of the Clementine Vulgate and of liturgical psalters, where the Stuttgart text has "respice me". The beginning of line 11 is doubtful, and the word before "meam" in line 12 was not read. The E of verse 17 is two lines high and stands in the margin; the I of "In conspectu" is one line high and stands inside the line, as do red marks where other verses begin, so the E marks a division and is not an ordinary verse initial.
 
 The psalm text was compared in the transcription of the Stuttgart Vulgate (R. Weber, *Biblia sacra iuxta vulgatam versionem*, Psalmi iuxta Septuaginta) at [The Latin Library](https://www.thelatinlibrary.com/bible/psalms.shtml). The division of Psalm 68 into verses 2-16 and 17-37 for the second nocturn of monastic Wednesday Matins, and Psalm 59 as the first psalm of that office, are taken from the psalm table of the [Divinum Officium project](https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/Latin/Psalterium/Psalmi/Psalmi%20matutinum.txt) (section Daym3_), which follows the Benedictine breviary. This is a modern table; no medieval monastic psalter was compared.
 
@@ -41,4 +41,4 @@ The other faces are [367a-1: 1r](https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.
 
 One observation supports these placings beyond the readings themselves. On each strip the two faces are the two sides of the same piece, so their texts must be one column apart. From Psalm 67:20 to 68:15 is 2,200 letters, and from the title of Psalm 59 to 61:11 is 2,119 letters; at the 40.5 letters a line measured on 367a-1: 1v these are 54 and 52 lines. Both strips thus imply the same column of about 54 lines, in a book of two columns where each strip keeps part of the outer column of a recto and of its verso. The two strips come from different places in the book, so from two leaves or from two columns of a bifolium; which was not worked out.
 
-Not claimed: the date and origin, which are the catalogue's; whether the book was a separate psalter or the psalter of a breviary; the house or order beyond the indication of monastic use, which rests on one division initial and one probable rubric; any relation to other fragments from the same host volume.
+Not claimed: the date and origin, which are the catalogue's; whether the book was a separate psalter or the psalter of a breviary; the house or order, with monastic use remaining provisional on the evidence of one division initial and one probable rubric; any relation to other fragments from the same host volume.
