@@ -15,6 +15,9 @@ per millimetre first (those without a catalogue size last), and flagged:
     DESC   the record page links a full description: read it (`tools/catalogue.py`) before
            treating the record as unidentified
     ERR    the manifest or an image size could not be fetched
+    SIB    a ledger record of the same library shares a shelfmark with this one (a reconstruction
+           record lists the shelfmarks of its parts); the last column names it and its status.
+           Look at that record before choosing: the two may be one leaf, or one already examined
 
 The pixel figures describe the photograph, not the fragment: a strip on a large background, or a
 fragment still inside a binding, has far fewer pixels across its text than the image has. The
@@ -48,6 +51,25 @@ def candidates(sweep=SWEEP, ledger=LEDGER):
         return {row["fragmentarium_id"]: row for row in csv.DictReader(handle) if row["fragmentarium_id"] not in done}
 
 
+def siblings(shelfmark, ledger):
+    """Ledger rows of the same library that share a shelfmark with a sweep row, as "F-id (status)".
+
+    The sweep gives "library, shelfmark"; the ledger keeps the two apart. A reconstruction record's
+    shelfmark is the list of its parts' shelfmarks, so a row is a sibling when the two shelfmarks
+    are the same or one is a whole item of the other's list. Shelfmarks that merely begin alike
+    ("Album II, nr. 3" and "Album II, nr. 8") are not siblings.
+    """
+    out = []
+    for row in ledger:
+        library, theirs = row.get("institution"), row.get("shelfmark")
+        if not (library and theirs and (shelfmark or "").startswith(library + ", ")):
+            continue
+        ours = shelfmark[len(library) + 2:]
+        if f", {ours}, " in f", {theirs}, " or f", {theirs}, " in f", {ours}, ":
+            out.append(f"{row['id']} ({row.get('status', '?')})")
+    return out
+
+
 def millimetres(text):
     """The largest two numbers in a catalogue dimension string, long side first; None if there are not two."""
     numbers = sorted((float(n.replace(",", ".")) for n in re.findall(r"\d+(?:[.,]\d+)?", text or "")), reverse=True)
@@ -60,7 +82,7 @@ def density(sizes, mm):
     return round(longest / mm[0], 1) if longest and mm and mm[0] else None
 
 
-def flags(sizes, has_description, error, small=1200):
+def flags(sizes, has_description, error, small=1200, sibling=False):
     out = []
     if error:
         out.append("ERR")
@@ -68,6 +90,8 @@ def flags(sizes, has_description, error, small=1200):
         out.append("SMALL")
     if has_description:
         out.append("DESC")
+    if sibling:
+        out.append("SIB")
     return out
 
 
@@ -151,6 +175,7 @@ def main():
     args = parser.parse_args()
     args.cache.mkdir(parents=True, exist_ok=True)
     rows = candidates()
+    ledger = json.loads(LEDGER.read_text(encoding="utf-8"))
     ids = args.ids or list(rows)
     records = []
     for fid in ids:
@@ -159,15 +184,16 @@ def main():
         rec["mm"] = rec["mm"] or row.get("dimensions_mm", "")
         rec["title"] = rec["title"] or row.get("title", "")
         rec["density"] = density(rec["sizes"], millimetres(rec["mm"]))
-        rec["flags"] = flags(rec["sizes"], rec["description"], rec["error"], args.small)
+        rec["siblings"] = siblings(row.get("shelfmark", ""), ledger)
+        rec["flags"] = flags(rec["sizes"], rec["description"], rec["error"], args.small, bool(rec["siblings"]))
         records.append(rec)
         print(fid, " ".join(rec["flags"]), file=sys.stderr, flush=True)
     records.sort(key=lambda r: (r["density"] is None, -(r["density"] or 0)))
-    print("id\tflags\tmm\timages\tpixels\tpx/mm at most\ttitle")
+    print("id\tflags\tmm\timages\tpixels\tpx/mm at most\ttitle\tledger siblings")
     for rec in records:
         pixels = " ".join(f"{w}x{h}" for w, h in rec["sizes"]) or (rec["error"] or "")
         print("\t".join([rec["id"], ",".join(rec["flags"]), rec["mm"], str(rec["images"]), pixels,
-                         str(rec["density"] or ""), rec["title"][:70]]))
+                         str(rec["density"] or ""), rec["title"][:70], " ".join(rec["siblings"])]))
     if args.sheets:
         sheets(records, args.cache, args.sheets)
 

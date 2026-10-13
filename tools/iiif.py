@@ -169,7 +169,11 @@ def main(argv):
     fid, cmd = argv[0], argv[1]
     opts = {k.lstrip("-"): v for k, v in zip(argv[2:], argv[3:]) if k.startswith("--")}
     args = [a for a in argv[2:] if not a.startswith("--") and a not in opts.values()]
-    cs = canvases(fid)
+    run(fid, canvases(fid), cmd, argv, opts, args)
+
+
+def run(fid, cs, cmd, argv, opts, args):
+    """Carry out one command on a list of canvases; `fid` names the output files."""
     if cmd == "info":
         for i, c in enumerate(cs):
             print(i, c["label"], c["w"], "x", c["h"], c["base"][:100])

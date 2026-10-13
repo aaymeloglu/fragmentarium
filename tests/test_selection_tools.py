@@ -101,3 +101,17 @@ def test_candidates_are_sweep_rows_without_a_ledger_row(tmp_path):
     ledger = tmp_path / 'ledger.json'
     ledger.write_text(json.dumps([{'id': 'F-aaaa'}]), encoding='utf-8')
     assert list(survey.candidates(sweep, ledger)) == ['F-bbbb']
+
+
+def test_a_record_sharing_a_shelfmark_with_a_ledger_record_is_a_sibling():
+    ledger = [
+        {'id': 'F-join', 'institution': 'Orselina, Biblioteca', 'shelfmark': 'MdS 58 Ca 18/F2, MdS 58 Ca 19/F1-2', 'status': 'partial'},
+        {'id': 'F-near', 'institution': 'Orselina, Biblioteca', 'shelfmark': 'MdS 58 Ca 19', 'status': 'unidentified'},
+        {'id': 'F-else', 'institution': 'Leuven, KU Leuven', 'shelfmark': 'MdS 58 Ca 18/F2', 'status': 'identified'},
+        {'id': 'F-bare', 'institution': None, 'shelfmark': None},
+    ]
+    assert survey.siblings('Orselina, Biblioteca, MdS 58 Ca 18/F2', ledger) == ['F-join (partial)']
+    assert survey.siblings('Orselina, Biblioteca, MdS 58 Ca 20', ledger) == []
+    assert survey.siblings('Orselina, Biblioteca, MdS 58 Ca 1, nr. 4', ledger + [{'id': 'F-alb', 'institution': 'Orselina, Biblioteca', 'shelfmark': 'MdS 58 Ca 1, nr. 9'}]) == []
+    assert survey.siblings('', ledger) == []
+    assert survey.flags([(4384, 5777)], False, None, sibling=True) == ['SIB']

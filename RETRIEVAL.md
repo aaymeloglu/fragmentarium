@@ -15,6 +15,7 @@ is a lead: read the page before relying on it.
 | Referenzkorpus Mittelhochdeutsch | Download the corpus (v2.1 is at zenodo.org/record/13982324) and search its normalised text locally; there is no phrase search to call. Handschriftencensus (handschriftencensus.de) lists German manuscripts and fragments by work. | Middle High German to about 1350; whether a German fragment is already recorded. |
 | Sermon repertory | `tools/schneyer.py '"theme words"' '"word word word"~8'` searches Schneyer (1150-1350) volume by volume. | Sermon incipits. An incipit is a lead; compare the sermon body. |
 | Manuscript catalogues | `tools/hspsearch.py '"incipit words"'` for German collections, with links to digitised copies; manuscripta.at for Austria; Biblissima and ARCA for France. | Unprinted works: find a digitised manuscript and collate. |
+| BnF manuscripts | `tools/bnf.py 'Latin 15972' info`, then `overview`, `tiles` or `crop` with `--canvas N`. gallica.bnf.fr refuses scripts; this uses BnF's API host. | Reading a named Paris manuscript for comparison. No text search of Gallica's printed books. |
 | Incunable copies | `tools/gw.py <GW number>` lists libraries holding a digitised copy. | Reading the page behind a snippet. |
 | Subject sources | Corpus Thomisticum, Gloss-e, Friedberg's canon law, Analecta Hymnica, Cantus, and the like, directly. | Their own fields. |
 
