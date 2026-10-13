@@ -106,8 +106,9 @@ tools/contactsheet.py          labelled thumbnails of every image in a record, f
 tools/record.py                write results to the ledger; install an identification's report and assisted reading
 tools/register.py              add unresearched fragments to the ledger from their cached manifests
 tools/mdzsearch.py             full-text search of the Munich digital library's OCR (early printed books), no key
-tools/survey.py                records not yet attempted: native image sizes, linked descriptions, contact sheets for choosing a batch
+tools/survey.py                records not yet attempted: native image sizes, linked descriptions, ledger siblings, contact sheets for choosing a batch
 tools/catalogue.py             what the catalogue already says: summary fields and the full description linked from the record page
+tools/bnf.py                   pages of a BnF manuscript by shelfmark, for comparison (Gallica itself refuses scripts)
 tools/mnlsearch.py             phrase search of the Corpus Middelnederlands (Middle Dutch), no key
 tests/                         data/folder/site consistency; CI fails if docs/ is stale
 ```

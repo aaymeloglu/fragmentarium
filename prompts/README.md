@@ -15,7 +15,9 @@ the image cache and the tile mapping away from readers.
 One batch, in order:
 
 1. Choose records: `tools/survey.py` lists the records not yet attempted with
-   their native image sizes and makes contact sheets. Read each record's
+   their native image sizes and makes contact sheets. A record it flags SIB
+   shares a shelfmark with a ledger record: look at that record first, since
+   the two may be one leaf or one already examined. Read each record's
    catalogue description, including a linked full description
    (`tools/catalogue.py`), before choosing it and before choosing what to
    image (METHOD.md). Confirm which object in the image is the fragment.

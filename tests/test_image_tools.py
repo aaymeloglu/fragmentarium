@@ -1,5 +1,6 @@
 """Local crop geometry, GW reproduction-link parsing and Google Books search-inside parsing."""
 import importlib.util
+import json
 from pathlib import Path
 
 import pytest
@@ -174,3 +175,36 @@ def test_contact_sheet_layout_covers_every_canvas_once():
     assert [len(s) for s in sheets] == [8, 8, 3]
     assert [i for s in sheets for i, _, _ in s] == list(range(19))
     assert sheets[0][5] == (5, 1, 1) and sheets[2][0] == (16, 0, 0)
+
+
+BNF_RESULTS = '''<a href="recalculFacets.html?val=https://gallica.bnf.fr/ark:/12148/btv1b9068482p&amp;filtre=Dao" target="_parent">Latin 15972&nbsp;(1)</a>
+<a href="recalculFacets.html?val=https://gallica.bnf.fr/ark:/12148/btv1b8479002m&amp;filtre=Dao" target="_parent">Latin 1597&nbsp;(1)</a>
+<a title="Consulter ce r&eacute;sultat" href="./ark:/12148/cc764712" target="_blank">Latin 15972 . Sermons.</a>'''
+BNF_MANIFEST = {'label': {'fr': ['BnF. Département des Manuscrits. Latin 15972']}, 'items': [
+    {'label': {'fr': ['1r']}, 'width': 6850, 'height': 4650, 'items': [{'items': [{'body': {
+        'id': 'https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b9068482p/f1/full/max/0/default.webp',
+        'service': [{'id': 'https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b9068482p/f1'}]}}]}]}]}
+
+
+def test_bnf_shelfmark_is_matched_whole_and_the_manifest_label_checked():
+    bnf = load("bnf")
+    assert bnf.identifiers('latin 15972', BNF_RESULTS) == ['btv1b9068482p']
+    assert bnf.identifiers('Latin 159', BNF_RESULTS) == []
+    asked = []
+
+    def fetch(url):
+        asked.append(url)
+        return json.dumps(BNF_MANIFEST).encode() if 'manifest' in url else BNF_RESULTS.encode()
+    assert bnf.resolve('Latin 15972', fetch)[0] == 'btv1b9068482p'
+    assert not any(url.startswith('https://gallica.bnf.fr') for url in asked)
+    with pytest.raises(SystemExit):
+        bnf.resolve('Latin 1597', fetch)  # in the catalogue, but the manifest served names another shelfmark
+    with pytest.raises(SystemExit):
+        bnf.resolve('Latin 4', fetch)
+
+
+def test_bnf_canvases_take_the_api_image_service_and_allow_no_upscaling():
+    bnf = load("bnf")
+    assert bnf.canvases_of(BNF_MANIFEST) == [{
+        'label': '1r', 'base': 'https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b9068482p/f1',
+        'ext': 'default.jpg', 'w': 6850, 'h': 4650, 'max_scale': 1.0, 'note': None}]
