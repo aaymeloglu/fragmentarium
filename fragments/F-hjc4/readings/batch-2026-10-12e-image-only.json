@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-13T00:17:58.313877+00:00",
+  "fragment": "F-hjc4",
+  "id": "batch-2026-10-12e-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "a6ea32ba7d5de07a8b426bd47c49f2e0b47dbc7b29faa4dc55e4ee19e63faae5",
+        "source": "https://fragmentarium.ms:443/loris/F-hjc4/EHC_20220623b_0143_fragm_181_new.jp2/full/2437,/0/default.jpg (canvas 0, fol. [1]r): whole image 2437x2913 reduced to 1506x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "1a04e023249d5f81c077ec3808a8196f200668c6f49447b97b7f811a2b1d31d2",
+        "source": "https://fragmentarium.ms:443/loris/F-hjc4/EHC_20220623b_0143_fragm_181_new.jp2/full/2437,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 146,145,974,830; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "486086362418037ee7695759143e96628b414ccce2006b05aad471290eff9a5c",
+        "source": "https://fragmentarium.ms:443/loris/F-hjc4/EHC_20220623b_0143_fragm_181_new.jp2/full/2437,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 146,683,974,1441; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "afa6cf108fe38018315fd57bd2f792d9f855dbdf271fced82a369c5d9cca5a31",
+        "source": "https://fragmentarium.ms:443/loris/F-hjc4/EHC_20220623b_0143_fragm_181_new.jp2/full/2437,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 146,1294,974,1980; unrotated grid position column 1 of 1, row 3 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "3268abab09ad511b1cd406f934c4ea7755820c71a2a22d4f04e31691fb653f52",
+        "source": "https://fragmentarium.ms:443/loris/F-hjc4/EHC_20220623b_0144_fragm_181_new.jp2/full/2446,/0/default.jpg (canvas 1, fol. [1]v): whole image 2446x2846 reduced to 1547x1800 for layout"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "543a41a31739804e09e34114ee3e8e25c0b85cec54a48a0f2a9c1043b785af37",
+        "source": "https://fragmentarium.ms:443/loris/F-hjc4/EHC_20220623b_0144_fragm_181_new.jp2/full/2446,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 73,142,929,811; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "b0d8fb71d3c8e6ea9306f59d95f9c3bcbed8b9a59832941c3d2b44568a083b29",
+        "source": "https://fragmentarium.ms:443/loris/F-hjc4/EHC_20220623b_0144_fragm_181_new.jp2/full/2446,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 73,667,929,1409; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "78cb13dcc325c0e068c5ecf625de50ecf1c1d74f8334359b4c6a3c2c1eab50a9",
+        "source": "https://fragmentarium.ms:443/loris/F-hjc4/EHC_20220623b_0144_fragm_181_new.jp2/full/2446,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 73,1265,929,1935; unrotated grid position column 1 of 1, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated image-only reader (Claude Code subagent)",
+  "schema_version": 1,
+  "session": "batch-2026-10-12e isolated readers (packet-18)",
+  "text": "PACKET 18 - unverified image reading (very little recoverable)\n\nEXPOSURE / RULES STATEMENT\nNothing in my context gave a proposed identification or reading for this item. I opened only PROMPT.md and image-001..008 in this packet (the directory listing gave me the file names; packet.json was not read). No web or search tool used. No identification attempted.\n\nLAYOUT SURVEY (observation)\n- Two overviews: image-001 (face A) and image-005 (face B). Tiles image-002/003/004 are top/middle/bottom of face A; image-006/007/008 are top/middle/bottom of face B. The tiles are only about 830-860 px wide and are not sharper than the overviews in any way that helps; letterforms are a few pixels high.\n- One upright parchment strip, about 6 cm wide and 13-15 cm high by the ruler, cut vertically from a leaf, lower edge torn obliquely, two small tears and one small hole with a dark ring in the middle.\n- Face A: writing is visible in three vertical zones: (i) a column of line-beginnings/ends along the left edge (about 35-40 lines, small Gothic book hand, dark brown ink, with at least two paraph-like signs at line starts around a third of the way down); (ii) a paler, abraded middle zone with traces of lines of the same module; (iii) beyond a dark vertical line (ruling or fold stain) near the right edge, the first letters of another column or the end of the lines. Tentative interpretation: a strip from a two-column page preserving the inner part of one column, an intercolumn/fold, and the edge of the next; the pale middle zone may be abraded text of the same column rather than a different text. This cannot be settled from these images.\n- Face B: the hair side (follicle dots all over), darker yellow. Text is visible mainly along the right third: about 40 short line-ends of a small Gothic hand; the left two-thirds are almost blank to the eye (abraded or margin). Dark stain at the bottom.\n- No rubric, running title, coloured initial, underlining or gloss could be made out. Enlarged initials: none certain; a slightly larger letter at the start of one line near the bottom right of face A (image-004, above the torn edge).\n\nSPANS SELECTED / READING\nI examined every tile line by line. At this resolution I cannot read a single connected line with confidence. What follows are isolated letter-groups that I think I see; each is a guess and none should be used for matching.\n\nFace A (line numbers counted from the top of the tile named)\nimage-002 L3   [illegible] v? ar? [illegible]\nimage-002 L4   [..]y. b? qui? [illegible]\nimage-002 L5   [..]ater? [illegible]\nimage-002 L6   [..]es. [paraph-like sign] [illegible]\nimage-002 L12  [paraph-like sign] ¶? et? p? ace[..]? v? [..]ist? minus? [illegible]\nimage-002 L13  [illegible] [..]cut? se[..]? [illegible]\nimage-003 L4   [..]ab[..]den[..]? [illegible]\nimage-003 L5   [..]qui[..]? [illegible]\nimage-004 L5-9 [illegible] ... -clam-? ... [illegible]; last full line before the tear ends with a word beginning with a larger letter, [T?]o[..]?\nAll other lines: [illegible].\n\nFace B\nimage-006 L2-4  [illegible] ... -onis? ... e? p[..]c? [illegible]\nimage-006 L5-12 [illegible]\nimage-007, image-008: [illegible] throughout; only the presence of line-ends at the right can be confirmed.\n\nUNREAD\nEffectively the whole fragment. Language: the general look (abbreviation strokes, paraph signs, small compressed Gothic hand) is compatible with Latin, but I could not confirm even that from a securely read word.\n\nLIMITATIONS AND REQUEST\n- The supplied images are too low in resolution for this script size (a line of text is about 12-15 px high); the limit here is the images, not only the leaf, though face A's middle zone and most of face B are also genuinely abraded.\n- A native-resolution capture (at least 4x the present pixel density) of the left edge of face A and the right edge of face B, ideally with raking or UV light, is needed before any transcription can be attempted.\n- Column order and which face is recto cannot be determined.\n",
+  "text_sha256": "a2be9f25d7c478d17f36af7ca1a121bf4f08d3f317666d1cba2502c56e1a380a"
+}

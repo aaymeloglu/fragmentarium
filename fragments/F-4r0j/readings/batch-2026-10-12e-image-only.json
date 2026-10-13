@@ -1,0 +1,92 @@
+{
+  "captured_at": "2026-10-13T00:17:58.263376+00:00",
+  "fragment": "F-4r0j",
+  "id": "batch-2026-10-12e-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "3184361051c7842a5b0e6cb3fc8ffa05462c2bab1356b60b81946235fd1fbbb4",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_indorsatura_phy.jp2/full/6897,/0/default.jpg (canvas 1, mds_45Da06_indorsatura_phy): whole image 6897x5084 reduced to 1800x1327 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "80639188ac4f3d728453b229ea991f90576043874b618b18475ebe750bfffa5b",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_indorsatura_phy.jp2/full/6897,/0/default.jpg (canvas 1, mds_45Da06_indorsatura_phy): native-pixel box 2413,1525,5172,3090; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "597944df15deb81760e074bc14e3c1ff33c14aedefdae29e82dc62da5e8b4248",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_indorsatura_phy.jp2/full/6897,/0/default.jpg (canvas 1, mds_45Da06_indorsatura_phy): native-pixel box 2413,2755,5172,4321; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "88e597bc21f28add31e6d66376ff6d2c95f56d146bd1c6250e0f87919565a8b3",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2a.jp2/full/4590,/0/default.jpg (canvas 2, mds_45Da06_rinforzo2a): whole image 4590x4644 reduced to 1779x1800 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "52981b44f9aaa8693f5f1eea130523283c51db39c7484203ec571065ca175343",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2a.jp2/full/4590,/0/default.jpg (canvas 2, mds_45Da06_rinforzo2a): native-pixel box 918,835,2845,2759; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "3e0d19400d40d6713b03bda29faea257624cbe7c23d4dd76560290a214d420a6",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2a.jp2/full/4590,/0/default.jpg (canvas 2, mds_45Da06_rinforzo2a): native-pixel box 918,2347,2845,4272; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "90b0615b4bec61c738993c235f948d469e2e33ef01b684c689a667161322ec48",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2d.jp2/full/715,/0/default.jpg (canvas 5, mds_45Da06_rinforzo2d): whole image 715x816 reduced to 715x816 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "463a160d8f79a9b079f66c29f4c93c32b93ec784a9f4e040a979487822deac3b",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2d.jp2/full/715,/0/default.jpg (canvas 5, mds_45Da06_rinforzo2d): native-pixel box 0,81,715,410; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "e38afc5f98e1a5a15ea1f388e6a15940148163adabc5a080f4532f78a816917f",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2d.jp2/full/715,/0/default.jpg (canvas 5, mds_45Da06_rinforzo2d): native-pixel box 0,339,715,669; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "faa5e82efc2324652c7c8582bca6403189307da13e408ca10ed57ad3e32a0e35",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2e.jp2/full/1149,/0/default.jpg (canvas 6, mds_45Da06_rinforzo2e): whole image 1149x645 reduced to 1149x645 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "8d82c69d7f6964314a2019793a58ea79082138422c1078724bd7662622e6c7e1",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2e.jp2/full/1149,/0/default.jpg (canvas 6, mds_45Da06_rinforzo2e): native-pixel box 57,64,919,503; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "73ca0391c11648f9de44f77d068c74a3f39e2fd379ef06dd175ffb68a3b77692",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/oms_mds_45Da06_rinforzo1_cont.jp2/full/4686,/0/default.jpg (canvas 7, oms_mds_45Da06_rinforzo1_cont): whole image 4686x4093 reduced to 1800x1572 for layout"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "ca964f31e07d9410737c519dcf1ca2af6e9ab452634b801dc27c0be7cce3e6d8",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/oms_mds_45Da06_rinforzo1_cont.jp2/full/4686,/0/default.jpg (canvas 7, oms_mds_45Da06_rinforzo1_cont): native-pixel box 702,1023,3045,2660; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "217566ae1695db4eb103d0a4a81e8e140951aec88b92b019bb2f0915ef3e248c",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2c.jp2/full/596,/0/default.jpg (canvas 4, mds_45Da06_rinforzo2c): whole image 596x811 reduced to 596x811 for layout"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "4c814d0fef6739c9663f772c821b03b605543938457d55781be33f6cf4b466a1",
+        "source": "https://fragmentarium.ms:443/loris/F-4r0j/mds_45Da06_rinforzo2c.jp2/full/596,/0/default.jpg (canvas 4, mds_45Da06_rinforzo2c): native-pixel box 0,243,596,527; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated image-only reader (Claude Code subagent)",
+  "schema_version": 1,
+  "session": "batch-2026-10-12e isolated readers (packet-07)",
+  "text": "PACKET-07 - UNVERIFIED IMAGE READING\n\nEXPOSURE / RULES STATEMENT\nNothing in my context revealed a proposed identification or an earlier reading of this item. I opened only PROMPT.md and image-001..015 in this directory (directory listed for filenames; packet.json not opened). No web or search tools. I do not name a work or author.\n\nLAYOUT SURVEY (observation)\nThese are photographs of manuscript waste still in place inside a binding (limp/soft parchment cover, text block with sewing on thick supports wrapped in thread; a purple ink stamp and pencil/ink numbers on a leaf of the host book, not read). Two different pieces of waste are visible:\n\nPIECE 1 - a parchment strip used as spine lining under the sewing supports.\n  image-001: view with the book lying flat; strip seen sideways, its text running vertically (rotated 90 degrees; to read, turn the image clockwise).\n  image-002, image-003: close tiles of image-001 (upper and lower part of the strip), same rotation.\n  image-012: the same strip seen from the head of the book, text now horizontal and upright.\n  image-013: close tile of image-012 - the best image of Piece 1.\n  Observations: one block of text about 12-14 lines visible, in a rounded, fairly upright gothic bookhand of medium size, brown ink, many abbreviations; lines cut at the left (under sewing thread and the fold) and running into the fold at the right; a blank strip (margin or intercolumn) to the right of the text. Sewing threads cross the upper lines. No rubrics, coloured initials or running title visible. One word-group \"Ex(?)m\" at a line end has a superscript letter. Whether this is one column of two cannot be seen.\n\nPIECE 2 - a second parchment leaf/strip deeper inside the spine, seen through the hollow between cover and text block.\n  image-004: oblique overview from the tail/side; image-005, image-006: close tiles (upper, lower), strongly foreshortened and partly out of focus.\n  image-007: different, low-resolution view straight into the hollow; image-008, image-009: tiles of it (upper, lower).\n  image-010, image-011: another low-resolution view of the same lines.\n  image-014, image-015: close view of a two-line note in a cursive hand standing in the margin to the left of the Piece 2 text block.\n  Observations: at least 20 lines of a small, neat, rounded gothic bookhand (smaller and more compressed than Piece 1; different hand), dark brown ink. Numerals \"2°\", \"3°\" inside the text mark an enumeration. Left margin wide; in it a two-line note in a later-looking, larger cursive in lighter ink (image-014/015) - an addition, not part of the main text. Lower lines pass under a sewing support and are blurred. No rubrics seen. The page is curved and seen at an angle, so line ends are lost in the fold at the right.\n  Tentative interpretation: Piece 1 and Piece 2 are from different manuscripts (different script and module); both prose, both heavily abbreviated learned Latin.\n\nAREAS SELECTED / UNREAD\nSelected: Piece 1 in full from image-013 (checked against image-002/003, which show the same lines sideways); Piece 2 lines 1-8 from image-008 with image-005 and image-010/011 as controls; the cursive note from image-015. Unread: Piece 2 from about line 9 onward (blur, foreshortening; only isolated words from image-005/006), and whatever lies under the sewing supports. A straight-on focused shot of Piece 2 would be needed.\n\nTRANSCRIPTION\n( ) = my expansion; (?) = uncertain; [..] = lost or unread.\n\n--- PIECE 1 (image-013; = image-012 at lower magnification; = image-002/003 rotated) ---\nLine beginnings are hidden at the left by threads and the fold.\nimage-013 l.1   [..] [only feet of letters under the endband: ...g(?)..q(?)...]\nimage-013 l.2   [..] hereditatio(?)/[ex]hered(?)atio em[..]     (letters \"hed..tatio em-\"; a thread crosses the middle)\nimage-013 l.3   [..]t(?) traditum(?)/tradimu(?). Et ap[..]\nimage-013 l.4   [..] sup(er) q(uam)(?)/q(ui)(?) h(e)r(e)d(i)t(a)ria(?) fo[..](?)\nimage-013 l.5   [..]ne(?) hereditat(?)io(n)e(?) ita q(uod)(?)\nimage-013 l.6   ut valeat ali(te)r(?) no(n) vale-\nimage-013 l.7   [..]niu(?). Et i(de)o hic d(icitu)r q(uod) si he-\nimage-013 l.8   [..]t(?) admoniet(ur)(?)/[..]moueat(ur)(?) no(n) solu(m) he-\nimage-013 l.9   [..]t(ur)(?) s(ed) a p(at)re(?)/p(re)s(?) destruit(ur). Ex(?)m     (\"Ex\" with superscript m: Ex(emplu)m? Ex(tra) m...? undecided)\nimage-013 l.10  In(?) ve[..]ib(us)(?) q(ui)/q(ue) ad p(re)dicatores(?)\nimage-013 l.11  [..]b(us) ve(n)ditis(?) (et) datis(?)/dando(?) paup-\nimage-013 l.12  [..]riu(?) s(er)vire(?). t(ame)n (con)ti(n)gat(?) illas(?)\nimage-013 l.13  [..] a iud(ice)(?) so[..]re(?) (con)g(re)gat(?)[..] [..]tes(?)\nimage-013 l.14  [..] ea [..]                         [only tops, cut by the sewing support]\nCross-check with the sideways view: image-003 shows the same lines 5-13 rotated (\"valeat ali(te)r\", \"Et i(de)o hic d(icitu)r\", \"no(n) solu(m)\", \"destruit(ur)\", \"ad p(re)dica[..]\", \"paup\" are recognisable there); image-002 shows the upper end of the strip and the blank area above line 1. No additional text.\nMost secure: l.6 \"ut valeat ali(te)r no(n) vale-\", l.7 \"Et i(de)o hic d(icitu)r q(uod) si he-\", l.8 \"no(n) solu(m)\", l.9 \"destruit(ur)\", l.11 \"paup-\". The repeated \"he-/hered...\" word could be a form of hereditas/heres or a compound of it; I cannot settle the exact form.\n\n--- PIECE 2, main text (image-008 = upper part of image-007; controls image-005, image-010, image-011) ---\nimage-008 l.1   Tercio(?)/Tertio(?), [..] [..] sequet(ur)(?)/seq(ui)t(ur)(?)\nimage-008 l.2   p(ri)mo(?) [..] [..] prior(?)/p(ri)us(?) or[..] [..]\nimage-008 l.3   amore. 2°. a sc(ri)ptura(?)/ascpt[..]a(?). 3°(?). a re(?)/arg[..](?)\nimage-008 l.4   dico q(uod) q(ue)stio(?) sugg(er)it(?)/sug(er)at(?) ana[..](?)/ama[..](?) [..]\nimage-008 l.5   volum(us) h(ic)(?)/lxx(?) (con)siderare videm(us)(?)/vide(n)d[..](?)\nimage-008 l.6   d(e)(?)/q(uod)(?) adcorp(or)ale(?)/ad corp(or)ale(?) pinguior(?)/pinguedo(?) [..]\nimage-008 l.7   lessos(?)/[..]sos(?) magna tene(n)t(?)/tene(re)(?) p(er)(?) sin[..](?)/sig[..](?)\nimage-008 l.8   [..] nomi(n)a(?)/no(m)i(n)e(?) sensu(m)(?)/sensus(?). Ill(ud)(?)/Ill(e)(?) a[..]\nimage-009 l.3-l.10 (continuation, blurred):  [..] d(omi)ne(?) [..] / [..] leges(?) mores(?) [..] / [..] sp(irit)uales(?) [..] / remaining lines illegible in this view.\nFrom the oblique tiles (same lines, not new text): image-005 shows \"amore. 2°. a sc[..]\", \"dico q(uod) q(ue)stio sug[..]\", \"volum(us) [..] (con)sid[..]\", \"ad corp(or)ale pingu[..]\", \"[..] magna tene[..]\"; image-006 shows the lower lines, of which I can only offer word-shapes: \"[..] leges(?) mores(?)\", \"in spe(?) [..]\", \"q(uod)(?) hui(us)mo(d)i(?)\", \"Andreas(?)/Audeas(?) q(uod)(?)\", \"mod(us)(?)/mo(d)o(?) [..]\", \"[..] nobiles(?)/notabiles(?)\", \"[..] pugna(?)\", \"tecta(?)/recta(?). [..] om(n)ib(us)(?)\", \"ducta(?)/dicta(?) [..] om(n)ib(us)(?)\", \"[..] pugna(?) in [..]\". These are too blurred to rely on.\nMost secure in Piece 2: the enumeration \"amore. 2°. ... 3°.\", \"dico q(uod) q(ue)stio\", \"(con)siderare\", \"magna tene-\".\n\n--- PIECE 2, marginal note in cursive (image-015 = upper part of image-014; also visible in image-005) ---\nimage-015 l.1   H[..]gessione(?) / A(nn)o(?) [..]gessim(?)o(?)      (large initial like H or A with a long descender; then about ten letters, \"..g/x..ssio/ssim..\"; I cannot decide between these)\nimage-015 l.2   Hanns(?)/Pfarr(?)[..] Vong[..]ttu(?)/von g[..]ttn(?)      (two words; first begins with a tall looped letter, second with a clear dark \"V\" or \"K\")\nThis note is a later addition in the margin; its language (Latin or German) is not certain. At the right edge of image-015 the beginnings of main-text lines 5-7 of Piece 2 are visible (\"vo..\", \"d(e)\", \"lessos(?)\").\n\nLIMITATIONS\n- Unverified. Piece 1 is sharp but partly covered by sewing threads and missing its line beginnings; Piece 2 is photographed down a cavity, out of focus below line 8 and foreshortened, so my gaps there come from the photographs, not from the parchment.\n- Column structure, original leaf size, recto/verso and whether more text continues under the supports are unknown.\n- I have not supplied words from sense. Alternative readings are given with a slash where two letter-shapes are equally possible.\n- Suggested follow-up: for Piece 2 a focused, perpendicular image (borescope or after lifting the cover) and of the reverse of both strips; for Piece 1 a shot with the threads eased aside to show lines 1-4 and the line beginnings.\n",
+  "text_sha256": "a32a8a450b84ca9ccc8e22e475651c854eda0fd06c9427c5c64d34b5131b04b3"
+}

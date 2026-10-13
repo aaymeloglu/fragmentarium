@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-10-13T00:17:58.267864+00:00",
+  "fragment": "F-fuvo",
+  "id": "batch-2026-10-12e-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "c013ddf1aa060dda80a6827c23953e9c2e73bcb9b832e19706710e14e0d4a474",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2a.jp2/full/2638,/0/default.jpg (canvas 4, mds_58Ca18_F2a): whole image 2638x2821 reduced to 1683x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "d99cdfc4313367ae347335f712fdbde7b894dccd4501fcd21fe9e7e065ce6aff",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2a.jp2/full/2638,/0/default.jpg (canvas 4, mds_58Ca18_F2a): native-pixel box 263,225,2163,1692; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "f705706fcf7a4944ce5493650d8fd9e790f705784d7575f9bcf14d854001939f",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2b.jp2/full/2061,/0/default.jpg (canvas 5, mds_58Ca18_F2b): whole image 2061x2806 reduced to 1322x1800 for layout"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "b1df45769abf977df02ce84bde046701241aa8a3ad70efa1cf7900927f571429",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2b.jp2/full/2061,/0/default.jpg (canvas 5, mds_58Ca18_F2b): native-pixel box 164,280,1957,1301; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "2a5304baa7759dc01bac6f4a89062a499fbaee364380f0ef1bf77965a722b21f",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_F2b.jp2/full/2061,/0/default.jpg (canvas 5, mds_58Ca18_F2b): native-pixel box 164,1082,1957,2104; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "3d1662d7265a21914e8931bc071817b699620ed31ce19e468ad027afb5b80181",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_e005_s002.jp2/full/8171,/0/default.jpg (canvas 3, mds_58Ca18_e005_s002): whole image 8171x11591 reduced to 1269x1800 for layout"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "3cbdca4d2b00782284fa498aa7c760d6f80a9e06d73f2205f4c34a05d20f5641",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_e005_s002.jp2/full/8171,/0/default.jpg (canvas 3, mds_58Ca18_e005_s002): native-pixel box 0,2897,2451,6142; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "b496bdd1382a10abbb43707f26b02d46230e7ebb6308d762c04da3b6e9d1c196",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_e005_s002.jp2/full/8171,/0/default.jpg (canvas 3, mds_58Ca18_e005_s002): native-pixel box 0,5447,2451,8693; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "84a704a433fcc0456a25b4efdc6629a0fc854ad71e9736dc7424bdefe96350fb",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_e005_s001.jp2/full/8195,/0/default.jpg (canvas 1, mds_58Ca18_e005_s001): whole image 8195x11625 reduced to 1269x1800 for layout"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "84e67dd268e52fb3aaeb179c5038cdf9327a358d1ca54f389865f62012380dc1",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_e005_s001.jp2/full/8195,/0/default.jpg (canvas 1, mds_58Ca18_e005_s001): native-pixel box 6146,2906,8195,5965; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "8117e5b8519607b007259494aad05390a55407c3a6d3ffcc209f5db8f5309681",
+        "source": "https://fragmentarium.ms:443/loris/F-fuvo/mds_58Ca18_e005_s001.jp2/full/8195,/0/default.jpg (canvas 1, mds_58Ca18_e005_s001): native-pixel box 6146,5310,8195,8370; unrotated grid position column 1 of 1, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated image-only reader (Claude Code subagent)",
+  "schema_version": 1,
+  "session": "batch-2026-10-12e isolated readers (packet-08)",
+  "text": "PACKET-08 - UNVERIFIED IMAGE READING\n\nEXPOSURE / RULES STATEMENT\nNothing in my context revealed a proposed identification or an earlier reading of this item. I opened only PROMPT.md and image-001..011 in this directory (directory listed for filenames; packet.json not opened). No web or search tools. I do not name a work or author.\n\nLAYOUT SURVEY (observation)\nThe images show small parchment stubs (sewing guards / reinforcing tabs) projecting from the gutter onto the inside of both boards of a bound book. Two boards, two stubs on each:\n  image-006: overview of one inner board (pastedown with a pencil number \"733313\" and purple stamps \"SCAFFALE 58 / PALCHETTO C\" and \"18\" - modern library marks, not part of the fragments). Two stubs at the gutter (left), both seen UPSIDE DOWN in this view.\n  image-007: upper stub of image-006, upside down as photographed.\n  image-008: lower stub of image-006, upside down as photographed.\n  image-001: the lower stub again, photographed the right way up (book turned); image-002 is a close tile of its text. Best image of this stub.\n  image-009: overview of the other inner board; two stubs at the gutter (right), both upside down in this view.\n  image-010: upper stub of image-009, upside down.\n  image-011: lower stub of image-009, upside down.\n  image-003: that lower stub the right way up; image-004 (upper lines) and image-005 (lower lines) are close tiles.\nSo: four stub faces. I call them\n  Stub A = lower stub, first board (image-001/002/008)\n  Stub B = lower stub, second board (image-003/004/005/011)\n  Stub C = upper stub, first board (image-007)\n  Stub D = upper stub, second board (image-010)\nA and B look like the two ends of one strip passing round the spine, and C and D likewise (tentative; same script within each pair, same height on the spine).\n\nStubs A and B: about 4.5 cm wide, 5-7 lines, a formal gothic bookhand of fairly large module (x-height about 3 mm), dark brown ink, much flaked. No colour. Text consists of very short units separated by points, with capital letters \"G.\" and \"A\"/\"Ab\" and the group \"v.o.\" recurring: i.e. a list with repeated one-letter labels (observation). Tentative interpretation: grammatical case labels (G = genitive, v = vocative, Ab = ablative) with noun forms. Lines cut at both sides. Stub A has a large red-crayon mark like \"P\" or \"4\" on its blank lower half (later mark, not text). Stub B has a thin ruled or struck horizontal line running through its fifth line - I cannot tell a ruling from a deletion.\n\nStubs C and D: about 5 cm wide, most of the surface blank (margin); only the first 2-5 letters of six lines survive at the gutter edge. Similar large gothic bookhand; here with RED initials (two red capitals on D, one red letter and one red mark on C), so rubricated line openings. Whether C/D come from the same manuscript as A/B is not settled: the module is similar, the red is seen only on C/D.\n\nAREAS SELECTED / UNREAD\nAll four stubs are transcribed as far as visible. A is the most legible; B is badly flaked; C and D are photographed only upside down and carry only line fragments, so those readings are weakest. An upright close-up of C and D is the obvious next request.\n\nTRANSCRIPTION\n( ) = my expansion; (?) = uncertain; [..] = lost or unread. Points are as written.\n\n--- Stub A (image-002, tile of image-001; the same text upside down in image-008 - not additional text) ---\nimage-002 l.1   [..]ac(?)/[..]ec(?) mater. v.o. o mat(er)(?)[..]        (first two letters damaged; a mark above them)\nimage-002 l.2   [..]e matres G. har(um) ma[..]\nimage-002 l.3   [..]atres. v.o. o matres [..]                           (middle of the last word flaked: \"m.atres\")\nimage-002 l.4   [..]o(?) h(?) s[..]o(?). G. h(?)[..] s[..]ei(?)/s[..]i(?)   (letter group after \"G\" looks like \"ii\" or \"h\" with superscript strokes; the two s-words have abbreviation marks: \"s(er)vo\"/\"s(er)vi\"? \"spe-\"? undecided)\nimage-002 l.5   [..]ores(?)/[..]bus(?). v.o. o s[..]e(?). A[b](?)[..]   (heavily flaked)\nBelow l.5: blank parchment with the red-crayon mark.\nSecure: \"mater. v.o. o mat-\", \"matres G. har(um) ma-\", \"-atres. v.o. o matres\".\n\n--- Stub B (image-004 upper lines, image-005 lower lines, tiles of image-003; upside down in image-011) ---\nimage-004 l.1   [..]o(?) s(?)[..]abus:                                 (first word: tall s or f with a mark above, then \"..abus\"; e.g. \"f(ili)abus\"? \"s(er)vabus\"? not decided)\nimage-004 l.2   [..]o h(ui)us(?)/h(e)c(?) s(?)[..]atio(n)e(?)/[..]anoie(?). (et) huic s(?)[..]\nimage-004 l.3   [..]s(?)[..]n(?). v(?).o.(?) s(?)[..]nor(um)(?) (et) o(?) s[..]\nimage-004 l.4 = image-005 l.1   [..]s(?)[..]no[..] [..] h(?)[..] [..]bo[..](?)          (almost wholly flaked)\nimage-005 l.2   [..]on(?). Ab [..] h[..] [..] s(?)[..]uo(?)             (a thin horizontal line passes through this line; ruling or cancellation)\nimage-005 l.3   [..]b(us)(?)   a. h(is)(?) [..]h[..]g(?) s(?)[..]\nimage-005 l.4   [..]o(?). ro[..]o(?)a(?)/to[..]a(?) [..]b[..]e(?)[..]\nSecure in B: \"-abus:\" (l.1), \"(et) huic\" (l.2), \"Ab\" (l.5/image-005 l.2). The rest is letter-shapes only.\n\n--- Stub C (image-007, photographed upside down; I read it mentally rotated, top line first after rotation) ---\nSix line-beginnings/ends at the gutter edge, 3-6 letters each:\n  C l.1   [..]innc(?)/[..]imie(?)\n  C l.2   [..]itim(?)/[..]uini(?)        (surface abraded)\n  C l.3   [..]octrin(?)/[..]ocorin(?)    (stroke above)\n  C l.4   [red letter, I/l-like] gemin(?)/semm(?)[..]\n  C l.5   [..]oduouo(?)/obauon(?)[..]\n  C l.6   [..]eni nus(?)/cui tus(?)\n  plus the lower halves of one more line at the edge, and a separate red mark (paraph or flourish) in the blank area.\nThese are not reliable; orientation alone makes them guesses.\n\n--- Stub D (image-010, photographed upside down; read rotated, top line first after rotation) ---\n  D l.1   p(ri)mo(?)/pauo(?)[..]\n  D l.2   [red capital, A- or D-like] m[..]s(?)      (a black letter before the red one, s-like)\n  D l.3   [..]uimi(?)/mini(?)[..]\n  D l.4   [..]mcl(?)/fuit(?) [red letter, partly hidden in gutter]\n  D l.5   [red capital, A- or Q-like] [..]q(ue)(?)/[..]y(?)     (with a black flourished letter beside it)\n  D l.6   [..]unc(?)/[..]mic(?)\nAgain letter-shapes only.\n\nLIMITATIONS\n- Unverified. A and B are narrow slices from the middle of lines; C and D are margins with only line-edges. No continuous prose exists on any stub, so ten-line spans are not available: the gaps reflect what survives (and, for C/D, the upside-down photography).\n- For B the ink has flaked to dots; an infrared or raking image might recover lines 3-7.\n- Reverse sides of the stubs, and the parts inside the spine, are not shown.\n- The interpretation \"case labels with noun forms\" rests on Stub A lines 1-3, which are clear; I have not extended it to fill other lines.\n- Suggested follow-up: upright close-ups of the two upper stubs (C, D); a view into the gutter to see whether A-B and C-D are continuous strips; UV/IR for B.\n",
+  "text_sha256": "67c808af239c47f355dc88b303198b3b3ba6c6012ef46dfc7bea2564dc469e22"
+}
