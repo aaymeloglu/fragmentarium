@@ -44,6 +44,6 @@ Source: Psalm 49 of the Vulgate, in the text of the Stuttgart edition (*Biblia s
 
 ## The strips and what is not claimed
 
-If the placing of the "post" strip is right, the two strips are from one column: about six lines of text (verses 10-15, 243 letters) are missing between the last line of the "ant" strip and the first of the "post" strip, which gives a column of at least 22 lines. The parchment cover of the same host volume is a separate catalogue record and is not treated here.
+If the placing of the "post" strip is right, the text is compatible with the two strips coming from one column: about six lines of text (verses 10-15, 243 letters) would fall between the last line of the "ant" strip and the first of the "post" strip. That reconstruction would require a column of at least 22 lines. The text sequence alone does not establish that the strips came from the same column; no physical join has been demonstrated. The parchment cover of the same host volume is a separate catalogue record and is not treated here.
 
 Not claimed: the kind of book, which stays open between psalter, breviary and Bible, since the visible faces show no antiphon, rubric or psalm division, and Psalm 49 has no division initial of its own in the liturgical distribution; the version beyond Gallican or Roman; the date and script, which are the catalogue's; the origin; the use. The hidden sides and the two covered strips might settle the kind of book.
