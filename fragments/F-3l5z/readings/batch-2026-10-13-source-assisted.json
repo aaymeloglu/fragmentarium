@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-13T15:39:51.703105+00:00",
+  "first_reading": "batch-2026-10-13-image-only",
+  "first_sha256": "fd3ff820b02ba277988a2fe80adbcbbfe84a2d37467d0bf7bac5bd3ed05d8746",
+  "fragment": "F-3l5z",
+  "id": "batch-2026-10-13-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "With the edition beside the images the cut line fragments could be placed in a known text, correcting misread groups (hiran ons to [noch]tan ons, erbaer ons to en laet ons, chort to choer) and showing that the scrap supplies the other ends of the strips' lines.",
+  "schema_version": 1,
+  "sources": [
+    "N. van Wijk, Het getijdenboek van Geert Grote naar het Haagse handschrift 133 E 21, Leiden 1940, p. 111 (DBNL transcription, grot001geti01_01_0011)",
+    "Corpus Middelnederlands (Dutch Language Institute), text 'Getijdenboek van Geert Grote', searched for the hymn and antiphon"
+  ],
+  "text": "Source-assisted reading of F-3l5z (Antwerpen, Ruusbroecgenootschap, Neerl. 413/45), made with the text of Van Wijk 1940, p. 111 (DBNL transcription) beside the images. Reread on the image: strips verso lines 2-10 and recto lines 1-6; scrap lines 1-5 of both faces. Strips recto lines 7-10 and scrap line 6 rest on the image-only first reading. [ ] = lost, supplied from the edition; (?) = uncertain; ... = lost middle of the line.\n\nRECTO. Strips: canvas 0 (fol. [1]r), native box 290,90,650,620 (line ends). Scrap: canvas 4 (fol. [3]r), native box 220,130,390,430 (line beginnings).\nscrap 1            choer [des hemels ende weder haelt]\nscrap 2            dine lo[ue ihesus uerblijt den om]\nscrap 3 / strips 1 ganc d[er werlt] ... [..]m(?)[..] ons(?) te v(?)   (strips rubbed, uncertain)\nscrap 4 / strips 2 reden mit [gode] ... [ihes]us is weter ghe\nscrap 5 / strips 3 gaen t(?)[o den vader] ... hi is in ghegaen\nstrips 4           [in dat h]emelsche(?) r[ike]   (rubbed)\nstrips 5           [..] ende(?) is ihesus(?)       (rubbed)\nstrips 6           [o ewighe wijs]heit\nstrips 7           [..]ghe(n)(?)   (first reading)\nstrips 8-10        line ends only: ..im(?), ..ghe(?), ..oun(?)   (first reading)\n\nVERSO. Strips: canvas 1 (fol. [1]v), native box 190,200,580,720 (line beginnings). Scrap: canvas 5 (fol. [3]v), native box 215,100,375,400 (line ends).\nscrap 1            [..]eiden(?)\nstrips 1 / scrap 2 m[..] m[..] ... uan(?) si[..]   (not placed in the text)\nscrap 3            ... O glor   (O touched red)\nstrips 2 / scrap 4 ose coninc on[der dinen] ... [h]eilighe[n]\nstrips 3 / scrap 5 du bis altoes l[ouelic] ... [e]nde(?) [noch]\nstrips 4           [..]tan ons[prekelic]\nstrips 5           [..]ns(?) ende dine\nstrips 6           an gherope[n]\nstrips 7           en laet ons n[iet]\nstrips 8           en(?) [.]nden dagh(?)[..]   (rubbed; e n, slit, one or two minims, d/u, e, n, then d/t, a, g, h with a stroke; compatible with \"in den daghe\")\nstrips 9           waerdighe[..]\nstrips 10          onder dinen h[eilighen]\n\nNot read: canvases 2 and 3 (fol. [2]r/v), a narrow strip with ink traces only.\n",
+  "text_sha256": "cedfcfa3dcbac8d80575a0895012371b32f15cd72b60f1333f085e7cd47c483c"
+}

@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-13T15:39:51.704575+00:00",
+  "first_reading": "batch-2026-10-13-image-only",
+  "first_sha256": "f3acafc90b189f1b8d69a6a1c7cdae0ab363d96ace2826020b00ddd83e3a5768",
+  "fragment": "F-lodh",
+  "id": "batch-2026-10-13-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "The first reading gave only letter groups; with the psalm text to hand the line beginnings of one face could be read as connected words and placed.",
+  "schema_version": 1,
+  "sources": [
+    "R. Weber (ed.), Biblia sacra iuxta vulgatam versionem, Psalmi iuxta Septuaginta, Ps 68:15-22, 67:20-24, 59:1-2, 61:11-12, transcription at https://www.thelatinlibrary.com/bible/psalms.shtml",
+    "Divinum Officium project, Psalmi matutinum.txt, section Daym3_ (monastic Wednesday Matins: Ps 59, 60, 61, 65, 67(2-19), 67(20-36), 68(2-16), 68(17-37), 69-72), https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/Latin/Psalterium/Psalmi/Psalmi%20matutinum.txt"
+  ],
+  "text": "Source-assisted reading of F-lodh (Leipzig UB, Fragm. lat. 367a), 13 October 2026. Reread on the image by a research reader, with the Gallican psalter text to hand: canvas 1 (367a-1: 1v) lines 2-6, 8-9, 11-15. Lines attempted on canvases 0, 2 and 3 are word shapes only. Not reviewed by a human palaeographer. ( ) = resolved abbreviation, [ ] = lost or unread, ? = doubtful.\n\nCanvas 1, 367a-1: 1v. Native boxes 700,300,2500,1800 (lines 1-5) and 700,2300,2500,4600 (lines 8-15) of https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0036/0000003640/00000002.jpx/full/3011,/0/default.jpg\n1  [unread]\n2  me de l[hole] ut n(on) inf[...]\n3  oderu(n)t me (et) de [...]\n4  g(a)t te(m)pestas [...]\n5  du(m) neq(ue) urgeat [...]\n6  [red E, two lines high, in the margin] xau[...]\n7  [unread, beside the initial]\n8  respice i(n) [...]\n9  tuo? . q(uonia)m tribul[...]\n10 [unread]\n11 scis? i(m)p(ro)p(er)i[...]\n12 [...] mea(m) . [red I] (n) c[...]\n13 me . Imp(ro)p(er)iu(m) [...]\n14 sustinui q(ui) si[...]\n15 [.]ur (et) no(n) i(n)ueni : [red initial under the thread]\n16-17 [unread]\n= Psalm 68:15-22.\n\nCanvas 0, 367a-1: 1r. Native box 600,900,2900,3000 of https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0036/0000003640/00000001.jpx/full/3011,/0/default.jpg. Line ends, all doubtful.\n3  [...] b(e)n(e)d(ictu)s? d(omi)n(u)s?\n4  [...] d(eu)s? salu?\n5  [...]ciendi? (et) d(omi)ni? do?\n6  [...] capilli?\n9  [...] tuus?\n= Psalm 67:20-24?\n\nCanvas 3, 367a-2: 1v. Native box 400,500,2950,2500 of https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0036/0000003640/00000006.jpx/full/3011,/0/default.jpg. Line ends, all doubtful.\n1  [red rubric] [...]? iiij\n2  [...] dauid? [..]?\n3  [...] succe(n)dit?\n4  [...] salinar(um)?\n5  [...]ilium? et? [...]\n6  [...]? [..]ndu(m)?\n= title and opening of Psalm 59?\n\nCanvas 2, 367a-2: 1r. Native box 300,250,2700,2300 of https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0036/0000003640/00000005.jpx/full/3011,/0/default.jpg. Line beginnings, doubtful.\n1  Diuicie? si a[...]\n2  [S]emel? [...]\n16 [red initial, D or E]\n= Psalm 61:11-12?\n",
+  "text_sha256": "c2450b86b4adcbf6f8d3ee43095b1d6a75b8c7a07bfe19754077c5086180da2c"
+}

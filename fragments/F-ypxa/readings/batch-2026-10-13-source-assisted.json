@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-10-13T15:39:51.705529+00:00",
+  "first_reading": "batch-2026-10-13-image-only",
+  "first_sha256": "7117bf35711d7c73a70ebb0d972da2f61f3348c33b7766ade4826d89a68fb53d",
+  "fragment": "F-ypxa",
+  "id": "batch-2026-10-13-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "Every line is torn at one end, and the printed text resolved abbreviated and half-lost words that the image-only reading had misread (for example 'falsitatem' for '[eccle]siasticam', 'transacto' for '[ex]actio', 'hudem' for 'iidem').",
+  "schema_version": 1,
+  "sources": [
+    "Lectura siue Apparatus domini Hostiensis super quinque libris Decretalium, vol. 2, Strasbourg: Schott, 1512 (VD16 H 2164), Munich BSB 2 J.can.u. 89-2, fol. 114r (bsb00018041, scan 229), page image",
+    "Henrici de Segusio cardinalis Hostiensis In tertium Decretalium librum commentaria, Venice: Giunta, 1581, leaves 106-107 (Google Books k5nFRi7zBogC), text-recognition snippets",
+    "Johannes Andreae, In tertium Decretalium librum Novella commentaria, on X 3.30.33-34 (Google Books UptFAAAAcAAJ p. 146-147; feFBAQAAMAAJ p. 146), text-recognition snippets",
+    "Decretales Gregorii IX cum glossa ordinaria, Venice 1615, p. 872 (archive.org gri_33125008736171, leaf 939), page image",
+    "Prospero Fagnani, Commentaria in tertium librum Decretalium, on X 3.30.34 (MDZ bsb10489493), text-recognition snippet"
+  ],
+  "text": "Source-assisted reading of F-ypxa (Antwerpen, EHC, Fragm. 315). Every line of both faces was reread on the published images with the printed text of Hostiensis, Lectura on X 3.30.33-34 (Strasbourg 1512, vol. 2, fol. 114r) at hand. Parentheses = expanded abbreviations; square brackets = text lost at the torn edge, supplied from the print; ? = uncertain.\n\nCanvas \"fol. [1]v\" (first in the order of the text), line ends, native box 290,310,760,900:\nl.0  [...] (feet of letters only, not read)\nl.1  [...] et g(ra)ta d(ebet) [esse]\nl.2  [...] [ex]actio uio[lentiam]            (abraded, partly under a lifted flap; ?)\nl.3  [...] .ff. de l(egatis). iij. fi[deicommissa]\nl.4  [...] [s]ic. s(upra). e(odem). pastoral(is).\nl.5  [...] [eccle]siastica(m). (er)go morta[le]\nl.6  [...] [ec]c(les)iis subaudi. et\nl.7  [...] iure. hic nich(il) iu(n)[git]\nl.8  [...] [prediali]b(us) t(antu)m q(ue) ex lege\nl.9  [...] in fi(ne). s(ed) et subau[diri]\nl.10 [...] ut p(atet)?. s(upra). e(odem).     (on the fold)\n\nCanvas \"fol. [1]r\", line beginnings, native box 950,290,1300,850:\nl.1  ali[...]?                                 (cut through; not placed in the source)\nl.2  h(oc) dicit. S[ed ...]\nl.3  q(ua)n(do)q(ue) illis quib(us) [...]\nl.4  q(ua)n(do)q(ue) sunt posse[ssiones ...]\nl.5  ut no(tatur). s(upra). e(odem). c. r[espon. ...]\nl.6  ciem l(itte)re est ide(m). a[r. ...]      (end of \"superfi-ciem\")\nl.7  renouetur p(er) s[peciale ...]\nl.8  iidem faciu(n)t t[ota die ...]\nl.9  et no(n) tra(n)sactio [...]\nl.10 multiplic[i ...]\nl.11 s(ed) nu(n)q(ui)d [...]                   (on the fold)\n",
+  "text_sha256": "595b595892a0aef7e52f551c5fddc95f7b00d8dec8409b2cd8680cbc0da5d374"
+}

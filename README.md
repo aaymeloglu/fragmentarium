@@ -16,10 +16,13 @@ The [research progress page](https://aaymeloglu.github.io/fragmentarium/burndown
 
 ## Identifications
 
-142 fragments examined; 39 identifications published.
+162 fragments examined; 42 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-ypxa](https://aaymeloglu.github.io/fragmentarium/F-ypxa.html) | Hostiensis (Henricus de Segusio), Lectura in Decretales Gregorii IX, on X 3.30.33-34 (De decimis: end of c. Cum non sit in homine, and c. Nuper abbates) | 2026-10-13 |
+| [F-3l5z](https://aaymeloglu.github.io/fragmentarium/F-3l5z.html) | Geert Grote, Getijdenboek (Middle Dutch hours), Hours of the Eternal Wisdom, Compline: end of hymn Ihesus regniert in den vreden and antiphon O gloriose coninc onder dinen heilighen (Van Wijk 1940, p. 111) | 2026-10-13 |
+| [F-lodh](https://aaymeloglu.github.io/fragmentarium/F-lodh.html) | Liturgical psalter (Gallican), Psalm 68:15-22; probable Psalms 59, 61-62 and 67 on the other faces | 2026-10-13 |
 | [F-33ow](https://aaymeloglu.github.io/fragmentarium/F-33ow.html) | Gregorian sacramentary, Advent orations: Suscipiamus, Excita ... saluari, the six 'Aliae orationes de adventu' (Excita ... operare, Conscientias, Prope esto, Concede ... ut magnae, Mentes nostras, Preces populi tui), Porrige nobis, Deus qui nos conspicis; kind of book open | 2026-10-12 |
 | [F-qycu](https://aaymeloglu.github.io/fragmentarium/F-qycu.html) | Avicenna, Canon medicinae (Latin of Gerard of Cremona), III, fen 3, tract. 1, end of ch. 1 (De anatomia oculi) and rubric of ch. 2 | 2026-10-12 |
 | [F-1kdv](https://aaymeloglu.github.io/fragmentarium/F-1kdv.html) | Justinian, Codex 7.62.31-32 (De appellationibus), with marginal gloss; second strip probably C. 7.65.8 | 2026-10-12 |
