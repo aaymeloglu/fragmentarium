@@ -34,7 +34,20 @@ article ul { padding-left:22px; } article li { margin-bottom:6px; }
 details { margin-top:24px; } summary { cursor:pointer; color:var(--accent); }
 button.sort { font:inherit; color:inherit; text-transform:inherit; letter-spacing:inherit; background:none; border:0; padding:0; cursor:pointer; text-align:left; }
 article blockquote { border-left:3px solid var(--rule); margin:12px 0; padding:2px 14px; color:var(--muted); }
-@media (max-width:700px) { body { font-size:16px; } table.idx th:first-child, table.idx td.thumb { display:none; } table.idx td { padding:8px; } }
+table.sortable th { white-space:nowrap; }
+th[aria-sort=ascending] button.sort, th[aria-sort=descending] button.sort { color:var(--accent); }
+table.burndown td:first-child { white-space:nowrap; }
+th .filter { position:relative; display:inline-block; margin-left:6px; }
+th .filter > button { font:inherit; font-size:11px; color:var(--muted); background:none; border:0; padding:0 2px; cursor:pointer; }
+th.filtered, th.filtered .filter > button { color:var(--accent); }
+.menu { position:absolute; right:0; top:22px; z-index:5; min-width:190px; background:var(--surface); border:1px solid var(--rule); border-radius:6px; padding:8px; box-shadow:0 4px 16px rgba(0,0,0,.12); text-transform:none; letter-spacing:0; font-size:15px; color:var(--ink); }
+.menu[hidden] { display:none; }
+.menu label { display:flex; gap:8px; align-items:center; padding:5px 6px; border-radius:4px; cursor:pointer; white-space:nowrap; }
+.menu label:hover { background:var(--bg); }
+.menu .count { margin-left:auto; color:var(--muted); font-size:13px; }
+.menu button.all { font:inherit; font-size:13px; color:var(--accent); background:none; border:0; padding:4px 6px 2px; cursor:pointer; }
+.shown { color:var(--muted); font-size:14px; margin:0 0 8px; }
+@media (max-width:700px) { body { font-size:16px; } table.idx th.thumb, table.idx td.thumb { display:none; } table.idx td { padding:8px; } }
 </style></head>
 <body><div class="wrap"><div class="crumbs"><a href="index.html">All identifications</a> · <a href="https://fragmentarium.ms/overview/F-2e1n">Fragmentarium record</a> · <a href="https://github.com/aaymeloglu/fragmentarium/tree/main/fragments/F-2e1n">folder on GitHub</a></div><h1>reeks 538, Fragm. 42 <span style='font-size:.6em;color:var(--muted)'>(F-2e1n)</span></h1><p class="lede">Brugge, Stads- en OCMW-archief · catalogued as Unidentified text on Latin etymology, 1401-1450</p><p><b>Johannes Balbus, Catholicon, letter C</b></p><p>Catapuera, Catapulta and Cataracta definitions and sequence compared with edition n211; additional Catalecticus group inspected. Full range and leaf order unchecked.</p><p><a href="https://archive.org/details/OEXV3RES/page/n211/mode/1up">Matching edition passage</a> · <a href="https://fragmentarium.ms/overview/F-2e1n">Manuscript images</a></p><p class="where">Identified <time datetime="2026-09-20">2026-09-20</time>.</p><p><img src="https://fragmentarium.ms:443/loris/F-2e1n/SA_Brugge_20231017a_0047_Fragm_42.jp2/full/600,/0/default.jpg" alt="F-2e1n" style="max-width:100%;border:1px solid var(--rule)"></p><details><summary>Readings and comparison details</summary><article><h2>F-2e1n — Johannes Balbus, Catholicon</h2>
 <ul><li><b>Identification: identified, high confidence.</b> Johannes Balbus, <i>Catholicon</i>, alphabetical dictionary, letter C. Entry sequence and explanatory wording support the identification, beyond any single familiar definition.</li><li><b>Transcription: selected source-assisted evidence.</b> A Codex reviewer compared entries in a cached full fol. [1]r image with the print. The separate image-only reading covers a clipped crop and contains only fragments. No full transcription or numerical accuracy estimate is certified.</li><li><b>Verification: manuscript and print images.</b> Fol. [1]r column b, <i>Cataplectos/Cataplectatio</i> through <i>Cataracta</i>, was checked against edition n211. Another part of the leaf supplies a <i>Catalecticus</i> check. The two leaves' full endpoints and original arrangement are unresolved.</li></ul>

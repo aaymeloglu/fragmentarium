@@ -34,7 +34,20 @@ article ul { padding-left:22px; } article li { margin-bottom:6px; }
 details { margin-top:24px; } summary { cursor:pointer; color:var(--accent); }
 button.sort { font:inherit; color:inherit; text-transform:inherit; letter-spacing:inherit; background:none; border:0; padding:0; cursor:pointer; text-align:left; }
 article blockquote { border-left:3px solid var(--rule); margin:12px 0; padding:2px 14px; color:var(--muted); }
-@media (max-width:700px) { body { font-size:16px; } table.idx th:first-child, table.idx td.thumb { display:none; } table.idx td { padding:8px; } }
+table.sortable th { white-space:nowrap; }
+th[aria-sort=ascending] button.sort, th[aria-sort=descending] button.sort { color:var(--accent); }
+table.burndown td:first-child { white-space:nowrap; }
+th .filter { position:relative; display:inline-block; margin-left:6px; }
+th .filter > button { font:inherit; font-size:11px; color:var(--muted); background:none; border:0; padding:0 2px; cursor:pointer; }
+th.filtered, th.filtered .filter > button { color:var(--accent); }
+.menu { position:absolute; right:0; top:22px; z-index:5; min-width:190px; background:var(--surface); border:1px solid var(--rule); border-radius:6px; padding:8px; box-shadow:0 4px 16px rgba(0,0,0,.12); text-transform:none; letter-spacing:0; font-size:15px; color:var(--ink); }
+.menu[hidden] { display:none; }
+.menu label { display:flex; gap:8px; align-items:center; padding:5px 6px; border-radius:4px; cursor:pointer; white-space:nowrap; }
+.menu label:hover { background:var(--bg); }
+.menu .count { margin-left:auto; color:var(--muted); font-size:13px; }
+.menu button.all { font:inherit; font-size:13px; color:var(--accent); background:none; border:0; padding:4px 6px 2px; cursor:pointer; }
+.shown { color:var(--muted); font-size:14px; margin:0 0 8px; }
+@media (max-width:700px) { body { font-size:16px; } table.idx th.thumb, table.idx td.thumb { display:none; } table.idx td { padding:8px; } }
 </style></head>
 <body><div class="wrap"><div class="crumbs"><a href="index.html">All identifications</a> · <a href="https://fragmentarium.ms/overview/F-cfry">Fragmentarium record</a> · <a href="https://github.com/aaymeloglu/fragmentarium/tree/main/fragments/F-cfry">folder on GitHub</a></div><h1>Cod. 4070 (binding) <span style='font-size:.6em;color:var(--muted)'>(F-cfry)</span></h1><p class="lede">Wien, Österreichische Nationalbibliothek · catalogued as Homily (unidentified), 15th century</p><p><b>Nicholas of Lyra, Postilla litteralis super Epistolam ad Hebraeos, chapter 5</b></p><p>Pontifical-office explanation and office-seeking warning match the 1603 print, cols.841–842, with local wording differences. Complete endpoints remain unverified.</p><p><a href="https://archive.org/details/bibliorumsacroru06strauoft/page/n426/mode/1up">Matching edition passage</a> · <a href="https://fragmentarium.ms/overview/F-cfry">Manuscript images</a></p><p class="where">Identified <time datetime="2026-09-20">2026-09-20</time>.</p><p><img src="https://fragmentarium.ms:443/loris/F-cfry/Cod4070_EB_ganzeAussenseite.jpg/full/600,/0/default.jpg" alt="F-cfry" style="max-width:100%;border:1px solid var(--rule)"></p><details><summary>Readings and comparison details</summary><article><h2>F-cfry — Nicholas of Lyra, Postilla on Hebrews 5</h2>
 <ul><li><b>Identification: identified, high confidence.</b> Nicholas of Lyra, <i>Postilla litteralis super Epistolam ad Hebraeos</i>, chapter 5. Connected explanation of the pontifical office agrees with the section explicitly headed <i>Nicolaus de Lyra</i> in the print.</li><li><b>Transcription: selected source-assisted readings.</b> A Codex reviewer checked selected wording in two passages against manuscript and printed images. Some abbreviations remain unresolved. No full transcription, human palaeographic review or measured accuracy assessment is claimed.</li><li><b>Verification: manuscript and edition images.</b> Upper-left and lower-left manuscript crops were compared with the lower Lyra section of edition scan n426, printed columns 841–842. Only the photographed outside of the binding was reviewed; the other catalogue image shows the same side with a colour chart.</li></ul>
