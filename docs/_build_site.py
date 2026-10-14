@@ -50,7 +50,20 @@ article ul { padding-left:22px; } article li { margin-bottom:6px; }
 details { margin-top:24px; } summary { cursor:pointer; color:var(--accent); }
 button.sort { font:inherit; color:inherit; text-transform:inherit; letter-spacing:inherit; background:none; border:0; padding:0; cursor:pointer; text-align:left; }
 article blockquote { border-left:3px solid var(--rule); margin:12px 0; padding:2px 14px; color:var(--muted); }
-@media (max-width:700px) { body { font-size:16px; } table.idx th:first-child, table.idx td.thumb { display:none; } table.idx td { padding:8px; } }
+table.sortable th { white-space:nowrap; }
+th[aria-sort=ascending] button.sort, th[aria-sort=descending] button.sort { color:var(--accent); }
+table.burndown td:first-child { white-space:nowrap; }
+th .filter { position:relative; display:inline-block; margin-left:6px; }
+th .filter > button { font:inherit; font-size:11px; color:var(--muted); background:none; border:0; padding:0 2px; cursor:pointer; }
+th.filtered, th.filtered .filter > button { color:var(--accent); }
+.menu { position:absolute; right:0; top:22px; z-index:5; min-width:190px; background:var(--surface); border:1px solid var(--rule); border-radius:6px; padding:8px; box-shadow:0 4px 16px rgba(0,0,0,.12); text-transform:none; letter-spacing:0; font-size:15px; color:var(--ink); }
+.menu[hidden] { display:none; }
+.menu label { display:flex; gap:8px; align-items:center; padding:5px 6px; border-radius:4px; cursor:pointer; white-space:nowrap; }
+.menu label:hover { background:var(--bg); }
+.menu .count { margin-left:auto; color:var(--muted); font-size:13px; }
+.menu button.all { font:inherit; font-size:13px; color:var(--accent); background:none; border:0; padding:4px 6px 2px; cursor:pointer; }
+.shown { color:var(--muted); font-size:14px; margin:0 0 8px; }
+@media (max-width:700px) { body { font-size:16px; } table.idx th.thumb, table.idx td.thumb { display:none; } table.idx td { padding:8px; } }
 """
 
 
@@ -143,15 +156,39 @@ def md_to_html(text):
 
 SORT_JS = """<script>
 document.querySelectorAll('table.sortable th[data-col]').forEach(function(th){
-  th.querySelector('button').addEventListener('click',function(){
+  th.querySelector('button.sort').addEventListener('click',function(){
     var t=th.closest('table'), c=+th.dataset.col, body=t.tBodies[0], rows=Array.from(body.rows);
-    var asc=th.getAttribute('aria-sort')!=='ascending';
+    var asc=th.getAttribute('aria-sort')!=='ascending', num=th.dataset.type==='num';
     t.querySelectorAll('th[data-col]').forEach(function(h){h.setAttribute('aria-sort','none');});
     th.setAttribute('aria-sort',asc?'ascending':'descending');
-    rows.sort(function(a,b){var x=a.cells[c].dataset.sort||a.cells[c].textContent.trim(), y=b.cells[c].dataset.sort||b.cells[c].textContent.trim(); return (x<y?-1:x>y?1:0)*(asc?1:-1);});
+    function key(r){var cell=r.cells[c], v=cell.dataset.sort!==undefined?cell.dataset.sort:cell.textContent.trim(); return num?(v===''?null:parseFloat(v)):v.toLowerCase();}
+    rows.sort(function(a,b){var x=key(a), y=key(b);
+      if(x===null||x==='') return (y===null||y==='')?0:1; if(y===null||y==='') return -1;  // blanks last either way
+      return (x<y?-1:x>y?1:0)*(asc?1:-1);});
     rows.forEach(function(r){body.appendChild(r);});
   });
 });
+</script>"""
+
+FILTER_JS = """<script>
+(function(){
+  var th=document.querySelector('th[data-filter]'); if(!th) return;
+  var t=th.closest('table'), c=+th.dataset.col, btn=th.querySelector('.filter > button'), menu=th.querySelector('.menu');
+  var boxes=Array.from(menu.querySelectorAll('input')), shown=document.getElementById('shown');
+  function apply(){
+    var on=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;}), n=0, rows=t.tBodies[0].rows;
+    for(var i=0;i<rows.length;i++){var ok=on.indexOf(rows[i].cells[c].dataset.status)>=0; rows[i].hidden=!ok; if(ok) n++;}
+    th.classList.toggle('filtered', on.length<boxes.length);
+    shown.textContent='Showing '+n+' of '+rows.length+(on.length<boxes.length?' ('+on.join(', ')+')':'');
+  }
+  boxes.forEach(function(b){b.addEventListener('change',apply);});
+  menu.querySelector('button.all').addEventListener('click',function(){boxes.forEach(function(b){b.checked=true;}); apply();});
+  btn.addEventListener('click',function(e){e.stopPropagation(); menu.hidden=!menu.hidden; btn.setAttribute('aria-expanded',!menu.hidden);});
+  menu.addEventListener('click',function(e){e.stopPropagation();});
+  document.addEventListener('click',function(){menu.hidden=true; btn.setAttribute('aria-expanded','false');});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){menu.hidden=true; btn.setAttribute('aria-expanded','false');}});
+  apply();
+})();
 </script>"""
 
 
@@ -197,31 +234,48 @@ def build_burndown(done):
         r["priority"] = priority(r)
     rows.sort(key=lambda r: (-r["priority"], r["fragmentarium_id"]))
     n_done = sum(1 for r in rows if r["fragmentarium_id"] in done)
+    statuses = {"identified": "Identified", "examined": "Examined", "open": "Open"}
+    counts = {key: 0 for key in statuses}
     trs = []
     for r in rows:
         fid = r["fragmentarium_id"]
         d = done.get(fid)
         if d and publishable(d):
-            st = f'<a href="{fid}.html">Identified</a>'
+            st, key = f'<a href="{fid}.html">Identified</a>', "identified"
         elif d and d.get("known_from"):
-            st = 'Examined; already identified in the literature'
+            st, key = 'Examined; already identified in the literature', "examined"
         elif d:
-            st = 'Examined; not identified'
+            st, key = 'Examined; not identified', "examined"
         else:
-            st = '<span class="badge none" style="opacity:.5">open</span>'
+            st, key = '<span class="badge none" style="opacity:.5">open</span>', "open"
+        counts[key] += 1
+        century = re.search(r"(\d+)(?:st|nd|rd|th)", r.get("century", ""))
         trs.append("<tr>"
                    f'<td><a href="{r["url"]}">{fid}</a></td>'
                    f'<td>{html.escape(r["shelfmark"])}<br><span class="where">{html.escape(r["title"][:110])}</span></td>'
-                   f'<td>{html.escape(r["century"])}</td><td>{html.escape(r["language"])}</td>'
-                   f'<td>{html.escape(r["dimensions_mm"][:24])}</td><td>{r["priority"]}</td><td>{st}</td></tr>')
+                   f'<td data-sort="{century.group(1) if century else ""}">{html.escape(r["century"])}</td><td>{html.escape(r["language"])}</td>'
+                   f'<td data-sort="{r.get("area_mm2") or ""}">{html.escape(r["dimensions_mm"][:24])}</td><td>{r["priority"]}</td>'
+                   f'<td data-status="{key}" data-sort="{list(statuses).index(key)}">{st}</td></tr>')
+    sortable = lambda col, label, kind="": (f'<th data-col="{col}" aria-sort="none"{f" data-type=\"{kind}\"" if kind else ""}>'
+                                            f'<button class="sort" type="button">{label} ↕</button>')
+    menu = "".join(f'<label><input type="checkbox" value="{key}" checked> {name}<span class="count">{counts[key]}</span></label>'
+                   for key, name in statuses.items())
+    head = ("<thead><tr>" + sortable(0, "ID") + "</th>" + sortable(1, "Fragment · catalogue title") + "</th>"
+            + sortable(2, "Century", "num") + "</th>" + sortable(3, "Lang.") + "</th>"
+            + sortable(4, "Size (mm)", "num") + "</th>"
+            + '<th data-col="5" aria-sort="descending" data-type="num"><button class="sort" type="button">Priority ↕</button></th>'
+            + sortable(6, "Status", "num").replace("<th ", "<th data-filter ")
+            + '<span class="filter"><button type="button" aria-haspopup="true" aria-expanded="false" aria-label="Filter by status">▾</button>'
+            f'<div class="menu" hidden>{menu}<button class="all" type="button">Show all</button></div></span></th></tr></thead>')
     body = ("<h1>Burndown</h1>"
             f'<p class="lede">All {len(rows)} Fragmentarium records whose title or summary says “unidentified”, “unknown” or the same in another language (sweep of '
             f'{src.name[13:23]}), ranked by a rough priority: Latin, large, 13th to 16th century, and a genre that was '
             f'likely printed score highest, because those are the ones a search can settle. {n_done} worked so far. '
-            f'The list is a floor: records with vague titles that omit the word are not in it yet. '
+            f'Size sorts by area. The list is a floor: records with vague titles that omit the word are not in it yet. '
             f'<a href="index.html">Back to results</a>.</p>'
-            '<table class="idx"><tr><th>ID</th><th>Fragment · catalogue title</th><th>Century</th><th>Lang.</th><th>Size (mm)</th><th>Priority</th><th>Status</th></tr>'
-            + "".join(trs) + "</table>")
+            '<p class="shown" id="shown"></p>'
+            '<table class="idx sortable burndown">' + head + "<tbody>"
+            + "".join(trs) + "</tbody></table>" + SORT_JS + FILTER_JS)
     (DOCS / "burndown.html").write_text(page("Burndown · Fragmentarium", body))
     return len(rows), n_done
 
@@ -283,7 +337,7 @@ def build():
         f'Each report links the manuscript to the matching edition and explains the evidence. '
         f'Research and comparisons were performed by LLMs. '
         f'<a href="{REPO}/blob/main/METHOD.md">Method</a>.</p>'
-        '<table class="idx sortable"><thead><tr><th></th><th data-col="1" aria-sort="none"><button class="sort" type="button">Fragment ↕</button></th>'
+        '<table class="idx sortable"><thead><tr><th class="thumb"></th><th data-col="1" aria-sort="none"><button class="sort" type="button">Fragment ↕</button></th>'
         '<th>Identification</th><th data-col="3" aria-sort="descending"><button class="sort" type="button">Date identified ↕</button></th></tr></thead><tbody>'
         + "".join(rows)
         + "</tbody></table>" + SORT_JS
