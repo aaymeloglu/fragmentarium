@@ -82,9 +82,11 @@ def test_site_is_up_to_date():
 def test_burndown_page_lists_corpus_and_marks_done():
     import csv
     page = (ROOT / "docs" / "burndown.html").read_text()
-    with sorted((ROOT / "data").glob("unidentified-*.csv"))[-1].open() as f:
-        csv_rows = list(csv.DictReader(f))
-    assert page.count("<tr>") == len(csv_rows) + 1
+    sweeps = sorted((ROOT / "data").glob("unidentified-*.csv"))
+    with sweeps[-1].open() as f:
+        listed = {r["fragmentarium_id"] for r in csv.DictReader(f) if r.get("scope", "title") == "title"}
+    listed |= {r["id"] for r in DATA}  # worked records stay listed after the catalogue retitles them
+    assert page.count("<tr>") == len(listed) + 1
     for r in DATA:
         link = f'href="{r["id"]}.html"'
         if r['status'] == 'identified' and not r.get('known_from'):

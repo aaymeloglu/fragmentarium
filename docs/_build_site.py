@@ -183,8 +183,16 @@ def priority(row):
 
 def build_burndown(done):
     import csv
-    src = sorted((ROOT / "data").glob("unidentified-*.csv"))[-1]
-    rows = list(csv.DictReader(src.open()))
+    sweeps = sorted((ROOT / "data").glob("unidentified-*.csv"))
+    src = sweeps[-1]
+    rows = [r for r in csv.DictReader(src.open()) if r.get("scope", "title") == "title"]
+    # A worked record that a later sweep no longer finds (the catalogue has since retitled it) stays listed.
+    listed = {r["fragmentarium_id"] for r in rows}
+    for older in reversed(sweeps[:-1]):
+        for r in csv.DictReader(older.open()):
+            if r["fragmentarium_id"] in done and r["fragmentarium_id"] not in listed:
+                rows.append(r)
+                listed.add(r["fragmentarium_id"])
     for r in rows:
         r["priority"] = priority(r)
     rows.sort(key=lambda r: (-r["priority"], r["fragmentarium_id"]))
@@ -207,7 +215,7 @@ def build_burndown(done):
                    f'<td>{html.escape(r["century"])}</td><td>{html.escape(r["language"])}</td>'
                    f'<td>{html.escape(r["dimensions_mm"][:24])}</td><td>{r["priority"]}</td><td>{st}</td></tr>')
     body = ("<h1>Burndown</h1>"
-            f'<p class="lede">All {len(rows)} Fragmentarium records whose title or summary says “unidentified” (sweep of '
+            f'<p class="lede">All {len(rows)} Fragmentarium records whose title or summary says “unidentified”, “unknown” or the same in another language (sweep of '
             f'{src.name[13:23]}), ranked by a rough priority: Latin, large, 13th to 16th century, and a genre that was '
             f'likely printed score highest, because those are the ones a search can settle. {n_done} worked so far. '
             f'The list is a floor: records with vague titles that omit the word are not in it yet. '

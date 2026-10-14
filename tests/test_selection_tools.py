@@ -10,6 +10,7 @@ import cantus
 import catalogue
 import mnlsearch
 import survey
+import sweep
 
 MANIFEST = {
     'label': 'Leipzig, UB, Fragm. lat. 1',
@@ -135,6 +136,8 @@ def test_candidates_are_sweep_rows_without_a_ledger_row(tmp_path):
     ledger = tmp_path / 'ledger.json'
     ledger.write_text(json.dumps([{'id': 'F-aaaa'}]), encoding='utf-8')
     assert list(survey.candidates(sweep, ledger)) == ['F-bbbb']
+    sweep.write_text('fragmentarium_id,title,scope\nF-bbbb,Two,title\nF-cccc,Three,host\n', encoding='utf-8')
+    assert list(survey.candidates(sweep, ledger)) == ['F-bbbb']
 
 
 def test_a_record_sharing_a_shelfmark_with_a_ledger_record_is_a_sibling():
@@ -149,3 +152,32 @@ def test_a_record_sharing_a_shelfmark_with_a_ledger_record_is_a_sibling():
     assert survey.siblings('Orselina, Biblioteca, MdS 58 Ca 1, nr. 4', ledger + [{'id': 'F-alb', 'institution': 'Orselina, Biblioteca', 'shelfmark': 'MdS 58 Ca 1, nr. 9'}]) == []
     assert survey.siblings('', ledger) == []
     assert survey.flags([(4384, 5777)], False, None, sibling=True) == ['SIB']
+
+
+SEARCH_PAGE = '''<div class="search-result row"><div class="col-md-9">
+<div class="document-title"> Unidentified theological text </div>
+<div class="document-headline"> Parchment &middot; 1 strip &middot; 1301 – 1400 CE &middot; 39 x 170 mm </div>
+<div class="document-title"> F-63r4 </div><p class="serif vertical-spacer-20">Leuven, KU Leuven, Ms. 1</p>
+<span class="search-result-snippet">&hellip;<em>Unidentified</em> theological text&hellip;</span>
+<span class="found-in">Found in: <a href="x">Title</a></span>
+<span class="found-in">Found in: <a href="x">Remarks of the host volume</a></span>
+<span class="grey">Online Since: 02/07/2024</span></div></div>
+<div class="search-result row"><div class="document-title"> Missal </div><div class="document-title"> F-hhhh </div>
+<span class="found-in">Found in: <a href="x">Remarks of the host volume</a></span></div>'''
+
+
+def test_sweep_reads_result_blocks_and_scopes_by_matching_field():
+    first, second = sweep.results(SEARCH_PAGE)
+    assert first['fragmentarium_id'] == 'F-63r4' and first['title'] == 'Unidentified theological text'
+    assert first['dimensions_mm'] == '39 x 170 mm' and first['online_since'] == '02/07/2024'
+    assert first['shelfmark'] == 'Leuven, KU Leuven, Ms. 1'
+    assert sweep.scope(first['found_in']) == 'title' and sweep.scope(second['found_in']) == 'host'
+    assert sweep.scope(['Document summary']) == 'title' and sweep.scope(['Historical provenance']) == 'description'
+
+
+def test_sweep_merges_terms_and_keeps_unknown_only_for_titles():
+    pages = {('unidentified', 1): SEARCH_PAGE, ('unknown', 1): SEARCH_PAGE.replace('>Title<', '>Document summary<')}
+    rows = sweep.sweep(['unidentified', 'unknown'], get=lambda term, page: pages.get((term, page), ''), pause=0)
+    assert rows['F-63r4']['terms'] == ['unidentified', 'unknown'] and rows['F-63r4']['scope'] == 'title'
+    rows = sweep.sweep(['unknown'], get=lambda term, page: pages.get((term, page), ''), pause=0)
+    assert rows['F-63r4']['scope'] == 'host'
