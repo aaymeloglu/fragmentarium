@@ -4,6 +4,7 @@
     uv run python tools/cantus.py text 'laetare jerusalem'        # standard texts -> Cantus IDs
     uv run python tools/cantus.py cid g00776 [--sources]          # where a chant is used
     uv run python tools/cantus.py next g00776                     # chants that usually follow it
+    uv run python tools/cantus.py seq g00800 g00801 g00803        # inventories that have a whole run
     uv run python tools/cantus.py ms 'et conventum facite' [--op starts_with] [--page 2]
 
 Cantus Index gives each chant (antiphon, responsory, introit, gradual, hymn, sequence ...) a
@@ -16,7 +17,10 @@ Bohemiae, the Austrian, Spanish and other inventories) that has the chant, and c
 feasts, services and genres. That is how a chant places a fragment: the feast, whether the book
 was for the Mass or the Office (MI, M, L, V ...), and how widely the chant was used. `--sources`
 lists the manuscripts with folio, century and a link. `next` gives the chants that usually come
-after one, for testing what a following line or initial could be.
+after one, for testing what a following line or initial could be. `seq` takes the Cantus IDs of a
+run of chants read on a fragment and counts the inventories that have all of them, with their
+folios, and those that lack some. A run that hundreds of books share places only the feast; a run
+that few share, or a variant some lack, is a lead to a use or region worth comparing on the page.
 
 `ms` searches the manuscript readings entered in the Cantus Database itself (not the rest of the
 network), in their own spelling, so it can find a reading that the standard text does not have.
@@ -101,6 +105,30 @@ def following(args):
               f"{(info.get('field_full_text') or '').strip()}")
 
 
+def holdings(cids):
+    """{siglum: {cid: [folio, ...]}} over the network, with each siglum's source link."""
+    held, links = collections.defaultdict(lambda: collections.defaultdict(list)), {}
+    for chant_id in cids:
+        for row in (index_json("json-cid", chant_id) or {}).get("chants") or []:
+            held[row.get("siglum")][chant_id].append(row.get("folio") or "?")
+            links.setdefault(row.get("siglum"), row.get("srclink"))
+    return held, links
+
+
+def sequence(args):
+    held, links = holdings(args.cids)
+    full = sorted(siglum for siglum, chants in held.items() if len(chants) == len(args.cids))
+    print(f"{len(held)} inventories have at least one; {len(full)} have all {len(args.cids)}")
+    counts = collections.Counter(len(chants) for chants in held.values())
+    print("inventories by number held: " + "; ".join(f"{n}: {counts[n]}" for n in sorted(counts, reverse=True)))
+    lacking = collections.Counter(c for chants in held.values() if len(chants) >= len(args.cids) - 1
+                                  for c in args.cids if c not in chants)
+    if lacking:
+        print("missing from inventories that lack only one: " + "; ".join(f"{c} {n}" for c, n in lacking.most_common()))
+    for siglum in full[:args.show]:
+        print(f"* {siglum}: " + " ".join("/".join(held[siglum][c]) for c in args.cids) + f"\n  {links[siglum]}")
+
+
 def manuscripts(args):
     query = {"keyword": args.phrase, "op": args.op}
     if args.page > 1:
@@ -126,6 +154,10 @@ def main():
     one = commands.add_parser("next", help="chants that usually follow a chant")
     one.add_argument("cid")
     one.set_defaults(run=following)
+    one = commands.add_parser("seq", help="inventories that have a whole run of chants")
+    one.add_argument("cids", nargs="+")
+    one.add_argument("--show", type=int, default=10, help="inventories with all of them to list")
+    one.set_defaults(run=sequence)
     one = commands.add_parser("ms", help="manuscript readings in the Cantus Database")
     one.add_argument("phrase")
     one.add_argument("--op", choices=["contains", "starts_with"], default="contains")
