@@ -6,7 +6,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-mgx2) describes f
 
 - **Identification:** identified, high. Each tab gives a short run of words, and both match the Glossa in wording and order. Tab B has "-rum ecclesiam s(ibi) c-", "fonte a-" and "-crimas p(ro)ducat". Tab A has "-ua p(ossi)t hostium", "uince(re) & sua defende(re)", "polluta fed[i]t[at]e car-" and "hostes q(uibus)". Three other texts were considered:
   - Paschasius Radbertus's commentary on Lamentations, the source the Glossa draws on here, words the 1:17 sentence differently: "quae possit hostes revincere, suaque defendere dogmata". The fragment follows the Glossa's wording.
-  - Martin of León (d. 1203) copies the 1:16 sentence into a sermon. Full-text searches of his printed works, in the Munich Digitisation Centre's OCR and the Patrologia Latina text, did not find the 1:17 passage.
+  - Martin of León (d. 1203) copies the 1:16 sentence into a sermon. Full-text searches of his printed works, in the Munich Digitisation Centre's OCR and the Patrologia Latina text, did not find the 1:17 passage. This weakens Martin as an alternative but does not conclusively exclude him.
   - Alvarus Pelagius quotes both sentences in *De planctu ecclesiae*, but he wrote in the fourteenth century, later than the fragment's script.
   
   The manuscript reads *lacrimas* and *feditate* with the modern edition, where the 1545 print has *lachrymas* and *foeditate*.
@@ -27,7 +27,7 @@ Manuscript image: [canvas 0, "binding strips"](https://fragmentarium.ms:443/lori
 | Tab A l. 3: [unde sepe fit] polluta fed[i]t[at]e car[nalium] | Unde sepe fit polluta foeditate (Andrée: feditate) carnalium |
 | Tab A l. 4: [...] ?[desider]iorum ?int(er) hostes q(uibus) | operum et sanguine carnalium desideriorum inter hostes, quibus |
 
-The readable words agree with the Glossa except for spelling. The manuscript's *lacrimas* and *feditate* agree with Andrée against the 1545 print's *lachrymas* and *foeditate*. Several words are damaged: the second word of tab A line 1, the opening of tab A line 4, and the opening of tab B line 2. Because the lines end raggedly, as a marginal gloss does where it is fitted around the Bible text, the length of the text lost at the left of each line cannot be used as a check.
+The readable words agree with the Glossa except for spelling. The manuscript's *lacrimas* and *feditate* agree with Andrée against the 1545 print's *lachrymas* and *foeditate*. Several words are damaged: the second word of tab A line 1, the opening of tab A line 4, and the opening of tab B line 2. The surviving line ends are ragged. This is compatible with a marginal gloss fitted around a Bible text, but the tabs do not establish the original page layout; the missing text lengths cannot be checked securely.
 
 The printed texts compared are:
 - *Biblia sacra cum Glossa ordinaria*, vol. 4 (Lyon, 1545), Threni chapter 1: [scan 392](https://www.digitale-sammlungen.de/en/view/bsb10141269?page=392), right marginal column, for tab B, and [scan 393](https://www.digitale-sammlungen.de/en/view/bsb10141269?page=393), left marginal column under "Expandit Sion. Allegori.", for tab A. Both were read from the page images. The running head reads "Glos. ordi. Thren. Cap. I".
