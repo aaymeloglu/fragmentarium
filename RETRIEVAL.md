@@ -17,7 +17,8 @@ is a lead: read the page before relying on it.
 | Manuscript catalogues | `tools/hspsearch.py '"incipit words"'` for German collections, with links to digitised copies; manuscripta.at for Austria; Biblissima and ARCA for France. | Unprinted works: find a digitised manuscript and collate. |
 | BnF manuscripts | `tools/bnf.py 'Latin 15972' info`, then `overview`, `tiles` or `crop` with `--canvas N`. gallica.bnf.fr refuses scripts; this uses BnF's API host. | Reading a named Paris manuscript for comparison. No text search of Gallica's printed books. |
 | Incunable copies | `tools/gw.py <GW number>` lists libraries holding a digitised copy. | Reading the page behind a snippet. |
-| Subject sources | Corpus Thomisticum, Gloss-e, Friedberg's canon law, Analecta Hymnica, Cantus, and the like, directly. | Their own fields. |
+| Liturgical chant | `tools/cantus.py text 'words'` gives Cantus IDs from standard texts (incipit, then anywhere in the text); `cid <id>` counts the feasts, services and genres of every manuscript in the Cantus Index network that has the chant; `next <id>` the chants that usually follow; `ms 'words'` searches Cantus Database manuscript readings in their own spelling. No key. | Confirming and placing a chant once read: the feast, whether the book served the Mass or the Office, how widespread it was. Near complete for antiphons, responsories and Mass chants; thin for hymn strophes, tropes and plays, where a miss means little. Not readings, orations or sermons. |
+| Subject sources | Corpus Thomisticum, Gloss-e, Friedberg's canon law, Analecta Hymnica, and the like, directly. | Their own fields. |
 
 The search service is started once and shared:
 

@@ -924,10 +924,10 @@
   "catalogue_date": "1351 – 1450 CE",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Wrapper made from four manuscripts: Summa Halensis III (as catalogued), Juvencus with glosses, a Lenten gradual, and an unidentified text on giving out of pietas",
-  "note": "Front strip: six consecutive lines match Summa Halensis III, exposition of the Nicene Creed, Quaracchi IV p. 1133 (snippets). Sideways sheets: Juvencus, Evangeliorum libri, Praefatio 4-10 and I 10-14, with glosses (Corpus Corporum; from the first reading, not re-read). Neumed pieces: gradual, Lent IV and Passion Sunday (from the first reading). Back strip unidentified after three passes: a preaching text on pietas shown in giving, with numbered divisions, Luke 11:42 and Valerius Maximus V.1.9 and V.1.8 in the form Cessolis gives them (\"capiti reponi iussit\"), which suggests a date after about 1300. Not the Summa Halensis (its index cites Valerius once, elsewhere), not Cessolis, John of Wales, Peraldus, Servasanctus's Antidotarius or the sermons printed under Bonaventure's name (searched inside; few page images). Untested: Stephen of Bourbon, distinction collections, Servasanctus's unprinted works.",
+  "identification": "Paper pastedowns: Summa Halensis III (as catalogued) and an unidentified text on giving out of pietas. The parchment cover (a gradual) and the Juvencus sheets in the same images are the separate records F-dd8g and F-q01a",
+  "note": "Front strip: six consecutive lines match Summa Halensis III, exposition of the Nicene Creed, Quaracchi IV p. 1133 (snippets). The sideways Juvencus sheets are F-q01a and the neumed parchment cover is F-dd8g (catalogued as an eleventh-century gradual with chants for Passion Sunday); both appear in these images but are not this record. For F-dd8g, a reading of the visible pieces checked in Cantus Index (tools/cantus.py) gives Tuesday of Lent IV (Of Exspectans exspectavi g01210, Cm Laetabimur g00788, then FER IIII) and Saturday of Lent IV to Passion Sunday (GrV Ut quid Domine g00796a, Of Factus est Dominus g00798, Cm Dominus regit me g00799, In Judica me g00800 with V. Emitte lucem, Gr Eripe me g00801 with V. Liberator meus, Tc Saepe expugnaverunt g00803, Cm Hoc corpus g00808, then FER II). The order is the common Roman one and gives no basis for a use or region. Back strip unidentified after three passes: a preaching text on pietas shown in giving, with numbered divisions, Luke 11:42 and Valerius Maximus V.1.9 and V.1.8 in the form Cessolis gives them (\"capiti reponi iussit\"), which suggests a date after about 1300. Not the Summa Halensis (its index cites Valerius once, elsewhere), not Cessolis, John of Wales, Peraldus, Servasanctus's Antidotarius or the sermons printed under Bonaventure's name (searched inside; few page images). Untested: Stephen of Bourbon, distinction collections, Servasanctus's unprinted works.",
   "verify": "https://fragmentarium.ms/overview/F-333n",
-  "examined": "2026-10-12",
+  "examined": "2026-10-14",
   "identified_on": null
  },
  {
@@ -1418,10 +1418,10 @@
   "catalogue_date": "1201 – 1300 CE",
   "status": "partial",
   "confidence": "low",
-  "identification": "Breviary strip: hymn Martyris Christi colimus triumphum (as catalogued) and a second, unidentified hymn for St Lawrence",
-  "note": "The first hymn is confirmed against Daniel, Thesaurus hymnologicus IV p. 140 (OCR), as the catalogue already names it. After the rubric \"In primo No[cturno]\" a second hymn in iambic dimeter follows (\"... Laurentius dignus sac... qui vicit ignium ... Hic unus est e... columnis lucidis ... simulque fecit opifex\"). One strophe opens like \"Quid furis, hostis impie\" in Devota mente socii (Analecta Hymnica 14 no. 103) but continues differently; an OCR scan of all 55 volumes of Analecta Hymnica, Cantus Index, Corpus Corporum and Google Books found nothing else. About twenty letters are lost at the left of every line, so the incipit is unknown. Sister fragments in Tübingen UB (Mm IV 1, Mm V 28, Gb 55 a.4), which may have the text entire, are not digitised.",
+  "identification": "Breviary strip: hymn Martyris Christi colimus triumphum (Cantus 008347, as catalogued) and a second, unidentified hymn for St Lawrence at Matins",
+  "note": "The first hymn is confirmed against Daniel, Thesaurus hymnologicus IV p. 140 (OCR), as the catalogue already names it; it is widespread (Cantus 008347: 25 sources in Bohemia, Slovakia, Austria, south Germany, Hungary and Italy, 11th-16th c., mostly at Vespers), so it does not place the book. After the rubric \"In primo No[cturno]\" a second Lawrence hymn in four-line iambic strophes follows (\"... Laurentius dignus sac... qui vicit ignium ... Hic unus est e... columnis lucidis ... simulque fecit opifex\"); about twenty letters are lost at the left of every line, so its incipit is unknown. None of the Lawrence hymns in Cantus Index or the Cantus Database has its strophes, including the Matins hymns of the manuscripts that also have 008347; its one shared half-strophe, \"Quid furis hostis impie\", belongs to Devota mente socii (AH 14 no. 103), which Benevento 20 appears to sing at Lawrence Matins (doxology only) and which the Rheinau hymnaries also carry. The Tübingen UB sister fragments (Mm IV 1, Mm V 28, Gb 55 a.4), not digitised, remain the best chance of the full text.",
   "verify": "https://fragmentarium.ms/overview/F-10zj",
-  "examined": "2026-10-12",
+  "examined": "2026-10-14",
   "identified_on": null
  },
  {
@@ -1456,10 +1456,10 @@
   "catalogue_date": "1101 – 1200 CE",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Florilegium of short extracts (gloss on Wisdom 1:7, Peter Damian against clerical marriage, the five reasons for St Peter's tonsure); the compilation is not identified",
-  "note": "The prose column strings together three extracts. The tonsure passage has the reworked form with both closing sentences that Munich Clm 4654 f. 62v has (compared on the page image) and that Fournier reports for Collectio XII partium III.277; two sentences headed 'Petrus Damiani ... in uxores clericorum' match his letter against clerical marriage as quoted in MGH Libelli de lite I p. 354; the gloss on Wisdom 1:7 has no source found. No manuscript or work with the three together was found; Corpus Corporum searches of the twelfth-century liturgical handbooks were negative. The neumed Easter dialogue on the other half is in leonine hexameters ('Cur estis tristes, quid queritis hic mulieres') and none of its verses was found in the searchable sources; Lipphardt and Young could not be searched, so it may or may not be edited.",
+  "identification": "Florilegium of short extracts (gloss on Wisdom 1:7, Peter Damian against clerical marriage, the five reasons for St Peter's tonsure); the compilation is not identified. The neumed Easter dialogue in leonine hexameters on the other leaf is not identified.",
+  "note": "The prose column strings together three extracts. The tonsure passage has the reworked form with both closing sentences that Munich Clm 4654 f. 62v has (compared on the page image) and that Fournier reports for Collectio XII partium III.277. Two sentences headed 'Petrus Damiani ... in uxores clericorum' match his letter against clerical marriage as quoted in MGH Libelli de lite I p. 354. The gloss on Wisdom 1:7 has no source found, and no manuscript or work with the three together was found. The neumed Easter dialogue ('... medicamina demus. Cur estis tristes, quid queritis hic, mulieres? Querimus hic Iesum quem novimus esse sepultum. Si surrexisset, dic nobis ...'; the angel's '... uacuus ... positus ... uos preuenit in galileam') is in none of these: Cantus Index standard texts or Cantus Database manuscript readings (October 2026; the drama items there include Einsiedeln, Prague, Vic and Wilton Visitationes); Lange 1887, Milchsack, Coussemaker, Analecta Hymnica 19-21, 46-49 and 52-55 in full text; Lipphardt's Lateinische Osterfeiern und Osterspiele III-VI and Young I-II by Google Books in-volume search. Lipphardt I-II could not be searched, so it may still be edited there.",
   "verify": "https://fragmentarium.ms/overview/F-wbbg",
-  "examined": "2026-10-12",
+  "examined": "2026-10-14",
   "identified_on": null
  },
  {
@@ -3035,9 +3035,9 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "One exposed line of a noted chant ('...arni si...'); the rest is under the pastedown",
-  "note": "Only \"[...]arni si[...]\" and a red initial A are exposed along the joint; the rest of the strip is under the pastedown. All eight images were checked and none shows more. No chant can be named from this; the fragment stays unidentified until the pastedown is lifted or imaged through.",
+  "note": "Only \"[...]arni si[...]\" and a red initial A are exposed along the joint; the rest of the strip is under the pastedown. All eight images were checked and none shows more. Cantus Index and the Cantus Database (tools/cantus.py, standard texts and manuscript readings, substring) give one chant with the sequence: the Agnes antiphon Beata Agnes in medio flammarum (Cantus ID 001559) as written in Vienna Cod. 1890, 'et carni spurcitias'. It does not fit: the letter after long s is a minim with no descender, so the fragment cannot read 'sp'. No chant can be named; the fragment stays unidentified until the pastedown is lifted or imaged through.",
   "verify": "https://fragmentarium.ms/overview/F-drrc",
-  "examined": "2026-10-13",
+  "examined": "2026-10-14",
   "identified_on": null
  },
  {

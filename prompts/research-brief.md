@@ -55,12 +55,18 @@ Look at every leaf and face before characterising the fragment.
 - `tools/mnlsearch.py 'phrase'`: the Corpus Middelnederlands, for Middle Dutch.
 - `tools/schneyer.py` (sermon repertory), `tools/hspsearch.py` (German
   manuscript catalogues), `tools/gw.py <GW number>` (digitised incunables).
+- `tools/cantus.py text 'words'`, then `cid <id>`: chant in Cantus Index and
+  the Cantus Database. Use it to confirm a chant you have read and to place it
+  (feast, Mass or Office, how widespread), and `ms` for partial words. Its
+  coverage is near complete for antiphons, responsories and Mass chants and
+  thin for hymn strophes, tropes and plays: there a miss means little, so go
+  to Analecta Hymnica and the drama editions.
 - `tools/bnf.py '<shelfmark>' info`, then `overview`, `tiles` or `crop` with
   `--canvas N`: pages of a Paris (BnF) manuscript. gallica.bnf.fr itself
   refuses scripts, so do not report a BnF manuscript as unreachable before
   trying this. Gallica's printed books cannot be text-searched from here.
 - Web search and fetch for everything else: Corpus Thomisticum, Gloss-e,
-  archive.org, e-codices, DigiVatLib, Biblissima and ARCA, Cantus,
+  archive.org, e-codices, DigiVatLib, Biblissima and ARCA,
   Analecta Hymnica, and library catalogues.
 - Never fetch books.google.com page or image addresses: that triggers captchas
   that break the search service for everyone. If a source is blocked, say so
