@@ -97,6 +97,17 @@ def test_cantus_concordances_counted_with_blanks_as_unknown():
     assert counts['service'] == {'MASS': 1, '?': 1}
 
 
+
+def test_cantus_holdings_keep_every_folio_per_inventory(monkeypatch):
+    rows = {'g1': [{'siglum': 'A', 'folio': '1r', 'srclink': 'a'}, {'siglum': 'A', 'folio': '9v', 'srclink': 'a'},
+                   {'siglum': 'B', 'folio': '2r', 'srclink': 'b'}],
+            'g2': [{'siglum': 'A', 'folio': '1v', 'srclink': 'a'}]}
+    monkeypatch.setattr(cantus, 'index_json', lambda endpoint, cid: {'chants': rows[cid]})
+    held, links = cantus.holdings(['g1', 'g2'])
+    assert held['A'] == {'g1': ['1r', '9v'], 'g2': ['1v']} and set(held['B']) == {'g1'}
+    assert links == {'A': 'a', 'B': 'b'}
+
+
 def test_catalogue_millimetres_long_side_first():
     assert survey.millimetres('39 x 193 mm') == (193.0, 39.0)
     assert survey.millimetres('ca. 45 x 100 mm') == (100.0, 45.0)

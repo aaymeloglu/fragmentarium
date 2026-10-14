@@ -57,7 +57,8 @@ Look at every leaf and face before characterising the fragment.
   manuscript catalogues), `tools/gw.py <GW number>` (digitised incunables).
 - `tools/cantus.py text 'words'`, then `cid <id>`: chant in Cantus Index and
   the Cantus Database. Use it to confirm a chant you have read and to place it
-  (feast, Mass or Office, how widespread), and `ms` for partial words. Its
+  (feast, Mass or Office, how widespread), `seq` to test a run of chants
+  against every inventory, and `ms` for partial words. Its
   coverage is near complete for antiphons, responsories and Mass chants and
   thin for hymn strophes, tropes and plays: there a miss means little, so go
   to Analecta Hymnica and the drama editions.
