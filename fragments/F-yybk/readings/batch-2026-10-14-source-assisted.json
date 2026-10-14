@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-14T19:36:02.007554+00:00",
+  "first_reading": "batch-2026-10-14-image-only",
+  "first_sha256": "65eeba2796a94d341a2521790e3fa1277fac0ebdad8c5a49f67859cdb02d3538",
+  "fragment": "F-yybk",
+  "id": "batch-2026-10-14-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "The image-only reading mistook the mensura abbreviation for maior/minor and read the overlying paper as fragment text; rereading the pastedown against Otto's edition corrected the readings and located both passages.",
+  "schema_version": 1,
+  "sources": [
+    "A. Otto (ed.), Johannis Daci Opera, Corpus Philosophorum Danicorum Medii Aevi I.2 (Copenhagen 1955), De gradibus formarum, pp. 554-555 and 561 (Google Books snippets, volume W6_-U19xpMgC)",
+    "O. Weijers and M. Calma, Le travail intellectuel à la Faculté des arts de Paris: Répertoire des noms commençant par J (suite), Studia Artistarum 11, entry Johannes Dacus, De gradibus formarum",
+    "G. Sajó, report on the Budapest manuscript, fols. 8v-15r, in Philosophes médiévaux (1954) (Google Books snippet)"
+  ],
+  "text": "Source-assisted reading of F-yybk, made after seeing Otto 1955 (Google Books snippets). A research reader reread all visible lines of canvas 0 (lines 2-11) and the joint line of canvas 11 on the image. The coordinator reread canvas 0 lines 8-11. Line 1 of canvas 0 (illegible) rests on the image-only reading. Accuracy has not been measured.\n\nConventions: () expansion, [] supplied or lost letters, (?) doubtful, ... lost or unread.\n\nCanvas 0, Cod1936_VDS_Detail2, https://fragmentarium.ms:443/loris/F-yybk/Cod1936_VDS_Detail2.JPG/full/1970,/0/default.jpg\nNative box about 780,1450-1700,2450, read rotated 180 degrees; line beginnings lost at the tear, ends in the curl.\nl.1  ... [illegible] ...\nl.2  ...[ratio]nem g(e)n(er)is ...\nl.3  ...d(ic)tis(?) s(ecundu)m anologi(am) ...\nl.4  ...[de o]mnib(us)(?) entib(us) d(icitu)r s(ecundu)m analo[giam]\nl.5  ...[pri]m(um)(?) . Q(uo)d a(utem) h(ec) m(en)s(ur)a p(ri)us ...\nl.6  ...e(n)tia m(en)s(ur)am p(ar)ticipa(n)t q(ue) e(st) m(en)s(ur)a ...\nl.7  ...ad r(ati)o(n)em s(ub)st(anti)e(?) p(ri)us s(un)t e(n)tia q(ua)m acc(identi)a ...\nl.8  [absoluto] vo(cabu)lo . [red paraph] Acc(iden)tia a(utem) d(icu)nt(ur) entia p(ro)pt(er)\nl.9  [entita]te(m) q(ue) i(n) eis e(st) s(ed) i(n) ...\nl.10 ...m(en)s(ur)a i(gitur) i(n) entib(us) p(ri)us ...\nl.11 (et) sic p(ate)t s(ecundu)m . Q(uo)d a(utem) d(eu)s sit h(ec) m(en)s(ur)a ... q(ui)a(?) ...\n\nCanvas 11, Cod1936_VDSFalz, https://fragmentarium.ms:443/loris/F-yybk/Cod1936_VDSFalz.JPG/full/1074,/0/default.jpg\nNative box about x 690-810, y 800-3700, read rotated 90 degrees anticlockwise (top of strip first); one line.\n...[primum] s(ub)s(tans) e(st) m(ateri)a p(ri)ma(?) . na(m) q(ui)cq(ui)d s(ub)stat ... [s(ub)]stat(?) ...   [middle and end very uncertain; the catalogue's \"minorem unionem\" and \"locus est dupliciter\" not located]\n",
+  "text_sha256": "17d64ac8d2d3b09bcf38d8852eb5764c12156843407ba1489a7dcdc39b9c8ba8"
+}
