@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-10-14T18:49:15.854249+00:00",
+  "fragment": "F-r1e2",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "dfd0135abe193bf8dc858b2857506c9d88ff409e60a101e5ffe496a04f19a070",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_2_v_1_r.jp2/full/4653,/0/default.jpg (canvas 0, fol. [2]v-[1]r): whole image 4653x2598 reduced to 1800x1005 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "4aaff60c64ce54c6636d223aa88b1137bd944faa8472752b1137981e5168614a",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_2_v_1_r.jp2/full/4653,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 418,441,1434,1247; unrotated grid position column 1 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "5e1e51036b4b70176e2549b66967d4e6dd5b0f2b7bfe1e362c4cf179d98db9b1",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_2_v_1_r.jp2/full/4653,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 1216,441,2341,1247; unrotated grid position column 2 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "6e65f0b17a0c417fcdc792eea50f29b13f00886bfd70d56afcc28ef0fdc80f57",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_2_v_1_r.jp2/full/4653,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 2124,441,3249,1247; unrotated grid position column 3 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "9440b9fa5cff427f3af0d514aac84fbdf46543eb34be388baafb3661a278d6e8",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_2_v_1_r.jp2/full/4653,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 3031,441,4048,1247; unrotated grid position column 4 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "d380072d81b8a31dc0ad2710694c26daf7f8c24445ca3996c9947341b09d5c8d",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_1_v_2_r.jp2/full/4563,/0/default.jpg (canvas 1, fol. [1]v-[2]r): whole image 4563x2151 reduced to 1800x849 for layout"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "fbcf1b684d56b39258c6cb8c8674176eed202b392249e824ff1622151d0cebb9",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_1_v_2_r.jp2/full/4563,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 273,365,1371,1075; unrotated grid position column 1 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "23d8e95c551636dd43bcdd43572454d8bbdddc743c8d5cf232762d5174b336b7",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_1_v_2_r.jp2/full/4563,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 1136,365,2352,1075; unrotated grid position column 2 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "b957a0721b0db107af29795c6a21b87660f2b3e06f1dafb65b6f45dec277c676",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_1_v_2_r.jp2/full/4563,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 2117,365,3333,1075; unrotated grid position column 3 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "1c8c9acf9ff4a6d53ef8124d5a834cbf80b5b86373cb60d7d2136fe44ce81f33",
+        "source": "https://fragmentarium.ms:443/loris/F-r1e2/fol_1_v_2_r.jp2/full/4563,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 3098,365,4197,1075; unrotated grid position column 4 of 4, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-09)",
+  "text": "packet-09 - unverified blind image reading (reader D)\n\nEXPOSURE / PROCEDURE NOTES\n- No proposed identification or earlier reading of this fragment was in my\n  context.\n- Beyond the brief: I made greyscale contrast-boosted 2x enlargements (upper\n  and lower halves) of tiles 002-005 and 007-010 in my scratchpad folder\n  (readerD/). To find the image files without listing the directory I probed\n  image-NNN.jpg names in sequence (found 001-010). No other files opened.\n\nLAYOUT SURVEY (observation)\n- image-001: one face of a long horizontal parchment strip, c. 30 x 6 cm,\n  with a modern white number \"15 7370?\" / \"K 7370?\" written at the left end.\n  image-006: the other face (held flat with glass rods).\n- The strip was cut ACROSS a leaf: text lines run along the strip. Several\n  columns of very small, dense gothic text are visible side by side,\n  separated by ruled intercolumns (pale vertical bands): on face 1 at least\n  four column blocks (left of c. 6 cm, c. 10, c. 14, c. 17 cm on the ruler\n  scale) - tentatively the strip spans more than one page (e.g. a\n  conjugate pair or a bifolium folded), but this is uncertain.\n- A horizontal fold / crease with slits runs the full length about 2/3\n  down; text on both sides of it.\n- c. 20-24 lines visible per column; tiny script, heavy abbreviation, brown\n  ink much faded and stained. No coloured initials or rubrics seen. Some\n  words appear underlined or overlined (possibly lemmata or headings;\n  tentative). Paragraph marks / spaces before \"Ad primum\", \"Ad secundum\"\n  are visible (image-004).\n- Tiles: 002-005 cover face 1 left to right; 007-010 cover face 2. Tiles\n  overlap their neighbours at the edges.\n\nSELECTED SPANS\nI chose the best-preserved block, the column in image-004 (face 1, third\nblock), and read it fully as far as possible; I add short readings from\nimage-002 and image-008. Other blocks remain largely unread.\n\nTRANSCRIPTION\nConventions: (x) expansion; x? uncertain; [..] [illegible]; line numbers\ncount from the top of the named tile (lines cut by the top edge counted).\n\nimage-004.jpg - column block in the centre of the tile\n  l.1   [..] q(uod)? [..] p(ro)p(ri)e? [..] . si? sic? dem[..]\n  l.2   [..]onis? . q(ui)a? (com)plexio no(n) e(st) forma (com)plent[..]\n  l.3   [..] e(st) prius? . Quia? / Item? e(st) q(uod) cognoscit(ur)? p(er) p(ri)us? q(uam)? [..] (com)p[..]\n  l.4   d(icitu)r? e(st)? q(uod) cognoscit(ur)? (et) p(ro)p(ri)a? sic s(ecundu)m cognoscit(ur) eu(m)? n(on)? [..] p(ro)p(ri)u(m)?\n  l.5   talis . [..] e(st)? forma? d(icitu)r? . nulla? (?) e(st)? s(ub)sistit? e(st) [..]\n  l.6   e(st) huius? (com)plexio n(on) e(st) for(ma) (com)plexionis? corp(or)is .\n  l.7   S(ed) (com)plexio e(st) for(ma) (com)plexionis corp(or)is . [..] ad ide(m) e(st) [..]\n  l.8   ma(teri)a? forma? ab ip(s)a? [..]q(ui)tur forma (com)plexionis? et? [..] corp(us)? [..]\n  l.9   [..] (com)positio? (?) ge(ner)a? .  [..] (com)plexio s(ecundu)m for(mam)? corp(or)is [..]\n  l.10  [..] (com)plexio n(on) e(st) e(st)? . [..] p(ro)p(ri)e? [..] e(st)? [..]\n  l.11  [..] e(st) for(ma) (com)plexionis corp(or)is . [..] e(st) de? (?) o(mn)ib(us) [..]\n  l.12  [..] e(st) for(ma) (com)plexionis corp(or)is . s(ed)? s(ecundu)m? (com)plexio . [..] e(st) (?)\n  l.13  [..] forma? (?) a(n)i(m)a? (?)uenit? et? [..] p(er) (com)plexio(nem) . S(ed) (com)plexio e(st)\n  l.14  for(ma)? (com)plexionis corp(or)is? . [..] inferiora? [..] i(n) for(ma) (com)plexio(n)is?\n  l.15  [..] (?) corp(or)is p(ro)? [..] e(st)? i(n) ge(ner)e? . ad h(oc) d(icendu)m q(uod) [..]\n  l.16  (com)plexio no(n) e(st) p(ro)pria? corp(or)is . S(ed) d(ic)endu(m)? [..] (com)p(lexio) [..] et uariat(ur) p(er) [..]\n  l.17  [..] (com)plexionis corp(or)is acc(i)p(i)at(ur) (com)plexio (?) uariat(ur)? q(uia) n(on) e(st) n(ecess)e? [..]\n  l.18  [..]tione? ad hanc p(ar)tem? .  Ad p(ri)ma(m) ig(itur) r(ati)o(nem) i(n) g(e)n(er)e? [..] d(icendu)m q(uod) i(n) corp(or)e (com)plexio\n  l.19  [..] duo? (?) i(n)?hac? corp(or)is? (?) ra(ti)o(n)e? [..] (?) no(n) s(ecundu)m? (?) . S(ed) accide(n)s? [..] e(st)\n  l.20  [..] accide(n)s q(uia) e(st) i(n) (com)plexione? .  Ad s(ecundu)m d(icendu)m q(uod) (com)p(lexio)? corp(or)is e(st) duplex . Vna\n  l.21  [..] (com)plexio corp(or)is m(ixti)? . (et) h(ec) magis? [..] s(ecundu)m s(ub)stantia(m)? p(ro)p(ri)a(m)?\n        [horizontal fold with slits; 1-2 lines damaged]\n  l.23  [..] (com)plexio? (?) p(ro)p(ri)a? organice? .  Ad (ter)tiu(m)? d(icendu)m q(uod)? accide(n)tal(is)? [..]\n  l.24  [..] (com)ponere? (?) sensu? / sensui? (et) sic? (com)plexio? corp(or)is? [..] (et) sic n(on) e(st) n(ecess)e q(uod)\n  l.25  [..] (?) (com)plexiona(t)a? . S(ed) p(er) dispo(sitio)n(em) accide(n)talis? .  It(em) (com)plexio n(on) e(st)\n  l.26  [..] s(ecundu)m materia(m) corp(or)is? h(ec) (?) (com)plexionis . S(ed) h(ec) dispo(sitio) talis? .  Ad [..]\n  l.27  [..] q(uod) (com)plexio n(on) e(st) for(ma) (com)plexionis? . S(ed) e(st) accide(n)talis? tal(is)? .  It(em) no(n) e(st)\n  l.28  [..] (?) i(n) organis? (com)plexio(n)? [..] (com)plexionis? i(n)ferioribus? (com)p(re)? dispo(sitio) (com)[..]\n  NB l.14-17 of image-004 lower half repeat l.13-16 of the upper half in my\n  enlargements; counted once above.\n\nimage-004.jpg - narrow block at far right (line beginnings of next column)\n  scattered: \"ui(us)?\", \"nil?\", \"(con)tra?\", \"col(or)?\", \"a ob[..]\", \"colo[..]\"\n  - too fragmentary to transcribe connectedly.\n\nimage-002.jpg - left block, sample lines (counted from tile top)\n  l.12  [..]trar(ium)? / [..] (?) d(icitu)r (?) ra(tio)ne? [..] ad (con)tra? (?) gr(adu)s?\n  l.15  [..] ut? [..] sic? (com)p(lexio)? [..] ap(er)i(t)? (?)olt? [..] uni(us)? (?)\n  l.20  [..] sem(per)? toti(us)? (?) loco? h(ic)? d(icitu)r? . (com)plexio? [..]\n  (rest of block [illegible] at this resolution)\n\nimage-008.jpg - face 2, central block, sample lines\n  l.6   [..] (com)p(ar)ata? . [..] q(ui)? (?) . [..] qualitas? (?) ita? [..]\n  l.7   [..] (?) . G(e)n(er)alit(er)? [..] uirtutes? [..] (?)ue? [..]\n  l.8   [..] (?) ex (?) aliq(ui)d? . [..] alia? a(n)i(m)a? [..]\n  l.12  [..] (?) qualitas? (con)traria? [..] qualitat(is)? (?)\n  l.13  [..] ut? (?) colo(rem)? (?) (et) cu(m)? [..] (?) sic? (?) . (?) d(icitu)r? (?) . [..] a q(uo)? [..]\n  (rest [illegible])\n\nSELECTED / UNREAD\n- Read: image-004 central column (most of c. 27 lines, with many uncertain\n  words). Recurring and fairly secure: \"(com)plexio\", \"for(ma)\n  (com)plexionis corp(or)is\", \"Ad p(ri)ma(m) ...\", \"Ad s(ecundu)m\n  d(icendu)m q(uod) ... e(st) duplex . Vna\", \"accide(n)talis\",\n  \"dispo(sitio)\". These suggest a scholastic question with replies to\n  arguments (Ad primum / Ad secundum / Ad tertium) - an interpretation, not\n  an identification.\n- Mostly unread: the column blocks in image-002, 003, 005 (face 1) and all\n  of 007, 009, 010 (face 2); only samples given above.\n\nLIMITATIONS\n- The script is extremely small; the tiles are at the edge of legibility.\n  Higher-resolution capture (and raking light for the creases) is needed\n  for a full reading of the remaining columns.\n- Column order across the strip and which face is the outer side are\n  unknown. Overlap between neighbouring tiles was not exhaustively mapped.\n",
+  "text_sha256": "c37c0a399a46a1d997d0049e5d02448a4423b5d3ab5a9feb9c247a85e2d33557"
+}

@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-10-14T18:49:15.845833+00:00",
+  "fragment": "F-b40w",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "995e5a357c267b09bef5ea1cf7fa60b0aa826e57683c537419998f0bb57606a0",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_phy.jp2/full/7933,/0/default.jpg (canvas 0, mds_02Ga29_phy): whole image 7933x9852 rotated 180 degrees counterclockwise and reduced to 1449x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "a013fb760ad65debfd4a1c246190495574a25c4a4e1a346a7e23d1bbb86ce094",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_phy.jp2/full/7933,/0/default.jpg (canvas 0, mds_02Ga29_phy): native-pixel box 3807,492,4839,2522, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 5"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "0413b947c1a701ec78dabdb11334711d0fe90e512393d6e6b937671917960c4d",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_phy.jp2/full/7933,/0/default.jpg (canvas 0, mds_02Ga29_phy): native-pixel box 3807,2087,4839,4335, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 2 of 5"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "d5e3ca95f8eec1807aac4427b2c1f17f3cef5cc06a0e6267f47c4768b1abed65",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_phy.jp2/full/7933,/0/default.jpg (canvas 0, mds_02Ga29_phy): native-pixel box 3807,3900,4839,6147, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 3 of 5"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "d642e1656ae8c9e679342725654dae229d5e545214655faa9085ca9c26f566d3",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_phy.jp2/full/7933,/0/default.jpg (canvas 0, mds_02Ga29_phy): native-pixel box 3807,5712,4839,7960, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 4 of 5"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "69769d8076515ce4cc0372bbd560468c4f658b5a3947c8fb21c11ae3e4f282c7",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_phy.jp2/full/7933,/0/default.jpg (canvas 0, mds_02Ga29_phy): native-pixel box 3807,7525,4839,9556, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 5 of 5"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "6c418ef88af9939a026dbb6cce86b1fbda7d926d4eaef908811ee8c86a029641",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_piatto_post_cont.jp2/full/7933,/0/default.jpg (canvas 1, mds_02Ga29_piatto_post_cont): whole image 7933x9852 rotated 180 degrees counterclockwise and reduced to 1449x1800 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "c8a29583a59dc1ba901af384d0b56c13cafb3fe981d46394c18eb87e3f42cee6",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_piatto_post_cont.jp2/full/7933,/0/default.jpg (canvas 1, mds_02Ga29_piatto_post_cont): native-pixel box 3093,394,4442,2446, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 5"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "da78db2efb2400058135b8989ddaac6a997d9b87fd1232d5584e045580a0b6b1",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_piatto_post_cont.jp2/full/7933,/0/default.jpg (canvas 1, mds_02Ga29_piatto_post_cont): native-pixel box 3093,2006,4442,4278, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 2 of 5"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "719056fa9b82e6c880ac27e98668b3d3d09e481740faee223b406e48beb5a0f3",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_piatto_post_cont.jp2/full/7933,/0/default.jpg (canvas 1, mds_02Ga29_piatto_post_cont): native-pixel box 3093,3838,4442,6111, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 3 of 5"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "9ee380f2c933baf25d9ff6979b42f5c63d88fbde828a187d46616dfdec3c3cb5",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_piatto_post_cont.jp2/full/7933,/0/default.jpg (canvas 1, mds_02Ga29_piatto_post_cont): native-pixel box 3093,5671,4442,7943, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 4 of 5"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "395441cb538c0e293e5e950bfd1c5a8f41a282f623ed8ec01f7a75c7076ec056",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_piatto_post_cont.jp2/full/7933,/0/default.jpg (canvas 1, mds_02Ga29_piatto_post_cont): native-pixel box 3093,7503,4442,9556, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 5 of 5"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "6fe1f643888232ffb38bb29ee7906bc622a0e09e571d0868ba067be0eced3c39",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_rinforzo.jp2/full/7933,/0/default.jpg (canvas 2, mds_02Ga29_rinforzo): whole image 7933x9852 reduced to 1449x1800 for layout"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "2509d652cf1636d1fca50e37f837789eeafb34651a44bc3a9928ad6dca5afd13",
+        "source": "https://fragmentarium.ms:443/loris/F-b40w/mds_02Ga29_rinforzo.jp2/full/7933,/0/default.jpg (canvas 2, mds_02Ga29_rinforzo): native-pixel box 1983,6699,3173,8472; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-05)",
+  "text": "packet-05 - unverified blind image reading (reader D)\n\nEXPOSURE / PROCEDURE NOTES\n- No proposed identification of the fragment's text was in my context.\n- image-013.jpg shows the printed title page of the HOST volume (an Italian\n  printed book with a Venice imprint). This is visible in the supplied images\n  and identifies the host book, not the fragment. I did not use it for reading.\n- Beyond the brief: I made contrast-enhanced greyscale copies, and mirrored\n  copies, of tiles 002, 003, 004, 008, 010, 011, 012 in my own scratchpad\n  folder (readerD/) to try to read faint strokes. No other files opened.\n\nLAYOUT SURVEY (observation)\n- image-001 (overview, front cover) and image-007 (overview, back cover): a\n  limp parchment wrapper. A vertical parchment strip (c. 4-5 cm wide visible)\n  from a manuscript leaf runs along the spine side, between a grey paper\n  repair panel and the main cover parchment. Ink is very abraded / faded\n  brown; only the strip's width of each line is visible (perhaps 6-10\n  letters per line), the rest is covered by the cover turn-in or paper.\n- Alternating red and blue lombard-style initials, each 1-2 lines high, at\n  the left edge of the text block with pen-flourish extensions (red with blue\n  penwork, blue with red penwork). Initials seen: blue C/E-shaped (001 top),\n  blue I (001 top / 006), red C/E-shaped (004), red R (004), blue initial\n  (001 lower; 003 frame), on the back: blue I/L and blue D (008), red R and\n  red E/C (010, mirrored), blue square bracket-like frame (003, 011).\n- Initials recur every few lines, which suggests (tentatively) short items\n  such as verses/versicles, but I cannot confirm this from the crop.\n- image-010 and image-011 (back cover) show text and initials MIRROR-REVERSED.\n  Mirroring 010 gives the same layout as 004 (red C/E-shaped initial over a\n  red R). I take 010/011 to be the same strip area seen through the\n  parchment or as an offset, not additional text. Treat as overlap.\n- image-012: upper part of back strip, top margin blank, then faint lines.\n- image-014: spine, paper/parchment lining with one line of dark brown text\n  and a line in red ink below; heavily wormed. Script there looks larger.\n- No running titles, no glosses or marginalia visible.\n\nREADINGS\nThe ink is so abraded that no word could be read with confidence. Letter\ngroups below are offered only as shapes; every one is uncertain.\n\nimage-004.jpg (front strip, middle; counted from top of tile)\n  l.1-3   [illegible] (traces only)\n  l.4     red initial C or E (2-line) followed by [illegible]\n  l.5-9   [illegible] (white abrasion stain across lines)\n  l.10    [illegible] ...re? / ...ce?\n  l.11    red initial R + [illegible] ...e?\n  l.12    R(cont.) ...oo? / ...os? hem? or b(e)m? [illegible]\n  l.13    ...nur? / ...mir? [illegible]\n  l.14    ...ma? [illegible]\n  l.15-   [illegible]\n\nimage-003.jpg (front strip, lower)\n  l.1-6   [illegible]\n  l.7     blue initial traces (pale, round) [illegible]\n  l.8     ...rie? / ...cie? [illegible]\n  l.9     ...nis? ...pib(us)? [illegible]\n  l.10    [illegible]\n  l.11    red round initial (O/C?) + [illegible] ...o\n  l.12    ...ac? [illegible]\n  l.13    blue frame line of an initial; then ...no? [illegible]\n  l.14    ...ncis? / ...mcle? [illegible]\n\nimage-002.jpg (front strip, lower): about 8-9 lines, all [illegible]; the\n  last line ends in shapes like ...lieue? / ...ietie? (very uncertain); below\n  it blank parchment (lower margin or end of text block).\n\nimage-006.jpg (front strip, top): about 4 lines before a blue C/E initial,\n  then a blue I initial with red penwork 3 lines lower; all text [illegible].\n\nimage-008.jpg (back strip): blue I/L initial and blue D initial with red\n  penwork on the right edge (adjacent to the cover edge); text to their\n  left [illegible].\n\nimage-012.jpg (back strip top): blank top area, then c. 6 lines; first\n  readable shape ...uniue? / ...iuuare? (mirrored? uncertain), rest\n  [illegible].\n\nimage-014.jpg (spine lining): brown ink line: ...nu... [illegible];\n  red ink line below: fra? ... 7? ... (could be a later label, uncertain).\n\nAREAS UNREAD / LIMITATIONS\n- Effectively all text remains unread; the gaps reflect the state of the ink,\n  not unviewed tiles. Each tile was examined at native size and enhanced.\n- Line counts are approximate because the ruling is invisible.\n- Only the strip width is exposed; line ends/beginnings beyond the turn-in\n  are hidden.\nSUGGESTIONS\n- Multispectral or UV imaging of the strip; or imaging from inside the cover\n  if the turn-in can be lifted (the mirrored text in 010/011 suggests the\n  ink is visible from the other side too). Raking light on 003/004.\n",
+  "text_sha256": "5b4d19e67bf08dfd6b294c3a8792b076ff5a36fa6788cf04bdf93efa598307e9"
+}

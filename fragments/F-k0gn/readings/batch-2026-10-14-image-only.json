@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-10-14T18:49:15.871726+00:00",
+  "fragment": "F-k0gn",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "7c25d62f33096e5f1411704ddde5c18276dd8813b0118d98aa17583452334960",
+        "source": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0039/0000003937/00000001.jpx/full/4475,/0/default.jpg (canvas 0, 1r): whole image 4475x1045 reduced to 1800x420 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "78a7bca2fce6ef7552c86c3c0e3003c0194fd35791a9c22e39dbfa356c13b75e",
+        "source": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0039/0000003937/00000001.jpx/full/4475,/0/default.jpg (canvas 0, 1r): native-pixel box 0,0,2506,1045; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "81c645c6199cb100d799d3744ce34347722eee8c7940b3d0f884862ea658138b",
+        "source": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0039/0000003937/00000001.jpx/full/4475,/0/default.jpg (canvas 0, 1r): native-pixel box 1969,0,4475,1045; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "672b39e09538556d114b70b3e01839ff7e442d4513fea09cac65be68cdc9f09c",
+        "source": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0039/0000003937/00000002.jpx/full/4490,/0/default.jpg (canvas 1, 1v): whole image 4490x1016 reduced to 1800x407 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "cfa01e58efc458b8302b9af67f3bf12eba63b6b25457f7616be1103052544de7",
+        "source": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0039/0000003937/00000002.jpx/full/4490,/0/default.jpg (canvas 1, 1v): native-pixel box 0,0,2514,1016; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "7480f532380d9663be6f2efe38d99f470e2fd9bc2a8e525f6bf960ba72090c21",
+        "source": "https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0039/0000003937/00000002.jpx/full/4490,/0/default.jpg (canvas 1, 1v): native-pixel box 1975,0,4490,1016; unrotated grid position column 2 of 2, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-14)",
+  "text": "PACKET-14 - unverified blind image reading\n\nExposure: nothing in my context proposed an identification or reading of this text. I did nothing beyond the brief, except that I used `ls` on the packet directory to get the image filenames and `sips` to get the image pixel sizes.\n\nLAYOUT SURVEY (image-only)\n- There are two faces of one narrow parchment strip, long and about 2 cm high in proportion. Face A is overview image-001 with tiles image-002 (left half) and image-003 (right half). Face B is overview image-004 with tiles image-005 (left) and image-006 (right). There is no scale bar.\n- Face A:\n  - Line 1, along the top edge: a darker, larger gothic textualis in brown-black ink. A red-touched capital stands mid-line, with a further red mark near the right end. The tops of the letters are trimmed by the cut edge.\n  - Lines 2-3: a smaller, paler, more cursive hand, written lower on the strip with wide interlinear space. The ascenders and descenders are looped. Observation only: this could be a different hand or layer from line 1, for example a later addition or a gloss. That is tentative.\n  - Further down the right end, faint traces of a 4th line and of a looped letter at the far right edge.\n  - At the left end, a 2 cm band discoloured by adhesive. It has a slit, a turn-in or fold line, and no text.\n- Face B: no text visible. It has stains, adhesive bands at both ends, a small red speck at the lower edge, and faint ruling? It is probably the blank or pasted side.\n- Selected: all three lines on face A. Unread: the 4th-line traces (too faint).\n\nTRANSCRIPTION\nLine numbers count from the top of each tile. image-001 is the overview and duplicates both tiles.\n\n== Face A, line 1 (larger script; image-002 continuing into image-003) ==\nimage-002 l.1  R(?) / ?Ry? ?Uenite? / ?Benite? / ?ue(n)ite?  ?benedicamus? / ?benedicentes? / ?bene dicamus?  ?d(omi)n(o)? / ?dnis?\nimage-003 l.1  [continues:] ?d(omi)n(o)? / ?-nus?  [red-touched initial: ?D? / ?N?]?ne? / ?ue? ?nobis? / ?uobis? / ?nr?  [red mark] ?T(?)? / ?F(?)? ?m? ?nn? [cut at right edge, letters truncated]\n   Notes: the first group at the far left is small and has a cross-stroke. It may be a liturgical cue sign such as \"R\" or \"Ant\", or an abbreviated word ending \"-enus\"/\"-enie\". The second word is the clearest. I read it as \"bene-\" + \"d?c\" + \"?mes/amus\". The reading after the red initial is \"?ue nobis?\" / \"?de nobis?\". All low to medium confidence.\n\n== Face A, line 2 (smaller cursive hand) ==\nimage-002 l.2  ?Undecim? / ?Vndetur? / ?Vadens?  ?qued? / ?quod? / ?pro?  ?d(?)? ?ude? / ?aude?\nimage-003 l.2  [overlap: \"?ude?\" again at left]  ?Ser? / ?Ego?  ?dumus? / ?domus? / ?dicere?  ?enim? ?ethe? / ?etiam?  [illegible]\n   The row of ascenders above this line (image-002 at about y=300-380) belongs to this line's tall letters. They are not a separate line.\n\n== Face A, line 3 (smaller cursive hand) ==\nimage-002 l.3  ?b(e)dsem? / ?Insur?  ?sp(iritu)s? / ?sapien(tia)? ?(?)? ?ner(?)? / ?ueniet?\nimage-003 l.3  [overlap at left] ?Se?/?le? ?quare? / ?quomodo?  ?in? / ?m?  ?nobis? / ?mortem?  ?A(?)?  ?fl(?)? [illegible, fades]\n\n== Face A, traces ==\nimage-003, right end: faint letters below line 3 (?a 4th line?), plus a looped stroke at the cut edge (?\"Se\" / \"d\"?). [illegible]\n\n== Face B (image-005, image-006) ==\nNo legible text. There may be faint ruling. I see possible faint ink offset around image-005 at about x=1500-1800 and image-006 at about x=900-1300, but no letter forms.\n\nLIMITATIONS\n- Line 1 is trimmed at the top, so ascenders and abbreviation marks may be lost. The red initial is partly faded.\n- Lines 2-3 are in a pale, small, cursive hand on a stained ground, and nearly every word is uncertain. I offer alternatives and do not commit to one reading.\n- I cannot tell from these images whether lines 2-3 belong to the same text as line 1 (e.g. continuing text) or are a later addition.\n- Raking light or UV would help with lines 2-4. An image of the adjoining strip or of the binding position would show orientation and context.\n",
+  "text_sha256": "d029b0bc254d2fe663bbbd660146b61f0a056597ef57a9f58e8c6dcf515374d9"
+}

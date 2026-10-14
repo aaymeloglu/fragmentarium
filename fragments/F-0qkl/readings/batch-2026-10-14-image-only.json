@@ -1,0 +1,107 @@
+{
+  "captured_at": "2026-10-14T18:49:15.922001+00:00",
+  "fragment": "F-0qkl",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "ad2611e9f1121d5f2b417933f6a2b2d2cd1f676bbc752f756026ccbe29c527b4",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): whole image 3648x4458 reduced to 1473x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "c7833534316d0286fb2376b3d952ae36650da2139744ed07ea92545f3f75c373",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): native-pixel box 109,133,1988,1306; unrotated grid position column 1 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "c5236de002523ca1cc83064b810f5baaa1f392920a77c9df74748297b5fba980",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): native-pixel box 1585,133,3465,1306; unrotated grid position column 2 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "0aeb3aebf63fee3f4055df0e4a214411310b088c05ea0f3691c159a6715fbc43",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): native-pixel box 109,1055,1988,2354; unrotated grid position column 1 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "186a1a0074ed0e8bea12a3d88b7e362c28ff2f06a728991ad3f0711a75411f79",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): native-pixel box 1585,1055,3465,2354; unrotated grid position column 2 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "53c7f9acfcdfcd3703197f1659eb2ac20479d3023a6804ded6dd520e6eff9be5",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): native-pixel box 109,2102,1988,3401; unrotated grid position column 1 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "01d5158d95ecbcd565d0929b8311120a538c84f01fd636490936704c758a3256",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): native-pixel box 1585,2102,3465,3401; unrotated grid position column 2 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "1154e657ee0e8d2a48610b3ad30b623a66e104a616068a26c930ac0d495292e1",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): native-pixel box 109,3150,1988,4324; unrotated grid position column 1 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "5c3b8c2b693f81568055423befd028c516a5967091670f19063e8572c6e8d9c2",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_VDS.JPG/full/3648,/0/default.jpg (canvas 0, Cod1695_VDS): native-pixel box 1585,3150,3465,4324; unrotated grid position column 2 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "64e174ed754655667a55613d563f46520e24756a13e48da40f6d365cd55968f3",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): whole image 3648x4458 reduced to 1473x1800 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "59e9653750d4e7dc84022b0f0e03b8c364190e370c1f18813eb5039a04453d71",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): native-pixel box 145,133,1697,1306; unrotated grid position column 1 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "e1336176b2582e06668ebdee6548758f4ee84a7f564584ae7cd3297b1d02c734",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): native-pixel box 1365,133,2918,1306; unrotated grid position column 2 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "c3a50d19af6c25411612d7db98c2882c8f59eb12153df5f6ace9cf9d086dbf0b",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): native-pixel box 145,1055,1697,2354; unrotated grid position column 1 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "521a248605f60aa6650be3053fdd87938c7d90108d4771689e518475970b637c",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): native-pixel box 1365,1055,2918,2354; unrotated grid position column 2 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "e40ee3cd8cd78cb0067fbbb03adc04001edcffc8b2d0bb9a7c837957b3120e1f",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): native-pixel box 145,2102,1697,3401; unrotated grid position column 1 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "94793569261ac5bd9529fe85ef7f70ee4458fc4eb1cc9a192d420b6904a5dc69",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): native-pixel box 1365,2102,2918,3401; unrotated grid position column 2 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "63f5a129bfbda62b20abc9afd1a2b18a4695292cf62e46604bf2a6c8ee1b4dba",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): native-pixel box 145,3150,1697,4324; unrotated grid position column 1 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "c04fb50443143e88dc5150da6a3aa8e14b830749805ae48486e448a8e1c5c814",
+        "source": "https://fragmentarium.ms:443/loris/F-0qkl/Cod1695_HDS.JPG/full/3648,/0/default.jpg (canvas 1, Cod1695_HDS): native-pixel box 1365,3150,2918,4324; unrotated grid position column 2 of 2, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reserve reader (packet-03)",
+  "text": "packet-03 - unverified image-only reading\n\nExposure: nothing in my context revealed a proposed identification or reading of this item. Feast and saint names below are transcribed because they are written on the leaf.\nBeyond the rules: to read the small pasted slip on face 2 (only partly inside the tiles), I made a 3x upscaled crop of that area of image-010 in my own scratchpad. No other file was opened.\n\nLAYOUT SURVEY (observations)\n- Two faces, each with one overview: image-001 (face 1) with tiles image-002..009 (2 across x 4 down, overlapping); image-010 (face 2) with tiles image-011..018 (same grid).\n- Face 1 (image-001): parchment leaf at the front of the volume, against the board. A later printed-border paper label with \"1695.\" in ink at upper left; a parchment strip/stub and a patch at left and lower left. Main content: one column of short entries, each starting \"De ...\" with a red touch on the initial, each followed by a reference made of a letter (a, b) and a number. At the bottom the column splits: a second short list starts at mid-page right, joined by a brace/vertical stroke. Red and black ruled lines separate the \"a\" and \"b\" groups. A drawn stroke runs down the left of the list (a bar/frame line), with a small rosette at its top.\n- On face 1 a much fainter, larger, older script shows through or survives (ghost/erased text or offset) in the upper and right areas, under and beside the list. It looks like a different, earlier text in a bigger book hand. I did not read it.\n- Face 1 left margin (image-004, image-006): a group of short later cursive notes on the stub/strip, separated by ruled strokes, in a small hand, apparently not Latin in every case (one looks German: \"gelassen\"?).\n- Face 2 (image-010): two columns of the same kind of list, ruled frame in ink, red strokes on initials and red underlines; references now use letters b, c, d, e. Ends in a drawn scroll/banderole \"Finis tabule\". A small pasted parchment slip with 13 short lines of cursive at upper right; below it the board shows a strip of another manuscript (pastedown/turn-in) with lines of small text, illegible.\n- Interpretation (tentative): a table of contents of sermons for feasts and topics, keyed to quire letters plus leaf numbers. The text proper is not on these faces.\n\nNUMERAL FORMS: The numbers use late-medieval arabic shapes. I read: loop-shaped half-8 = 4; a hooked \"y/ч\" shape = 6 (?) or 5 (?); an inverted-V \"Λ\" = 7; a \"z\" shape = 2; a \"ꝁ/le\"-like shape after 1 = 5 (?), so \"1ꝁ\" = 15 (?). Wherever the shape is not certain I give the value with \"?\". Check numerals against the images before using them.\n\nFACE 1 - main list (line numbers from the top of the list on image-001; tiles named where read)\nimage-002/003 (top)\n1  De ascensione d(omi)ni\n2  De decem p(re)cept(is) a 1\n3  De s(an)c(t)o Johanne bapt(is)ta a 2 : 7 d . 9 : [t?/c?]e : e 7 b(?) : 20 :     [the run after \"a 2\" extends far right in the same black ink; reading of each element uncertain; image-003 line 5]\n4  De eadem\n5  De s(an)c(t)o petro a 2\n6  [De] petro et paulo a 2\n7  De s(an)c(t)a margaretha a 3\n8  De eadem a 3\nimage-004/005\n9  De eadem a 4(?)\n10 [De] maria magdalena a 4(?)\n11 De eadem a 4(?)\n12 [De] Jacobo ap(osto)lo a 5(?)\n13 De inuentione s(an)c(t)i s(te)phani(?) a 5(?)      [name abbreviated; \"ste\" uncertain]\n14 De s(an)c(t)o Oswaldo a 6(?)\n15 De s(an)c(t)o laurencio a 6(?)\n16 De assumpcione b(eate) marie a 7(?)\n17 De eadem . a 8\n18 De ead(em) [hole in leaf] a 9\nimage-006/007\n19 [B]artholomeo a 9      [initial with red; image-006 line 3]\n20 Sermo de ap(osto)lis a 10(?) alia(?) d(e) [illegible, looks \"eglia\"/\"egħa\"] a 11\n21 De s(an)c(t)o augustino a 11\n22 De s(an)c(t)o Egidio a 12\n23 De natiuitate b(ea)te marie Rep(?) s(er)mo(n)es(?) a 1[3?] 1[4?]\n24 De s(an)c(t)o matheo a 15(?)\n25 De s(an)c(t)o michahele a 15(?)\n26 De Symon et Judas a 16(?)\n27 De omnib(us) s(an)c(t)is a . 6(?) . alij Rep(?) s(er)mo(n)es . ind(e)(?) a 17(?)\nimage-008/009\n28 De animab(us) a 18 .\n29 De s(an)c(t)o martino a 19 .\n30 De s(an)c(t)a katherina a 20 .\n31 De s(an)c(t)o andrea a 20\n   [red and black ruled line across]\n32 De s(an)c(t)o nicolao b 1 ] De eod(em)(?) s(er)mo b 1\n33 De s(an)c(t)o thoma b 2\n34 De natiuitate d(omi)ni b 3\n35 De s(an)c(t)o stephano duo b [4?] e[..]\n36 De extremo iudicio b . 8 .\nRight-hand sub-list (image-009 lines 6-9, joined by a brace to the stroke at line 32):\nR1 De s(an)c(t)[a?] [..]unta(?) b 10(?)          [\"De scha. aunta\" as written; reading uncertain]\nR2 alia d(e) ead(em)(?) i(?) b 4(?)\nR3 [De] innocent(ibus)(?) b 6 . 7(?)\n\nFACE 1 - left-margin notes (image-004, image-006; later small cursive, very uncertain)\nimage-004 c. lines 11-20: uelde(?) / eke(?) / sancte(?) / e(?)ffu[..] // ...[..]e(?) / ...time(?) / auffert(?) / ...[..]g(?)\nimage-006 lines 1-9: ..m(?) [..] / [..]sse(?) / ...er(?)  //  corrige(?) [..] / [..]ssit(?) [..] / [..]ualit(?)  //  gelassen(?) [..]  [then a line struck through]  //  delictate(?) / zu[..](?)\nNot read reliably; offered only as a pointer.\n\nFACE 2 - column 1 (line numbers from the top of the column on image-010)\nimage-011/013\n1  Ser(mones) . tres d(e) ap(osto)lis b 10 .\n2  Ser(mo) [c?]tor(um) d(e) uno martire b [11?]       [word before \"de uno\" uncertain: \"ctor\" with abbreviation]\n3  De c(on)fessorib(us) duo s(er)(mones) . b 1[?] 1[?] 1[?]   [three numerals; also a later mark]\n4  De uirginib(us) b . 13 .\n5  De septem donis b 1[5?]\n6  De septem [..]ris(?) 1[5?]           [\"peris\"? reading uncertain]\n7  Q(u)a[..] [illegible] peccat cl(er)i[..](?) b 14(?)    [uncertain line]\n8  De c(on)fessione facienda b 14(?)\n9  De p(e)n(itenti)a(?) b . 1[4?] [..] [red-stroked word] b 14(?)\n10 Ser(mones) . duo d(e) assumpcione marie b 17(?)\n11 De natiuitate b(ea)te marie b . 18 .   [mark like Λ at far right]\n12 De annunciacione [illegible] b . 19(?)\n13 Joh(ann)e bap(tis)ta : magdala b . 20 .\n   [red and black ruled line across]\n14 Matheo : Michahele s(?) c 1\n15 Simone et juda c 3\n16 Omnium s(an)c(t)or(um) c 4(?)\n17 De quatuor(?) duo s(er)(mones) c . v .     [roman \"v\" or a numeral]\nimage-015\n18 [De] s(an)c(t)o martino c 6\n19 [De] s(an)c(t)a katherina c . 7 .\n20 [De] s(an)c(t)o nicolao duo s(er)(mones) c 8 .\n21 [De] s(an)c(t)o thoma duo s(er)mo(nes) c . 9\n22 Natiuitate d(omi)ni c . 10 .\n23 In octaua c 11(?)          [numeral overwritten]\n24 Purificacione marie c 11\n25 [De] s(an)c(t)o mathia c 12(?)\n26 Annunciacione duo s(er)(mones) c . 13 .(?)\n27 Ser(mo) alius c 14(?) . 16(?) .\n28 [De] s(an)c(t)o vincencio c . 15(?)\nimage-017\n29 In cena d(omi)ni p(ro)les(?) s(er)mo(nes) c 16 . 17(?)\n30 Parasceue rep(?) s(er)mo . c 1[8?]\n   [red ruled line across]\n31 De resurrectione d(omi)ni d . 1\n32 [De] s(an)c(t)o marco : In rog(acion)ib(us)(?) d 2       [\"In rogacionibus\" uncertain; red underline]\n33 Joh(ann)e [..]unta(?) : Letania d 3\n34 Philippi jacobi d 4\n35 [De] s(an)c(t)a cruce d . 5 .\n\nFACE 2 - column 2 (image-012, image-014, image-016, image-018)\n1  De ascensione d(omi)ni d 6 .\n2  [De] s(an)c(t)o sp(irit)u duo s(er)(mones) d 7(?)\n3  [De] s(an)c(t)a trinitate d 8 .\n4  Johannis bap(tis)te d 9 .\n5  Joh(ann)is et pauli d 10 .\n6  petro et paulo d 10 : paulo d 11\n7  Maria magdala d . 11 . 12 .\n8  [De] s(an)c(t)o jacobo ap(osto)lo . d . 13\n9  Ad uincula petri d . 13 .\n10 [De] s(an)c(t)o laurencio d . 1[5?] . 1[6?]\n11 Assumpcione marie . d 1[?] [?]\n12 Bartholomeo d . 1[?]\n13 Exaltacione cruc(is) d . 16(?)\n14 De ieiunio      } d . 17      [red bracket joins 14-15]\n15 De c(on)fessione }\n16 De p(e)n(itenti)a(?) s(er)mo(nes)(?) [..] d . 19 .\n17 De [..]tem p(re)cept(is)(?) [..]me   } d . 20 .   [red bracket joins 17-18]\n18 De dignitate sacerdocii              }\n   [black and red ruled lines across]\n19 De nouo sacerdote e 1\n20 Regula su(per) missam(?)\n21 De [illegible] (et) d(e) dedicac(i)o(n)e : e 2 3\n22 s(an)c(t)a maria (com)mu(ni)s(?) s(er)(mones)(?) e 4\n23 Johanne bap(tis)ta e 4 .\n24 In p[..]astaue(?) e 5            [\"In parasceue\"? uncertain, I do not supply it]\n25 Petro et paulo e 6 .            [Λ-shaped mark in margin]\n26 [De] s(an)c(t)o vdal(ri)co(?) e . 8 .\n27 In cena d(omi)ni e 8 . 9 .\n28 (in a drawn banderole) Finis tabule\n\nFACE 2 - pasted slip, upper right (from upscaled crop of image-010; tile image-012 shows only its left edge)\ns1  [..]n(?)d(?)\ns2  et s(an)c(t)i [..]i(?)\ns3  dedica(ci)o(n)e(?) templi(?)\ns4  corp(or)is (christ)i(?) / de\ns5  uos(?) p(er)[..](?)\ns6  s(e)c(undu)m(?) [..] s(er)ui(?)\ns7  [..]illud(?) / 6 (et) 7(?)\ns8  nos(?) [..]gal(?)\ns9  p(ro)p(ter)(?) [..]ab(?) / p(er)(?)\ns10 dedicat(?) [..]\ns11 s(an)c(t)i [..]g(?)ia(?) / s(?)\ns12 ut ad p(er)[..]\ns13 (et) [..]intellectu(?) [..]\nVery uncertain; a native-resolution tile of this slip is needed.\n\nUNREAD / LIMITATIONS\n- Not read: the faint older script under/around the list on face 1 (image-003, image-005, image-007 right halves); the manuscript strip on the board at right of face 2 (image-010, x c. 1120-1300, y c. 560-1500), which is outside the tiles except at their edges; most of the face-1 margin notes.\n- Numerals are the weakest part. Several letter+number refs are overwritten or corrected.\n- Repeated lines in overlapping tiles (e.g. \"De eadem a 3\" in image-003 and image-005; \"In cena domini e 8 . 9\" in image-016 and image-018) were counted once.\n- Suggested additional views: native tiles of the slip and of the board strip on face 2; a raking-light or UV view of face 1 for the underlying text.\n",
+  "text_sha256": "727fa9bad27339e61960dbfe89b9d40774fb1ba57c42cdfbe2576871d95a937a"
+}
