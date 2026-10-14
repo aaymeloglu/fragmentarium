@@ -71,6 +71,8 @@ def test_site_is_up_to_date():
         work = Path(tmp) / "repo"
         shutil.copytree(ROOT, work, ignore=shutil.ignore_patterns(".git", ".venv", "__pycache__", ".pytest_cache"))
         subprocess.run([sys.executable, str(work / "docs" / "_build_site.py")], check=True, capture_output=True)
+        assert (work / "README.md").read_text() == (ROOT / "README.md").read_text(), \
+            "README.md is stale: run python3 docs/_build_site.py and commit"
         for p in (work / "docs").glob("*.html"):
             committed = ROOT / "docs" / p.name
             assert committed.exists() and committed.read_text() == p.read_text(), f"docs/{p.name} is stale: run python3 docs/_build_site.py and commit"
