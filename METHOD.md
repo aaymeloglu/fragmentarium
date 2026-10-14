@@ -60,6 +60,12 @@ to verification; more queries returning the same passage add no evidence.
   Adding the book's title phrase can surface a volume a bare phrase misses.
   Read the page in a digitised copy (`tools/gw.py`, `tools/mdzsearch.py`) and
   confirm the scan is the same work.
+- **Liturgical books.** The same chants, lessons and prayers recur across many
+  books, and each church's books followed its own use, so a liturgical fragment
+  rarely matches one source. Identify the texts and their feast and service
+  (`tools/cantus.py` for chant), then state the kind of book separately. Claim a
+  use, order or region only from a sequence of items that one inventory shares
+  and common ones do not.
 - **Unprinted works.** Many sermon collections and school texts have no edition.
   A repertory incipit (Schneyer for sermons) locates the work; then find a
   digitised manuscript through the repertory or a union catalogue and compare

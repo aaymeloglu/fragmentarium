@@ -6,6 +6,7 @@ import sys
 import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
+import cantus
 import catalogue
 import mnlsearch
 import survey
@@ -72,6 +73,28 @@ def test_hits_are_read_with_their_work_title():
               'hits': [{'docPid': 'd1', 'left': {'word': ['in', 'eendrachtighen']},
                         'match': {'word': ['versamenden', 'sanghe']}, 'right': {'word': ['in', 'der']}}]}
     assert list(mnlsearch.rows(result)) == [('Getijdenboek van Geert Grote', 'in eendrachtighen', 'versamenden sanghe', 'in der')]
+
+
+CANTUS_DB_PAGE = '''<table><thead><tr><th>Siglum</th></tr></thead><tbody>
+<tr><td><a href="/source/666647/" title="Einsiedeln">CH-E Codex 121</a></td><td> 147 </td>
+<td><b><a href="/chant/667650/">Laetare Jerusalem et conventum facite</a></b>
+<div> Laetare Jerusalem et conventum facite omnes </div></td>
+<td><a href="/feast/1641">Dom. 4 Quadragesimae</a></td><td><a href="/service/4165">MI</a></td>
+<td><a href="/genre/143">In</a></td><td></td><td><a href="https://cantusindex.org/id/g00776">g00776</a></td>
+<td>?</td><td></td><td></td><td></td></tr></tbody></table>'''
+
+
+def test_cantus_database_rows_keep_feast_service_and_cantus_id():
+    assert list(cantus.database_rows(CANTUS_DB_PAGE)) == [(
+        'CH-E Codex 121', '147', 'Laetare Jerusalem et conventum facite', 'Laetare Jerusalem et conventum facite omnes',
+        'Dom. 4 Quadragesimae', 'MI', 'In', 'g00776', 'https://cantusdatabase.org/chant/667650/')]
+
+
+def test_cantus_concordances_counted_with_blanks_as_unknown():
+    counts = cantus.summary([{'feast': 'Dom. 4 Quadragesimae', 'office': 'MASS', 'genre': 'In', 'db': 'MMMO'},
+                             {'feast': 'Dom. 4 Quadragesimae', 'office': '', 'genre': 'In', 'db': 'CDB'}])
+    assert counts['feast'] == {'Dom. 4 Quadragesimae': 2}
+    assert counts['service'] == {'MASS': 1, '?': 1}
 
 
 def test_catalogue_millimetres_long_side_first():
