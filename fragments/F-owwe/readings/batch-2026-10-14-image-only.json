@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-10-14T18:49:15.914589+00:00",
+  "fragment": "F-owwe",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "3aad76efc94f1878104c5c4c4c78a2be59eebe22ea80a650a7b6d5b35f338f0b",
+        "source": "https://fragmentarium.ms:443/loris/F-owwe/Cod3569_IIIv.JPG/full/3150,/0/default.jpg (canvas 0, Cod3569_IIIv): whole image 3150x3917 reduced to 1448x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "bed40fa8b6a59be37b8f722c50bb46bc2987e6887b3c0a56a1a9ac9c72061e91",
+        "source": "https://fragmentarium.ms:443/loris/F-owwe/Cod3569_IIIv.JPG/full/3150,/0/default.jpg (canvas 0, Cod3569_IIIv): native-pixel box 315,195,1673,2125; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "1364975fc14b664ac087e90ec4add5f895c6839d22031e35ded79a87a292195f",
+        "source": "https://fragmentarium.ms:443/loris/F-owwe/Cod3569_IIIv.JPG/full/3150,/0/default.jpg (canvas 0, Cod3569_IIIv): native-pixel box 1382,195,2740,2125; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "34f213870a8d6a3af6fd639b02ef1757c8225000b1403f26ef87595e1521908e",
+        "source": "https://fragmentarium.ms:443/loris/F-owwe/Cod3569_IIIv.JPG/full/3150,/0/default.jpg (canvas 0, Cod3569_IIIv): native-pixel box 315,1711,1673,3642; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "d6393a18cfbd524980eefdd34016a7516dc264a223f6652322592de7fc5248ee",
+        "source": "https://fragmentarium.ms:443/loris/F-owwe/Cod3569_IIIv.JPG/full/3150,/0/default.jpg (canvas 0, Cod3569_IIIv): native-pixel box 1382,1711,2740,3642; unrotated grid position column 2 of 2, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reserve reader (packet-01)",
+  "text": "packet-01 - unverified image-only reading\n\nExposure: nothing in my context revealed a proposed identification or reading of this item. I did nothing beyond the reader brief and PROMPT.md (I listed the packet directory only to learn the image filenames).\n\nLAYOUT SURVEY (observations)\n- image-001 is a reduced overview of an opening: the left face is a parchment leaf (pastedown or flyleaf against a wooden board, edge visible at left; leather spine covering at top) carrying a single very large painted initial; at far right a narrow strip of the facing leaf is visible at the gutter.\n- The large initial is a green letter A (two-stroke form with curled head and a scroll/ribbon crossbar), drawn in ink and painted green with yellow/ochre details, set in a rectangular orange-red frame filled with a pinkish-mauve ground ruled in a brick/diaper pattern. Ochre foliate scroll inside the counter; a thin ochre stem with knobbed branches descends from the crossbar ribbon. Green acanthus foot at bottom of left stroke; at lower left an ink-and-wash plant/flower ornament (pinkish-brown leaves, star-dotted stem, lobed calyx). At upper left an ink-drawn feathery flourish. No text lines on this face.\n- The facing leaf (only its left edge, visible in image-001) has red rubric lines at top, a green painted initial with foliate infill, then black text lines; only the first one to three letters of each line are in frame. A leaf of green foliate ornament appears at its lower margin.\n- Tiles image-002 to image-005 are native-resolution crops of the left face only (upper left, upper right, lower left, lower right). They overlap; none of them includes the facing leaf's text.\n\nSELECTED SPANS\nThe left face carries no connected text. The only writing is:\n\nimage-002 line 1 (top left, ink or pencil, later hand): 3564\nimage-002 line 2 (just below, single stroke): 1   [or a stroke/tick; it continues down to a drawn line toward the frame]\nimage-004 lower centre, near the bottom (small faint ink, under the plant ornament, right of it): 1y21 ?  [possibly a number such as 1421 or 1721 or a pen trial; very small, uncertain]\n\nThe facing-leaf strip (image-001 only, reduced resolution, beginnings of lines only; not a reading of text, just visible initial letters):\nimage-001 right edge, rubric (red), lines from top:\n  1  In[illegible - cut off]  (In- or Inc- ?)\n  2  vo[cut off]  (red ? or black ?)\n  3  Pa[cut off] ?\n  4  Ve[cut off] ?  / Ver- ?\nthen green initial (foliate), then a red line beginning\n  5  Au[cut off] ?  (red)\nblack text lines, first letters only:\n  6  Det ?\n  7  stab ?\n  8  ma\n  9  dict ?\n  10 tu\n  11 Lu ?  / Lec ?\n  12 gra ?\n  13 spe ?  / ffe ?\n  14 sca ?  / be ?\n  15 tal ?\n  16 ab ?  / as ?\n  17 Sp ?  / ffi ?\n  18 se ?\n  19 Pa ?  / fa ?\n  20 a\nThese are fragments at overview resolution and should not be used for matching.\n\nUNREAD / LIMITATIONS\n- The face supplied in tiles is purely decorative; there is no text to transcribe on it.\n- All text of the facing leaf lies outside the tiles. To get a usable reading, supply native-resolution tiles of the facing (right-hand) leaf, which appears to open with red rubrics and a decorated initial: that is where the text begins.\n- The tiny number at bottom of image-004 is faint and may be a later note or pen trial.\n",
+  "text_sha256": "a9ae5ccbb21f87999399f5efbca8da6279602a80edad80ca0a3c4bca93994d08"
+}

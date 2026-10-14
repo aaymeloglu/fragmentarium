@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-10-14T18:49:15.878933+00:00",
+  "fragment": "F-x33a",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "9aae0ac11ff39e1c6c42a14cc29b3573eb818f052a36811dafe96e044bfe2ea7",
+        "source": "https://fragmentarium.ms:443/loris/F-x33a/Cod3588_HDS.JPG/full/3511,/0/default.jpg (canvas 0, Cod3588_HDS): whole image 3511x5047 rotated 270 degrees counterclockwise and reduced to 1800x1252 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "f78fbe65f97b0aecbabf11484ce303e6712910e7a3f29540e939ebf73c0ae0e5",
+        "source": "https://fragmentarium.ms:443/loris/F-x33a/Cod3588_HDS.JPG/full/3511,/0/default.jpg (canvas 0, Cod3588_HDS): native-pixel box 2317,1413,3124,2473, rotated 270 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "db38d44efd4c2e3937fb96363b35a02909fa8efe25b3fdf95c50b2f0f8279975",
+        "source": "https://fragmentarium.ms:443/loris/F-x33a/Cod3588_HDS.JPG/full/3511,/0/default.jpg (canvas 0, Cod3588_HDS): whole image 3511x5047 reduced to 1252x1800 for layout"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "1d3ebfd6afab944f972e4ec873c2354dc388da08b08d6870c35ce32caa92ff8e",
+        "source": "https://fragmentarium.ms:443/loris/F-x33a/Cod3588_HDS.JPG/full/3511,/0/default.jpg (canvas 0, Cod3588_HDS): native-pixel box 2422,3734,3124,4542; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-19)",
+  "text": "Packet 19 - blind image reading (unverified)\n\nExposure: nothing in my context revealed a proposed identification or reading for this packet. Beyond the rules: I cropped and enlarged packet images with PIL. I opened no other files.\n\nLAYOUT SURVEY (observations)\n- This is the inside of a limp/soft binding cover with turn-ins (parchment or alum-tawed skin) and a woven fabric or paper lining on the board. Three twisted sewing supports (cords/thongs) come through at the spine edge.\n- Between and beside the supports are four small parchment spine-lining pieces (guards). Two of them carry writing:\n  * Piece 1 (between the 2nd and 3rd supports in image-001; tile image-002): 5 lines of Latin in a gothic cursiva/bastarda hand in brown ink. This piece looks like a reused leaf fragment, cut at the bottom (line 5 is cut) and probably at the sides.\n  * Piece 2 (far left in image-001, partly under the turn-in; tile image-004): 5 lines in a cursive hand in brown ink, apparently German vernacular. It is cut at the right and the turn-in covers its bottom.\n  * The other two pieces show no legible writing (one has staining).\n- In image-001 the cover is shown with the spine at the bottom. image-003 is the same cover rotated 90 degrees; it is the same view, not additional text.\n- No rubrics, glosses or colour are visible on the written pieces.\n\nSELECTED SPANS\nI read all lines of both written pieces.\n\nTRANSCRIPTION\n\nPiece 1 (image-002; line numbers from the top of the written area of image-002)\nimage-002 l.1: De silencio dicit\nimage-002 l.2: vir sanctus in iiii(?)ta / in xe(?)a     [after \"in\" there are minim/x-like strokes plus superscript \"a\"; could be \"iiiita\", \"xa\" or \"Ra\"; uncertain]\nimage-002 l.3: Faciamus q(uo)d ait p(ro)ph(et)a     [\"pph\" with a crossbar/abbreviation stroke = p(ro)ph(et)a(?)]\nimage-002 l.4: Dixi custodia(m)(?) vias     [\"custodian\" with a final stroke, i.e. custodia(m) or custodiam]\nimage-002 l.5: [..]u(?)[.][..]e(?)a(?)[..]tems(?) a(?) [..]nqz(?)     [the bottom line is cut through the middle of its letters; only tops are visible; the last word ends in a \"-q3/-gz\"-like abbreviation]\n\nPiece 2 (image-004; overview image-001 at lower left; German cursive; line numbers from the top of the written piece in image-004; each line is cut at the right)\nimage-004 l.1: Item fre(m)(?)[..]     [could be \"frem-\", \"fren-\", \"freu-\"; cut at the right]\nimage-004 l.2: das nit(?)/m(?)er(?) [..]     [\"das\" is clear; the next word is uncertain]\nimage-004 l.3: vnd das er d[..]\nimage-004 l.4: vnd darum[..]     [most likely \"darumb/darum\", cut]\nimage-004 l.5: wand(?)/werd(?) . sch(?)[..] / s(?)ch[..]     [partly covered by the turn-in edge]\nA further line or two below l.5 is hidden under the turn-in, with only ink traces visible. [illegible]\n\nLIMITATIONS\n- Both written pieces are small spine linings, cut on the sides and bottom, so only a few lines survive.\n- Piece 2 is partly under the cover turn-in.\n- On piece 1, line 2's numeral or abbreviation after \"in\" and line 5 are uncertain.\n- Suggested next step: lift or image the hidden parts of piece 2 under the turn-in; image the versos of the pieces if they can be detached; and check the corresponding pieces at the other cover.\n",
+  "text_sha256": "b34aaeed28bb3dcbf244bf709e5b8f50a10768f4bc1ec05162d9b9bce3139dc9"
+}

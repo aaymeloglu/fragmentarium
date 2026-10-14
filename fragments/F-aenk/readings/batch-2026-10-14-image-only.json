@@ -1,0 +1,142 @@
+{
+  "captured_at": "2026-10-14T18:49:15.841195+00:00",
+  "fragment": "F-aenk",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "63cc15e378b302b63a3d9f17e8696f4769758a470528bb9b405369a70357ee69",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): whole image 8046x11445 reduced to 1265x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "20c39a3a7f145116988677791b0852d69f6e80cb4045dbdef6485939ef40ec24",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 321,457,2078,2294; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "60d688aebe96525c27c24b02a32d253abeeb63e1b1ed624e7cd12260d74978b3",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 1701,457,3459,2294; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "9027b64c4b60af6cb9ce2085cb53ac5615727a2139693919f988c18d4d702afd",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 321,1900,2078,3935; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "cc836114d681c79a1bac037510fd618d88985c05fff10a6d99ddeab48938c66d",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 1701,1900,3459,3935; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "17ed95811f449d4767b5794de5a412e4044f9ac4e756fb9b2a1e7ac436b524bf",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 321,3541,2078,5379; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "cb86a8a30dd4a6126d05711bbd000e2a434b71c25248f40db39a1b6dc9f8a24e",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 1701,3541,3459,5379; unrotated grid position column 2 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "8eed50ff325faacb879c1f51d03d53038b49a76558c038d4be1e31b0c9ec8dc7",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 4425,457,6272,2294; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "af993346c8e882a40923161787792347c7ccb7c9f27488122eac88d189899e18",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 5876,457,7724,2294; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "70e0b4f8ec7c69d5dd8789672f5bd0ff9c5dbe7a40c0c8ab0fcca682eb2d6603",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 4425,1900,6272,3935; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "892f750fb8fe505a5dc79521bc038f8e225b32f0bf8f106edd57a7fc0045bb2a",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 5876,1900,7724,3935; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "64cb77750a85647dd06a151a6a739e77fc10bb2fad75a600a7b2854a44632aea",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 4425,3541,6272,5379; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "b4e3e83cd43871bb44cc01dd4a4d45db4f7778615f2caa6d0d15f61b002cb199",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 5876,3541,7724,5379; unrotated grid position column 2 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "1489bebf53948408f8f7d1de71c91e4bf91a5a97d2335ffd5a95d39d744f0427",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 321,6065,2078,7859; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "2e3873db231657e2a54f745eef46c8a018ae30375438a0059457e84261ceecc8",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 1701,6065,3459,7859; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "71d229875039f471e97871ad7833438804a393ba45885b9f005d017370b89a6f",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 321,7475,2078,9461; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "6765f1c3b807478363714bab4037de65349beee97f55a6be193b6156a6d519b3",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 1701,7475,3459,9461; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "b9b3f91873b4674b4b49b97937c86409c42c44048625d7a0712c4265d231b209",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 321,9077,2078,10872; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "caff620f869acaa4ff80732813b4b98d0ab7e8c86866e6a6a700ecac17691f81",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 1701,9077,3459,10872; unrotated grid position column 2 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "7301cd01d4dcd7a116ff9e192b661366a3a33fa421f9dd683b98136c6ffca95f",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 4425,6065,6272,7859; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "18c636e7c418e03874e686ebf8449151857df81488e17b2f4578683927bfc481",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 5876,6065,7724,7859; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "8881df5a44ceff409a057fc57505f9c712d9e024abde76bce2a9e7ebfb948a2b",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 4425,7475,6272,9461; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "273941f1ec882abd22ea82b5b108f8679ad6ec4bb05ddc7c546b704f9bac8bf9",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 5876,7475,7724,9461; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "6eee5ab8d327d571b4bebd7e920a94bccb2301db68bc8b2a1f4da7524a94b18a",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 4425,9077,6272,10872; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "2daf087d6ab4e203e8570595c7794c022a3b71151f0672307c4c2c07be5bc6a0",
+        "source": "https://fragmentarium.ms:443/loris/F-aenk/lbsf_77Fa07_UV_content.jp2/full/8046,/0/default.jpg (canvas 2, lbsf_77Fa07_UV_content): native-pixel box 5876,9077,7724,10872; unrotated grid position column 2 of 2, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-04)",
+  "text": "packet-04 - unverified image reading (reader C)\n\nEXPOSURE / PROCEDURE NOTES\n- No proposed identification or prior reading of this material was in my context. This is a blind reading.\n- Beyond the brief: the images are very dark, so I made local derivative copies of the packet images\n  (greyscale, contrast stretch, slight gamma, some crops) with a small PIL script in my scratchpad.\n  All readings come from the supplied images or those derivatives. I opened no other file, catalogue,\n  edition, web or search tool, and I did not open packet.json.\n\nOVERALL VERDICT\n- Partial, low-confidence reading. The leaf is darkened, stained and abraded. The tiles are strongly\n  enlarged relative to the detail actually captured, so letter forms are soft at tile scale. The script\n  is a small, heavily abbreviated academic book hand, and many abbreviation signs cannot be resolved\n  at this resolution. I could fix some recurring words but no secure connected span of ten or more\n  lines. Every word below is queried unless noted.\n\nLAYOUT SURVEY (image-only)\n- One face (image-001 overview). This is a parchment leaf or bifolium reused as a limp binding wrapper.\n  A spine band runs horizontally across the middle of the image with three sewing-support stations,\n  and there is a small modern paper label \"3\" (or \"S\") at the right end of the spine band. Upper and\n  lower halves are the covers; the text is upright in the image.\n- Writing: four narrow text columns across the width. There is a vertical gutter or fold at about\n  x = 50% of the overview, so these are probably two pages side by side with two columns each\n  (tentative). The text survives in rectangular blocks separated by blank or abraded horizontal bands\n  at about y = 33-37%, 46-48% (spine), 67-72% and 75-80%. Those bands are probably wear from the folds\n  and turn-ins, not original layout (tentative).\n- Paragraph marks, some red (capitulum signs), appear at block and line starts, e.g. upper col. 3\n  near the top and lower col. 3 left edge (024). Several small enlarged initials with flourishes.\n- Upper centre, near the gutter: a later note in a different, cursive hand, written in three short\n  stacked lines with fraction-like strokes (around overview x 540-600, y 250-300). It may be a shelfmark\n  or numerals. Not read.\n- Lower left, at about y = 1180 of the overview: a short line set off in a box or at the line end,\n  reading \"?gr(ati)a/?g(e)n(er)is ?d(e)l(?)\" (unclear). It may be a catchword or a marginal addition.\n- No interlinear glosses identified. I see nothing that clearly separates lemma from commentary.\n  Tentative impression: continuous scholastic prose.\n\nTILE MAP (inferred from tile sizes; positions approximate)\n- 002-007: top-left quadrant (pairs left/right, three rows).   008-013: top-right quadrant.\n- 014-019: bottom-left quadrant.                               020-025: bottom-right quadrant.\n- 020 and 021 fall mostly on the blank or stained area right of the spine (little text).\n\nSELECTED SPANS\n\"L\" = line of writing counted from the top of the named image. ( ) = expansion. ? = uncertain reading.\n\n--- Lower block, col. 3 (top of block = image-022 lower half; continues in 024) ---\n022 L1   ?a ?ergo q(uod) ?quia(?) ?ap(?) [illegible] ?d(e) ?eo(?)\n022 L2   ?sp(eci)es(?) ?esse ?aff(ecti)o(n)is(?) ?alia(?) ?sp(eci)es(?)\n022 L3   ?unde ?q(uod) ?aff(ecti)o ?est ?y ?m(od)o(?) ?ma(teri)a(?) ?d(i)c(t)i\n022 L4   ?fac(it)(?) ?a ?tantu(m) ?ea(?) ?ut ?aff(?)i(?)a ?d(?)\n022 L5   ?cum ?h(?)e ?affi(?)(?) ?ita(?) ?d(ici)tur ?n\n022 L6   [paraph] ?a(?) ?d(?) ?ca(?) [illegible] ?ip(s)a ?d(?)\n(022 L6 onward = 024 L1 onward, overlap)\n024 L2   ?ue ?i ?y ?a ?co(n)ma(?) ?(con)st(?)it ?d(?) ?n\n024 L3   ?esse(?) ?d(?) [illegible] ?sp(eci)ali(?) ?d(?)e ?ea\n024 L4   ?h ?d(?) ?sit(?) ?fili(?)/?finis(?) ?a(?)ctu(?) [illegible] ?q(uod) ?a(?)\n024 L5   [paraph] ?f(?)c ?q(uod) ?eas ?eius(?) p(ri)o ?ca(usa)(?)\n024 L6   ?ca ?na ?q(uod)(?) ?d(ici)tur(?) ?una(?) ?q(uod) ?aff(?)ma(?)tiua(?)\n024 L7   ?ad ?e ?ac ?a ?y ?(con)tra(?) ?eod(em)(?) ?n\n024 L8   ?ratio(?) ?p(ri)ma(?) ?aff(?)ma(?)tiua(?) ?an [illegible]\n024 L9   ?n p(ro)(?) ?o(mn)ib(us)(?) ?et ?effectu(?)/?(con)fic(?) [illegible]\n024 L10  ?qu(ia) ?a(liqu)a ?sp(eci)es(?) ?no(n) p(otes)t ?eod(em) q(uod) ?m(?) ?una\n024 L11  ?ue(l) ?et ?ide(m)(?) ?no(n) ?a(liqu)a ?aut(em) p(otes)t ?na\n024 L12  ?etiam(?) ?n ?ea(rum)(?) ?respectu(?) ?a(liqu)a q(uod) ?d(icitu)r\n024 L13  p(ri)mo(?) ?de ?f(or)ma(?) ?aff(?)(?) ?ea(?) q(uod) ?d(?) ?t\n024 L14  [illegible] ?eo ?q(uod) [illegible] ?una ?n(on) ?r(ati)o(ne)(?)\n024 L15  p(ro)(?) ?aff(?)(?) [illegible] ?q(uod) ?d(?) ?ratio(n)e(?) ?una\nNote: the word I mark \"?aff(?)\" occurs several times with a tall double s/f ligature. It may be \"affirmatiua\",\n\"affectio\" or \"assignatio\"; I cannot decide which at this resolution. Treat it as unread.\n\n--- Upper block, col. 2, lower lines (image-005 upper part) ---\n005 L1   [illegible] ?ff ?finis(?) [illegible]\n005 L2   ?q(uod) ?a(?) ?cu(?) ?(con)tra(?) ?d(?)\n005 L3   [illegible]\n005 L4   ?ca(?) ?f(?) ?natura(?) [illegible] ?sic(?) ?d(?)\n005 L5   ?finis(?) ?eius(?) ?acte(?) ?h [illegible]\n005 L6   ?ff ?finis(?) ?q(uod) ?f(?) ?e ?q(uod) [illegible]\n005 L7   ?fini(?) ?h(?)e ?d(?) ?nostru(m)/?motu(m)(?) [illegible]\n005 L8   ?i ?t ?c(?) [illegible]\n005 L9   ?finis(?) ?q(uod) [illegible] (ruling or fold line below; blank band follows)\nNote: \"finis\" (or \"f(or)mis/f(or)ma\") is the most stable recurring word in this block. It also seems\nto appear in the overview at about x 440, y 437 and in the lower-left block.\n\n--- Lower block, col. 1 (image-019) ---\n019 L1   ?fi(?) ?de(?) ?z ?h(?)c ?a ?(con)tra(?) ?sit(?) ?ip(s)a(?) ?e\n019 L2   ?n(on) ?qu(ia)(?) ?sp(eci)es(?) [illegible] ?q(uod) ?e\n019 L3   ?q(uod) ?de(?) ?q(uo)d(?) ?(con)tra ?actu(?) ?esse(?)\n019 L4   ?d(?) [illegible] ?b(?) ?i(n) ?ea(?) ?actu(?)\n019 L5   [illegible] ?q(uod) ?actu(?)\n019 L6   [illegible] ?aff(?) ?d(?) ?a ?q(uod)\n019 L7   ?d(?) ?p(?) [illegible] ?d(?)ui(?) [illegible]\n019 L8   ?p(ri)mo(?) [illegible] ?d(?) ?affi(?)(?) ?ex(?)\n019 L9   ?anime(?) ?a ?d(i)c(itu)r(?) [illegible]\n019 L10  ?q(uod) ?d(?) ?d(?) ?a ?sic(?) [illegible] ?d(?)\n019 L11  ?oportet(?) ?n [illegible]\n019 L12  ?cognoscit(?) ?n ?ad [illegible] ?d(?)\n019 L13  ?n(on) ?d(?)ic(?) ?esse ?s(ed)(?) ?(con)ueniens(?) ?a(?)\n019 L14  [illegible] ?n ?s(ecundu)m(?) ?d(?)ic(?) ?d(?) ?ac\n019 L15  ?eo ?a(liqu)a(?) ?esse(?) ?a(?) ?eos ?d(?) ?p(?)\n(this block's last line appears to end at 019 L15; a large flourish \"2\"-shaped mark follows below, probably\na catchword flourish, a line filler or a quire mark)\n\n--- Lower block, col. 2 (image-018) ---\n018 L4   ?ea(?) ?d(?) ?ab ?sit(?) ?b\n018 L5   [illegible] ?d(?) ?aff(?) ?ad(?) ?q(uod)(?) ?ac\n018 L6   ?a(?) ?actu(?) ?(con)tinuu(m)(?) ?z [illegible]\n018 L7   ?b ?acce(?) ?ce(?) [illegible]\n018 L8   ?a(?) ?d(?) ?z ?d(?) ?ip(s)u(m)(?) ?ei\n018 L9   ?a ?b ?ab ?q(uod)(?) ?fiunt(?) ?q(uod) ?fit(?) ?ea\n018 L10  ?in ?finit(?) ?a ?p(?) ?sunt ?z ?q(uod)\n018 L11  ?ex ?ita(?) ?p(?) ?b ?actu(?)/?acc(ide)n(s)(?) ?d(?)\n018 L12  ?b ?d(?) ?sunt(?) ?d(?) ?d(?)\n018 L13-16 [illegible, faded]\n\nUNREAD AREAS\n- Top-left quadrant above 005: tiles 002-004 are very dark. I looked at them but transcribed nothing\n  secure.\n- Top-right quadrant (008-013): only looked at 009. Its text is dense but very soft, and I read nothing\n  secure. A darker paraph-led passage at the lower left of 009 begins \"?q(uod) ?a(?) ... ?p(ro)/?po ...\",\n  but I could not read it.\n- Col. 4, lower block (lower right of the overview; tiles 024-025 right edge and 025): not\n  transcribed.\n- Spine-band text (overview y about 880-930) and the later cursive note near the gutter: not read.\n\nSUGGESTIONS\n- A native-resolution capture (these tiles look upsampled) or a multispectral/UV capture is needed.\n  The most promising blocks for a re-shoot are lower col. 3 (022/024) and lower col. 4 (lower right of\n  the overview), where the ink is darkest.\n\nLIMITATIONS\n- Column order and page order (which half is front cover) are not established.\n- Recurring words I'm moderately confident about: \"finis\" (005), \"actu\" (018/019), \"species\" (022/024),\n  \"quod\", \"esse\". Everything else is tentative. Do not search on single readings without re-checking.\n",
+  "text_sha256": "01a4824cb42443805cec46c2e7928f12c34972863dcc6f5fada011083f72e619"
+}

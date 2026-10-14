@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-14T19:36:02.008878+00:00",
+  "first_reading": "batch-2026-10-14-image-only",
+  "first_sha256": "b2a71b82388bbde693589487f48aa94511e02a81aaad072624d472ff5dc87a7d",
+  "fragment": "F-mgx2",
+  "id": "batch-2026-10-14-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader",
+  "reason": "The source showed that the first reading's 'ostende', 'ꝯsua', 'cal' and 'reducat' are 'defende(re)', '& sua', 'car' and 'p(ro)ducat'.",
+  "schema_version": 1,
+  "sources": [
+    "Biblia sacra cum Glossa ordinaria, vol. 4 (Lyon, 1545), Threni cap. 1, MDZ bsb10141269 scans 392 (Lam. 1:16) and 393 (Lam. 1:17)",
+    "A. Andree, ed., Gilbertus Universalis, Glossa ordinaria in Lamentationes Ieremie prophete. Prothemata et Liber I (Stockholm, 2005), pp. 256 and 260 (Google Books snippets, id pOMQAQAAIAAJ)",
+    "Paschasius Radbertus, In Lamentationes Jeremiae, on Lam. 1:17 (PL 120, via Corpus Corporum)",
+    "Martin of Leon, Sermones, Opera vol. 2 (Segovia, 1782), MDZ bsb10634994 p. 282 (reuse of the Lam. 1:16 sentence)"
+  ],
+  "text": "Source-assisted reading of F-mgx2. A research reader reread on the image all visible lines of tab A (4 lines) and tab B (3 lines) on canvas 0, against the Glossa ordinaria on Lamentations (Lyon 1545, MDZ bsb10141269 scans 392-393; Andree 2005 pp. 256, 260). The coordinator separately reread tab A lines 1-2. Expansions are in parentheses; [ ] marks text lost or illegible; ? marks an uncertain reading.\n\nCanvas 0 (\"binding strips\", https://fragmentarium.ms:443/loris/F-mgx2/DSC00150.JPG/full/6000,/0/default.jpg)\n\nTab A (left inscribed tab), native box 1870,1100,2760,1600 - Glossa on Lam. 1:17, Allegorice\nA1 (1870,1150,2450,1260): [...]ua p(ossi)?t hostium            (second word abraded)\nA2 (1880,1220,2500,1360): [...]uince(re) & sua defende(re)\nA3 (1880,1380,2550,1480): [...]polluta fed[i]t[at]e car[...]   (middle abraded)\nA4 (1880,1470,2550,1580): [...] ?[desider]iorum ?int(er) hostes q(uibus)\n\nTab B (middle inscribed tab), native box 2860,1130,3420,1580 - Glossa on Lam. 1:16\nB1 (2860,1140,3360,1260): [...]rum eccl(es)iam s(ibi) c[...]\nB2 (2860,1260,3320,1380): [...]d[.] d[..] fonte a[...]           (opening abraded; consistent with [vi]derit de)\nB3 (2860,1380,3360,1500): [...]crimas p(ro)ducat\nB4: traces of letter tops only, not read.\n\nCanvas 1 (DSC00152) shows the same tabs obliquely; not used for readings.\n",
+  "text_sha256": "35a58fa0d7d480fc2febb4eed332a24c67c6b26efaa8a5fb690cd7ec179aaddf"
+}

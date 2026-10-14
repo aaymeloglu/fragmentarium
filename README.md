@@ -20,10 +20,12 @@ corpus, distinguishing examined but unresolved fragments from unexamined ones.
 ## Identifications
 
 <!-- identifications:start -->
-182 fragments examined; 45 identifications published.
+205 fragments examined; 47 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
+| [F-yybk](https://aaymeloglu.github.io/fragmentarium/F-yybk.html) | Johannes Dacus, De gradibus formarum (sophisma), ed. Otto 1955, pp. 554-555 and 561 | 2026-10-14 |
+| [F-mgx2](https://aaymeloglu.github.io/fragmentarium/F-mgx2.html) | Gilbert the Universal, Glossa ordinaria in Lamentationes, book I, on Lam. 1:16 and 1:17 | 2026-10-14 |
 | [F-lodh](https://aaymeloglu.github.io/fragmentarium/F-lodh.html) | Liturgical psalter (Gallican), Psalm 68:15-22; probable Psalms 59, 61-62 and 67 on the other faces | 2026-10-13 |
 | [F-ypxa](https://aaymeloglu.github.io/fragmentarium/F-ypxa.html) | Hostiensis (Henricus de Segusio), Lectura in Decretales Gregorii IX, on X 3.30.33-34 (De decimis: end of c. Cum non sit in homine, and c. Nuper abbates) | 2026-10-13 |
 | [F-3l5z](https://aaymeloglu.github.io/fragmentarium/F-3l5z.html) | Geert Grote, Getijdenboek (Middle Dutch hours), Hours of the Eternal Wisdom, Compline: end of hymn Ihesus regniert in den vreden and antiphon O gloriose coninc onder dinen heilighen (Van Wijk 1940, p. 111) | 2026-10-13 |

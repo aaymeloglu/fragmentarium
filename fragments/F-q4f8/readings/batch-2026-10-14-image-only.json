@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-10-14T18:49:15.869791+00:00",
+  "fragment": "F-q4f8",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "20702dcace118e2f28d087329dcfa66b21a41e7281e796e957fad70817960a8c",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238748/full/3546,/0/default.jpg (canvas 0, fol. [1]r): whole image 3546x3523 reduced to 1800x1788 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "8c410c3e65e67aabc56e36e65511d0ca939bf9f105eec9eacbf80f4bc54dcc0d",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238748/full/3546,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 35,35,1981,1968; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "73b2e1b10e6f7277cc76e2b111630772e1714a4a825a5399990f4aaa0b10b609",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238748/full/3546,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 1564,35,3510,1968; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "7b9fd15b73a6860ed0e5ad7dbdb4623526547074c45c7c2efe4df9564cb99b6f",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238748/full/3546,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 35,1553,1981,3487; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "dca8bfe0cad6f3f5ba2f690a9d8b30a0fc8095222985d66756e3b08c220ab9b1",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238748/full/3546,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 1564,1553,3510,3487; unrotated grid position column 2 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "78a6f964110e7f26614983c5285dcd8c7a06497bab59ecfd0157a30eb8875f47",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238749/full/3546,/0/default.jpg (canvas 1, fol. [1]v): whole image 3546x3523 reduced to 1800x1788 for layout"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "55a8ce60e5cdfddf85bdae16e501fbd36501cf9d6c012ccff1804eacadcf3f32",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238749/full/3546,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 35,35,1981,1968; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "670d2d7cc101f330e9a9975a4baabccf46ec639ad32d5e7f127be8d077a9dd78",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238749/full/3546,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 1564,35,3510,1968; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "e70a0f3b1ee54370144295704a0e83fc912993f79e500dc68e355345bb91afe6",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238749/full/3546,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 35,1553,1981,3487; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "30abe8df72a17354d453c19da467aecbdb4dbc4b664e9f8484f3c28d61344e78",
+        "source": "https://lib.is/IE2238743/iiif/2/FL2238749/full/3546,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 1564,1553,3510,3487; unrotated grid position column 2 of 2, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-13)",
+  "text": "PACKET-13 - unverified blind image reading\n\nExposure: nothing in my context proposed an identification or reading of this text. I did nothing beyond the brief, except that I used `ls` on the packet directory to get the image filenames and `sips` to get the image pixel sizes.\n\nLAYOUT SURVEY (image-only)\n- There are two faces of one roughly square parchment piece. Face A is overview image-001 with tiles image-002 to 005 (quadrants: 002 top-left, 003 top-right, 004 bottom-left, 005 bottom-right). Face B is overview image-006 with tiles image-007 to 010 (same quadrant order). There is no scale bar in the overviews.\n- Face A: the surface is heavily degraded, with pinkish-red pigment wash or offset over most of the face, brown stains, adhesive residue, flaking, and worm/nail holes. Very large gothic textura letters show as ghosts. They are on the scale of a choir-book or display script, about 1.5 to 2 cm minim height judging by the strokes in image-002. Only one band near the top (image-002, about y=500-600) shows dark ink letters. The middle of the face shows the ghost of a large letter or letters (dark brown blotted strokes, image-003 / image-005). These may be a decorated initial or offset from an adjacent surface. That is unclear.\n- Face B: pale and abraded (possibly a flesh side scraped or pasted down). It has a few ghost letters of the same large textura near the upper middle (image-006 about y=480, image-008 about y=900), a red pigment patch at the right edge (image-008 bottom right / image-010 top right), adhesive stains, and holes. A horizontal fold or crease runs across both faces.\n- Interpretation, tentative: a pastedown or cover-lining cut from a large-format liturgical or choir manuscript with textura script. The surviving text is too slight to support even a genre judgement.\n- Selected: the only legible band on face A (top), plus ghost traces on face B. Everything else is unread because the surface is lost or covered.\n\nTRANSCRIPTION\nLine numbers count from the top of each named tile.\n\n== Face A ==\nimage-002 l.1 (the only line with legible ink, near the top edge below the stained band):\n   [illegible] ?n?/?u? ?n? ?i? ?a? / ?nnia? / ?(o)mnia? ?p? / ?d? [cut by stain]\n   About 5 to 6 large textura minims followed by \"a\" and a bowed letter (\"p\" or \"d\"?). \"?omnia p?\" is a possible reading, not a confident one.\nimage-002 l.2-4 (middle): ghost strokes of a further 2 to 3 lines of the same script, visible as vertical minim shadows under the red wash. [illegible]\nimage-003, top left: the ghost of a letter shaped like \"d\" or \"a\" near the upper left (y about 500). [illegible]\nimage-003 / image-005 centre: a large dark brown composite shape, possibly a large initial or abraded ink area. I cannot determine it as text.\nimage-004 centre right: faint vertical strokes, \"?uit?\" / \"?nit?\" at about y=650. [illegible]\nimage-004 / image-005: a red stroke (rubric or red letter stroke) in the lower middle. No letter form is legible.\n\n== Face B ==\nimage-006 / image-008 l.~1 (upper middle): ghost of large textura, possibly \"?uitur?\" / \"?iuitur?\" / \"?u i t ?\". Very uncertain.\nimage-008 l.~2 (y about 900): ?v? ?i? ?t? [illegible]. Probably the same line seen in the overview at about y=480 to 500.\nimage-007: faint vertical minim traces at the top right only. [illegible]\nimage-009 / image-010: no legible letters. There is a red pigment patch at the upper right of image-010 (a rubric or initial remnant).\n\nLIMITATIONS\n- This is effectively unreadable in normal light. The text layer is almost entirely lost to abrasion, red pigment or offset, and adhesive staining.\n- I attempted every tile closely. The few letter groups above are the only ones with any confidence, and that confidence is low.\n- Recommended next steps: multispectral or UV imaging. Raking light might also recover the ink ghosts, especially on face A. Check whether the red wash is an offset from another object. A scale bar would help confirm the script size.\n- Orientation is not certain. I assume the rotation as photographed is correct because the face A top line reads left to right upright.\n",
+  "text_sha256": "05a5283a8da83671b1f8eaff4327a04ff40055a7786899c0c895a653b84f5583"
+}

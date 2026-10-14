@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-10-14T18:49:15.880929+00:00",
+  "fragment": "F-mgx2",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "2c10aaa81712bc485a508ba99892e73715002cbd0d8956015119b2cc53daf9bf",
+        "source": "https://fragmentarium.ms:443/loris/F-mgx2/DSC00150.JPG/full/6000,/0/default.jpg (canvas 0, binding strips): whole image 6000x4000 reduced to 1800x1200 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "1aac2e527780a543cbf972f7161541e6a8c572ffe58c529d6b5f751650abee02",
+        "source": "https://fragmentarium.ms:443/loris/F-mgx2/DSC00150.JPG/full/6000,/0/default.jpg (canvas 0, binding strips): native-pixel box 1800,1040,4051,1640; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "8414bfabeb45f0b79ed72e5a3e646e851b37a9cc205bcd86a538c51ed7586ff8",
+        "source": "https://fragmentarium.ms:443/loris/F-mgx2/DSC00150.JPG/full/6000,/0/default.jpg (canvas 0, binding strips): native-pixel box 3568,1040,5820,1640; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "ba598a11b184e35ee8657b0bb0c087f2f5bf58af5f19a0279cb5c1c98cad2fde",
+        "source": "https://fragmentarium.ms:443/loris/F-mgx2/DSC00152.JPG/full/6000,/0/default.jpg (canvas 1, binding strips): whole image 6000x4000 reduced to 1800x1200 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "b8a130636f65d589f50f1757a5ff0c91bd76413329e369b06bb3fb11353f3aee",
+        "source": "https://fragmentarium.ms:443/loris/F-mgx2/DSC00152.JPG/full/6000,/0/default.jpg (canvas 1, binding strips): native-pixel box 1200,3120,3619,3880; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "036e84e772e443422184bf76c9c606bb31f9d37902718cd0854942f835dcd9f8",
+        "source": "https://fragmentarium.ms:443/loris/F-mgx2/DSC00152.JPG/full/6000,/0/default.jpg (canvas 1, binding strips): native-pixel box 3100,3120,5520,3880; unrotated grid position column 2 of 2, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-20)",
+  "text": "Packet 20 - blind image reading (unverified)\n\nExposure: no proposed identification of the text reached me. The overview image-001 does show a modern shelf label on the volume, a green label reading \"[...]MUNALE / II / 27 D / 24 / BIBLIOTECA [...] GUBBIO\". image-004 shows a pencil number \"15306\" on the first leaf. These are provenance or shelfmark features visible in the images. I record them but did not use them for any reading. Beyond the rules: I cropped, enlarged and rotated packet images with PIL. I opened no other files.\n\nLAYOUT SURVEY (observations)\n- The photographs show an opened limp-parchment binding: the text block is exposed at the spine, with sewing supports and endbands, and a modern white cord is tied round the volume.\n- Spine-lining strips (parchment guards) are pasted across the spine between the sewing stations. Two of them carry manuscript writing in reddish-brown ink, in a small gothic book hand (textualis) with abbreviation marks:\n  * Strip 1 (left, between the first and second stations): 4 lines, cut at the left and right and probably at the top and bottom.\n  * Strip 2 (middle): 3 lines plus traces of a 4th, cut at the left.\n  * The other strips (right side, image-003/image-006) show no writing; they have rust spots and staining.\n- image-006 (lower area, under a spine strip) has a line of what looks like PRINTED gothic type, appearing upside down. It reads as \"...[o]cem(?) gerf(?) adilt(?)...\" (rotated 180 degrees). It is very blurred.\n- image-002 and image-005 are two photographs of the same strips (overlapping views, not additional text). image-003 and image-006 also overlap. image-004 is a second overview.\n- No rubrics, coloured initials or glosses are visible on the strips. Line spacing suggests about 3-4 mm between lines.\n\nSELECTED SPANS\nI read all writing on both strips. I did not read: the printed line in image-006, which is too blurred (I give only a tentative reading), and the 4th line of strip 2 (traces only).\n\nTRANSCRIPTION (line numbers from the top of each strip as seen in image-005; image-002 agrees)\n\nStrip 1 (image-005, left; also image-002 left)\nimage-005 strip1 l.1: ...ua(?) po(?)rte(?)/pr(?)te(?) hostium     [\"hostium\" is clear; the 2nd word is abraded: \"porte/parte/prece\"]\nimage-005 strip1 l.2: ...uinc(?)e(?) . c(?)sua(?)/ꝯ(?)ua ostende     [\"ostende\" is clear, with a superscript abbreviation mark above the end; the word before it could be \"tua\" or \"sua\" with a preceding \"e/c\"]\nimage-005 strip1 l.3: ...[..]ollita(?)/[..]ostulata(?) sede(?)[..] tr(?)/te(?) cal(?)[..]     [abraded centre]\nimage-005 strip1 l.4: ...[..]ch(?)[..] [..] nre(?)/n(ost)re(?) hostesq(ue)(?)     [cut at the bottom; \"hostesq\" reads fairly clearly]\n\nStrip 2 (image-005, middle; also image-002 middle)\nimage-005 strip2 l.1: ...x(?)/[..]y eccl(es)iam(?) s(?)uꝰ(?)/ꝯ(?)     [\"eccl'am\" with an abbreviation stroke = eccl(es)iam(?); the line starts with a cut letter, perhaps \"x\" or \"y\"]\nimage-005 strip2 l.2: ...[..]d(?)ronice(?)/[..]dro(?)nite(?) a(?)/d(?)     [the first letters are abraded; it ends in a letter with a superscript stroke]\nimage-005 strip2 l.3: ...[.]i(?)mas(?) reducat(?)e(?)/reducere(?)     [\"re-ducate\" or \"reducere\"; abbreviated forms]\nimage-005 strip2 l.4: [traces only; tops of letters] [illegible]\n\nPrinted line (image-006, rotated 180 degrees): ...[o]cem(?) gerf(?)/gens(?) adilt(?)[..]     [blurred; low confidence]\n\nOther visible writing: a pencil number \"15306\" on the first leaf (image-004), and the shelf label (image-001), as noted above.\n\nLIMITATIONS\n- The strips are small and cut. Each line survives as only 2-3 words, and the surface is abraded in places.\n- The photographs are oblique and slightly out of focus in places. They are not flat native scans.\n- The printed line under the spine strip is blurred and upside down.\n- Suggested next step: flat, in-focus, perpendicular photography of each spine strip, and images of the other spine stations and of the opposite board, where more pieces of the same leaf may survive.\n",
+  "text_sha256": "abee903b02f5b80a1c7b3eecf1fd6f4691cfc56f40b443e7c4ae8102630a654f"
+}

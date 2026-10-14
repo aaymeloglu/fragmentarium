@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-10-14T18:49:15.874866+00:00",
+  "fragment": "F-s4q7",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "73f8aaeaa55295fd20b5a8ca0114521fd1465674e6dbe39da4b32277071bcf5e",
+        "source": "https://fragmentarium.ms:443/loris/F-s4q7/EHC_20231002_0014_Fragm_232.jp2/full/2675,/0/default.jpg (canvas 0, fol. [2]v-[1]r): whole image 2675x1076 reduced to 1800x724 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "73f29646810bf926899ff693b419b812a69235a8fe081482465aed81f7b06142",
+        "source": "https://fragmentarium.ms:443/loris/F-s4q7/EHC_20231002_0014_Fragm_232.jp2/full/2675,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 133,107,1511,408; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "765484a4147b85c2eff0174c2651beada28962d7d329a748f331538bbb16fb16",
+        "source": "https://fragmentarium.ms:443/loris/F-s4q7/EHC_20231002_0014_Fragm_232.jp2/full/2675,/0/default.jpg (canvas 0, fol. [2]v-[1]r): native-pixel box 1215,107,2594,408; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "ce4bffea4bba6ea9e12501d871b6507706c4b8a6eb4f810cac1368847093a384",
+        "source": "https://fragmentarium.ms:443/loris/F-s4q7/EHC_20231002_0016_Fragm_232.jp2/full/2688,/0/default.jpg (canvas 1, fol. [1]v-[2]r): whole image 2688x961 reduced to 1800x644 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "798f03768d11807b973f94fba314b8163e10eccca85a593e532f32cad26d3d24",
+        "source": "https://fragmentarium.ms:443/loris/F-s4q7/EHC_20231002_0016_Fragm_232.jp2/full/2688,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 161,76,1530,413; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "973c670bc4e365dcc94817d2df38f35e1905184c266a99d29d284a1bb3e4184d",
+        "source": "https://fragmentarium.ms:443/loris/F-s4q7/EHC_20231002_0016_Fragm_232.jp2/full/2688,/0/default.jpg (canvas 1, fol. [1]v-[2]r): native-pixel box 1237,76,2607,413; unrotated grid position column 2 of 2, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-16)",
+  "text": "Packet 16 - blind image reading (unverified)\n\nExposure: nothing in my context revealed a proposed identification or reading for this packet. Beyond the rules: I cropped and enlarged the packet images with PIL and tried contrast enhancement (autocontrast/equalize) on face A. The enhancement did not help. I opened no other files.\n\nLAYOUT SURVEY (observations)\n- A long, narrow horizontal parchment strip, about 17 cm x 1.8-2 cm by the ruler, with a central fold or crease at about 10 cm. Clear tape covers the left end on face A and the right end on face B. It is a binding strip, and on both faces only a band about 3 lines high survives.\n- Face A (overview image-001; tiles image-002 left half, image-003 right half; they overlap around the fold):\n  * Writing begins just right of the fold. Two (perhaps three) red/brown-red paraph or \"C\"-shaped signs stand at the left of the surviving lines, at the fold. A red horizontal stroke runs from the top one along the top edge. These look like rubricated paragraph marks or line-initial touches.\n  * The text is in a small brown-ink hand. It is very faded or abraded, perhaps partly washed or erased, and only a few letters per line can be made out.\n  * Along the top edge, far right, are separate larger brown letters or symbols (\"ꝯ\"/\"9\"-like, \"a\", \"ſt\", \"ullo(?)\", \"ꝓ̄\"-like): perhaps a line of notes or letters cut by the top trim.\n  * At bottom right is a red-ink word ending \"...nio\" (or \"...uio\"), followed by a small red filled rectangle at the right edge. It could be a rubric ending, or a line-filler/paraph block.\n  * Two pen drawings or trials of a \"hand\"-like shape, in a later-looking brown ink, sit at the bottom (one near the fold, one in the middle of the right half). They look like probationes pennae or doodles, not text.\n- Face B (overview image-004; tiles image-005, image-006): there is no text. A brown-ink sketch of a box with vertical hatching (a pen trial) is at about 6-7 cm, and there are red stains at both ends and at the fold. Possible faint green or red traces sit at the far left. No legible writing.\n\nSELECTED SPANS\nI read all of face A's writing. All three surviving lines in image-003 are selected. Face B has nothing to transcribe.\n\nTRANSCRIPTION (face A; line numbers from the top of image-003; the strip runs left to right)\n\nimage-003 l.1: [red paraph] [illegible, about 8-10 letters, washed] ..un(?)ent(?)ur(?) . ꝛ(?) soli(?)c(?)i(?)t(?)ime(?)n[..] ꝑ(?) [..]     [the clearest group reads like \"solicitime\" or \"solicitum e\", with a long abbreviation/suspension stroke over it; uncertain]\nimage-003 l.1 (continued, top-edge letters further right, possibly a separate line cut at the top): ꝯ(?) . . . a . . . ſt(?) . ullo(?)ꝰ(?) . ꝓ(?)ꝗ(?)     [\"ullo\" could be \"illo\"/\"ullo\"; the last group is like \"pt\" with a superscript; all very uncertain]\nimage-003 l.2: [red paraph] [illegible] ... . ſit(?) ẽ(?) . m(?)eu(?)a(?) . ua(?)n(?) . cōȝ(?) ſ[..] may(?)[..]     [the \"ſit ẽ\" group is faint; \"cōȝ\" may be \"cōm\" or \"cōs\" with an abbreviation; uncertain]\nimage-003 l.3: [third red sign?] ſc̄(?)[..] [illegible] ...     [almost entirely faded]\nimage-003 l.3 (right): [red ink] ...nio     [preceded by an upper stroke, so \"-nio\" or \"-uio\", followed by a red filled rectangle]\n\nimage-002: on face A, left of the fold, only the taped area at the far left shows some dark marks (perhaps the ends of letters), and there is an ink stroke at about 4 cm. [illegible] Nothing that reads as text.\n\nPen drawings (bottom of image-003, two \"hand\"-like scribbles): not transcribed; they look like doodles or pen trials.\n\nLIMITATIONS\n- Face A's writing is badly abraded or faded. Most of each line is [illegible] even at native resolution, and my readings of individual words are tentative.\n- The strip is trimmed at top and bottom, so only about 3 lines survive and the top line may be cut.\n- The left end of face A is under tape.\n- Suggested next step: UV or multispectral imaging of face A right of the fold (about 10-17 cm). The ink looks washed or erased, so ordinary photography won't recover more.\n",
+  "text_sha256": "ec0bb8217ed87f4d4090a0c41840057fb983d4a6076fcd320410e7ef274d8ccb"
+}

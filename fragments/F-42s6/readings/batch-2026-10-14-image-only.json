@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-10-14T18:49:15.852044+00:00",
+  "fragment": "F-42s6",
+  "id": "batch-2026-10-14-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "7b21fe96a1ccab83450068abe31769b7059cb229609fef5a6ddd2062264030a5",
+        "source": "https://fragmentarium.ms:443/loris/F-42s6/EHC_20221107a_0076_331b.jp2/full/2970,/0/default.jpg (canvas 0, fol. [2]r): whole image 2970x1608 reduced to 1800x975 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "278649c2dec9309c3364211ad2b06adc41f14add3ef282506db769a5cbbc5952",
+        "source": "https://fragmentarium.ms:443/loris/F-42s6/EHC_20221107a_0076_331b.jp2/full/2970,/0/default.jpg (canvas 0, fol. [2]r): native-pixel box 504,225,1811,611; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "3e348b748c65f512526166b3304d7a7b7edc7a268659994dabfdf7f8b1e5382c",
+        "source": "https://fragmentarium.ms:443/loris/F-42s6/EHC_20221107a_0077_331b.jp2/full/3178,/0/default.jpg (canvas 1, fol. [2]v): whole image 3178x2173 reduced to 1800x1231 for layout"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "1911a83499b0c785e521a306d09dfa2d7f872b618acfc757a71c2d034e83e600",
+        "source": "https://fragmentarium.ms:443/loris/F-42s6/EHC_20221107a_0077_331b.jp2/full/3178,/0/default.jpg (canvas 1, fol. [2]v): native-pixel box 508,434,1875,869; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14 reader (packet-08)",
+  "text": "packet-08 - unverified blind image reading (reader D)\n\nEXPOSURE / PROCEDURE NOTES\n- No proposed identification or earlier reading of this fragment was in my\n  context.\n- Beyond the brief: in my scratchpad folder (readerD/) I rotated image-002 by\n  180 deg (the text is upside down as photographed), boosted contrast and\n  enlarged it 2-3x; I also contrast-boosted image-004. No other files.\n\nLAYOUT SURVEY (observation)\n- image-001 (overview, labelled \"B\") and image-003 (overview of the other\n  face): a small boat-shaped parchment offcut, c. 11 x 2.5 cm, with a twisted\n  tongue at one end and a small tab on the long edge. Probably a binding\n  strip cut from a leaf (tentative).\n- Face in image-001/002: text written UPSIDE DOWN relative to the photo.\n  Six partial lines of small, rather cursive gothic script in faded brown\n  ink. Short red vertical strokes occur at intervals in the lines (red\n  touching of capitals or red paraph/stroke marks). Line beginnings and\n  ends are lost (the piece is cut on all sides); only one column visible.\n  A pale blue-white smear crosses the centre (later stain or adhesive).\n- Face in image-003/004: dark, abraded, with small red strokes (red touches)\n  visible but no legible text even after enhancement.\n- No rubrics, initials, glosses or headings visible.\n\nTRANSCRIPTION (image-002.jpg, read after 180 deg rotation; lines counted\nfrom the top of the rotated image; each line truncated at both ends)\n  l.1   [..]ori? ou(?)ie? / an(im)e? ip(s)a? [..]\n  l.2   [..]bore? studium? / sudaru(m)? . uita? / ui(r)tus? . [..] hoc? tuo? [..]\n  l.3   p(ro)? eo (et)? (?)rabon(?) / labore? [..] ma(teri)a? ei? mali? [..] cienes? / b(e)ne sciens? [..]\n  l.4   [..]tatue? / [..]tatur . Vir? / Qui? (et) ther? [..]ui? [..] q(uod)? i(n)? [..]p(?)ormie? / formice? . A(?)x? [..]\n  l.5   [..] amore (?) (et)? an(im)i? [..] uirtute? [..] (?)capi(?)s? [..] sacramento? / sa(?)c(?)ndo? [..]\n  l.6   amore? n(on)? . nolebit? / uolebit? [..]e(?)ne(?) [..] aq(?)ui? mali uoluntate? / malitia? [..]\n  (red strokes fall at: l.2 centre, l.3 centre-left, l.4 right, l.5-6 lower\n   left and right; I cannot tell whether they mark capitals or punctuation)\n\nimage-004.jpg (other face): [illegible] throughout; only red strokes and\n  abrasion visible.\n\nSELECTED / UNREAD\n- All six lines of the readable face were attempted; essentially nothing is\n  secure. The words \"amore\" (l.5 and l.6) and \"mali\" (l.3, l.6) are the most\n  confident; everything else is a letter-shape guess. It is not even certain\n  the language is Latin.\n- Unread: the entire other face.\n\nLIMITATIONS\n- Very faded ink, small script, tiny fragment cut on all sides.\n- Suggest UV / multispectral imaging of both faces; the other face may\n  retain text invisible under normal light.\n",
+  "text_sha256": "a11dbbc617e4688676719ad770d5cfbb195c25466557150056d6e87a82ec0305"
+}

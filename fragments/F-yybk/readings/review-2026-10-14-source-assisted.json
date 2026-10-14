@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-14T20:01:46.091983+00:00",
+  "first_reading": "batch-2026-10-14-image-only",
+  "first_sha256": "65eeba2796a94d341a2521790e3fa1277fac0ebdad8c5a49f67859cdb02d3538",
+  "fragment": "F-yybk",
+  "id": "review-2026-10-14-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Codex, source-assisted reviewer",
+  "reason": "Image review supports a tentative quia ens quod est continuation in line 8 rather than the edition-assisted propter expansion; preserve the apparent variant and uncertainty.",
+  "schema_version": 1,
+  "sources": [
+    "Initial assisted reading: fragments/F-yybk/readings/batch-2026-10-14-source-assisted.json",
+    "A. Otto, Johannis Daci Opera I.2 (1955), p. 561, saved Google Books snippets, W6_-U19xpMgC",
+    "Fragmentarium description F-yybk/2440, Ivana Dobcheva, VDS_Detail2 transcription"
+  ],
+  "text": "Source-assisted review of F-yybk, canvas 0, line 8, using the numbering in the initial assisted record. The reviewer already knew the proposed identification and inspected the manuscript corner and a lower enlargement alongside the saved Otto p. 561 snippets and the catalogue transcription. This is not an independent first reading.\n\nImage: [Cod1936_VDS_Detail2](https://fragmentarium.ms:443/loris/F-yybk/Cod1936_VDS_Detail2.JPG/full/1970,/0/default.jpg), native box about 780,1450-1700,2450, rotated 180 degrees.\n\nl.8: [absoluto] vo(cabu)lo. Acc(iden)tia a(utem) d(icu)nt(ur) entia q(ui)a(?) ens q(uo)d e(st) s(ub)[...]\n\nThe initial source-assisted record expanded the first abbreviation after entia as p(ro)pt(er), following the edition. The image instead appears to have a q-like abbreviation followed by ens quod est and an incomplete sub- word, consistent with the catalogue's quia ens quod est sub[...]. The expansion quia remains tentative. Do not restore the continuation from the edition; its wording and connection to line 9 remain unresolved. This correction does not challenge the sustained identification with De gradibus formarum. Other lines are not newly transcribed here, and the joint locus is not independently certified by this review.\n",
+  "text_sha256": "a50c6238956755acb6ad79471b02c73952d35e25fb0c2242df9ba715004a65e4"
+}
