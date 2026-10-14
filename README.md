@@ -1,9 +1,11 @@
 # Fragmentarium: identifying the unidentified
 
 [Fragmentarium](https://fragmentarium.ms/) is the international database of medieval manuscript
-fragments, the leaves and strips cut from old books and reused as binding waste. A sweep on
-20 September 2026 found 222 records with "unidentified" in the title or summary
-([saved corpus list](data/unidentified-2026-09-20.csv)). This repository works through them: read the fragment from
+fragments, the leaves and strips cut from old books and reused as binding waste. A sweep of its
+search on 14 October 2026 (`tools/sweep.py`) found 363 records whose title or summary calls the
+text unidentified or unknown, in English or another language
+([corpus list](data/unidentified-2026-10-14.csv); the first sweep, of 20 September, found 222).
+This repository works through them: read the fragment from
 the library's images, find the text in a printed edition or a digital corpus, and write the
 comparison out so anyone can check it.
 

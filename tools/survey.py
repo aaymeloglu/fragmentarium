@@ -25,7 +25,7 @@ contact sheets (--sheets, needs Pillow) show the first images of each record sid
 that judgement; they are for choosing, never for transcribing.
 
 Manifests, sizes and record pages are kept in --cache, so a second run costs nothing. Without ids
-the candidates are the rows of the saved catalogue sweep that have no ledger row.
+the candidates are the rows of the latest catalogue sweep (`sweep.py`) that have no ledger row.
 """
 import argparse
 import csv
@@ -40,15 +40,17 @@ import catalogue
 import iiif
 
 ROOT = Path(__file__).resolve().parents[1]
-SWEEP = ROOT / "data" / "unidentified-2026-09-20.csv"
+SWEEP = max((ROOT / "data").glob("unidentified-*.csv"))  # the latest sweep.py list
 LEDGER = ROOT / "data" / "fragments.json"
 
 
 def candidates(sweep=SWEEP, ledger=LEDGER):
-    """Sweep rows with no ledger row, as {id: row}."""
+    """Sweep rows about an unidentified text (scope `title`; every row of a list without scopes) and
+    with no ledger row, as {id: row}."""
     done = {row["id"] for row in json.loads(Path(ledger).read_text(encoding="utf-8"))}
     with open(sweep, newline="", encoding="utf-8") as handle:
-        return {row["fragmentarium_id"]: row for row in csv.DictReader(handle) if row["fragmentarium_id"] not in done}
+        return {row["fragmentarium_id"]: row for row in csv.DictReader(handle)
+                if row["fragmentarium_id"] not in done and row.get("scope", "title") == "title"}
 
 
 def siblings(shelfmark, ledger):
