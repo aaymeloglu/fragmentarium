@@ -21,6 +21,10 @@ One batch, in order:
    catalogue description, including a linked full description
    (`tools/catalogue.py`), before choosing it and before choosing what to
    image (METHOD.md). Confirm which object in the image is the fragment.
+   Contact sheets mislead about legibility both ways; before rejecting or
+   choosing a record on them, run `tools/probe.py <F-id> OUTDIR --enhance`,
+   which measures each object's text lines and cuts a native-resolution
+   sample to look at.
    Start `tools/searchd.py` from this checkout; one left running from an
    earlier checkout runs that checkout's code.
 2. `tools/acquire_batch.py`, then `tools/register.py`.
