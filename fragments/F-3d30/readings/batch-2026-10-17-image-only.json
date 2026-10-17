@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-10-17T20:12:35.943853+00:00",
+  "fragment": "F-3d30",
+  "id": "batch-2026-10-17-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "90e455a57064579bf1ad9b80271ead5c565c75052062cab399d8e1596bb658eb",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2_F3_F4.jp2/full/2985,/0/default.jpg (canvas 1, mds_27Aa17_F2-F3-F4): whole image 2985x6280 rotated 270 degrees counterclockwise and reduced to 1800x856 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "c4336c9f6a5ab2a1ad2adf572cd0e2d0e9e9e8b130626f3b5d1ce071285af275",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2_F3_F4.jp2/full/2985,/0/default.jpg (canvas 1, mds_27Aa17_F2-F3-F4): native-pixel box 1134,628,1802,2260, rotated 270 degrees counterclockwise; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "f8ba1e2e91ffc4286582e30f392b73c787f7777139b2a296f7c972a6edd3f56c",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2_F3_F4.jp2/full/2985,/0/default.jpg (canvas 1, mds_27Aa17_F2-F3-F4): native-pixel box 1659,628,2328,2260, rotated 270 degrees counterclockwise; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "65462ec765e7e94101a42f54b3c25196aeaa2e1936a84d9f33e567ae12e11d43",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2a.jp2/full/2448,/0/default.jpg (canvas 2, mds_27Aa17_F2a): whole image 2448x3264 rotated 270 degrees counterclockwise and reduced to 1800x1350 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "758d625d0797ac7767edd8ca2c2acaf5574018c9d6ed8aea19969b40a9bf282b",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2a.jp2/full/2448,/0/default.jpg (canvas 2, mds_27Aa17_F2a): native-pixel box 685,979,1836,2937, rotated 270 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "e29d353bd9bc5c77a9377fd263ad0a8f4d8e4a49e2e72cb05755841e1aef5562",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2b.jp2/full/2448,/0/default.jpg (canvas 3, mds_27Aa17_F2b): whole image 2448x3264 rotated 270 degrees counterclockwise and reduced to 1800x1350 for layout"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "faadabc6619dcb0f84e2b65aeef04530df9b453d4645331d8cbd1d5f38c7bc20",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2b.jp2/full/2448,/0/default.jpg (canvas 3, mds_27Aa17_F2b): native-pixel box 685,979,1836,2937, rotated 270 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "9c7140a53ba19fd2a02f8cdaa88dabac32e41375aadc8983ea1402e6cd0be45c",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2c.jp2/full/1869,/0/default.jpg (canvas 4, mds_27Aa17_F2c): whole image 1869x3264 rotated 270 degrees counterclockwise and reduced to 1800x1031 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "08674ae0afcd30afebe2ec71e42f5511341e8d2f6b40d243b4ddcfaa63a290d2",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2c.jp2/full/1869,/0/default.jpg (canvas 4, mds_27Aa17_F2c): native-pixel box 0,326,1401,2937, rotated 270 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "d3298c26845824a2c18d8b7b069088fe7e8200c98ae35d5e3102c0f3476985bd",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2d.jp2/full/1807,/0/default.jpg (canvas 5, mds_27Aa17_F2d): whole image 1807x2724 rotated 270 degrees counterclockwise and reduced to 1800x1194 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "72b824db34b025e1f2996449b0717d7cee3d60a24ed834ed49c62a09a6a0d3c1",
+        "source": "https://fragmentarium.ms:443/loris/F-3d30/mds_27Aa17_F2d.jp2/full/1807,/0/default.jpg (canvas 5, mds_27Aa17_F2d): native-pixel box 0,217,1445,2506, rotated 270 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-17 reader (packet-08)",
+  "text": "PACKET-08 - UNVERIFIED IMAGE-ONLY READING\n\nExposure statement: Nothing in my context proposed an identification or reading of this text. The only materials I opened were PROMPT.md and image-001 to image-011. I listed the packet directory to get the image filenames. I did not read packet.json and did not search for anything.\n\nAll 11 images loaded.\n\nLAYOUT SURVEY (observations)\n- image-001 is an overview of the inside spine of a binding. Parchment manuscript strips are pasted across the spine panels between raised sewing supports (four supports are visible). The text runs horizontally (the spine is upright in the image), with the right side up. Only short line-fragments of a few words survive in each panel, so no column, margin or running title is visible.\n- Panel 1 (far left): a larger textura in black ink with two red initials. One is a red \"Q\" at about line 4. The other is a red initial, perhaps \"S\" or \"G\" (uncertain), at the bottom. There is a red point or punctus after a word on line 3. This hand differs from the other panels. These are probably separate strips or separate manuscripts, but that is my interpretation.\n- Panel 2: a strip that shows only single letters at the line-starts (for example \"w\", \"a\", \"n\") and a blue-green pen-flourish line running down it. This is probably penwork or cadel decoration from a margin or initial, but that is my interpretation.\n- Panel 3 (between the 2nd and 3rd supports): a small gothic book hand, dark ink, with heavy abbreviation. It holds two stacked strips: an upper strip of about 4-5 lines and a lower strip of about 7 lines, separated by a torn edge. Above them is a blank strip with a purple stain. Every native tile (002-011) covers this panel. The left ends of the lines are hidden under the sewing support, and the right ends run under the next support.\n- Panel 4 (far right): only isolated letters are visible beside the support. Not read.\n- Tiles 004-007 and 008-011 are oblique, partly out-of-focus repeats of the same lines. They overlap one another and are not additional text.\n\nSELECTED SPAN: Panel 3 only. This is the only small-hand text resolved by the tiles. Each line is a fragment cut off at both ends. \"/\" marks the cut edges. Expansions are in (), uncertain readings end in ?.\n\nUpper strip (best view image-002; confirmed in 004-007)\nimage-002 L1: / [tops of letters only, illegible] /\nimage-002 L2: / [.]ondaru(m)? p /        (the stroke read as \"-m\" abbreviation is uncertain; letters \"ondaru\" then \"p\")\nimage-002 L3: / [.]litar? . aliq(?)n̄ /   (initial letters partly under the support; final word \"ali\" + q or g + n with an overstroke)\nimage-002 L4: / s . ffaci? lit(er)? [sign like a z-shaped abbreviation, perhaps for -er or et] . cu(m)? /  (dot over i; the middle of the line is uncertain)\nimage-002 L5: / l? uat q(ua)l(ite)r? p /  (could also read \"nat\"; the \"q(ua)l(ite)r\" expansion is very tentative)\n\nLower strip (best views image-003 and image-008/009; also 010/011)\nimage-003 L2 (=008 L2): / a op? ie? p(ro)? p(ri)ncipi? /   (last word \"pncepi\" with a superscript mark; the expansion is tentative)\nimage-003 L3 (=008 L3): / [.]lab(r)i? . eo(rum)? /  (a gap follows \"-bri\"; \"eo\" has an overstroke)\nimage-003 L4 (=008 L4): / [..]l . e? cian d(?) q(ue)? /  (reads graphically \"ciand\" with an overstroke and a following \"q\" plus a mark)\nimage-003 L5 (=008 L5): / [.]a [..] tracto? [illegible] /  (blurred; a long abbreviation stroke at the right)\nimage-008 L6: / [illegible] a(d)? doec? /  (very blurred)\nimage-008 L7 (=011 L7): / ffi[..]a [.] em n̄? hlis? /  (\"emn\" + \"slis\"/\"hlis\"; this could be \"o(mn)i\" or similar, but that is not verifiable)\nimage-008 L8 (=011 L8): / oig? et? [illegible] /  (only the start of the line; the rest is lost at the torn lower edge)\n\nPanel 1 (overview image-001 only, low resolution, larger textura)\nimage-001 p1 L1: / ]nmoeru? [ /\nimage-001 p1 L2: / ]oserciti? [ /   (could be \"exerciti-\")\nimage-001 p1 L3: / ]nt? a multi[ /  (red point after the first word)\nimage-001 p1 L4: / ]t? [red initial Q] uid? [ /\nimage-001 p1 L5-L7: [letter tops only, illegible], with a red initial (S? G?) at L7\n\nUNREAD / LIMITATIONS\n- No tile covers panels 1, 2 or 4. The panel 1 readings come from the reduced overview and are guesses. A close-up of panel 1 (the textura with the red Q) and of panel 4 would help.\n- In panel 3, every line is truncated on both sides by the sewing supports. Probably 1-3 words are hidden under each support. A raking or angled view under the supports, if conservation allows, could add text.\n- The lower-strip lines 5-8 are only partly in focus in every tile. I estimate my readings there at under 50% letter confidence.\n- No connected sense can be established from fragments this short. I deliberately do not offer expansions that depend on context.\n- I did nothing beyond the brief's rules, apart from listing the packet directory to find the image filenames.\n",
+  "text_sha256": "255a550f881848fee029b4f8b733e4f84719bf817e5b51eb12723ba4ab3e4ec6"
+}

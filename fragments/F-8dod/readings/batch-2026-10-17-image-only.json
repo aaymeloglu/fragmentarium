@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-10-17T20:12:35.946579+00:00",
+  "fragment": "F-8dod",
+  "id": "batch-2026-10-17-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "52d578dc4c2327397d21e0002a6fed0fdc4bfd63bea4a2a82cc87bf52cf81038",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0023_Fragm_236.jp2/full/2347,/0/default.jpg (canvas 0, fol. [1]r): whole image 2347x3035 reduced to 1392x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "a433024a81126352d5f422b4598db3865d95bf283b6fbd07abf8f2577b53a799",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0023_Fragm_236.jp2/full/2347,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 46,91,563,1501; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "05ddd0a8184adaa8aca49193eb83ea3df5d6ce89eb5dc3ea6f546a4abb177f0b",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0023_Fragm_236.jp2/full/2347,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 46,1199,563,2610; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "a7bbb9aa6c5b519e6b1a00e3b51e3abfbc8d144486994e9a2100b781fb50ba68",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0025_Fragm_236.jp2/full/2275,/0/default.jpg (canvas 1, fol. [1]v): whole image 2275x3087 reduced to 1327x1800 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "a09d81a41a45199475d4532be31e9971dabcabb7791ea4f0d3ea221a8d0c0842",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0025_Fragm_236.jp2/full/2275,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 45,92,546,1526; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "6b0e6a101cef2cfd170606ec996efc01548f3b7c8d6ca3f73ad16ae70400fd71",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0025_Fragm_236.jp2/full/2275,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 45,1219,546,2654; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "0e6afb1433584eb5d64585a8360968d9952b898fbef7a9a14df1cbccec0e5824",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0026_Fragm_236.jp2/full/2268,/0/default.jpg (canvas 2, fol. [2]r): whole image 2268x3090 reduced to 1321x1800 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "7ed2e7348136c2bc54e8509ce04b0b2f9633a811680e1e1f69efd993d1b6f1b3",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0026_Fragm_236.jp2/full/2268,/0/default.jpg (canvas 2, fol. [2]r): native-pixel box 45,92,544,1528; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "ceee305f5b14e5a6adcdf0ff78d84f4e76cd59051d0e64e7d6b091e11b692d60",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0026_Fragm_236.jp2/full/2268,/0/default.jpg (canvas 2, fol. [2]r): native-pixel box 45,1220,544,2657; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "a7f0c16e209f18396ff863fa3171b8ee3f10d7ddd223b6682d330130841bad5d",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0027_Fragm_236.jp2/full/2271,/0/default.jpg (canvas 3, fol. [2]v): whole image 2271x3066 reduced to 1333x1800 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "071205adf5254cd1a0b1f850afdb3c366c32b3b1a07b53f9811de3ec79337990",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0027_Fragm_236.jp2/full/2271,/0/default.jpg (canvas 3, fol. [2]v): native-pixel box 45,91,545,1516; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "e192845640f390d5f5d379e44eb223697e69f914093d6169694e906d5d8fefb6",
+        "source": "https://fragmentarium.ms:443/loris/F-8dod/EHC_20231002_0027_Fragm_236.jp2/full/2271,/0/default.jpg (canvas 3, fol. [2]v): native-pixel box 45,1210,545,2636; unrotated grid position column 1 of 1, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-17 reader (packet-09)",
+  "text": "packet-09: unverified image reading\n\nExposure: none. Nothing in my context gave a proposed identification or reading for this fragment.\nBeyond the rules: I listed the packet directory (ls) to see the image filenames. I did not open packet.json or any other file or directory.\nAll 12 images loaded.\n\nLAYOUT SURVEY (observations)\n- Four overviews: image-001, -004, -007, -010. Each shows a narrow vertical parchment strip, c. 4.5 cm wide and c. 19 cm tall going by the ruler. The strip is mostly blank margin, with only a thin sliver of one text column at one edge. These look like binding strips or stubs. Horizontal cut lines run across near the top and bottom of each strip, and in places a clear tape or film edge is visible.\n- Pricking: a regular row of prick marks (short dashes) runs down the margin of every face, plus a second row of small marks nearer the text.\n- Small hook or \"7\"/\"s\"-shaped strokes stand beside line ends (faces 1 and 3) or line beginnings (faces 2 and 4). They may be line fillers or marks belonging to the other column; I cannot tell which.\n- Face 1 (image-001; tiles 002, 003): line ENDS of a column at the left edge of the strip, c. 22 lines. In the blank margin is a later-looking brown-ink note: a looped sign or letter above \"iij\". There are no rubrics.\n- Face 2 (image-004; tiles 005, 006): line BEGINNINGS of a column at the right edge of the strip, c. 23 lines. In the margin is a brown note: a looped sign above a large \"J\"-like letter, followed by a point. NOTE: tiles 005 and 006 cover only the blank left margin and miss the text, so the face-2 text below is read from the overview only.\n- Face 3 (image-007; tiles 008, 009): line ENDS at the left edge, c. 23 lines. Faint red pen-flourish lines show in the lower blank area, probably show-through or offset from face 4.\n- Face 4 (image-010; tiles 011, 012): line BEGINNINGS at the right edge, c. 18 lines. In the lower part a red pen-flourished initial runs down the left margin. Beside it is a small initial or paraph with a red/blue element at the start of a line, and a large red initial at the very bottom, cut off. A small marginal note in brown ink reads \"[?]iiij\" (image-012). NOTE: tiles 011 and 012 cover mostly margin and only the red flourish. The face-4 text is from the overview only.\n- Script: a small Gothic textualis bookhand with abbreviation strokes. No commentary layout, glosses or underlining are visible; the strips are too narrow to judge.\n\nSELECTED SPANS\nOnly word fragments survive at the column edges (one to two words per line at most), so no connected prose can be read. I transcribe every visible line end or beginning on each face, since the fragments are all there is. Line numbers count from the top of the image named. A leading or trailing \"-\" means the word continues off the strip.\n\nFACE 1: line ends (image-002, lines 1-12)\n002.01  -ati;   (or -atu;)\n002.02  -: nos\n002.03  -nos te-\n002.04  -rtam.   (-ertam?)\n002.05  -nato\n002.06  -ngne:?   (final letters uncertain; macron over the e?)\n002.07  sic ꝑ (per)\n002.08  -do ali-\n002.09  -ia q(uo)   (superscript o over q)\n002.10  -: ut\n002.11  -mei   (or -mex?)\n002.12  -time\nFACE 1 continued (image-003; its lines 1-4 overlap 002.09-12: \"aq°\", \": ut\", \"mei\", \"time\")\n003.05  -: aut\n003.06  -fectu(m)   (macron over final u; -efectu(m)?)\n003.07  -utem   (autem?)\n003.08  -car'   (with an abbreviation stroke)\n003.09  -ndo:\n003.10  -quid\n003.11  -at   (-rat? -cat?)\n003.12  -ib(us):   (written -ibȝ:)\n003.13  -m ꝑ (per)   (small superscript mark above m)\n003.14  -unde\n003.15  -: ꝫ   (one or two letters; uncertain)\n\nFACE 2: line beginnings (image-004 overview only; line numbers count from the first text line)\n004.01  carn-\n004.02  me: c?-\n004.03  in mi-   (in m-?)\n004.04  natu-?   (nalia?)\n004.05  solu-\n004.06  apposi-?   (first letters uncertain; ꝯpos-?)\n004.07  mati-?   (matu-?)\n004.08  Di s-?   (Di f-?)\n004.09  ⁊ ub-   (et ub(i)-?)\n004.10  repet-?   (cepet-?)\n004.11  meu-\n004.12  mul-\n004.13  tes-?   (tel-?)\n004.14  spera-\n004.15  q̄m (quoniam?)   (qm with macron)\n004.16  dom-?   (do-)\n004.17  har-?   (ha-)\n004.18  utro-?   (uir-?)\n004.19  tatt-?   (rati-?)\n004.20  rati-?\n004.21  tem-\n004.22  p(re)se-?   (pse with mark)\n004.23  fact-?   (fac-)\nLetter shapes on this face are small in the overview and many readings are tentative.\n\nFACE 3: line ends (image-008, then image-009)\n008.01  -edi;   (-edꝫ?)\n008.02  -chis   (-chꝭ?)\n008.03  -erz?   (-rex? letters uncertain)\n008.04  -enti-\n008.05  -ō at   (or -o ad?)\n008.06  -dio\n008.07  -iph(y)?   (abbreviation; uncertain)\n008.08  -is\n008.09  -lio.\n008.10  -do   (round d; or -bo?)\n008.11  -o\n008.12  -do\nFACE 3 continued (image-009; its lines 1-3 overlap 008.10-12)\n009.04  -ut\n009.05  -ura\n009.06  -t;\n009.07  -m\n009.08  -s\n009.09  -)   (single stroke or letter; uncertain)\n009.10  -eat;   (macron above)\n009.11  -ne\n009.12  -m\n009.13  -o   (-do?; at the cut line)\n009.14  -ni-\n\nFACE 4: line beginnings (image-010 overview; line numbers count from the first text line)\n010.01  celest-?   (celef-?)\n010.02  mar-?   (oar-?)\n010.03  mur-?   (mut-?)\n010.04  Dil-?\n010.05  app-\n010.06  ut a-\n010.07  rex-?   (vgx? uncertain)\n010.08  ⁊ qui-   (or \"7 qu-\")\n010.09  ē r-?   (ē iy-? uncertain)\n010.10  tatu-\n010.11  re ex-?   (re es-?)\n010.12  ne-   (nec-?)\n010.13  nec-\n010.14  ē s-   (ē f-?)\n010.15  in e-?\n010.16  tie-?   (tic-?), with a small red/blue flourished sign after it\n010.17  Po-   (or Ꝓ-; dark initial-like first letter)\n010.18  la-\n010.19  ur-?   (ui-?)\nBelow: a large red initial, cut off at the bottom edge, with red pen-flourishing extending up the left margin.\n\nUNREAD / LIMITATIONS\n- Every face keeps only 1 to 8 letters per line at a column edge. No complete words in sequence and no connected prose survive, so a later source match will be hard to make from this reading alone.\n- Tiles 005/006 (face 2) and 011/012 (face 4) show margin only, not text. A native-resolution crop of the text edge of faces 2 and 4 would firm up those readings.\n- Physical order of faces (recto/verso pairs) and the column order are not determinable from the images.\n- The faint red on face 3 is probably show-through from the face 4 flourish; I have not treated it as text.\n- Marginal notes (\"[looped sign] iij\" on face 1, \"[looped sign] J.\" on face 2, \"[?]iiij\" on face 4) look like later additions, perhaps quire or section numbering. This is a tentative interpretation.\n",
+  "text_sha256": "a070208c0c688182f35d9cc37dffa92786fb0cfba8e6d3f480971bbc01cc3af0"
+}
