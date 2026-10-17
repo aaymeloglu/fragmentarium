@@ -24,7 +24,7 @@ corpus, distinguishing examined but unresolved fragments from unexamined ones.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
-| [F-v7a4](https://aaymeloglu.github.io/fragmentarium/F-v7a4.html) | Mass book, probably a plenary missal: Mass readings for Monday after the first Sunday of Lent (Epistle Ez 34:11-14, Gospel Mt 25:31-36; turn-in Mt 25:46 and Tuesday Epistle Is 55:6) and, on a strip, Gospel for Monday after Reminiscere (Jn 8:22-24) | 2026-10-17 |
+| [F-v7a4](https://aaymeloglu.github.io/fragmentarium/F-v7a4.html) | Mass book, probably a plenary missal: Mass readings for Monday after the first Sunday of Lent (Epistle Ez 34:11-14, Gospel Mt 25:31-35; turn-in Mt 25:46 and Tuesday Epistle Is 55:6) and, on a strip, Gospel for Monday after Reminiscere (Jn 8:22-24) | 2026-10-17 |
 | [F-yybk](https://aaymeloglu.github.io/fragmentarium/F-yybk.html) | Johannes Dacus, De gradibus formarum (sophisma), ed. Otto 1955, pp. 554-555 and 561 | 2026-10-14 |
 | [F-mgx2](https://aaymeloglu.github.io/fragmentarium/F-mgx2.html) | Gilbert the Universal, Glossa ordinaria in Lamentationes, book I, on Lam. 1:16 and 1:17 | 2026-10-14 |
 | [F-rjkx](https://aaymeloglu.github.io/fragmentarium/F-rjkx.html) | Marcus, Visio Tnugdali (Vision of Tundale), Anglo-Norman translation in octosyllabic couplets, Lucifer to the field of joy (ed. Wagner 1882, pp. 36-41) | 2026-10-14 |
