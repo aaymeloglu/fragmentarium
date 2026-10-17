@@ -208,3 +208,59 @@ def test_bnf_canvases_take_the_api_image_service_and_allow_no_upscaling():
     assert bnf.canvases_of(BNF_MANIFEST) == [{
         'label': '1r', 'base': 'https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b9068482p/f1',
         'ext': 'default.jpg', 'w': 6850, 'h': 4650, 'max_scale': 1.0, 'note': None}]
+
+
+def _page(lines=30, pitch=40, width=900, ink=60, paper=225, sideways=False):
+    """A synthetic leaf on a dark background: `lines` rows of dashed ink with the given pitch."""
+    np = pytest.importorskip("numpy")
+    Image = pytest.importorskip("PIL.Image")
+    h = lines * pitch + 2 * pitch
+    a = np.full((h, width), paper, dtype=np.uint8)
+    rng = np.random.default_rng(1)
+    for i in range(lines):
+        y = pitch + i * pitch
+        x = 40 + int(rng.integers(0, 30))
+        while x < width - 60:
+            n = int(rng.integers(8, 60))  # words of irregular length and spacing, as in script
+            a[y:y + pitch // 3, x:x + n] = ink
+            x += n + int(rng.integers(6, 20))
+    canvas = np.full((h + 200, width + 200), 20, dtype=np.uint8)
+    canvas[100:100 + h, 100:100 + width] = a
+    if sideways:
+        canvas = canvas.T.copy()
+    return Image.fromarray(canvas).convert("RGB")
+
+
+def _fns(im):
+    def full(w):
+        return im.resize((w, max(1, round(im.size[1] * w / im.size[0]))))
+
+    def region(box, w):
+        c = im.crop(box)
+        return c.resize((w, max(1, round(c.size[1] * w / c.size[0])))) if w != c.size[0] else c
+    return full, region
+
+
+def test_probe_measures_line_pitch_and_cuts_a_sample(tmp_path):
+    pr = load("probe")
+    im = _page(lines=30, pitch=40)
+    full, region = _fns(im)
+    res = pr.probe_image(full, region, *im.size, tmp_path, "t", enh=True)
+    leaf = max(res, key=lambda m: m["size"][0] * m["size"][1])
+    assert leaf["orient"] == "rows" and abs(leaf["pitch"] - 40) <= 3
+    assert 25 <= leaf["lines"] <= 36 and leaf["score"] > 0.3
+    x0, y0, x1, y1 = leaf["samples"][0]["box"]
+    assert 80 <= x0 and x1 <= im.size[0] - 80 and y1 - y0 <= 16 * 43
+    assert Path(leaf["samples"][0]["enhanced"]).exists()
+
+
+def test_probe_finds_sideways_text_and_reports_blank_as_irregular(tmp_path):
+    pr = load("probe")
+    im = _page(lines=30, pitch=40, sideways=True)
+    full, region = _fns(im)
+    leaf = max(pr.probe_image(full, region, *im.size, tmp_path, "s"), key=lambda m: m["size"][0] * m["size"][1])
+    assert leaf["orient"] == "cols" and abs(leaf["pitch"] - 40) <= 3
+    blank = _page(lines=30, pitch=40, ink=225)
+    full, region = _fns(blank)
+    leaf = max(pr.probe_image(full, region, *blank.size, tmp_path, "b"), key=lambda m: m["size"][0] * m["size"][1])
+    assert leaf["score"] < 0.15 and leaf["samples"]
