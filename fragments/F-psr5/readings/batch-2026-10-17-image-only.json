@@ -1,0 +1,142 @@
+{
+  "captured_at": "2026-10-17T20:12:35.934662+00:00",
+  "fragment": "F-psr5",
+  "id": "batch-2026-10-17-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "8648ff8a3a6c2f29b8f0fb7f63e824e19c6d041b8fc5076b4e9ea97871ddd0f7",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_18_19_m.jpg/full/7181,/0/default.jpg (canvas 0, Cod3664_Falz_18_19_m): whole image 7181x669 reduced to 1800x168 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "fc17ca461302dc5b66f6bb2281dd44662f5c64bdaa445f03c07339fef7fa5ebb",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_18_19_m.jpg/full/7181,/0/default.jpg (canvas 0, Cod3664_Falz_18_19_m): native-pixel box 718,80,2426,548; unrotated grid position column 1 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "2fcd3d446bd12af1b1d31eee5d7e0559f5c7433c8a485779616da95657044d10",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_18_19_m.jpg/full/7181,/0/default.jpg (canvas 0, Cod3664_Falz_18_19_m): native-pixel box 2060,80,3952,548; unrotated grid position column 2 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "a3db85b24bbf217f631840c17fafc298c77b76a31e343a2a32a5c8ea4ef981c8",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_18_19_m.jpg/full/7181,/0/default.jpg (canvas 0, Cod3664_Falz_18_19_m): native-pixel box 3586,80,5478,548; unrotated grid position column 3 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "a3593537c30e11d6052516b29cb515c27bec5bae811d7238f7566769f84a1bb8",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_18_19_m.jpg/full/7181,/0/default.jpg (canvas 0, Cod3664_Falz_18_19_m): native-pixel box 5112,80,6821,548; unrotated grid position column 4 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "aaa05d2a49a9940c5e7e2dd15251da1a6bf2543f834dd2296bb68dec6e27366d",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_54_55_m.jpg/full/7149,/0/default.jpg (canvas 6, Cod3664_Falz_54_55_m): whole image 7149x646 reduced to 1800x163 for layout"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "214289781a85466140f68c4ea7087ff1cf0985468dd9f6d3fce16319830c1658",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_54_55_m.jpg/full/7149,/0/default.jpg (canvas 6, Cod3664_Falz_54_55_m): native-pixel box 714,77,2415,529; unrotated grid position column 1 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "7807aa71bd2096491e3059e7c88fe5b01c1ece81912d3cef44907f8d3fead8a4",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_54_55_m.jpg/full/7149,/0/default.jpg (canvas 6, Cod3664_Falz_54_55_m): native-pixel box 2050,77,3934,529; unrotated grid position column 2 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "fb9308b72e84762557e666c68cc4628a18f5ce9bfbec3b44c81cb0366de3afe9",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_54_55_m.jpg/full/7149,/0/default.jpg (canvas 6, Cod3664_Falz_54_55_m): native-pixel box 3570,77,5454,529; unrotated grid position column 3 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "5bda0f06beaea257da55ed43bcb2fd4660f3b55bd801deb3e47731584a94ac6a",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_54_55_m.jpg/full/7149,/0/default.jpg (canvas 6, Cod3664_Falz_54_55_m): native-pixel box 5089,77,6791,529; unrotated grid position column 4 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "1e8ce24412ac2f3bf307809eebe21f695a2545f63a35a900584736bbaaa080db",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_m.jpg/full/7232,/0/default.jpg (canvas 9, Cod3664_Falz_233_234_m): whole image 7232x696 reduced to 1800x173 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "3951eb6fb39ce6acaad23bc83ef36ea01c6724535c4e71dcaaeaf77fbbe8988e",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_m.jpg/full/7232,/0/default.jpg (canvas 9, Cod3664_Falz_233_234_m): native-pixel box 723,83,2444,570; unrotated grid position column 1 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "851a3dc56d71119aada7898173b0774ef8fa5858aacaa3e15dfba57fb7feb782",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_m.jpg/full/7232,/0/default.jpg (canvas 9, Cod3664_Falz_233_234_m): native-pixel box 2075,83,3980,570; unrotated grid position column 2 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "4133de2e80023690deb4653d556235ec33266ce6e569c06fc52b4eb1acdb8e9f",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_m.jpg/full/7232,/0/default.jpg (canvas 9, Cod3664_Falz_233_234_m): native-pixel box 3612,83,5517,570; unrotated grid position column 3 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "6a4b21d772dcc226311c4f9f03643de11b15a9f8813c98e887bba8f9224e8d33",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_m.jpg/full/7232,/0/default.jpg (canvas 9, Cod3664_Falz_233_234_m): native-pixel box 5148,83,6870,570; unrotated grid position column 4 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "897d511960e09fcd36a8b09aebba4f062c7c5ae0ab1eec3b674d563f80bbf598",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_r.jpg/full/7232,/0/default.jpg (canvas 10, Cod3664_Falz_233_234_r): whole image 7232x696 reduced to 1800x173 for layout"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "d289b6100b365b9851141b333004ea2fcc81a1b2d46e0c9361265d474aeed5df",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_r.jpg/full/7232,/0/default.jpg (canvas 10, Cod3664_Falz_233_234_r): native-pixel box 723,83,2444,570; unrotated grid position column 1 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "856618ddc5f9bb9226870d8bfcc1661578925ad5873af963ccba0a669e7b2cfe",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_r.jpg/full/7232,/0/default.jpg (canvas 10, Cod3664_Falz_233_234_r): native-pixel box 2075,83,3980,570; unrotated grid position column 2 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "d299f0885b05e6ad86ddae2dea24df4f55bc0ff3536193a91ee3f9bbe54b6ca7",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_r.jpg/full/7232,/0/default.jpg (canvas 10, Cod3664_Falz_233_234_r): native-pixel box 3612,83,5517,570; unrotated grid position column 3 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "67b9a50c54722638009b9b2ad62e486e8bf28ae74087f4dce8a6a832d54ecfec",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_233_234_r.jpg/full/7232,/0/default.jpg (canvas 10, Cod3664_Falz_233_234_r): native-pixel box 5148,83,6870,570; unrotated grid position column 4 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "80f5369ac5882bee248d67574907d90a3408bc1d6ce1dd0f9ecdbd9db901b3fa",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_361_362m.jpg/full/7300,/0/default.jpg (canvas 15, Cod3664_Falz_361_362m): whole image 7300x696 reduced to 1800x172 for layout"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "12ab93267a5ae95d439dbc5833f1f97ba722a41ebf7340ee28f471848e46d31c",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_361_362m.jpg/full/7300,/0/default.jpg (canvas 15, Cod3664_Falz_361_362m): native-pixel box 730,83,2467,570; unrotated grid position column 1 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "95c857626770158e43f5983c3292a6b917fc83d73865ce5ea541ddd0cdedcd2c",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_361_362m.jpg/full/7300,/0/default.jpg (canvas 15, Cod3664_Falz_361_362m): native-pixel box 2095,83,4018,570; unrotated grid position column 2 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "1ab8f131c416ea43d66fc2451dbbe828b7396877c17b0980bbed6682a2bb5602",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_361_362m.jpg/full/7300,/0/default.jpg (canvas 15, Cod3664_Falz_361_362m): native-pixel box 3646,83,5569,570; unrotated grid position column 3 of 4, row 1 of 1"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "d2cca04c2a605a0b5da8e8cca688deb808db64a70243d5288de0f5c4f8070f21",
+        "source": "https://fragmentarium.ms:443/loris/F-psr5/Cod3664_Falz_361_362m.jpg/full/7300,/0/default.jpg (canvas 15, Cod3664_Falz_361_362m): native-pixel box 5197,83,6935,570; unrotated grid position column 4 of 4, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-17 reader (packet-03)",
+  "text": "PACKET-03 - UNVERIFIED BLIND IMAGE READING\n\nExposure statement: no identification or prior reading of this material was\npresent in my context. I did not identify the work or author.\n\nBeyond-rules disclosure: in addition to viewing the original images, I made\ncontrast-enhanced, 2x-upscaled crops of the tile images (scratch folder\nb17/enh03, derived only from this packet's images) and viewed three of them\n(from image-002 and image-003). They were not more legible than the originals,\nso all readings below are from the original images. I opened nothing else.\n\nAll 25 images loaded.\n\nLAYOUT SURVEY (observations)\n- Five overviews: image-001, -006, -011, -016, -021, each followed by four\n  native-resolution tiles (002-005, 007-010, 012-015, 017-020, 022-025).\n- Each overview shows a long, narrow parchment strip (a binding strip or guard)\n  laid horizontally across a paper leaf, with a thin rod or thread crossing it\n  lengthwise. Only 2 to 4 written lines survive per text block. Upper and lower\n  lines are cut through horizontally.\n- Each strip shows four text blocks, separated by ruled vertical bounding lines\n  and blank margins. Read as two blocks on the left (A, B) and two on the right\n  (C, D), with a wide blank area between B and C. This looks like two columns\n  per page, or an opening, seen across a fold, but the crop is too narrow to\n  confirm it. I cannot tell which block comes first in reading order beyond\n  left to right.\n- Script: small Gothic book hand, brown ink, many abbreviations. Dry-point or\n  plummet ruling is visible.\n- Face 1 (image-004, block D): a larger \"R\" with a crossed stroke begins a line\n  (it could be a response sign or a capital). No rubrics or colour can be seen.\n  No glosses or marginalia can be seen. On face 1 the ink is faint and the\n  writing looks partly mirrored or offset. It may be seen through the strip\n  from the other side; treat face 1 readings as least reliable.\n- Overlaps: image-002 and -003 share block B's left edge, image-003 and -004\n  share block C's left edge, and image-004 and -005 share block D. The same\n  pattern holds on every face. Repeated words in an overlap are not counted twice.\n\nLine numbers count the lines visible on that tile from the top, including the\ncut partial line at the top when it exists.\n\n======================================================================\nFACE 1 (overview image-001)\nBlock A - image-002\n 002 l1  [top half of line cut; illegible]\n 002 l2  ue(l)? s(e)c(un)d(u)m(?) [illegible] sit longitudi(n)e(?)\n 002 l3  de luce(?) dicam(us)?(?) sit(?) [illegible] forma(?)\n 002 l4  [bottom-cut; illegible]\nBlock B - image-003\n 003 l1  [top-cut] [illegible] ... in(?) [illegible]\n 003 l2  m(u)lt(?)a  [..]he[..]m(?) in [..]ano(?) p[..]la(?)\n 003 l3  [bottom-cut; illegible]\nBlock C - image-004\n 004 l1  q(ue)?(?) uenit(?) p(er)egrina(?) aliq(ui)s(?)\n 004 l2  [..]ltro(?) adiutori(?) uidetur(?) h(?)ic(?)\nBlock D - image-004 / image-005\n 005 l1  R(?) si(?) [..]uit(?) [h?]enomen(?) [illegible]\n 005 l2  [illegible: 4-5 words, faint]\nFace 1 is essentially unread. The ink is faint, possibly seen through the strip.\n\n======================================================================\nFACE 2 (overview image-006)\nBlock A - image-007\n 007 l1  [..]am(?) q(uod)? c(on)stituet(?) h[..]dante(?) (et) po(n)ti(?)\n 007 l2  [obscured by the rod or fold; illegible]\n 007 l3  adiret (et) aspiret(?) uariant(em)? for[...]\nBlock B - image-008\n 008 l1  d(e)be(n)t(?) (con)figere(?) ca(?) sup(er) h(?)ic(?) pa\n 008 l2  [obscured by fold; illegible]\n 008 l3  u(?)s (et) accessa(?) d(e)o(?) p(ro)cede(n)tes(?) m\nBlock C - image-009\n 009 l1  [..]rum nouis (con)corde(?) ure(?) causis(?)\n 009 l2  [..]ut[..]aga(?) [..]tiu(?) [illegible, fold]\n 009 l3  dignarem(?) s(ecundu)m(?)/ ut(?) nos (et) [.] uno\n 009 l4  [bottom-cut; illegible]\nBlock D - image-010 (also seen at the right edge of image-009)\n 010 l1  secul(?)/ secut(?) p(ro)ue[..]ancet(?) pecu(n)ia(?) suspen(?)\n 010 l2  cautel(?)a(?) sucie(?)[..] de p(at)rimonio(?) [..]a(n)ce(?)r(?)\nFace 2 is the most legible face. Its words are still mostly uncertain.\n\n======================================================================\nFACE 3 (overview image-011)\nBlock A - image-012\n 012 l1  f(ra)t(r)is(?) eu(m)(?) (et) e(ss)e(?) erga p(ro)ximu(m)(?) studiu(m)(?)\n 012 l2  [fold/rod; partly legible] [..] (con)cep[..](?)\n 012 l3  no(n) q(uod)(?) ad multotie(n)s(?) ip(s)e(?) cui(?) [..]cepcio(n)u(m)(?)\n 012 l4  [..] date(?) mo(n)e(?) (et) si(?) hostiarum(?) eo\nBlock B - image-013\n 013 l1  p(ro)uocate(?) adiciones(?) eq(ui)tes(?) memini(?)\n 013 l2  h(ab)ent(?) (et) i(ste?) ip(s)e(?) re(con)ciliat(?) g(ra)tis(?)\n 013 l3  debet(ur)?(?) cuiq(ue)?(?) [..]cuiu(n)t(?) a(?)lle(?) q(uo)d(?) s(?)\n 013 l4  [bottom-cut] [illegible] ... facere(?) [..]\n (image-013, right: a separate small mark, possibly a quire or binder's mark,\n  in the blank area between blocks B and C)\nBlock C - image-014\n 014 l1  na(n)tiu(m)(?) m(?)[..] uoces(?) th(e)s(aur)i(?) habi\n 014 l2  hoc(?) tu(?) [..]ge(?) ne ualens(?) p(ro)(?)\n 014 l3  [bottom-cut] [illegible] ... (?) ...\nBlock D - image-015\n 015 l1  p(ro)p(ter)(?) r(e)sponso(?) uestem(?) [..]uge(?) [..]moris(?)\n 015 l2  ui(n)c(?) replicam(us)?(?) multiplices(?) e(st)(?) af(?)\n 015 l3  [bottom-cut; illegible]\n\n======================================================================\nFACE 4 (overview image-016)\nBlock A - image-017\n 017 l1  [top-cut] no(n)(?) [..] [illegible]\n 017 l2  eius tenuos(?) [..]rostus(?) tuam(?) [..]ag(?)a(?)\n 017 l3  [..] uti(?) cu(n)ctis(?) uigilantes(?) in\nBlock B - image-018\n 018 l1  p(ri)ncipalis(?) ab(?) incom(m)oditatib(us)(?) p(er)\n 018 l2  an(?) uitam(?) ad mu(n)d(?)(?) (et) p(ri)ua(n)d(?) h\nBlock C - image-019\n 019 l1  [top-cut; illegible]\n 019 l2  sup(er) hoc(?) h[..]atum(?) negligenti(?) h(?)oni(?)\n 019 l3  [bottom-cut; illegible]\nBlock D - image-020\n 020 l1  [..]tiagnos(?) q(uod)(?) ul(?)tius(?) sum(?) se(n)t(?) p(ro)p(ter)(?)\n 020 l2  [bottom-cut; illegible]\n\n======================================================================\nFACE 5 (overview image-021)\nBlock A - image-022\n 022 l1  rite(?) namq(ue) n(on) solu(m)(?)/ n(on)(?) e(ss)e(?) sollicita(?) a[..]\n 022 l2  [fold] [..] ab(?) [..] nu(n)c(?) n(on) (est)(?) h(oc)(?)\n 022 l3  aliud(?)/ al(?)ialis(?) d(i)co(?) manifeste uere(?) aute(m)(?)\n 022 l4  [bottom-cut] [..] [illegible]\nBlock B - image-023\n 023 l1  p(er)ich(?) (con)sanguinei(?) uel(?) a[..](?)\n 023 l2  [fold] [..] d(e)o(?) [..] bene(?)\n 023 l3  dic(tu)m(?)/ diam(?) (et) eccl(esi)am(?) expectatio(n)e(m)(?) synag(og)e(?)\nBlock C - image-024\n 024 l1  [top-cut] [..] clamen(?) [..] [..] exe(m)plum(?)\n 024 l2  sed(?)a(m)(?) [..] (con)uult(?) belliuos(?)/ bellicos(?) in[..]\n 024 l3  [fold] [..]one(?) uel(?) [..] [..]\n 024 l4  [bottom-cut] [..] enormis(?) uenit(?)\nBlock D - image-025\n 025 l1  aiussa(?)/ ad(?)iuss(?) p(ro)posito(?) m(?)is(?) s(e)ntentiis(?) c(on)\n 025 l2  [fold; illegible]\n 025 l3  uerente(?) fortissi(m)e(?) s[..]imon(?) filio tue(?)\n 025 l4  [bottom-cut; illegible]\n\n======================================================================\nSELECTION AND UNREAD AREAS\n- I attempted every block on every face. These strips are not suitable for\n  connected spans of ten or more lines. At most 2 to 4 lines exist per block,\n  and the top and bottom lines of each are cut through. The middle line on\n  several faces is hidden by a fold or the crossing rod.\n- Unread: all cut top and bottom lines, the lines under the folds, and nearly\n  all of face 1 (faint ink, possibly reversed).\n- The best material for any later source match: face 2 (blocks A, C, D),\n  face 3 (blocks A, B), face 4 (block B) and face 5 (blocks B, D). Even these\n  readings are tentative, word by word.\n- Suggested follow-up: imaging under raking or transmitted light, or images\n  with the strip lifted or the rod removed. A higher-resolution image of\n  face 1 is also needed.\n\nLIMITATIONS\n- This is an unverified image reading. Most words carry a question mark, and\n  expansions are proposals. I did not supply words from sense.\n- The column and page order across the fold is uncertain. Blocks C and D may\n  belong to a different page from A and B.\n",
+  "text_sha256": "81bd1dc2ca394a91b9cb99a586e3b5af56f6d1624d3d8b72473438559f0d1eee"
+}
