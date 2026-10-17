@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-10-14T22:30:52.862833+00:00",
+  "fragment": "F-4lwf",
+  "id": "batch-2026-10-14b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "56590a02fc19228f0d2661791dd6df1a9cb6562445a70ba1dd88b3523d236e67",
+        "source": "https://fragmentarium.ms:443/loris/F-4lwf/fol_1v.jp2/full/2517,/0/default.jpg (canvas 0, fol. [1]r): whole image 2517x2617 reduced to 1731x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "6d4f1ae05ebe3e74dcb4edf1540448578ce6701534122244d6183c3c5e381a1d",
+        "source": "https://fragmentarium.ms:443/loris/F-4lwf/fol_1v.jp2/full/2517,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 226,209,679,985; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "b6eaedd0b4dda606a63d2ef7ae291a818b30d3606e4c8e46f30cb16ea33d14b3",
+        "source": "https://fragmentarium.ms:443/loris/F-4lwf/fol_1v.jp2/full/2517,/0/default.jpg (canvas 0, fol. [1]r): native-pixel box 226,819,679,1596; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "df6ac17ca8b7494ba2636c9fc5894b546aa61613d802119f3017db49b642191e",
+        "source": "https://fragmentarium.ms:443/loris/F-4lwf/fol_1r.jp2/full/2719,/0/default.jpg (canvas 1, fol. [1]v): whole image 2719x2663 reduced to 1800x1763 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "93222bbf4a65759f15cc760cf5a58afa6a692dd738fc9d928c510a7a66a03b3c",
+        "source": "https://fragmentarium.ms:443/loris/F-4lwf/fol_1r.jp2/full/2719,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 570,186,1006,916; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "58e116d046576e77fc6f8246fbbc58e2caf5ba9446d680496b2d8ef9f5bc8383",
+        "source": "https://fragmentarium.ms:443/loris/F-4lwf/fol_1r.jp2/full/2719,/0/default.jpg (canvas 1, fol. [1]v): native-pixel box 570,760,1006,1491; unrotated grid position column 1 of 1, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14b reader (packet-20)",
+  "text": "PACKET 20 - BLIND IMAGE READING (unverified)\n\nExposure statement: Nothing in my context revealed a proposed identification or reading of these fragments. This is a blind reading. I did nothing beyond the stated rules for this packet. I listed the packet directory only to find the image filenames.\n\nLAYOUT SURVEY (observations)\n- One parchment strip, about 5 x 14 cm judging by the ruler, with a lengthwise fold or crease running through the left-centre and several small holes along it. Both faces are shown:\n  Face 1: 001 (overview), tiles 002 (upper) and 003 (lower)\n  Face 2: 004 (overview), tiles 005 (upper) and 006 (lower)\n- Script: a small, compressed gothic book hand with very heavy abbreviation, brown ink, many lines to the strip.\n- Face 1: text survives only in a narrow band at the left edge of the strip, up to the fold. These are the ENDS of lines; the beginnings are cut away at the left. The rest of the face is blank (margin).\n- Face 2: text sits just right of the fold and is cut at the right edge. These are the BEGINNINGS of lines. The left part is blank margin.\n- This fits a single column whose outer margin survives: line ends on one face and line beginnings on the other. That is an interpretation.\n- Red: on face 1, a red letter or numeral (\"1\"/\"I\" with a flourish) partway down (002). On face 2, a red stroke in the left margin near the top (005), a red underline under one line (005), and a red paragraph mark or blotch partway down at the right (006). One line on each face is underlined or ruled across. No glosses or running titles are visible.\n- Resolution: the tiles are only about 450 px wide. At this size the hand cannot be read securely. Most readings below are tentative.\n\nSELECTED SPANS: all visible lines on both faces, at the resolution provided.\n\nTRANSCRIPTION\n(Line numbers count from the top of the named tile. [ marks a cut edge.)\n\nFace 1 - line ends (tile 002, upper)\n002 l.1-5   about 5 lines of faint letter traces, illegible at this resolution\n002 l.6     ]?n ?a?[            illegible\n002 l.7     ]? ꝑ? 1? E?         (red \"1\"/\"I\" with a red tail before a black letter)\n002 l.8-10  ]?n R?[ / ]? z h? / ]? ?   faint\n\nFace 1 - line ends (tile 003, lower; its top overlaps the bottom of 002)\n003 l.1   ]n̄ in R?\n003 l.2   ]? z h ?.\n003 l.3   ]?ıd ?ıa?o?\n003 l.4   ]ra?c?\n003 l.5   ]ı ꝑ hōıe          (possibly \"p(ro)/p(er) ho(m)i(n)e\"; the expansion is a proposal only)\n003 l.6   ]ſ? ?ı?\n003 l.7   ]q?a q?a ſ?a?ıt?\n003 l.8   ]bus ꝛ albane?.    (ruled or underlined; reading of \"albane\" uncertain)\n003 l.9   ]? p?nt ?ı?n\n003 l.10  ]?ıtt?e?s ?e\n003 l.11  ]?ta ꝑ? ?? ꝑ.\n003 l.12  ]capitul?o? ?\n003 l.13  ]?ı?? ?           faint; ruled line below\nBelow this, face 1 is blank.\n\nFace 2 - line beginnings (tile 005, upper)\n005 l.1   ?ſ?[\n005 l.2   ? ult?er?[          (abbreviation over \"ult\")\n005 l.3   ?ıre? ?. ꝑ?[\n005 l.4   ꝙ? uerſ?[           (red stroke in the left margin at this level)\n005 l.5   ?ıl? ? geg?ſ[\n005 l.6   ?. ſ?d ꝑ? ?[\n005 l.7   ꝑ? ꝑ?u?ıſı?[\n005 l.8   u?ı?ne ne u?[\n005 l.9   ?ı? ſ?au?[\n005 l.10  ꝯ?menda?b?e?[\n005 l.11  ?ua? ca? de la?s[\n005 l.12  ? nos ꝛ dıce?[       (red line under it)\n005 l.13  ꝑ errore ſe?[\n005 l.14  ꝑ? deſi?ta. ſi?[\n005 l.15  ?n?ge? demul?ı?[\n\nFace 2 continued (tile 006, lower; first 3 lines overlap 005 l.13-15)\n006 l.4   ?e?nas faıue?[  (or \"ſaıue\")\n006 l.5   ?eon ꝯ? ꝑ?[\n006 l.6   no? ꝯſeā?        then a RED mark (paragraph or initial) at the cut edge\n006 l.7   ?d?a ꝙ dimi?[\n006 l.8   ? ?ıbz ꝛ ne[\n006 l.9   na? ?? caſ?[\n006 l.10  ?ı?[...]?[      (heavily faded)\n006 l.11  ?ı ſ hoc ꝛ ?[\n006 l.12  ? uita? temp?[\nBelow this, face 2 is blank.\n\nLIMITATIONS / REQUESTS\n- Higher-resolution tiles of the written band on each face are needed. At 450 px the abbreviations cannot be resolved, and nearly every word above is tentative.\n- Cut edges remove the beginning of each line on face 1 and the end of each line on face 2.\n- The strip is folded and wormholed along the crease, and letters are lost there.\n- No layout features (running title, column count, glosses) are recoverable from this strip.\n",
+  "text_sha256": "f033bfaa8fa6ce6f3e8facf7fd30d0eb4815bd47c263ff57c694c20802cea605"
+}

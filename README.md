@@ -20,12 +20,16 @@ corpus, distinguishing examined but unresolved fragments from unexamined ones.
 ## Identifications
 
 <!-- identifications:start -->
-205 fragments examined; 47 identifications published.
+225 fragments examined; 51 identifications published.
 
 | Fragment | Identification | Date identified |
 |---|---|---|
 | [F-yybk](https://aaymeloglu.github.io/fragmentarium/F-yybk.html) | Johannes Dacus, De gradibus formarum (sophisma), ed. Otto 1955, pp. 554-555 and 561 | 2026-10-14 |
 | [F-mgx2](https://aaymeloglu.github.io/fragmentarium/F-mgx2.html) | Gilbert the Universal, Glossa ordinaria in Lamentationes, book I, on Lam. 1:16 and 1:17 | 2026-10-14 |
+| [F-rjkx](https://aaymeloglu.github.io/fragmentarium/F-rjkx.html) | Marcus, Visio Tnugdali (Vision of Tundale), Anglo-Norman translation in octosyllabic couplets, Lucifer to the field of joy (ed. Wagner 1882, pp. 36-41) | 2026-10-14 |
+| [F-q5ti](https://aaymeloglu.github.io/fragmentarium/F-q5ti.html) | Anonymous preaching compilation of exempla in 20 chapters (prologue 'In hoc consequenti opusculo ordinantur in certis titulis'), section IV De sanctis, subchapters 1-6 and 34-39 (= Cambridge CCCC MS 327, ff. 175v-176r, 179v-180v) | 2026-10-14 |
+| [F-kcu7](https://aaymeloglu.github.io/fragmentarium/F-kcu7.html) | Anonymous, Compilationes supra Summulas Petri Hispani ('Omnes homines') or a close derivative, divisio textus on Tracts IX-XI (de Rijk 1972 numbering); wording fuller than the Nuremberg copy | 2026-10-14 |
+| [F-nfu2](https://aaymeloglu.github.io/fragmentarium/F-nfu2.html) | Hippocrates, Regimen acutorum, book IV with Galen's commentary (Latin), Textus XIX-XX and XXIV-XXVII (Giunta 1527 numbering) | 2026-10-14 |
 | [F-lodh](https://aaymeloglu.github.io/fragmentarium/F-lodh.html) | Liturgical psalter (Gallican), Psalm 68:15-22; probable Psalms 59, 61-62 and 67 on the other faces | 2026-10-13 |
 | [F-ypxa](https://aaymeloglu.github.io/fragmentarium/F-ypxa.html) | Hostiensis (Henricus de Segusio), Lectura in Decretales Gregorii IX, on X 3.30.33-34 (De decimis: end of c. Cum non sit in homine, and c. Nuper abbates) | 2026-10-13 |
 | [F-3l5z](https://aaymeloglu.github.io/fragmentarium/F-3l5z.html) | Geert Grote, Getijdenboek (Middle Dutch hours), Hours of the Eternal Wisdom, Compline: end of hymn Ihesus regniert in den vreden and antiphon O gloriose coninc onder dinen heilighen (Van Wijk 1940, p. 111) | 2026-10-13 |

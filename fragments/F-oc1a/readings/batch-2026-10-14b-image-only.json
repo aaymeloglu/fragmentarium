@@ -1,0 +1,157 @@
+{
+  "captured_at": "2026-10-14T22:30:52.860888+00:00",
+  "fragment": "F-oc1a",
+  "id": "batch-2026-10-14b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "5aeef58f79d8963808eff36a54b9232d15b2cdcde55b4fa3f3d8f7fab0372062",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_001.jp2/full/7827,/0/default.jpg (canvas 0, Rara_musik_L_46_4_R_121_001): whole image 7827x3532 reduced to 1800x812 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "1dea7c0ef786c35342fe1245cababfa971a07727fceb62dfb086e32f467ca9bd",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_001.jp2/full/7827,/0/default.jpg (canvas 0, Rara_musik_L_46_4_R_121_001): native-pixel box 0,0,4383,2896; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "51cd5da136a6a0f423ed2985d8516f84dec0780bb900323c7e967fd4bc26ba41",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_001.jp2/full/7827,/0/default.jpg (canvas 0, Rara_musik_L_46_4_R_121_001): native-pixel box 3443,0,7827,2896; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "65e679ff6f765f2da8fd01df619b4b50cf239500777d44f7602037ec80bc1175",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_002.jp2/full/8427,/0/default.jpg (canvas 1, Rara_musik_L_46_4_R_121_002): whole image 8427x3669 reduced to 1800x784 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "278b106409306795d29427531a514e8afb17e68ee35b9e271ef454eb35691287",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_002.jp2/full/8427,/0/default.jpg (canvas 1, Rara_musik_L_46_4_R_121_002): native-pixel box 0,0,4719,3008; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "250bee2833f17c7f47aa88e0721acf17e30d4f01dd0e954f2b8ccc301513cd45",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_002.jp2/full/8427,/0/default.jpg (canvas 1, Rara_musik_L_46_4_R_121_002): native-pixel box 3707,0,8427,3008; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "931a9eab2813a5de31e226cad5c7dbad3f42d6c9a0b9d44697c2d2bd9430e35b",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_003.jp2/full/8005,/0/default.jpg (canvas 2, Rara_musik_L_46_4_R_121_003): whole image 8005x3609 reduced to 1800x812 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "02a37b0af240680ffafb7bae6ebf139dba69fbf09e4d3acda37fbc3780a721d0",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_003.jp2/full/8005,/0/default.jpg (canvas 2, Rara_musik_L_46_4_R_121_003): native-pixel box 0,0,4482,2959; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "a1a970240e2a49a894a090315e44c9573d140a7f5963c7f193def3e892034e18",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_003.jp2/full/8005,/0/default.jpg (canvas 2, Rara_musik_L_46_4_R_121_003): native-pixel box 3522,0,8005,2959; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "a29b69ff2e9af13f3d8a868d9d9e1d9d169fc5af7aed5d65d9b8b835fbc40ed7",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_004.jp2/full/8005,/0/default.jpg (canvas 3, Rara_musik_L_46_4_R_121_004): whole image 8005x3554 reduced to 1800x799 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "5572bdba1418ed47683c5f3849626fa70ea9d0fea63163f258105ed59073198c",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_004.jp2/full/8005,/0/default.jpg (canvas 3, Rara_musik_L_46_4_R_121_004): native-pixel box 0,0,4482,2914; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "376612e695de3e057bfb41d7117bc07e260fc7e74828f0f677bc31ba62cad711",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_004.jp2/full/8005,/0/default.jpg (canvas 3, Rara_musik_L_46_4_R_121_004): native-pixel box 3522,0,8005,2914; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "01d92f84fc3d81621b79913ebe4c9c6e6d80e40630677cf0ded4af4eb9f69c30",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_007.jp2/full/4629,/0/default.jpg (canvas 6, Rara_musik_L_46_4_R_121_007): whole image 4629x8522 reduced to 978x1800 for layout"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "94dffef53719d68eace39b86906f104471d20148bdc5329a70727684519ffd08",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_007.jp2/full/4629,/0/default.jpg (canvas 6, Rara_musik_L_46_4_R_121_007): native-pixel box 1481,0,4629,4772; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "ace4a5575f7ad9ca6b49480e974dbf213622c1558adde57c172b5d01b14680b2",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_007.jp2/full/4629,/0/default.jpg (canvas 6, Rara_musik_L_46_4_R_121_007): native-pixel box 1481,3749,4629,8522; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "ee9accc1136bc1680a56618c2a0fd089006f130b787c50f1d3b5735ac5d80b9f",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_008.jp2/full/4629,/0/default.jpg (canvas 7, Rara_musik_L_46_4_R_121_008): whole image 4629x8522 reduced to 978x1800 for layout"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "d99ff65e1931d5cfa28d783ca8c9b99d5b4407541b75917802cb7db321cf44b4",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_008.jp2/full/4629,/0/default.jpg (canvas 7, Rara_musik_L_46_4_R_121_008): native-pixel box 1527,0,4629,4772; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "c0f28a98dc104be4cc8c71eed6a869927bd7cec7ef309692850c0784f702f8c7",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_4_R_121_008.jp2/full/4629,/0/default.jpg (canvas 7, Rara_musik_L_46_4_R_121_008): native-pixel box 1527,3749,4629,8522; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "dcadd22626a6ce0311e87005ef3040aa7a3650fc2b706468ec343ca5e507f3dd",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_011.jp2/full/7218,/0/default.jpg (canvas 8, Rara_musik_L_46_11_R_123_011): whole image 7218x2812 reduced to 1800x701 for layout"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "dfac38f7cfb310ad6a0762de685d9214e7d86f540db406318e25498d4b11217e",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_011.jp2/full/7218,/0/default.jpg (canvas 8, Rara_musik_L_46_11_R_123_011): native-pixel box 0,224,4042,2305; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "288cc28c390d6cf23488fbb59844a8544855e19dad4a679ec5d7bf09c12fcfb3",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_011.jp2/full/7218,/0/default.jpg (canvas 8, Rara_musik_L_46_11_R_123_011): native-pixel box 3175,224,7218,2305; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "62501f44b7efe5a7ff85eb20c2612fb54736331239e6e2074cfac82b66df1b00",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_012.jp2/full/7218,/0/default.jpg (canvas 9, Rara_musik_L_46_11_R_123_012): whole image 7218x2723 reduced to 1800x679 for layout"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "26e291d295fd7421c9564d7e8476d7b7eb9b69d2e078b78e3f5e0408cdfc54a0",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_012.jp2/full/7218,/0/default.jpg (canvas 9, Rara_musik_L_46_11_R_123_012): native-pixel box 0,272,4042,2341; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "6009e54d91dfe9cb49cf6427868c120b2442c78345d75d5800d982e27a816995",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_012.jp2/full/7218,/0/default.jpg (canvas 9, Rara_musik_L_46_11_R_123_012): native-pixel box 3175,272,7218,2341; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "918612ae1791ea70315cbed98f19a87654659ddde3218c902f243445063f2532",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_013.jp2/full/4292,/0/default.jpg (canvas 10, Rara_musik_L_46_11_R_123_013): whole image 4292x3614 reduced to 1800x1516 for layout"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "d59a183d9f64cc5d2f73a72cbce7dad2e9bb7e375cf8dc81f6188ee84182894a",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_013.jp2/full/4292,/0/default.jpg (canvas 10, Rara_musik_L_46_11_R_123_013): native-pixel box 0,0,4292,3324; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "cb9ae1a984d81a21926bb55fb4a9f773506222a22dead38e845de0f280efdcec",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_014.jp2/full/4292,/0/default.jpg (canvas 11, Rara_musik_L_46_11_R_123_014): whole image 4292x3568 reduced to 1800x1496 for layout"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "3b53214e570becd08b8d8f38bc3ddcd912a368e915f7ede19350bcfe0e90f258",
+        "source": "https://fragmentarium.ms:443/loris/F-oc1a/Rara_musik_L_46_11_R_123_014.jp2/full/4292,/0/default.jpg (canvas 11, Rara_musik_L_46_11_R_123_014): native-pixel box 0,0,4292,3282; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, isolated first reader",
+  "schema_version": 1,
+  "session": "batch-2026-10-14b reader (packet-19)",
+  "text": "PACKET 19 - BLIND IMAGE READING (unverified)\n\nExposure statement: Nothing in my context revealed a proposed identification or reading of these fragments. This is a blind reading.\nBeyond the rules: to test orientation I made horizontally flipped / 180-degree rotated copies of four tiles (15, 24, 26, 28) in my scratchpad and looked at them. That produced no confident new readings; everything below is read from the supplied images. I listed the packet directory only to find the image filenames; I did not open packet.json.\n\nLAYOUT SURVEY (observations)\n- The packet contains about ten separate narrow parchment strips. They look like binding strips: several have fold lines, a stitched/darned tear, or twisted twine still attached. Each strip is shown in one overview with a ruler, followed by two or three close-up tiles that overlap it. Groups:\n  A: 001 (overview), 002, 003\n  B: 004 (overview), 005, 006\n  C: 007 (overview), 008, 009\n  D: 010 (overview), 011, 012\n  E: 013 (overview, vertical strip), 014, 015\n  F: 016 (overview, vertical strip, pencil \"R21\"), 017, 018\n  G: 019 (overview), 020, 021\n  H: 022 (overview), 023, 024\n  I: 025 (overview), 026\n  J: 027 (overview), 028\n- Script: a large, formal gothic textura in brown ink. The line height is very large (about 1 cm for minims), so each strip holds only 1-3 lines. The fragments come from a large-format book in red and black. Red is used for rubrics (\"Ad .ix. cap.\" in D), large red initials (H, I), red marginal letters (E, F), and red strokes/flourishes (A, B, G).\n- No running titles, interlinear glosses or marginal commentary are visible on any strip. Strips this narrow do not show the column layout, so column count and page position are unknown.\n- Strips E-J are much more abraded or darkened. On some (F, H, I, J, and the red line in E) the letter shapes look reversed or inverted. These may be offset/show-through images or pieces photographed upside down. I cannot tell which from these crops.\n- The tiles are enlargements of the overviews. Lines repeated across overlapping tiles are given once, keyed to the overview and checked in the tiles.\n\nSELECTED SPANS: every legible line on strips A-D. The best fragments on E-J. The rest of E-J is reported as unread or illegible.\n\nTRANSCRIPTION\n(Line numbers count from the top of the named image. [ marks a strip edge. Uncertain letters are followed by ?.)\n\nStrip A (001; tiles 002 left half, 003 right half)\n001 l.1  [ho? c?h? nomet q?[            (tops of letters cut at the top edge; reads like \"hor ch nomet q\"; the 2nd word could also be \"cũ\"/\"ch\"; \"nomet\" might be \"nom(en) et\" but no abbreviation mark is visible)\n001 l.2  [ca?n?tie? cum dom?[           (2nd word clear \"cum\"; last word begins \"dom\")\n001 l.3  only letter tops survive at the bottom edge; illegible.\nNotes: a faint red pen loop in the left margin beside l.1 (002); a red mark at the bottom edge to the right (003). The left part of A is blank margin, so l.1-2 are line beginnings.\n\nStrip B (004; tiles 005, 006)\n004 l.1  [?is ꝯ? quod habeam   (first letters cut; \"ꝯ\" or \"eo\"/\"co\"; \"quod habeam\" is clear, possibly with an abbreviation over \"habe\")\n004 l.2  [ub?ie & mundis      (\"mundis\" has a stroke over \"d\"/\"is\", possibly a suspension; I offer no expansion)\nAfter l.1 there is a red hooked stroke (line-filler or a red letter descender, 006). The rest of the strip to the right is blank, so these are line endings.\n\nStrip C (007; tiles 008, 009)\n007 l.1  [inis· & indecau?tione?     (the \"& \" has red touching near its start, 008; the 2nd word could be \"indecantione\"/\"indecaucione\"; letters are clear up to \"indec\", then \"a u/n ? t i o n e\")\n007 l.2  [fic?[tear]atione eva?ngel?i?[   (a tear removes 1-2 letters after \"fic\"; the last word seems to be \"euangeli\" with a stroke above, cut at the right edge)\nA red vertical stroke (paraph or initial stem) crosses l.1 at the left (008).\n\nStrip D (010; tiles 011, 012)\n010 l.1  [?s nobi?t?.  Ad · ix · cap.      (\"Ad · ix · cap.\" is in RED as a rubric; \"ix\" has a stroke above; \"cap\" has a stroke over \"p\" (cap(itulum)?); before it the black word reads \"nobit.\" or \"nobis.\")\n010 l.2  [ropt?r? hoc u?[hole]?s          (first word \"ropt\" with abbreviation, perhaps \"(p)ropt(er)\"; after \"hoc\" a word starting \"u\" is lost in a hole; then a final \"...s\")\nAt the left edge, l.2 starts with a descender trace.\n\nStrip E (013 vertical; tiles 014, 015)\n014 l.~6  [ſtitutione[          (clear, normal orientation; the first letter could be \"ſ\" or \"f\")\n014 l.~9  [?o?o?u?e[            (faint; letters not secure)\nBelow this, 5-7 lines are dark and abraded and I could not read them.\nMargins: red \"b.\" at the left of the \"ſtitutione\" line; red \".G.\" (or \".c.\") at the right edge one line above; red \"a\" (or \"&\") at the right of the next line. These may be marginal letters or signatures; that is an interpretation.\n015 lower: a line in RED. As photographed it appears mirror-reversed. It reads roughly \"...us ꝑ(ri)me\" in the flipped copy, or \"ɑɯs lɯɯɯs\" as photographed. It is not secure, and it may be an offset from a facing page. The pink patch at the lower right is a later paper repair.\n\nStrip F (016 vertical; tiles 017, 018)\nModern pencil \"R21\" at the top right.\nAbout 9 lines of brown text, heavily abraded, with a long stitched tear down the middle. Letter fragments visible:\n016 l.1 [u ui[...]   l.2 [u?[...]   l.3 [dna. Q?[tear] n?r[   l.4 [mn?[tear]?rn   l.5 [?ov[tear]?o   l.6 [?u?[...]   l.7 [ris· th?[...]   l.8 [?n?en ici?[   l.9 [?iſtime?[\nNone of these is a secure word.\nRed: penwork flourishes in the left margin (two places), a red \"B\"/\"&\" at the upper right, and red traces at the right edge lower down.\n\nStrip G (019; tiles 020, 021)\nMostly blank. A large red wedge-shaped stroke (the stem of a red initial or a paraph, inverted-T shape) sits at mid-left. At the upper right is a faint brown line of minims, illegible. At the right end there is a dark vertical crease where the strip was folded over.\n\nStrip H (022; tiles 023, 024)\nA large red initial, about two lines high (vertical stem plus a bowl: D/P/O type). Twine is attached at the top edge.\n022 l.1 (right of initial)  ?omine?   (brown; the letter forms look possibly reversed; rotating 180 degrees did not help; unsure)\n022 l.2  tops of letters only, illegible.\nRed letter fragment (\"B\"/\"Q\"?) at the right end of l.1.\n\nStrip I (025; tile 026)\n025 l.1  letter feet only, illegible\n025 l.2  [?u? ?iue[...]   (abraded; the right half is lost to surface damage)\n025 l.3  [?as omni?.  De· ?[    (\"De·\" is in RED, probably a rubric, though it could also read \"Dē\")\nAt the lower left is a large red arc, the bowl of a red initial. Possible mirror reversal again; not secure.\n\nStrip J (027; tile 028)\n027 l.1  letter feet only\n027 l.2  [?u?? [...] ?ue?ne?[    (abraded)\n027 l.3  [ꝯ?o?ue?[...]?ne?[\n027 bottom right: RED letters, \"Ob.ss?\" as photographed, or \"?a.qO\" if the image is rotated. The letters look inverted, so this strip may be photographed upside down.\n\nUNREAD / LIMITATIONS\n- Strips E-J are largely unread because of abrasion, darkening and possible reversed/inverted orientation. More light or multispectral imaging would help, as would confirming which side of each strip is the hair/written side and whether some images show offset text.\n- On every strip the ends of words are cut at the edges, and l.1 on A, B and D has the tops of its letters cropped.\n- I have no evidence for how the strips relate to one another (same leaf, recto/verso pairs). An overview showing all the strips in their original binding position would help.\n- The rubric \"Ad · ix · cap.\" (D) is the clearest anchor for checking a source match. \"quod habeam ... & mundis\" (B) and \"euangeli\" (C) are the next clearest.\n",
+  "text_sha256": "1e728fc84c0ac01e2b0e717ef5bef64d43d3719342e8eb5b36494175d33fd3a3"
+}
