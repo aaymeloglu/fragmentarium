@@ -15,7 +15,11 @@ cols: the text is sideways), the line pitch in native pixels, an estimated line 
 periodicity score (0-1; under about 0.2 there are no regular lines, as on a ruler, a blank or a
 washed leaf) and an ink contrast (0-1; under about 0.1 the text, if any, is very faint). The
 numbers rank objects and records for a reader; they do not replace looking: the sample shows
-whether the lines are letters. --enhance adds a contrast-stretched, sharpened copy of each
+whether the lines are letters. Objects are listed most text-like first; strongly coloured objects
+(colour charts, marbled or painted covers) are tagged and ranked down, and a long object with ticks
+across it is tagged as possibly the ruler but still sampled, since a strip with sideways text looks
+the same. A strip pasted on a coloured cover is found as part of the cover: point at it with --box.
+--flip mirrors the samples of an offset (h: mirror image; v: mirror image upside down). --enhance adds a contrast-stretched, sharpened copy of each
 sample for faint ink (an aid to viewing, not evidence). A JSON summary goes to OUTDIR.
 Needs Pillow and numpy (group `images`).
 """
@@ -26,6 +30,7 @@ import sys
 from pathlib import Path
 
 GRID = 240  # width of the downscaled image in which objects are found
+COLOURFUL = 0.35  # mean saturation above which an object is likely a colour chart or decorated cover
 MAX_SAMPLE = 2200  # native pixels across a sample; wider is shrunk past reading size when viewed
 
 
@@ -165,31 +170,55 @@ def inkiest_window(g, orient, width):
     return int(np.argmax(c))
 
 
+def saturation(im):
+    """Mean colour saturation (0-1). Parchment and paper are near-neutral; colour charts and marbled or
+    painted covers are strongly coloured."""
+    import numpy as np
+    return float(np.asarray(im.convert("HSV"), dtype=np.float32)[:, :, 1].mean() / 255.0)
+
+
+def flipped(im, flip):
+    from PIL import ImageOps
+    if flip in ("h", "hv"):
+        im = ImageOps.mirror(im)
+    if flip in ("v", "hv"):
+        im = ImageOps.flip(im)
+    return im
+
+
 def enhance(im):
     from PIL import ImageEnhance, ImageOps
     return ImageEnhance.Sharpness(ImageOps.autocontrast(im.convert("L"), cutoff=1)).enhance(1.6)
 
 
-def probe_image(full, region, native_w, native_h, outdir, stem, samples=1, enh=False, min_frac=0.004):
-    """Probe one canvas. `full(w)` returns the whole image at width w; `region(box, w)` a native box at width w."""
+def probe_image(full, region, native_w, native_h, outdir, stem, samples=1, enh=False, min_frac=0.004, flip=None,
+                only=None):
+    """Probe one canvas. `full(w)` returns the whole image at width w; `region(box, w)` a native box at width w.
+    Objects come back most text-like first (regular lines, contrast, not strongly coloured)."""
     small = full(GRID)
     sx = native_w / small.size[0]
     sy = native_h / small.size[1]
     res = []
-    for k, (x0, y0, x1, y1, _) in enumerate(objects(gray(small), min_frac)):
-        box = (int(x0 * sx), int(y0 * sy), min(native_w, int(x1 * sx)), min(native_h, int(y1 * sy)))
+    if only is not None:  # a caller-given native box replaces object finding
+        found = [(int(only[0] / sx), int(only[1] / sy), max(int(only[0] / sx) + 1, int(only[2] / sx)),
+                  max(int(only[1] / sy) + 1, int(only[3] / sy)), 0)]
+    else:
+        found = objects(gray(small), min_frac)
+    for k, (x0, y0, x1, y1, _) in enumerate(found):
+        box = tuple(only) if only is not None else (int(x0 * sx), int(y0 * sy), min(native_w, int(x1 * sx)), min(native_h, int(y1 * sy)))
         bw, bh = box[2] - box[0], box[3] - box[1]
         view_w = min(bw, 1600)
-        g = gray(region(box, view_w))
+        view = region(box, view_w)
+        g = gray(view)
         m = measure(g)
+        m["saturation"] = round(saturation(view), 3)
+        m["colourful"] = m["saturation"] > COLOURFUL
         f = bw / g.shape[1]
         m.update({"object": k, "box": list(box), "size": [bw, bh], "pitch": round(m["pitch"] * f, 1)})
         m["ruler"] = bool(max(bw, bh) > 4 * min(bw, bh) and m["score_cols" if bw > bh else "score_rows"] > m["score"] - 1e-9
                           and m["orient"] == ("cols" if bw > bh else "rows"))
         m["samples"] = []
-        if m["ruler"]:
-            res.append(m)
-            continue
+        # a ruler-like object is still sampled: a narrow strip with sideways text looks like a ruler here
         pitch_view = m["pitch"] / f if m["score"] >= 0.15 else 0
         start, span = best_band(g, m["orient"], pitch_view)
         across = int(min(MAX_SAMPLE / f, g.shape[1] if m["orient"] == "rows" else g.shape[0]))
@@ -206,7 +235,7 @@ def probe_image(full, region, native_w, native_h, outdir, stem, samples=1, enh=F
             nb = (nb[0], nb[1], min(nb[2], box[2]), min(nb[3], box[3]))
             if nb[2] <= nb[0] or nb[3] <= nb[1]:
                 break
-            img = region(nb, min(nb[2] - nb[0], MAX_SAMPLE))
+            img = flipped(region(nb, min(nb[2] - nb[0], MAX_SAMPLE)), flip)
             p = Path(outdir) / f"{stem}_o{k}_s{j}.jpg"
             img.convert("RGB").save(p, quality=90)
             entry = {"file": str(p), "box": list(nb)}
@@ -215,8 +244,9 @@ def probe_image(full, region, native_w, native_h, outdir, stem, samples=1, enh=F
                 enhance(img).save(q, quality=90)
                 entry["enhanced"] = str(q)
             m["samples"].append(entry)
+        m["rank"] = round(m["score"] * m["contrast"] * (0.3 if m["colourful"] else 1.0) * (0.5 if m["ruler"] else 1.0), 4)
         res.append(m)
-    return res
+    return sorted(res, key=lambda m: -m["rank"])
 
 
 def iiif_fns(c):
@@ -225,9 +255,7 @@ def iiif_fns(c):
     Image.MAX_IMAGE_PIXELS = None
 
     def get(url):
-        import urllib.request
-        data = urllib.request.urlopen(urllib.request.Request(url, headers=iiif.UA), timeout=180).read()
-        return Image.open(io.BytesIO(data))
+        return Image.open(io.BytesIO(iiif.get(url, timeout=180)))
 
     def full(w):
         return get(f"{c['base']}/full/{w},/0/{c['ext']}")
@@ -258,7 +286,8 @@ def report(label, res):
         print(f"  {label} obj{m['object']} box {','.join(map(str, m['box']))} size {m['size'][0]}x{m['size'][1]} "
               f"{m['orient']} pitch {m['pitch']} lines~{m['lines']} score {m['score']} "
               f"(rows {m['score_rows']}, cols {m['score_cols']}) contrast {m['contrast']}"
-              + ("  [long object with ticks across it: probably the ruler]" if m["ruler"] else ""))
+              + ("  [long object with ticks across it: the ruler, or a strip with sideways text]" if m["ruler"] else "")
+              + ("  [strongly coloured: colour chart or decorated cover?]" if m["colourful"] else ""))
         for s in m["samples"]:
             print(f"      sample {s['file']} native box {','.join(map(str, s['box']))}"
                   + (f" enhanced {s['enhanced']}" if "enhanced" in s else ""))
@@ -272,13 +301,20 @@ def main(argv=None):
     ap.add_argument("--canvas", type=int)
     ap.add_argument("--samples", type=int, default=1)
     ap.add_argument("--enhance", action="store_true")
+    ap.add_argument("--box", help="x0,y0,x1,y1 native pixels: probe this area only (a strip on a coloured or "
+                    "marbled cover is not separated from the cover by object finding); use with --canvas")
+    ap.add_argument("--flip", choices=("h", "v", "hv"),
+                    help="mirror the samples for an offset (h: mirror image; v: mirror image upside down)")
     a = ap.parse_args(argv)
+    only = tuple(int(v) for v in a.box.split(",")) if a.box else None
+    if only and not (a.local or a.canvas is not None):
+        ap.error("--box needs --canvas (or --local)")
     out = Path(a.outdir)
     out.mkdir(parents=True, exist_ok=True)
     summary = {}
     if a.local:
         (w, h), full, region = local_fns(a.target)
-        res = probe_image(full, region, w, h, out, Path(a.target).stem, a.samples, a.enhance)
+        res = probe_image(full, region, w, h, out, Path(a.target).stem, a.samples, a.enhance, flip=a.flip, only=only)
         report(Path(a.target).name, res)
         summary[a.target] = res
     else:
@@ -291,7 +327,7 @@ def main(argv=None):
                 continue
             full, region = iiif_fns(c)
             try:
-                res = probe_image(full, region, c["w"], c["h"], out, f"{a.target}_c{i}", a.samples, a.enhance)
+                res = probe_image(full, region, c["w"], c["h"], out, f"{a.target}_c{i}", a.samples, a.enhance, flip=a.flip, only=only)
             except Exception as e:  # one bad canvas should not stop the record
                 print(f"canvas {i} ({c['label']}): {e}", file=sys.stderr)
                 continue

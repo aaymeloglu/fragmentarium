@@ -27,7 +27,7 @@ MENU = {"Overview", "Facsimile", "Description", "Show TEI/XML", "Download TEI/XM
 
 
 def get(url):
-    return urllib.request.urlopen(urllib.request.Request(url, headers=iiif.UA), timeout=60).read()
+    return iiif.get(url)
 
 
 def plain(markup):
