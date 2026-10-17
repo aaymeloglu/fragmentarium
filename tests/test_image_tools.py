@@ -319,3 +319,20 @@ def test_iiif_get_retries_transient_errors_and_tolerates_bad_certificates(monkey
     monkeypatch.setattr(iiif.urllib.request, "urlopen", gone)
     with pytest.raises(urllib.error.HTTPError):
         iiif.get("https://example.org/y")
+
+
+def test_tilepacket_mirrors_offset_tiles(tmp_path):
+    np = pytest.importorskip("numpy")
+    Image = pytest.importorskip("PIL.Image")
+    tp = load("tilepacket")
+    cache = tmp_path / "cache" / "F-test"
+    cache.mkdir(parents=True)
+    a = np.zeros((40, 60, 3), dtype=np.uint8)
+    a[:, :20] = 255  # bright left third
+    Image.fromarray(a).save(cache / "canvas-0-w60.jpg", quality=100)
+    (cache / "acquisition.json").write_text(json.dumps({"sources": [{"source": "https://example.org/i", "label": "1r"}]}))
+    out = tp.build("F-test", [[0, [0, 0, 1, 1], 1, 1, 0, "mirror"]], str(tmp_path / "cache"),
+                   str(tmp_path / "work"), str(tmp_path / "packet"), 0.0, 100)
+    tile = np.asarray(Image.open(out["files"][1]).convert("L"), dtype=int)
+    assert tile[:, -15:].mean() > 200 and tile[:, :15].mean() < 50, "the bright side must move to the right"
+    assert "mirrored left to right" in out["sources"][1]
