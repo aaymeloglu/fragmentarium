@@ -10,9 +10,11 @@ area into a grid of overlapping native-pixel tiles, adds one reduced overview pe
 layout, and registers them as a packet with `readings.py packet` under a neutral name.
 
 SPEC.json maps a fragment id to a list of areas, each
-    [canvas, [x0, y0, x1, y1], columns, rows, rotate]
+    [canvas, [x0, y0, x1, y1], columns, rows, rotate]  or  [..., rotate, "mirror"]
 where the box is in fractions of the image (0-1), columns x rows is the grid over that box, and
-rotate is 0, 90, 180 or 270 degrees counterclockwise (for sideways or upside-down leaves). Aim
+rotate is 0, 90, 180 or 270 degrees counterclockwise (for sideways or upside-down leaves); an
+optional sixth item "mirror" flips the image left to right first, for an offset (mirror-image
+transfer), so that the reader sees it the right way round. Aim
 for tiles of ten to twenty lines, one column wide. Tiles overlap their neighbours by --overlap.
 
 The mapping file keeps, for each fragment, the packet path, the tile files in packet order and
@@ -50,31 +52,37 @@ def build(fid, areas, cache, work, packet, overlap, overview):
     acq = json.load(open(os.path.join(cache, fid, "acquisition.json")))
     os.makedirs(work, exist_ok=True)
     files, sources, seen = [], [], set()
-    for n, (canvas, frac, cols, rows, rot) in enumerate(areas):
+    for n, (canvas, frac, cols, rows, rot, *opt) in enumerate(areas):
+        mirror = "mirror" in opt
         src = acq["sources"][canvas]
         url, label = src["source"], src.get("label")
         im = Image.open(glob.glob(os.path.join(cache, fid, f"canvas-{canvas}-w*.jpg"))[0]).convert("RGB")
         w, h = im.size
-        if (canvas, rot) not in seen:
-            seen.add((canvas, rot))
-            ov = im.rotate(rot, expand=True) if rot else im.copy()
+        how = ("mirrored left to right" if mirror else "") + (" and " if mirror and rot else "") + \
+            (f"rotated {rot} degrees counterclockwise" if rot else "")
+        if (canvas, rot, mirror) not in seen:
+            seen.add((canvas, rot, mirror))
+            ov = im.transpose(Image.Transpose.FLIP_LEFT_RIGHT) if mirror else im.copy()
+            ov = ov.rotate(rot, expand=True) if rot else ov
             ov.thumbnail((overview, overview))
-            p = os.path.join(work, f"c{canvas}-r{rot}-overview.jpg")
+            p = os.path.join(work, f"c{canvas}-r{rot}{'-m' if mirror else ''}-overview.jpg")
             ov.save(p, quality=90)
             files.append(p)
             sources.append(f"{url} (canvas {canvas}, {label}): whole image {w}x{h}"
-                           + (f" rotated {rot} degrees counterclockwise and" if rot else "")
+                           + (f" {how} and" if how else "")
                            + f" reduced to {ov.size[0]}x{ov.size[1]} for layout")
         box = (int(frac[0] * w), int(frac[1] * h), int(frac[2] * w), int(frac[3] * h))
         for k, b in enumerate(grid(box, cols, rows, overlap)):
             tile = im.crop(b)
+            if mirror:
+                tile = tile.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
             if rot:
                 tile = tile.rotate(rot, expand=True)
             p = os.path.join(work, f"a{n}-c{canvas}-x{b[0]}-y{b[1]}.jpg")
             tile.save(p, quality=92)
             files.append(p)
             sources.append(f"{url} (canvas {canvas}, {label}): native-pixel box {b[0]},{b[1]},{b[2]},{b[3]}"
-                           + (f", rotated {rot} degrees counterclockwise" if rot else "")
+                           + (f", {how}" if how else "")
                            + f"; unrotated grid position column {k % cols + 1} of {cols}, row {k // cols + 1} of {rows}")
     readings = os.path.join(os.path.dirname(os.path.abspath(__file__)), "readings.py")
     subprocess.run([sys.executable, readings, "packet", packet, *files], check=True, stdout=subprocess.DEVNULL)

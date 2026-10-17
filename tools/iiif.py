@@ -65,8 +65,34 @@ def _numbered(base):
     return int(found.group(1)), rebuilt
 
 
+def get(url, timeout=60, tries=3, pause=2.0):
+    """Bytes at `url`. Retries transient failures (Fragmentarium manifests sometimes answer 404 once and
+    then work; servers throttle with 429/5xx). A server whose TLS certificate fails verification
+    (dams.antwerpen.be) is fetched without verification, with a warning: the content is public images
+    and catalogue data, and nothing is sent."""
+    import ssl
+    import time
+    import urllib.error
+    ctx = None
+    for attempt in range(tries):
+        try:
+            return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout, context=ctx).read()
+        except urllib.error.HTTPError as e:
+            if e.code not in (404, 429, 500, 502, 503, 504) or attempt == tries - 1:
+                raise
+        except urllib.error.URLError as e:
+            if isinstance(e.reason, ssl.SSLCertVerificationError) and ctx is None:
+                print(f"warning: TLS certificate of {urllib.parse.urlsplit(url).netloc} failed verification; "
+                      "fetching without verification", file=sys.stderr)
+                ctx = ssl._create_unverified_context()
+                continue
+            if attempt == tries - 1:
+                raise
+        time.sleep(pause * (attempt + 1))
+
+
 def image_size(base):
-    info = json.load(urllib.request.urlopen(urllib.request.Request(base + "/info.json", headers=UA), timeout=60))
+    info = json.loads(get(base + "/info.json"))
     return info.get("width"), info.get("height")
 
 
@@ -114,7 +140,7 @@ def resolve_duplicates(bases, sizes, probe=image_size):
 
 def manifest(fid):
     u = f"https://fragmentarium.ms/metadata/iiif/{fid}/manifest.json"
-    return json.load(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60))
+    return json.loads(get(u))
 
 
 def canvases(fid):
@@ -158,7 +184,7 @@ def usable(i, c):
 
 
 def fetch(url, path):
-    data = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=180).read()
+    data = get(url, timeout=180)
     Path(path).write_bytes(data)
     return len(data)
 

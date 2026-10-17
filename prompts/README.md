@@ -24,7 +24,8 @@ One batch, in order:
    Contact sheets mislead about legibility both ways; before rejecting or
    choosing a record on them, run `tools/probe.py <F-id> OUTDIR --enhance`,
    which measures each object's text lines and cuts a native-resolution
-   sample to look at.
+   sample to look at. Point it at a strip on a coloured or marbled cover
+   with `--canvas N --box x0,y0,x1,y1`, and flip an offset with `--flip`.
    Start `tools/searchd.py` from this checkout; one left running from an
    earlier checkout runs that checkout's code.
 2. `tools/acquire_batch.py`, then `tools/register.py`.

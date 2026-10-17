@@ -264,3 +264,75 @@ def test_probe_finds_sideways_text_and_reports_blank_as_irregular(tmp_path):
     full, region = _fns(blank)
     leaf = max(pr.probe_image(full, region, *blank.size, tmp_path, "b"), key=lambda m: m["size"][0] * m["size"][1])
     assert leaf["score"] < 0.15 and leaf["samples"]
+
+
+def test_probe_ranks_text_above_coloured_objects_and_honours_box_and_flip(tmp_path):
+    np = pytest.importorskip("numpy")
+    Image = pytest.importorskip("PIL.Image")
+    pr = load("probe")
+    leaf = np.asarray(_page(lines=30, pitch=40)).copy()
+    h, w, _ = leaf.shape
+    canvas = np.full((h, w + 500, 3), 20, dtype=np.uint8)
+    canvas[:, :w] = leaf
+    rng = np.random.default_rng(2)
+    canvas[100:500, w + 100:w + 400] = rng.integers(0, 255, (400, 300, 3), dtype=np.uint8)  # colour chart
+    canvas[100:500, w + 100:w + 400, 0] = 230
+    im = Image.fromarray(canvas)
+    full, region = _fns(im)
+    res = pr.probe_image(full, region, *im.size, tmp_path, "c")
+    assert res[0]["rank"] >= res[-1]["rank"] and not res[0]["colourful"]
+    assert any(m["colourful"] for m in res)
+    only = (200, 200, 600, 700)
+    res = pr.probe_image(full, region, *im.size, tmp_path, "b", only=only, flip="h")
+    assert len(res) == 1 and res[0]["box"] == list(only)
+    x0, y0, x1, y1 = res[0]["samples"][0]["box"]
+    sample = Image.open(res[0]["samples"][0]["file"])
+    assert sample.size[0] == x1 - x0
+    expected = im.crop((x0, y0, x1, y1)).transpose(Image.Transpose.FLIP_LEFT_RIGHT)
+    assert abs(np.asarray(sample, dtype=int) - np.asarray(expected, dtype=int)).mean() < 8
+
+
+def test_iiif_get_retries_transient_errors_and_tolerates_bad_certificates(monkeypatch):
+    import ssl
+    import urllib.error
+    iiif = load("iiif")
+    calls = []
+
+    class Resp:
+        def read(self):
+            return b"ok"
+
+    def fake(req, timeout=None, context=None):
+        calls.append(context)
+        if len(calls) == 1:
+            raise urllib.error.HTTPError(req.full_url, 404, "nf", {}, None)
+        if len(calls) == 2:
+            raise urllib.error.URLError(ssl.SSLCertVerificationError("bad cert"))
+        return Resp()
+    monkeypatch.setattr(iiif.urllib.request, "urlopen", fake)
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    assert iiif.get("https://example.org/x", tries=3) == b"ok"
+    assert calls[0] is None and calls[1] is None and calls[2] is not None
+
+    def gone(req, timeout=None, context=None):
+        raise urllib.error.HTTPError(req.full_url, 403, "no", {}, None)
+    monkeypatch.setattr(iiif.urllib.request, "urlopen", gone)
+    with pytest.raises(urllib.error.HTTPError):
+        iiif.get("https://example.org/y")
+
+
+def test_tilepacket_mirrors_offset_tiles(tmp_path):
+    np = pytest.importorskip("numpy")
+    Image = pytest.importorskip("PIL.Image")
+    tp = load("tilepacket")
+    cache = tmp_path / "cache" / "F-test"
+    cache.mkdir(parents=True)
+    a = np.zeros((40, 60, 3), dtype=np.uint8)
+    a[:, :20] = 255  # bright left third
+    Image.fromarray(a).save(cache / "canvas-0-w60.jpg", quality=100)
+    (cache / "acquisition.json").write_text(json.dumps({"sources": [{"source": "https://example.org/i", "label": "1r"}]}))
+    out = tp.build("F-test", [[0, [0, 0, 1, 1], 1, 1, 0, "mirror"]], str(tmp_path / "cache"),
+                   str(tmp_path / "work"), str(tmp_path / "packet"), 0.0, 100)
+    tile = np.asarray(Image.open(out["files"][1]).convert("L"), dtype=int)
+    assert tile[:, -15:].mean() > 200 and tile[:, :15].mean() < 50, "the bright side must move to the right"
+    assert "mirrored left to right" in out["sources"][1]
