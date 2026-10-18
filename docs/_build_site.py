@@ -280,34 +280,6 @@ def build_burndown(done):
     return len(rows), n_done
 
 
-def generated(text, name, content):
-    """Replace the README region between <!-- name:start --> and <!-- name:end -->."""
-    start, end = f"<!-- {name}:start -->", f"<!-- {name}:end -->"
-    head, rest = text.split(start)
-    return head + start + "\n" + content + end + rest.split(end, 1)[1]
-
-
-def build_readme(ordered, data, corpus):
-    """The README's corpus sentence and identifications table, from the latest sweep and the ledger."""
-    import csv
-    src = sorted((ROOT / "data").glob("unidentified-*.csv"))[-1]
-    rows = [r for r in csv.DictReader(src.open()) if r.get("scope", "title") == "title"]
-    when = src.stem[len("unidentified-"):]
-    corpus_text = (f"The latest sweep of its search ({when}, `tools/sweep.py`) found {len(rows)} records whose title or\n"
-                   f"summary calls the text unidentified or unknown, in English or another language\n"
-                   f"([corpus list](data/{src.name})); with records worked from earlier sweeps, the corpus is {corpus}.\n")
-    cell = lambda value: str(value).replace("|", "\\|")
-    table = (f"{len(data)} fragments examined; {len(ordered)} identifications published.\n\n"
-             "| Fragment | Identification | Date identified |\n|---|---|---|\n"
-             + "".join(f"| [{r['id']}](https://aaymeloglu.github.io/fragmentarium/{r['id']}.html) | "
-                       f"{cell(r['identification'])} | {r['identified_on']} |\n" for r in ordered))
-    path = ROOT / "README.md"
-    if not path.exists():  # a partial checkout, as in the publication tests
-        return
-    text = generated(generated(path.read_text(), "corpus", corpus_text), "identifications", table)
-    path.write_text(text)
-
-
 def build():
     data = json.loads((ROOT / "data" / "fragments.json").read_text())
     published = [r for r in data if publishable(r)]
@@ -359,8 +331,7 @@ def build():
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
         (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<details><summary>Readings and comparison details</summary><article>" + md_to_html(md) + "</article></details>", crumbs))
-    corpus, _ = build_burndown({r["id"]: r for r in data})
-    build_readme(ordered, data, corpus)
+    build_burndown({r["id"]: r for r in data})
     (DOCS / ".nojekyll").write_text("")
     return published
 

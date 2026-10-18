@@ -12,5 +12,8 @@ images = [
     "pillow>=10",
 ]
 
+[tool.uv]
+default-groups = ["dev", "images"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
