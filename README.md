@@ -21,6 +21,9 @@ fragment examined so far.
   images.
 - **Optional:** a Google Books API key (free, from the Google Cloud console), which enables
   Google Books phrase search. Everything else works without it.
+- **Optional:** 27 GB of disk for [CoMMA](tools/COMMA.md), the machine-read text of about
+  32,800 medieval manuscripts, which can find texts that were never printed. The agent asks
+  before downloading it.
 
 You do not need to install Python yourself. The agent sets the repository up on first use.
 
@@ -112,6 +115,7 @@ tools/gbwithin.py              search inside one Google Books volume, with print
 tools/ia_cluster.py            do anchor phrases sit in one passage of an archive.org volume's OCR?
 tools/mdzsearch.py             full-text search of the Munich digital library's early prints
 tools/latin_search.py          tolerant Latin matching against downloaded texts (see tools/MATCHING.md)
+tools/comma.py                 search the machine-read text of ~32,800 manuscripts (optional download; see tools/COMMA.md)
 tools/schneyer.py              search Schneyer's sermon repertory
 tools/cantus.py                chant texts, concordances and manuscript readings in Cantus
 tools/mnlsearch.py             phrase search of the Corpus Middelnederlands
