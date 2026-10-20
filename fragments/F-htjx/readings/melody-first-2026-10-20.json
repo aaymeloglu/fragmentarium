@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-10-20T16:14:57.863784+00:00",
+  "fragment": "F-htjx",
+  "id": "melody-first-2026-10-20",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "dd5a60baf9012caabcc986fc137bcc41bf04ef366bae82b7a227ee417ac3b7cc",
+        "source": "https://fragmentarium.ms:443/loris/F-htjx/A_309_Bue_107_B_unten_A_oben.jp2/full/850,/0/default.jpg; canvas 0, full image reduced overview; rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "34556e9bae8dca9a05dfa64da5c787fa1a821499fbe4c3ec50ee387ee4cfec21",
+        "source": "https://fragmentarium.ms:443/loris/F-htjx/A_309_Bue_107_A_unten.jp2/full/2594,/0/default.jpg; canvas 1, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "fb01598663bee0b74c5b601f4f7161b3f6b3d3221df1cebfe24736f5364f6ffb",
+        "source": "https://fragmentarium.ms:443/loris/F-htjx/A_309_Bue_107_B_oben.jp2/full/2574,/0/default.jpg; canvas 2, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "9acefd1ea6a9eb2a91f05f527cb83de7ed840a1a02f608589e26cae6ae1ac433",
+        "source": "https://fragmentarium.ms:443/loris/F-htjx/A_309_Bue_107_B_unten_A_oben.jp2/full/850,/0/default.jpg; canvas 0, native crop (0, 0, 850, 1365); rotation 90 degrees; autocontrast True"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "934c22620b0440c67f2950c607c9daca6fc9853b060d42c03b8c8bc3d20aaa7c",
+        "source": "https://fragmentarium.ms:443/loris/F-htjx/A_309_Bue_107_B_unten_A_oben.jp2/full/850,/0/default.jpg; canvas 0, native crop (0, 2851, 850, 4015); rotation 90 degrees; autocontrast True"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "f72144b359a754db9a0c3636a38579bf03864cc16b6213006d7e3322293c2394",
+        "source": "https://fragmentarium.ms:443/loris/F-htjx/A_309_Bue_107_A_unten.jp2/full/2594,/0/default.jpg; canvas 1, native crop (104, 120, 571, 1325); rotation 90 degrees; autocontrast True"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "d945f7c26fbe1cf8d6ca5aaa687a121ff7a12918b50bb21b84df47df9df1dcb3",
+        "source": "https://fragmentarium.ms:443/loris/F-htjx/A_309_Bue_107_B_oben.jp2/full/2574,/0/default.jpg; canvas 2, native crop (1802, 2891, 2523, 3975); rotation 90 degrees; autocontrast True"
+      }
+    ],
+    "prompt": "Read only the supplied images. No web, search, repository context, catalogue, or other readings. Do not infer an identity from familiarity. These are manuscript fragments on bindings; distinguish host text and labels from the fragment. First report orientation, staves, clefs, and surviving musical runs. For each usable run give the image and approximate location, then note positions as integers in diatonic staff steps relative to the first note (0), preserving adjacent repeats. Prefer 6-14 or more consecutive notes where legible; describe uncertainty and stop at a gap or hidden span. Say which marks might be custos rather than sung notes. Report visible clef shape and line if secure; do not guess absolute pitch. Give a short literal reading of any accompanying words, with uncertainty, without completing from memory. If possible record two separate passages for later comparison. If no reliable continuous run of at least four notes remains after repeated pitches collapse, explain the visible limitation. A difficult image is not automatically unreadable: inspect the actual crops. Do not write readings of an image you could not view. Finish with coverage and limitations. Save the entire response as response.txt in this packet directory. Do not modify prompt, images, or packet.json."
+  },
+  "reader": "Codex isolated image reader (inherited model; exact version not exposed)",
+  "schema_version": 1,
+  "session": "melody-20261020-read-m09",
+  "text": "Orientation and surviving notation\n\nI viewed all seven supplied images. The binding material carries large black square/lozenge notation and red staff ruling. No clef shape or clef line is securely visible, and I assign no absolute pitches.\n\nImage-001 is an overview of the book edge, with small manuscript strips around the two sewn ends. The visible ruling is approximately horizontal. The sewing hides most possible notation. Image-004 enlarges the left end, image-005 the right end. Neither reveals a continuous musical passage through the sewing. Black forms below the ruling include large textual letter strokes; they should not all be counted as notes.\n\nImage-002 is an upright host title page, with the manuscript strip folded into its upper left margin. Its red lines are approximately vertical in this view. The prominent title \"EXAMEN TESTIVM\" belongs to the host, not the musical fragment. Image-003 shows the other largely blank host surface, with a manuscript patch at the lower right. That patch becomes upright when the image is turned approximately 90 degrees counterclockwise. Image-007 is the clearer, already upright close view of that patch. Image-006 shows a folded strip with two long red lines, another red segment at the lower edge, and isolated black marks near the sewing; no consecutive run can be read there.\n\nUsable short passage\n\nImage-007, upper band, approximately x=235–705, y=90–220: six successive dark notehead-like forms survive along a cropped staff. Three red lines are visible lower down, spaced roughly 110 pixels apart. The top boundary clips the notation, especially the later forms. Reading left to right and allowing for the slant of the lines, the provisional relative diatonic positions are:\n\n0, 0, -1, 0, 0, 0\n\nThe third form is a lozenge lower than its two predecessors, approximately on the highest surviving red line. The first two appear in the space above that line. The next three return to approximately that same space. Positions 1–3 are the clearest; positions 4–6 are less secure because their upper parts meet or pass the trimmed edge, and the last is particularly incomplete. I have treated each surviving block as one note provisionally; the cropped upper area could conceal additional components or connections. There is no basis for extending the run past either edge. The same patch appears sideways at the bottom right of image-003, but it is a duplicate view, not a second musical passage.\n\nAfter adjacent repetitions collapse, this gives only 0, -1, 0: three successive positions. Thus it does not provide a reliable run of at least four notes after collapse, and it is not a secure longer melodic comparison string. I cannot extract a second independent passage from the other images without reading through physically hidden spans.\n\nWords and possible non-note marks\n\nImage-007, beneath the ruling: large blackletter minims and a final t-like letter. A tentative literal reading is \"…uiuit\", but the minim divisions are uncertain; \"…uunt\" is another possible segmentation. I do not complete the word. The dark upright mark and paler adjacent stroke at the right, below the middle visible red line, are not securely identifiable as musical signs. They may be lettering or a separate annotation. I do not count them as sung notes or assign them a pitch.\n\nNo definite custos is recognizable. The small sixth upper form in image-007 is severely trimmed; although included provisionally above, its function is uncertain and it should not be relied upon as a confirmed sung note. The exposed blocks in images-004 and -006 also cannot securely be distinguished from partial notation, clef remnants, or other strokes.\n\nCoverage and limitations\n\nViewed: image-001.jpg, image-002.jpg, image-003.jpg, image-004.jpg, image-005.jpg, image-006.jpg, image-007.jpg. The actual close views were inspected, including the clearest note-bearing crop. The principal limitations are sewing over the musical surface, folded material, loss of the upper part of the clearest staff, absent clefs, and lack of an independently readable second passage. No identity or source attribution is inferred.\n",
+  "text_sha256": "fcc1ab21fa5ff8c9dff822836076551be42f44d6b3d7f6d23575af41f6a9ef98"
+}
