@@ -1,0 +1,410 @@
+{
+  "input": "jhjlkjhghjhf",
+  "checked_on": "2026-10-20",
+  "server_transposition": {
+    "searchmelody": {
+      "reported_count": 0,
+      "returned_count": 0,
+      "truncated": false,
+      "request": {
+        "url": "https://cantusindex.org/searchmelody?t=1-j-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+        "retrieved_at": "2026-10-20T17:00:24.594623+00:00",
+        "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+      }
+    },
+    "searchmelody-con": {
+      "reported_count": 0,
+      "returned_count": 0,
+      "truncated": false,
+      "request": {
+        "url": "https://cantusindex.org/searchmelody-con?t=1-j-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+        "retrieved_at": "2026-10-20T17:00:26.948688+00:00",
+        "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+      }
+    }
+  },
+  "exact_pitch_placements": {
+    "searchmelody": {
+      "status": "ok",
+      "complete": true,
+      "reported_count": null,
+      "returned_count": 1,
+      "truncated": false,
+      "queries": [
+        {
+          "query": "1-c-b-c-e-d-c-b-a-b-c-b-9",
+          "shift": -6,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-c-b-c-e-d-c-b-a-b-c-b-9&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:31.892773+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-d-c-d-f-e-d-c-b-c-d-c-a",
+          "shift": -5,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-d-c-d-f-e-d-c-b-c-d-c-a&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:32.619214+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-e-d-e-g-f-e-d-c-d-e-d-b",
+          "shift": -4,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-e-d-e-g-f-e-d-c-d-e-d-b&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:33.367813+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-f-e-f-h-g-f-e-d-e-f-e-c",
+          "shift": -3,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-f-e-f-h-g-f-e-d-e-f-e-c&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:34.127447+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-g-f-g-j-h-g-f-e-f-g-f-d",
+          "shift": -2,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-g-f-g-j-h-g-f-e-f-g-f-d&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:34.877277+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-h-g-h-k-j-h-g-f-g-h-g-e",
+          "shift": -1,
+          "reported_count": 1,
+          "returned_count": 1,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-h-g-h-k-j-h-g-f-g-h-g-e&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:35.657557+00:00",
+            "sha256": "ef6748c94739e5fa9221d00944fc032921606ff8d07b38c3a6076ba94dc7cb6c"
+          }
+        },
+        {
+          "query": "1-j-h-j-l-k-j-h-g-h-j-h-f",
+          "shift": 0,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-j-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:36.613344+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-k-j-k-m-l-k-j-h-j-k-j-g",
+          "shift": 1,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-k-j-k-m-l-k-j-h-j-k-j-g&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:37.350094+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+          "shift": 2,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-l-k-l-n-m-l-k-j-k-l-k-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:38.089014+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-m-l-m-o-n-m-l-k-l-m-l-j",
+          "shift": 3,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-m-l-m-o-n-m-l-k-l-m-l-j&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:38.862263+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-n-m-n-p-o-n-m-l-m-n-m-k",
+          "shift": 4,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-n-m-n-p-o-n-m-l-m-n-m-k&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:39.622055+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        {
+          "query": "1-o-n-o-q-p-o-n-m-n-o-n-l",
+          "shift": 5,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-o-n-o-q-p-o-n-m-n-o-n-l&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:40.412939+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "result_url": "https://cantusindex.org/melody/001975m1a",
+          "retrieved_by": [
+            {
+              "query": "1-h-g-h-k-j-h-g-f-g-h-g-e",
+              "shift": -1
+            }
+          ]
+        }
+      ]
+    },
+    "searchmelody-con": {
+      "status": "ok",
+      "complete": true,
+      "reported_count": null,
+      "returned_count": 7,
+      "truncated": false,
+      "queries": [
+        {
+          "query": "1-c-b-c-e-d-c-b-a-b-c-b-9",
+          "shift": -6,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-c-b-c-e-d-c-b-a-b-c-b-9&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:42.405120+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-d-c-d-f-e-d-c-b-c-d-c-a",
+          "shift": -5,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-d-c-d-f-e-d-c-b-c-d-c-a&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:44.326776+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-e-d-e-g-f-e-d-c-d-e-d-b",
+          "shift": -4,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-e-d-e-g-f-e-d-c-d-e-d-b&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:46.337421+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-f-e-f-h-g-f-e-d-e-f-e-c",
+          "shift": -3,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-f-e-f-h-g-f-e-d-e-f-e-c&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:48.338090+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-g-f-g-j-h-g-f-e-f-g-f-d",
+          "shift": -2,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-g-f-g-j-h-g-f-e-f-g-f-d&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:50.500700+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-h-g-h-k-j-h-g-f-g-h-g-e",
+          "shift": -1,
+          "reported_count": 1,
+          "returned_count": 1,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-h-g-h-k-j-h-g-f-g-h-g-e&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:52.613962+00:00",
+            "sha256": "4b01b94fefbb589d949040f0daf41aa5fedebf69366c9791f77c99bf728c44f7"
+          }
+        },
+        {
+          "query": "1-j-h-j-l-k-j-h-g-h-j-h-f",
+          "shift": 0,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-j-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:54.558053+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-k-j-k-m-l-k-j-h-j-k-j-g",
+          "shift": 1,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-k-j-k-m-l-k-j-h-j-k-j-g&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:56.531592+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+          "shift": 2,
+          "reported_count": 6,
+          "returned_count": 6,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-l-k-l-n-m-l-k-j-k-l-k-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:59:58.410333+00:00",
+            "sha256": "ac1d8d0e8c0e0e348705976002c7d73519c3262d6a14d026a1f4035c556b13e1"
+          }
+        },
+        {
+          "query": "1-m-l-m-o-n-m-l-k-l-m-l-j",
+          "shift": 3,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-m-l-m-o-n-m-l-k-l-m-l-j&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T17:00:00.289565+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-n-m-n-p-o-n-m-l-m-n-m-k",
+          "shift": 4,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-n-m-n-p-o-n-m-l-m-n-m-k&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T17:00:02.036551+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        },
+        {
+          "query": "1-o-n-o-q-p-o-n-m-n-o-n-l",
+          "shift": 5,
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-o-n-o-q-p-o-n-m-n-o-n-l&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T17:00:03.873807+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "result_url": "https://cantusdatabase.org/chant/644939",
+          "retrieved_by": [
+            {
+              "query": "1-h-g-h-k-j-h-g-f-g-h-g-e",
+              "shift": -1
+            }
+          ]
+        },
+        {
+          "result_url": "https://cantusdatabase.org/chant/230549",
+          "retrieved_by": [
+            {
+              "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+              "shift": 2
+            }
+          ]
+        },
+        {
+          "result_url": "https://cantusdatabase.org/chant/230538",
+          "retrieved_by": [
+            {
+              "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+              "shift": 2
+            }
+          ]
+        },
+        {
+          "result_url": "https://cantusdatabase.org/chant/255668",
+          "retrieved_by": [
+            {
+              "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+              "shift": 2
+            }
+          ]
+        },
+        {
+          "result_url": "https://cantusdatabase.org/chant/377029",
+          "retrieved_by": [
+            {
+              "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+              "shift": 2
+            }
+          ]
+        },
+        {
+          "result_url": "https://cantusdatabase.org/chant/412436",
+          "retrieved_by": [
+            {
+              "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+              "shift": 2
+            }
+          ]
+        },
+        {
+          "result_url": "https://cantusdatabase.org/chant/495687",
+          "retrieved_by": [
+            {
+              "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+              "shift": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
