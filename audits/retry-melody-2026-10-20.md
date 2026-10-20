@@ -1,5 +1,10 @@
 # Twelve candidates for melody-first retries
 
+**Completed:** [results of all twelve retries](melody-retries-2026-10-20.md).
+No identification; five searchable passages/sets, seven without enough readable
+consecutive distinct pitches. The priority list below preserves the original
+pre-reading assessment.
+
 Ranked after submitting the melody tooling PR on 20 October 2026. These records
 remain unresolved in the current screening set. Many were screened out as chant
 or insufficient text, rather than subjected to a full identification attempt.
