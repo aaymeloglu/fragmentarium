@@ -1,0 +1,407 @@
+{
+  "format": "latin-retrieval-v1",
+  "status": "candidate-retrieval-only",
+  "query": {
+    "source": "Source-assisted tooling control from the Graesse Legenda aurea OCR, Silvester opening; not a manuscript reading.",
+    "anchors": [
+      {
+        "id": "damaged",
+        "variants": [
+          {
+            "parts": [
+              "bonae terrae",
+              "humiliatiomis"
+            ],
+            "gaps": [
+              {
+                "min": 1,
+                "max": 100
+              }
+            ],
+            "basis": "Deliberate gap and one-character corruption of known edition text."
+          }
+        ]
+      },
+      {
+        "id": "following",
+        "variants": [
+          {
+            "text": "dulcedinem devotionis",
+            "basis": "Following phrase in the same known edition passage."
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "max_edits": 1,
+    "window_raw_characters": 600,
+    "limit_per_document": 3,
+    "ocr_long_s": false,
+    "normalization": "latin-mapped-v1"
+  },
+  "corpus_size": 12,
+  "document_frequency": {
+    "damaged": 1,
+    "following": 2
+  },
+  "weights": {
+    "damaged": 2.8718021769015913,
+    "following": 2.466337068793427
+  },
+  "documents": [
+    {
+      "id": "legenda-aurea",
+      "source": "https://archive.org/details/LegendaAureaGraesse1846",
+      "edition": {
+        "title": "Jacobus de Voragine, Legenda aurea, ed. Graesse (1846)"
+      },
+      "text_sha256": "4d2028991807667d4c4417156d025bef9e00d6d15e0024c647a3ebc22955fbe5",
+      "hits": [
+        {
+          "anchor": "damaged",
+          "variant": 0,
+          "normalized_query": "bone terre … humiliatiomis",
+          "normalized_match": "bone terre habet pinguedinem bone operationis nigredinem humiliationis",
+          "mode": "bounded-gap",
+          "edits": 1,
+          "start": 189374,
+          "end": 189449,
+          "text": "bonae terrae habet pinguedinem bonae \noperationis, nigredinem humiliationis",
+          "line": 4182,
+          "form_feed_page": null,
+          "segments": [
+            {
+              "anchor": "damaged",
+              "variant": 0,
+              "normalized_query": "bone terre",
+              "normalized_match": "bone terre",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 189374,
+              "end": 189386,
+              "text": "bonae terrae",
+              "line": 4182,
+              "form_feed_page": null
+            },
+            {
+              "anchor": "damaged",
+              "variant": 0,
+              "normalized_query": "humiliatiomis",
+              "normalized_match": "humiliationis",
+              "mode": "edit-distance",
+              "edits": 1,
+              "start": 189436,
+              "end": 189449,
+              "text": "humiliationis",
+              "line": 4183,
+              "form_feed_page": null
+            }
+          ],
+          "gap_normalized_characters": [
+            47
+          ],
+          "gap_bounds": [
+            {
+              "min": 1,
+              "max": 100
+            }
+          ]
+        },
+        {
+          "anchor": "following",
+          "variant": 0,
+          "normalized_query": "dulcedinem deuotionis",
+          "normalized_match": "dulcedinem deuotionis",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 189453,
+          "end": 189474,
+          "text": "dulcedinem devotionis",
+          "line": 4183,
+          "form_feed_page": null
+        }
+      ],
+      "hit_counts": {
+        "damaged": 1,
+        "following": 1
+      },
+      "passages": [
+        {
+          "score": 3.902238,
+          "matched": 2,
+          "diagnostic_total": 2,
+          "start": 189374,
+          "end": 189474,
+          "matches": [
+            {
+              "anchor": "damaged",
+              "variant": 0,
+              "normalized_query": "bone terre … humiliatiomis",
+              "normalized_match": "bone terre habet pinguedinem bone operationis nigredinem humiliationis",
+              "mode": "bounded-gap",
+              "edits": 1,
+              "start": 189374,
+              "end": 189449,
+              "text": "bonae terrae habet pinguedinem bonae \noperationis, nigredinem humiliationis",
+              "line": 4182,
+              "form_feed_page": null,
+              "segments": [
+                {
+                  "anchor": "damaged",
+                  "variant": 0,
+                  "normalized_query": "bone terre",
+                  "normalized_match": "bone terre",
+                  "mode": "normalized-exact",
+                  "edits": 0,
+                  "start": 189374,
+                  "end": 189386,
+                  "text": "bonae terrae",
+                  "line": 4182,
+                  "form_feed_page": null
+                },
+                {
+                  "anchor": "damaged",
+                  "variant": 0,
+                  "normalized_query": "humiliatiomis",
+                  "normalized_match": "humiliationis",
+                  "mode": "edit-distance",
+                  "edits": 1,
+                  "start": 189436,
+                  "end": 189449,
+                  "text": "humiliationis",
+                  "line": 4183,
+                  "form_feed_page": null
+                }
+              ],
+              "gap_normalized_characters": [
+                47
+              ],
+              "gap_bounds": [
+                {
+                  "min": 1,
+                  "max": 100
+                }
+              ]
+            },
+            {
+              "anchor": "following",
+              "variant": 0,
+              "normalized_query": "dulcedinem deuotionis",
+              "normalized_match": "dulcedinem deuotionis",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 189453,
+              "end": 189474,
+              "text": "dulcedinem devotionis",
+              "line": 4183,
+              "form_feed_page": null
+            }
+          ],
+          "total_edits": 1,
+          "gap_characters": [
+            4
+          ],
+          "unmatched": []
+        }
+      ]
+    },
+    {
+      "id": "bromyard-2",
+      "source": "https://archive.org/details/JohnBromyardSummaPraedicantiumParsSecunda1586",
+      "edition": {
+        "title": "John Bromyard, Summa praedicantium, second part (1586)"
+      },
+      "text_sha256": "bc6e8084fbdd49da5d8b29aa2e0e124380cd71e5c886752f6af4da8bce6aab83",
+      "hits": [
+        {
+          "anchor": "following",
+          "variant": 0,
+          "normalized_query": "dulcedinem deuotionis",
+          "normalized_match": "dulcedinem deuotionis",
+          "mode": "normalized-exact",
+          "edits": 0,
+          "start": 1794957,
+          "end": 1794978,
+          "text": "dulcedinem deuotionis",
+          "line": 60609,
+          "form_feed_page": null
+        }
+      ],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 1
+      },
+      "passages": [
+        {
+          "score": 2.466337,
+          "matched": 1,
+          "diagnostic_total": 2,
+          "start": 1794957,
+          "end": 1794978,
+          "matches": [
+            {
+              "anchor": "following",
+              "variant": 0,
+              "normalized_query": "dulcedinem deuotionis",
+              "normalized_match": "dulcedinem deuotionis",
+              "mode": "normalized-exact",
+              "edits": 0,
+              "start": 1794957,
+              "end": 1794978,
+              "text": "dulcedinem deuotionis",
+              "line": 60609,
+              "form_feed_page": null
+            }
+          ],
+          "total_edits": 0,
+          "gap_characters": [],
+          "unmatched": [
+            "damaged"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl039",
+      "source": "https://archive.org/details/patrologiaecursu0039mign",
+      "edition": {
+        "title": "Patrologia Latina 39: Augustine, sermons and appendix"
+      },
+      "text_sha256": "17a5ca4db9a28f1afb3ee0ae89369adefffe19432257f9122cf26d88d39a4035",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "pl040",
+      "source": "https://archive.org/details/patrologiaecurs252unkngoog",
+      "edition": {
+        "title": "Patrologia Latina 40: Augustine, minor works and appendices"
+      },
+      "text_sha256": "a07a4edec18a3e34476b6c2744b8fd6afc06bfaa06e3fe3d89084c77d15f4ca5",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "pl076",
+      "source": "https://archive.org/details/patrologiaecursu76mign",
+      "edition": {
+        "title": "Patrologia Latina 76: Gregory the Great"
+      },
+      "text_sha256": "13c0bbad771924a4887e6d2d561bc9e235a448d2658882c958aee413a5eb879a",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "pl094",
+      "source": "https://archive.org/details/patrologiaecursu0094mign",
+      "edition": {
+        "title": "Patrologia Latina 94: Bede, homilies and other works"
+      },
+      "text_sha256": "518df376c05c189fe5f4a21aefb580a3567d1f9e677f4cae4b92b1d65d101246",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "pl095",
+      "source": "https://archive.org/details/patrologiaecursu0095mign",
+      "edition": {
+        "title": "Patrologia Latina 95: Bede supplement and Paul the Deacon"
+      },
+      "text_sha256": "9cfbea6e47a2b658bcb0de6b73f36e2474defcfc42bb45f7be1966379ebb209c",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "pl131",
+      "source": "https://archive.org/details/patrologiaecursu0131mign",
+      "edition": {
+        "title": "Patrologia Latina 131"
+      },
+      "text_sha256": "ba0798fd5162f349469781e130be9bab2832457104c0cb117d52ba57b5db56e1",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "pl165",
+      "source": "https://archive.org/details/patrologiaecursu0165mign",
+      "edition": {
+        "title": "Patrologia Latina 165: Bruno of Segni"
+      },
+      "text_sha256": "2c696bd6d7806de52fe98c4279ac2328a49d6975acd01979b4966ef9be3351ae",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "bromyard-1",
+      "source": "https://archive.org/details/bub_gb_mHY7Mpl8MyEC",
+      "edition": {
+        "title": "John Bromyard, Summa praedicantium (1586), first part"
+      },
+      "text_sha256": "c7af774e3934499e8372e316e096dc03aa29c64e07c6c318711280fb23a8d625",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "petrus-hieremia",
+      "source": "https://archive.org/details/bub_gb_lh8-rBI0f2cC",
+      "edition": {
+        "title": "Petrus Hieremia, Divinum opus (1502)"
+      },
+      "text_sha256": "8ca7f7f31e35f6e0c0609d62ebc645e174325072e518cec67b4b5ab7c62f104f",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    },
+    {
+      "id": "pl117",
+      "source": "https://archive.org/details/patrologiaecursu0117mign",
+      "edition": {
+        "title": "Patrologia Latina 117: works printed under Haymo"
+      },
+      "text_sha256": "13313561d6c25654330d67c86c68b99f8a066db92a1a7c29c2c96ef35e0873ed",
+      "hits": [],
+      "hit_counts": {
+        "damaged": 0,
+        "following": 0
+      },
+      "passages": []
+    }
+  ],
+  "query_sha256": "2af29b8efed49104d0ceaac2669131609af4ce76960c2a4a5aeae35559381a01"
+}

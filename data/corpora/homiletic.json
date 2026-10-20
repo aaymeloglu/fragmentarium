@@ -1,0 +1,89 @@
+{
+  "description": "Latin homilies, saints' lives and preaching aids for fragment retries. Edition attributions are historical catalogue labels, not modern authorship determinations. OCR is for retrieval; confirm wording on scans.",
+  "documents": [
+    {
+      "id": "pl039",
+      "ia": "patrologiaecursu0039mign",
+      "edition": "Patrologia Latina 39: Augustine, sermons and appendix",
+      "coverage": "Sermons, including material printed under Augustine's name; authorship varies.",
+      "sha256": "17a5ca4db9a28f1afb3ee0ae89369adefffe19432257f9122cf26d88d39a4035"
+    },
+    {
+      "id": "pl040",
+      "ia": "patrologiaecurs252unkngoog",
+      "edition": "Patrologia Latina 40: Augustine, minor works and appendices",
+      "coverage": "Short treatises and pseudo-Augustinian material used by compilers.",
+      "sha256": "a07a4edec18a3e34476b6c2744b8fd6afc06bfaa06e3fe3d89084c77d15f4ca5"
+    },
+    {
+      "id": "pl076",
+      "ia": "patrologiaecursu76mign",
+      "edition": "Patrologia Latina 76: Gregory the Great",
+      "coverage": "Moralia continuation and homiletic material.",
+      "sha256": "13c0bbad771924a4887e6d2d561bc9e235a448d2658882c958aee413a5eb879a"
+    },
+    {
+      "id": "pl094",
+      "ia": "patrologiaecursu0094mign",
+      "edition": "Patrologia Latina 94: Bede, homilies and other works",
+      "coverage": "Bede and pseudo-Bedan homilies; useful for lesson strips.",
+      "sha256": "518df376c05c189fe5f4a21aefb580a3567d1f9e677f4cae4b92b1d65d101246"
+    },
+    {
+      "id": "pl095",
+      "ia": "patrologiaecursu0095mign",
+      "edition": "Patrologia Latina 95: Bede supplement and Paul the Deacon",
+      "coverage": "Homiliary tradition including homilies attributed to Heiric; historical attribution labels.",
+      "sha256": "9cfbea6e47a2b658bcb0de6b73f36e2474defcfc42bb45f7be1966379ebb209c"
+    },
+    {
+      "id": "pl117",
+      "ia": "patrologiaecursu0117mign",
+      "edition": "Patrologia Latina 117: works printed under Haymo",
+      "coverage": "Homilies transmitted under Haymo’s name; historical attribution needs checking.",
+      "sha256": "13313561d6c25654330d67c86c68b99f8a066db92a1a7c29c2c96ef35e0873ed"
+    },
+    {
+      "id": "pl131",
+      "ia": "patrologiaecursu0131mign",
+      "edition": "Patrologia Latina 131",
+      "coverage": "Remigius of Auxerre and contemporary works; homiletic parallels.",
+      "sha256": "ba0798fd5162f349469781e130be9bab2832457104c0cb117d52ba57b5db56e1"
+    },
+    {
+      "id": "pl165",
+      "ia": "patrologiaecursu0165mign",
+      "edition": "Patrologia Latina 165: Bruno of Segni",
+      "coverage": "Bruno's biblical exposition and homiletic works.",
+      "sha256": "2c696bd6d7806de52fe98c4279ac2328a49d6975acd01979b4966ef9be3351ae"
+    },
+    {
+      "id": "legenda-aurea",
+      "ia": "LegendaAureaGraesse1846",
+      "edition": "Jacobus de Voragine, Legenda aurea, ed. Graesse (1846)",
+      "coverage": "Latin saints' lives and liturgical legends; a source match alone does not identify an abridgement.",
+      "sha256": "4d2028991807667d4c4417156d025bef9e00d6d15e0024c647a3ebc22955fbe5"
+    },
+    {
+      "id": "bromyard-1",
+      "ia": "bub_gb_mHY7Mpl8MyEC",
+      "edition": "John Bromyard, Summa praedicantium (1586), first part",
+      "coverage": "Alphabetical preaching aid, including almsgiving and moral topics.",
+      "sha256": "c7af774e3934499e8372e316e096dc03aa29c64e07c6c318711280fb23a8d625"
+    },
+    {
+      "id": "bromyard-2",
+      "ia": "JohnBromyardSummaPraedicantiumParsSecunda1586",
+      "edition": "John Bromyard, Summa praedicantium, second part (1586)",
+      "coverage": "Later alphabetic entries of the preaching aid.",
+      "sha256": "bc6e8084fbdd49da5d8b29aa2e0e124380cd71e5c886752f6af4da8bce6aab83"
+    },
+    {
+      "id": "petrus-hieremia",
+      "ia": "bub_gb_lh8-rBI0f2cC",
+      "edition": "Petrus Hieremia, Divinum opus (1502)",
+      "coverage": "Advent, penitential, Sunday and saints' sermons.",
+      "sha256": "8ca7f7f31e35f6e0c0609d62ebc645e174325072e518cec67b4b5ab7c62f104f"
+    }
+  ]
+}
