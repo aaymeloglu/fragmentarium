@@ -36,6 +36,19 @@ takes well under a second when nothing has changed.
    proceed with the other sources. Never ask the person to paste a key into
    the conversation.
 
+5. **Manuscript corpus (optional).** Run `uv run python tools/comma.py status`.
+   - `installed` or `partial`: CoMMA search is available ([tools/COMMA.md](tools/COMMA.md)).
+   - `declined`: the person has said no on this machine. Do not ask again.
+   - `absent`: ask once, before research starts, in a sentence or two. CoMMA
+     is the machine-read text of about 32,800 medieval manuscripts and finds
+     texts that were never printed. It needs a 27 GB download into
+     `~/.cache/fragmentarium/comma`, which takes 15-60 minutes depending on
+     the connection, and search works without it. If yes, run
+     `uv run python tools/comma.py fetch --yes` in the background and carry on.
+     If they would rather try one 2 GB part first, use `fetch --parts 6 --yes`.
+     If no, run `uv run python tools/comma.py decline`.
+   - `incomplete`: an interrupted download. Rerun `fetch --yes`, which resumes.
+
 The work needs network access to library IIIF servers and search sites, and a
 model that can look at images. Do not install anything beyond the above
 without asking.
