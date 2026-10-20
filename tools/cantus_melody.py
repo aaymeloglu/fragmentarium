@@ -19,6 +19,7 @@ import urllib.request
 
 BASE = 'https://cantusindex.org'
 ENDPOINTS = ('searchmelody', 'searchmelody-con')
+PITCHES = '9abcdefghjklmnopq'
 
 
 def pitches(value):
@@ -37,6 +38,13 @@ def search_url(endpoint, notes, start=False, transpose=False, text='', genre='',
         't': pitches(notes), 'src': '', 'genre': genre, 'siglum': '',
         'text': text, 'feast': '', 'mode': mode,
         'start': int(start), 'transpose': int(transpose)})
+
+
+def pitch_placements(notes):
+    """All diatonic shifts that fit the keyboard, including the original."""
+    positions = [PITCHES.index(note) for note in pitches(notes)[2::2]]
+    return [(shift, pitches(''.join(PITCHES[pos + shift] for pos in positions)))
+            for shift in range(-min(positions), len(PITCHES) - max(positions))]
 
 
 def clean(value):
@@ -92,6 +100,8 @@ def fetch(url, cache, offline=False):
         return raw.decode('utf-8-sig'), receipt
     if offline:
         raise ValueError('Query not cached; omit --offline to search online')
+    # Pace actual network requests; cached/offline replay needs no delay.
+    time.sleep(0.5)
     with urllib.request.urlopen(urllib.request.Request(url, headers={
             'User-Agent': 'fragmentarium-research/1.0'}), timeout=120) as response:
         raw = response.read()
@@ -105,21 +115,57 @@ def fetch(url, cache, offline=False):
     return body, receipt
 
 
+def exact_search(endpoint, query, cache, start, text, genre, mode, offline):
+    url = search_url(endpoint, query, start, False, text, genre, mode)
+    try:
+        body, receipt = fetch(url, cache, offline)
+        return {**parse_results(body, endpoint), 'request': receipt}
+    except (OSError, ValueError) as error:
+        return {'status': 'unavailable', 'error': str(error), 'url': url}
+
+
+def search_placements(endpoint, placements, cache, start, text, genre, mode, offline):
+    queries, candidates = [], {}
+    for shift, query in placements:
+        response = exact_search(endpoint, query, cache, start, text, genre, mode, offline)
+        provenance = {'query': query, 'shift': shift}
+        queries.append({**provenance, **{k: v for k, v in response.items() if k != 'results'}})
+        for row in response.get('results', []):
+            # A chant can appear at several placements. Keep its record once,
+            # retaining every query that retrieved it (not a verified match).
+            key = row['result_url']
+            if key not in candidates:
+                candidates[key] = {**row, 'retrieved_by': []}
+            if provenance not in candidates[key]['retrieved_by']:
+                candidates[key]['retrieved_by'].append(provenance)
+    failures = sum(query.get('status') == 'unavailable' for query in queries)
+    return {
+        'status': 'unavailable' if failures == len(queries) else 'partial' if failures else 'ok',
+        'complete': failures == 0,
+        # Per-placement totals overlap; their sum is not a unique result count.
+        'reported_count': None,
+        'returned_count': len(candidates),
+        'truncated': any(query.get('truncated', False) for query in queries),
+        'queries': queries,
+        'results': list(candidates.values()),
+    }
+
+
 def search(notes, cache, start=False, transpose=False, text='', genre='', mode='', offline=False):
     normalized = pitches(notes)
     result = {'status': 'candidate-retrieval-only', 'input': notes,
               'query': normalized, 'settings': {'start': start, 'transpose': transpose,
               'text': text, 'genre': genre, 'mode': mode}, 'indexes': {}, 'complete': True}
+    placements = pitch_placements(normalized) if transpose else None
+    result['strategy'] = 'exact-pitch-placements' if transpose else 'exact-pitch'
     for endpoint in ENDPOINTS:
-        url = search_url(endpoint, normalized, start, transpose, text, genre, mode)
-        try:
-            body, receipt = fetch(url, cache, offline)
-            result['indexes'][endpoint] = {**parse_results(body, endpoint), 'request': receipt}
-        except (OSError, ValueError) as error:
+        if transpose:
+            index = search_placements(endpoint, placements, cache, start, text, genre, mode, offline)
+        else:
+            index = exact_search(endpoint, normalized, cache, start, text, genre, mode, offline)
+        result['indexes'][endpoint] = index
+        if index.get('status') in {'unavailable', 'partial'}:
             result['complete'] = False
-            result['indexes'][endpoint] = {'status': 'unavailable', 'error': str(error), 'url': url}
-        if not offline:
-            time.sleep(0.5)
     return result
 
 
@@ -127,7 +173,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('notes', help='continuous Volpiano pitch segment, e.g. dcd fdc fghgfgh')
     parser.add_argument('--start', action='store_true', help='match an opening; default searches anywhere')
-    parser.add_argument('--transpose', action='store_true', help='also request the server’s transposed matches')
+    parser.add_argument('--transpose', action='store_true',
+                        help='search every valid diatonic pitch placement exactly (more requests, cached)')
     parser.add_argument('--text', default='', help='optional surviving chant words')
     parser.add_argument('--genre', default='')
     parser.add_argument('--mode', default='')
@@ -146,19 +193,32 @@ def main():
         else:
             print(f"Query {result['query']} (candidate retrieval only)")
             for endpoint, index in result['indexes'].items():
-                if index.get('status') == 'unavailable':
+                if 'queries' in index:
+                    successful = sum(q.get('status') != 'unavailable' for q in index['queries'])
+                    print(f"{endpoint}: {index['returned_count']} unique candidates returned; "
+                          f"{successful}/{len(index['queries'])} exact pitch placements available")
+                    for query in index['queries']:
+                        if query.get('status') == 'unavailable':
+                            print(f"  {query['query']}: unavailable: {query['error']}")
+                        elif query['truncated']:
+                            print(f"  {query['query']}: {query['reported_count']} reported, "
+                                  f"{query['returned_count']} returned (truncated)")
+                elif index.get('status') == 'unavailable':
                     print(f"{endpoint}: unavailable: {index['error']}")
                     continue
-                print(f"{endpoint}: {index['reported_count']} reported, {index['returned_count']} returned")
+                else:
+                    print(f"{endpoint}: {index['reported_count']} reported, {index['returned_count']} returned")
                 if index['truncated']:
                     print('Server returned only part of the results; narrow the query.')
                 for row in index['results'][:args.limit]:
                     print(f"* [{row['label']}]({row['result_url']}) {row['folio']} {row['genre']} {row['mode']}: {row['incipit']}")
                     print(f"  {row['volpiano']}")
+                    if 'retrieved_by' in row:
+                        print('  Retrieved at: ' + ', '.join(q['query'] for q in row['retrieved_by']))
                 if len(index['results']) > args.limit:
                     print('Display limited; --json includes all returned rows.')
         if not result['complete']:
-            parser.exit(1, 'One or more indexes unavailable; this is not a negative result.\n')
+            parser.exit(1, 'One or more searches unavailable; this is not a negative result.\n')
     except (OSError, ValueError) as error:
         parser.exit(1, f'{error}\n')
 

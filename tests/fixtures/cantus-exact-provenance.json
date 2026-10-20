@@ -1,0 +1,29 @@
+[
+  {
+    "fixture": "cantus-exact-paratur.html",
+    "source": {
+      "url": "https://cantusindex.org/searchmelody-con?t=1-l-k-l-n-m-l-k-j-k-l-k-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+      "retrieved_at": "2026-10-20T16:24:21.201649+00:00",
+      "sha256": "ac1d8d0e8c0e0e348705976002c7d73519c3262d6a14d026a1f4035c556b13e1"
+    },
+    "transformation": "Result heading and complete table only; other page markup omitted. Line endings normalized to LF and trailing whitespace removed."
+  },
+  {
+    "fixture": "cantus-exact-kyrie.html",
+    "source": {
+      "url": "https://cantusindex.org/searchmelody-con?t=1-h-g-h-k-j-h-g-f-g-h-g-e&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+      "retrieved_at": "2026-10-20T16:24:24.060816+00:00",
+      "sha256": "4b01b94fefbb589d949040f0daf41aa5fedebf69366c9791f77c99bf728c44f7"
+    },
+    "transformation": "Result heading and complete table only; other page markup omitted. Line endings normalized to LF and trailing whitespace removed."
+  },
+  {
+    "fixture": "cantus-exact-catalogue.html",
+    "source": {
+      "url": "https://cantusindex.org/searchmelody?t=1-h-g-h-k-j-h-g-f-g-h-g-e&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+      "retrieved_at": "2026-10-20T16:24:21.935764+00:00",
+      "sha256": "ef6748c94739e5fa9221d00944fc032921606ff8d07b38c3a6076ba94dc7cb6c"
+    },
+    "transformation": "Result heading and complete table only; other page markup omitted. Line endings normalized to LF and trailing whitespace removed."
+  }
+]
