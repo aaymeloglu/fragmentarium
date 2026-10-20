@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-10-20T16:11:18.918823+00:00",
+  "fragment": "F-31tn",
+  "id": "melody-first-2026-10-20",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "dd4a94fa93f2e7580168667e581b28163df20d626d567ec46c450ebe1426a44f",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_a_frontcover_r_VIS_1_.jp2/full/3862,/0/default.jpg; canvas 0, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "c7e54b0c1418436053fcb867fcf8f8163731de792c6ef86e4c34f1b31052464b",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_y_backcover_v_VIS.jp2/full/3892,/0/default.jpg; canvas 5, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "5cd395c812482e5f3ea3f509a31bef4e80a276f4a527dde093f6144e99846d54",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_z_spine_VIS.jp2/full/3652,/0/default.jpg; canvas 6, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "1c587e8d8f0c433523eff744f31785bc66cd5fb8a375b31b27b88208245e4d1b",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_a_frontcover_r_VIS_1_.jp2/full/3862,/0/default.jpg; canvas 0, native crop (309, 309, 3167, 1854); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "1d08ccc0ceb501a887b8299d675396b63cd76be1553545f122bb3a4cd117b258",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_a_frontcover_r_VIS_1_.jp2/full/3862,/0/default.jpg; canvas 0, native crop (309, 1648, 3167, 3295); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "779fe0734a6995b172c7d3b441bef6154f933bfd56706788f3aaf15bf2b5bed7",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_a_frontcover_r_VIS_1_.jp2/full/3862,/0/default.jpg; canvas 0, native crop (309, 3089, 3167, 4840); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "1f0ed9e2b99cc82a5d0f122bd214c4f25f5ac9082ea4258ce71f8d46a8d0343c",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_y_backcover_v_VIS.jp2/full/3892,/0/default.jpg; canvas 5, native crop (701, 311, 3658, 1972); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "e84e2100177580c89cb36821da9dd39b264d8a7897c0ab5ed30acdd5d9a5da53",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_y_backcover_v_VIS.jp2/full/3892,/0/default.jpg; canvas 5, native crop (701, 1764, 3658, 3425); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "d5b9e1e053540005e8f23de5104f4906ec48e35d9034d2d4fc955f14557f1abf",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_y_backcover_v_VIS.jp2/full/3892,/0/default.jpg; canvas 5, native crop (701, 3217, 3658, 4981); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "ce65815564e05a3563e5688f2e80a6739bed615d978c63c6d9958d4b16f25dfb",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_z_spine_VIS.jp2/full/3652,/0/default.jpg; canvas 6, native crop (840, 110, 2155, 2848); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "9070a5f87ba51ed9fdfd853ca8ca0a992002a75655ad72e95b0f1577109f3b09",
+        "source": "https://fragmentarium.ms:443/loris/F-31tn/SDUB_RARAK219_vol1_frag_z_spine_VIS.jp2/full/3652,/0/default.jpg; canvas 6, native crop (840, 2628, 2155, 5366); rotation 0 degrees; autocontrast True"
+      }
+    ],
+    "prompt": "Read only the supplied images. No web, search, repository context, catalogue, or other readings. Do not infer an identity from familiarity. These are manuscript fragments on bindings; distinguish host text and labels from the fragment. First report orientation, staves, clefs, and surviving musical runs. For each usable run give the image and approximate location, then note positions as integers in diatonic staff steps relative to the first note (0), preserving adjacent repeats. Prefer 6-14 or more consecutive notes where legible; describe uncertainty and stop at a gap or hidden span. Say which marks might be custos rather than sung notes. Report visible clef shape and line if secure; do not guess absolute pitch. Give a short literal reading of any accompanying words, with uncertainty, without completing from memory. If possible record two separate passages for later comparison. If no reliable continuous run of at least four notes remains after repeated pitches collapse, explain the visible limitation. A difficult image is not automatically unreadable: inspect the actual crops. Do not write readings of an image you could not view. Finish with coverage and limitations. Save the entire response as response.txt in this packet directory. Do not modify prompt, images, or packet.json."
+  },
+  "reader": "Codex isolated image reader (inherited model; exact version not exposed)",
+  "schema_version": 1,
+  "session": "melody-20261020-read-m03",
+  "text": "Image-only first reading, packet 03\n\nOrientation and physical arrangement\nAll eleven images were successfully viewed. Images 001 and 002 show opposite broad faces of a binding, image 003 its spine. Images 004-006 are details of the first face; 007-009 details of the second; 010-011 spine details. The manuscript music is approximately horizontal as supplied. The dark square note shapes sit above bands of large, much abraded text. The spine preserves only short horizontal slices of the same kind of material. The later small cursive spine inscription is a separate binding label, not sung text.\n\nRed ruled staves survive, most clearly in 005 and 008. Four roughly equally spaced lines can be followed in the central staff of 005, though the upper two are much weaker than the lower two. Other systems are reduced to disconnected red strokes. The notation appears square. I cannot securely identify a clef or its line. Dark horizontal strokes at the extreme left of 005 could include a damaged clef, but I cannot distinguish its whole shape. No absolute pitch is assigned.\n\nMusical observations and short readings\nPositions below are diatonic staff steps relative to the first note of each separate local group, with positive numbers upward. Question marks mean that identifying the mark as a note, or its precise position, is uncertain. These are not joined across abraded spans.\n\nA. Image 005, central staff, left portion, approximately 14%-34% of image width, around 40% of image height. This is also visible in the middle of image 001.\nThe two clearest square heads at approximately 14% and 21% width lie on the same red line (second surviving line from the bottom). Additional much weaker head-like marks around 27% and 34% appear on that line too.\nLocal provisional sequence: 0, 0, 0?, 0?.\nThe first two are considerably clearer than the last two. I stop here. The following central area contains abrasion, a crease, and dark remnants whose status as further notes is uncertain. In particular, I cannot safely insert or exclude a mark near the bottom staff line around 43% width. Thus the left group must not be joined directly to the right group below. After repeated pitches collapse, this left group supplies only one pitch position.\n\nB. Image 005, same central staff, right portion, approximately 54%-79% width.\nA head at about 54% lies on the same second-from-bottom line. The next two more distinct heads, approximately 68% and 79%, lie in the space immediately below it.\nLocal reading: 0, -1, -1.\nThis three-head group is my clearest local change of pitch. The first head is less strong than the last two, but its line position is reasonably discernible. I stop at the large dark damaged area to the right; I do not extend through it. There is no securely visible line ending, so I cannot certify whether the last square is a sung note or, less likely, a terminal guide sign. Its shape alone does not identify it as a custos. Even if all three are sung, the repeat-collapsed sequence has only two pitch positions.\n\nC. Image 008, lower staff, approximately 19%-62% width, near 80%-92% height; also partly repeated at the top of image 009.\nSquare or squarish remnants are visible around 19%, 36%, and 50% width. The first two lie near the same lower red line; the third appears about one staff step above that line. However, there are intervening black traces near 23%-24% and 43% width whose relation to the notes is not secure. The tall trace at 23%-24% could contain a higher head, a stroke, or overlapping/abraded material. I cannot establish a consecutive sequence from these isolated landmarks. In particular, writing simply 0, 0, +1 would conceal possible intervening notes, so I do not offer it as a melodic run.\n\nD. Image 008, upper staff, approximately 30%-56% width.\nSeveral heads or head remnants remain, including a strong mark around 32% width on or just above a red line and a square around 50% width roughly a space higher. Between them, faint marks cannot be enumerated reliably. The strong left mark is somewhat blotted and its center cannot safely be assigned to line versus space. No continuous run is transcribed.\n\nE. Image 011, upper-middle spine, approximately 30%-70% width, 23%-32% height.\nThree blurred square-like heads appear to rise from left to right. Their centers suggest a rising contour, but surviving staff lines are inadequate to measure the staff-step sizes securely. I do not turn their pixel heights into a numbered melody. The spine curvature and blur matter here. This short slice cannot yield four non-repeated consecutive notes.\n\nCustodes\nNo mark can be positively identified as a custos. Right boundaries of the musical systems are either worn away, obscured, or outside the readable span. I have not counted stray edge strokes as sung notes and have not used a possible custos to extend a run.\n\nLiteral text\nI cannot read a complete accompanying manuscript word securely enough to quote it. The broad Gothic-looking text bands in 004-006 contain recognizable individual strokes, but abrasion prevents reliable word segmentation and letter sequences. I have not completed any word from a remembered chant.\n\nThe separate later cursive spine label in 010 (also 003) has a comparatively clear \"Norske\" followed by \"Ko[...]\" or similar; the next line includes \"[...]ges Kron[...]\" (uncertain). A lower numeral looks like \"15?4\". These belong to the binding label and should not be treated as the fragment's textual identity. The other modern photographic markings are not manuscript text.\n\nCoverage and limitations\nViewed images 001 through 011, and inspected 005 and 008 again at original detail. In 004 the upper face retains rows of note-like marks but too little continuous ruling and too many indistinct marks for a trustworthy consecutive transcription. Image 006 is more heavily worn, with only isolated signs. Image 007 shows red ruling more readily than noteheads; its short dark remnants do not make a reliable run. Image 009 gives the continuation of the lower area of 008, followed by largely worn text and staining; it adds no secure continuous melody. Image 010 is useful mainly for distinguishing the later label from the fragment. Images 001-003 give the physical context but do not remove the ambiguities in their details.\n\nThere is no reliable continuous run of at least four notes after adjacent repeated pitches collapse in this reading. The best preserved group is the short 0, -1, -1 in 005. The other reasonably traceable group consists mainly of repeated positions, and the longer possible spans have unresolved intervening marks. The limitation is continuity and identification of faint heads, not a complete absence of visible notation. Two local passages are recorded separately above for possible future comparison; neither is a sufficiently long fingerprint for an identification claim.\n",
+  "text_sha256": "36780b232f600c81ebd78b85b55f84a1916c215d5e85654f6d49f4e10c7621a5"
+}

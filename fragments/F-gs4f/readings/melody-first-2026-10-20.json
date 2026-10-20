@@ -1,0 +1,72 @@
+{
+  "captured_at": "2026-10-20T16:11:18.921570+00:00",
+  "fragment": "F-gs4f",
+  "id": "melody-first-2026-10-20",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "24a2cddcb8c6ebcc890fcecfa3aab604be5ed9690e8765ff1234f92671ff08ec",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_vorne_Ecke_1_Ecke_2.jp2/full/4085,/0/default.jpg; canvas 0, full image reduced overview; rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "d271af2247d6b883b46f46673da416972fa55ff165e9e674152adb483e727781",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_hinten_Ecke_3_Ecke_4.jp2/full/4064,/0/default.jpg; canvas 2, full image reduced overview; rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "80ffa4e53a28d2a7aee7eb5cc7c861b57d7b279ed41c2c1c1e9e3529692559a1",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_Ruecken.jp2/full/4144,/0/default.jpg; canvas 1, native crop (0, 0, 1575, 411); rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "27ba8621e3ff608035005ab39eeb3c380f3b309fe011b24f3b44b13eb2e47d6c",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_Ruecken.jp2/full/4144,/0/default.jpg; canvas 1, native crop (1326, 0, 2901, 411); rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "68bba0a108d44a32e0cdeb8892af9388e82cd19ca60890852a9e0fef2f73e0d4",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_Ruecken.jp2/full/4144,/0/default.jpg; canvas 1, native crop (2652, 0, 4144, 411); rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "2ae8d9b700f059e428e915250311c0de6992761ba397cd6c4348d9b6d690b70d",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_vorne_Ecke_1_Ecke_2.jp2/full/4085,/0/default.jpg; canvas 0, native crop (0, 0, 4085, 402); rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "9bd749f5278764fe85b849c425857777357b4a4751284007b87c0154e9f5ba66",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_vorne_Ecke_1_Ecke_2.jp2/full/4085,/0/default.jpg; canvas 0, native crop (0, 2222, 735, 2677); rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "05ba36809148e43910529287bed6f17280346ae33a9fd152cdc96c011f770b0c",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_vorne_Ecke_1_Ecke_2.jp2/full/4085,/0/default.jpg; canvas 0, native crop (3391, 2222, 4085, 2677); rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "1e9eed8e6fe323e0347488f971373aa191e212bebb4be5fd9429e24533c72388",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_hinten_Ecke_3_Ecke_4.jp2/full/4064,/0/default.jpg; canvas 2, native crop (0, 0, 732, 589); rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "40031f439b72893f682723bf24207ada19129bee57da7a169a9f618bc3ece072",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_hinten_Ecke_3_Ecke_4.jp2/full/4064,/0/default.jpg; canvas 2, native crop (3170, 0, 4064, 642); rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "5706ae21e87357c557feed29b176e0dd35eca274098c807dca6a0922245f65a1",
+        "source": "https://fragmentarium.ms:443/loris/F-gs4f/B_495_Bue_77_hinten_Ecke_3_Ecke_4.jp2/full/4064,/0/default.jpg; canvas 2, native crop (0, 2275, 4064, 2676); rotation 90 degrees; autocontrast False"
+      }
+    ],
+    "prompt": "Read only the supplied images. No web, search, repository context, catalogue, or other readings. Do not infer an identity from familiarity. These are manuscript fragments on bindings; distinguish host text and labels from the fragment. First report orientation, staves, clefs, and surviving musical runs. For each usable run give the image and approximate location, then note positions as integers in diatonic staff steps relative to the first note (0), preserving adjacent repeats. Prefer 6-14 or more consecutive notes where legible; describe uncertainty and stop at a gap or hidden span. Say which marks might be custos rather than sung notes. Report visible clef shape and line if secure; do not guess absolute pitch. Give a short literal reading of any accompanying words, with uncertainty, without completing from memory. If possible record two separate passages for later comparison. If no reliable continuous run of at least four notes remains after repeated pitches collapse, explain the visible limitation. A difficult image is not automatically unreadable: inspect the actual crops. Do not write readings of an image you could not view. Finish with coverage and limitations. Save the entire response as response.txt in this packet directory. Do not modify prompt, images, or packet.json."
+  },
+  "reader": "Codex isolated image reader (inherited model; exact version not exposed)",
+  "schema_version": 1,
+  "session": "melody-20261020-read-m04",
+  "text": "Image-only reading of packet 04\n\nOrientation and material\nI viewed all eleven images, including the full-size versions of images 006 and 011. Images 001 and 002 show binding boards; images 003–005 show narrow curved strips; images 006 and 011 enlarge the exposed long board margins; images 007–010 enlarge corners. The manuscript has horizontal red ruling, generally five lines per staff where a complete staff is exposed, with black angular/diamond-shaped music notation and black Gothic lettering. I read the exposed runs left to right in the supplied image orientation. The great majority of the original horizontal extent is covered by the binding paper or cut off. Separate exposed rows must not be concatenated.\n\nThe large paper title label in image 001 belongs to the later host binding, not to the musical fragment. Its writing is not evidence for the musical text. I cannot securely identify a musical clef and its line in these exposures. No absolute pitch is assigned.\n\nRelative-note convention\nIntegers below are diatonic staff steps relative to the first selected note, with higher positions positive. A line-to-adjacent-space movement is one step. The connected angular figures need some interpretive caution: a tall stroke is not itself an extra note. Repeats have been retained when two successive noteheads appear at the same level.\n\nPassage A: image 011, topmost exposed musical row, about 21–24% down the image\nThis is the strongest longer exposed run. Beginning at the first fully visible diamond near the left paper boundary and continuing to the right edge, my reading is:\n\n    0, -1, -2, -2, -4, -3, -4\n\nSuccessive differences:\n\n    -1, -1, 0, -2, +1, -1\n\nThe first three heads descend by steps. The following connected U-like figure appears to begin with a diamond at the same height as the preceding note and end two steps below it. I read its left upper diamond and right lower terminal as its two sounding heads, rather than treating the entire bottom connecting stroke as two repeated notes. This interpretation is important to the reading. The final two diamonds rise one step and fall one step. The last diamond is faded and very close to the physical edge. It could be a terminal guide/custos rather than a sung note; excluding it gives the six-note sequence 0, -1, -2, -2, -4, -3. There may also be a clipped preceding mark under the paper on the left, which I have not included.\n\nThe lettering immediately below can provisionally be rendered “…m · de…”; the first letter could instead be part of a longer minim group. These are literal visible fragments, not a completed phrase.\n\nPassage B: image 006, row about 79–81% down the image\nThis is the exposed row with an ascending connected figure at the left, followed by a higher diamond and three descending heads ending in a stemmed terminal near the right paper boundary. Tentative six-note reading:\n\n    0, +1, +2, +1, 0, -1\n\nSuccessive differences:\n\n    +1, +1, -1, -1, -1\n\nThe right-hand four-note portion is clearer than the initial connected figure. Independently normalized, those four heads read:\n\n    0, -1, -2, -3\n\nThe two-head interpretation of the initial connected figure is less certain, but its lower left head and higher right head appear separated by one staff step. The following diamond is one step above that upper head. I would retain the full six-note version as a provisional reading, and the last four-note descent as the firmer extract. The terminal has a pronounced ascending stem and a low head; I do not count the upper end of its stem as another note. It is close to covered material, but is not a securely identified custos.\n\nThe text above and below this particular run is too fragmentary for a reliable word. A minim group below resembles “…m…”. I do not complete it.\n\nPassage C: image 011, row about 78–81% down the image\nThree successive diamonds followed by a stemmed terminal form an especially clear short descent:\n\n    0, -1, -2, -3\n\nThis is a separate exposed row from passage A. Its left and right continuations are unavailable. The final stemmed sign looks like a sounding terminal note, although the original line ending is not available to settle custos status. This short contour is similar to the firmer four-note portion of passage B; the similarity alone does not establish that the photographs show the same passage.\n\nAdditional short exposures\nImage 011 also shows an ascending group around 56–58% down. Its approximate four-head reading is 0, +1, +2, +3, but the connected first two heads are less secure than the separate descending heads in passage C. I would not use this as a primary comparison string without a second inspection of the compound sign.\n\nImage 010 has two isolated diamond heads and a connected figure in the exposed corner staff. The first two are approximately level. The compound figure and its continuation are too close to the paper boundary for me to give a confident extended string. The top line of lettering reads approximately “…uel m…”; the lower text is only “…c a…” or similarly shaped partial letters. No phrase is completed from these fragments.\n\nImage-by-image coverage and limits\n001: Overall board view; the musical manuscript is exposed mainly as a narrow left strip and small right corners. Its central paper label is later host material. The usable left strip is enlarged in 006.\n002: Overall opposite board view; exposed right strip and corners, much of the rest covered. The right strip is enlarged in 011.\n003: Curved narrow strip, several red staff sections and only one or two complete noteheads per local horizontal exposure. Strong curvature and lateral cropping prevent a longer continuous reading.\n004: Another narrow curved strip with isolated diamonds and short compound signs; no confident independent four-note contour recovered.\n005: Mostly blank/covered strip with two short musical exposures toward the bottom; their lateral continuation is missing.\n006: Viewed at full size; source of passage B. Other rows are discontinuous or have only a few exposed heads. The near-bottom red vertical stroke belongs to a large written/red ornamental feature and is not counted as a note.\n007: Corner crop with several faded signs among red lines; insufficient intact connected extent for a reliable longer run.\n008: Corner crop with a couple of faded angular signs and partial red lettering; no confident continuous run.\n009: Corner with a large red initial and only a few musical signs to its left; no extended run. I cannot securely read a complete accompanying word.\n010: Corner crop with readable partial lettering and a short music exposure, as described above.\n011: Viewed at full size; source of passage A and the clearer short passage C. Several other rows contain two or three heads, and some notes are faded at the fore-edge.\n\nThe packet does preserve usable relative contours. The seven-head passage A is strongest, subject to the stated interpretation of its connected figure and possible terminal custos. Passage B provides a provisional six-head run with a firmer four-head descending suffix. I have not supplied identities, absolute pitches, reconstructed hidden notes, or completed text.\n",
+  "text_sha256": "35673b2e0f140d1d5b0e659ee24007000a7838e8313700047d50ef943da104c9"
+}
