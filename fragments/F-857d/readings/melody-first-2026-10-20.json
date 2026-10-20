@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-10-20T16:14:57.868919+00:00",
+  "fragment": "F-857d",
+  "id": "melody-first-2026-10-20",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "aa7d995fa8ed429c601402ba8986f3f3c562db91ae8b4eef8970554d89f22bb7",
+        "source": "https://fragmentarium.ms:443/loris/F-857d/B_555_Bd_125.jp2/full/2629,/0/default.jpg; canvas 0, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "99a49b4a90c8d2856dd4da84c97918524406456529199c7d0232e4c18e27d1d3",
+        "source": "https://fragmentarium.ms:443/loris/F-857d/B_555_Bd_125.jp2/full/2629,/0/default.jpg; canvas 0, native crop (2156, 42, 2603, 1626); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "2847d11871d396996d21e7d8a90921f2c183037a56ff1f1fb1cfd43dc875c323",
+        "source": "https://fragmentarium.ms:443/loris/F-857d/B_555_Bd_125.jp2/full/2629,/0/default.jpg; canvas 0, native crop (2156, 1417, 2603, 2960); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "73b56ca15e57ebda06bf98e096386a859eb7096ec712229dd7c49c382fa4461b",
+        "source": "https://fragmentarium.ms:443/loris/F-857d/B_555_Bd_125.jp2/full/2629,/0/default.jpg; canvas 0, native crop (2156, 2752, 2603, 4127); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "c0507c1691aac8025a8b9d2b273bd4c76713528398973921722946d2f9e148a8",
+        "source": "https://fragmentarium.ms:443/loris/F-857d/B_555_Bd_125.jp2/full/2629,/0/default.jpg; canvas 0, native crop (26, 42, 447, 750); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "3898a9f8fdafb330770baf49a01ea168b8db5605c96b084c557e0a36ecc0af7a",
+        "source": "https://fragmentarium.ms:443/loris/F-857d/B_555_Bd_125.jp2/full/2629,/0/default.jpg; canvas 0, native crop (26, 3377, 447, 4127); rotation 0 degrees; autocontrast True"
+      }
+    ],
+    "prompt": "Read only the supplied images. No web, search, repository context, catalogue, or other readings. Do not infer an identity from familiarity. These are manuscript fragments on bindings; distinguish host text and labels from the fragment. First report orientation, staves, clefs, and surviving musical runs. For each usable run give the image and approximate location, then note positions as integers in diatonic staff steps relative to the first note (0), preserving adjacent repeats. Prefer 6-14 or more consecutive notes where legible; describe uncertainty and stop at a gap or hidden span. Say which marks might be custos rather than sung notes. Report visible clef shape and line if secure; do not guess absolute pitch. Give a short literal reading of any accompanying words, with uncertainty, without completing from memory. If possible record two separate passages for later comparison. If no reliable continuous run of at least four notes remains after repeated pitches collapse, explain the visible limitation. A difficult image is not automatically unreadable: inspect the actual crops. Do not write readings of an image you could not view. Finish with coverage and limitations. Save the entire response as response.txt in this packet directory. Do not modify prompt, images, or packet.json."
+  },
+  "reader": "Codex isolated image reader (inherited model; exact version not exposed)",
+  "schema_version": 1,
+  "session": "melody-20261020-read-m12",
+  "text": "Orientation and material\nAll six supplied images were viewed. Image-001 is an upright overall view of a marbled binding. A narrow strip of reused musical manuscript is exposed along its right edge. Images 002–004 enlarge successive portions of that strip; image-003 and image-004 overlap at the most visible note group. Images 005–006 show marbled corners, with no readable music. The marbling belongs to the binding surface and is not manuscript notation. I see no independently readable host-text title or label in these images.\n\nStaves and clefs\nThe music reads horizontally from left to right in the supplied orientation. The manuscript strip crosses the curved edge of the binding, so the horizontal rulings rise or bend at the right. The discernible systems appear to have four lines, alternating stronger red and finer dark rulings. Most of each musical line is hidden beneath the marbled covering at the left, and the available width is only a few noteheads. Several systems survive vertically, but they cannot be concatenated into a melody across their hidden spans. I cannot identify a secure C- or F-clef or assign a clef line. The tall dark marks in some systems have notehead-and-stem appearances; they are not sufficient evidence of clefs. No absolute pitches are assigned.\n\nPassage A: image-004, uppermost staff, approximately x 160–245, y 100–205; also image-003 at the bottom\nThe clearest consecutive group is an ascending three-note group. Relative diatonic staff positions, with the first head as zero:\n0, +1, +2\nThe first diamond is centered near x 173, y 191 on the lower of the two red lines. The next dark head is near x 201, y 154 in the space above. The last clear head is near x 234, y 114 on the dark line above that. Its descending dark stroke is a stem, not an additional lower note.\nThere is also a dark, damaged mark near x 229, y 191, around the first note's height. It could be another note, but its status and reading order relative to the upper head are not secure. If it is a subsequent head, the provisional extension would be [0]; I do not count this as an established fourth note.\nFarther right are pale diamond-like traces near x 284, y 149 and x 351, y 138. After allowing for the curving staff, both appear approximately at relative +1, rather than forming an upward step. A possible, explicitly uncertain extension is therefore [0?], [+1?], [+1?]. I cannot guarantee that these are all successive sung notes, so the reliable transcription stops after the third note. The faint far-right diamond could also be a custos at the end of a line, although no terminal boundary proves that. It should not be accepted automatically as a sung note.\nLiteral accompanying text: beneath this system, roughly x 150–340, y 350–425, I can make out something like “…um…”; the adjacent letters are too faded or hidden for a word. I do not complete it.\n\nPassage B: image-004, next staff, approximately x 190–345, y 435–585\nA pale diamond centered around x 202, y 564 is followed to the right by a darker tall head/stroke near x 334, y 460–490. The latter is higher, but the notehead's center is unclear because it merges with a long stroke and the staff curves. Relative positions are approximately:\n0, [+2 or +3?]\nThis is only a two-mark observation, not a useful continuous melody. There may be a further fragmentary mark at the left covering edge near the bottom staff line; its temporal relation is unknown, and I exclude it. The right-hand tall mark might be an endpoint sign rather than a sung note. No additional notes can be safely supplied.\nLiteral text below: isolated blackletter strokes survive, but no whole word is secure.\n\nOther exposed systems\nImage-002 contains isolated note-like marks on successive staves, with most of their preceding material hidden under the marbling. Near x 185, y 690 there is a clear dark diamond, but the next surviving musical material belongs to another staff; these are not consecutive notes. Text near x 175–265, y 385–455 may read “…ta…” and near y 850–910 contains two minim-like letters, possibly “…m…”. Neither yields a secure word.\nImage-003's top system has a tall dark note/stroke close to the marbling edge, and a very faint mark to the right. Their distinction from endpoint signs is insecure. Underneath, at about x 155–255, y 350–425, the literal letters look like “ci” or “ei”. The next text remnant, around y 795–875, looks like “…la…” with the following letter uncertain. The following staff preserves one pale vertical musical mark near x 265, y 1090–1170. These systems do not supply continuous runs.\nThe bottom of image-004 has an additional nearly empty exposed staff and a red flourish below it. The flourish is not readable text or a melodic note sequence.\n\nCoverage and limitations\nInspected image-001, image-002, image-003, image-004, image-005, and image-006. Images 002–004 are detail views of the exposed strip in image-001, not independent musical witnesses. The best secure run has only three ascending positions, 0, +1, +2. No reliable continuous run of at least four notes remains, even before collapsing adjacent repeats. A longer provisional reading of the upper group is possible only by accepting damaged marks of uncertain note status and order; I have separated those uncertainties above rather than presenting them as a dependable melody. The principal limitations are concealment by marbled paper, the extremely narrow surviving width, fading, and curvature. No identity is inferred.\n",
+  "text_sha256": "611e72a5aa78f03860edaf06ec59873d85a9d944acaf5624d9e1b8bf344ef453"
+}

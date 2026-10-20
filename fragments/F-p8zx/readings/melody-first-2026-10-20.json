@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-10-20T16:14:57.867048+00:00",
+  "fragment": "F-p8zx",
+  "id": "melody-first-2026-10-20",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "da94c9b8f5df3c0bc1d462723ec50a3816ab3deb067e588bd7351b67a46ef85c",
+        "source": "https://fragmentarium.ms:443/loris/F-p8zx/B_555_Bd_93.jp2/full/4089,/0/default.jpg; canvas 0, full image reduced overview; rotation 90 degrees; autocontrast False"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "1cebd475b77c348df7e523b56daa8edada28d8ed9e911f7d6bb8bbd8b33c65d2",
+        "source": "https://fragmentarium.ms:443/loris/F-p8zx/B_555_Bd_93.jp2/full/4089,/0/default.jpg; canvas 0, native crop (0, 188, 1472, 580); rotation 90 degrees; autocontrast True"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "45176c135d799e72f5421303a01ff48f8e255b40c72fd45503a8b73069afc712",
+        "source": "https://fragmentarium.ms:443/loris/F-p8zx/B_555_Bd_93.jp2/full/4089,/0/default.jpg; canvas 0, native crop (1268, 188, 2781, 580); rotation 90 degrees; autocontrast True"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "cb69f872fc05bc4454b68810329591d79c0566059618ae16a7548e8bfa97db88",
+        "source": "https://fragmentarium.ms:443/loris/F-p8zx/B_555_Bd_93.jp2/full/4089,/0/default.jpg; canvas 0, native crop (2576, 188, 4089, 580); rotation 90 degrees; autocontrast True"
+      }
+    ],
+    "prompt": "Read only the supplied images. No web, search, repository context, catalogue, or other readings. Do not infer an identity from familiarity. These are manuscript fragments on bindings; distinguish host text and labels from the fragment. First report orientation, staves, clefs, and surviving musical runs. For each usable run give the image and approximate location, then note positions as integers in diatonic staff steps relative to the first note (0), preserving adjacent repeats. Prefer 6-14 or more consecutive notes where legible; describe uncertainty and stop at a gap or hidden span. Say which marks might be custos rather than sung notes. Report visible clef shape and line if secure; do not guess absolute pitch. Give a short literal reading of any accompanying words, with uncertainty, without completing from memory. If possible record two separate passages for later comparison. If no reliable continuous run of at least four notes remains after repeated pitches collapse, explain the visible limitation. A difficult image is not automatically unreadable: inspect the actual crops. Do not write readings of an image you could not view. Finish with coverage and limitations. Save the entire response as response.txt in this packet directory. Do not modify prompt, images, or packet.json."
+  },
+  "reader": "Codex isolated image reader (inherited model; exact version not exposed)",
+  "schema_version": 1,
+  "session": "melody-20261020-read-m11",
+  "text": "Image-only reading\n\nOrientation, ruling, and notation\nThe four images show a very narrow manuscript strip laid lengthwise on a binding, with decorated covering material on either side. Image-001 is the overview; images-002 through -004 give closer views of portions of that strip. The surviving ruled lines cross the strip approximately horizontally in the supplied orientation. The musical reading direction would therefore cross the narrow strip, rather than run along its long axis. The fragment has severe central abrasion/discoloration, curvature, and cut lateral boundaries.\n\nThere are repeated groups of faint gray/brown ruling with a conspicuous red line. In image-003, especially the groups near the top and around y=425–650, these look consistent with four-line staves, although some lines fade into the worn center. The large dark strokes between ruled groups are probably textual letter fragments. I cannot securely identify a clef or its staff line. No absolute pitch is assigned.\n\nSurviving musical material\n1. Image-003, approximately x=45–285, y=425–650: a red line crosses near y=490, with paler ruling above and below. Dark marks survive close to both lateral edges, including a relatively strong angular mark at the right near the red line and a smaller left-edge mark slightly above it. The intervening strip is too worn to establish a continuous note sequence. I cannot tell whether these edge marks belong to successive notes, separated notes with missing intervening notation, or partly clipped other signs. No defensible relative-pitch integer series can be given.\n\n2. Image-003, approximately x=45–285, y=810–1050: another ruled group includes a red line near y=890, a dark left-edge remnant near that line, and a strong narrow dark mark at the right lower in the group. The central traces do not resolve into separate noteheads with recoverable positions. I stop at the worn span; joining the edge marks would manufacture continuity. Again there is no reliable relative-pitch series.\n\n3. Image-002, approximately y=340–490: a small dark remnant at the left and an angular right-edge mark survive above the red ruling near y=475. Image-004, in its lower portion around y=1000–1450, likewise preserves edge marks and ruling but not an uninterrupted chain of identifiable noteheads. These are additional visible remnants, not usable musical runs.\n\nPossible custos\nSome of the angular right-edge signs, particularly in image-003 near y=490 and image-002 near y=390, might be clipped notation or a custos. Their shape and original relation to the end of a staff are not secure: the present physical strip edge need not be the original staff end. I have not counted any as a sung note.\n\nLiteral text\nNo complete accompanying word is securely legible. Image-003 has an isolated right-side glyph around y=1100 resembling “g” or an open, two-compartment letter; this is a tentative letter-shape observation only. Other dark vertical and rounded strokes cannot be transcribed confidently. The large dark marks on the decorative covering in image-001 are binding/cover markings, not an identified lyric from the manuscript fragment. I do not complete any word from memory.\n\nCoverage and limitations\nI viewed all four supplied images individually. Image-003 offers the clearest ruling and several surviving dark signs; image-002 and image-004 corroborate the narrowness and extensive loss, while image-001 establishes the binding context. None provides a reliable continuous run with at least four notes remaining after adjacent repeats are collapsed. The limitation is not merely small scale: only a narrow horizontal portion of each staff survives, and its central area has lost the distinction between noteheads, text, and abrasion. Supplying a 6–14-note sequence, or even a secure four-note sequence, would require guessing across gaps.\n",
+  "text_sha256": "7d8c3bcd55ef99020e7efef5b9460ce2a6fe449edc3695034a79486f653fe672"
+}

@@ -1,0 +1,77 @@
+{
+  "captured_at": "2026-10-20T16:14:57.861737+00:00",
+  "fragment": "F-lbfy",
+  "id": "melody-first-2026-10-20",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "8d293823e270626b4b6cf5defebdabda35cdbb85d3b3f5a49e23614d31b85502",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_l.jp2/full/2634,/0/default.jpg; canvas 0, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "91e074ea99f9784f8625903d135a7b65a27134f32cac515a9bd60acd5d2304aa",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_r.jp2/full/2596,/0/default.jpg; canvas 1, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "c54ca22714b9ade8be58c7a2c6d17babea3133a450fc072643973976fe871730",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_l.jp2/full/2634,/0/default.jpg; canvas 0, native crop (26, 42, 448, 1637); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "5e738024d6da3481271d65d17269aed1309de30aec7962d4a7e449777139729d",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_l.jp2/full/2634,/0/default.jpg; canvas 0, native crop (26, 1427, 448, 2980); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "210a53dd5dea6625e6d06d3c18c0105cc9676d603bde4f33830aee56e13509f8",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_l.jp2/full/2634,/0/default.jpg; canvas 0, native crop (26, 2770, 448, 4155); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "59c1e88998ccc101f9d7e2fe1bbfa6fd70307132c8f85f604eb42a17c3cf3fce",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_r.jp2/full/2596,/0/default.jpg; canvas 1, native crop (78, 42, 441, 1637); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "cf8fdccac79bffc51c68b60ae41850ce47a42db7dfef395612469c1b7f660064",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_r.jp2/full/2596,/0/default.jpg; canvas 1, native crop (78, 1427, 441, 2980); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "d003697b4c82be0245f4155c386cb0f622296067deea643e61e0a262e3f387a9",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_r.jp2/full/2596,/0/default.jpg; canvas 1, native crop (78, 2770, 441, 4155); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "00322f291b44489918ea2e51dad33bb466073725005ce180b0b59db44dd808cf",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_l.jp2/full/2634,/0/default.jpg; canvas 0, native crop (1896, 42, 2608, 797); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "a32f1000067bf9e5dff35b157e23b2b8a7b90863eed0d8a6f835cf3f7488afc9",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_l.jp2/full/2634,/0/default.jpg; canvas 0, native crop (1896, 3400, 2608, 4155); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "78bcac765aec22ca68a5b5e5875d6cf0607fcd7e66caa7c760bce6c4fc383f57",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_r.jp2/full/2596,/0/default.jpg; canvas 1, native crop (1869, 42, 2570, 797); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "e26cfd7cb1f45f7151a15bc90e6538a7facb3e37bf67ff8ded1672aa587efe20",
+        "source": "https://fragmentarium.ms:443/loris/F-lbfy/B_555_Bd_438_r.jp2/full/2596,/0/default.jpg; canvas 1, native crop (1869, 3400, 2570, 4155); rotation 0 degrees; autocontrast True"
+      }
+    ],
+    "prompt": "Read only the supplied images. No web, search, repository context, catalogue, or other readings. Do not infer an identity from familiarity. These are manuscript fragments on bindings; distinguish host text and labels from the fragment. First report orientation, staves, clefs, and surviving musical runs. For each usable run give the image and approximate location, then note positions as integers in diatonic staff steps relative to the first note (0), preserving adjacent repeats. Prefer 6-14 or more consecutive notes where legible; describe uncertainty and stop at a gap or hidden span. Say which marks might be custos rather than sung notes. Report visible clef shape and line if secure; do not guess absolute pitch. Give a short literal reading of any accompanying words, with uncertainty, without completing from memory. If possible record two separate passages for later comparison. If no reliable continuous run of at least four notes remains after repeated pitches collapse, explain the visible limitation. A difficult image is not automatically unreadable: inspect the actual crops. Do not write readings of an image you could not view. Finish with coverage and limitations. Save the entire response as response.txt in this packet directory. Do not modify prompt, images, or packet.json."
+  },
+  "reader": "Codex isolated image reader (inherited model; exact version not exposed)",
+  "schema_version": 1,
+  "session": "melody-20261020-read-m08",
+  "text": "Image-only reading of packet 08\n\nOrientation, staves, and survival\n\nI viewed all twelve supplied images. Image-001 is an upright bound-volume cover. The music fragment is the very narrow exposed parchment strip along its left edge, not the large central paper label or the marbled covering. Images-003, -004, and -005 enlarge successive parts of that strip. The ruling runs approximately horizontally in the supplied orientation, with slight distortion around the binding. The fragment appears to carry horizontal musical systems alternating with text. Four-line systems are particularly apparent in image-005; some lines are red and others faint brown. Dark diamond-shaped noteheads and elongated or joined forms survive. Musical/text orientation is less certain than the orientation of the later cover label; the tiny text remnants do not justify an independent confident orientation diagnosis.\n\nMost of every musical line disappears beneath the marbled paper at the right; the left edge also curves out of view. Moving down this narrow strip moves between different systems, not through one continuous melody. These vertically separated notes must not be concatenated.\n\nNo clef shape and line are securely identifiable. Some angular or hooked black forms in image-003, middle, and image-004, lower portion, could be parts of compound musical signs, but I cannot confidently classify them as clefs, nor separate all their noteheads. I give no absolute pitches.\n\nSurviving musical groups\n\n1. Image-003, upper part, approximately x=75–190, y=260–350: a small diamond at the left and a taller dark form at the right. The taller form has a substantial vertical extent and might contain more than one pitch-bearing component. I cannot securely turn this into a consecutive interval sequence; counting it as a single diamond would hide that uncertainty.\n\n2. Image-003, middle, approximately x=70–235, y=675–820: a small left-hand diamond, another clearly higher diamond farther right, and an angular hooked form farther right again. For the two separated diamonds alone, a tentative reading is [0, +2] diatonic staff steps, assuming the supplied orientation is upright. The higher diamond lies roughly one full staff-line interval above the first. The complicated right-hand sign cannot be reliably segmented or ordered into notes, so I stop there. This is not a reliable four-note run.\n\n3. Image-003, near bottom, approximately x=75–215, y=1340–1390: two separated diamond-like marks occupy approximately the same staff position. Tentative short group: [0, 0]. Curvature and wear affect the left mark; the right mark is clearer. The continuation to the right is covered. The red vertical-looking stroke below the right mark is not counted as an additional note.\n\n4. Image-004, around its middle, approximately y=770: a weak dark mark near the curved left edge and a much clearer diamond at x≈220 appear level with the same line. Conditional short group: [0, 0], only if the weak left mark is indeed a note. This is a separate system from the preceding group. Nothing continuous beyond the right diamond is exposed.\n\n5. Image-004, lower portion, approximately y=1230–1350: a left diamond and a diamond inside or beside a large angular form. The two isolated diamond centers appear roughly level, but the adjoining thick form may itself carry additional musical information. I do not assert that those two diamonds are consecutive, and do not supply a misleading two-note reduction.\n\n6. Image-005 shows isolated diamonds in successive systems, near y=415, y=815, and y=1270. These cannot be linked into one melody. The first two stand against especially useful visible ruling, but the covered horizontal continuation prevents interval extraction.\n\nCustodes: no mark is securely identifiable as a custos. The exposed strip's right boundary is an occluding paper edge rather than a demonstrated original line ending; proximity to it does not establish that a diamond is a custos. The ambiguous angular forms above could be non-note signs or parts of neumes. I exclude them from reliable note counts.\n\nLiteral text\n\nFragment text is restricted to clipped letters or syllable remnants. In image-005, the lower text remnant resembles “su…” or “si…”; the second character is uncertain. I cannot confidently recover an accompanying word. Image-003 and image-004 show further Gothic minims and rounded/angular letter portions, but I do not have a secure literal word reading and do not complete them.\n\nThe later central cover label in image-001 includes clearly separate administrative writing: “Rechnung”, “von”, and “Martini 1729. bis Mar- / tini 1730.” The opening resembles “Statthalterey” and the place-name is less secure. These are host-cover label words, not chant text. The blue circled “438” beside the strip is also a later mark, not part of the music.\n\nCoverage and limitations\n\nImages-002 and -006 through -008 show the other broad cover/edge and mostly blank worn parchment or marbling, with no usable musical run. Images-009 through -012 show corners and edges dominated by marbled paper. Image-012 has clipped black letterlike marks along the lower right edge, but no staff-plus-notes passage I can read. None of those images yields an additional melody.\n\nAll twelve images were successfully viewed, including the actual close crops. The limiting factor is narrow physical exposure and covered continuation, not simply small display size. There is no reliable continuous run of four notes after repeated pitches collapse, and no pair of substantial passages suitable for melodic comparison. The short conditional groups above are observations of surviving marks, not reconstructed melodies. No identity is inferred.\n",
+  "text_sha256": "ab4897db1715269bd9268b6c1942ab76c9376b8e8355628b43cdc2a4a07d3b7f"
+}

@@ -1,0 +1,1289 @@
+{
+  "examined": "2026-10-20",
+  "scope": "Candidate retrieval only; no identification. Counts are server-reported; see companion audit.",
+  "queries": [
+    {
+      "input": "kjhg",
+      "query": "1-k-j-h-g",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-50ro-runA",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 325,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-k-j-h-g&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:11:55.896773+00:00",
+            "sha256": "851a7e871ac80c024046a6b5eb6944de79ce3a1d21014a1c72909e28105025d9"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 13184,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-k-j-h-g&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:11:58.545351+00:00",
+            "sha256": "5980d9a64adb201bdf32ec445469e9e0b29cf3902a1b19ff14f91289411020d8"
+          }
+        }
+      }
+    },
+    {
+      "input": "gfjh",
+      "query": "1-g-f-j-h",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "facie",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-5qb0-runA-alternative-corrected",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-g-f-j-h&src=&genre=&siglum=&text=facie&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:20:59.435330+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 38,
+          "returned_count": 38,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-g-f-j-h&src=&genre=&siglum=&text=facie&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:21:01.892446+00:00",
+            "sha256": "c934a67667c76c4edc70bddba02640082d6761e8ff9fcb93b5d193b338beaf46"
+          }
+        }
+      }
+    },
+    {
+      "input": "gfhj",
+      "query": "1-g-f-h-j",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "facie",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-5qb0-runA-alternative",
+      "basis": "INVALID transcription-to-query mapping; superseded by alternative-corrected",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 1,
+          "returned_count": 1,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-g-f-h-j&src=&genre=&siglum=&text=facie&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:16:28.950502+00:00",
+            "sha256": "42a6eb340839ae4dbca6f30544e73dfcb3246ad6487497aea8a11b077ea63d16"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 79,
+          "returned_count": 79,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-g-f-h-j&src=&genre=&siglum=&text=facie&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:16:31.578245+00:00",
+            "sha256": "144341f5545af1b18425ca086b1b4101cfbb153d5384c1570c257a5fa390f24a"
+          }
+        }
+      }
+    },
+    {
+      "input": "ghjk",
+      "query": "1-g-h-j-k",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "a facie",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-5qb0-runA-rising-opening-text",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-g-h-j-k&src=&genre=&siglum=&text=a+facie&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:23:54.084631+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 55,
+          "returned_count": 55,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-g-h-j-k&src=&genre=&siglum=&text=a+facie&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:23:56.636583+00:00",
+            "sha256": "b7ed050d61eb6409f02a70dca617288a32dc1e62d5bb583eda2b37bbd4916ced"
+          }
+        }
+      }
+    },
+    {
+      "input": "ghjk",
+      "query": "1-g-h-j-k",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "facie",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-5qb0-runA-rising",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 1,
+          "returned_count": 1,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-g-h-j-k&src=&genre=&siglum=&text=facie&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:16:25.175895+00:00",
+            "sha256": "42a6eb340839ae4dbca6f30544e73dfcb3246ad6487497aea8a11b077ea63d16"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 405,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-g-h-j-k&src=&genre=&siglum=&text=facie&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:16:28.118056+00:00",
+            "sha256": "d354a62d2b257bff8daf16e8fe88e1696b78ca2f839b7946d77f233a114350fa"
+          }
+        }
+      }
+    },
+    {
+      "input": "hghkjhgfghge",
+      "query": "1-h-g-h-k-j-h-g-f-g-h-g-e",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-candidate-control-kyrie",
+      "basis": "source-derived control, not independent fragment evidence",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 1,
+          "returned_count": 1,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-h-g-h-k-j-h-g-f-g-h-g-e&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:24:21.935764+00:00",
+            "sha256": "ef6748c94739e5fa9221d00944fc032921606ff8d07b38c3a6076ba94dc7cb6c"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 1,
+          "returned_count": 1,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-h-g-h-k-j-h-g-f-g-h-g-e&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:24:24.060816+00:00",
+            "sha256": "4b01b94fefbb589d949040f0daf41aa5fedebf69366c9791f77c99bf728c44f7"
+          }
+        }
+      },
+      "candidate_urls": [
+        "https://cantusindex.org/melody/001975m1a",
+        "https://cantusdatabase.org/chant/644939"
+      ]
+    },
+    {
+      "input": "lklnmlkjklkh",
+      "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-candidate-control-paratur",
+      "basis": "source-derived control, not independent fragment evidence",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-l-k-l-n-m-l-k-j-k-l-k-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:24:19.216032+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 6,
+          "returned_count": 6,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-l-k-l-n-m-l-k-j-k-l-k-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:24:21.201649+00:00",
+            "sha256": "ac1d8d0e8c0e0e348705976002c7d73519c3262d6a14d026a1f4035c556b13e1"
+          }
+        }
+      },
+      "candidate_urls": [
+        "https://cantusdatabase.org/chant/230549",
+        "https://cantusdatabase.org/chant/230538",
+        "https://cantusdatabase.org/chant/255668",
+        "https://cantusdatabase.org/chant/377029",
+        "https://cantusdatabase.org/chant/412436",
+        "https://cantusdatabase.org/chant/495687"
+      ]
+    },
+    {
+      "input": "jhjlkjhghjhf",
+      "query": "1-j-h-j-l-k-j-h-g-h-j-h-f",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement-+0",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-j-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:27.186095+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-j-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:29.506330+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "kjkmlkjhjkjg",
+      "query": "1-k-j-k-m-l-k-j-h-j-k-j-g",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement-+1",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-k-j-k-m-l-k-j-h-j-k-j-g&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:29.537017+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-k-j-k-m-l-k-j-h-j-k-j-g&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:31.852820+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "lklnmlkjklkh",
+      "query": "1-l-k-l-n-m-l-k-j-k-l-k-h",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement-+2",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-l-k-l-n-m-l-k-j-k-l-k-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:24:19.216032+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 6,
+          "returned_count": 6,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-l-k-l-n-m-l-k-j-k-l-k-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:24:21.201649+00:00",
+            "sha256": "ac1d8d0e8c0e0e348705976002c7d73519c3262d6a14d026a1f4035c556b13e1"
+          }
+        }
+      },
+      "candidate_urls": [
+        "https://cantusdatabase.org/chant/230549",
+        "https://cantusdatabase.org/chant/230538",
+        "https://cantusdatabase.org/chant/255668",
+        "https://cantusdatabase.org/chant/377029",
+        "https://cantusdatabase.org/chant/412436",
+        "https://cantusdatabase.org/chant/495687"
+      ]
+    },
+    {
+      "input": "mlmonmlklmlj",
+      "query": "1-m-l-m-o-n-m-l-k-l-m-l-j",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement-+3",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-m-l-m-o-n-m-l-k-l-m-l-j&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:30.296405+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-m-l-m-o-n-m-l-k-l-m-l-j&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:32.358172+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "nmnponmlmnmk",
+      "query": "1-n-m-n-p-o-n-m-l-m-n-m-k",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement-+4",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-n-m-n-p-o-n-m-l-m-n-m-k&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:30.325499+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-n-m-n-p-o-n-m-l-m-n-m-k&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:32.359219+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "onoqponmnonl",
+      "query": "1-o-n-o-q-p-o-n-m-n-o-n-l",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement-+5",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-o-n-o-q-p-o-n-m-n-o-n-l&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:32.597326+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-o-n-o-q-p-o-n-m-n-o-n-l&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:34.381860+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "hghkjhgfghge",
+      "query": "1-h-g-h-k-j-h-g-f-g-h-g-e",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement--1",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 1,
+          "returned_count": 1,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-h-g-h-k-j-h-g-f-g-h-g-e&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:24:21.935764+00:00",
+            "sha256": "ef6748c94739e5fa9221d00944fc032921606ff8d07b38c3a6076ba94dc7cb6c"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 1,
+          "returned_count": 1,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-h-g-h-k-j-h-g-f-g-h-g-e&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:24:24.060816+00:00",
+            "sha256": "4b01b94fefbb589d949040f0daf41aa5fedebf69366c9791f77c99bf728c44f7"
+          }
+        }
+      },
+      "candidate_urls": [
+        "https://cantusindex.org/melody/001975m1a",
+        "https://cantusdatabase.org/chant/644939"
+      ]
+    },
+    {
+      "input": "gfgjhgfefgfd",
+      "query": "1-g-f-g-j-h-g-f-e-f-g-f-d",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement--2",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-g-f-g-j-h-g-f-e-f-g-f-d&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:26.121276+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-g-f-g-j-h-g-f-e-f-g-f-d&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:28.563637+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "fefhgfedefec",
+      "query": "1-f-e-f-h-g-f-e-d-e-f-e-c",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement--3",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-f-e-f-h-g-f-e-d-e-f-e-c&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:26.128798+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-f-e-f-h-g-f-e-d-e-f-e-c&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:28.578118+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "edegfedcdedb",
+      "query": "1-e-d-e-g-f-e-d-c-d-e-d-b",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement--4",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-e-d-e-g-f-e-d-c-d-e-d-b&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:22.855335+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-e-d-e-g-f-e-d-c-d-e-d-b&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:25.437792+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "dcdfedcbcdca",
+      "query": "1-d-c-d-f-e-d-c-b-c-d-c-a",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement--5",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-d-c-d-f-e-d-c-b-c-d-c-a&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:22.828003+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-d-c-d-f-e-d-c-b-c-d-c-a&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:25.365770+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "cbcedcbabcb9",
+      "query": "1-c-b-c-e-d-c-b-a-b-c-b-9",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-exact-placement--6",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-c-b-c-e-d-c-b-a-b-c-b-9&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:22.824182+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-c-b-c-e-d-c-b-a-b-c-b-9&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:25:25.367895+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "hjlkjhghjhf",
+      "query": "1-h-j-l-k-j-h-g-h-j-h-f",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-runA-extended-exact",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:23:51.024637+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:23:53.256783+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "hjlkjhghjhf",
+      "query": "1-h-j-l-k-j-h-g-h-j-h-f",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-runA-extended",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:10:50.421767+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 10,
+          "returned_count": 10,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:10:52.704566+00:00",
+            "sha256": "b4ed44d9388c84070923e705a551557ad27ea52cf0309e8e002c420467d9c9b0"
+          }
+        }
+      },
+      "candidate_urls": [
+        "https://cantusdatabase.org/chant/286439",
+        "https://cantusdatabase.org/chant/285564",
+        "https://cantusdatabase.org/chant/293432",
+        "https://cantusdatabase.org/chant/255130",
+        "https://cantusdatabase.org/chant/644939",
+        "https://cantusdatabase.org/chant/403411",
+        "https://cantusdatabase.org/chant/399077",
+        "https://cantusdatabase.org/chant/170371",
+        "https://cantusdatabase.org/chant/495687",
+        "https://cantusdatabase.org/chant/219454"
+      ]
+    },
+    {
+      "input": "jhjlkjhghjhf",
+      "query": "1-j-h-j-l-k-j-h-g-h-j-h-f",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-runA-extended12",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-j-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:23:47.786063+00:00",
+            "sha256": "6085e01aad46b60498c218a06b15f325a7d8c762d3c88218a6886ab2c193f1a5"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 0,
+          "returned_count": 0,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-j-h-j-l-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:23:50.088151+00:00",
+            "sha256": "7d2e38368714aaedd1d39ad2fb719c5230cb57d1c167138c31bd2125d68e9a11"
+          }
+        }
+      },
+      "candidate_urls": []
+    },
+    {
+      "input": "kjhghjhf",
+      "query": "1-k-j-h-g-h-j-h-f",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-82z1-runA",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 2,
+          "returned_count": 2,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:09:15.179641+00:00",
+            "sha256": "8b2b576c97903c85bdf45b90d49d7c1f8194f18a8de23245e3b9a0638571e155"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 123,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-k-j-h-g-h-j-h-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:09:20.143776+00:00",
+            "sha256": "7b4bbbb47a5f148819d3afb6e178d0747e66fed8424007ba1b7ab28fad9adcd5"
+          }
+        }
+      },
+      "candidate_urls": [
+        "https://cantusindex.org/melody/mSTA139",
+        "https://cantusindex.org/melody/mSCB104",
+        "https://cantusdatabase.org/chant/286275",
+        "https://cantusdatabase.org/chant/285405",
+        "https://cantusdatabase.org/chant/285680",
+        "https://cantusdatabase.org/chant/293464",
+        "https://cantusdatabase.org/chant/293389",
+        "https://cantusdatabase.org/chant/543923",
+        "https://cantusdatabase.org/chant/545282",
+        "https://cantusdatabase.org/chant/544980",
+        "https://cantusdatabase.org/chant/270954",
+        "https://cantusdatabase.org/chant/272009",
+        "https://cantusdatabase.org/chant/681213",
+        "https://cantusdatabase.org/chant/229060",
+        "https://cantusdatabase.org/chant/255317",
+        "https://cantusdatabase.org/chant/254726",
+        "https://cantusdatabase.org/chant/255214",
+        "https://cantusdatabase.org/chant/254579",
+        "https://cantusdatabase.org/chant/257028",
+        "https://cantusdatabase.org/chant/643084",
+        "https://cantusdatabase.org/chant/638678",
+        "https://cantusdatabase.org/chant/642488",
+        "https://cantusdatabase.org/chant/643056",
+        "https://cantusdatabase.org/chant/638646",
+        "https://cantusdatabase.org/chant/616022",
+        "https://cantusdatabase.org/chant/616324",
+        "https://cantusdatabase.org/chant/619124",
+        "https://cantusdatabase.org/chant/603363",
+        "https://cantusdatabase.org/chant/603411",
+        "https://cantusdatabase.org/chant/313836",
+        "https://cantusdatabase.org/chant/641769",
+        "https://cantusdatabase.org/chant/641770",
+        "https://cantusdatabase.org/chant/398922",
+        "https://cantusdatabase.org/chant/402424",
+        "https://cantusdatabase.org/chant/412645",
+        "https://cantusdatabase.org/chant/412413",
+        "https://cantusdatabase.org/chant/411748",
+        "https://cantusdatabase.org/chant/409767",
+        "https://cantusdatabase.org/chant/408982",
+        "https://cantusdatabase.org/chant/408532",
+        "https://cantusdatabase.org/chant/412572",
+        "https://cantusdatabase.org/chant/412171",
+        "https://cantusdatabase.org/chant/410019",
+        "https://cantusdatabase.org/chant/409108",
+        "https://cantusdatabase.org/chant/410484",
+        "https://cantusdatabase.org/chant/410912",
+        "https://cantusdatabase.org/chant/411152",
+        "https://cantusdatabase.org/chant/408493",
+        "https://cantusdatabase.org/chant/408526",
+        "https://cantusdatabase.org/chant/408528",
+        "https://cantusdatabase.org/chant/408589",
+        "https://cantusdatabase.org/chant/408974",
+        "https://cantusdatabase.org/chant/409310",
+        "https://cantusdatabase.org/chant/409415",
+        "https://cantusdatabase.org/chant/409917",
+        "https://cantusdatabase.org/chant/409929",
+        "https://cantusdatabase.org/chant/410300",
+        "https://cantusdatabase.org/chant/410483",
+        "https://cantusdatabase.org/chant/410789",
+        "https://cantusdatabase.org/chant/411214",
+        "https://cantusdatabase.org/chant/411450",
+        "https://cantusdatabase.org/chant/411463",
+        "https://cantusdatabase.org/chant/411475",
+        "https://cantusdatabase.org/chant/412570",
+        "https://cantusdatabase.org/chant/412948",
+        "https://cantusdatabase.org/chant/410306",
+        "https://cantusdatabase.org/chant/411174",
+        "https://cantusdatabase.org/chant/408476",
+        "https://cantusdatabase.org/chant/408764",
+        "https://cantusdatabase.org/chant/408765",
+        "https://cantusdatabase.org/chant/409118",
+        "https://cantusdatabase.org/chant/409250",
+        "https://cantusdatabase.org/chant/409335",
+        "https://cantusdatabase.org/chant/409420",
+        "https://cantusdatabase.org/chant/410009",
+        "https://cantusdatabase.org/chant/410310",
+        "https://cantusdatabase.org/chant/411172",
+        "https://cantusdatabase.org/chant/411442",
+        "https://cantusdatabase.org/chant/411605",
+        "https://cantusdatabase.org/chant/412083",
+        "https://cantusdatabase.org/chant/412992",
+        "https://cantusdatabase.org/chant/410437",
+        "https://cantusdatabase.org/chant/172045",
+        "https://cantusdatabase.org/chant/171942",
+        "https://cantusdatabase.org/chant/172229",
+        "https://cantusdatabase.org/chant/492637",
+        "https://cantusdatabase.org/chant/493138",
+        "https://cantusdatabase.org/chant/493854",
+        "https://cantusdatabase.org/chant/494242",
+        "https://cantusdatabase.org/chant/494246",
+        "https://cantusdatabase.org/chant/495262",
+        "https://cantusdatabase.org/chant/495500",
+        "https://cantusdatabase.org/chant/495691",
+        "https://cantusdatabase.org/chant/496794",
+        "https://cantusdatabase.org/chant/491972",
+        "https://cantusdatabase.org/chant/496854",
+        "https://cantusdatabase.org/chant/493291",
+        "https://cantusdatabase.org/chant/494236",
+        "https://cantusdatabase.org/chant/493518",
+        "https://cantusdatabase.org/chant/670628",
+        "https://cantusdatabase.org/chant/495902",
+        "https://cantusdatabase.org/chant/491884",
+        "https://cantusdatabase.org/chant/497201"
+      ]
+    },
+    {
+      "input": "fghgf",
+      "query": "1-f-g-h-g-f",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-euvy-runA",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 644,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-f-g-h-g-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:16:14.341561+00:00",
+            "sha256": "f7c2a5586799912224d9c747caf910baa0f129e9482667d52b646b42a2716f59"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 21190,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-f-g-h-g-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:16:17.357907+00:00",
+            "sha256": "eb0e8429b25a4e4b2a82955db8ab8eac8fbb168f369c1ba06067cd2dd8fda276"
+          }
+        }
+      }
+    },
+    {
+      "input": "hkhgh",
+      "query": "1-h-k-h-g-h",
+      "settings": {
+        "start": false,
+        "transpose": false,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-euvy-runB-clefs",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 80,
+          "returned_count": 80,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-h-k-h-g-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:16:21.986559+00:00",
+            "sha256": "a035c8f90e0ab58871dfeb1238aae043e39d0c0d0870d017e10004531823f10c"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 7194,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-h-k-h-g-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=0",
+            "retrieved_at": "2026-10-20T16:16:24.419745+00:00",
+            "sha256": "b203e9ef6e20b2e02dda23c18703e139435bc29c2965d021a5b9366ff8a11e9d"
+          }
+        }
+      }
+    },
+    {
+      "input": "hkhgh",
+      "query": "1-h-k-h-g-h",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-euvy-runB",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 136,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-h-k-h-g-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:16:18.392061+00:00",
+            "sha256": "38561574ce906844e985fcf252cd0f5f5b8cd9343cb8a6a09272c7fbdd38e19c"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 8515,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-h-k-h-g-h&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:16:20.998271+00:00",
+            "sha256": "f3fd56a76293cb42345c2b22c8d19a74aa9be0227b9a9389b2c56a5353b88cf8"
+          }
+        }
+      }
+    },
+    {
+      "input": "kjhfgf",
+      "query": "1-k-j-h-f-g-f",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "name": "F-gs4f-runA",
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 5,
+          "returned_count": 5,
+          "truncated": false,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-k-j-h-f-g-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:11:52.450285+00:00",
+            "sha256": "5cfd655edfdee58c71403ec88180a217ed61ab16963af7445ecb5afd0f16e48d"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 147,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-k-j-h-f-g-f&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:11:54.883996+00:00",
+            "sha256": "8399b3a00f8911212c791d7c1854c1b831faca5b4dca7f20fffb403b759bbb12"
+          }
+        }
+      }
+    },
+    {
+      "name": "F-gs4f-runB",
+      "input": "hjkjhg",
+      "query": "1-h-j-k-j-h-g",
+      "settings": {
+        "start": false,
+        "transpose": true,
+        "text": "",
+        "genre": "",
+        "mode": ""
+      },
+      "complete": true,
+      "basis": "source-assisted encoding of preserved image reading",
+      "indexes": {
+        "searchmelody": {
+          "reported_count": 220,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody?t=1-h-j-k-j-h-g&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:17:59.414869+00:00",
+            "sha256": "12652970fa04edf5d72c1e4a00962d7eb6c174bb2b81562f1007eb5da348f912"
+          }
+        },
+        "searchmelody-con": {
+          "reported_count": 9460,
+          "returned_count": 101,
+          "truncated": true,
+          "request": {
+            "url": "https://cantusindex.org/searchmelody-con?t=1-h-j-k-j-h-g&src=&genre=&siglum=&text=&feast=&mode=&start=0&transpose=1",
+            "retrieved_at": "2026-10-20T16:18:02.239864+00:00",
+            "sha256": "2ddc4914f2dc74c97e7ffdfebc44698fd95cf7d8d910c67890ac56c15bb16c6f"
+          }
+        }
+      }
+    }
+  ],
+  "candidate_record_checks": [
+    {
+      "url": "https://cantusindex.org/melody/001975m1a",
+      "sha256": "1d6a7b4672c07f32e6fede86129d41402d531076eb169c7893c5026d5bab9516",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/170371",
+      "sha256": "0a45b3016eb9c0b37a8cbd4299aadd8d91ac273a1e1b3f566575611eb792631c",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/219454",
+      "sha256": "d135b4c79de679cc903066cf37c7bab4c43fdd763f5d95cb5a6c2ad32456ab9d",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/230538",
+      "sha256": "17a56f074bc0b750aeabf0aaaef414192b051ac810be047a0c4bd20504ecaa1b",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/230549",
+      "sha256": "0e1fa91f8e56f2337fe921002502c229cb3d2003d76fe3a424ff0350c85eccea",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/255130",
+      "sha256": "6f4a8f33a5e805ce3e7835d300a0ae6800a8b3ad6e3296a668c32f8dc3c7f2ce",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/255651",
+      "sha256": "4ea472cd2b041abecd96715086570722ac6f3e47fc9139cf9896ff7ff63c6a59",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/255668",
+      "sha256": "f8b36b71c63ff1a489a8436bff79bfcc36878e66e001a8d2529fecf4067aac2c",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/285564",
+      "sha256": "246658b0c2f7a66e374d920b409d48dd0d5932eac41ba7590282cc0a7f787cea",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/286439",
+      "sha256": "c8c9cab01fc8330e34b017626ac526e43e5bdf83a9fe3ca1595e4dd72b5c8c1b",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/286874",
+      "sha256": "3de70a975e0a81bd4e51dd76d0978a52ab349b87d475ba4a38905e2c0ce3e2da",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/293432",
+      "sha256": "cc962ac685e6728b7cc9a81732b5ad64851ec92a011adc5d7459e85f75fe2d7e",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/377029",
+      "sha256": "679e60a7f1c07f60963048bbfa38518479be62c8b03d02f2223d43006802a9a2",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/399077",
+      "sha256": "213d7b09ec02937d0e03a51935993539619dd7cfaf90190cba46f890c54ff783",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/403411",
+      "sha256": "0329c873ee992b6ab5605dc4dc39797ce9a92fb422421f93320bae29bfccc163",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/412436",
+      "sha256": "9ccbf1894290c7d65f37dc8b2234d29cdb1c26170af58058b34244d06bb8460b",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/495687",
+      "sha256": "3224e59aaa49fe3439456a43342438efd1bb7f508f68845a3447ef9d3fadc32b",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/644939",
+      "sha256": "10fa8a7ec5238a8c5896012637156d80d1bfc0a2c163c9320d4064d3c5b4e511",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody; syllable alignment where available. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/255502/",
+      "sha256": "49c1fd6cf76846fc05b79c0ee86d210e63586003cfc4fb4e9fb230aedc9c88c6",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody and syllable alignment. Not witness images."
+    },
+    {
+      "url": "https://cantusdatabase.org/chant/285336/",
+      "sha256": "15c6f359a4983ac82aa120e089a7111ee128d3c3b5ec6f0095454987c656918a",
+      "checked_on": "2026-10-20",
+      "comparison": "Full encoded melody and syllable alignment. Not witness images."
+    }
+  ]
+}

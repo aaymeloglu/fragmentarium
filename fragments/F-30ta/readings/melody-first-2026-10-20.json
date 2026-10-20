@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-10-20T16:11:18.912062+00:00",
+  "fragment": "F-30ta",
+  "id": "melody-first-2026-10-20",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "fbc0fa835f30ba1a39f3be498a7b765e2afdd427bf9d6053db23999932fc014b",
+        "source": "https://fragmentarium.ms:443/loris/F-0uws/StAL_B_113_Bue_989_Fv_G_v_.jp2/full/7520,/0/default.jpg; canvas 20, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "535cc5534de3389fe057442d40bff606fc385021e0ee10b03148c5c153b9a10a",
+        "source": "https://fragmentarium.ms:443/loris/F-0uws/StAL_B_113_Bue_989_G_F.jp2/full/3495,/0/default.jpg; canvas 21, full image reduced overview; rotation 0 degrees; autocontrast False"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "bb705a832970d603efc020a09f4802c304e1851b00cde7cba392f1e01dc25a2e",
+        "source": "https://fragmentarium.ms:443/loris/F-0uws/StAL_B_113_Bue_989_Fv_G_v_.jp2/full/7520,/0/default.jpg; canvas 20, native crop (5339, 1132, 6618, 2785); rotation 0 degrees; autocontrast True"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "db241eff70521400e35dbf2a9d688945495c2e65973bcf3048d1a0be8fea7284",
+        "source": "https://fragmentarium.ms:443/loris/F-0uws/StAL_B_113_Bue_989_G_F.jp2/full/3495,/0/default.jpg; canvas 21, native crop (210, 736, 944, 1602); rotation 90 degrees; autocontrast True"
+      }
+    ],
+    "prompt": "Read only the supplied images. No web, search, repository context, catalogue, or other readings. Do not infer an identity from familiarity. These are manuscript fragments on bindings; distinguish host text and labels from the fragment. First report orientation, staves, clefs, and surviving musical runs. For each usable run give the image and approximate location, then note positions as integers in diatonic staff steps relative to the first note (0), preserving adjacent repeats. Prefer 6-14 or more consecutive notes where legible; describe uncertainty and stop at a gap or hidden span. Say which marks might be custos rather than sung notes. Report visible clef shape and line if secure; do not guess absolute pitch. Give a short literal reading of any accompanying words, with uncertainty, without completing from memory. If possible record two separate passages for later comparison. If no reliable continuous run of at least four notes remains after repeated pitches collapse, explain the visible limitation. A difficult image is not automatically unreadable: inspect the actual crops. Do not write readings of an image you could not view. Finish with coverage and limitations. Save the entire response as response.txt in this packet directory. Do not modify prompt, images, or packet.json."
+  },
+  "reader": "Codex isolated image reader (inherited model; exact version not exposed)",
+  "schema_version": 1,
+  "session": "melody-20261020-read-m02",
+  "text": "Image-only reading of the small pale guard\n\nOrientation, staves, and surviving marks\n\nI inspected all four supplied images. Images 001 and 002 supply binding context; the target is the small pale guard enlarged in images 003 and 004, not the more strongly written musical strip visible elsewhere in the overviews. The host volume's large title and numbers are not accompanying words of this guard.\n\nImage 003 shows the pale guard upright in the displayed photograph, with the attachment at the bottom. Four short red, approximately horizontal line ends survive down its left edge, at roughly 30%, 45%, 60%, and 75% of image height. Their spacing supports a four-line musical staff, but almost all its horizontal extent has been cut away or is not visible on this face. There is no recoverable left-to-right musical run across the pale field.\n\nAt the left edge, around 10–16% of image width and 40–51% of image height, a dark upright sign straddles the second visible red line from the top. It has two vertically adjacent dark lobes or blocks and a thin, prolonged vertical stroke. It could be a clef-like sign, possibly C-shaped, but the surviving shape is insufficient for a secure clef identification. I can locate its center on that red line; I cannot securely identify a clef type, establish a musical reading direction from it, or assign absolute pitch. The two dark lobes should not automatically be counted as two successive sung notes.\n\nImage 004 presents the guard with the attachment above and the surviving red line ends at the right. Its orientation is approximately reversed relative to image 003. The dark sign is near 60–64% of image width and 68–80% of image height. This looks like another view of the same surviving staff/sign area, not an independently surviving melodic passage. No sequence of separate noteheads extends into the pale field. Fold shadows, holes, sewing or attachment impressions, and scattered surface discoloration do not supply noteheads.\n\nRelative pitch sequences\n\nNo continuous run can be responsibly transcribed from this guard. There are zero secure consecutive sung-note sequences of four notes, either before or after collapsing repeated pitches. Consequently I give no integer sequence: even a proposed pair such as [0, 1] would invent succession from the vertically arranged parts of a single ambiguous sign. There is no second usable passage.\n\nCustos and text\n\nThe isolated marginal sign might alternatively contain a remnant of a note or guiding sign, including a custos, but neither a custos nor a sung note is securely distinguishable here. Its position alone does not settle this. No accompanying word or continuous letter group is legible on the pale guard. I therefore supply no literal word transcription and do not complete text from familiarity.\n\nCoverage and limitations\n\nViewed image-001.jpg, image-002.jpg, image-003.jpg, and image-004.jpg. The actual detail images are visible and were inspected. The limitation is the extremely narrow survival of staff ends and an isolated ambiguous sign, with no exposed horizontal note succession, rather than an inability to open the images. The clear notes on the other, darker fragment in the overviews are outside this reading's assigned target.\n",
+  "text_sha256": "3140812b077d128741ab5c662c4196578c826108e29e0ef107d44d30d5fcba52"
+}
