@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Look up liturgical chant in Cantus Index and the Cantus Database.
 
+For melody-only fragments use cantus_melody.py (see tools/MELODY.md).
+
     uv run python tools/cantus.py text 'laetare jerusalem'        # standard texts -> Cantus IDs
     uv run python tools/cantus.py cid g00776 [--sources]          # where a chant is used
     uv run python tools/cantus.py next g00776                     # chants that usually follow it
