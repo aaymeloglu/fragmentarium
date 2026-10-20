@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-20T20:16:40.831114+00:00",
+  "first_reading": "batch-2026-10-12b-image-only",
+  "first_sha256": "8b50f2daddc6637e3def421d27c3d237a94d72b27c7eb38faca485ef2fa977d8",
+  "fragment": "F-8zoy",
+  "id": "comma-2026-10-20-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with the witnesses at hand (Claude Code subagent)",
+  "reason": "88v lines 14-25 were read, and 86r/86v rechecked, with Philip the Chancellor's Passion-by-the-hours passage open beside the fragment, so the reading is source-assisted.",
+  "schema_version": 1,
+  "sources": [
+    "Paris, Bibliothèque nationale de France, Latin 14594 (Philip the Chancellor, Sermones super Psalterium), f. 29r col. a, page image",
+    "Soissons, Bibliothèque municipale, Ms. 65 (Psalterium magistri Philippi, cancellarii Parisiensis), f. 41r col. b, page image",
+    "Auxerre, Bibliothèque municipale, Ms. 4, f. 38v, page image"
+  ],
+  "text": "F-8zoy, source-assisted reading of the Passion-by-the-hours section (88v 14-25; checks of 86r 1-7 and 86v 1-9). Read on the images by a research reader (Claude) with Philip the Chancellor's Summa super Psalterium (Paris BnF lat. 14594 f. 29r col. a; Soissons BM 65 f. 41r col. b, page images) open, so this is source-assisted, not blind.\nConventions: (..) = expansion; ? = uncertain; [...] = lost by trimming or not read; ¶ = red paraph. Line numbers count from the top of the page, as in batch-2026-10-12b-source-assisted.\n\n== 88v (canvas 5, f188; native box 2950,5700,4330,6850; line beginnings lost at the left) ==\n14  [...]e notandum? (contra)? laicos qui horas n(on) intelligu(n)t ut loco\n15  [horarum quid christus p]assus sit in singulis horis diligent(er) attendant (et) p(ro)\n16  [singulis ingemisc]ant?. ¶ In hora matutinali (christus) sanguineu(m) sudore(m) su-\n17  [dav]it? [... fact]us est sudor ei(us) (et)c. ¶ It(em) a iuda tradit(us) a ministris\n18  [...]u(m)? captus (et) vinct(us) ab ap(osto)lis? [...] (et) tamq(uam) [...]\n19  [...] paulo ant(e) dixera(n)t parati sumus tecu(m) in carcerem\n20  [...]? derelictus e(st) (et) ad principes sacerdotu(m) adductus\n21  [...] (et) [...] lacrimos(us)? [...] sanguis (christi)? in columpna?. Q(ui)\n22  [ho]c? cogitat in corde suo (et) p(ro) singulis q(ue) passus\n23  [est ...] horas matutinas deo laudabilit(er) decantauit?\n24  [...]dia? nocte (et)c. ¶ In hora p(ri)ma (christus) tamq(uam) ma-\n25  [lefac]tor? ductus fuit ad columpna(m) ligatus virgis cesus\n\nLines 17-23 were not in the earlier source-assisted record (which gave 88v 14-16 and 24-25 only). Line 18 middle, line 21 and the start of every line are insecure.\n\n== 86r 1-7 and 86v 1-9 ==\nRechecked on the images (86r box 794,4583,2731,5233; 86v box 2582,4583,4966,5700). The image-only first reading (batch-2026-10-12b-image-only) stands, with one firmer reading: 86v 9 \"ut d(icitur) in tren(is)\" (first reading: \"in tr(...)?\"), agreeing with the witnesses' \"Thren.\".\n",
+  "text_sha256": "82e089d10e4d6141eaf9c7e807abe96c96140e74086b7609f24a8fb91562b3bb"
+}
