@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-20T20:16:40.885478+00:00",
+  "first_reading": "batch-2026-10-17-image-only",
+  "first_sha256": "39bcd71fa4fa6fa54d8dcb42d3f577e9b6cfb7dc5dc5ebe29ef601a8662965d5",
+  "fragment": "F-67mf",
+  "id": "comma-2026-10-20-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with the witnesses at hand (Claude Code subagent)",
+  "reason": "Joins the two images of the strip into one text block and corrects minim and abbreviation readings (uiris, conseruis, nec, sapientia) after comparison with a breviary witness and the edition.",
+  "schema_version": 1,
+  "sources": [
+    "Paris, BnF, lat. 17991, ff. 147v-148r (page images): https://gallica.bnf.fr/ark:/12148/btv1b8432475m/f296.item",
+    "Jerome, Commentarii in Matthaeum III, on Mt 18:23-35 (PL 26), text via Corpus Corporum: https://mlat.uzh.ch/"
+  ],
+  "text": "F-67mf - source-assisted reading of the lower strip (Iv and IIr), 20 October 2026\nReader: a research reader (Claude), after comparison with BnF lat. 17991 f. 147v-148r (page images) and Jerome, In Matthaeum III (PL 26, via Corpus Corporum). Not reviewed by a person.\nBasis: native-resolution crops of canvas 0 (StAL_B_114_Bd_6823_Iv_IIr_links, box 3550,4950,2600,1450) and canvas 1 (StAL_B_114_Bd_6823_IIr_rechts, box 650,4330,3150,1400), unrotated. Image-only base: batch-2026-10-17-image-only (image-001 upper strip, image-003 upper strip).\nChanges against the base: the right text block of image-001 and the strip of image-003 are one text block; each image-001 line beginning is followed by the image-003 line of the same row. \"iuris\" read \"uiris\"; \"conseruus\" read \"conseruis\"; \"n(on)\" before \"a prudentibus\" and before \"ecclesiastice\" read \"n(ec)\"; \"Sic\" may be Sic(ut); line 7 of the left block \"[ar]matura(m) dei\"; the word under the threads in line 2 \"sapi(enti)a\". Text in [ ] is lost; | marks the join between the two images.\n\nLeft block (leaf I verso)\n1  [neumes]\n2  [...r]egulus cuius filius infir[...]\n3  [neumes]\n4  [...] in galileam rogabat eum\n5  [...] q(ue)s(umus) d(omi)ne co(n)tinua pietate\n6  [...li]bera (et) i(n) bonis actib(us) tuo\n7  [...ar]matura(m) dei . ut possitis\n8  [...] [red rubric, unread: [S]ext(a)?] [red] S umentes scutum\n9  [ex]tinguere . [red] a(ntiphona) D omine [neumes]\n\nRight block (leaf II recto)\n0  [...] i(n)p(re)tari(?) .   (lower halves only)\n1  cui(us) uxorem | (et) filios uenundatos p(er)seuerante illo i(n) malitia . i(n)sipientia(m)\n2  (et) malas co[g] | [co]gitationes intelligi uolu(n)t . Sic(ut?) enim iusti uxor dicit(ur) sa[pi(enti)a] [under threads]\n3  sic (et) uxore(m) i[n] | [in]iusti (et) peccatoris appellari stulticia(m) . Sed q(uo)m(odo) d(omi)n(u)s e[i] [under threads]\n4  [dimit]tat dece(m) mi[lia] | [mili]a talenta . (et) ille nobis co(n)seruis suis centu(m) denarios [under threads]\n5  [di]miserit . n(ec) | [e]cclesiastice int(er)pretationis e(st) . n(ec) a prudentib(us) uiris rec[...] [under threads]\n6  [red C]onfido(?) i(n) d[omin] | [domin]o ihu quia qui cepit i(n) uobis op(us) bonu(m) p(er)ficiet usq(ue) i(n)   [margin, red:] cap\n7  diem xpi ihu | [...] . [red] a(ntiphona) D ixit autem dominus seruo redde quod debes [...]   [neumes; lower half cut]\n",
+  "text_sha256": "26451aa8ca15ca79b77f90e602bcc6f8f90cbd276f050705cd5851b3b4e37ac6"
+}
