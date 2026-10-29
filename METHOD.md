@@ -15,7 +15,9 @@ in the batch notes in `audits/`.
   the catalogue already identifies, sometimes under a sibling record for the
   same volume. A host page or
   neighbouring leaf can be far more legible than the fragment. Record what the
-  catalogue already knew.
+  catalogue already knew. Before placing separate pieces apart, check whether
+  they continue each other's lines; the catalogue's count of pieces and leaves
+  is a claim.
 - **Check that the fragment can be read at the published size.** A strip a few
   hundred pixels wide gives letter groups, not text. `tools/survey.py` lists
   native image sizes for the records not yet attempted and makes contact
