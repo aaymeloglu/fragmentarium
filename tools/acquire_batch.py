@@ -7,7 +7,9 @@ library-native width unless --max-width asks for less, and writes `acquisition.j
 record's summary fields and any full description linked from the record page
 (`catalogue.py`), which can already name texts that the title calls unidentified. `tilepacket.py` builds
 reading packets from this cache. Canvases the manifest links to another canvas's
-image are corrected or refused as `iiif.py` describes. Keep the cache away from readers.
+image are corrected or refused as `iiif.py` describes. The default output is the shared image cache
+($FRAGMENTARIUM_IMAGE_DIR or ~/.cache/fragmentarium/images), so images stay available when a library
+goes offline. Keep the cache away from readers.
 """
 import argparse
 import hashlib
@@ -85,12 +87,13 @@ def acquire(fid, destination, packet_root, number, count=2, max_width=0):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--selection',type=Path,required=True)
-    parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--output',type=Path,default=None,help='default: the shared image cache (iiif.cache_dir())')
     parser.add_argument('--packets',type=Path,help='also make whole-image packets (tilepacket.py makes better ones)')
     parser.add_argument('--canvases',type=int,default=2)
     parser.add_argument('--max-width',type=int,default=0,
                         help='Overview width cap; 0 (default) preserves native pixels')
     args=parser.parse_args()
+    args.output = args.output or iiif.cache_dir()
     if args.canvases < 1 or args.max_width < 0:
         parser.error('--canvases must be positive and --max-width nonnegative')
     if args.packets:

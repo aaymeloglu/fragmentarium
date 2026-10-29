@@ -16,10 +16,13 @@ uv run python tools/iiif.py F-xxxx crop /tmp/crops x,y,w,h --canvas 0 --scale 1
 uv run python tools/iiif.py F-xxxx tiles /tmp/crops --canvas 0 --cols 2 --rows 4 --scale 1
 ```
 
-For a batch, `tools/acquire_batch.py --selection /tmp/selection.json --output
-/tmp/source-images` accepts a JSON list of fragment IDs and caches the first two
-canvases of each at native width; `--canvases N` changes coverage and
-`--max-width N` asks for smaller images. Keep the cache away from readers.
+For a batch, `tools/acquire_batch.py --selection /tmp/selection.json` accepts a
+JSON list of fragment IDs and caches the first two canvases of each at native
+width; `--canvases N` changes coverage and `--max-width N` asks for smaller
+images. Before research on a record, `tools/iiif.py F-xxxx cache` adds the rest
+of its canvases. Both write to the shared image cache (`$FRAGMENTARIUM_IMAGE_DIR`
+or `~/.cache/fragmentarium/images`), which outlives the session, so a finding can
+be rechecked when the library is offline. Keep the cache away from readers.
 
 A reader shown a whole native image sees small script reduced and reports gaps.
 `tools/tilepacket.py` turns the cache into packets of one reduced overview per canvas
@@ -84,7 +87,7 @@ The packet prompt specifies physical line labels and uncertainty notation.
 ## Freeze and commit before candidate discovery
 
 Register the fragment in `data/fragments.json` before saving a reading
-(`tools/register.py --cache /tmp/source-images F-xxxx ...` writes the row from the
+(`tools/register.py F-xxxx ...` writes the row from the
 cached manifest, as unidentified, with a placeholder note). A report
 is not required: the preservation tool creates the fragment's readings directory.
 Unresolved attempts can retain their evidence without a public writeup.
