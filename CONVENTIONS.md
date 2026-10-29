@@ -52,6 +52,13 @@ strength of unrelated claims:
 | **Partial** | A source connection, genre, subject, or text layer has support, but the compiling work or attribution remains unresolved. Use `medium` for a substantial source parallel or text layer, `low` for chiefly genre, school, or author leads. |
 | **Not identified** | Describe the fragment and searches, but no identification is established. Confidence `none`. |
 
+Before recording `identified`, reread the report's own limits, gaps and
+unexplained observations, and let them govern the claim. If the identified
+text is on an object other than the one catalogued, the record is not
+identified. If one piece or face is matched only in outline, or its placement
+needs an anomaly the report leaves unexplained, withdraw the claim for that
+piece; the record keeps its status only on what remains.
+
 ## Publication
 
 Publish only entries with `status: identified` and `confidence: high`. The site

@@ -27,11 +27,7 @@ manuscript with the source. This is model work; be exact about what you checked.
    covers and neighbouring leaves often belong to other records) and what the
    catalogue already identifies, including under sibling records of the same
    volume. Your result must be about the unidentified part, and your report
-   must say what the catalogue already knew. If the catalogued object is not
-   the one you can identify, say so; it does not become an identification of
-   the record.
-   Treat the catalogue's count of pieces and leaves as a claim: check whether
-   separate pieces continue each other's lines before placing them apart.
+   must say what the catalogue already knew.
 2. Run `uv run python tools/iiif.py <F-id> info`. It lists every image and
    reports any the catalogue links wrongly. For a record with more than about
    eight images, make contact sheets first
@@ -47,8 +43,7 @@ Cut crops with `tools/iiif.py <F-id> crop ...` or, from a cached image,
 canvas, gives its line pitch in native pixels, and cuts a sample with a
 contrast-stretched copy for faint ink. Read at reading size: bands of ten to twenty lines, one column
 wide. Reread and correct the first reading; say which lines you read yourself.
-Look at every leaf and face before characterising the fragment. In glossed
-books, separate main text from gloss before reading and say which you read.
+Look at every leaf and face before characterising the fragment.
 
 ## Searching
 
@@ -102,10 +97,11 @@ Claim only what the comparison shows:
   with a specific text and locus that you compared yourself. A source, a base
   text or a genre is "partial". Otherwise "unidentified". Never upgrade a result
   to make it publishable.
-- For commentaries in a school tradition (literal commentaries, *divisiones
-  textus*), shared outline or lemmata, or close wording on one piece only, is
-  "partial"; "identified" needs verbatim agreement on more than one face or
-  piece.
+- Before calling a result identified, reread your own limits and
+  unexplained observations. Text on an object other than the catalogued one
+  does not identify the record. A piece matched only in outline, or placed
+  only by leaving an anomaly unexplained, is not claimed; the verdict rests on
+  what remains.
 - Agreement of catalogue records (same owner, same sale, similar size) makes a
   candidate, not an identification.
 - Differences from a printed edition (spelling, omissions, better readings) do

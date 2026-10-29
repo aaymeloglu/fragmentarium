@@ -15,20 +15,9 @@ in the batch notes in `audits/`.
   the catalogue already identifies, sometimes under a sibling record for the
   same volume. A host page or
   neighbouring leaf can be far more legible than the fragment. Record what the
-  catalogue already knew.
-- **Your result must be about the catalogued object.** If the record
-  describes one item (a music fragment, say) and the images also show another
-  (a cover leaf nobody catalogued), identifying the other item does not identify
-  the record. Record that work in the note and leave the record's status as it
-  is.
-- **Test the catalogue's division into pieces and leaves.** Before placing
-  pieces separately, check whether they continue one another: the end of a
-  line on one piece followed by its continuation on another, matching line
-  pitch, or a margin on opposite sides of the two faces. Strips described as
-  parts of different leaves have turned out to be the two halves of the same
-  lines. A placement that needs an unexplained blank, or puts pieces of one
-  leaf columns apart, is a sign that the pieces are being read separately when
-  they belong together.
+  catalogue already knew. Before placing separate pieces apart, check whether
+  they continue each other's lines; the catalogue's count of pieces and leaves
+  is a claim.
 - **Check that the fragment can be read at the published size.** A strip a few
   hundred pixels wide gives letter groups, not text. `tools/survey.py` lists
   native image sizes for the records not yet attempted and makes contact
@@ -46,11 +35,7 @@ in the batch notes in `audits/`.
 ## 2. Obtain a reading
 
 Begin with layout: orientation, columns, running titles, rubrics, initials,
-glosses, question openings. They show the text layers and where to read. In a
-glossed book, mark which lines are main text and which are gloss (script size,
-position, the gloss's citations of other laws or authorities) before
-transcribing, and keep them apart in the reading; gloss read as text produces
-false matches and hides the citations that can place it. Read
+glosses, question openings. They show the text layers and where to read. Read
 connecting prose and citation sequences as well as lemmata. A full transcription
 is not needed; record which areas were read and which were not.
 
@@ -102,12 +87,6 @@ are claimed, and explain the differences.
   work. For the containing work, compare the surrounding argument, question
   order, transitions and citations. A compilation or reworking built on your
   match is a different work whose source you have found.
-- **Commentaries in a school tradition borrow from one another.** Literal
-  commentaries and *divisiones textus* on the *Summulae*, the *Sentences*,
-  Aristotle or the Bible share outline and lemmata by design. Agreement in
-  structure, or close but not verbatim wording on one piece, is a source
-  connection (partial). Identification needs verbatim agreement on more than
-  one face or piece, including the commentator's own prose.
 - **Check the attribution** of the edition or manuscript compared, separately
   from the passage match: title page, colophon, catalogue or scholarship. Keep
   "printed as X" where that is all the source supports.
