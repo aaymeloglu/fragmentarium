@@ -2730,10 +2730,10 @@
   "catalogue_date": "1334 – 1401 CE",
   "status": "identified",
   "confidence": "high",
-  "identification": "Liturgical psalter (Gallican), Psalm 68:15-22; probable Psalms 59, 61-62 and 67 on the other faces",
-  "note": "On the face 367a-1: 1v ten line beginnings read in order as Psalm 68:15-22, with a two-line red initial at v. 17 where the Benedictine office divides the psalm for Wednesday Matins. A research reader reread the lines on the image and compared them with a transcription of the Stuttgart Gallican text; no page image of an edition or medieval psalter was used, and the monastic division was checked only in a modern table. Where it can be told the reading has the Clementine form 'respice in [me]'. The other three faces (Ps 67:20-24, the opening of Ps 59 under 'fer. iiij', Ps 61:11 onward) are probable only, supported by both strips implying the same 54-line column. The identification is of the Psalm 68 face alone; book type is inferred and monastic use remains provisional.",
+  "identification": "Liturgical psalter (Gallican), Psalm 68:15-22 on 367a-1: 1v; the other three faces are not placed",
+  "note": "On the face 367a-1: 1v ten line beginnings read in order as Psalm 68:15-22, with a two-line red initial at v. 17 where the Benedictine office divides the psalm for Wednesday Matins. A research reader reread the lines on the image and compared them with a transcription of the Stuttgart Gallican text; no page image of an edition or medieval psalter was used, and the monastic division was checked only in a modern table. Where it can be told the reading has the Clementine form 'respice in [me]'. The other three faces give word shapes only; Ps 67:20-24, the opening of Ps 59 under 'fer. iiij' (title too long for the lines, unresolved) and Ps 61:11 onward are leads, not placements. The identification is of the Psalm 68 face alone; book type is inferred and monastic use remains provisional.",
   "verify": "https://www.thelatinlibrary.com/bible/psalms.shtml",
-  "examined": "2026-10-13",
+  "examined": "2026-10-29",
   "identified_on": "2026-10-13"
  },
  {
