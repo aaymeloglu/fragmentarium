@@ -336,3 +336,32 @@ def test_tilepacket_mirrors_offset_tiles(tmp_path):
     tile = np.asarray(Image.open(out["files"][1]).convert("L"), dtype=int)
     assert tile[:, -15:].mean() > 200 and tile[:, :15].mean() < 50, "the bright side must move to the right"
     assert "mirrored left to right" in out["sources"][1]
+
+
+def test_image_cache_serves_crops_and_manifest_when_library_is_offline(tmp_path, monkeypatch):
+    Image = pytest.importorskip("PIL.Image")
+    iiif = load("iiif")
+    monkeypatch.setenv("FRAGMENTARIUM_IMAGE_DIR", str(tmp_path / "cache"))
+    assert iiif.cache_dir() == tmp_path / "cache"
+    m = {"sequences": [{"canvases": [{"label": "1r", "width": 40, "height": 20, "images": [{"resource": {
+        "@id": "https://img.example/iiif/a/full/full/0/default.jpg"}}]}]}]}
+    monkeypatch.setattr(iiif, "get", lambda url, **kw: json.dumps(m).encode())
+    assert iiif.manifest("F-test") == m  # saved for later
+    cs = iiif.canvases("F-test")
+    out = tmp_path / "out"
+    calls = []
+    monkeypatch.setattr(iiif, "fetch", lambda url, path: calls.append(url) or 0)
+    iiif.run("F-test", cs, "crop", [], {"scale": "1"}, [str(out), "0,0,20,10"])
+    assert len(calls) == 1  # not cached yet: asked the library
+    monkeypatch.setattr(iiif, "fetch", lambda url, path: Image.new("RGB", (40, 20), "white").save(path) or 1)
+    iiif.run("F-test", cs, "cache", [], {}, [])
+    assert (tmp_path / "cache" / "F-test" / "canvas-0-w40.jpg").exists()
+
+    def offline(url, **kw):
+        raise OSError("library offline")
+    monkeypatch.setattr(iiif, "get", offline)
+    monkeypatch.setattr(iiif, "fetch", lambda url, path: pytest.fail("fetched despite the cache"))
+    cs = iiif.canvases("F-test")  # manifest from the cache
+    iiif.run("F-test", cs, "crop", [], {"scale": "2"}, [str(out), "0,0,20,10"])
+    with Image.open(out / "F-test_c0_0_0_20x10.jpg") as im:
+        assert im.size == (40, 20)

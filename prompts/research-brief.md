@@ -14,8 +14,9 @@ manuscript with the source. This is model work; be exact about what you checked.
   unverified and often wrong in places:
   `fragments/<F-id>/readings/<batch>-image-only.json` (field `text`;
   `packet.images[].source` cites the image regions it saw).
-- Cached native images and the manifest: `<cache>/<F-id>/`. The cache holds only
-  the first few images of a record.
+- Cached native images and the manifest: `<cache>/<F-id>/`. The batch caches
+  the first few images of a record; run `uv run python tools/iiif.py <F-id> cache`
+  first to add the rest, so every image you read stays available afterwards.
 
 ## Before reading
 

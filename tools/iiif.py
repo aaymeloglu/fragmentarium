@@ -6,6 +6,13 @@
     python3 tools/iiif.py F-ss0e tiles OUTDIR [--canvas N] [--cols 2] [--rows 4] [--scale 2]
                                                       # cut canvas N into a grid of crops at native x scale
     python3 tools/iiif.py F-ss0e crop OUTDIR x,y,w,h [--canvas N] [--scale 2]
+    python3 tools/iiif.py F-ss0e cache                # every canvas at native size into the image cache
+
+The image cache is $FRAGMENTARIUM_IMAGE_DIR or ~/.cache/fragmentarium/images, one folder per
+record, shared with acquire_batch.py. Libraries go offline (hacks, upgrades, bot blocking), so cache a
+record's canvases when you start work on it: overview, tiles and crop then cut from the cached native
+image when Pillow is available, and still work while the library is down. The cache is never part
+of the repository.
 
 Quirks handled: Ghent (adore.ugent.be, libcatalog.ugent.be) manifests point at dead URLs and the working base is the
 ExLibris service id inside the canvas; BnF manifests give gallica.bnf.fr/iiif addresses, which
@@ -21,6 +28,7 @@ Standard library only.
 """
 import base64
 import json
+import os
 import re
 import sys
 import urllib.parse
@@ -138,9 +146,33 @@ def resolve_duplicates(bases, sizes, probe=image_size):
     return bases, notes
 
 
+def cache_dir():
+    return Path(os.environ.get("FRAGMENTARIUM_IMAGE_DIR")
+                or Path.home() / ".cache" / "fragmentarium" / "images").expanduser()
+
+
+def cached(fid, i, c):
+    """Path of canvas i's native image in the cache, or None."""
+    if not c.get("w"):
+        return None
+    p = cache_dir() / fid / f"canvas-{i}-w{c['w']}.jpg"
+    return p if p.exists() else None
+
+
 def manifest(fid):
+    """The record's manifest, saved in the cache; the saved copy is used when Fragmentarium is unreachable."""
     u = f"https://fragmentarium.ms/metadata/iiif/{fid}/manifest.json"
-    return json.loads(get(u))
+    saved = cache_dir() / fid / "manifest.json"
+    try:
+        data = get(u)
+    except Exception:
+        if saved.exists():
+            print(f"warning: manifest unreachable; using the cached copy {saved}", file=sys.stderr)
+            return json.loads(saved.read_text())
+        raise
+    saved.parent.mkdir(parents=True, exist_ok=True)
+    saved.write_bytes(data)
+    return json.loads(data)
 
 
 def canvases(fid):
@@ -189,6 +221,30 @@ def fetch(url, path):
     return len(data)
 
 
+def local(src, box, width, path):
+    """Cut native box (x, y, w, h) from a cached image at `width` pixels wide; False without Pillow."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return False
+    Image.MAX_IMAGE_PIXELS = None
+    x, y, w, h = box
+    with Image.open(src) as im:
+        im.crop((x, y, min(x + w, im.size[0]), min(y + h, im.size[1]))).resize(
+            (width, max(1, round(h * width / w))), Image.LANCZOS).save(path, quality=92)
+    return Path(path).stat().st_size
+
+
+def region(fid, i, c, box, width, path):
+    """Bytes written for a region of canvas i: from the cache when possible, else from the library."""
+    src = cached(fid, i, c)
+    n = local(src, box, width, path) if src else False
+    if n:
+        return n
+    x, y, w, h = box
+    return fetch(f"{c['base']}/{x},{y},{w},{h}/{width},/0/{c['ext']}", path)
+
+
 def main(argv):
     if len(argv) < 2:
         sys.exit(__doc__)
@@ -202,9 +258,29 @@ def run(fid, cs, cmd, argv, opts, args):
     """Carry out one command on a list of canvases; `fid` names the output files."""
     if cmd == "info":
         for i, c in enumerate(cs):
-            print(i, c["label"], c["w"], "x", c["h"], c["base"][:100])
+            print(i, c["label"], c["w"], "x", c["h"], c["base"][:100], "(cached)" if cached(fid, i, c) else "")
             if c["note"]:
                 print("   ", c["note"])
+        return
+    if cmd == "cache":
+        folder = cache_dir() / fid
+        folder.mkdir(parents=True, exist_ok=True)
+        failed = False
+        for i, c in enumerate(cs):
+            if not usable(i, c) or not c["w"]:
+                failed = failed or bool(c["note"])
+                continue
+            p = folder / f"canvas-{i}-w{c['w']}.jpg"
+            if p.exists():
+                print(p, "already cached")
+                continue
+            try:
+                print(p, fetch(f"{c['base']}/full/{c['w']},/0/{c['ext']}", p), "bytes")
+            except Exception as e:
+                failed = True
+                print(f"canvas {i} not cached: {e}", file=sys.stderr)
+        if failed:
+            sys.exit(2)
         return
     out = Path(args[0])
     out.mkdir(parents=True, exist_ok=True)
@@ -216,7 +292,9 @@ def run(fid, cs, cmd, argv, opts, args):
         for i in sel:
             c = cs[i]
             p = out / f"{fid}_c{i}_overview.jpg"
-            print(p, fetch(f"{c['base']}/full/1600,/0/{c['ext']}", p), "bytes")
+            src = cached(fid, i, c)
+            n = local(src, (0, 0, c["w"], c["h"]), 1600, p) if src else False
+            print(p, n or fetch(f"{c['base']}/full/1600,/0/{c['ext']}", p), "bytes")
     elif cmd == "tiles":
         cols, rows = int(opts.get("cols", 2)), int(opts.get("rows", 4))
         for i in sel:
@@ -229,14 +307,14 @@ def run(fid, cs, cmd, argv, opts, args):
                 for k in range(cols):
                     x, y = k * tw, r * th
                     p = out / f"{fid}_c{i}_r{r}c{k}.jpg"
-                    n = fetch(f"{c['base']}/{x},{y},{tw},{th}/{int(tw * min(scale, c['max_scale']))},/0/{c['ext']}", p)
+                    n = region(fid, i, c, (x, y, tw, th), int(tw * min(scale, c['max_scale'])), p)
                     print(p, n, "bytes")
     elif cmd == "crop":
         x, y, w, h = (int(v) for v in args[1].split(","))
         for i in sel:
             c = cs[i]
             p = out / f"{fid}_c{i}_{x}_{y}_{w}x{h}.jpg"
-            print(p, fetch(f"{c['base']}/{x},{y},{w},{h}/{int(w * min(scale, c['max_scale']))},/0/{c['ext']}", p), "bytes")
+            print(p, region(fid, i, c, (x, y, w, h), int(w * min(scale, c['max_scale'])), p), "bytes")
     else:
         sys.exit(__doc__)
     if skipped:
