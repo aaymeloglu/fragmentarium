@@ -1,10 +1,12 @@
-# F-v7a4: Mass book (probably a missal), readings for Monday after the first Sunday of Lent (Ez 34:11-14, Mt 25:31-35) and Monday after Reminiscere (Jn 8:22-24)
+# F-v7a4 host volume: uncatalogued Mass-book leaf (probably a missal), readings for Monday after the first Sunday of Lent (Ez 34:11-14, Mt 25:31-35) and Monday after Reminiscere (Jn 8:22-24)
+
+The Fragmentarium record F-v7a4 is the sixteenth-century music fragment under the back pastedown, catalogued by a project that described only fragments with musical notation. That fragment is not identified and has not been attempted here. This report concerns the parchment cover leaf and strip of the same volume, which have no catalogue record; it does not identify F-v7a4.
 
 The limp parchment cover of this volume is a leaf from a Mass book, probably a missal, written in two columns of gothic textualis. Its outer face carries the two readings of the Mass for Monday after the first Sunday of Lent (Feria II post Invocavit). The Epistle, Ezekiel 34:11-14, fills column a, and the Gospel, Matthew 25:31-35, fills column b; the first letter of verse 36 may survive under a loose flap. The bottom edge is folded over, and this turn-in shows the other face of the leaf: the end of the same Gospel (Matthew 25:46, "[ib]unt hy in supplicium eternum") and the opening of the next day's Epistle (Isaiah 55:6, "d(omi)n(u)m dum inueniri potest"). A rolled parchment strip inside the back cover carries John 8:22-24, the Gospel for Monday after the second Sunday of Lent (Reminiscere). The preceding column of the strip probably carries Daniel 9:17, that day's Epistle. The texts are the standard Vulgate pericopes, the passages of Scripture appointed to be read at Mass. What is identified is their place in the liturgical year and the kind of book, not a rare text.
 
-The [Fragmentarium record](https://fragmentarium.ms/overview/F-v7a4) is Ludwigsburg, Staatsarchiv Ludwigsburg, B 234 Bd. 12, titled "Unknown". The host volume is a Teutonic Order administrative book of 1540 (*Bericht und Unterweisung von wegen des Amts Neuhaus*, by Niklas Veh). The record describes only a music fragment visible under the pastedown of the back cover: probably paper, 16th century, at least 123 x 60 mm, white mensural notation on five lines, possibly instrumental music in score. The two images are labelled "Musikfragment_Textfragment_innen" and "Textfragment_aussen", but the description says nothing about either text fragment, their content or their date. The music is outside the scope of this report.
+The [Fragmentarium record](https://fragmentarium.ms/overview/F-v7a4) is Ludwigsburg, Staatsarchiv Ludwigsburg, B 234 Bd. 12, titled "Unknown". The host volume is a Teutonic Order administrative book of 1540 (*Bericht und Unterweisung von wegen des Amts Neuhaus*, by Niklas Veh). The record describes only a music fragment visible under the pastedown of the back cover: probably paper, 16th century, at least 123 x 60 mm, white mensural notation on five lines, possibly instrumental music in score. The two images are labelled "Musikfragment_Textfragment_innen" and "Textfragment_aussen", but the description says nothing about either text fragment, their content or their date. The music fragment is the catalogued object; this report does not treat it.
 
-- **Identification:** identified, high, for the readings and the Masses they belong to. The basis is sustained agreement, in wording and in sequence, with the pericopes as printed for these days in a missal of 1519.
+- **Identification of the uncatalogued leaf and strip** (not of F-v7a4): the readings and the Masses they belong to are placed with high confidence. The basis is sustained agreement, in wording and in sequence, with the pericopes as printed for these days in a missal of 1519.
   - On canvas 1, 32 lines were compared: Ezekiel 34:11b-14 and Matthew 25:31-35 (verse 36 only as a possible initial under a flap).
   - On canvas 0, 7 lines were compared: John 8:22-24.
   - Two differences of wording against the print were found. The manuscript has "in riuis in cunctis sedibus" where the print has "in riuis et in cunctis". It has "Vos deorsum estis" where the print has "Vos de deorsum estis".
@@ -25,7 +27,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-v7a4) is Ludwigsb
   - The hidden lower halves of the columns were not seen.
   - The Daniel attribution on the strip rests on five partial line-ends.
   - No other missal or lectionary was collated.
-  No human review.
+  A Fragmentarium editor reviewed the record in October 2026, agreed the leaf looks like a missal, and confirmed that F-v7a4 is the music fragment and the missal leaf is uncatalogued.
 
 ## Textual evidence
 

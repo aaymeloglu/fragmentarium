@@ -1,21 +1,21 @@
-# F-kcu7: Anonymous, *Compilationes supra Summulas Petri Hispani* ("Omnes homines") or a close derivative, on Tracts IX-XI
+# F-kcu7: a literal commentary on Peter of Spain, Tracts IX-XI, close to the anonymous *Compilationes supra Summulas Petri Hispani* ("Omnes homines")
 
-The two strips carry the anonymous *Compilationes supra Summulas Petri Hispani*, or a close derivative of it. This is a thirteenth-century gloss commentary on Peter of Spain's *Tractatus* (later called *Summule logicales*), the standard logic textbook, and it opens "Omnes homines natura scire desiderant". The strips carry its *divisio textus*, the outline in which a commentator divides the text into parts and cites each part by its opening words. That outline covers Tract IX (*De ampliationibus*), Tract X (*De appellationibus*) and Tract XI (*De restrictionibus*), numbered as in de Rijk's 1972 edition.
+The two strips carry a literal commentary on Peter of Spain whose front strip agrees closely with the anonymous *Compilationes supra Summulas Petri Hispani*. That work is a thirteenth-century gloss commentary on Peter of Spain's *Tractatus* (later called *Summule logicales*), the standard logic textbook, and it opens "Omnes homines natura scire desiderant". The strips carry its *divisio textus*, the outline in which a commentator divides the text into parts and cites each part by its opening words. That outline covers Tract IX (*De ampliationibus*), Tract X (*De appellationibus*) and Tract XI (*De restrictionibus*), numbered as in de Rijk's 1972 edition.
 
-The identification is of the work. Only one other copy was compared: Nuremberg, Germanisches Nationalmuseum, Hs 27773, written about 1260. The fragment's wording is fuller than that copy:
+Literal commentaries on the *Summulae* explain the plain sense of the same text and borrow from one another without saying so, so agreement in the outline of one strip does not settle the work. Only one other copy was compared: Nuremberg, Germanisches Nationalmuseum, Hs 27773, written about 1260. The fragment's wording is fuller than that copy:
 
 - The front strip follows it clause by clause but adds phrases such as "quia opposita iuxta se posita magis elucescunt".
 - It has "explanat" where Nuremberg has "exponit".
-- The back strip agrees with Nuremberg only in structure and in the opening words it cites.
+- The back strip agrees with Nuremberg only in structure; whether it cites the same opening words is doubtful.
 
-The fragment is therefore either an expanded or interpolated copy of the *Compilationes* or a close derivative of it. Comparison with Vienna, ÖNB, Cod. 2389, a copy that de Rijk reports as interpolated, could settle which.
+The fragment may be an expanded or interpolated copy of the *Compilationes*, a close derivative, or another commentary that borrows from it. Comparison with Vienna, ÖNB, Cod. 2389, a copy that de Rijk reports as interpolated, could settle which.
 
 The [Fragmentarium record](https://fragmentarium.ms/overview/F-kcu7) describes two parchment strips used as guards in Wien, Österreichische Nationalbibliothek, Cod. 3637, a Mondsee miscellany. The strips measure about 140 x 60 mm and are written in Northern Textualis. The record dates them 1251-1325 and places their origin in Germany or Austria. The record's title is "Commentarium super Petri Hispani summulas logicales". Ivana Dobcheva's description calls the text "Kommentar eines Textes wohl über Logik (unidentifiziert)". The reconstruction summary already located the base text and its cited opening words in de Rijk's edition, without naming the commentary. That location is correct, except that it assigns "Appellatio" (p. 197) to Tract IX, where de Rijk numbers it X. The description quotes "quae est oppositio ampliationis". The strip reads "que est opposita amplia-/tioni", "which is opposed to ampliation".
 
-- **Identification:** identified, high confidence, as the *Compilationes* or a close derivative of it. The agreement with the one copy compared is strong, but the fragment's fuller wording does not rule out a reworking, so it is not claimed to be the *Compilationes* in the text that copy transmits.
+- **Identification:** partial, medium confidence: a source connection with the *Compilationes*, not an identification of the work. The front strip's agreement with the one copy compared is strong, but it is not verbatim, the back strip does not share the copy's wording, and in this genre a parallel outline is expected between distinct commentaries. A Fragmentarium editor who reviewed the record in October 2026 judged the front-strip parallels strong but imperfect and found that the back strip does not have the same lemmata (the opening words of the text being explained).
   - **Diagnostic basis:** the front strip agrees with the Nuremberg copy (fol. 128ra) clause by clause, in the same order of parts and opening words. Both have "diffinitionem restrictionis que est opposita ampliationi", the definition of ampliation "ibi Ampliatio est", "prima dividitur in duas, primo ponit ampliationis unam distinctionem et declarat ... membra", "proponit sophisma et arguit ... probando et improbando" and "ponit distinctionem appellationis et eam ...". The back strip has the same sequence as Nuremberg's outline of the restriction tract: a sophisma (a puzzle sentence) at "Secundum predicta queritur", then "Solet autem poni".
   - **Differences:** the fragment's wording is fuller than this one copy. It adds "ut ... quid sit ampliatio, quia opposita iuxta se posita magis elucescunt" ("opposites placed side by side shine out more clearly"). It reads "explanat" against "exponit", and "ad suppositionem et ..." where Nuremberg has "ad significationem et suppositionem". The back strip is much longer than Nuremberg's outline and agrees with it only in structure and opening words.
-  - **What follows:** the fragment is an expanded or interpolated copy, or a close derivative. Only one witness was compared. De Rijk reports that the Vienna copy, ÖNB Cod. 2389, "contains a number of interpolations"; it was not consulted.
+  - **What follows:** the fragment is an expanded or interpolated copy, a close derivative, or a separate commentary drawing on it. Only one witness was compared. De Rijk reports that the Vienna copy, ÖNB Cod. 2389, "contains a number of interpolations"; it was not consulted.
   - **Alternatives considered:**
     - Guillelmus Arnaldi's *Lectura tractatuum*: its printed openings for ampliation and appellation are worded differently.
     - Simon of Faversham's commentary: it covers Tracts I-V only.
@@ -24,10 +24,10 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-kcu7) describes t
 - **Transcription:** an [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-kcu7/readings/batch-2026-10-14b-image-only.json) and a [source-assisted reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-kcu7/readings/batch-2026-10-14b-source-assisted.json). A research reader reread both strips on the image at reading size: the front strip, canvas 0, about 1420,1100-2620,2900, and the back strip, canvas 1, rotated, about 260,1000-1480,3000. The abraded left half of the front strip and the struck-through lines on the back remain uncertain. Lines under the leather turn-ins are unread. Accuracy has not been measured.
 - **Verification:** a research reader compared both strips with the page image of Nuremberg GNM Hs 27773, fol. 128ra-rb. The coordinator read the front strip, canvas 0, around native box 1420,1100-2620,2900 ("...ampliationis ibi Ampliatio est ... prima dividitur in duas, primo ponit ampliationis unam distinctionem et declarat ... membra, secundo ponit aliam ibi Non solum autem"), against Nuremberg GNM Hs 27773 fol. 128ra (dlib.gnm.de page image), and found clause-by-clause agreement. Gaps:
   - Only one witness was compared. Vienna Cod. 2389 and Munich Clm 6905 were not collated, and no other copy was consulted.
-  - The back strip was matched only in structure and opening words.
+  - The back strip was matched only in structure.
   - The covered lines are unread.
 
-  No human review.
+  A Fragmentarium editor reviewed the comparison in October 2026 (see Identification).
 
 ## Textual evidence
 

@@ -2179,10 +2179,10 @@
   "catalogue_date": "1401 – 1500 CE",
   "status": "identified",
   "confidence": "high",
-  "identification": "Psalms 149:1-4 and 149:8-150:3 in Geert Grote's Middle Dutch translation (as in his Getijdenboek, ed. Van Wijk 1940, pp. 46-47), on each of two leaves; probably a book of hours, kind of book and unity of the leaves not established",
-  "note": "On three of four faces the surviving middle of ten to twelve consecutive lines agrees in wording and order with Psalms 149-150 in Van Wijk's edition of Grote's hours ('die dochteren van [Syon hoghe vr]ouwen', '[eendrachtigh]en versamenden sa[nghe]', 'en die sachtmo[dighen]', '[hei]lighen louet de[n] / te sinre crachte[n] / crachten louet'); the psalter of the 1360 Bible translation words the same verses differently and is excluded. A research reader reread those lines on enlargements of the low-resolution native images with the source beside them and compared them with the DBNL transcription of the edition and Google Books snippets, not page images; the coordinator read fol. [2]r lines 6-12 and fol. [2]v lines 6-11 and agrees. Differences are dialectal (hem, wel, -voudicheit for the edition's oen/sich, wal, -uoldicheit). Whether the two leaves come from one codex is open, and Grote's psalms also circulated in complete psalters (Van den Berg 1942, p. 262), so a book of hours is probable, not shown; BNM-I was unreachable (login), and the Fragmentarium and MMFC records list no literature. No human review.",
+  "identification": "Psalms 149:1-4 (recto) and 149:8-150:3 (verso) in Geert Grote's Middle Dutch translation (as in his Getijdenboek, ed. Van Wijk 1940, pp. 46-47), on one leaf cut lengthwise; book of hours or psalter not established",
+  "note": "The four strips are one leaf: the pieces imaged as fol. [1] and fol. [2] hold the two halves of the same lines (recto line 7 '[s]yon hogh[e]' + '[vr]ouwen hem in hore[n]'; verso line 7 'lighen louet de[n]' + 'in den firmamen[te]'), against the catalogue's 'parts of two different leaves'. The surviving lines agree in wording and order with Psalms 149-150 in Van Wijk's edition of Grote's hours; the psalter of the 1360 Bible translation words the same verses differently and is excluded. A research reader reread the lines on enlargements of the low-resolution native images with the source beside them and compared them with the DBNL transcription of the edition and Google Books snippets, not page images; the coordinator read fol. [2]r lines 6-12 and fol. [2]v lines 6-11. Differences are dialectal. Grote's psalms circulated in books of hours and complete psalters, and nothing on the leaf decides between them; BNM-I was unreachable (login). A Fragmentarium editor reviewed it in October 2026: text confirmed, one leaf; the join was then checked against the existing readings, not new images.",
   "verify": "https://www.dbnl.org/tekst/grot001geti01_01/grot001geti01_01_0008.php",
-  "examined": "2026-10-12",
+  "examined": "2026-10-29",
   "identified_on": "2026-10-12"
  },
  {
@@ -2502,10 +2502,10 @@
   "catalogue_date": "1301 – 1350 CE",
   "status": "identified",
   "confidence": "high",
-  "identification": "Justinian, Codex 7.62.31-32 (De appellationibus), with marginal gloss; second strip probably C. 7.65.8",
-  "note": "Strip [1] recto has five consecutive line ends of C. 7.62.31 pr. and the verso four of five line beginnings of C. 7.62.32.1-1a, one column later, read by a research reader on the images and compared with page images of Krueger 1877, the Leipzig 1831 edition and a glossed Paris 1559 edition; the coordinator read the key words on both faces. Only spelling differences were seen; verso line 3 could not be confirmed. Strip [2] recto probably has C. 7.65.8 (two pieces, with an unexplained blank between them) and its verso is not placed. The gloss is too rubbed to identify; the Accursian gloss at this point is compatible with the one clear word, spectabil-.",
+  "identification": "Justinian, Codex 7.62.31-32 (De appellationibus), with marginal gloss, on strip [1]; strip [2] from the same leaf, not placed",
+  "note": "Strip [1] recto has five consecutive line ends of C. 7.62.31 pr. and the verso four of five line beginnings of C. 7.62.32.1-1a, one column later, read by a research reader on the images and compared with page images of Krueger 1877, the Leipzig 1831 edition and a glossed Paris 1559 edition; the coordinator read the key words on both faces. Only spelling differences were seen; verso line 3 could not be confirmed. Strip [2] comes from the same leaf, so the earlier placement of two pieces on its recto at C. 7.65.8, some six columns later, is withdrawn; they may be gloss. A Fragmentarium editor reviewed it in October 2026: strip [1] text confirmed; both strips one leaf; the reading took gloss for main text and missed citations interleaved with it. The gloss is too rubbed to identify; the Accursian gloss at this point is compatible with the one clear word, spectabil-.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb11358155?page=202",
-  "examined": "2026-10-12",
+  "examined": "2026-10-29",
   "identified_on": "2026-10-12"
  },
  {
@@ -4134,13 +4134,13 @@
   "shelfmark": "Cod. 3637",
   "catalogue_title": "Commentarium super Petri Hispani summulas logicales",
   "catalogue_date": "1251 – 1325 CE",
-  "status": "identified",
-  "confidence": "high",
-  "identification": "Anonymous, Compilationes supra Summulas Petri Hispani ('Omnes homines') or a close derivative, divisio textus on Tracts IX-XI (de Rijk 1972 numbering); wording fuller than the Nuremberg copy",
-  "note": "The front strip agrees clause by clause with the Compilationes' divisio of Peter of Spain's Tracts IX-X in Nuremberg GNM Hs 27773, fol. 128ra. The back strip shares only the structure and lemmata of its Tract XI outline (sophisma at 'Secundum predicta queritur', then 'Solet autem poni'). A research reader compared both strips with the Nuremberg page image, and the coordinator found clause-by-clause agreement for the front strip (canvas 0, box 1420,1100-2620,2900, against fol. 128ra). The fragment's wording is fuller: it adds 'quia opposita iuxta se posita magis elucescunt' and reads 'explanat' for 'exponit', so it is an expanded or interpolated copy or a close derivative. Only one witness was compared; Vienna ÖNB Cod. 2389, reported by de Rijk as interpolated, could settle the redaction.",
+  "status": "partial",
+  "confidence": "medium",
+  "identification": "Literal commentary on Peter of Spain, divisio textus on Tracts IX-XI (de Rijk 1972 numbering); front strip close to the anonymous Compilationes supra Summulas Petri Hispani ('Omnes homines') in Nuremberg GNM Hs 27773; the work is not established",
+  "note": "The front strip follows the Compilationes' divisio of Tracts IX-X in Nuremberg GNM Hs 27773, fol. 128ra, clause by clause but not verbatim: it adds 'quia opposita iuxta se posita magis elucescunt' and reads 'explanat' for 'exponit'. The back strip shares only the structure of the Tract XI outline. Literal commentaries on the Summulae borrow from one another without acknowledgement, so this is a source connection, not an identification of the work. A Fragmentarium editor reviewed it in October 2026: front-strip parallels strong but imperfect, back strip without the same lemmata. Only one witness was compared; Vienna ÖNB Cod. 2389, reported by de Rijk as interpolated, could help settle the relation (manuscripta.at was down at the time of review). Stopped pending that witness.",
   "verify": "https://dlib.gnm.de/item/Hs27773/258",
-  "examined": "2026-10-14",
-  "identified_on": "2026-10-14"
+  "examined": "2026-10-29",
+  "identified_on": null
  },
  {
   "id": "F-bb5g",
@@ -4305,13 +4305,13 @@
   "shelfmark": "B 234 Bd. 12",
   "catalogue_title": "Unknown",
   "catalogue_date": "1501 – 1600 CE",
-  "status": "identified",
-  "confidence": "high",
-  "identification": "Mass book, probably a plenary missal: Mass readings for Monday after the first Sunday of Lent (Epistle Ez 34:11-14, Gospel Mt 25:31-35; turn-in Mt 25:46 and Tuesday Epistle Is 55:6) and, on a strip, Gospel for Monday after Reminiscere (Jn 8:22-24)",
-  "note": "The parchment cover leaf (canvas 1) carries the Epistle and Gospel for Feria II post Invocavit, and the turn-in shows the end of that Gospel and the opening of Tuesday's Epistle. The rolled strip (canvas 0) carries John 8:22-24 for Feria II post Reminiscere, with Daniel 9:17 probable in the preceding column. A research reader collated 39 lines with page images of the 1519 Teutonic Order missal (fols. XXVII, XXXIIII), and the coordinator checked canvas 1 col. b lines 1-5 and the placement on scan 91. The texts are standard Vulgate pericopes, so this is a liturgical placement, not a rare text. The manuscript omits 'et' in Ez 34:13 and 'de' in Jn 8:23. The use (rite) is open, the strip is not shown to be from the same book, and a plenary missal is preferred over a lectionary only from the column spacing. The catalogue describes only the 16th-century music fragment, which is out of scope.",
+  "status": "unidentified",
+  "confidence": "none",
+  "identification": "The catalogued object, a 16th-century music fragment in white mensural notation, is not identified and was not attempted. The uncatalogued parchment cover leaf and strip of the same volume are a Mass book, probably a plenary missal: Feria II post Invocavit (Ez 34:11-14, Mt 25:31-35; turn-in Mt 25:46 and Is 55:6) and Feria II post Reminiscere (Jn 8:22-24)",
+  "note": "The record was catalogued by a project that described only fragments with musical notation, so F-v7a4 is the music fragment; the missal leaf has no catalogue record, as a Fragmentarium editor confirmed in October 2026. The work on the missal leaf stands as a note on the host volume: a research reader collated 39 lines with page images of the 1519 Teutonic Order missal (fols. XXVII, XXXIIII), and the coordinator checked canvas 1 col. b lines 1-5 and the placement on scan 91. The music fragment is open.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb10197441?page=91",
-  "examined": "2026-10-17",
-  "identified_on": "2026-10-17"
+  "examined": "2026-10-29",
+  "identified_on": null
  },
  {
   "id": "F-psr5",
