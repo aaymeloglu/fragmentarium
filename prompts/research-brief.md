@@ -97,11 +97,6 @@ Claim only what the comparison shows:
   with a specific text and locus that you compared yourself. A source, a base
   text or a genre is "partial". Otherwise "unidentified". Never upgrade a result
   to make it publishable.
-- Before calling a result identified, reread your own limits and
-  unexplained observations. Text on an object other than the catalogued one
-  does not identify the record. A piece matched only in outline, or placed
-  only by leaving an anomaly unexplained, is not claimed; the verdict rests on
-  what remains.
 - Agreement of catalogue records (same owner, same sale, similar size) makes a
   candidate, not an identification.
 - Differences from a printed edition (spelling, omissions, better readings) do
