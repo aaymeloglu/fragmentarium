@@ -2,7 +2,7 @@
 
 This parchment sheet in the archive of the Cistercian abbey of Stams is an unfinished exemplar of an imperial grant of arms. Emperor Rudolf II grants Georg Jäger, as father of the reigning abbot of Stams, together with his legitimate heirs and their heirs forever, a coat of arms with the Lehenartikel (the clause admitting the bearers to the status of persons capable of holding fiefs). The arms: a narrow bend of white and red lozenges set "Sachsweis"; a tilting helm with mantling blue and white on the left and red and white on the right; as crest a white greyhound with a gilded collar, springing. The dating clause gives the 26th year of Rudolf's Roman reign and, probably, the year 1601; the register of grants dates the act Prague, 18 June 1601.
 
-The same grant survives at Stams on a second unfinished sheet in another hand and wording, [F-fc4z](https://fragmentarium.ms/overview/F-fc4z) (Frg. 202), which keeps the place and a reading of the day. The two records carry one act.
+The same grant survives at Stams on a second unfinished sheet in another hand and wording, [F-fc4z](https://fragmentarium.ms/overview/F-fc4z) (Frg. 202), which keeps the place and the month. The two records carry one act.
 
 The [Fragmentarium record](https://fragmentarium.ms/overview/F-pqjj) is Stams, Stiftsarchiv, Frg. 201, catalogued as "Deed", German, Prague, 1601, 361 x 291 mm, removed from the Urbar STB VIII/21.
 
@@ -44,7 +44,7 @@ Box `2400,4100,3700,320` ([image](https://fragmentarium.ms/loris/F-pqjj/Stams_ST
 
 ### Dating
 
-Rudolf II was elected King of the Romans on 27 October 1575, and his chancery counted the Roman regnal years from the election, so the 26th Roman year ran from 27 October 1600 to 26 October 1601. The probable year in words, 1601, falls in it. Place, day and month are supplied from Frank: Prague, 18 June 1601. F-fc4z, the other exemplar, reads Prague and a day and month consistent with that date.
+Rudolf II was elected King of the Romans on 27 October 1575, and his chancery counted the Roman regnal years from the election, so the 26th Roman year ran from 27 October 1600 to 26 October 1601. The probable year in words, 1601, falls in it. Place, day and month are supplied from Frank: Prague, 18 June 1601. F-fc4z, the other exemplar, reads Prague and June; its day is illegible.
 
 ### Comparison
 
@@ -55,7 +55,7 @@ Rudolf II was elected King of the Romans on 27 October 1575, and his chancery co
 | Relationship | "Sohn: Melchior, Abt zu Stams in Tirol" | "der jetzt Regierender Abbt dess Gotzhaus Stambs" | "sein Sun Melchior [...] jetzt Regierender Abbt des Gotshaus Stambs" |
 | Act | "Wappen m. Lehenart." | arms, Lehenartikel in outline | arms, Lehenartikel in outline |
 | Place | Prag | illegible | Schloss zu Prag |
-| Date | 18. VI. 1601 | [1601](?), Roman year 26 | 18 or 14 June or July, Roman year 26 |
+| Date | 18. VI. 1601 | [1601](?), Roman year 26 | [day illegible] June, Roman year 26 |
 
 The two sheets agree in the blazon wording but differ in spelling and phrasing throughout ("Gotzhaus"/"Gotshaus", "Steechhelm, die Linckhen mit blaw"/"auf dem Schildt ain Stechhelm, zur Linckhen mit blaw"), and their deletions fall in different places. Neither is a copy of the other.
 
