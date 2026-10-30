@@ -5,6 +5,7 @@
 | `first-reading.md` | every reader, inside its packet as `PROMPT.md` | how to read and what to return |
 | `reader-brief.md` | an isolated reader session | which packets to read and where to write |
 | `research-brief.md` | a research session | how to find and prove an identification |
+| `document-brief.md` | a research session on deeds, charters, letters or grants | the regest, dating, and where such acts are recorded |
 | `report-brief.md` | the research session that made an identification | the public report and its files |
 
 Words in angle brackets (`<checkout>`, `<cache>`, `<responses>`, `<evidence>`,

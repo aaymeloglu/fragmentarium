@@ -59,6 +59,17 @@ identified. If one piece or face is matched only in outline, or its placement
 needs an anomaly the report leaves unexplained, withdraw the claim for that
 piece; the record keeps its status only on what remains.
 
+### Archival documents
+
+For a deed, charter, letter or grant the identification is the document's
+regest: issuer, addressee or beneficiary, legal action, place and date, read on
+the image. **Identified** needs that regest plus an independent record of the
+same act (an edition, a printed or online regest, an inventory entry or another
+copy) agreeing in issuer, date and substance. A complete regest without such a
+record is **partial**. A sheet carrying several documents is reported per
+document. A transcription attached to the catalogue record is the same object,
+not an independent record.
+
 ## Publication
 
 Publish only entries with `status: identified` and `confidence: high`. The site

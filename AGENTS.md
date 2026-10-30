@@ -74,6 +74,8 @@ Where to begin, by request:
   sizes, and makes contact sheets. If the latest `data/unidentified-*.csv` is
   months old, offer to refresh it with `tools/sweep.py` first.
 - **A batch**: [prompts/README.md](prompts/README.md).
+- **Archival documents** (deeds, charters, letters, grants): research with
+  [prompts/document-brief.md](prompts/document-brief.md) instead of the research brief.
 
 An independent first reading needs a separate session or subagent that sees
 only the images ([FIRST_READINGS.md](FIRST_READINGS.md)). If your agent cannot
