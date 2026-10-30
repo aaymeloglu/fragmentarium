@@ -40,9 +40,13 @@ carry the same grant of arms. All five records are recorded as identified.
 
 The pilot was first reported with three documents as partial (F-jlq7 doc. 2,
 F-xyan, F-d3a1): in each the text is read but one element is lost or
-uncertain (a burnt dating clause, one surname). A Fragmentarium editor,
-asked whether documents read in full should count as identified, replied on
-30 October 2026 approving the pilot. On that basis the rule in CONVENTIONS "Archival documents" now states that a single uncertain or lost
+uncertain (a burnt dating clause, one surname). A Fragmentarium editor
+reviewed the pilot on 30 October 2026 and noted that documentary and
+liturgical fragments have a very local context, so that "even partial
+identifications will help". Unlike the medium-confidence partials for
+literary texts, none of these partials appears to be a false positive:
+in each the uncertainty is one element, not the identity of the act. The rule in
+CONVENTIONS "Archival documents" therefore states that a single uncertain or lost
 element is reported in the regest and does not make the result partial when
 the rest of the text is read securely; partial is kept for documents whose
 action or parties cannot be established or whose text is largely unread.
