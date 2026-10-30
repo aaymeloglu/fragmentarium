@@ -4691,7 +4691,8 @@
   "note": "Regests read on the image (01v); document 1 agrees with Chmel, Regesta Friderici III, Anhang 65, and document 3 with Chmel, Materialien I/2 no. CLXXIV, pp. 354-355; document 2 matches Schober no. 17 and RI XIV/4 on issuer and action. Supplied from Chmel: document 1's feast, year and mediator, and document 3's year; document 2's issuer's name (under tape) and its dating clause are lost.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb10000084?page=358",
   "examined": "2026-10-30",
-  "identified_on": "2026-10-29"
+  "identified_on": "2026-10-29",
+  "document": true
  },
  {
   "id": "F-pqjj",
@@ -4710,7 +4711,8 @@
   "note": "Beneficiary, the abbot clause, the blazon and the 26th Roman regnal year are read; the year 1601 is probable. Issuer's name, place, day and month are illegible, so Prague and 18 June come from Frank, Standeserhebungen 2 (snippet only). The blazon and parties agree with F-fc4z.",
   "verify": "https://books.google.com/books?id=s-dMAQAAIAAJ&q=%22J%C3%A4ger,+Georg%22",
   "examined": "2026-10-30",
-  "identified_on": "2026-10-29"
+  "identified_on": "2026-10-29",
+  "document": true
  },
  {
   "id": "F-fc4z",
@@ -4729,7 +4731,8 @@
   "note": "Parties, act, Prague and the 26th Roman regnal year are read on the image. Day and month are uncertain on the sheet (18 or 14, June or July), so 18 June is supplied from Frank, Standeserhebungen 2 (1970), seen only as a Google Books snippet. The field for the arms is blank and there is no seal: probably a draft or rejected fair copy.",
   "verify": "https://books.google.com/books?id=s-dMAQAAIAAJ&q=%22J%C3%A4ger,+Georg%22",
   "examined": "2026-10-30",
-  "identified_on": "2026-10-29"
+  "identified_on": "2026-10-29",
+  "document": true
  },
  {
   "id": "F-xyan",
@@ -4748,7 +4751,8 @@
   "note": "Regest read on the image. The beneficiary's surname and a few words in the bounds are uncertain, and the ward is unnamed (Christof von Wolkenstein is a lead, not a reading). The catalogue's 1525 should be 1545; no outside record of the grant found.",
   "verify": "https://fragmentarium.ms/overview/F-xyan",
   "examined": "2026-10-30",
-  "identified_on": "2026-10-29"
+  "identified_on": "2026-10-29",
+  "document": true
  },
  {
   "id": "F-d3a1",
@@ -4767,6 +4771,7 @@
   "note": "Regest read on the image. The issuer's surname, the place in the dating clause and the rent amount are uncertain or illegible. It is a hereditary tenancy, not a legacy; host volume is incunable VIII/D-9 Nr. 143, as for F-b12f; no outside record of the act found.",
   "verify": "https://fragmentarium.ms/overview/F-d3a1",
   "examined": "2026-10-30",
-  "identified_on": "2026-10-29"
+  "identified_on": "2026-10-29",
+  "document": true
  }
 ]

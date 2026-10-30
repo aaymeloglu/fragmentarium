@@ -267,7 +267,7 @@ def build_burndown(done):
         r["priority"] = priority(r)
     rows.sort(key=lambda r: (-r["priority"], r["fragmentarium_id"]))
     n_done = sum(1 for r in rows if r["fragmentarium_id"] in done)
-    statuses = {"identified": "Identified", "examined": "Examined", "open": "Open"}
+    statuses = {"identified": "Identified", "partial": "Partial", "examined": "Examined", "open": "Open"}
     counts = {key: 0 for key in statuses}
     trs = []
     for r in rows:
@@ -277,6 +277,8 @@ def build_burndown(done):
             st, key = f'<a href="{fid}.html">Identified</a>', "identified"
         elif d and d.get("known_from"):
             st, key = 'Examined; already identified in the literature', "examined"
+        elif d and d["status"] == "partial":
+            st, key = 'Partial', "partial"
         elif d:
             st, key = 'Examined; not identified', "examined"
         else:
@@ -359,7 +361,8 @@ def build():
             f"<p><b>{html.escape(r['identification'])}</b></p>"
             f'<p>{html.escape(r["note"])}</p>'
             # A document with no outside record keeps the catalogue record as `verify`; it has no edition link.
-            + (f'<p><a href="{html.escape(r["verify"])}">Matching edition passage</a> · '
+            # An archival document's `verify` is a record of the act (edition, regest, register), not a passage.
+            + (f'<p><a href="{html.escape(r["verify"])}">{"Outside record" if r.get("document") else "Matching edition passage"}</a> · '
                if r["verify"] != r["record"] else "<p>")
             + f'<a href="{html.escape(r["record"])}">Manuscript images</a></p>'
             f'<p class="where">Identified <time datetime="{r["identified_on"]}">{r["identified_on"]}</time>.</p>'

@@ -156,7 +156,7 @@ create an assisted record without a base. The report states the missing
 independent evidence. Do not fabricate a base to satisfy the schema.
 
 `data/fragments.json` holds catalogue data, identification, note, status,
-identification confidence, links, order, identification date, and examination date. `docs/_build_site.py` renders the
+identification confidence, links, order, identification date, and examination date. An archival document's row carries `"document": true`; its `verify` link is a record of the act, shown as "Outside record", and is the catalogue record itself when no outside record exists. `docs/_build_site.py` renders the
 site; CI checks record preservation, data consistency, and generated pages.
 
 When outreach is explicitly requested, use Fragmentarium's catalogue field names
