@@ -21,14 +21,14 @@ documents.
 | F-2ma4 (Frg. 234) | identified: ps.-Aristotle, *Secretum secretorum*, Philip of Tripoli's Latin |
 | F-53hg (Frg. 120) | partial: Latin medical treatise, chapter on fats; sources Galen and ps.-Galen, *Ad Paternianum* |
 | F-icm6 (Frg. 162) | unidentified: German prose on the Eucharist and the nine choirs of angels |
-| F-5z6w (Frg. 113) | identified: noted breviary, Good Friday to Holy Saturday Matins; rubrics agree with the papal-court Ordinal |
+| F-5z6w (Frg. 113) | identified: noted breviary, Good Friday to Holy Saturday Matins; use not established |
 | F-x6cz (Frg. 134) | identified: noted hymnal, probably Cistercian; Common hymns and Passion hymns |
 | F-1vn7 (Frg. 107) | identified: offices of St Kunigunde and of the canonization of St Henry |
 | F-udt0 (Frg. 216) | identified: Matins of the Office of the Crown of Thorns, monastic arrangement |
-| F-j6yr (Frg. 196) | identified: sale of a rent by Abbot Pelagius of Stams to Ludwig von Brunnenstain, Michaelmas [1539] |
+| F-j6yr (Frg. 196) | identified: sale of a rent by Abbot Pelagius of Stams to Ludwig von Brunnenstain, Michaelmas, probably [1539] |
 | F-s0lp (Frg. 49) | identified: Tyrolean fief letter of Ferdinand I for Hans Veit von Annenberg, [1527-1564] |
 | F-t6yk (Frg. 177) | identified: two documents of Bishop Georg of Brixen to his clergy, [1529] |
-| F-mgy1 (Frg. 226) | identified: sale of a rye rent by the abbot and convent of Stams to Hans Vöhlin and Anton Welser, 27 April [14]92 |
+| F-mgy1 (Frg. 226) | identified: sale of a rye rent by the abbot and convent of Stams to Hans Vöhlin and Anton Welser, probably 27 April [14]92 |
 
 ## Process
 
