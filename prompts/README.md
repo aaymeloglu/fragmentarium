@@ -32,6 +32,9 @@ One batch, in order:
 2. `tools/acquire_batch.py`, then `tools/register.py`.
 3. `tools/tilepacket.py`; one fresh session per few packets with
    `reader-brief.md`.
+   Where a record's images carry a modern transcription or a pencilled
+   identification, mask it in the spec (see `tilepacket.py --help`) so the
+   overviews do not show it to the reader.
 4. `tools/readings.py freeze-batch`, commit, and only then start research.
 5. Research sessions with `research-brief.md`, one to three records each. Stop
    a session that has no candidate to test after about half an hour. Send a
@@ -39,5 +42,10 @@ One batch, in order:
    the candidates to read on the page.
 6. For each proposed identification, the coordinator reads one matched passage
    on the manuscript image and, where there is one, the source's page image.
+   For an archival document, also give the report's word-check crops (the
+   dating clause and the names the regest rests on) to a fresh reader with no
+   transcription and only the listed neutral questions. Reread every
+   disagreement and correct the reading or mark it uncertain. A checker who
+   has the report open tends to confirm its readings of single words.
 7. `report-brief.md` for those that hold; `tools/record.py` for every record;
    rebuild the site; write the batch note in `audits/`.

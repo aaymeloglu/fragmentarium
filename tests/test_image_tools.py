@@ -338,6 +338,23 @@ def test_tilepacket_mirrors_offset_tiles(tmp_path):
     assert "mirrored left to right" in out["sources"][1]
 
 
+def test_tilepacket_masks_modern_additions_in_overview_and_tiles(tmp_path):
+    np = pytest.importorskip("numpy")
+    Image = pytest.importorskip("PIL.Image")
+    tp = load("tilepacket")
+    cache = tmp_path / "cache" / "F-test"
+    cache.mkdir(parents=True)
+    Image.fromarray(np.full((40, 60, 3), 255, dtype=np.uint8)).save(cache / "canvas-0-w60.jpg", quality=100)
+    (cache / "acquisition.json").write_text(json.dumps({"sources": [{"source": "https://example.org/i", "label": "1r"}]}))
+    out = tp.build("F-test", [[0, [0, 0, 1, 1], 1, 1, 0]], str(tmp_path / "cache"), str(tmp_path / "work"),
+                   str(tmp_path / "packet"), 0.0, 100, mask=[[0, [0, 0, 0.5, 1]]])
+    for f in out["files"]:
+        im = np.asarray(Image.open(f).convert("L"), dtype=int)
+        half = im.shape[1] // 2
+        assert abs(im[:, :half - 2].mean() - 128) < 10 and im[:, half + 2:].mean() > 240
+    assert all("masked (modern additions) 0,0,30,40" in s for s in out["sources"])
+
+
 def test_image_cache_serves_crops_and_manifest_when_library_is_offline(tmp_path, monkeypatch):
     Image = pytest.importorskip("PIL.Image")
     iiif = load("iiif")
