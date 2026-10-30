@@ -54,6 +54,14 @@ promise) chose twelve records across kinds for this first batch.
   correction. The independent check had been asked to reread the dating
   line and confirmed the wrong reading, so a check by a reader who already
   holds the report's transcription in view is weak on single words.
+- **Blind checks of the deeds.** Two fresh readers, given only crops and
+  neutral questions, read the year, names and places of F-8spe and F-gtpi.
+  They confirm F-8spe's "Funffundvierzigisten" (1545), "Bernhar[d]", Georg
+  Engl[...] and the Pfleger and judge of Imst, and F-gtpi's Abbot Paulus,
+  the Walthauserin, Johann[s], the son and daughter, Tartsch, and the
+  endorsement's Johannes, Petronella and Wilhalm. Both read a forename
+  Anthoni in F-gtpi line 3 where the reports had "anndern"; the report now
+  records a possible further co-recipient, unresolved.
 - **F-ag0c.** The researcher proposed partial; the checker proposed
   identified, scoped to *Audi tellus* on Frg. 7-11v and the added piece,
   where the Ubi strophes agree with AH on its page images. The expanded
