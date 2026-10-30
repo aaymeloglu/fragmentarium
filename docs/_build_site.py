@@ -336,8 +336,10 @@ def build():
             f'<p class="lede">{html.escape(r["institution"])} · catalogued as {html.escape(r["catalogue_title"])}, {html.escape(r["catalogue_date"])}</p>'
             f"<p><b>{html.escape(r['identification'])}</b></p>"
             f'<p>{html.escape(r["note"])}</p>'
-            f'<p><a href="{html.escape(r["verify"])}">Matching edition passage</a> · '
-            f'<a href="{html.escape(r["record"])}">Manuscript images</a></p>'
+            # A document with no outside record keeps the catalogue record as `verify`; it has no edition link.
+            + (f'<p><a href="{html.escape(r["verify"])}">Matching edition passage</a> · '
+               if r["verify"] != r["record"] else "<p>")
+            + f'<a href="{html.escape(r["record"])}">Manuscript images</a></p>'
             f'<p class="where">Identified <time datetime="{r["identified_on"]}">{r["identified_on"]}</time>.</p>'
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
