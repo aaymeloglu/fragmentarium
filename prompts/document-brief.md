@@ -44,7 +44,12 @@ it.
 Convert the dating clause yourself: `uv run python tools/feastdate.py YEAR
 "Montag vor Jacobi"` (Julian before 1583 by default). When the year is lost,
 regnal years can date the document (for an emperor, the Roman, Hungarian and
-Bohemian years); say how you counted them.
+Bohemian years); say how you counted them. Check the date against the
+document's own evidence: the titles it gives a ruler or official, offices held,
+people's lifetimes. A year read as 1525 in a document calling Ferdinand Roman,
+Hungarian and Bohemian king is wrong (he took those crowns in 1526 and 1531).
+Label every element of the regest that you supplied from a source instead of
+reading it.
 
 ## Searching
 
@@ -74,7 +79,8 @@ Never fetch books.google.com page or image addresses.
 
 ## Proving it
 
-Compare the record you find with your reading, side by side: issuer, date,
+An outside record corroborates the regest; it is not required (CONVENTIONS,
+"Archival documents"). Compare the record you find with your reading, side by side: issuer, date,
 place, beneficiary, substance, and wording where the record prints the text.
 Read page images where they exist and say when you had only snippets. For a
 copy without a year, choose between candidate acts by their content and say

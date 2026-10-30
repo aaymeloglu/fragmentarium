@@ -105,17 +105,17 @@ def norm(text):
 
 
 def feast(name, year, gregorian):
-    """JDN of the named feast in `year`."""
+    """JDN of the named feast in `year`. The name must be a known feast once articles and words such
+    as 'Sant', 'tag', 'unser lieben frawen' are dropped; anything left over is refused, not ignored."""
     key = norm(name)
     for table in (MOVABLE, FIXED):
-        for k in sorted(table, key=len, reverse=True):
-            if re.search(r"\b" + re.escape(k), key):
-                if table is MOVABLE:
-                    m, d = easter(year, gregorian)
-                    return jdn(year, m, d, gregorian) + MOVABLE[k], k
-                m, d = FIXED[k]
-                return jdn(year, m, d, gregorian), k
-    raise ValueError(f"unknown feast: {name!r} (see Grotefend; add it to FIXED or MOVABLE)")
+        if key in table:
+            if table is MOVABLE:
+                m, d = easter(year, gregorian)
+                return jdn(year, m, d, gregorian) + MOVABLE[key], key
+            m, d = FIXED[key]
+            return jdn(year, m, d, gregorian), key
+    raise ValueError(f"unknown feast: {name!r} (read as {key!r}; see Grotefend, and add it to FIXED or MOVABLE)")
 
 
 def resolve(year, expr, gregorian=None):
@@ -129,7 +129,7 @@ def resolve(year, expr, gregorian=None):
         return n, n, key, gregorian
     day, rel, rest = match.groups()
     day = re.sub(r"^(an|am|des|dem)\s+", "", day.strip())
-    wanted = next((w for w, names in WEEKDAYS.items() if any(day.strip().startswith(x) for x in names)), None)
+    wanted = next((w for w, names in WEEKDAYS.items() if day in names or day[:-1] in names and day.endswith("s")), None)
     if wanted is None:
         raise ValueError(f"unknown weekday: {day!r}")
     f, key = feast(rest, year, gregorian)

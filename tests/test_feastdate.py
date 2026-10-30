@@ -46,3 +46,19 @@ def test_julian_round_trip():
     for n in range(2200000, 2300000, 997):
         for greg in (False, True):
             assert fd.jdn(*fd.from_jdn(n, greg), greg) == n
+
+
+def test_latin_ferias_are_matched_whole():
+    # feria iii must not be read as feria ii, nor feria vi as feria v
+    assert date(1454, "feria iii post Jacobi") == (1454, 7, 30)
+    assert date(1454, "Eritag nach Jacobi") == (1454, 7, 30)
+    assert date(1454, "feria ii post Jacobi") == (1454, 7, 29)
+    assert date(1454, "feria vi ante Jacobi") == (1454, 7, 19)
+    assert date(1454, "feria v ante Jacobi") == (1454, 7, 18)
+
+
+def test_unrecognised_words_are_refused():
+    import pytest
+    for expr in ("Montag vor Jacobi und Philippi", "Montagabend vor Jacobi", "feria iiii post Jacobi", "Jacobi minor"):
+        with pytest.raises(ValueError):
+            fd.resolve(1454, expr)
