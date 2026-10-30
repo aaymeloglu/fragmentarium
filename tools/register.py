@@ -18,6 +18,8 @@ import re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "fragments.json")
 PLACEHOLDER = "First reading preserved; source research not yet recorded."
+# Fragmentarium collection names that are placeholders, mapped to the holding archive.
+COLLECTIONS = {"Stams (Stealth Published)": "Stiftsarchiv"}
 
 
 def thumbnail(manifest, canvas=0):
@@ -47,7 +49,7 @@ def row(fid, cache, order, today):
         "thumbnail": thumbnail(m),
         "dimensions": md.get("Current Dimensions (in mm)", ""),
         "order": order,
-        "institution": ", ".join(x for x in (md.get("Location"), md.get("Collection Name")) if x),
+        "institution": ", ".join(x for x in (md.get("Location"), COLLECTIONS.get(md.get("Collection Name"), md.get("Collection Name"))) if x),
         "shelfmark": md.get("Shelfmark", ""),
         "catalogue_title": title,
         "catalogue_date": md.get("Date of origin", "not given"),
