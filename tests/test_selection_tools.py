@@ -188,3 +188,14 @@ def test_attached_transcriptions_are_listed_once_and_only_for_this_record():
             '<a href="/uploads/transcriptions/F-test/266/T.pdf">again</a>'
             '<a href="/uploads/transcriptions/F-other/1/X.pdf">other</a>')
     assert catalogue.attached_files('F-test', page) == ['https://fragmentarium.ms/uploads/transcriptions/F-test/266/T.pdf']
+
+
+def test_ri_search_needs_every_word_and_respects_dates(tmp_path):
+    import ri
+    rows = [{"identifier": "a", "start_date": "1446-04-02", "end_date": "1446-04-02", "locality_string": "Wien",
+             "summary": "Kg. F. nimmt die <em>Landschaft</em> Tirol zu Gnaden auf"},
+            {"identifier": "b", "start_date": "1451-08-17", "end_date": "1451-08-17", "locality_string": "Innsbruck",
+             "summary": "Hz. Sigmund bestätigt Tirol die Freiheiten"}]
+    assert [r["identifier"] for r in ri.search(rows, ["tirol", "landschaft"])] == ["a"]
+    assert [r["identifier"] for r in ri.search(rows, ["Tirol"], start="1450-01-01")] == ["b"]
+    assert [r["identifier"] for r in ri.search(rows, ["innsbruck"], end="1450-01-01")] == []

@@ -223,3 +223,29 @@ def test_record_updates_ledger_and_installs_only_clean_identifications(work):
                  out, 'b1', 'r', '2026-01-03')
     row = json.loads(ledger.read_text())[0]
     assert row['identified_on'] is None and row['verify'] == 'https://fragmentarium.ms/overview/F-test'
+
+
+def test_record_marks_documents_moves_thumbnail_and_keeps_report_in_place(work):
+    import record
+    root, args = work
+    ledger = root / 'data/fragments.json'
+    ledger.write_text(json.dumps([{'id': 'F-test', 'record': 'https://fragmentarium.ms/overview/F-test',
+                                   'manifest': 'https://fragmentarium.ms/metadata/iiif/F-test/manifest.json',
+                                   'thumbnail': 'https://x.org/back/full/240,/0/default.jpg',
+                                   'status': 'unidentified', 'confidence': 'none', 'identified_on': None}]))
+    cache = root / 'cache'
+    (cache / 'F-test').mkdir(parents=True)
+    canvas = lambda n: {'images': [{'resource': {'@id': f'https://x.org/{n}.jpg', 'service': {'@id': f'https://x.org/{n}'}}}]}
+    (cache / 'F-test/manifest.json').write_text(json.dumps({'sequences': [{'canvases': [canvas('back'), canvas('text')]}]}))
+    report = root / 'fragments/F-test/README.md'
+    report.parent.mkdir(parents=True, exist_ok=True)
+    report.write_text('# F-test: a deed\n')
+    result = {'status': 'identified', 'confidence': 'high', 'identification': 'a deed', 'note': 'n',
+              'report': '../fragments/F-test/README.md', 'document': True, 'thumbnail_canvas': 1}
+    record.apply(root, {'F-test': result}, root / 'data', 'b1', 'r', '2026-01-02', cache)
+    row = json.loads(ledger.read_text())[0]
+    assert row['document'] is True and row['thumbnail'] == 'https://x.org/text/full/240,/0/default.jpg'
+    assert report.read_text() == '# F-test: a deed\n'
+    record.apply(root, {'F-test': dict(result, document=False, thumbnail_canvas=None)}, root / 'data', 'b1', 'r',
+                 '2026-01-03', cache)
+    assert 'document' not in json.loads(ledger.read_text())[0]

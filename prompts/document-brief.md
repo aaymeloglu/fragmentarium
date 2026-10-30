@@ -56,13 +56,18 @@ reading it.
 Search by issuer, date and beneficiary, then by distinctive phrases. Which
 sources can hold the act depends on its kind:
 
-- **Rulers, estates and Landtag acts:** Regesta Imperii online; Chmel's
+- **Rulers, estates and Landtag acts:** Regesta Imperii, searched offline with
+  `uv run python tools/ri.py search 'words' --from YYYY-MM-DD --to YYYY-MM-DD`
+  (the open-data export; `--part RI_alles` for every series; open hits at the
+  printed permalink); Chmel's
   editions (*Regesta Friderici III* with its Anhang, *Materialien zur
   österreichischen Geschichte*); for Tyrol, Schober, *Die Urkunden des
   Landschaftlichen Archivs zu Innsbruck* (1990), and Jäger's history of the
   Tyrolean estates.
 - **Grants of arms and nobility:** K. F. von Frank, *Standeserhebungen und
-  Gnadenakte*; the Austrian State Archives catalogue (archivinformationssystem.at).
+  Gnadenakte*; the Austrian State Archives catalogue (archivinformationssystem.at,
+  full-text search), which lists the Reichsadelsakten (AVA Adel RAA) by
+  beneficiary, often with images of the file.
   Frank's snippets name beneficiary, kind of grant, place and date.
 - **Private and seigneurial acts** (tenancies, fiefs, sales): local histories,
   regional archive finding aids, fief registers. These are rarely printed;
@@ -71,11 +76,24 @@ sources can hold the act depends on its kind:
 - **Full text:** the local search service (`/gb`, `/ia`) and
   `tools/mdzsearch.py` for nineteenth-century editions, which Google Books and
   the Internet Archive sometimes miss.
-- monasterium.net, Regesta Imperii and the Austrian State Archives refuse
-  scripted fetches. Use a browser if you have one; otherwise record them as
-  not checked, not as negative.
+- **Charters of the same house:** monasterium.net holds whole archives' charter
+  series with regests, among them the Stams abbey archive (fonds
+  `AT-StiAStams/Urkunden`); search it for the parties, places and year.
+- monasterium.net, the Regesta Imperii website and the Austrian State Archives
+  refuse scripted fetches. Use a browser if you have one; otherwise record them
+  as not checked, not as negative. Do not disguise a script as a browser.
 
 Never fetch books.google.com page or image addresses.
+
+## Crops for the word check
+
+A document's regest often rests on single words: the year in words, a day and
+month, a surname, a place. Reading them again with your transcription in view
+tends to confirm what you first read. Cut native crops of the dating clause and
+of each name the regest depends on into `<evidence>/<F-id>/wordcheck/`, and list
+them in your report with the question each answers ("what year is written",
+"which names appear"), without your reading. The coordinator gives them to a
+fresh reader.
 
 ## Proving it
 

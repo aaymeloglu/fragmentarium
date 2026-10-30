@@ -20,16 +20,22 @@ DATA = os.path.join(ROOT, "data", "fragments.json")
 PLACEHOLDER = "First reading preserved; source research not yet recorded."
 
 
-def row(fid, cache, order, today):
-    m = json.load(open(os.path.join(cache, fid, "manifest.json"), encoding="utf-8"))
-    md = {x["label"]: re.sub(r"<[^>]+>", "", str(x["value"])).strip() for x in m.get("metadata", [])}
-    image = m["sequences"][0]["canvases"][0]["images"][0]["resource"]
+def thumbnail(manifest, canvas=0):
+    """240-pixel thumbnail address of one canvas. Canvas 0 is often the back of a sheet, so
+    `record.py` can point the thumbnail at the text face with `thumbnail_canvas`."""
+    image = manifest["sequences"][0]["canvases"][canvas]["images"][0]["resource"]
     service = image.get("service", {}).get("@id")
     if service:
         native = "native" if "gallica.bnf.fr" in service else "default"
         thumb = f"{service}/full/240,/0/{native}.jpg"
     else:
         thumb = image["@id"]
+    return thumb.replace("http://", "https://")
+
+
+def row(fid, cache, order, today):
+    m = json.load(open(os.path.join(cache, fid, "manifest.json"), encoding="utf-8"))
+    md = {x["label"]: re.sub(r"<[^>]+>", "", str(x["value"])).strip() for x in m.get("metadata", [])}
     title = md.get("Title", "")
     if md.get("Subtitle"):
         title += " | " + md["Subtitle"]
@@ -38,7 +44,7 @@ def row(fid, cache, order, today):
         "id": fid,
         "record": record,
         "manifest": f"https://fragmentarium.ms/metadata/iiif/{fid}/manifest.json",
-        "thumbnail": thumb.replace("http://", "https://"),
+        "thumbnail": thumbnail(m),
         "dimensions": md.get("Current Dimensions (in mm)", ""),
         "order": order,
         "institution": ", ".join(x for x in (md.get("Location"), md.get("Collection Name")) if x),

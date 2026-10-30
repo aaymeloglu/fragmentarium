@@ -17,6 +17,12 @@ optional sixth item "mirror" flips the image left to right first, for an offset 
 transfer), so that the reader sees it the right way round. Aim
 for tiles of ten to twenty lines, one column wide. Tiles overlap their neighbours by --overlap.
 
+Where a record's images carry modern additions that name or transcribe the text (a typed
+transcription slip, a pencilled identification), the value may instead be
+    {"areas": [...as above...], "mask": [[canvas, [x0, y0, x1, y1]], ...]}
+and each masked box (fractions, as above) is painted grey in that canvas's overview and tiles.
+The source citations say which boxes were masked. Mask only such additions, never manuscript text.
+
 The mapping file keeps, for each fragment, the packet path, the tile files in packet order and
 one public source citation per image (IIIF URL, native box, rotation) ready for
 `readings.py freeze --image-source`. Keep the mapping and the cache away from the reader.
@@ -46,8 +52,8 @@ def grid(box, cols, rows, overlap=0.12):
     return out
 
 
-def build(fid, areas, cache, work, packet, overlap, overview):
-    from PIL import Image
+def build(fid, areas, cache, work, packet, overlap, overview, mask=()):
+    from PIL import Image, ImageDraw
     Image.MAX_IMAGE_PIXELS = None
     acq = json.load(open(os.path.join(cache, fid, "acquisition.json")))
     os.makedirs(work, exist_ok=True)
@@ -58,6 +64,14 @@ def build(fid, areas, cache, work, packet, overlap, overview):
         url, label = src["source"], src.get("label")
         im = Image.open(glob.glob(os.path.join(cache, fid, f"canvas-{canvas}-w*.jpg"))[0]).convert("RGB")
         w, h = im.size
+        masked = [m for c, m in mask if c == canvas]
+        for m in masked:
+            ImageDraw.Draw(im).rectangle((int(m[0] * w), int(m[1] * h), int(m[2] * w), int(m[3] * h)), fill=(128, 128, 128))
+        if masked:
+            note = "; masked (modern additions) " + ", ".join(
+                f"{int(m[0] * w)},{int(m[1] * h)},{int(m[2] * w)},{int(m[3] * h)}" for m in masked)
+        else:
+            note = ""
         how = ("mirrored left to right" if mirror else "") + (" and " if mirror and rot else "") + \
             (f"rotated {rot} degrees counterclockwise" if rot else "")
         if (canvas, rot, mirror) not in seen:
@@ -70,7 +84,7 @@ def build(fid, areas, cache, work, packet, overlap, overview):
             files.append(p)
             sources.append(f"{url} (canvas {canvas}, {label}): whole image {w}x{h}"
                            + (f" {how} and" if how else "")
-                           + f" reduced to {ov.size[0]}x{ov.size[1]} for layout")
+                           + f" reduced to {ov.size[0]}x{ov.size[1]} for layout" + note)
         box = (int(frac[0] * w), int(frac[1] * h), int(frac[2] * w), int(frac[3] * h))
         for k, b in enumerate(grid(box, cols, rows, overlap)):
             tile = im.crop(b)
@@ -83,7 +97,7 @@ def build(fid, areas, cache, work, packet, overlap, overview):
             files.append(p)
             sources.append(f"{url} (canvas {canvas}, {label}): native-pixel box {b[0]},{b[1]},{b[2]},{b[3]}"
                            + (f", {how}" if how else "")
-                           + f"; unrotated grid position column {k % cols + 1} of {cols}, row {k // cols + 1} of {rows}")
+                           + f"; unrotated grid position column {k % cols + 1} of {cols}, row {k // cols + 1} of {rows}" + note)
     readings = os.path.join(os.path.dirname(os.path.abspath(__file__)), "readings.py")
     subprocess.run([sys.executable, readings, "packet", packet, *files], check=True, stdout=subprocess.DEVNULL)
     return {"packet": packet, "files": files, "sources": sources}
@@ -101,9 +115,10 @@ def main():
     a = ap.parse_args()
     spec = json.load(open(a.spec))
     mapping = {}
-    for n, (fid, areas) in enumerate(spec.items(), 1):
+    for n, (fid, entry) in enumerate(spec.items(), 1):
+        areas, mask = (entry["areas"], entry.get("mask", [])) if isinstance(entry, dict) else (entry, [])
         mapping[fid] = build(fid, areas, a.cache, os.path.join(a.work, fid),
-                             os.path.join(a.packets, f"packet-{n:02d}"), a.overlap, a.overview)
+                             os.path.join(a.packets, f"packet-{n:02d}"), a.overlap, a.overview, mask)
         print(fid, f"packet-{n:02d}", len(mapping[fid]["files"]), "images")
     with open(a.mapping, "w", encoding="utf-8") as f:
         json.dump(mapping, f, indent=1)
