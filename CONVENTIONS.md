@@ -63,12 +63,15 @@ piece; the record keeps its status only on what remains.
 
 For a deed, charter, letter or grant the identification is the document's
 regest: issuer, addressee or beneficiary, legal action, place and date.
-**Identified** needs those read securely on the image, with the dating clause
-converted and any element the image does not give (a year cut away, a feast
-name under tape) supplied from a named source and labelled as supplied. No
-reading may rest on the outside evidence used to confirm it. Where an element
-cannot be read or supplied, or a reading of a party or the action is
-uncertain, the result is **partial**.
+**Identified** needs the text read on the image, with the dating clause
+converted. An element the image does not give (a year cut away, a feast name
+under tape) is supplied from a named source and labelled as supplied, or
+reported as lost. A single uncertain or lost element, such as one letter of a
+surname, an illegible place or sum, or a burnt dating clause, is stated in the
+regest and does not make the result partial when the rest of the text is read
+securely. No reading may rest on the outside evidence used to confirm it. The
+result is **partial** when the action or a party cannot be established, or
+when much of the text is unread.
 
 An independent record of the same act (an edition, a printed or online regest,
 an inventory entry, another copy) is corroboration, reported separately with

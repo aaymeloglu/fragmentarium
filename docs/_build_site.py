@@ -230,6 +230,17 @@ def build_burndown(done):
             if r["fragmentarium_id"] in done and r["fragmentarium_id"] not in listed:
                 rows.append(r)
                 listed.add(r["fragmentarium_id"])
+    # Worked records no sweep found (catalogued by type alone, e.g. "Deed") are listed from the ledger.
+    extra = 0
+    for fid, d in done.items():
+        if fid not in listed:
+            dims = re.findall(r"\d+", d.get("dimensions", ""))
+            rows.append({"fragmentarium_id": fid, "url": d["record"], "shelfmark": d["shelfmark"],
+                         "title": d["catalogue_title"], "century": "", "language": "",
+                         "dimensions_mm": d.get("dimensions", ""),
+                         "area_mm2": int(dims[0]) * int(dims[1]) if len(dims) >= 2 else ""})
+            listed.add(fid)
+            extra += 1
     for r in rows:
         r["priority"] = priority(r)
     rows.sort(key=lambda r: (-r["priority"], r["fragmentarium_id"]))
@@ -268,8 +279,8 @@ def build_burndown(done):
             + '<span class="filter"><button type="button" aria-haspopup="true" aria-expanded="false" aria-label="Filter by status">▾</button>'
             f'<div class="menu" hidden>{menu}<button class="all" type="button">Show all</button></div></span></th></tr></thead>')
     body = ("<h1>Burndown</h1>"
-            f'<p class="lede">All {len(rows)} Fragmentarium records whose title or summary says “unidentified”, “unknown” or the same in another language (sweep of '
-            f'{src.name[13:23]}), ranked by a rough priority: Latin, large, 13th to 16th century, and a genre that was '
+            f'<p class="lede">All {len(rows) - extra} Fragmentarium records whose title or summary says “unidentified”, “unknown” or the same in another language (sweep of '
+            f'{src.name[13:23]}), and {extra} worked records catalogued only by type, ranked by a rough priority: Latin, large, 13th to 16th century, and a genre that was '
             f'likely printed score highest, because those are the ones a search can settle. {n_done} worked so far. '
             f'Size sorts by area. The list is a floor: records with vague titles that omit the word are not in it yet. '
             f'<a href="index.html">Back to results</a>.</p>'
