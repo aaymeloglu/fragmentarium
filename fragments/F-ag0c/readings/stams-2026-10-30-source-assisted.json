@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-30T18:05:56.905772+00:00",
+  "first_reading": "stams-2026-10-30-image-only",
+  "first_sha256": "7092ed37c11da6406e10407b560c00eaf9ce6ac68774ab1b5f5ebb1d4fe71ca6",
+  "fragment": "F-ag0c",
+  "id": "stams-2026-10-30-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with the source at hand",
+  "reason": "The first reading was not blind (its reader saw the typed slip first) and left abraded names and lines unresolved; rereading with AH at hand resolved the strophe text, e.g. 'decus' for 'deus', 'quam transitoria' for 'historia', and the Adl. piece's 'Perit enim rerum maneries'.",
+  "schema_version": 1,
+  "sources": [
+    "G. M. Dreves (ed.), Analecta Hymnica 49 (Leipzig, 1906), no. 779, 'Super Libera me Domine', pp. 378-380 (archive.org hymniineditilitu49drev, page images n381-n383)",
+    "Cantus Index ah49779.1",
+    "Cantus 003732, Media vita in morte sumus (offset only)"
+  ],
+  "text": "F-ag0c (Stams, Stiftsarchiv, Frg. 7) - SOURCE-ASSISTED READING, not a blind reading. Made with Analecta Hymnica 49 no. 779 available; the typed slip photographed with the pieces (canvases 4-6) was also seen. Lines reread on the image: both text blocks of Frg. 7-11v (6 lines each), the pasted Adl. piece (5 lines), the mirrored and contrast-stretched offset on 7-8v (6 lines), and fragments of the mirrored offset on 7-10v. Base: readings/stams-2026-10-30-image-only.json (itself not blind: its reader saw the slip first). Documentary notes not read; notation not transcribed.\nBoxes are native pixels x1,y1-x2,y2 on 7360 x 4912 images. [abc] = lost or supplied; ? = uncertain; (abc) = expansion.\n\nIDENTIFIED TEXT: Audi tellus (AH 49 no. 779), strophes 1-6\n\nCanvas 5 (Stams_STA_Frg_007_09v11v_Adl_01v_1_), 2600,250-3750,2150, 7-11v right block:\n1 [A]udi tellus audi ma[gni maris]\n2 [li]mbus. Audi omne [quod vivit sub]\n3 [sole] huius mundi decus et [gloria]\n4 sunt falsa q(uam) transitoria Con[testantur]\n5 temporalia non in uno statu [manentia]\n6 N[ichil] enim Regalis dign[itas]\n\nCanvas 6 (Stams_STA_Frg_007_09v11v_Adl_01v_2_), 3450,2750-5000,4850, rotated 180 degrees, Adl. piece (line 5 on the strip beneath it):\n1 [aur]i congeries Perit enim rerum\n2 maneries et transit rerum materies [ut]\n3 liquescet a sole glacies Ubi fortes\n4 [...]? ubi Domocritus ubi tu[llius]\n5 [... aut] darius Ubi plato ubi pompeius\n\nCanvas 5, 1250,250-2700,2150, 7-11v left block (checked blind by an independent reader, boxes 1200,250-2750,1250 and 1200,1150-2750,2200):\n1 [...]phirius? ... Ubi Alexander\n2 rex maximus Aristoteles vir doctissimus\n3 Ubi cum helena Paris pulcherrimus\n4 Achilles ubi magnanimus Ubi Cesar\n5 [...] magnus? ubi hector troye fortiss[imus]\n6 [...]mus Ubi Salomon sapientissimus\n\nNOT PART OF THE CLAIM: offsets of pages not in the images\n\nCanvas 3 (Stams_STA_Frg_007_05v08v), 2980,392-4011,2308, mirrored and contrast-stretched, offset on 7-8v (Media vita, Cantus 003732; first reading of this area contaminated by the slip):\n1 [Medi]a vita in morte sumus que[m]\n2 [quaerimus] adiutorem n(isi) te domine\n3 [qui pro peccatis] nostris iuste irasce(ris)\n4 [Sancte] ... deus\n5 [Sancte] ... et misericors sal[vator]\n6 amare morti ne tradas\n\nCanvas 5, 4268,343-5299,2063, mirrored, offset on 7-10v (AH str. 7a-b): \"[transi]erunt leges mortali[um]\", \"[spa]cium Sed [tu] deus\". The rest is mixed with show-through and was not read.\n\nSLIP ONLY, not seen on any image: \"Ubi Sampson robustissimus ubi versucia speciosissimus\" (\"Absalon\" is a conjecture for \"versucia\" from AH's manuscripts F and G).\n",
+  "text_sha256": "d52d954e5326499c2100cbe3acc001980f81a81c5479a7f2d6ac7043a05adb99"
+}
