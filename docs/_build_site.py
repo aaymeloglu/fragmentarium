@@ -11,6 +11,7 @@ holding library's IIIF server, as recorded in data/fragments.json.
 """
 import html
 import json
+import posixpath
 import re
 from pathlib import Path
 
@@ -80,17 +81,31 @@ def page(title, body, crumbs=""):
 
 
 # --- a small Markdown subset: headings, paragraphs, lists, pipe tables, fenced code, blockquotes, inline code/bold/italic/links
-def inline(s):
+LINK = r"\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(((?:[^()\s]|\([^()\s]*\))+)\)"
+
+
+def inline(s, base=""):
+    """`base` is the report's folder in the repository, for resolving relative links."""
     s = html.escape(s, quote=False)
     s = re.sub(r"`([^`]+)`", r"<code>\1</code>", s)
-    s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r'<a href="\2">\1</a>', s)
+
+    def link(m):
+        text, url = m.group(1), m.group(2)
+        if not re.match(r"https?://", url):
+            if not re.search(r"\.\w+$", url.split("#")[0]):
+                return m.group(0)  # bracketed reading notation such as "[...](?)", not a link
+            url = f"{REPO}/blob/main/" + posixpath.normpath(posixpath.join(base, url))
+        return f'<a href="{url}">{text}</a>'
+    s = re.sub(LINK, link, s)
     s = re.sub(r"\*\*([^*]+)\*\*", r"<b>\1</b>", s)
     s = re.sub(r"(?<![\w*])\*([^*\n]+)\*(?![\w*])", r"<i>\1</i>", s)
-    s = re.sub(r"(?<![\"'>=\w/])(https?://[^\s<)]+)", r'<a href="\1">\1</a>', s)
+    s = re.sub(r"(?<![\"'>=\w/])(https?://[^\s<)]+)(?![^<]*</a>)", r'<a href="\1">\1</a>', s)
     return s
 
 
-def md_to_html(text):
+def md_to_html(text, base=""):
+    def inline_(x):
+        return inline(x, base)
     out, i, lines = [], 0, text.splitlines()
     while i < len(lines):
         ln = lines[i]
@@ -104,7 +119,7 @@ def md_to_html(text):
         m = re.match(r"^(#{1,4})\s+(.*)$", ln)
         if m:
             lvl = min(len(m.group(1)) + 1, 4)
-            out.append(f"<h{lvl}>{inline(m.group(2))}</h{lvl}>")
+            out.append(f"<h{lvl}>{inline_(m.group(2))}</h{lvl}>")
             i += 1
             continue
         if ln.startswith("|"):
@@ -112,36 +127,43 @@ def md_to_html(text):
             while i < len(lines) and lines[i].startswith("|"):
                 rows.append(lines[i])
                 i += 1
-            cells = [[c.strip() for c in r.strip().strip("|").split("|")] for r in rows]
+            cells = [[c.strip().replace("\\|", "|") for c in re.split(r"(?<!\\)\|", r.strip().strip("|"))] for r in rows]
             if len(cells) >= 2 and all(re.match(r"^:?-{2,}:?$", c) for c in cells[1] if c):
                 head, body = cells[0], cells[2:]
             else:
                 head, body = None, cells
             t = ["<table>"]
             if head:
-                t.append("<tr>" + "".join(f"<th>{inline(c)}</th>" for c in head) + "</tr>")
+                t.append("<tr>" + "".join(f"<th>{inline_(c)}</th>" for c in head) + "</tr>")
             for r in body:
-                t.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>")
+                t.append("<tr>" + "".join(f"<td>{inline_(c)}</td>" for c in r) + "</tr>")
             t.append("</table>")
             out.append("".join(t))
             continue
         if re.match(r"^\s*[-*]\s+", ln):
-            items = []
+            top = len(ln) - len(ln.lstrip())
+            items = []  # [text, [sub-item texts]]
             while i < len(lines) and re.match(r"^\s*[-*]\s+", lines[i]):
+                nested = len(lines[i]) - len(lines[i].lstrip()) > top and items
                 item = re.sub(r"^\s*[-*]\s+", "", lines[i])
                 i += 1
                 while i < len(lines) and lines[i].startswith("  ") and not re.match(r"^\s*[-*]\s+", lines[i]):
                     item += " " + lines[i].strip()
                     i += 1
-                items.append(f"<li>{inline(item)}</li>")
-            out.append("<ul>" + "".join(items) + "</ul>")
+                if nested:
+                    items[-1][1].append(item)
+                else:
+                    items.append([item, []])
+            out.append("<ul>" + "".join(
+                f"<li>{inline_(t)}" + ("<ul>" + "".join(f"<li>{inline_(x)}</li>" for x in sub) + "</ul>" if sub else "") + "</li>"
+                for t, sub in items) + "</ul>")
             continue
         if ln.startswith(">"):
             q = []
             while i < len(lines) and lines[i].startswith(">"):
                 q.append(lines[i].lstrip("> "))
                 i += 1
-            out.append("<blockquote>" + inline(" ".join(q)) + "</blockquote>")
+            out.append("<blockquote>" + inline_(" ".join(q)) + "</blockquote>")
             continue
         if not ln.strip():
             i += 1
@@ -150,7 +172,7 @@ def md_to_html(text):
         while i < len(lines) and lines[i].strip() and not re.match(r"^(#{1,4}\s|\||```|>|\s*[-*]\s)", lines[i]):
             para.append(lines[i].strip())
             i += 1
-        out.append("<p>" + inline(" ".join(para)) + "</p>")
+        out.append("<p>" + inline_(" ".join(para)) + "</p>")
     return "\n".join(out)
 
 
@@ -316,8 +338,8 @@ def build():
     body = (
         "<h1>Fragmentarium: identifying the unidentified</h1>"
         f'<p class="lede">{len(published)} identifications of medieval manuscript fragments catalogued on '
-        f'<a href="https://fragmentarium.ms/">Fragmentarium</a> as “unidentified”. '
-        f'Each report links the manuscript to the matching edition and explains the evidence. '
+        f'<a href="https://fragmentarium.ms/">Fragmentarium</a> as “unidentified” or only by document type. '
+        f'Each report explains the evidence and links the manuscript to the matching edition or record, where one exists. '
         f'Research and comparisons were performed by LLMs. '
         f'<a href="{REPO}/blob/main/METHOD.md">Method</a>.</p>'
         '<table class="idx sortable"><thead><tr><th class="thumb"></th><th data-col="1" aria-sort="none"><button class="sort" type="button">Fragment ↕</button></th>'
@@ -343,7 +365,7 @@ def build():
             f'<p class="where">Identified <time datetime="{r["identified_on"]}">{r["identified_on"]}</time>.</p>'
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
-        (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<details><summary>Readings and comparison details</summary><article>" + md_to_html(md) + "</article></details>", crumbs))
+        (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<details><summary>Readings and comparison details</summary><article>" + md_to_html(md, f"fragments/{r['id']}") + "</article></details>", crumbs))
     build_burndown({r["id"]: r for r in data})
     (DOCS / ".nojekyll").write_text("")
     return published

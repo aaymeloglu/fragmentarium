@@ -39,3 +39,18 @@ def test_before_snapshot_preserves_pages_and_internal_navigation():
                 assert (directory / parsed.path).resolve().is_file(), (path, href)
         if name == "index.html":
             assert all(f"{fid}.html" in links.hrefs for fid in snapshot_ids)
+
+
+def test_markdown_links_tables_and_lists():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("build_site", Path(__file__).resolve().parent.parent / "docs" / "_build_site.py")
+    site = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(site)
+    out = site.inline("[fol. [1]r](https://x.org/a.jpg) and [W](https://w.org/M_(gest._1523))")
+    assert out == '<a href="https://x.org/a.jpg">fol. [1]r</a> and <a href="https://w.org/M_(gest._1523)">W</a>'
+    out = site.inline("[FIRST_READINGS.md](../../FIRST_READINGS.md), reading [1601](?)", "fragments/F-xxxx")
+    assert out == f'<a href="{site.REPO}/blob/main/FIRST_READINGS.md">FIRST_READINGS.md</a>, reading [1601](?)'
+    table = site.md_to_html("| a | b |\n|---|---|\n| x | sac\\|rum |")
+    assert table.count("<td>") == 2 and "sac|rum" in table
+    nested = site.md_to_html("- top\n  - sub\n- next")
+    assert nested == "<ul><li>top<ul><li>sub</li></ul></li><li>next</li></ul>"
