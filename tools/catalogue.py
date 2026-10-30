@@ -7,6 +7,9 @@ Prints the record's summary fields (title, shelfmark, dimensions, date, reconstr
 canvas labels) from its IIIF manifest and then the full description linked from the record page,
 when there is one. The linked description is not in the manifest: a record titled "unidentified"
 can have a description that already names its texts, cites an edition or lists sibling records.
+Files attached to the record page (a cataloguer's transcription, for instance) are listed by address;
+they are part of what the catalogue already knew, and a transcription of the same object is not an
+independent witness.
 Read this before choosing a record and again before research; the result must be about what the
 catalogue did not know.
 
@@ -65,6 +68,17 @@ def description_links(fid, overview_html):
     return links
 
 
+def attached_files(fid, overview_html):
+    """Addresses of files uploaded to this record (transcriptions and the like), in page order."""
+    found = re.findall(r'((?:https?://fragmentarium\.ms)?/uploads/[^"\'\s<>]*' + re.escape(fid) + r'/[^"\'\s<>]+)', overview_html)
+    files = []
+    for link in found:
+        link = link if link.startswith("http") else SITE + link
+        if link not in files:
+            files.append(link)
+    return files
+
+
 def description_text(page_html):
     """Text of a description page without the site's navigation."""
     body = re.search(r"(?is)<body\b.*", page_html)
@@ -77,9 +91,14 @@ def record(fid, manifest=None, fetch=get):
     manifest = manifest or json.loads(fetch(f"{SITE}/metadata/iiif/{fid}/manifest.json"))
     parts = [f"Record: {SITE}/overview/{fid}", summary(manifest)]
     try:
-        links = description_links(fid, fetch(f"{SITE}/overview/{fid}").decode("utf-8", "replace"))
+        page = fetch(f"{SITE}/overview/{fid}").decode("utf-8", "replace")
+        links = description_links(fid, page)
     except Exception as error:  # the record page is a convenience; say so and go on
         return "\n\n".join(parts + [f"Linked description: not checked ({error})"])
+    files = attached_files(fid, page)
+    if files:
+        parts.append("Attached files (read after your own reading; same object, not an independent witness):\n"
+                     + "\n".join(files))
     if not links:
         parts.append("Linked description: none")
     for link in links:

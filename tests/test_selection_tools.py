@@ -181,3 +181,10 @@ def test_sweep_merges_terms_and_keeps_unknown_only_for_titles():
     assert rows['F-63r4']['terms'] == ['unidentified', 'unknown'] and rows['F-63r4']['scope'] == 'title'
     rows = sweep.sweep(['unknown'], get=lambda term, page: pages.get((term, page), ''), pause=0)
     assert rows['F-63r4']['scope'] == 'host'
+
+
+def test_attached_transcriptions_are_listed_once_and_only_for_this_record():
+    page = ('<a href="https://fragmentarium.ms/uploads/transcriptions/F-test/266/T.pdf">T</a>'
+            '<a href="/uploads/transcriptions/F-test/266/T.pdf">again</a>'
+            '<a href="/uploads/transcriptions/F-other/1/X.pdf">other</a>')
+    assert catalogue.attached_files('F-test', page) == ['https://fragmentarium.ms/uploads/transcriptions/F-test/266/T.pdf']

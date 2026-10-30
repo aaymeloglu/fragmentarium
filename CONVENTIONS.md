@@ -59,6 +59,24 @@ identified. If one piece or face is matched only in outline, or its placement
 needs an anomaly the report leaves unexplained, withdraw the claim for that
 piece; the record keeps its status only on what remains.
 
+### Archival documents
+
+For a deed, charter, letter or grant the identification is the document's
+regest: issuer, addressee or beneficiary, legal action, place and date.
+**Identified** needs those read securely on the image, with the dating clause
+converted and any element the image does not give (a year cut away, a feast
+name under tape) supplied from a named source and labelled as supplied. No
+reading may rest on the outside evidence used to confirm it. Where an element
+cannot be read or supplied, or a reading of a party or the action is
+uncertain, the result is **partial**.
+
+An independent record of the same act (an edition, a printed or online regest,
+an inventory entry, another copy) is corroboration, reported separately with
+its citation; it is not required, since a unique original can be understood
+without one. A sheet carrying several documents is reported per document, and
+counts say how many distinct acts they represent. A transcription attached to
+the catalogue record is the same object, not an independent record.
+
 ## Publication
 
 Publish only entries with `status: identified` and `confidence: high`. The site
