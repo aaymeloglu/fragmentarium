@@ -95,7 +95,7 @@ def test_burndown_page_lists_corpus_and_marks_done():
             assert link not in page, r['id']
             row = next(row for row in page.split('<tr>') if f'>{r["id"]}</a>' in row)
             assert ('Examined; already identified in the literature' if r.get('known_from')
-                    else 'Examined; not identified') in row
+                    else 'Partial' if r['status'] == 'partial' else 'Examined; not identified') in row
     assert 'href="burndown.html"' in (ROOT / "docs" / "index.html").read_text()
 
 
