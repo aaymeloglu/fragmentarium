@@ -1,0 +1,237 @@
+{
+  "captured_at": "2026-10-30T21:16:21.594259+00:00",
+  "fragment": "F-mgy1",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "62bd72f4a50bced154f556eadda32c44a9981af2ffa5a56a3c1206bc5e1390a5",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "f3f8b2977711479b7ada9930389b02d7418dc247eb1bb271b85b675addafe40d",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 319,610,1864,1985; unrotated grid position column 1 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "f946097eab1948d3e8dbc63c588fc10041315cf616c52da97a97a9d9c0d261ce",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 1533,610,3079,1985; unrotated grid position column 2 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "5ae3196696f7984b95d5f0ecff71d79b008c7adeb940f134b13a48c9f24a2e4e",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 319,1690,1864,3212; unrotated grid position column 1 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "5dbbedfc03f5b55e2887e592ecd81be20eac74e03ce3ea91495b1fe1dc3c7dca",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 1533,1690,3079,3212; unrotated grid position column 2 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "4d6fe9cd017f2de908240d3673d54a8cbe0048023b2263a8590cf70487e16b92",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 319,2918,1864,4440; unrotated grid position column 1 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "520ade2c09337072c7895b79376b989088aaa2597a40721a460a9df5274578b0",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 1533,2918,3079,4440; unrotated grid position column 2 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "14d9873587448b62b89361aa2344af777b13e19c6ae799e1e61f83c28ac03beb",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 319,4146,1864,5668; unrotated grid position column 1 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "ab0d4ce6cb15a9007f484e1e9d06a643bb9e3cc0f739bdbf4e3196808950245e",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 1533,4146,3079,5668; unrotated grid position column 2 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "728f8496c5caf2de253510e64324df2117ec808d38ab232b0fd2b4cb651d9276",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 319,5373,1864,6749; unrotated grid position column 1 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "52f5399d64ca8ba57b57ad787324771a4720936964fd33a4cd0311c0d9e11003",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_226_01r): native-pixel box 1533,5373,3079,6749; unrotated grid position column 2 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "7415c823d4761e96129deeaad09d56e20afae38935516e1646d806034304f7b4",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "a865b655eeb686257a4406c984decf685f527f75a397e690d302d5acf6f61b93",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 289,515,1799,1883; unrotated grid position column 1 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "c72857951e66422c0dc0e3c906174a6e15b0ed87d9adeedb901d0c2c2a045be0",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 1475,515,2986,1883; unrotated grid position column 2 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "f25565eb9713b3e0c68dd56ce078ac7836d82e119294517c896557a82be042f8",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 289,1590,1799,3105; unrotated grid position column 1 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "248707dfa3470b7ad5863efb41f4e3c3a651a3e763cf6df525166d78baa83270",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 1475,1590,2986,3105; unrotated grid position column 2 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "d93f3020b77df9c260df3560837cc63d6eac1636371ed3026826316e022b45e9",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 289,2811,1799,4327; unrotated grid position column 1 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "fc2ac5b5cdc26a2614be3ec62ea7529e473856e63931c341d5486423081c6bea",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 1475,2811,2986,4327; unrotated grid position column 2 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "85ed0804f58914e66e0b2babf46f98af02bf8c507eaa8fba42992d927e2904a5",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 289,4033,1799,5548; unrotated grid position column 1 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "00f675c5d60b45b655a4eebf03fc1f4cebcffd9b6ea0bde6bebbbbc2bd109e1d",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 1475,4033,2986,5548; unrotated grid position column 2 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "cbea8ed2556ea0660af64aa566244807845464e02ba49e536b114de203d3433f",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 289,5255,1799,6624; unrotated grid position column 1 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "c9cda2bfb4a4e84562034fa9770e1043351b23aa326466596f0d5637dc9aa21d",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_226_01v): native-pixel box 1475,5255,2986,6624; unrotated grid position column 2 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "4332ed119a488897e12c2f4d2c0c2df0491525738235695305030406e49fb4a1",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "92885c49cba1782dd9c3fd38feafa48ebe8e3cf83a5099790ac6b663a9beeed7",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 319,544,1828,1933; unrotated grid position column 1 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "6bf659f7f214a78d13a27ad3b03e23e36bf41e7cde288558d74c4537c1f46fd0",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 1505,544,3015,1933; unrotated grid position column 2 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "da6a6715119f17df1a4787b64a5072137caaa447103cb9cce11918d854b4d8e3",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 319,1636,1828,3174; unrotated grid position column 1 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "e7791cb136818f7b3c6e77a76d5df71109cea3c2f420cdb00978c24833388d75",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 1505,1636,3015,3174; unrotated grid position column 2 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "c647b24e548c06888d3f0a6c83f43bfd2c29937d2a57078fdd845de63da94d7b",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 319,2877,1828,4415; unrotated grid position column 1 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "f679a371c4470d1b06639838e3d3fd06ebe6b5f967004ae2020ffeef28d89333",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 1505,2877,3015,4415; unrotated grid position column 2 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "f4314bf645c9f13e8f2be8f71f994c22dd9e6b178ba438e2ff91004eaedef85a",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 319,4118,1828,5656; unrotated grid position column 1 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "5e22830115503e0c369f2668c1a3611cdf6f6533e118094b013d12cb21323732",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 1505,4118,3015,5656; unrotated grid position column 2 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "04d25b773edabb92e27ed4c52d907dfe76dea5909ecb5d18a1a4e5bbb98cc0a6",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 319,5359,1828,6749; unrotated grid position column 1 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "1492c79ed918bfc8ce21ba37dc460005bc3b3b70f75a341a1e15739d6f00d174",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_226_02r): native-pixel box 1505,5359,3015,6749; unrotated grid position column 2 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "74162bcc3481a4fabb3aa7cdae4700f2753860ff5c672e3eb6df0a8db776766f",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-035.jpg",
+        "sha256": "c6de0f6ea1863b1d7b5496b13189813cdbf3e301ece94d8eac29dcad4d75594f",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 319,574,1828,1957; unrotated grid position column 1 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-036.jpg",
+        "sha256": "f4429e06f31bb1f7dbf8d16eb7c1a7ef6e0eed91ac9398e61f7fcbbd3908f413",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 1505,574,3015,1957; unrotated grid position column 2 of 2, row 1 of 5"
+      },
+      {
+        "name": "image-037.jpg",
+        "sha256": "7d3bb8af4110395696ed787ea87cd7b34101874083aaa2f6809d4a94ac74e2d8",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 319,1660,1828,3192; unrotated grid position column 1 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-038.jpg",
+        "sha256": "271eb55b95511cb9a7335c456f0b57c4d436e1e6f7f2decf388133b890592824",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 1505,1660,3015,3192; unrotated grid position column 2 of 2, row 2 of 5"
+      },
+      {
+        "name": "image-039.jpg",
+        "sha256": "26f85aa0c67c36d0f142573ab8560fc36e188783fd53cad4958f24c1213e07c5",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 319,2895,1828,4427; unrotated grid position column 1 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-040.jpg",
+        "sha256": "e9c8990ad86554a2075a958c91758e084b82ee49537493fa257b2b525c90a0fe",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 1505,2895,3015,4427; unrotated grid position column 2 of 2, row 3 of 5"
+      },
+      {
+        "name": "image-041.jpg",
+        "sha256": "1219bf0484c96d00737e53144e759e36dc99a25bfc95e9250817c6513f87ff24",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 319,4130,1828,5662; unrotated grid position column 1 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-042.jpg",
+        "sha256": "739cdfe8ad51b4bb47f39009c3884237d83da418712c54df09327188dc0127fe",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 1505,4130,3015,5662; unrotated grid position column 2 of 2, row 4 of 5"
+      },
+      {
+        "name": "image-043.jpg",
+        "sha256": "dce791f8346cbd2491cbf6bd8d4a43fbb6cf365cee06471b60b2adb6169419d5",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 319,5365,1828,6749; unrotated grid position column 1 of 2, row 5 of 5"
+      },
+      {
+        "name": "image-044.jpg",
+        "sha256": "1ba4e348077e2bab95d8e1e967b7fec93ebc32c7ee89336cef5122945e7a2f47",
+        "source": "https://fragmentarium.ms:443/loris/F-mgy1/Stams_STA_Frg_226_02v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_226_02v): native-pixel box 1505,5365,3015,6749; unrotated grid position column 2 of 2, row 5 of 5"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-20)",
+  "text": "packet-20 - unverified image-only reading\n==========================================\n\nExposure statement: No proposed identification of this text reached me before\nreading. The images themselves carry modern pencil shelfmarks (\"Stams, STA,\nFrg. 226-1r / 1v / 2r / 2v\"), which I report as visible content only. I did not\nsearch, consult editions, or read packet.json.\n\nBeyond the stated rules: to read reversed/inverted text I made rotated and\nmirrored copies of image-017, image-019 and image-020 with `sips` in my session\nscratchpad (no other files opened). Several images (001-011) were dropped from my\ncontext once by a request limit and re-opened; image-004 to image-011, image-013\nto image-015, image-021, image-040, image-042 and image-044 could not all be\nre-examined at full attention; see Limitations.\n\nLAYOUT SURVEY (observations)\n----------------------------\n- Four overviews: image-001 (face \"226-1r\"), image-012 (\"226-1v\"), image-023\n  (\"226-2r\"), image-034 (\"226-2v\"). Tiles: 002-011 for 1r, 013-022 for 1v,\n  024-033 for 2r, 035-044 for 2v.\n- Each piece is a long vertical strip of parchment from a single-column\n  document, written in German in a 15th/16th-c.-type cursive bookhand/chancery\n  hand (observation of script only; no date inferred). Long lines run the full\n  width; no columns, rubrics, running titles, glosses or ruling seen. Text is\n  continuous prose with virgules (/) as punctuation and occasional enlarged\n  capitals (e.g. \"Den\", \"Vnd\", \"Als\", \"So\").\n- The strips were cut into a comb shape: a continuous left (or right) spine with\n  four projecting tabs, separated by cut-away gaps. Text on the tabs continues\n  the lines of the spine; in the gaps, line-ends are lost. This looks like reuse\n  as binding strips (interpretation).\n- 1r and 2r carry dense text (about 60+ lines each). 1v and 2v are largely\n  blank with show-through, plus: on 1v a short dorsal note of 5-6 lines\n  written upside down relative to the overview (image-019/020/022), and on\n  1v and 2v mirror-image offset text on one tab (image-017, image-041) - text\n  transferred from another written surface, readable when flipped.\n- Content (from what is read): a German charter / sale instrument issued by a\n  \"Gotzhaus\" (abbey) of the Cistercian order (\"des Ordens von Citel\") selling\n  grain rent (Roggen, \"malter\") from its great corn tithe at a place spelled\n  \"Küttrißhausen / kättrishausen\", to Hans Vehlin (Vetlin?) and Anthoni Welser\n  (?), with warranty, damage and distraint clauses, sealing and dating clause.\n  These are readings of names on the leaf, not an identification.\n\nTRANSCRIPTION\n-------------\nConventions: line numbers count from top of the named image; ' = superscript\nmark / abbreviation stroke; (..) = proposed expansion; ? after a doubtful word;\n[illegible] = unread. Line beginnings/ends cut by the strip edge or by the comb\ngaps are marked with \"|\". Overlapping tiles repeat lines; I give each line once\nand name the tile where it is clearest.\n\n=== FACE 226-2r (overview image-023; tiles 024-033) ===\n\nTop block (spine + tab 1), image-024 (left) + image-025 (right, same lines):\n024/025 L1  |ren vnd veriehen offenlich fur vns das yetzge[...]t vns' (vnser)\n            Gotzhauß vnd|\n024/025 L2  |vnd zeitig vorbetrachtung in vnserm versamleten (?) beleuten (?)\n            Capitel/ als|\n024/025 L3  |it wir vns' vnd vnsers Gotzhauß wachsenden schaden furkomen vnd|\n024/025 L4  |sach yetz vnd hernach an allen Stetten vnd vor allen lewten [?]\n            ge|\n024/025 L5  |chen / Den Ersamen vnd weysen Hansen Vehlin vnd Anthonien|\n024/025 L6  |guldin gemainer landswerung die Sy vns bar (?)/ als nemblich der|\n024/025 L7  |vnsern vnd des vorgenanten vns' Gotzhauß [illegible] nutz vnd\n            fromen an|\n  (tab 1 ends here at right; next lines are spine only)\n024 L8      |d redlich verkaufft vnd zu kauffen gegebe[n]|\n024 L9      |mit ainand' (?) funfftzig mal' (malter) Roggens [?]|\n024 L10     |beraitt zegeben vnd zenemen sey / kauffm[...]|\nNotes: L6 \"bar\" is uncertain (could be \"ewig\"/\"[...]barh\"); L2 \"versamleten\"\nreading of \"verſamleten\" uncertain, the word after it may be \"beleuten\" or\n\"geleuten\".\n\nMiddle block (spine + tab 2), image-026 (left) + image-027 (right):\n026 L1      [top line cut: |...]\n026 L2      |d redlich verkaufft vnd zu kauffen gegebe[n]|  (= 024 L8)\n026 L3      |mit amand' (?) funfftzig mal' Roggens [..]|  (= 024 L9)\n026 L4      |beraitt zegeben vnd zenemen sey / kauffm[...]|\n026/027 L5  |schausen (?) in Augspurg' Bistumb an der Guntz gelegn / Vnd\n            ausser alle|\n026/027 L6  |m gehörn sol oder mag gantz nichtz außgenome der in auch darumb|\n026/027 L7  |krafft diz brieffs vor meniglich haissen vnd sein sol fur ledig\n            richtig|\n026/027 L8  |daselbs zu küttrißhausen sein zimliche vnd auffgesetzte prouision\n            daruon|\n026/027 L9  |ch wol wir noch vns' nachkomen furohin vber das kain endrung thun|\n026/027 L10 |nhaiden (?) Vehlin auch burg zu chemingen (?)/ auß dem bemelden\n            vnsern|\n026/027 L11 |en vnd verhaissen versprechen vnd verhaissen auch yetz wissentlich in|\n026/027 L12 |ß zehend / mit seinen frúchten nútzen rechten vnd zugehörungen\n            ymm[er]|\n026/027 L13 |s Roggens Als nemlich yedem insond' (insonder) funffvndzwaintzig\n            mal' (malter) wie|\n026/027 L14 |r tag vnd Weihennächten / oder ob ye das korn zu küttrißhausen\n            durch|\n026/027 L15 |r aber wan wir das in sölich gutte vn' vergleichung nit su (?) in\n            noch|\n026/027 L16 |Martins tag vnd Weyhennächten nach gemain[...]|\n026 L17     |wern vnd zu iren sichern handen [...]|\n026 L18     |vnd weltlich lewte vnd gerichte / Vnd [...]|\nNotes: L10 opening (\"nhaiden\"? \"Bernharden\"?) uncertain; \"chemingen\" may be\n\"Uemingen\"/\"Geuningen\" - uncertain. L15 \"vergleichung\" doubtful.\n\nMiddle block continued (spine + narrow wedge tab), image-028 (left) + image-029\n(wedge at left edge of 029):\n028 L1      |Martins tag vnd Weyhennächten nach [...]|\n028 L2      |wern vnd zu iren sichern handen vn[...]|\n028 L3      |vnd weltlich lewte vnd gerichte / Vnd sun[st]|\n029 L3      ... gem (?) |\n028 L4      |istungn (?) vnd schaden / Wir vnd alle v[ns']| + 029 \"vnd alle vns' vn[...]\"\n028 L5      |ein zugehorung wie obstat ir der obgena[nten]| + 029 \"der obgenanten\"\n028 L6      |vnd ab dem obgeschriben grossen zehenden zu|\n028 L7      |n daran rechtlich od' sunst vnd fúrer vnd|\n028 L8      |gult recht Nach landsrecht vnd nach dem|\n028 L9      |nd iren erben sament vnd sond' die vorbe[nanten]|\n028 L10     |d zu der zeit wie hieuor aigentlich vnders[...]|\n028 L11     |vnd alle ir helffer gantzn vollen gew[alt]|\n028 L12     |ganck hettn / ab schaden zenemen v[...]|\n028 L13     |also ye schadens darauff wuchs od[er]|\n028 L14     |ichtn pfandung nachraisen versam[...]|\n028 L15     |Gotzhauß vnd nachkomen / In vnd ir[...]|\n028 L16     |schadn / Vnd Sy habn also den g[...]|\n028 L17     |das an schaden od' nit / So habn die|\n\nLower block (spine + tab 3), image-030 (left) + image-031 (right):\n030 L1      |ichtn pfandung nachraisen versam[...]|\n030 L2      |Gotzhauß vnd nachkomen / In vnd ir[...]|\n030 L3      |schadn / Vnd Sy habn also den g[...]|\n030 L4      |das an schaden od' nit / So habn die|\n030/031 L5  |gericht vnd one clag od' ob Sy wellen mit gericht gaistlichem od'|\n030/031 L6  |n zu küttrißhausen / iren vndpfand oder ob Sy wellen darzu A[..]|\n030/031 L7  |vmbzetreiben zu bekumbern zu nemn vnd zu pfenden In Stetten Märckt|\n030/031 L8  |ars als offt es zu schulden kombt / es (?) vallen aufstenden zins vnd|\n030/031 L9  |oor (?) vnd schaiden ist vß (?) stet / gentzlich gewert bezalt vnd\n            vnclagbar|\n030/031 L10 |ding gegen menglich / Vnd das auch vns vns' Gotzhauß das ob|\n030/031 L11 |/ nicht behelffen freyen frid' Schirmen noch fúrtragn sol noch|\n030/031 L12 |gkhait noch gnad / glait burgrecht aynung puntnuß Landtfrid|\n030/031 L13 |em behilff fúrzung (?) fund list noch sach gantz vberal in kain weiß|\n030/031 L14 |am vzeichen (?) vfahe nicht es sey dan am sundrung (?) vorgegangen|\n030/031 L15 |iz brieffs / gegen den benanten Hansen Vehlin vnd Anthoni Welser|\n030/031 L16 |n vnd entpfrembdet haben in all weiß vnd [illegible]|\n030 L17     |ichten Hansen Vehlins vnd Antho[ni]|\nNotes: L8 opening and L14 \"vzeichen/vfahe/sundrung\" uncertain.\n\nBottom block (spine + tab 4), image-032 (left) + image-033 (right):\n032 L2      |iz brieffs / gegen den benanten Hansen [...]| (= 030 L15)\n032 L3      |n vnd entpfrembdet haben in all w[eiß]|\n032 L4      |ichten Hansen Vehlins vnd Antho[ni]|\n032 L5      |Gotzhauß vnd alle vns' nachkom[en]|\n032/033 L6  |od' vberkombt / dann furohin alle der ewigklich [?] vnd yeder ver-|\n032/033 L7  |n gemain landswerung / vnd mit mit [?] mund (?) haupt(?)gut ins|\n032/033 L8  |s / od' aber ob wir welln zwischn sant Martins tag vnd weich-|\n032/033 L9  |nderhait von in fur sich vnd all ir erbn darumb gegebn / Wie|\n032/033 L10 |vnd gewalt fur alle irrung on allen iren schaden / gantz in kain|\n032/033 L11 |sen Vehlins Anthoni Welsers irer erbn vnd allermeniglichs (?)|\n032/033 L12 |em vrkund / So haben wir obgenantn Abbt vnd Conuent|\n032/033 L13 |henncken an disen brieff / Der gebn ist Nach Crist[i] [?]geburt (?)|\n032 L14     |gegn des hailigen Ritters tag|\n  (text ends; rest of tab 4 below is blank; date numerals not read)\nNotes: L7 middle damaged by holes; L11 last word uncertain. The final words of\nL13 on image-033 are faded (\"v... hun...\"?), I could not read the year.\n\n=== FACE 226-1r (overview image-001; tiles 002-011) ===\n\nTop block (spine + tab 1), image-002 (left) + image-003 (right):\n002 L1      [large initial ascender \"H\"/\"W\"? stroke above line, left margin]\n002/003 L1  |Gotzhauß zu sand Johans ze Stams der Ordens von Citel - [?] Brixner\n            (?) Bistumbs / Bekenn|\n002/003 L2  |mit dem brieue / Das wir mit veraintem gútem willen wolbedachtem\n            mút /|\n002/003 L3  |anligend sachn gewonlich pflegen zehandln vnd außzerichten / Sond'\n            auch dam[it]|\n002/003 L4  |form vnd weyse als vnd wie ainne dis verschreibung vnd\n            nachgeschriben|\n002/003 L5  |macht hat haben sol vnd mag fur aller menglichs widerrede (?) vnd\n            absprec[hen]|\n002/003 L6  |ngn / vnd allen iren erben [?] auffhun (?) [?] gut vnd gerecht\n            Rennischer|\n002/003 L7  |fernisch Also bar außgericht vnd bezalt / die wir empfingen vnd in\n            andn [?]|\n002 L8      |arkommen / Ains aufrichten [?]stel(?)|\n002 L9      |disem brieff verkauffen vnd zukauffn ge[ben]|\n002 L10     |er gütts vnd gerains korns / Das [?] pfle[gen]|\n002 L11     |vnd ab / vnserem vnd vns' obgenanten Gotzha[uß]|\n003 (lower tab start, same as 002 L11): |sten (?) Gotzhauß grossen kornzehenden\n            zu kättr[ißhausen]|\nNotes: L1 between \"Citel\" and \"Bistumbs\" the word is damaged (\"[?]rixner\" or\n\"[?]ister\"); I do not supply it. The \"Stams\" reading in L1 is a clear script\nreading. \"Rennischer\" (L6) uncertain.\n\nSecond block (spine + tab 2), image-004 (left) + image-005 (right):\n004 L1      |arkommen / Ains aufrichten [?]| (= 002 L8, cut)\n004 L2      |disem brieff verkauffen vnd zukauffn ge[ben]|\n004 L3      |er gútts vnd gerains korns / [?] pfle[gen?]|\n004/005 L4  |vnd ab / vnserem vnd vns' obgenanten Gotzhauß grossen kornzehenden\n            zu kättr[ißhausen]|\n004/005 L5  |endn vberale yendert gehört vnd durch recht oder gewonhait darzu\n            vnd dare[in]|\n004/005 L6  |d zugehörungen / hinfur allweg vnd ewigklich am behafft vfangn\n            (?) gut / in|\n004/005 L7  |anderen vnuersetzt (?) / Dan sunder daz ainē yedem Vicari oder\n            verwes(er) der kirch[en]|\n004/005 L8  |n vorgemeldtn zehenden vnd seinen nutzen frúchten vnd\n            zugehörungen au[ß]|\n004/005 L9  |nen mug in dhainer weg / Dan allain Viertzig mall' roggn wie Sy\n            die [?]|\n004/005 L10 |uffn zegebn gunstiklich verwilligt / Vnd also haben wir auff\n            solichs versproch[en]|\n004/005 L11 |n Inhab vnsers Gotzhauß oder in der hand vnd gewalt der obgenant\n            ge[...]|\n004/005 L12 |Anthonien Welser vnd allen iren erben / die vorgeschriben\n            funfftzig Mall'(ter)|\n004/005 L13 |der iars Insond' an alle mynderung vnd abgangk (?) zwischen sant\n            Martin[s]|\n004/005 L14 |ß vnd misrat / ander korn das [?] korn zu kättrißhausen gleich sei\n            / ode[r]|\n004/005 L15 |emingn werunge ye fur ain mall' / als das / desselben iars zwischen\n            sant|\n004 L16     |en in welcher hauß Sy dasselb [?]|\n004 L17     |alles verheften verbieten (?) [?]|\n004 L18     |en vnd widfaren (?) möchtn one widre[d]|\nNotes: L6 \"vfangn\" doubtful; L7 \"vnuersetzt\" doubtful; L15 opening\n\"[...]emingn\" may be part of the same place-name as 2r \"chemingen\".\n\nThird block (spine + tab 3), image-006 (left) + image-007 (right):\n006 L1      |emingn werunge [...]| (= 004 L15, cut)\n006 L2      |en in welcher hauß Sy dasselb [?]|\n006 L3      |alles verheften verbietn (?) [?]|\n006 L4      |en vnd widfaren (?) möchtn one widre[d] [...]|\n006/007 L5  |[...]es gar vnd gen[tzlich?]| (top of tab 3, faint)\n006/007 L5a |clich Zinß vnd korngelts / vsser dem obgenanten grossen\n            kornzehenden v[nd]|\n006/007 L6  |nen die vorgeschriben funfftzig mall' Jarlichs zinß vnd korngelts\n            vsser|\n006/007 L7  |gegen menglichem vnd fur all' menigclichs irrung vnd ansprach die|\n006/007 L8  |ntlich zeuertign zunertretn (?) vnd zuuersprechen / Nach solich\n            kauf vnd zu[?]|\n006/007 L9  |oder wurdn / vnd denselben Hansen Vehlin vnd Anthonien Welser|\n006/007 L10 |ntwurtn / auch inen die nit vertigiten / alles an die Stet in der\n            [?]|\n006/007 L11 |er langzeit / Die benanten Hans Vehlin vnd Anthoni Welser ir erben|\n006/007 L12 |Roggengult od' waran Sy nach vnderschaid diz brieffs mangel vnd a[?]|\n006/007 L13 |vngeuarlich / an Cristen (?) Juden wächßeln od' an kauffen / Vnd\n            was auch|\n006/007 L14 |darumb zu schaden kämen es wäre von Zerung briefen bottenlon ge-|\n006/007 L15 |doch redlich vnd vngeuerlich wäre / Den schaden allen sollen wir\n            vns|\n006 L16     |/ gebn bezaln vnd außrichtn gar / [?]|\n006 L17     |mangel vnd abgangk hetten / Vff (?) [?]|\nNotes: line alignment between 006 and 007 at the top of tab 3 is not certain;\n007's first full line (\"...m obgenanten grossen kornzehenden v...\") may belong\nto 006 L5 (\"...clich Zinß vnd korngelts vsser dem obgenanten...\"). L8\n\"zunertretn\" uncertain.\n\nFourth block (spine + tab 4), image-008 (left) + image-009 (right):\n008 L1      |doch redlich vnd vngeuerlich wäre / Den| (= 006 L15)\n008 L2      |t / gebn bezaln vnd außrichtn gar /|\n008 L3      |mangel vnd abgangk hetten / Vff (?) [?]|\n008/009 L4  |sonder zu dem nichtz destminder auch vollen gew[alt]|\n008/009 L5  |vnd nachkomen Es sey an dem berai(?)ten vnsern vnd vns' Gotzhauß\n            zehen[den]|\n008/009 L6  |d Güttn ligenden vnd varenden / darumb wol anzelangn angegreiffn\n            [?]|\n008/009 L7  |nd wa in das füget ymmer so lang vil vnd gnug / vntz Sy yetzlichs [?]|\n008/009 L8  |brieffs verpflicht sind vnd auch darzu alles schadens / was in den\n            wie [?]|\n008/009 L9  |ch on allen iren vnd irer helffer costen vnd schaden / Alles\n            vngefreuelt (?)|\n008/009 L10 |vns' Gotzhauß lewt noch gut Noch vns vnd nachkomen vor dem allem [?]|\n008/009 L11 |dhain ander gaistlich noch weltlich gericht noch recht / dhainerlay\n            fre[yhait]|\n008/009 L12 |er Stett noch der land / dhain appellieren noch sunst kainlay\n            ander schi[rm?]|\n008/009 L13 |wie obstet vnd sond' des gemain geschriben rechten das da spricht /\n            Gemai[n]|\n008/009 L14 |o dan gaistlichen leutn in gemainen rechten zugegeben sind / In\n            krafft di[z]|\n008/009 L15 |nd alle vns' nachkomen lewt [illegible] (lower edge of tab, cut)|\n008 L16     |nd sagt yedoch So haben [hole] [?]|\nNotes: L5 \"beraiten\" unsure (perhaps \"berürten\"); L9 \"vngefreuelt\" uncertain.\n\nFifth block (spine + tab 5), image-010 (left) + image-011 (right):\n010 L1      |o dan gaistlichen leutn in gemainen rech[ten]| (= 008 L14)\n010 L2      |nd alle vns' nachkomen lewt [?] [hole]|\n010 L3      |nd sagt yedoch So haben [hole] [?]|\n010 L4      |orbehalten die gewaltsami vnd rec[ht] / [?]|\n010/011 L5  |od' iren erben od' wer der recht furohin daran ymmer gewinnet|\n010/011 L6  |vngeuarlich / Mit [?]hundert (?) gut vnd gemain Reinischer guld[in]|\n010/011 L7  |aufft hand / Vnd auch [?]mann (?) one den zinß des nachgenden zil[s]|\n010/011 L8  |widkauffn vnd ablösen [hole] vnd [?] Innhalt der brieff vns in [?]|\n010/011 L9  |n die Stat antwurten vnd daselbs bezalung thun zu iren handen [?]|\n010/011 L10 |ist alles getrewlich vnd on alle geuärde / Aber der genanten Han[sen]|\n010/011 L11 |f in all weiß vnd weg / Vnd des alles zu warem vestem vrkund o[ffen]|\n010/011 L12 |fur vns vnd Gotzhauß vnd alle vns' nachkomen offenlich thun [?]|\n010/011 L13 |nach in dem [?]vndzwaintzigisten Jare / An freytag nach sant [?]|\n  (end of text on 1r; below is blank margin)\nNotes: L6 the number before \"-hundert\" is not read (\"drew\"? hidden by stain);\nL13 the decade word before \"-vndzwaintzigisten\" is obscured by a hole and\nstain (\"[?]vnd...\"): I do not supply the year. L7 word after \"auch\" unclear.\n\n=== FACE 226-1v (overview image-012; tiles 013-022) ===\nMostly blank with show-through of 1r. Two written areas:\n\n(a) Dorsal note, written upside down relative to the overview; read after\nrotating 180 degrees (my copies of image-020 and image-019; original tiles\n020/022 for the left part, 019 for the right part). Lines numbered from the\ntop of the rotated note:\nD1  Ain kauffbrieue vo(n) dem [hole] [?]diger (?) h[...]   (right part, 019:)\n    \"...diger hern (?)\"\nD2  Sannt Johanns Stams Auß hausser bistum (?) / ... \"zehnt ... gebe(n)\n    dem Antoni[?]\"   [joins 019 L2: \"[?]er bistlu (?) sein geben dem Anttoni\"]\nD3  welsser sein Erbem vm funfftzig malt(er) Roggen Jerlich (?) Zwaintzig (?)\n    malte(r)\nD4  Zwischen Martini vnd weihenechten alweg zu bezalen / [?] Cassiert (?)\nReadings of 019 (right end, upright after rotation):\n019r L1 [...]diger hern|\n019r L2 [...]er bisthu(m) sein geben dem Anttonj|\n019r L3 [...]ig malt(er) Roggen Jerlich (?) xxx (?) malter|\n019r L4 [...] aller [?] zu bezalen / Cassirt (?) (with a cross/flourish)|\nNotes: the dorsal note is in a lighter, more cursive hand. \"Cassiert\" is an\nuncertain reading of the final word with flourish; the numerals in D3 are\nuncertain.\n\n(b) Mirror-image offset text on tab 3 of 1v (image-017; read from a flipped\ncopy). 12 lines, fragmentary, from another document in a different (more\nupright) hand:\n017 M1  [...]o[?]hornie (?) [?]urbs mysti[?]|\n017 M2  [...]wie [?] Hansen Veltinr (?) [?]in|\n017 M3  [...]ütteyshausen (?) vnd allen|\n017 M4  [...]r auffrecht (?) des gaistlichs|\n017 M5  [...]ech[?]en / Dar[?] lva (?) wie|\n017 M6  [...]eten ?? afftzug (?) malter|\n017 M7  [...]iden (?) yt (?) / Do[?]ken alsdan (?)|\n017 M8  [...]rrey (?) verkaufft vnd gar kraft|\n017 M9  gewonnen an rechten|\n017 M10 [...]ige wie lang [?]on' ge|\n017 M11 [...]s ander lehen (?) wes[...]|\nNotes: offsets are faint and partly destroyed; this is a low-confidence reading.\n\n(c) Image-013/014/015/016/018/021: show-through only, no independent text\nlegible on the verso surface (a few faint strokes at top left of 013 near\n\"4[?]36\" might be a modern or old number; not read).\n\n=== FACE 226-2v (overview image-034; tiles 035-044) ===\nMostly blank. Visible: show-through of 2r (images 035, 036, 038, 043);\nimage-037 tab: a few small isolated characters/letters along the left edge\n(perhaps offset or pen trials), not read as text; image-041 tab: mirror-image\noffset text, 8 short lines, upside down; I could not read it beyond isolated\nletter groups (\"...gelten [?]...\", \"...Augspurg (?)...\" uncertain) and give no\ntranscription. image-039/040/042/044: blank parchment and cut-away gaps.\n\nSELECTED AREAS / UNREAD\n-----------------------\nRead: all of the dense text of 1r and 2r along spine and tabs, plus the 1v\ndorsal note and the 1v offset tab. Unread or weakly read: line-ends in the\ncut-away gaps (lost physically), the year numerals in the dating clauses of\nboth 1r and 2r, the 2v offset (image-041), several words under holes.\n\nLIMITATIONS\n-----------\n- Comb-shaped strips: every line in the gap zones is truncated; my line\n  alignment between spine and tab is by visual continuity and may be off by\n  one line in a few places (noted).\n- Overlapping tiles: lines repeated across tiles are given once.\n- Script is a cursive German bookhand; many abbreviations (', superscript e/o,\n  -n strokes) are expanded only where marked. Name forms \"Vehlin/Vetlin/Vehlins\",\n  \"Welser/Welſer\" and the place \"küttrißhausen/kättrißhausen\" vary in the\n  leaves as written.\n- Tiles image-013, 014, 015, 021, 040, 042, 044 dropped out of my context once\n  through a request limit; I re-checked several but my notes on these blank /\n  show-through areas rest partly on the overviews.\n- This is an unverified image reading.\n\nAddendum after re-checking image-013 and image-015: image-013 (1v tab 1) shows\nfaint brown writing in its upper half (first line looks like \"A[?] 36\" or\n\"4[?]36\", then about 4 faint lines, and isolated letters \"h\", \"m\" lower left),\npossibly offset or very abraded text; not read. image-015 (1v tab 2) shows only\nshow-through.\n",
+  "text_sha256": "a810386d8e0c147cbe32bbd250cdc604e5883dce967b8716b2af6c0276def04e"
+}

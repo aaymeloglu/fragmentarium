@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-10-30T21:16:21.328692+00:00",
+  "fragment": "F-hhs4",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "9cf286224031dc168fe35f31e635e0ef3cd922154986cf0a852e63d4733f92c8",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_141_01r): whole image 4912x7360 reduced to 1201x1800 for layout; masked (modern additions) 2799,2134,4027,5078"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "44ed83eb784faee7a4bcd76a64a5e59640c233498338484d2593425020b6bdbd",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_141_01r): native-pixel box 933,2178,2154,3789; unrotated grid position column 1 of 3, row 1 of 2; masked (modern additions) 2799,2134,4027,5078"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "20e10271da291ddf67611955d635a2bc19eb38e47f65de34d33f70569660c1a9",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_141_01r): native-pixel box 1892,2178,3244,3789; unrotated grid position column 2 of 3, row 1 of 2; masked (modern additions) 2799,2134,4027,5078"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "27d20d63f0605e74ad5fd449c09016a38a92884e3e95cd64c4456d6b4c41e50a",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_141_01r): native-pixel box 2982,2178,4204,3789; unrotated grid position column 3 of 3, row 1 of 2; masked (modern additions) 2799,2134,4027,5078"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "b6e46ffd85f899b20b7df0148e961d103186eba2f239b4b03318c90434f550b5",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_141_01r): native-pixel box 933,3444,2154,5056; unrotated grid position column 1 of 3, row 2 of 2; masked (modern additions) 2799,2134,4027,5078"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "ecf338b6eaae6799e1f46e5d437d684d7d137990b212f720af09bbf4a71c7ebb",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_141_01r): native-pixel box 1892,3444,3244,5056; unrotated grid position column 2 of 3, row 2 of 2; masked (modern additions) 2799,2134,4027,5078"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "1c17b9ac4c7edc7a2ef1abe470e58778767c78d50f52ecc07807288e19b975e6",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_141_01r): native-pixel box 2982,3444,4204,5056; unrotated grid position column 3 of 3, row 2 of 2; masked (modern additions) 2799,2134,4027,5078"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "277110a7a34086d74ce18676908dc7967b4d38b79a5aa4e5c865635d67c4d546",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_141_01v): whole image 4912x7360 reduced to 1201x1800 for layout; masked (modern additions) 982,2355,2185,5225"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "946f63d8c11334fe5de2e811fd961d8802b44965fc3bded655cf4e2e13107702",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_141_01v): native-pixel box 997,2369,2159,3980; unrotated grid position column 1 of 3, row 1 of 2; masked (modern additions) 982,2355,2185,5225"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "2ea5d939410cbe64220b2f3246a8ab8f6fe72ab61c5cff6f04addbb044d8a94e",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_141_01v): native-pixel box 1910,2369,3197,3980; unrotated grid position column 2 of 3, row 1 of 2; masked (modern additions) 982,2355,2185,5225"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "31e5dd1a8491f20667652ed7530dff8fe5c4dbd94f4fc8e9e8cfb5935c6d765f",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_141_01v): native-pixel box 2948,2369,4111,3980; unrotated grid position column 3 of 3, row 1 of 2; masked (modern additions) 982,2355,2185,5225"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "c4372301e02fff4ff0b86d38cd6f7f1972230fee079df4b82ff141d23bb9c7ec",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_141_01v): native-pixel box 997,3635,2159,5247; unrotated grid position column 1 of 3, row 2 of 2; masked (modern additions) 982,2355,2185,5225"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "f2b96e8dd8f877f293874221d589a93d7a62cb5a3a049356489c196cafbfebc2",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_141_01v): native-pixel box 1910,3635,3197,5247; unrotated grid position column 2 of 3, row 2 of 2; masked (modern additions) 982,2355,2185,5225"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "aa1a10903649856b5954061ce6ecdf23e9b2a2ae8bc19c0bb24d78927a502e01",
+        "source": "https://fragmentarium.ms:443/loris/F-hhs4/Stams_STA_Frg_141_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_141_01v): native-pixel box 2948,3635,4111,5247; unrotated grid position column 3 of 3, row 2 of 2; masked (modern additions) 982,2355,2185,5225"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-02)",
+  "text": "PACKET-02 - UNVERIFIED BLIND IMAGE READING\n\nExposure statement: My context contained general project notes (a fragment-identification\nproject at a monastic archive, batch names) but no proposed identification, author, work\nor prior transcription for these images. I did not search or consult any edition, and\nopened only PROMPT.md and the image files (directory listing only; packet.json not\nopened). No identification is offered.\n\n======================================================================\nLAYOUT SURVEY\n======================================================================\nOverviews: image-001 (face A, pencil \"Stams, STA, Frg. 144r\" in left margin) and\nimage-008 (face B, pencil \"... Frg. 144v\" in right margin). Tiles: image-002/003 (face A\nupper), 005/006 (face A lower), image-010/011 (face B upper), 013/014 (face B lower).\nImages 004, 007, 009, 012 are almost entirely a uniform grey masking rectangle (plus a\nsliver of plastic weight / background); they contain no text. A grey mask also covers\npart of each overview beside the fragment; I cannot tell whether there is more parchment\nbeneath it.\n\nFragment: a vertical strip of parchment cut through a single column of text. On face A\nthe outer (left) margin and line-beginnings survive, text cut at right. On face B the\nline-endings and outer (right) margin survive, text cut at left. About 25 lines per\nface, top and bottom lines cropped. Script: a late Caroline / early Gothic book hand,\ndark brown ink, red touching on capitals (face B: \"Et\", \"Hec\", \"Habet\"). Ruled. No\nglosses. Face A: a large drawn sign (\"S\"/\"5\"-shaped, perhaps a later pen trial or\nsigne) in left margin beside l.9-10; faint later marginal scribbles; words \"hoc loco\"\nunderlined on l.15. Face B: \"obuolu\" underlined on l.15; a few small marginal ticks.\nTentative interpretation: continuous exegetical/moral prose quoting and explaining a\nscriptural passage (citations of \"beatus iob\" and a \"psalmista\" are visible), not a\ntext-with-separate-commentary layout.\n\nSelected spans: all legible lines on both faces. Nothing deliberately left unread;\nlosses are physical (column cut).\n\nConventions: (x) expansion; word? uncertain; [illegible]; [...] = text lost at cut edge.\nLines numbered from top of the named image, counting text lines.\n\n======================================================================\nFACE A (line starts image-002/005; continuation image-003/006)\n======================================================================\nimage-002 l.1   [top line cropped, illegible]\nimage-002 l.2   to lapsu reuocare· /003/ Hui(us) iniq(ui) molas [...]\nimage-002 l.3   eccl(esi)e p(re)dicando c(on)terebat· cu(m) diceret[...]\nimage-002 l.4   ⁊ uigilate· q(ui)a aduersari(us) u(este)r diabolus [...]\nimage-002 l.5   circuit· querens que(m) deuoret· Cui re[...]\nimage-002 l.6   in fide· Contra hunc leone(m) s(an)c(t)a eccl(esi)a q[...]\nimage-002 l.7   spic(?)· fidei caulas munit· cu(m) [hole]ciens [...]   [first word abbreviated, uncertain]\nimage-002 l.8   gat?· q(u)o(t)ciens hereticor(um) argumenta dest[...]\nimage-002 l.9   ab ei(us) dentib(us) p(re)dam diripit· q(u)o(t)ciens p[...]\nimage-002 l.10  pl(ebe)m?/p(o)p(u)l(u)m? ab errore c(on)uertit· Et quia pleriq(ue) [...]\nimage-002 l.11  q(ui) se ab eccl(esi)astice pacis tempore de hoc [...]\nimage-002 l.12  turos e(ss)e crediderant· beat(us) iob d(u)m? sua na[...]\nimage-002 l.13  uisor(um)? sequentium indicat dicens· Dice[...]\nimage-002 l.14  lo meo moriar· ⁊ sic(ut) palma multipl[...]\nimage-005 l.4   Q(uo)d hoc loco p(er) nidi? (or p(ro)medi?) nom(en) exprimit(ur)· n(on) tran[...]\n                [\"hoc loco\" underlined; enlarged Q at line start]\nimage-005 l.5   q(uia)? un(us)q(ui)sq(ue) infirmi? nutrit(ur)· Multitudo [...]\nimage-005 l.6   nor(um)? que p(er)secutionu(m) temporib(us) fuer[...]\nimage-005 l.7   nutritor(um)?/nutrimentor(um)? suor(um) dies q(ua)si in nido· sic in[...]\nimage-005 l.8   plere se credidit· Ita? n(on) s(an)c(t)a eccl(esi)a infirm[...]\nimage-005 l.9   ne? mundo pacis nutrit(ur)e?· psalmista n[...]\nimage-005 l.10  passer inuenit sibi domu(m)· ⁊ turtur n[...]\nimage-005 l.11  pullos suos· Ia(m) q(ui)ppe domu(m) inuenit p[...]\nimage-005 l.12  celi habitaculu(m) n(oste)r redemptor intrauit [...]\nimage-005 l.13  inuenit nidu(m)· q(ui)a s(an)c(t)a eccl(esi)a amore c(on)d[...]\nimage-005 l.14  crebris gemitib(us) [...]uit· ⁊ uelut nidu[...]\nimage-005 l.15  [bottom line cropped, illegible]\n\nOverlap: image-005 l.1-3 repeat image-002 l.12-14; image-006 repeats image-003 lower\nlines.\n\n======================================================================\nFACE B (line starts image-010/013; line ends image-011/014)\n======================================================================\nimage-010 l.1   [...]mpore se ad [illegible] magis? [illegible]   [top line partly cropped]\nimage-010 l.2   [...]rediderat· eor(um) uox beati iob uoce p(er)uc?/p(re)uc?\nimage-010 l.3   [...]cebamq(ue)· in nidulo meo moriar· Quia\nimage-010 l.4   [...] sibi pacis ociu(m) ex multor(um) dieru(m) lon[...]\nimage-010 l.5   [...]mittebat· recte subiungit dicens· ¶Et sic(ut)   [E red]\nimage-010 l.6   [...]tiplicabo dies· Palma enim tarde p(ro)fic(it)·\nimage-010 l.7   [...]dit(ur)ate? subsistit· Cu(m) multis aut(em) difficul[...]\nimage-010 l.8   [...]ecl(esi)a ad fidei statu(m) uenit· ⁊ p(er) collectione(m)\nimage-010 l.9   [...]neide? fidei gl(ori)a stare diu(tius)? c(on)cupiscit·\nimage-010 l.10  [...] multiplicare se dies credidit· que e[...]\nimage-010 l.11  [...] subito temptationis articulo· pacis sue\nimage-010 l.12  [...]arde a fidelib(us) adeptam· ⁊ c/eici? ab infide[...]\nimage-010 l.13  [...]am dolet· ¶Hec inmerito uita iustor(um)   [H red]\nimage-010 l.14  [...]mparat(ur)· quia scilicet palma inferi(us)\nimage-013 l.4   [...]e(st)· ⁊ quasi aridis corticib(us) obuolu[ta]   [\"obuolu\" underlined]\nimage-013 l.5   [...]r ⁊ uisu ⁊ fructib(us) pulchra· Inferi(us)\nimage-013 l.6   [...]aru(m) inuolutationib(us) angustat(ur)· s(ed) sup(er)i(us)\nimage-013 l.7   [...]ine pulchre uiriditatis expandit(ur)·\nimage-013 l.8   [...]e(st) elector(um) uita despecta inferi(us)· sup(er)i(us)\nimage-013 l.9   [...]s istis q(ua)si multis corticib(us) obuoluit(ur)·\nimage-013 l.10  [...]eris tribulationib(us) angustat(ur)· in sum(m)i(s)?/infimi?\nimage-013 l.11  [...]ulcre uiriditatis folijs amplitudine\nimage-013 l.12  [...]omnis expandit(ur)· ¶Habet q(ui)ppe aliud pal[...]   [H red]\nimage-013 l.13  [...]ctis? arboru(m) generib(us) differt· Omnis\nimage-013 l.14  [...]r in suo robore iuxta terra(m) uasta[...]\nimage-013 l.15  [bottom line cropped, illegible]\n\nOverlap: image-013 l.1-3 repeat image-010 l.12-14; image-014 shows ends of the same\nlines.\n\n======================================================================\nLIMITATIONS\n======================================================================\n- Column cut vertically: roughly half of each line lost (right half on face A, left half\n  on face B). First and last lines of each face cropped.\n- Grey masks in overviews and in four tiles hide whatever lies beside the fragment.\n- Uncertain readings flagged with \"?\"; in particular face A l.7, l.12, l.15 and face B\n  l.7, l.9, l.12, l.21.\n",
+  "text_sha256": "33319d54779975c7dee09e3e0d9c5dd6592b7e3865b7a4631df5e82b1db9073a"
+}

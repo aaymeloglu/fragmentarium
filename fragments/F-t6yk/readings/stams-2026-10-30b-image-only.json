@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-10-30T21:16:21.570406+00:00",
+  "fragment": "F-t6yk",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "a6f9a553289503277444b2abc481aadec7a852b4b992e93533611ee7db3951b5",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): whole image 7360x4912 reduced to 1800x1201 for layout; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "05160e10fb6d56e75ef764d95a14e2786f14beec4b3909c947da89a36e0d7b46",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 1663,1188,2963,2313; unrotated grid position column 1 of 4, row 1 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "6122a081eef856760ce1fd4f65d5cfcb7443aa65cfdaa1f1bf9bb6ce7d662159",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 2684,1188,4124,2313; unrotated grid position column 2 of 4, row 1 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "9293f03fe0e5cf052af291a0e336e30e24e7e92ee9633ff301e7111e71bad92b",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 3845,1188,5285,2313; unrotated grid position column 3 of 4, row 1 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "9a2891d5d98bef2bca617a59361c05bf2af9179fb578399e33a1488f777fcf1f",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 5006,1188,6307,2313; unrotated grid position column 4 of 4, row 1 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "6268fd2c3118be1f447316bb08bf08afffb2fdd7ba7de235b884bcf10bb9633c",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 1663,2072,2963,3319; unrotated grid position column 1 of 4, row 2 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "f1f814a667830641e98ca7deb3aee870fdf65f3fff88b414432d2c22c6db7b28",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 2684,2072,4124,3319; unrotated grid position column 2 of 4, row 2 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "75dc0c152007ffa0bfcb9af68674bdf718e9a04be977a5473344eee3cd4b98bc",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 3845,2072,5285,3319; unrotated grid position column 3 of 4, row 2 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "cd12315ce0332dbc8ed46017195fd6006b2238eb6df44f5fbbbf3045aa46fee3",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 5006,2072,6307,3319; unrotated grid position column 4 of 4, row 2 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "3ac910fda91b39bf7539f670c1e32ef883bcd1c7dc0a6ad9ba1c4649b1c6d533",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 1663,3078,2963,4204; unrotated grid position column 1 of 4, row 3 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "872e7a60fa9a8ea54a89254d069ea84fa8f377b1c8ec52aa55865fc155f9b8e7",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 2684,3078,4124,4204; unrotated grid position column 2 of 4, row 3 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "76aa8beff084538fdd145c53c502e0ed1b576ed845a5fb22e1a6a13e76a16d31",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 3845,3078,5285,4204; unrotated grid position column 3 of 4, row 3 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "ecf49cb3e99c594cf8f8ff416003e0b22a3c266ed1a86e1980450142aabc8db2",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_177_01r): native-pixel box 5006,3078,6307,4204; unrotated grid position column 4 of 4, row 3 of 3; masked (modern additions) 1692,1228,6329,1581"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "940ca5d5f1feabd609688a36a0b95e434b22502723935fbe8690876788d82edf",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): whole image 7360x4912 reduced to 1800x1201 for layout; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "9c24a1fd5b2415a158c8cef6da342c3d8f49dfc38fe83a60d568ebd2d70e0727",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 1597,898,2905,2047; unrotated grid position column 1 of 4, row 1 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "454fc71d443a20e4e7d790202b8336fd305175b1dfe4eccb75e0ff7274f75141",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 2625,898,4073,2047; unrotated grid position column 2 of 4, row 1 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "ea969b28f91d1e94eaa6da191c16f721ad706ba6b7026eff49ed5b81fd2d3f62",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 3793,898,5241,2047; unrotated grid position column 3 of 4, row 1 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "e6d1c331ec667446f9b7e87b992278fb85429146de97979468b0576e55e7bc89",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 4961,898,6270,2047; unrotated grid position column 4 of 4, row 1 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "dc72cb2767c39212f272ac6d8b3422faa89373c975ea7e05d305e9761dcd8900",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 1597,1801,2905,3074; unrotated grid position column 1 of 4, row 2 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "bd09bbc5b23be5fae001f8dc5c42e6050ef77b07da0f813892b68d4deab18761",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 2625,1801,4073,3074; unrotated grid position column 2 of 4, row 2 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "9d30379a532dfadd6bfed04bf4c020ff30beffc2d05c5e201041ceff60b7b5ac",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 3793,1801,5241,3074; unrotated grid position column 3 of 4, row 2 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "de068cfda0f341fb956fca563f5b85cb7edcb9131b50c59f331b23e9d3653599",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 4961,1801,6270,3074; unrotated grid position column 4 of 4, row 2 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "0be231ccf0ac537b2cdedc2a03a7c7c880e47fb1b90ddaab4af2fecd1516e605",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 1597,2828,2905,3978; unrotated grid position column 1 of 4, row 3 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "a46eaf1a5f3d50da6f055e2a130d8cf95e72dd627455a5d9650d84b07dbde9a7",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 2625,2828,4073,3978; unrotated grid position column 2 of 4, row 3 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "c877fe1d66825c6bff33eedb2670fe62c6de40038e57fb366dca7e9cb6fedbc9",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 3793,2828,5241,3978; unrotated grid position column 3 of 4, row 3 of 3; masked (modern additions) 2060,1252,2649,1434"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "1c3627b7b16071769db69964962047831709726da54e7a45a89814d5c03629bd",
+        "source": "https://fragmentarium.ms:443/loris/F-t6yk/Stams_STA_Frg_177_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_177_01v): native-pixel box 4961,2828,6270,3978; unrotated grid position column 4 of 4, row 3 of 3; masked (modern additions) 2060,1252,2649,1434"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-19)",
+  "text": "packet-19 - blind image reading (unverified)\n\nEXPOSURE / PROCEDURE NOTES\n- No proposed identification of the work or author reached me before or during this reading.\n- Face B (image-014 overview, tiles 017) carries a modern pencil shelfmark \"Stams, STA, Frag. 177v\" at the top edge. That is a holding mark, not an identification of the text; I record it because it is visible. A small modern pencil \"(9)\" at top left of face B is partly under the grey mask (image-015/016).\n- I opened only PROMPT.md and the 26 images; I listed the packet directory. Nothing else done.\n\nLAYOUT SURVEY (observations)\n- Single sheet, paper-like support, written in long lines, one column, in a fast documentary cursive (one hand on both faces, as far as I can see). Brown ink; no rubrics, no coloured initials, no running titles. Vertical fold/crease with transparent tape repair near the centre on both faces; a hole in the centre of both faces; ragged lower edge with losses on both faces. Faint show-through of the other face visible in the blank left margin.\n- Face A (overview image-001; tiles 002-013 in a 4-across grid, rows 002-005, 006-009, 010-013): 13 lines of a calendar notice (dates of movable feasts, transferred feasts) ending \"plana & clara,\" then a new text opening with an enlarged cursive \"G\" (\"Georgius dei gra(tia) Ep(iscop)us Brixinen(sis) ...\"), 6+ lines, cut by damage at the bottom. Top of the face is masked grey in images 001-005.\n- Face B (overview image-014; tiles 015-026, rows 015-018, 019-022, 023-026): one continuous text of c. 19 lines opening \"Georgius dei gr(ati)a ep(iscop)us Brixinen(sis) Vniuersis & singulis ...\" with a looped enlarged \"G\"; paragraph-like sections introduced by \"Jtem\". Last line damaged.\n- Tentative interpretation: both faces look like episcopal mandates/notices addressed to parish clergy (not literary text with commentary). No glosses.\n\nCONVENTION: line numbers below are given per FACE (line 1 = first written line of that face) and each segment is labelled with the tile it is read from and the approximate line position in that tile (tile line counted from top of that tile's visible text). Tiles overlap horizontally; I have joined the overlaps rather than repeating words. Expansions in (), doubt with ?, [illegible] for unread.\n\n======================================================\nFACE A (image-001 overview)\n======================================================\nA1  [002 l1 | 003 l1 | 004 l1 | 005 l1]\n    S?ite? d(i)c(t)is? Anno Tricesimo p(ro)ximo? Venturo Regula tabularis indicis Breuiarij partis hyemalis & Æstiualis fore Vicesima Septima E?ribus? [last word uncertain]\nA2  [002 l2 | 003 l2 | 004 l2 | 005 l2]\n    em?n? festor(um) ordine & natiuitatis p(ro)mpte? inuenirj? Cu(m) at? p(re)sumend(um)? sit q(uod) pauci hu(ius)mo(d)i indices h(ab)eant [one word \"incaute?/incausu(m)?\" with heavy stroke through it - possibly deleted] foret ad eosdem penit(us) S?i?c? remitti\nA3  [002 l3 | 003 l3 | 004 l3 | 005 l3]\n    Sed pot(ius)? dia? intraria? [or contraria?] p(er) t(em)p(o)r(is)? occurrentia more solito p(rese)ntib(us)? exp(re)ssimus? L(itte)ra? ig(itu)r? d(omi)nicalis erit B. Septuagesima erit Tredecima mensis? Februarij Pa:\nA4  [002 l4 | 003 l4 | 004 l4 | 005 l4]\n    scha decimaseptima Aprilis Rogationu(m) Vicesima tercia? May Ascensio d(omi)ni Vicesima Sexta May Penthecostes Quinta Junij D(omi)nica? Trinitatis\nA5  [002 l5 / 006 l2 | 003 l5 | 004 l5 | 005 l5]\n    Duodecima Junij Festu(m) corporis Chr(ist)i decimasexta Junij In festo S(an)c(t)i Erhardi tenebitur ad die(m) lune p(ost)? Conu(er)sio(n)is S(an)c(t)i Pauli In D(omi)nica\nA6  [006 l3 | 007 l3 | 008 l2 | 009 l2]\n    d(omi)nice? q(ui)nt(e)? p(ost) Octauas Epiphanie tenebitur ad die(m) Veneris p(ost) Dorothee In feria Tercia in Carnisp(r)iuio tenebitur Solemnit(as)? de b(ea)ta Virgine\nA7  [006 l4 | 007 l4 | 008 l3 | 009 l3]\n    In D(omi)nica d(omi)nic(e)? in Albis tenebitur ad feria(m) Quarta(m) p(ost) Marci In festo S(an)c(t)i Viti quod cadit Quarta feria p(ost) Octauas penthecostes differetur vsq(ue)\n    [009: a small \"Os\"/\"0s\" written above the end of this line, interlinear; unclear]\nA8  [006 l5 | 007 l5 | 008 l4 | 009 l4]\n    ad Quintam feriam p(ost) Margarethe In festo S(an)c(t)i Achac?[ij] [following short word struck/blotted?] Achacij q(uo)d cadit feria Quarta p(ost) d(omi)nica(m)? prima(m) p(ost) octauas penthe(cos)tes differt(ur) vsq(ue) Ter-\nA9  [006 l6 | 007 l6 | 008 l5 | 009 l5]\n    ciam feriam p(ost) Alexij In festo Translationis -s- Vdalric[i]? quod cadit in octaua Visitationis differt(ur) vsq(ue) ad Quarta(m) feriam p(ost) Alexij In festo S(an)c(t)i Sixt(i)?\nA10 [006 l7 | 007 l7 | 008 l6 | 009 l6]\n    Quod cadit in festo transfigurationis d(omi)ni differt(ur) vsq(ue) ad [hole] Sabbatu(m) p(ost) Bartolomej In octaua S. Augustini Que cadit in d(omi)nica Anticipat(ur) in\nA11 [006 l8 | 007 l8 | 008 l7 | 009 l7]\n    Sabbatu(m) p(ro)p(ter)? nouam hystoriam Eius differri no(n) p[otest]? [stained, under tape] festu(m) S(an)c(t)i L?e?nardi? differetur vsq(ue) ad Quinta(m) feriam p(ost) octauas o(mn)i(u)m s(an)ctor(um) In D(omi)nica\nA12 [006 l9 / 010 l1 | 007 l9 | 008 l8 | 009 l8]\n    d(omi)nice? vigesimetercie tenebitur feria Tercia p(ost) Mart[ini]? [stained] In? D(omi)nica d(omi)nice? Vicesime q(ua)rte? tenebitur quarta feria p(ost) Martini Alia o(mn)ia sunt\nA13 [006 l10 / 010 l2]\n    plana & clara,\n\n--- new text, enlarged cursive G ---\nA14 [010 l3 | 011 l3 | 012 l3 | 013 l3]\n    Georgius dei gr(ati)a Ep(iscop)us Brixinen(sis) Vniu(er)sis [stained, c. 2 words: \"& singulis\"?] parrochialiu(m) Ecclesiar(um) Rectorib(us) Vicarijs p(er)petuis seu locatenen(tibus) r?euende? p(ro)\nA15 [010 l4 | 011 l4 | 012 l4 | 013 l4]\n    Ciuitatis & dioc(esi)s n(ost)ras? vbilibet constitutis p(rese)ntib(us) req(ui)sitis salute(m) in d(omi)no Vt cra?lis? plebib(us) uobis subiectis salubri(us) (con)sulat(ur)? Vobis & cuilib(et)\nA16 [010 l5 | 011 l5 | 012 l5 | 013 l5]\n    v(est)r(u)m tenore p(rese)ntiu(m) auctoritate n(ost)ra ordinaria (com)mittimus & facultatem plenaria(m) concedimus in Vtriusq(ue) Sexus parrochianor(um) v(est)ror(um) hoc? futuro t(em)p(o)r(e) Quadra-\nA17 [010 l6 | 011 l6 | 012 l6 | 013 l6]\n    gesimali Confessionib(us) ip(s)or(um) diligent(er) audi(endi) Ipsos? [stained] q(uo)libet? a p(e)cc(at)is suis occultis tu(m) et? in casib(us) nobis de Jure seu? consuetudine sp(ec)ialit(er) reser-\nA18 [010 l7 | 011 l7 | 012 l7 | 013 l7]\n    uatis absolu(endi) & p(ro) m(od)o culpar(um) p(e)n(itent)ias? iniung(endi) Vel? [stained] salutares Reseruantes tu(m) casus Infrascriptos Videl(icet) Hereticos manifestos vel occultos\nA19 [010 l8 | 011 l8 | 012 l8 | 013 l8]\n    Excommunicatos a Jure vel ab ho(m)i(n)e Jurisdictionis? ma?n?ifest? [blotted] Violatores in Clericos Offensores parent(um)? si le(ui)s? ipsa [lost in tear] [illegible] Incantatores?\nA20 [010 l9 | 011 l9 | 013 l9 - lower edge torn]\n    [illegible, damaged] si fuerint in ali?q(ua)? [illegible to edge]\n\n======================================================\nFACE B (image-014 overview)\n======================================================\nB1  [015 l1 | 016 l1 | 017 l1 | 018 l1]\n    Georgius dei gr(ati)a Ep(iscop)us Brixinen(sis) Vniuersis & singulis parrochialiu(m) ecclesiar(um) Rectorib(us) Vicarijs perpetuis seu locatenentib(us)\nB2  [015 l2 | 016 l2 | 017 l2 | 018 l2]\n    earu(n)dem p(er) Ciuitatis & dioc(esi)s n(ost)ram Brixinen(sem) vbilibet constitutis p(rese)ntib(us) req(ui)sitis Salute(m) in d(omi)no. Cu(m) sacris canonib(us) sit p(ro)uisu(m)? p(ro)ut? [end crowded, illegible]\nB3  [015 l3 | 016 l3 | 017 l3 | 018 l3]\n    o?n?iu(m)? subiectionis? & reuerentie ac honore ip(s)ius Cathedre a [blot] cathedraticu(m) prestare debere vsq(ue) ad hanc? p(re)stationem annuatim?\nB4  [015 l4 | 016 l4 | 017 l4 | 018 l4]\n    J?senda? p(re)textu canonice Jnstitutionis, ac n(ost)ro? p(re)scriptis consuetudinib(us) sitis obligati. Jdcirco vos o(mn)es & singulos tenore p(rese)ntiu(m) req(ui)rim(us) & monem(us)\nB5  [019 l2 | 020 l2 | 021 l2 | 022 l2]\n    Q?tris? memoratu(m) Cathedraticu(m) in ea taxa q(ua)? ip(s)i? antea p(re)stitistis nu(n)cio n(ost)ro p(rese)ntiu(m) exhibitori integre & effectualiter p(er)soluatis & q(ui)libet\nB6  [019 l3 | 020 l3 | 021 l3 | 022 l3]\n    Vestru(m) s?ub? i?n?itio? n(ost)ro p(rese)ntatione(m)? seu Visitat(i)o(n)e(m)? cu(m) Vna ad duob(us)? Confessoris? more solito studeat assignare. Insup(er) mandam(us) & p(re)cipim(us)\nB7  [019 l4 | 020 l4 | 021 l4 | 022 l4]\n    q(ua)t(enus) vos Vicarij Curati & Socij diuinor(um) sup(er) cura animar(um) ip(s)is de no(n)? in posteru(m) Committenda examinandi & capellani ad diuina exer-\nB8  [019 l5 | 020 l5 | 021 l5 | 022 l5]\n    cenda admittendi p(ro) toto administrationis t(em)p(o)r(e) Vicario n(ost)ro aut suis locatenent(ibus) se infra mensis spaciu(m) ab Initio assumpti statu-\nB9  [019 l6 | 020 l6 | 021 l6 | 022 l6]\n    p?utam? exhibeant administrationis & admissionis titulu(m) ab eo recepturi? & si predicto termino elapso fac?u(m)? neglexerint vel? diuinor(um)\nB10 [019 l7 | 020 l7 | 021 l7 | 022 l7]\n    administratione(m) sub pena excoi(cati)o(n)is ip(s)is Vigore p(rese)ntiu(m) p(ro)hibemus [hole] Inobedientie penas arbitrarias p(er)sequimur?. Jtem p(re)cipimus\n    [022: a letter-like mark in the right margin at this point, beside a small loss]\nB11 [019 l8 | 020 l8 | 021 l8 | 022 l8]\n    p(res)b(yte)ros & Monachos p(er) Curatos locor(um) n(ost)re diocesis ad celebrandu(m) Cui(us)cu(m)q(ue)? ...? Regendas? no(n) admitti [ink blot] nisi legittimu(m) testimonia-\nB12 [019 l9 / 023 l1 | 024 l1 | 025 l1 | 026 l2]\n    lit(ter)as? v?e? ordinis & conditionis Sacerdotalis offi(ci)o se p(rese)ntes? esse docuerint Jtem Stacionarios Questores & quoscu(m)q(ue) elemosynaru(m) collectores\nB13 [023 l2 | 024 l2 | 025 l2 | 026 l3]\n    in publicis cancellis & diuinis offici(is) nullatenus p(ro)clamari vel admitti nisi publicu(m) & autenticu(m) admissionis mandatu(m) [word with heavy stroke, \"n(ost)r(u)m\"?] desup(er) [faint word, illegible]\nB14 [023 l3 | 024 l3 | 025 l3 | 026 l4]\n    habeant & exhibeant alias sine publica Commendatione in ambone vel diuinis no(n) facienda hostiatim mendicare volentes no(n) p(ro)hibem(us). Jtem\nB15 [023 l4 | 024 l4 | 025 l4 | 026 l5]\n    causas ad Sedem & Jurisdictionem ordinaria(m) p(er)tinentes? semp(er) remitti iubemus. Potissime casus reseruatos & in gradib(us) iure p(ro)hibitis matri-\nB16 [023 l5 | 024 l5 | 025 l5 | 026 l6]\n    monium vel sponsalia scienter contrahentes [&, heavier ink] p(ro)pterea ipso facto excommunicatos & in casib(us) p(ro)hibitis matrimonialit(er) cohabitantes pariter\nB17 [023 l6 | 024 l6 | 025 l6 | 026 l7]\n    remitti. Jtem violatores & ini?qu?(os)? p(er)cussores in cimiterio eccl(es)ie? [?] sepultu(re)? Vltr?orsta? [uncertain] nuptialia t(em)p(o)r(e) interdicto celebrari sine n(ost)ra speciali\nB18 [023 l7 | 024 l7 | 025 l7 | 026 l8]\n    aut Vicarij n(ost)ri auctoritate & licentia desup(er) obtenta. Jtem q(ua)ndo? [damaged] singulis? caus?(e)? in consistorio n(ost)ro reaccent? [uncertain] vel determinat(ur)? [faint]\nB19 [023 l8 | 024 l8 | 025 l8 - lower edge torn]\n    a?u?t? [damaged] sed? auctoritatis? publice? [illegible] l?eis? & mandatis [damaged, illegible to edge]\n\nSELECTION / COVERAGE\n- I attempted every written line on both faces. Least secure: A1 first word and last word; A2 struck word; A3 opening (\"dia/contraria\"?); A11 middle (stain/tape); A14-A20 right-centre zone under tape (images 011/012); B2 end, B3 opening, B6 first half, B9 opening, B17 middle (\"Vltrorsta\"?), B18-B19 at the torn lower edge.\n- Not read: the faint mirror-image show-through in the left margins of both faces (it is the other face bleeding through, not separate text, as far as I can judge). The top area of face A above line A1 is masked grey; any text there is not visible to me.\n\nLIMITATIONS\n- Unverified image-only reading; fast documentary cursive with heavy abbreviation. Several abbreviation expansions above are guesses from letterform and are marked with \"?\".\n- Central tape repair and staining blur 3-5 letters per line in the middle of both faces; a hole interrupts A10 and B10.\n- Lower edges torn on both faces; A20 and B19 are fragmentary.\n- A higher-resolution or raking-light image of the taped centre strip (between tiles 011/012 and 021/025) would resolve most remaining gaps.\n",
+  "text_sha256": "4ed1e87ade2f5de6cd920ea6043a48e2c65b6c00f43ad935608910de8c5e8eb2"
+}

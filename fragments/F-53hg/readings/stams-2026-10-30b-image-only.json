@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-10-30T21:16:21.454067+00:00",
+  "fragment": "F-53hg",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "699ef82bdf7842ffd2328eaa5cc4880bd24b8b63643e482fd63a9c542672c87f",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_120_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "139821d4032d22d70daaec2d2363a9bea11c9ff7c2e28f43047d4b6d97489c3d",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_120_01r): native-pixel box 2914,255,4579,1705; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "2d78cdbec2724691c02c0278869fef8565d7f55c5524b21f582020715bbbbbeb",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_120_01r): native-pixel box 4222,255,5888,1705; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "d0a138a44a3aa419a8db76c093881d61dfe92b665d1a5105a7db11fada3463b0",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_120_01r): native-pixel box 2914,1394,4579,3000; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "d8e8fbc01d3cd14eda7767df707d37a380289d7de223cd044d0304a2d5169175",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_120_01r): native-pixel box 4222,1394,5888,3000; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "3e526b3e6284092029ded8c42c78f95f8c12e3d4893c86bdc524672e68b3e496",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_120_01r): native-pixel box 2914,2689,4579,4140; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "8ea0ba3d520d506167b109e049699ea8af7691963cb7ebe546537a21db8fe20a",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_120_01r): native-pixel box 4222,2689,5888,4140; unrotated grid position column 2 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "296b0222709645d9774a4caefed1318737dc57ef5cfa688dfabf7bec1bad3604",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_120_01v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "6bc7a2603cd0f42ae07497e86de42c63e217b379a41ef6567a40527ba69af963",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_120_01v): native-pixel box 3260,933,4661,2190; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "bccfb28cddaa8a47f6a341f4864d2a18d7d128d75c1c331f87cb0cbfbf70115d",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_120_01v): native-pixel box 4360,933,5762,2190; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "f09e0c9c669eeed1f2e2bec038af6713801d24800ee61f6db8d3af807b16da7d",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_120_01v): native-pixel box 3260,1921,4661,3313; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "8eb5f8075bf5e72b43002ef8bd76d64368590be7071a841eefc81935deb02a59",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_120_01v): native-pixel box 4360,1921,5762,3313; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "c57d837d7556df7347c02b438cf9e0bd9b5694d0a78df571e628c813906399b9",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_120_01v): native-pixel box 3260,3044,4661,4302; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "6cf595b61356e1da95dcc857802e43351579bd37303d1b4785d258c825f7725a",
+        "source": "https://fragmentarium.ms:443/loris/F-53hg/Stams_STA_Frg_120_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_120_01v): native-pixel box 4360,3044,5762,4302; unrotated grid position column 2 of 2, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-09)",
+  "text": "PACKET-09 - UNVERIFIED BLIND IMAGE READING\n\nExposure statement: Nothing in my context proposed an identification or reading for this packet. I did not try to identify the work or author. I opened only PROMPT.md and image-001..014 in this packet directory, plus a directory listing and an image-size check (sips) of my own packet files. I did nothing beyond the stated rules.\n\nConventions: (x) = proposed expansion; word? = uncertain; [illegible] = unread; [...] = text lost at edge/fold. Line numbers count from the top of the named image. Modern pencil foliation \"Stams, STA, Frag. 120r\" / \"120v\" seen on the margins, not transcribed as text.\n\n======================================================================\nLAYOUT SURVEY\n======================================================================\nimage-001 = face A overview (pencil \"...120r\"); tiles image-002..007.\nimage-008 = face B overview (pencil \"...120v\"); tiles image-009..014.\n\nObservations:\n- Single leaf, single column, held flat by four acrylic weights. Edges folded in (top and bottom folds; outer margin strip folded on face A right / face B left). The leaf has been used in a binding (slits, folds, holes along a horizontal band at about mid-height).\n- Dry-point/hard-point ruling clearly visible; about 22-25 written lines.\n- Script: an early, rounded minuscule (Caroline-type), brown ink, a few abbreviations (e(st) as e with stroke, -b; for -bus, q: for -que, macron for m/n).\n- Face B: a red marginal chapter number \"J xxxiii\" (red paragraph-type sign plus numeral) in the left margin beside a large brown/ink initial I that projects into the margin. No other rubrication seen.\n- Face B: large looping brownish strokes overlie the left part of many lines (S- and loop-shapes in the margin and across words). These look like a separate, larger cursive script or an offset from an adjoining sheet; I cannot tell which. They are not transcribed.\n- Face A: text is almost entirely abraded/faded. Only a column of reddish-brown word-ends at the far left (left of the ruled frame) and a few words inside the frame are visible; the bottom two lines, on the folded-in strip, are clear.\n- No glosses or interlinear additions identified.\n\nTentative interpretation (not identification): prose text on medical/material topics (mentions of medici, humor, malagma, malactica, sebum/adeps of various animals), with a numbered chapter \"xxxiii\" beginning a section on fats (\"De adipibus\"). I infer nothing about author, date or provenance.\n\nSelected spans: face B lines 2-7 (upper legible block) and lines 14-24 (lower block, including chapter xxxiii opening). Face A: the bottom two lines and the few legible words in the lower half. Unread: face B line 1 and most of lines 8-13 (very faded, overlaid by loops); almost all of face A.\n\n======================================================================\nFACE B (most legible) - single column\n======================================================================\nLine numbers here are per image; image-009 and image-010 are the upper-left and upper-right halves of the same lines (they overlap in the middle), so I give the joined reading where the halves meet. \"|\" marks where I joined the two tiles.\n\nimage-009 / image-010 (upper block)\nL1 (009 L1-2, 010 L1-3) [faint, illegible; looping strokes only]\nL2  (009 L6 / 010 L6)  indemudus? autu(m)? | ius? possit? uel si sit frequens c[...]\n     (009 shows \"indemudus aut[...]\"; 010 shows \"[...]us autumis possit? uel si sit frequens c\")\nL3  (009 L7 / 010 L7)  [...]e? cibu(m) docen | t? medici q(uo)n(iam)? intellegende? mo[...]\n     (010: \"ndocen medici q(uo)n(iam) intellegende mo\")\nL4  (009 L8 / 010 L8)  propriis? (?)ec(?)rtas? | (?)quilia(?)l? humore local(i)? bon[...]\nL5  (009 L9 / 010 L9)  [...]ceriu? (?)eser? | [illegible] [...] cui(us)dem? ethica(m)? nid?\nL6  (009 L10 / 010 L10) [...]?gnorum? te(m)peratu? | (?)p(?)issimicule? quar[...]\nL7  (009 L11 / 010 L11) [...]?ler(?)na? | dura sicut in lapide e(st)? ferru(m)? [...] sic\n     (010: \"[...]legna? dura sicut? lapide? e(st)? ferrum? [...] sic\"; first word uncertain)\n\nimage-012 (right half of the next block; left half in image-011 mostly illegible)\nL1  = L6 above (\"...ipissimicule quar\")\nL2  = L7 above (\"...ferru[m] ... sic\")\nL3  [...] [illegible] [...]mia? [...] nimi[...]\nL4  [...]dis? [illegible] proposueram? / p(ro)poseuera(m) [...] e cu[...]\nL5  [...] [illegible] [...]conuenir(e)? / cauenir? [...]tiat? debe[...]\nL6  [...] [illegible] [...] seu medi[...]\nL7  [...] [illegible] [...]nnui? p(er)iti? p[...]\nL8  [...] [illegible] [...] sin[...]\nL9  [...] ?p(?)?(?) [illegible] humida? & sicca? [...] mag[...]\nL10 [...] quod sit malagma p(ro)?inde? uer[...]\nL11 [...]a & dicant(ur) malactica uel? medi[...]\n(image-011 lower lines give the left halves of L9-L11:\n L9  \"Und? diuersa?/ und ineepe? [...]\"\n L10 \"[...]strin gug? quod[...]\"   (first word uncertain; looks like \"...string...\")\n L11 \"[...]re?pertica? & dic[...]\")\n\nimage-013 / image-014 (lower block; 013 = left half, 014 = right half)\nL1 (013 L1 / 014 L1)  [...]strin(?)g(?)ug? quod sit malagma p(ro)?ider? uer[...]\nL2 (013 L2 / 014 L2)  [...]tepertica? & dicant(ur) malactica uel(?) medi[...]\nL3 (013 L3 / 014 L3)  adipe q(ue): om(ni)s? t(amen)? sebu(m) & e(st)? primu(m) i(n)? om(n)i? ter[...]\n     (013: \"adipeq: om(?)s t sebu(m)\" with \"tsebu\" underlined?; 014: \"...om(?)s tsebu & e prim(?) i(?)n om(n)i: ter\")\nL4 (013 L4 / 014 L4)  sebu(m) deinde taurinu(m) sicut uitulinu(m)? [...]\n     (014 \"sicu[?]tulinu\" - the letters between sicu and tulinu are uncertain)\nL5 (013 L5 / 014 L5)  [red marginal \"J xxxiii\"] [large initial I]ncip(it)? c(?)aur? [...]titib(us)? adipu(m). De adipib(us); (?)er[...]\n     (the words between Incip- and adipu are uncertain: \"chaur / chiur\" then \"titib;\" or \"tutib;\")\nL6 (013 L6 / 014 L6)  ma e(st) [...]beom? m(?)nu? in(ter)? quadrupedes di(?)?[...]\n     (014: \"[...]beoni? nu(m)? int(er)? quadrupedes di[...]\")\nL7 (013 L7 / 014 L7)  ualde melius e(st) leopardinu(m) qua(m) leoninu(m)? / leonin[...]\nL8 (013 L8 / 014 L8)  & melius e(st) ursinu(m) qua(m) taurinu(m) t(?) cer[...]\nL9 (013 L9 / 014 L9)  uero spissius & siccius & magis h(?)ir[...]\nL10 (013 L10 / 014 L10) [...]lib(us)? aut(em) obtimu(m) e(st) adipe(s)? anserin(us)? / anserin[...]\n\nOverview image-008 confirms these lines in sequence; lines between the upper and lower block (overview approx. lines 8-13) are mostly too faded to read beyond the fragments given above.\n\n======================================================================\nFACE A (badly abraded)\n======================================================================\nLeft-margin column of reddish-brown word-ends just left of the ruled frame (image-002 L.. / image-004 / image-006), top to bottom:\n  mam / uet / mori / lole? / ro. / nim / ur / un / v / quo / les / a / nt / s& / un / atu / ad. / nom / no / fra?\n(These may be the line-beginnings of the column, written outside the bounding line, or a separate strip; I cannot tell from the crops.)\n\nInside the frame, legible traces only:\nimage-002 L(first written line): [...]mam de se[...] [illegible] sentias? [...]\nimage-003 approx. middle: [...]emori? [...] / [...]sacten? [...]\nimage-004 L5:  pro. [...]cande? ex hordi? / achordi? [...]\nimage-004 L6:  nim [...]ua(?) [...]nimh? [...]\nimage-004 L9:  un [...]? [illegible]\nimage-004 L10: v  [...]tempora? inuenit? [...] de [...]\nimage-004 L11: [...]e et? [...]rachaser? [...]n? (?)plus? (?)ppe[...]\nimage-004 L12: quo [...]os? in loca? [...]\nimage-004 L14: a [...]mimisse? [...]\nimage-006 L9:  [...]pu? (?)ruiner? [...]\nimage-006 L10: [...]? in(?)ghin? [...]\nimage-006 L11: [...]? sed [...]\nimage-006 L12 (folded bottom strip): [...]?nidate? . sicaute? (?)rom? iacat? [...]\nimage-006 L13 / image-007 last line (folded bottom strip, clear):\n             ex? ?lu?rinoso? quodam sed spisso aro[...]\n             (007 confirms \"[...]da(m) sed spisso aro\"; \"ex?lurinoso\" first word uncertain)\nimage-007 penultimate (folded strip): [...]rom? iacat? uite? [...]\n\nEverything else on face A: [illegible] at this resolution. Raking light or UV/multispectral imaging would be needed.\n\n======================================================================\nLIMITATIONS\n======================================================================\n- Face A is almost entirely illegible; the few words given are low-confidence except the bottom folded-in lines.\n- Face B: large looping strokes overlie the text, which makes the left halves of many lines unreliable. Lines 8-13 (middle block) are largely unread.\n- Folded edges (top, bottom, outer margin) hide parts of lines; the bottom-most face A lines are on the folded strip itself.\n- I could not resolve the words right after the initial I of chapter xxxiii; the reading \"Incip(it)\" is tentative.\n- Animal-fat words (leopardinum, ursinum, taurinum, sebum, anserin-) are fairly clear; most other content words above are uncertain.\n",
+  "text_sha256": "7d0ccf7425915aeeed2cc127e13a6a00233e11f74cc93e18ad53d3b3abcc002d"
+}

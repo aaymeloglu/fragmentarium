@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-10-30T21:16:21.512152+00:00",
+  "fragment": "F-udt0",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "dd077a2d473a05453f6b418c045fd0b498e7b92f736778dc70e6f4810cee2e55",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "61ba7266a9d0c5ecd6aec3ebd31b41341db7df858ae96fc7428cfb040d9c2ebe",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 643,706,1985,2218; unrotated grid position column 1 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "71ab2249d52eb54fe521302790a7b622892cced13272f48bbcea8c908229338d",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 1697,706,3184,2218; unrotated grid position column 2 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "42091e068459b92320636c0e70422521814438e817c05cef2ab02c50181a9674",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 2896,706,4239,2218; unrotated grid position column 3 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "16748c655419a642aa1b9cfb0c518ca579665932d527bb2c507045bf1b9761da",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 643,1894,1985,3569; unrotated grid position column 1 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "c791daf5990755a33e2461b3f34e65f2a5ae532f215d71d685e4b88ac8bad909",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 1697,1894,3184,3569; unrotated grid position column 2 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "3e5f146c0cb6c8d01c59c409512600bae66c062650f70ffd99a40c1ae5474920",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 2896,1894,4239,3569; unrotated grid position column 3 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "367c8a8c96b2925edd2d27316932cd73912f1b3a024c64b3ef660251e5fe68ee",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 643,3244,1985,4919; unrotated grid position column 1 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "8c0121662829ed52d065a1370d5b5278bce31cbc12e4a75c03347f8825a40df9",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 1697,3244,3184,4919; unrotated grid position column 2 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "d34fe6d7630eafce81aaa8c612ef1b63868df5450835c0a0e98cfc9c15d2f5e8",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 2896,3244,4239,4919; unrotated grid position column 3 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "3c30d38bd1e58ce7ece409bfa65fd60fb247eeef40bb936933366af5a5bb16e7",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 643,4595,1985,6108; unrotated grid position column 1 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "141d73e6772a4cbb7dd27c5f311b2167a026eea8f016f8670a834d36e83be93f",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 1697,4595,3184,6108; unrotated grid position column 2 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "7631748fce6031d42332c484f43741f4a9f82821be10cc345696e5925e1c0ddb",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_216_01r): native-pixel box 2896,4595,4239,6108; unrotated grid position column 3 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "726b74fbc5e9971f723b13bbaa10f704c614b645fe3fa60f69b4df369b155735",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "ca25d53c381e2e135c82231e5dccf97d04d2003c1627ef4f61d5ef8e7d11ff33",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 707,861,2049,2357; unrotated grid position column 1 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "33f49c1895c44f0f2190ac9d235c51b27e5ce1f9c22bed9983be2c4f270acb08",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 1761,861,3247,2357; unrotated grid position column 2 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "83577e3a95c63815df06313c3e61b6c297fe58685b5ee9a46be8293cfc4b58b3",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 2959,861,4302,2357; unrotated grid position column 3 of 3, row 1 of 4"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "4347ec4ef9ad783e25c991a1b61404b8da588804f28abe317f455df32345c79b",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 707,2036,2049,3692; unrotated grid position column 1 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "d55b6a9023daf364102341b5dcc1d51f88353cd041bea75cf88e80c915c9bd5a",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 1761,2036,3247,3692; unrotated grid position column 2 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "50929687284ca6e341615656685e65ec2035181ba10f059a75abb35528a21b3a",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 2959,2036,4302,3692; unrotated grid position column 3 of 3, row 2 of 4"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "513554866882c307fe3f2d5e3651f35ab7da54aeae8285dffb60b218bb1081b0",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 707,3372,2049,5028; unrotated grid position column 1 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "8281afcb19cc4d7f883e826eb9edae5b056b9d3fe10095e618c050f46635c04d",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 1761,3372,3247,5028; unrotated grid position column 2 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "96426e4687ba50b101f36db4aa20a4bf2639ae35e1c2f6d4dc9cf3cbc6692d08",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 2959,3372,4302,5028; unrotated grid position column 3 of 3, row 3 of 4"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "80bde27a6938da34e94086e6894a20b872eee9fe566b2ded4d6c5fe4dd0fac9c",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 707,4707,2049,6204; unrotated grid position column 1 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "a3ca70fd22650b919f1d65aea53c6949aaeb3649f8e8ee14d017f0100b6d7926",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 1761,4707,3247,6204; unrotated grid position column 2 of 3, row 4 of 4"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "525ba5bc51c19d1a0132c7e9e85b8537cea7d7859b82fa30cfe6be58295932ea",
+        "source": "https://fragmentarium.ms:443/loris/F-udt0/Stams_STA_Frg_216_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_216_01v): native-pixel box 2959,4707,4302,6204; unrotated grid position column 3 of 3, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-14)",
+  "text": "PACKET-14 - unverified blind image reading\n\nExposure statement: Nothing in my context revealed a proposed identification or earlier reading of this leaf. My standing context mentions that a Fragmentarium/Stams project exists, but gives no reading or identification for this item. I opened only PROMPT.md and the image files (I listed the packet directory, which shows packet.json; I did not open it). No search, editions, or identification attempted. Rubric names (e.g. a sermon attribution) are transcribed because they are written on the leaf, not inferred.\n\nLAYOUT SURVEY (observations)\n- Overviews: image-001 = face pencilled \"Stams, STA, Frg. 216r\"; image-014 = \"216v\". One leaf, about 21 x 31 cm, reused as a binding wrapper: fold lines along all four edges, cut corners, sewing/tie slits at top, a dark vertical band (former spine turn-in) across the left column on 216r, and a horizontal darkened fold through the middle of 216r. 216r column a is cut away along the left side (line beginnings lost); 216v column b is torn away on the right (line ends lost below line 9).\n- Two columns, about 31-33 lines each, ruled. Black text, red rubrics, red initials (one- and two-line; large R, I, C, P on 216v), red cue letters, rubric abbreviations: R(esponsoriu)m (R with stroke), V(ersus) (crossed V), ps, a(n)(tiphona), Invit(atorium), lesson numbers in red (ii, iiii, vi, vij, viij), and red rubric headings (\"[D]e spinea corona Cap(itu)l(u)m\", \"[d]e (com)mentario b(eati) Joh(ann)is ep(iscop)i\", \"S(er)mo beati B(er)nhardi Abb(at)is .v.\"). Tentative interpretation: office for a feast (rubric heading names the crown of thorns) with antiphons, psalm cues, responsories and patristic lessons. Small interlinear rubrical notes in black at 216r col a between l4/5 and l8/9, and above 216v col b l25.\n- Tiles: 216r: 002 (col a top), 003 (col b top), 004 (col b top right + margin), 005 (col a middle), 006 (col b middle), 007 (col b middle right), 008 (col a lower middle), 009 (col b lower middle), 010 (col b lower right), 011 (col a bottom), 012 (col b bottom), 013 (col b bottom right). 216v: 015 (left margin/col a top-left), 016 (col a top), 017 (col b top), 018 (col a left edge), 019 (col a middle), 020 (col b middle), 021 (col a lower left), 022 (col a lower), 023 (col b lower), 024 (col a bottom-left), 025 (col a bottom), 026 (col b bottom). Overlapping lines counted once; line numbers below are counted from the top of each column (heading = l1), with the main tile named.\n\nConventions: (..) expansion; \"?\" after an uncertain reading; [illegible]; [..] lost/unread letters; [red ..] coloured letters.\n\n=== 216r, COLUMN a (tiles 002, 005, 008, 011) - left edge lost/cut ===\na1  [red] [D]e spinea corona  Cap(itu)l(u)m\na2  [eg]redimini et videte filie syo(n)\na3  salomone(m) [in d]yademate quo\na4  [coron]auit eu(m) ma(ter) sua  [red] R(esponsoriu)m  [F]los de spina\n    (interlinear, small black, left: \"[..]s sup(er) post ymnos\")\na5  [..]passio(n)e d(omi)ni  [red mark]  [.]l[or?]entes corona(m) de\na6  [..]fuerunt sup(er) [..]  [red] ad oia? (rubric, unread)  [red E] gre-\na7  [vi]dete filie [sy]o(n) rege(m) salomone(m) in dya-\na8  [dema]?o coronauit [..] ma(ter) sua parans cru-\n    (interlinear, small black, left: \"[..]e soluu(m)?\")\na9  [..] suo  [red] Invit(atorium)  [A]dorem(us) rege(m) xp(istu)m coro-\na10 [..]u sue h[..]e corone p(re)sencia deco-\na11 [red S?] Venite  [red] In i? n(octurno)? a(n)  [red S] ciebat pyla-\na12 [..]esu [.] p(er) inuidia(m) tradidisse  [red] ps  Q[..]\na13 [..]at ig[..] s[..] [..] posse[t]? cou[..]   (abraded)\na14 [red] ps ... [red] a(n) ... [..]agi?   (on horizontal fold; mostly illegible)\na15 flag[ell]aret s(ed) ut eis possi(t) suf-\na16 [..]morte(m) p(er)seq(ui) vol[uerunt?]  [red] ps  D[omi]n[e]..   (faded)\na17 [..]n(i) [..] [con]sciencia(m) placare voluit\na18 [..]a debu[it] [..] cohercere  [red] ps  Exaltabo\na19 [..]nati p(o)p(u)li [p]redicabat (con)sensu(m) cui(us)?\na20 [..]eriose pot[..] refrenare  [red] ps  Beat(us) q(u)i i(n)t(elligit)\na21 [..]uelle potu[it] nec posse voluit aut\na22 [..]bat utrumq(ue)  [red] ps  Iudica me d(eu)s (et) di(scerne)  [red] V(ersus)  Ex[..]?\na23 [..]s spinea(m) corona(m) [E]t purpureu(m) vestim(entum)\na24 [red] [..]e (com)m(en)tario b(eati) Joh(ann)is ep(iscop)i\na25 [fla]gellauit ih(esu)m pylat(us) fortassis\na26 [..]ue volens et mitigare iudai-\na27 [..] Studens e[um] eripere et usq(ue)\na28 [..]stere i(n)s[an]ia(m)?/iusticia(m)? illoru(m) ideo fla-\na29 [..] et fieri que facta sunt co-\na30 [cla]mide(m) et corona(m) circu(m)pone-\na31 [m]olliat? i(r)a(m)?  [red] R(esponsoriu)m  [red S] [..]i pylat(us)?\na32 [..] [illegible] et sun[..]   (faded bottom line)\n\n=== 216r, COLUMN b (tiles 003, 006, 009, 012; right parts 004, 007, 010, 013) ===\nb1  homini salu(t)is? humiliato p(re)ces? o(mn)i(u)m: [..]ericeos?\nb2  [red P] opule? videte? quis te p[..] accusare  [red] V(ersus)  Sic[..]\nb3  coronauit a dignom[..]na? [..] i[..] cessare? unde\nb4  delecto opera bes[..]? p(o)p(u)le  [red] ii  [red P] rop(ter)ea\nb5  et ihesu(m) coronatu(m) (con)uexit?/eduxit? adeo pi-\nb6  lat(us) ut (con)uiciu(m) q(uo)d a militib(us) fac-\nb7  tu(m) erat i(n) eu(m) videntes paru(m)? respu(er)ent\nb8  a passio(n)e et ue(m)at? venenu(m) [N]o(n) sic\nb9  tam(en) extincta e(st) illor(um) ira s(ed) clama-\nb10 ba(n)t crucifige crucifige eum  [red] R(esponsoriu)m\nb11 [red E] gredit(ur) ih(esu)s portans spinea(m) corona(m) et p(ur)pur-\nb12 eu(m) vestimentu(m) [N?]o(n)? ornat(us)? regali habitu q(ui) ad\nb13 obp(ro)b(r)iu(m) coronat(ur)  [red] V(ersus)  Onosus? e(ni)m honore de[h]one[..]\nb14 [on horizontal fold: \"..ry et ...  ... [..]ere ...\" largely illegible]\nb15 [red T] u vero n(on) solu(m) audi hec s(ed) i(n)mente\nb16 [on fold: \"[..] colu[..] ... [..]tis [..]\" largely illegible]\nb17 et angelor(um) vides contumelia(m) pacie(n)-\nb18 te(m) a militib(us) p(?)ba[..] p(re)s? . et omnia\nb19 ferente(m) silencio imitare per om-\nb20 nia ipsa  [red] R(esponsoriu)m  [red Q] uid ẽ/g? corona spinea cap(iti)?\nb21 i(m)?clitu(m)? p(ri)mes? q(uo)d i(n)qua(m) si n(on) ad paciencia(m) nos inuitat\nb22 [..]ra? si in viridi hec fiu(n)t i(n) arido q(ui)d fiet  [red] V(ersus)  Co(n)spu[..]?\nb23 n(on) respuit gena? gen(er)osa? s(ed) ignosci supplicat q(uo)d\nb24 implicat? n(on) nosti? [..]asi  [red] iiii  [red N] os aute(m) f(rat)res\nb25 n(on) solu(m) legam(us) q(uo)d passus est xp(istu)s s(ed) et m(en)-\nb26 te ?aram(us)? ea(m)? corona(m) spinea(m) vestim(en)-\nb27 tu(m) calamu(m) alapas plagas ex? spinei?-\nb28 one(m)? yronia(m) Sufficiencia e(ni)m sunt h(ec)\nb29 continue revoluta ira(m) n(ost)ra(m) de-\nb30 struere  [red] R(esponsoriu)m  [red S] pinis xp(istu)s coronat(ur) f(rat)res e(t)?\nb31 obp(ro)b(r)io? torculari c(ruc)is p(re)ss(us) nos purgat a vino?/a viuo?\nb32 [red mark] [..] [..] ... [red] V(ersus)   (faded bottom line, illegible)\n\n=== 216v, COLUMN a (tiles 016, 019, 022, 025; left edge 015, 018, 021, 024) ===\na1  [red S] pinis coronauit mat(er) i(m)pia auctore(m) vite\na2  q(ui) a(n)i(m)am dedit p(ro)pt(er) p(e)cc(a)ta mu(n)di  Morte  [red] In ij n(octurno)?\na3  [red S] i merito i(n)uehim(ur) i(n) pilatu(m) q(u)ali(te)r? dissimulab(im)us\na4  de p(ri)ncipib(us) sacerdotu(m)  [red] ps  D(eu)s i(n) no(m)i(n)e  [red] a(n)  G(en)s? tua (et) po(n)-\na5  tifices i(n)q(ui)t pylat(us) t(ra)diderunt te m(ihi)  [red] ps  Misere m(ei)\na6  d(eu)s q(uonia)m?  [red] a(n)  [N]o(n) h(ab)it? legis lator adu(er)sarios sic(ut) legis\na7  doctores  [red] ps  Misere m(ei) d(eu)s m(ei)  [red] a(n)  Lege(m) habe(mu)s? se dicu(n)t\na8  sec(un)du(m) qua(m) moriat(ur) q(ui) lege(m) uen(er)at? adimplere  [red] ps  Ex-\na9  audi d(eu)s o(rationem) m(eam) c(um) d(eprecor)  [red] a(n)  [..]b(is)? quequa(m) n(on) lic(et) i(n)ficere co(n)-\na10 citat? t(ur)ba(m)? pet(er)e barraba(m)  [red] ps  D(omi)ne d(eu)s s(alutis) m(ee)  [red] a(n)  P(ro)p-\na11 t(er)ea mai(us) peccatu(m) h(ab)et q(ui) me t(ra)didit t(ibi)  [red] ps  D(omi)n(u)s regna(vit)\na12 [red] V(ersus)  Corona aurea sup(er) cap(ut) ei(us) [E]xp(re)ssa signo s(an)c(t)itatis\na13 [red] S(er)mo beati B(er)nhardi Abb(at)is .v.\na14 [red V] ide nu(n)c op(er)a d(omi)ni q(ue) posuit sup(er) t(er)ra(m)\na15 Flagellis ces(us) spinis coronat(us) clauis\na16 (con)foss(us) affix(us) patibulo obp(ro)b(r)iis saciat(us)\na17 omniu(m) tame(n) dolor(um) i(m)memor ait Igno-\na18 sce illis  Hinc multe miserie corporis\na19 hic multe i(n)iurie? cordis  [red] R(esponsoriu)m  [red initial V/O?] [.]l? corone\na20 sup(er)bie v(est)re ebriu(m)? effray q(u)i e(st)? coronas v(est)ras mut-\na21 te debetis dicturi dign(us)? es? illudebatis ei dice(n)-\na22 tes aue rabbi et dantes ei alapas  [red] V(ersus)  Cecid(it)? coro-\na23 na capitis n(ost)ri ve nobis q(ui)a peccauimus  [red-touched] Dicet?\na24 [red R, two lines] etribuentes mala p(ro) bonis fouea(m)  [red] vi\na25 fodiu(n)t s(ed) caritas n(on) irritat(ur) n(on) p(re)-\na26 cipitat(ur) nu(m)q(ua)m excidit n(on) i(n) fouea(m) ruit\na27 Et p(ro) retributis malis cumulat bona\na28 Absit ut musce morit(ur)e exterminent\na29 suauitate(m) u(n)guenti q(uo)d de tuo corpore flu-\na30 it  [red] R(esponsoriu)m  [red S] i u(n)q(ua)m t(ibi)? (con)traria i(n)tuli aut p(ro)sp(er)a de-\na31 negaui q(ui)? spoliasti me gl(ori)a mea et abstulisti\na32 corona(m) de capite meo  [red] V(ersus)  Cu(m)? e(ss)e(t)? e(r)ga? me corona\n\n=== 216v, COLUMN b (tiles 017, 020, 023, 026) - right edge lost from about b9 down ===\nb1  na fr(atr)u(m) q(ua)si pla(n)tacio cedri i(n) mo(n)[te]\nb2  spoliasti  [red] V(ersus)? vij  [red M] [..]ira? res  Ille c[..]\nb3  nosce iudei crucifige  Moll[..]\nb4  mones ei(us) sup(er) oleu(m) et isti su[nt]\nb5  o caritas paciens s(ed) et co(m)paciens\nb6  paciens e(st) sufficit  Caritas beni[gna]\nb7  mul(tum) e(st)  Noli vinci a malo carita[s]\nb8  e(st) s(ed) vince i(n) bono malu(m) sup(er) ha[..]\nb9  [red F] ecerunt ip(s)i? labio corona(m) i(n)transile? al[..]\nb10 tuor? et sup(er) ip(s)a(m) alta(m) corona(m) [red-touched D?][..]\nb11 mortis gloria coronat(us) e(st) et hono[re]\nb12 a(n)geli minorat(us) habebat arcu(m) [..]\nb13 [..]a? p(ro)p(ter)?  [red] viij  [red M] [..]Edita[..]\nb14 crucifixi corporis et [..]\nb15 e(st) i(n) eo q(uo)d no(n) totu(m) p(ro)ce[..]\nb16 Diuinu(m) illud caput m[..]\nb17 de(n)sitate de(n)sar(um) usq(ue) ad cere[..]\nb18 ne (con)fixu(m) e(st) du(m) (con)figit(ur) sp[..]\nb19 peccator(um) suor(um) ait d(omi)n(u)s p(er) p(ro)phet[am]\nb20 p(o)p(u)l(u)s iste  [red] R(esponsoriu)m  [red C] u(m) apparuerit\nb21 q(ui)? p(er)cusso disp(er)se sunt oues gregis  P(er)cipie[tis]\nb22 [inui]sibile(m)? glorie corona(m)  [red] V(ersus)  Cu(m) fec(er)it? gr(an)de\nb23 ostendat diuicias glorie regni sui  P(er)cip[ietis]\nb24 (interlinear above b25, small black: \"q(ua)re? sup(r)a ante (can)tica\" - rubrical note)\nb25 [red P] edib(us) (con)culcabit(ur)  [red] a(n)  [red N] equaq(ua)m\nb26 clareret i(n) ipso? s(ed) ut obp(ro)b(r)io repleret(ur)\nb27 [large red I/J initial spans b27-b30] me p(o)p(u)l(u)s iste  Spinis p(o)p(u)l(u)s? peccator(um) suor(um)\nb28 Nullo .t.?  [red A] p(p)rehendit pylat(us) ih(esu)[m]\nb29 [fla]gellauit  Et milites plecte(n)tes\nb30 de spinis i(m)posuerunt capit[i]\nb31 p(ur)purea circu(m)dederu(n)t eu(m)  Et  [red] R(esponsoriu)m\nb32 [red C, two lines] u(m) iudei clamassent no[..]\nb33 ih(esu)m sibi a pylato [..]\n\nAREAS SELECTED / UNREAD\n- All four columns read line by line. Weakest: 216r col a (left third of every line lost; l5-l6, l11-l14, l16, l31-l32), 216r col b lines b1-b4 (abraded), b13-b14 and b16 (horizontal fold, largely illegible), b20-b24, b32; 216v col a l19-l23 (abbreviations uncertain); 216v col b line ends after b8 (physically lost) and b13, b27-b28 (initial and abbreviations uncertain).\n- The two large red initials in 216v col b (I/J at b27-30 and C at b32-33) are read only as letter shapes; how the I/J initial joins b27 is unclear.\n- A raking-light or UV image of the 216r horizontal fold (col a l13-14, col b l14 and l16) and the darkened turn-in band would help.\n\nLIMITATIONS\n- Binding-wrapper damage: cut-away left side of 216r col a, torn right side of 216v col b, darkened turn-in band and folds. Many abbreviation expansions are tentative. Order r/v taken from the pencilled shelfmarks only.\n",
+  "text_sha256": "3a37f38b4a730f65182864670bc1d08797013ad03278f8421e06aaf66ebdbe41"
+}

@@ -1,0 +1,487 @@
+{
+  "captured_at": "2026-10-30T21:16:21.429720+00:00",
+  "fragment": "F-hmwp",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "816d8e17c0fd5c7388cc3f992910d02898caee25a98615d1ee3c1a0e8a6e890f",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "29176654f4e793414bf063000b27e397845922a948f9ec84be11454fe3ed2824",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 147,220,1439,1720; unrotated grid position column 1 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "4023cfe52b0e983caee9258a39c8fe2dfd2658f8fc5639942e7900cdb3c1a945",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 1162,220,2594,1720; unrotated grid position column 2 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "761fd1f9002019835b93d69a86683337479f2bd21880ed02f65e462a193b5178",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 2316,220,3748,1720; unrotated grid position column 3 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "cb60f80f3a21f476f3e3843223cd79cf299634ba701f11b3ba98d0b7d9ede9a5",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 3471,220,4764,1720; unrotated grid position column 4 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "6c3bde0aa66e6f29b33ca08bd25b54ffccdc132a5b884aa61487943908f26aaa",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 147,1398,1439,3059; unrotated grid position column 1 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "3d0d5ffa4478bbbc74a930b10e976d47e60b5155f2f20fed5db4cfd3b184383c",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 1162,1398,2594,3059; unrotated grid position column 2 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "c6ccbf8561108f263fd2ed4efc3b5ba2e74a3c38a8282d2e056c1aeebbfa4aab",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 2316,1398,3748,3059; unrotated grid position column 3 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "736536c2735c946006163e6c775711efd5e89ef38ae60bcac1f701eb5d473271",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 3471,1398,4764,3059; unrotated grid position column 4 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "988dcd9a42dd55bdc117076da0ba18c8de76d685f6d82805b867c23e5e45c528",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 147,2738,1439,4399; unrotated grid position column 1 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "21dca590378bd70f6a3861cbdaadbef8bd991f041d00336a44bb3852b022851d",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 1162,2738,2594,4399; unrotated grid position column 2 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "8aa949db5d45661cc4a05b794f457cb9a2b83373731aef8ce443a4a7893c74ae",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 2316,2738,3748,4399; unrotated grid position column 3 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "ec81842d01134b963a601b359adf2af33fb64b951b43e1acef05377517d3cb28",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 3471,2738,4764,4399; unrotated grid position column 4 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "8c42fefb6e6177368aa556a3544f757c809c522ddb39f68e2ff86078640857d8",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 147,4078,1439,5739; unrotated grid position column 1 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "712d3faca6f49387dc879044b13169e777340e2b6d7e1ff4fd772f73f0b4fe9b",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 1162,4078,2594,5739; unrotated grid position column 2 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "338c1303743c1101169db41f826ec177e6db12dd32d94032b5e5949b3fb4a15f",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 2316,4078,3748,5739; unrotated grid position column 3 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "93a47de8e61a0ab39b9dc7e8e60c6f8cdac328088e656b4de622c1288bae1377",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 3471,4078,4764,5739; unrotated grid position column 4 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "256a110fbafa5c37bde3b8c570d724e4dd5b3daaf04c717da478d0eab8bed619",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 147,5417,1439,6918; unrotated grid position column 1 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "df96b0e1016c739760be04a74681ace283b913cd80889fd87f1d7e48acd83620",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 1162,5417,2594,6918; unrotated grid position column 2 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "750e6589ca4dd82830b43c67041239aa1212fe7ed80a07199caa4605492de12c",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 2316,5417,3748,6918; unrotated grid position column 3 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "ed6c5dd872a4f98732392258c2f66bf6adfa242ff1afa075436697c20a2c4a8a",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01r04r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_036_01r04r): native-pixel box 3471,5417,4764,6918; unrotated grid position column 4 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "048106805df9df1711a07a6fdbf1db2b4e0dfc93dbdcbee85e715333a6eecde2",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "911283961d0949373518e20b4d00760c44dd4f8e46cd74d68692f7475615acc7",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 147,220,1439,1720; unrotated grid position column 1 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "feaf7addf281bcae9995831b8b85f7b3ab1380f366cec12d966b95418255a967",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 1162,220,2594,1720; unrotated grid position column 2 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "093bef9156c206381309a49d82931438e6759eaa553ca32b5704b3c2206595f6",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 2316,220,3748,1720; unrotated grid position column 3 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "ec92731de31fc109426c6b15cf910730333b57c2951c51ec440b8a6e7f552618",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 3471,220,4764,1720; unrotated grid position column 4 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "16dbdea68f5a0b1fe93ca2a60096f0dee54c48867fcf5e42899cfaa8a99f878c",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 147,1398,1439,3059; unrotated grid position column 1 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "4d689a0df64c41901650a72c27426eec146eddb8c0ba68241682d58a2194d77d",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 1162,1398,2594,3059; unrotated grid position column 2 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "8a7e9e2bdf445dadcc3045d09fd1d00940dfd689c4b5e35e7ac0939afd242062",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 2316,1398,3748,3059; unrotated grid position column 3 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "b58e7d55f607cb40de587a14746f7f31ce503673a35d3f2bbb1f57c8fa83b9da",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 3471,1398,4764,3059; unrotated grid position column 4 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "9d64ea790da6a8f13316b4252d065512c80fe072ffd72cee0e7501a09f1158e1",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 147,2738,1439,4399; unrotated grid position column 1 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "b696addc134fb28fe79527c563c5e98f7348badd2ebe0b67715c8db896ac2bf8",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 1162,2738,2594,4399; unrotated grid position column 2 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "131e49bd793724fc14005ac6b8692ed0f231a361875b16a2be506dc1f535cc01",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 2316,2738,3748,4399; unrotated grid position column 3 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "91491afb93008ab20bdff1e2a78e16a2302582d93b56e429d5af1864b7980362",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 3471,2738,4764,4399; unrotated grid position column 4 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-035.jpg",
+        "sha256": "db045e2640c319a8b8cda3a8f5c0218522cb610bc7b9bba235a5d48831e83473",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 147,4078,1439,5739; unrotated grid position column 1 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-036.jpg",
+        "sha256": "0e5ffc44cf4689d7bdc8bce6caad626c401660df3609edc107cce3c388e542be",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 1162,4078,2594,5739; unrotated grid position column 2 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-037.jpg",
+        "sha256": "0aa474e1761581cfb1291b62cb26f441fffc8768e7a68bd862e471bdb51a25de",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 2316,4078,3748,5739; unrotated grid position column 3 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-038.jpg",
+        "sha256": "1f6d33c01d11b3856220a548d3fd8f5732bb290097477bb2545d9828616bae7f",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 3471,4078,4764,5739; unrotated grid position column 4 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-039.jpg",
+        "sha256": "c7ab307f98c61fa2d3735192465a5dd97489844c09f6a745181707763504fa22",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 147,5417,1439,6918; unrotated grid position column 1 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-040.jpg",
+        "sha256": "dff6e319bdcd892d13378ad734665f2f673350c0885bda17eb96ebd58893507d",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 1162,5417,2594,6918; unrotated grid position column 2 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-041.jpg",
+        "sha256": "26983d17f24db77460ac12d27aa353ebffa9b1f4e1aebffcb8306f7f82d263b9",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 2316,5417,3748,6918; unrotated grid position column 3 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-042.jpg",
+        "sha256": "500a829fbde0d2f91f83891b00a0a8c4fde7f4caa63d0808589118cb1296115f",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_01v04v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_036_01v04v): native-pixel box 3471,5417,4764,6918; unrotated grid position column 4 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-043.jpg",
+        "sha256": "7069ea11ffa31a81d6cb82cddfd6fa18c1d7f2243f2b83fdefff54d63448c667",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-044.jpg",
+        "sha256": "fc766ff775c8ff055ee41737af7511002c4537b9526af4be21fb87636345d499",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 147,220,1439,1720; unrotated grid position column 1 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-045.jpg",
+        "sha256": "7529b590d970c05e509b937c85dbe56074ed97647139c57d5a11b6210a6e627a",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 1162,220,2594,1720; unrotated grid position column 2 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-046.jpg",
+        "sha256": "56db53fbcea1efa83f950999bd91e59c95d56ed2248ffcfc19958d8cfe170e4c",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 2316,220,3748,1720; unrotated grid position column 3 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-047.jpg",
+        "sha256": "27d42653a56ca94a7906dcb22af622c19253cd47f5cb2c51625332ffbfbea193",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 3471,220,4764,1720; unrotated grid position column 4 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-048.jpg",
+        "sha256": "0b79b6625c04f9ac1bab84cf940b76e844cc5977a17bf2236c092f39743f3616",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 147,1398,1439,3059; unrotated grid position column 1 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-049.jpg",
+        "sha256": "376c595d6755fc738fcd8baf17cb03a2c37dc49b9240a1a778b819fa3a015851",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 1162,1398,2594,3059; unrotated grid position column 2 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-050.jpg",
+        "sha256": "75d1def7e49319419748318cf7d07c400c30510e399a99fa12e20e3543d0f7dc",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 2316,1398,3748,3059; unrotated grid position column 3 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-051.jpg",
+        "sha256": "27b1afa2003628b3da9048c5e10b32d100cf79ebea6dffc0db43ea743edb7b40",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 3471,1398,4764,3059; unrotated grid position column 4 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-052.jpg",
+        "sha256": "a9efcc54e9255b5cdb391e120bcb000b96f02161ca3ac45d4c60acee16b92864",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 147,2738,1439,4399; unrotated grid position column 1 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-053.jpg",
+        "sha256": "0d0d9ddefd022d14ddb007e4aab8488811271b52da8574b4c7d08344633e74c4",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 1162,2738,2594,4399; unrotated grid position column 2 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-054.jpg",
+        "sha256": "5e1be00feecf193ad993ba5f6da2da12294de83cf9886d0506932f98209a5013",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 2316,2738,3748,4399; unrotated grid position column 3 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-055.jpg",
+        "sha256": "7dc2e2810aaf0d1c5f5ac6188b4884adfdf28dc785a27810bf5911c14cf94c70",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 3471,2738,4764,4399; unrotated grid position column 4 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-056.jpg",
+        "sha256": "a560f888b831dff3e015648a165f6cd644cd958d1e6d9f8c5dcd414f0f3818a9",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 147,4078,1439,5739; unrotated grid position column 1 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-057.jpg",
+        "sha256": "81398cb00009ba090f9985aa809edd7bd896ff56b24f16e3b7766ac0a5869d5b",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 1162,4078,2594,5739; unrotated grid position column 2 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-058.jpg",
+        "sha256": "95e434b721f3e6f3840e76b38bc22498c495aa9ac2b7998cdad9c0db0f66f9f3",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 2316,4078,3748,5739; unrotated grid position column 3 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-059.jpg",
+        "sha256": "d054101edfa3d37746bfc3394f5d3ba51a8858cc559e6e7029c37ce3d6c7e475",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 3471,4078,4764,5739; unrotated grid position column 4 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-060.jpg",
+        "sha256": "a5d91a56090234fbd2d7d4f94f9c1349f6a0506efe4aa912f75db70088567763",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 147,5417,1439,6918; unrotated grid position column 1 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-061.jpg",
+        "sha256": "1a4215eae3e76dbe3adee8bc9cfdaf420b29bad47788606bf7879270309ba517",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 1162,5417,2594,6918; unrotated grid position column 2 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-062.jpg",
+        "sha256": "9a3e2082cebe517bea89c1cf41e5c79027fd390dfcd69d3e2a0ab78daae239d9",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 2316,5417,3748,6918; unrotated grid position column 3 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-063.jpg",
+        "sha256": "3da7f9ac66f6b697a09c7918c7d27f1e7ec521ba4a8e3a9522ac2c5dec7b7af5",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05r08r.jpg/full/4912,/0/default.jpg (canvas 2, Stams_STA_Frg_036_05r08r): native-pixel box 3471,5417,4764,6918; unrotated grid position column 4 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-064.jpg",
+        "sha256": "b9862400ff50104523826130c5a26def02aa92a757810ea2f0ff5e51ec1a8d66",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-065.jpg",
+        "sha256": "7240bd3d53500afe5b13fbb39ed54fe1f51decba0dff168c080cc24d0e327345",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 147,220,1439,1720; unrotated grid position column 1 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-066.jpg",
+        "sha256": "0bdd4f3feeb79d834a6f5a5a405235c9964972d026d0c424e28d0f7ec33f0c41",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 1162,220,2594,1720; unrotated grid position column 2 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-067.jpg",
+        "sha256": "70e0b3b49d7714af63da50d5850e26952d3c1c923dc1bae4c5e7bfb5655fc7bf",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 2316,220,3748,1720; unrotated grid position column 3 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-068.jpg",
+        "sha256": "2e07d5c07b76cdca9005269eb101049796b6a26461558ddd551677fef88b40c2",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 3471,220,4764,1720; unrotated grid position column 4 of 4, row 1 of 5"
+      },
+      {
+        "name": "image-069.jpg",
+        "sha256": "d50f1db107f62c813a073e79173a75625360723fe3572cc8b517178066baf0e2",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 147,1398,1439,3059; unrotated grid position column 1 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-070.jpg",
+        "sha256": "d542c2415410edca87c5f74120d723f4bef64a3637b454e122b6f194b6ae2545",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 1162,1398,2594,3059; unrotated grid position column 2 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-071.jpg",
+        "sha256": "80a7d010e1c659f53443216f4deae84926f0aeef5abe464390cbed6f9e761f17",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 2316,1398,3748,3059; unrotated grid position column 3 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-072.jpg",
+        "sha256": "7957330462665b7668da199d498703416e4581d16c9da260a196fad7f0a29d31",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 3471,1398,4764,3059; unrotated grid position column 4 of 4, row 2 of 5"
+      },
+      {
+        "name": "image-073.jpg",
+        "sha256": "e2450304d0f24fbdecbc2369f836e7008f39b8bd0d37fb35b298e432d23897f3",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 147,2738,1439,4399; unrotated grid position column 1 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-074.jpg",
+        "sha256": "65ffadcf97551995693e6f59ad08fb3b0d0d3b485e1ffedf25e943cce545d086",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 1162,2738,2594,4399; unrotated grid position column 2 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-075.jpg",
+        "sha256": "0cde116cb20043e9c20c50d7b8bbf8b6c5443ae58c1fa34485371665ca2d974a",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 2316,2738,3748,4399; unrotated grid position column 3 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-076.jpg",
+        "sha256": "8564b11beb64871efa4b3aee82fd9af5c8a06b14cda77078601d9bab712faf48",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 3471,2738,4764,4399; unrotated grid position column 4 of 4, row 3 of 5"
+      },
+      {
+        "name": "image-077.jpg",
+        "sha256": "1a289b8dfd1c6d6bbb79733bc752fb5456be2d5b0c80ef9b4f9a08b0cebb92c5",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 147,4078,1439,5739; unrotated grid position column 1 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-078.jpg",
+        "sha256": "21c1095faaee0810457f9ff44b911e0ca3a34b6fb6d10f70c3fb66ce4ba3766a",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 1162,4078,2594,5739; unrotated grid position column 2 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-079.jpg",
+        "sha256": "37f8eb4d888e57f3f12ebb8f47fb65805ab92cf7bea67c2c098572c930bbfc28",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 2316,4078,3748,5739; unrotated grid position column 3 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-080.jpg",
+        "sha256": "28d4188a381a5fb3770f33a4bf767f8cee804915edd6919a3c2e001ba711f3cf",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 3471,4078,4764,5739; unrotated grid position column 4 of 4, row 4 of 5"
+      },
+      {
+        "name": "image-081.jpg",
+        "sha256": "15497859a89cb9399a10532eaaa0a2c9323f36d259a8d2b7ce4c81ac717bd128",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 147,5417,1439,6918; unrotated grid position column 1 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-082.jpg",
+        "sha256": "39b04e84b3aa5b15f46b5d096e3cc195bd9d5f2e946ef361ea744a9f68d0b2e9",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 1162,5417,2594,6918; unrotated grid position column 2 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-083.jpg",
+        "sha256": "54962408cc1f4801afc2d645ad45fd112d267e644c9fa658615b89f3a5f0e656",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 2316,5417,3748,6918; unrotated grid position column 3 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-084.jpg",
+        "sha256": "ad8ec8d4cf12fdab31602a7364a3117895b8b7089a2028c427ca4618f4c242ea",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_05v08v.jpg/full/4912,/0/default.jpg (canvas 3, Stams_STA_Frg_036_05v08v): native-pixel box 3471,5417,4764,6918; unrotated grid position column 4 of 4, row 5 of 5"
+      },
+      {
+        "name": "image-085.jpg",
+        "sha256": "0e897a69c8907da23836800668539d2221edce026398c100cdc208f29ddb331e",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_036_09r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-086.jpg",
+        "sha256": "9b1d5f48b574c0ee1c717a00cea71e9359645d10844f88f83643639fd57b208d",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_036_09r): native-pixel box 2561,1380,3599,2997; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-087.jpg",
+        "sha256": "18fe5c1e8936c3becd3bf3bc18b5ea08117571e297f4043ac78c4738c85bce3b",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_036_09r): native-pixel box 3377,1380,4416,2997; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-088.jpg",
+        "sha256": "b71744b24487bba1534f52b6c50091c4e07cab7a4073b06beb760b0888a587cb",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_036_09r): native-pixel box 2561,2650,3599,4268; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-089.jpg",
+        "sha256": "ef9a6d196c46e5c00ac4a36d4959eb7c64408fc7adabaab53e01cea0107be1e4",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_036_09r): native-pixel box 3377,2650,4416,4268; unrotated grid position column 2 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-090.jpg",
+        "sha256": "d96d565e786fd0516db1f1fe39c8642996e76d424705cd6af9628d2e689da98a",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_036_09v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-091.jpg",
+        "sha256": "a48e4a75c4ed9646773e842e28233b8da841cfb3e049c3f735bbe348009c3c2c",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_036_09v): native-pixel box 2973,1282,4031,2918; unrotated grid position column 1 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-092.jpg",
+        "sha256": "a31f57a8c28a7adb93f39b867319df3d3d0724f43ca71656e5beedbe0ce2d1d0",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_036_09v): native-pixel box 3805,1282,4864,2918; unrotated grid position column 2 of 2, row 1 of 2"
+      },
+      {
+        "name": "image-093.jpg",
+        "sha256": "fdbf57a578037508fa5fa9abc3137a305a6b676cc0c65e8f7ae83e069ec4a23a",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_036_09v): native-pixel box 2973,2567,4031,4204; unrotated grid position column 1 of 2, row 2 of 2"
+      },
+      {
+        "name": "image-094.jpg",
+        "sha256": "2cae56d22da1c005a7bbfddc914c90f964150ae7152242a3b09ec1d6f5b3ec77",
+        "source": "https://fragmentarium.ms:443/loris/F-hmwp/Stams_STA_Frg_036_09v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_036_09v): native-pixel box 3805,2567,4864,4204; unrotated grid position column 2 of 2, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-06)",
+  "text": "Packet-06 response assembled from three blind readers' files, by image range. Each reader saw only the images it cites.\n\n===== Reader A: images 001-028 =====\nPACKET 06 - PART 1: covers images 001-028 only (another reader covers the rest).\nUnverified blind image reading. No identification of the work was revealed to me in context; none attempted.\n\nLAYOUT SURVEY (image-001, reduced overview)\n- image-001 shows four separate parchment fragments on black ground with a scale ruler (top) and colour chart (bottom right). Pencil shelfmark labels visible: top-right fragment \"Stams, STA, Frg. 36-2r\" (written in right margin); bottom-left \"Stams, STA, Frg. 36-3r\"; bottom-right \"Stams, STA, Frg. 36-4r\"; top-left fragment label at top reads something like \"Stams, STA, Frg. 36-1r\"? (small, uncertain).\n- Top-left fragment: no visible script; surface heavily stained pink/red with brown patches (pigment/paste residue, likely a binding-side surface). Horizontal fold/crease near the bottom.\n- Top-right (36-2r): single column, ~17 lines visible, large Gothic textualis bookhand, red paraph marks (red strokes) within lines. Left edge torn (line beginnings lost on lower lines).\n- Bottom-left (36-3r): single column, ~17 lines, right side cut/torn (line ends lost), severe abrasion and losses at lower right; large blank left area (margin). Red paraph/initial strokes in some lines. A spatula/tool overlaps the lower right in the photo.\n- Bottom-right (36-4r): single column, ~18 lines, same hand; red paraphs and red capital highlights; interlinear glosses in smaller script above several lines (lines 1-6 especially); marginal notes in left margin (two-line note around line 11-12; another near the bottom by a large red initial \"Q\"). Large red initial Q at near-bottom (line ~17). Right edge cut (line ends lost).\n- Interpretation (tentative): continuous prose text in a single column, with later interlinear glossing on 36-4r.\n\nFRAGMENT 36-1r (top-left in image-001; tiles image-002, image-003, image-006, image-007, image-010 top, image-011 top)\n- Pencil label (image-003, top): \"Stams, STA, Frg. 36-1r\" (last character r/v not certain; looks like \"1r\").\n- No manuscript script visible on this side. Surface is hair-side-like parchment with heavy pink/red stain and brown adhesive/leather residue; a small holes; a horizontal stitched/folded crease near the bottom (image-006, image-007).\n- image-006 (centre) and image-007 (left edge): a small adhered scrap of PRINTED paper with a few printed letters, one legible group \"cōr\" (c-o-r with macron over o), other letters illegible; this is debris, not part of the manuscript text.\n- Nothing to transcribe.\n\nFRAGMENT 36-2r (top-right in image-001). Single column, Gothic bookhand, red paraph strokes. Left edge torn (initial letters lost lines 3-17); right margin intact (line ends complete). A detached/folded flap of parchment overlies the left part of lines 8-12 (image-008).\nLine numbers below are counted from the top of the written block (= first text line in image-004). Image citations per line.\nSources: image-004 (left half, lines 1-6), image-005 (right half, lines 1-6), image-008 (left/middle, lines 5-16), image-009 (right half, lines 5-16).\n\n36-2r l.1  (img-004 l.1 / img-005 l.1): non [abraded: ?o]me͞ uident(ur)? ee opposita        [the mark after \"uident\" is a superscript 2-shaped -ur/-et sign; \"ee\" = esse?]\n36-2r l.2  (img-004 l.2 / img-005 l.2): habebit mediu(m) p(er)?[.]dem equiuoc(?) [or \"equinoc\"; minims ambiguous; line ends \"equiuoc\"]\n36-2r l.3  (img-004 l.3 / img-005 l.3): [.]t in gen(er)e sit simile(s)? h(ab)ebit ut\n36-2r l.4  (img-004 l.4 / img-005 l.4): est analogu(m) [red paraph] Alia aut(em) ra͞(tio)? e(st) in\n36-2r l.5  (img-004 l.5 / img-005 l.6 / img-008 l.1): [.] causa eadem [red paraph] In s[?]ctu͞(m)? [?r/et] linea      [word after paraph unclear: \"fictu(m)\"/\"strictu(m)\"?]\n36-2r l.6  (img-004 l.6 / img-005 l.7 / img-008 l.2): aut est habens augm(en)tu(m)? q(uo)d(?) ea?      [last word uncertain]\n36-2r l.7  (img-008 l.3 / img-009 l.3): [.]n ee͞ colore(m) alb(um)? et? figura(m) sic(ut)?      [last word \"sic(ut)/sicc\" uncertain]\n36-2r l.8  (img-008 l.4 / img-009 l.4): est simile in o(mn)ib(us) h(abe)?(n)s q(ue)? e(st)?      [line end \"h q ēn\" read with low confidence]\n36-2r l.9  (img-008 l.5 / img-009 l.5): [m?] [..] ē lata (et) eq(ua)les angulos [red paraph] [?]ate//?      [word after paraph unclear, possibly \"pate..\"]\n36-2r l.10 (img-008 l.6 / img-009 l.6): [..]a [flap] d(icitu)r? ad h(ec)9? [red paraph] [B?]e[.]n at analo(g)?      [low confidence after paraph]\n36-2r l.11 (img-008 l.7-8 / img-009 l.7): [l?] est [flap] ... gia h(ab)et? ... [?]ep(ro)po(r)cion?      [mostly illegible; ends with something like \"rep(ro)son\" / \"p(ro)porcion\"]\n36-2r l.12 (img-008 l.8 / img-009 l.8): [.]t ma[.]u sic(ut)? [flap obscures] ... quid ampli(us)? et      [middle obscured by folded flap; \"quid amplius et\" low-medium confidence]\n36-2r l.13 (img-008 l.9): [.]t in quo q(uod)? [flap] ... [\"umi\"/\"una\"?] ... quid ampli...    [NB: l.12/l.13 may be the same physical line; the flap makes line alignment uncertain]\n36-2r l.14 (img-008 l.10 / img-009 l.9): [.]n plus e[...] [...] ceteris? q(uod) p(er) exempl(um)?\n36-2r l.15 (img-008 l.11 / img-009 l.10): [.]gl(u)ū? q(uod) q(ua)nglis? [red paraph] [r?]ectis? at equalib(us)    [the first words could be \"angulu(m) q(uod) q(uia) angulis\"; uncertain]\n36-2r l.16 (img-008 l.12 / img-009 l.11): [.]c(um)? recaul? equales q(uod) f[...] o͞c? ... me hui[?]    [illegible stretches]\n36-2r l.17 (image-001 overview only so far): [..]t falso plus ... [red] ... en ...   [bottom line; await bottom tile]\n\n36-2r bottom lines (image-012 top part, image-013 top part). CORRECTION: the fragment has 18 lines; image-012 shows two lines below \"recaul equales\":\n36-2r l.15 (img-012 l.1): [.]glu(m)? (et)? q(uod)? q(ua)nglis? [red paraph] [?]e[.]tis? at equalib(us)     [= same line as above; img-013 l.1 \"..at equalibo\"]\n36-2r l.16 (img-012 l.2 / img-013 l.2): [..]ic recaul? equales q(uod) f[..] o͞c? [..] me hui[?]     [right end \"...me hui[.]\" faint]\n36-2r l.17 (img-012 l.3 / img-013 l.3): [...] edin? uero? p(ri)m[.] [..] [..]quib(us)? ex? [...]     [very faint, abraded; low confidence]\n36-2r l.18 (img-012 l.4 / img-013 l.4): [..]t falso plus [red paraph] [.]m [.]t p(ro)p(ri)a? / p(er)am[?]     [bottom line, lower edge torn]\nUnread on 36-2r: line beginnings (left tear), most of l.10-13 behind the folded flap, l.17.\n\nFRAGMENT 36-4r (bottom-right in image-001). Label (image-012): \"Stams, STA, Frg. 36-4r\". Single column; main text in large Gothic bookhand; small interlinear glosses (cursive, brown ink) above/below several lines; red paraph/capital strokes. Right edge cut (line ends lost). Large blank left margin with occasional marginal notes.\nSources so far: image-012 (left part, lines 1-4), image-013 (right part, lines 1-4).\n\n36-4r gloss above l.1 (img-012/013): i(n)t(er)rogac(i)o(n)e     [then, further right:] de i(n)t(er)rogac(i)o(n)e s(ecundu)m? [....]\n36-4r l.1  (img-012 l.1 / img-013 l.1): geo͞m(etr)a? [geo with superscript \"m\" + \"a\"] utraq(ue)? aut neq(ue) medica? alia? [red stroke] Siue? / Sile? [...]\n36-4r gloss below l.1 (left, img-012): i(n)t(er)rogac(i)o(n)i(?) geometrie s(ecundu)m?\n36-4r gloss below l.1 (right, img-013): q(uod)? p(ro)p(r)io? de reb(us) geo[...] / [next line] reb(us)\n36-4r gloss above l.2 (img-013, over \"aliq\"): co(n)cl(usi)o(n)es?\n36-4r l.2  (img-012 l.2 / img-013 l.2): [red-touched S]ed? ex q(ui)b(us) aut(em)(underlined) demo(n)strat(ur)? aliq(ui)d? de q(ui)b(us) [..]     [\"aut\" appears underlined]\n36-4r glosses below l.2 (img-012/013): i(n)t(er)rogac(i)o(n)ib(us) | no(n) t(ame)n de reb(us) de q(ui)b(us) e(st) geometria / s(ed) de alijs [..] reb(us) | a[.] [..]nt? / ut est m[...]\n36-4r gloss above l.3 (img-013): a q(ue)? [small, over \"geometrie\"]\n36-4r l.3  (img-012 l.3 / img-013 l.3): exci[.]d? [or \"ex eis d(e)\"?] demo(n)strat(ur) geometrie sic(ut) i(n) p(er)specti(ua)?\n36-4r glosses below l.3: (left) ut i(n)? music[a] s(ecundu)a?  |  (right, img-013) p(er)spec(tiua)? s(u)balt(er)nat(ur) de q(ui)b(us) mat(hematic)a? / d(e)monstrat(ur)? i(n) s(ecundu)a s(u)balt(er)nata g[..]\n36-4r l.4  (img-012 l.4 / img-013 l.4): subgeometria? s(un)t? aut(em) et i(n) alijs [red paraph] Et d[...]\n36-4r continued (image-016 left part, image-017 right part; overlapping with image-013 for l.3-4):\n36-4r l.5  (img-016 l.3 / img-017 l.2): nedu(m)? ee͞ ex geometrab(us)? [= \"exgeometrab9\", poss. geometricalib(us)] p(ri)n(cipi)ijs? et q[...]\n     gloss below \"p(ri)n(cipi)ijs\" (img-017): a geomet(ri)a? [small \"a geomet'\"]; at right edge another small gloss \"q[...]\"\n36-4r l.6  (img-016 l.4 / img-017 l.3): ro͞es [= r(ati)o(n)es?] no(n) e(st) ponedu(m)? [= p(ro)ponendu(m)?] ee͞. geometrie [s...]\n     gloss below \"geometrie\" (img-017, two short lines, bracketed): s(cilicet)? [..]ia? / s(cilicet)? [..]alez?\n36-4r l.7  (img-016 l.5 / img-017 l.4): aut (et)? i(n) alijs sc(ient)ijs [red paraph] Neq(ue) o(mn)ez? e(st) utraq(ue)?\n     gloss above \"utraq\": u(?)q(ue)?   gloss below \"o(mn)ez e\": s(ci)e(nti)a g(e)n(er)al(e)?\n36-4r l.8  (img-016 l.6 / img-017 l.5): rogac(i)o(n)ez [gloss \"re\"? above] i(n)t(er)rogare? . neq(ue) s(ecundu)m o(mn)em [...]\n36-4r l.9  (img-016 l.7 / img-017 l.6): de͞ de unoq(uo)q(ue). sed q(ua)l(ibet)?q(ue) s(un)t? s(ecundu)m sc[ienti...]?\n36-4r l.10 (img-016 l.8 / img-017 l.7): [red-touched S]i aut(em) disputet ai͞ [= cu(m)?] geomet(ra)? s(ecundu)m q(uod)? g[...]\n36-4r l.11 (img-016 l.9 / img-017 l.8): mat(he)m(atic)a? [\"mai\" + superscript m + \"a\"] et q(uod)? b(e)n(e) si ex h(ab)ib(us)? aliq(ui)d dem[...]\n36-4r l.12 (img-016 l.10 / img-017 l.9): no(n) b(e)n(e) mat(he)m(atic)e? [\"mai\" + superscript m + \"e\"] aut q(uod) no(n) arguit geo[...]\n36-4r l.13 (img-016 l.11 / img-017 l.10): s(ecundu)m accidens? [written \"acidas\"/\"accid(en)s\"] [red paraph] Quare no(n) utraq(ue) aut im[...]\nLEFT MARGIN NOTE beside l.10 (img-016, two lines, small cursive, low confidence):\n     [.] s(ed)? i(n)t(er)rog(atio)? [..]ta? n[i]qua ondit?\n     [..] una quaq(ue) s(ci)e(nti)a?\n\nFRAGMENT 36-3r (bottom-left in image-001). Label (image-010): \"Stams, STA, Frg. 36-3r\". Single column of text occupying the right part of the fragment; right edge cut (line ends lost); left ~half of fragment is blank but heavily abraded/stained (the abrasion pattern could hide erased writing; nothing legible). Severe abrasion mid-page; losses at lower right. Red paraph strokes at l.6, l.10, l.11, red-touched initial at l.14.\nSources: image-010 (top, l.1-3 start), image-011 (l.1-3), image-014 (left edge of text, l.1-11), image-015 (l.1-12), image-018 (bottom-left, l.10-17), image-019 (bottom right, l.10-17).\n\n36-3r l.1  (img-011 l.1 / img-015 l.1): ſiu͞ [= sui? / ipsu(m)?] est q(uod)? no(n) utraq(ue) e(st) unu͞(m)? a[..]   [after \"a\" a superscript abbreviation; edge abraded]\n36-3r l.2  (img-011 l.2 / img-015 l.2): (et) si q(ui)d e(st) mag͞nimitas [= magnanimitas?] quam? / qui m[...]\n36-3r l.3  (img-011 l.3 / img-015 l.3): [..]i? mag(na)nimes? [the first \"mag\" faint] quos sim[..] / s(ecundu)m a[...]?\n36-3r l.4  (img-014 l.4 / img-015 l.4): mi[.]i[..]? h(abe)?(n)? sint (con)? [or \"d(e)\"?] lap[.]ades? / l(at)? [very faint; low confidence]\n36-3r l.5  (img-014 l.5 / img-015 l.5): Ses? aut(em) au[...] quid [space] mi͞ui[?]me    [= \"quid minime\"?; uncertain]\n36-3r l.6  (img-014 l.6 / img-015 l.6): b? q(?) e[..] [..]mauit? [faint red paraph] Ac no͞(n)? m[...]\n36-3r l.7  (img-014 l.7 / img-015 l.7): e (et)? [abraded] [..]ius? [\"sp(ec)i(us)?\"] [...]ro? ce? pe[...]    [mostly abraded]\n36-3r l.8  (img-014 l.8 / img-015 l.8): [.]pe[..]i? et [..]p[...]lis? duca[...]    [abraded]\n36-3r l.9  (img-014 l.9 / img-015 l.9): eadem. aut(em) i(n) passi[on]ib(us) q[...]\n36-3r l.10 (img-014 l.10 / img-015 l.10 / img-019 l.1): [..]o[..]a? ni(?)tur? / [?]n(atu)r [red paraph] Si u(er)o nil [..] p[...]\n36-3r l.11 (img-014 l.11 / img-015 l.11 / img-019 l.2): magnitudi(n)e(m)? [red paraph] Semp(er) e(n)i(m) [..]t c[...]\n36-3r l.12 (img-018 l.3 / img-019 l.3): in quoda(m) [abbr. word, \"mo(do)\"?] dicit(ur)? s(ecundu)m? [..]a[...]\n36-3r l.13 (img-018 l.4 / img-019 l.4): [s]pecie? determinat(ur)? s(ecundu)m? [..] [hole] [...]\n36-3r l.14 (img-018 l.5 / img-019 l.5): [red-touched] Unde? [..]? [..]iter? ex singlar(ibus)? / sing(u)la[...]\n36-3r l.15 (img-018 l.6 / img-019 l.6): [.]q? [..] [..]cet? magis in [..]e[...]\n36-3r l.16 (img-019 l.7): [..]e? opo[.] [hole] s[...]\n36-3r l.17 (img-019 l.8): [..]ei? si? [..]ec? [...]     [bottom line, faint]\nBottom-left corner (img-018), separate from main column, far left at the level of l.16-17: \"[..]q\" and below it \"[..]milit(er) s[...]\" / \"[si]milit(er)?\" - small text at the lower left margin; unclear whether this is the end of a line from an otherwise lost/erased left column, a note, or catchword-like text.\nUnread on 36-3r: line ends (cut), abraded middle of l.4-8, damaged lower lines.\n\n36-4r continued, bottom (image-020 left part, image-021 right part; image-016/017 overlap for l.12-13):\n36-4r l.12 (img-020 l.1 / img-021 l.1): no(n) b(e)n(e) mat(he)m(atic)e? aut q(uod) no(n) arguit geo[...]   [repeat of above, overlap]\n36-4r l.13 (img-020 l.2 / img-021 l.2): s(ecundu)m accid(en)s [red paraph] Quare no(n) utraq(ue)? aut im[...]   [\"utraq\" written like \"vuq;\" - could be \"unq(ue)\"]\n36-4r l.14 (img-020 l.3 / img-021 l.3): geometria disputandu(m) [red-touched L] Latebit e(n)i(m) frau[...]   [a fine ruled/underlining stroke runs under \"atebit em frau\"]\n36-4r l.15 (img-020 l.4 / img-021 l.4): aut et i(n) alijs se habebit sc(ient)ijs\n36-4r l.16 (img-020 l.5 / img-021 l.5): [large red initial Q with tail into left margin] Q(u)o(n)ia(m) [\"Qo͞mā\"] aut(em) s(un)t geometrie m[.]..[...]   [after \"geometrie\" a word beginning \"in\"/\"m\" partly abraded]\n36-4r l.17 (img-020 l.6 / img-021 l.6): et no(n) geometrice? (et) s(ecundu)m unaq(ue)q(ue)? [\"vnaq\" + suspension] , scia[m?]...\n36-4r l.18: tops of letters only at bottom edge (img-021), with a red stroke at far right; unreadable.\nLEFT MARGIN NOTE at l.16, beside the red Q (img-020, two lines, small cursive):\n     [..]b? quarta p(ar)s? i(n) quo p(ro)?[..] mo(n)st(rat)? / mo(n)et?\n     [..]tes? questiones (con)?[..]\n     [Reads as a section note, roughly \"...fourth part in which ... questions\"; low-medium confidence on the abbreviations, \"quarta\" and \"questiones\" are fairly clear.]\nUnread on 36-4r: line ends (right edge cut); glosses partly at the cut edge; l.18.\n\nLAYOUT SURVEY, VERSOS (image-022, reduced overview)\n- Same four fragments turned over. Labels: top-left \"Stams, STA, Frg. 36-1v\"; top-right \"Stams, STA, Frg. 36-2v\" (in left margin); bottom-left \"Stams, STA, Frg. 36-3v\"; bottom-right \"Stams, STA, Frg. 36-4v\". Two clear plastic spatulas lie across/near the fragments (one over top of 36-2v, one along the right edge of 36-3v, one at right of 36-4v).\n- 36-1v: brown-stained, abraded; about 11 short lines of very faint, broken script in the upper-middle; right half of fragment largely skinned/lost; stitched edge at top-left and a horizontal fold near bottom.\n- 36-2v: single column ~17 lines, same bookhand, red paraphs/capitals (red \"C\" at l.5, red \"O\" at l.8, red marks at l.16-17); left edge intact, right edge torn.\n- 36-3v: single column ~17 lines, red paraph/initials; lower part heavily damaged with holes; left margin narrow (text begins near left edge, line beginnings partly lost).\n- 36-4v: single column ~19 lines with dense interlinear glossing below most lines and several marginal notes in right margin (beside l.3-4, l.6, l.15-16); red paraphs; small headline-like notes above l.1 (\"[..] de opposito medio\"? / \"[..] p(er) o(pp)o(sit)u(m) medii\"? tentative).\n\n36-1v (image-023, top-left area): Label \"Stams, STA, Frg. 36-1v\". Visible are only scattered, broken letter-groups in brown/black ink across ~6 lines, e.g. (img-023, from top of text) l.1 \"m\" ; l.3 \"[..] e?a[..]\" ; l.4 \"[..] m?ō? . de? [..] [..]\" ; l.5 \"A? [..] m(u)l[..] ... u(er)?[..]\" ; l.6 \"e? [..] [..]q[.]? [..] u[..]\" ; l.7 \"[..] h? p?h?\" . Letters are fragmentary and partly look reversed (possible offset/transfer from a facing leaf rather than writing on this surface) - cannot be read connectedly.\n     (image-024 shows the right part of 36-1v: same scattered faint letter groups, e.g. \"[..]u(?) n?o͞ ar? .\" and \"[..]a acm a[..]\"; the right ~third of this leaf is skinned to a white fibrous layer with no text; a transparent spatula overlies top right.)\n\nFRAGMENT 36-2v (top-right in image-022). Label in left margin: \"Stams, STA, Frg. 36-2v\". Single column, left margin intact (line beginnings complete), right edge torn (ends lost). A transparent spatula covers the top margin (no text under it seems lost: text starts below).\nSources: image-025 (left half, l.1-7), image-026 (right half, l.1-7).\n36-2v l.1 (img-025 l.1 / img-026 l.1): accipiat a(liquo)?/a͞ quos? p(ri)mu(m) mediu(m) q(uonia)m? h[...]\n36-2v l.2 (img-025 l.2 / img-026 l.2): dicu(n)t? / d(ic)tu(m)? q(u)o(niam)? [written \"qm̄\"] sit densatur? at q(ui)dam / q(uo)dam\n36-2v l.3 (img-025 l.3 / img-026 l.3): flue͞(re)? densa(r)i? in contrariu(m)? se[.]mus? / fe[.]nus? s[...]     [last word uncertain]\n36-2v l.4 (img-025 l.4 / img-026 l.4): sic assabit? q(ui)escentib(us) (con)spirac(i)o[...]     [\"quēntibus\" = q(ui)escentib(us)?]\n36-2v l.5 (img-025 l.5 / img-026 l.5): [red-touched S]Sit e(n)i(m) a q[.]nib(us)? sit o(mn)i(um)? b aut[...]\n36-2v l.6 (img-025 l.6 / img-026 l.6): a b quide(m) ulti(us)? / uelit? utraq(ue) erit in ip(s)is\n\n36-1v lower part (image-027, image-028):\n- img-027 shows ~8 more lines of the same faint, broken script in the centre of the leaf (each line only 2-5 letter groups survive). Visible groups, top to bottom (img-027 line order): l.1 \"q(?)[..] a[.]  ...  [..]ē? p? r?\" ; l.2 \"[.]d h[..]? a\" ; l.3 \"[..]ē? p(?)p(?)l[..] .. a\" ; l.4 \"q(?) [..] h(?)a[..]ō\" ; l.5 \"h(?)u(?)m n(?)o͞p? q(?)ma[..]\" ; l.6 \"a? [..] .. [..]ar[.]d? [..]\" ; l.7 \"[.] mo͞? [..]\" . None of these yields a secure word; many letter shapes look mirror-reversed, so this may be an offset (set-off) from a facing written page rather than writing on this surface. Treat as unreadable.\n- Below these, a horizontal stitched seam/fold (img-027) and the lower part of the leaf has a white skinned area.\n- img-028: right part of 36-1v - mostly skinned white layer with horizontal ruling-like striations (paper/fabric impression?), a few dark letter fragments at left edge continuing the lines of img-027, a thin red stroke, and a faint thin-line (pencil?) sketch of a tall narrow figure/shape on the white area. No readable text. At far right the edge of 36-2v with the start of its pencil label \"St[ams...]\".\n\nLIMITATIONS / UNREAD (images 001-028)\n- 36-2v: only lines 1-6 read (images 025-026). The remainder of 36-2v (l.7-17), all of 36-3v and all of 36-4v (with its glosses and marginal notes) fall in images after 028 and were NOT read by me.\n- All readings above are unverified, many abbreviation expansions are tentative (marked \"?\"). Line ends on 36-3r and 36-4r and line beginnings on 36-2r are physically lost.\n- Overlapping tiles: line numbers are given per fragment (counted from first text line of the fragment), with the corresponding tile line number(s) cited; repeated lines in overlapping tiles were not counted twice.\n- Suggested further views: raking light or UV for 36-1v (faint/offset script) and for the abraded middle of 36-3r; a view under the folded flap on 36-2r l.10-13.\n\nEXPOSURE STATEMENT: Nothing in my context revealed a proposed identification of the work or author. I did not identify the text. I opened only PROMPT.md and image-001 through image-028; I used Bash only to write this response file. No web or search tools used.\n\n===== Reader B: images 029-057 =====\nCOVERS IMAGES image-029 THROUGH image-057 ONLY (packet-06, part 2). Unverified blind image reading.\n\nExposure note: no proposed identification of work or author was present in my context. I opened PROMPT.md, image-001 (layout only; it is the recto-side overview of four pieces labelled in pencil \"Stams, STA, Frg. 36-1r..4r\") and image-028 (looked at for layout only; it is a tile of torn blank/stained parchment edge with a few faint letters, nothing transcribed from it), plus images 029-057.\n\nLAYOUT SURVEY (observations)\n- Images in this range are native-resolution tiles of the verso side of the same four pieces (pencil labels seen: \"Stams, STA, Frg. 36-2v\" in image-029 margin; \"Stams, STA, Frg. 36-3v\" in image-031). No reduced overview of the verso side was found in 029-057 so far; tile order is inferred from overlaps.\n- Single column of large Gothic textualis, wide-spaced lines (about 10-14 lines visible per piece). Red strokes touching initial letters (capital highlighting) mark sentence/section openings. No running titles seen in my range so far.\n- Pieces are badly stained, abraded, torn; much text lost.\n\nTRANSCRIPTION\nConventions: line numbers count from the top of each image; \"|\" = where the line continues in an overlapping neighbour tile. Overlapping words are given once with both image refs.\n\n== Piece labelled 36-2v (images 029 + 030; 030 is the right-hand continuation of 029, same lines) ==\n029 l1 / 030 l1: [top cut] ...u enim a ip(s)o se ... | (030) ...[i]o se aūi(?) b aut(?)   [first letters cut; red stroke at left]\n029 l2 / 030 l2: a b quidē nlit'(?) utraq(ue) | (030) [...]r' utraq(ue) est in ip(s)o\n029 l3 / 030 l3: q(ui)ritu(r)? omnia cona[..]t(ur)? | (030) [.]conatuitu(r)?(sic? reading uncertain) et ex\n029 l4 / 030 l4: ip(s)a a b est. [red-touched] Oport(et) utraq(ue) a m[...]\n029 l5 / 030 l5: [.]e quid tamq(uam)?(uncertain) mag(is)? | (030) ...m mag(is)? est(?)    [030 at right on a displaced flap: \"...ge n\" / \"...in no\" - flap is folded/displaced, order uncertain]\n029 l6 / 030 l6: esse ad ēa?(ista?) una omnia | (030) ...una omnia a[...] [red stroke] ... in no\n029 l7 / 030 l7: q(uonia)m in quo est e[.] fit(ur)? | (030) ...e fitur(?) ... [..]no aūa? n[.]\n029 l8 / 030 l8: quid enim est aqua [...] | (030) ...qua ... [.] in om(?) ...\n029 l9 / 030 l9: fit(ur)? et erit ad unū cōsid[e]re(t)? | (030) ...unū cōside(r)e(t). [.]pot? ... ne(?)    [damage]\n029 l10 / 030 l10: ei[..][illegible] ... e esse | (030) ...e esse si(?) nō esse ip(s)e(?)\n029 l11 / 030 l11: esse q(uo)d sup(er)?ponens(?) ...no hab(et)? | (030) ...no hab(et) ... uelati[.]? [last word uncertain]\n029 l12: [red stroke at line start, letters below cut]\nPencil in left margin of 029: \"Stams, STA, Frg. 36-2v\" (modern).\n\n== Piece labelled 36-3v (images 031, 032: top of piece) ==\n031 l1 (piece line 1): [..]am(?)  [red-touched] Remoto enim q(uo)d est c(on)iuncto(?)   (032 l1 shows only the end \"...iuncto\")\n031 l2: [.]t  [red-touched] Similit(er) aut(em) et m[...]io  [red-touched] C(?)[...] et\n031 l3: [..]gni est  ex eo q(uod) [?]ap(er)ma[.]? [illegible] ...qu(e) eo(?)\n(Remainder of this piece continues in later tiles.) Pencil above text in 031: \"Stams, STA, Frg. 36-3v\".\nImage 032: top-right corner of piece 36-3v, blank/stained apart from line ends already given (\"...iuncto\", \"...et\", \"...q(ue) eo\").\n\n== Piece 36-2v, bottom (image 033 upper part; 034 upper part = right continuation) ==\n033 l1 = 029 l10 (overlap): ei[..][hole/flake]o esse | (034 l1) ...e esse si nō esse ip(s)e\n033 l2 = 029 l11 (overlap): esse q(uo)d sup(er)?pon[...] no hab | (034 l2) ...no hab(et) [..]la(?) uelati[.]? [uncertain]\n033 l3: alia ri[a]?  [red-touched] Si aut(em) m[...] | (034 l3) ...aut medi[..]? n[.]s[..]ntium? oce[...]   [faded, uncertain]\n033 l4: mediū  [red-touched] Et plura et [...] | (034 l4) ...[p]lia(?) et [..]pse(?) plures p[...]\n[end of piece 36-2v at torn lower edge]\n\n== Piece 36-3v, lines 2-12 (image 035; 036 = blank right margin of same piece, only line-ends) ==\n035 l1: [.]t  [red] Similit(er) aut(em) et m[..]io(?)  [red] C(?)[..] et      (= 031 l2)\n035 l2: [..]gni(?) est  ex eo q(uod) [?]ap(er)mi(us)? p(ar)tic(u)l(arib)us?(uncertain) ex/ep(?)      (= 031 l3)\n035 l3: au(tem) h(abe)t(?), au(tem) a(liu)d?(uncertain) est.  [red] C(?)[.] aut(em) h(abe)t(?) ab[.]\n035 l4: [..]iatil(?) d(e)ffi(nition)e(?) s(e)p(ar)ate(?)  [red] A[...][illegible] [..]n(?)ū\n035 l5: [..]assemt(ur)?  [red] Omnia [illegible] [...]ent\n035 l6: [..]mi(?) ho(rum)? neq(ue) de[...][illegible] aut gn(er)o(?)\n035 l7: [.]esset [illegible] g[...] [..]t et\n035 l8: [..]ep(ti)ui? est  [red] Differe(n)tie?(uncertain) aut(em) [..]\n035 l9: [..]a q(uia)? ultima [illegible] [.]a differe(n)tie?\n035 l10: [..]ati? op(or)t(e)t [illegible] de[...] [.] li[.]\n035 l11-12: [illegible, abraded; lower edge torn]\n(Red strokes on capitals at l1 x2, l3, l4, l5, l8.) Heavy abrasion; readings in l3-l10 are low-confidence.\n\n== Piece 36-4v, top (image 033 lower part; 034 lower part = right continuation) ==\nPencil (modern) in 034: \"Stams, STA, Frg. 36-4v\".\nLayout: main text in large script WITH small interlinear glosses written above and below the main lines, plus a marginal note in the right margin (034). Tentatively: main text with interlinear/marginal gloss.\n033 gloss above l1 (left): ..o et de op(posi)to medij    (centre): s(ecundu)m? de c(ontra)rio? medij    (right, 033/034): p(ri)m(?) d(icitu)r(?)\n033 l1 (main): [.]medio dicat(ur)? sed et d(e) alio c(on)trario?(uncertain) q(uo)d | (034) ...[t]rio qd' [? with flourish] [superscript \"id\"?]\n   033 glosses below l1: a duo(bus)? s(i)mplic(ite)r(?) ; [.]ne(que) s(i)mplic(ite)r si ue(r)o dua(?)[...] ; s(i)mplic(ite)r ne(que) a d(u)o(bus)? ne(que) uno(?) s(ecundu)m? p(ro)d(?)   [small, uncertain]\n033 l2 (main): [..]e neq(ue) si mediū et idē est ab no(n)? id ad | (034) ...no id ad\n   gloss below: q(uo)d(?) enim(?) g(ener)i(?)[..] ; (034) ad ip(su)m(?)\n033 l3 (main): [..]ffert?  [red] Omne aut(em) affirmare aut negare q(uo)d d[...] | (034) ...negare q(uo)d d'[?]\n   gloss above l3 right: \"c\"(?) ; glosses below: d(e)mo(n)str(ati)o? q(uo)d e(st)? ad ip(s)i(us)?, ... (s)i h(oc)? p(ri)m(?) ... ; ista? q(ue)? ... ; arti(?)/acci(dit)?(uncertain) ...\n033 l4 (main): demonstratio  [no red] S[e]d h(oc)? neq(ue) s(ecundu)m? ult(?) uidet(ur) sed | (034) ...uidet(ur) sed\n   glosses below: p(ro)d(?) in? e(ss)e(?) q(ui)t? g(en)er(alite)r?  ; [..]c(on)t(ra)?(uncertain) ...  ; (034) d(e) s(i)mp(lici)?\n034 right margin note (smaller hand, beside main l3-l4, introduced by tall bracket/\"h\"):\n   h[ic?] pot(est) q(uaeri)?(uncertain) d(e)n(?)[...] uti? zo? p(ri)do(?) q(uo)d [...]\n   [..] p(ri)d(?)a gra(?) q(uo)d c(?) deq(ue)lib(et)? e a[..] [..]d n[..]\n   [..]ecca? dicendo(?)\n   [very small cursive gloss; readings largely guessed at letter level - treat as unreliable]\n\n== Piece 36-4v, main lines 3-13 (image 037; 038 = right part of same lines plus right margin) ==\n037 l1 (= 033 l3, overlap): [..]ffert  [red] Omne aut(em) affirmare aut negare q(uo)d d[..] | (038 l1) ...negare q(uo)d d'\n037 l2 (= 033 l4, overlap): demonstratio  S(e)d h(oc)? neq(ue) s(ecundu)m?(uncertain) ult(?) uidet(ur) sed | (038) ...uidet(ur) sed\n   gloss below: i(d est) p(ro)d(?) in? e(ss)e q(ui)t? g(e)n(er)a(li)?[..]   ;   [.]c(on)tinua(?) e(xi)ste(n)tes?(uncertain) ho(c)?   ;   (038) d(e) s(i)mp(li)ci(?)\n037 l3: [.] (small \"fert\" below)  [red] Dissi[..]ib(us)?(uncertain: \"Dusiāb\"/\"Diffiāb\") aut(em) ē in g(e)n(er)e dicta? aut igne(?) | (038) ...aut igne(?)\n   gloss below right (038): s(ecundu)m? sp(eci)alior(um)? u(e)l(?) / g(e)n(er)entant(?)\n037 l4: [de]mostratio(?)   fit. Sic d(e)o(?)/d(i)co(?) ē p(ro)b(abilibus)?  [red] Comu(n)i[a] | (038) ...[p]b(?) Comui(?)\n   glosses below: i(d est)? pot(est) q(uod) e(?) e(ss)e p(ri)nc(ipi)a g(e)n(er)alia(?) / p(ri)n(cipi)a? ce(?)  ;  ta(m)q(uam)? d(e)fi(niti)onib(us)?(uncertain) / et p(ri)ncipiis(?)\n037 l5: [..]st(?) in om(n)ia p(ri)nc(ipi)a  [red] Dico aut(em) g(e)n(er)a(lia)? quib(us) ut[.] | (038) ...quib(us) ut[.]\n   gloss below: dico illa c(om)munia ta(m)q(uam)? de s(ub)i(ect)o s(ecundu)m s(ub)i(ectu)m(?)  /  a(?) dic(itur)? d(e) s(ub)stan(tia)? sp(eci)ali(?) et g(e)n(er)ali(?)[...]  ;  (038) dico i(?)a g(e)n(er)a(lia)? / esse\n037 l6: [de]mostratas(?) . sed no(n) de q(ui)b(us)? demo(n)st(rantur)? neq(ue)\n   glosses: (left) [..]ia(?) q(uo)d(?)  ;  q(ui)b(us) p(ro)b(at)? ;  alia sc(ienti)a? ut / metha(phisi)ca(?)  ;  q(ui)b(us)? g(e)n(er)alia(?)/... / p(ro)b(at)?(uncertain)\n037 l7: [di]yalectica  uti(tur)? om(n)ib(us) . at si aliqua ult(?) top[...] | (038) ...ua ult(?) top[.]\n   superscript above \"uti\": s(i)c(ut)?(uncertain) ; gloss below: ut q(uo)d? b(?) de q(uo)lib(et)?(uncertain)  ;  right: topica?(uncertain) [..]mostrat(ur)? / p(ri)ncipiis(?)\n037 l8: [a]ut q(uo)d e(st)? o(mn)ia affirmare aut negare aut q(uo)d e(?) | (038) ...aut q(uo)d e\n   superscript above \"negare\": \"ce\"(?) ; gloss below: p(ro)b(at)? g(e)n(er)a(li)?  ;  sic(?) metha(phisi)ca? (con)t(ra)? d(e)t(er)minata(?) / a(?) g(e)n(er)e? d(e)t(er)minato(?)\n037 l9: [..]alib(us) aut q(uo)lib(et)? t(ame)n(?)  [red] Q(?)[.]ad? dya(lectic)a? no(n) s(un)t(?) | (038) ...a? no(n) s(un)t(?)\n   glosses: (left, under) [..]tor(um)? dy(?)c(itu)r? e(?) d(e)q(ue)? d(e)t(er)minati(?) c(?)aug(?) q(uo)d(?)  ;  (right) si dyal(ectic)a h(abe)t(?) p(ro)p(ri)a(?)\n037 l10: [..]neq(ue) g(e)n(er)is ali(cu)i(us)? unius . no(n) en(im) interrogaret | (038) ...interrogaret\n   above: s(ci)ret? / p(ri)o(?) ; gloss below: [..]e ue(l)? p(ro)p(ri)e(?) d(e)tor(um)?  ;  i(d est) no(n) d(e)t(er)minat(?) o(mn)ia? d(e) c(?) s(ecundu)m s(ub)iect(um)? dya(lectic)a(?)\n037 l11: [..]m e(st) interrogare c(on)trario?(uncertain) id q(uo)d oppositor(um) ac(?) | (038) ...oppositor(um) ac(?)\n   above left: d(e)t(er)minate(?) ; gloss below: i(d est) p(ri)mo p(ro)[.](?)\n038 right margin note (beside main l3-l4 of this tile, with a tall decorated \"J\"/bracket):\n   Ista c(?)ra(?) p(?) h(uius)? capitulo [..]ruq(ue)? p(ri)m(?) [c...]\n   [..]ncia(?) et d(e)i(?)/d(e)q(ue)? sp(eci)ale(?) a p(ri)ncip(iis)? q(ui)b(us)?  [cut at right edge]\n038 bottom: flourished letter (c/e) at foot of margin, start of another note, cut.\n\n== Piece 36-3v, lower part (image 039; 040 = lower right of same piece, nearly all abraded) ==\n039 l1: [top cut; letters of 035 l9 visible: \"...gni(?)\" ]\n039 l2 (= 035 l10, overlap): [..]ati(?) op(or)t(et) [illegible] de[...] [.] li[.]\n039 l3-l4: [isolated letters only: \"...e...\" \"...m\"]\n039 l5 (on detached left flap): [..]ep(?)s(?)in[...]\n039 l5 (main): [..]e si(?) n(?)ullis?/ullus? [red stroke] [...]\n039 l6: [..]la? [red] Et? i(n)? aliis?(uncertain) [illegible] [..]mi\n039 l7: [.]m et in aliq(ui)b(us)?(uncertain) [...] su[..] [faint red trace]\n039 l8: [..]ep(?)ri(?) ide[..] [...] [..]mia(?)/ūnia(?)\n039 l9: [..] enia(?) [lower edge torn]\n040: lower-right of the same piece; only scattered letter traces (e.g. \"...bis\", \"...d...\", \"...ra\") under heavy abrasion; no connected reading.\n\n== Piece 36-4v, main lines 12-17 (image 041; 042 = right part plus right margin) ==\n041 l1-l3 = overlaps with 037 l9 gloss, 037 l10, 037 l11 (not repeated).\n041 l4: [c?]onsiu(?) e(st) aut(em) hoc et i(n) aliis q(ue) s(un)t de sillo(gismo)?(uncertain) | (042) ...d(e) sillo(gismo)?\n   gloss below left: [..]us(?) et c(?) forte? d(e)nt(?)  ;  right: d(e)t(er)io(?)/c(on)t(r)a(r)io(?)\n041 l5: [inter]rogatio si [..]a(?) et ip(s)o o(mn)i d(e)terior?(uncertain) e(st) idē c(on)po(sit)o?(uncertain) | (042) ...e idē c(on)poc(?)o\n   gloss below: sc(ienti)a? sp(eci)alis? ut(?)  ;  p(ro)p(ri)a? i(n) illa sc(ienti)a  ;  (042) sc(ienti)a(?)\n   above l5 left: \"a\"/\"et\"(?) superscripts\n041 l6: [..]gi(?) s(un)t(?) [..]u(?)a ex quib(us) e(st) sillo(gismus)? s(ecundu)m unaq(ue)q(ue) | (042) ...s(ecundu)m unaq(ue)q(ue)\n   gloss below: s(?)c(?)lt et sp(eci)alis(?)  ;  i(d est) interrogacio(n)ib(us)  ;  sc(ienti)a(rum) sp(eci)aliu(m)\n041 l7: [..]a i(n)terroga(ti)o sillabis?/s[i]bilis?(uncertain) ex quib(us) c(on)c(lu)d(itur)?(uncertain) s(ecundu)m una | (042) ...s(ecundu)m una\n   gloss below: d(e)t(er)minat(ur)?  ;  i(d est) p(ro)cedit(?)  ;  Interrogatio no(n) geo(metr)i(ca)? d(icitu)r e(ss)e c(on)t(ra)?(uncertain) q(ua)n(do)? no(n) fit de h(ui)us(modi)? de q(ui)b(us) t(rac)ta(?)  /  geo(metr)ia ut(?) dic(itu)r q(ua)n(do)? fit de h(ui)us(modi)? de q(ui)b(us) e(st) geo(metria)?\n041 bottom: tops of a further line cut off at the lower edge; small red trace at lower left of 041 and lower right of 042.\n042 right margin note (decorated bracket/initial \"J\" with flourished \"c\" letters on its stem), beside main l4-l6:\n   Ista c(apitu)la?(uncertain) p(?)s(?)  In q(uo)? o(sten)d(it)?(uncertain) a(n)c(?) p(?)[...]\n   [..] sc(ienti)a sp(eci)alis?(uncertain) s(un)t? sc(ienti)ar(um)? sp(eci)alium(?) [...]\n   [..]toi(?) et h(uius) t(r)ia puncta d(?)\n\n======== SECOND FACE IN MY RANGE: pieces 36-5r, 36-6r, 36-7r, 36-8r ========\nimage-043 is a reduced overview (whole face, four pieces, pencil labels \"Stams, STA, Frg. 36-5r / 36-6r / 36-7r / 36-8r\"). Used for layout only; nothing transcribed from it.\nLayout observations: each piece single column, large Gothic textualis, about 15-19 lines; red strokes on capitals of sentence openings. 36-5r and 36-6r have no glosses visible. 36-7r has marginal notes in a small hand in its right margin (and a large red/brown initial \"C\" near the foot). 36-8r has a few small interlinear marks; its left side is torn. 36-6r has its right edge torn. No running titles visible.\n\n== Piece 36-5r (images 044 = top-left, 045 = top-right, 048 = middle-left, 049 = right side, 052 top = foot) ==\n044 l1 | 045 l1: [.] ut si h(abe)t?(the sign is \"h\" + z-like mark; uncertain) est lata habe(re) folia de-\n044 l2 | 045 l2: [me]dio esse.  [red] Si enim no(n)  [red] Alia aute(m)\n044 l3 | 045 l3: [c]ausa s(imu)l?(abbrev. \"sīn\"/\"sim̄\") sit et causatu(m) ut si in\n044 l4 | 045 l4: [.]t si latu(m) foliu(m) e(st)? folia fluu(n)t      [after \"folium\": a single letter with macron, \"ē\"]\n044 l5 | 045 l5: [u]traq(ue) et si dimittant(ur)?(uncertain) p(er) alia(m)? Sit      [\"Sit\" with no red stroke visible]\n044 l6 = 048 l1 | 049 l1: est a latu(m) aut foliu(m) in quo est\n044 l7 = 048 l2 | 049 l2: [red] Si aut(em) in b est a om(n)e enim lat-\n048 l3 | 049 l3: [..]ut(?) est b mediu(m).  [red] S(ed)?/B(?)z et quo(n)ia(m)      [red-stroked capital read either \"Sz\"=Sed or \"Bz\"; uncertain]\n048 l4 | 049 l4: [..]t id folio fluu(n)t? demo(n)strare. Sit\n048 l5 | 049 l5: [..]e aut(em) folio flue(re) uitis no(n) in      [\"uitis\" or \"intis\": minims ambiguous]\n048 l6 | 049 l6: [..] folio fluu(n)t om(n)es?/om(n)ib(us)? enim uitis me[...]\n048 l7 | 049 l7: [..] fluēs(?) latu(m) est foliu(m) causa at\n048 l8 | 049 l8: [..]t no(n) contingit m(?)b(us)?/in b(?) esse admi[n]i(?)      [last word uncertain: \"admiui\"/\"admini\"]\n048 l9 | 049 l9: [..]t nua(?)/una(?) est causa et desinendi      [049 clearly \"desinendi\" or \"definiendi\"; f/long-s ambiguous]\n048 l10 = 052 l1 | 049 l10: [..]m esse no(n) est causa defic(er)e(?)/desi(nere)?  [red] Si\n048 l11 = 052 l2 | 049 l11: demo(n)stratio est  [red] Si n(on)?(written \"uo\"/\"n°\") nō per\n052 l3: [..]n medio [..]est(?) contingit(?) [...]      [cut by lower edge; only upper halves of letters]\n\n== Piece 36-6r (images 046 = top-left, 047 = top-right, 050 = middle-left, 051 = right side) ==\nPencil (modern): \"Stams, STA, Frg. 36-6r\".\n046 l1 | 047 l1: Habe(n)t(?) quedam sequu(n)t(ur)  [red] Manifest[um] e[st]?   [right end torn]\n046 l2 | 047 l2: q(uod) dicu(n)tur c(on)t(ra)r(ie)?(abbrev. uncertain) idem sunt q(uod) c(?)om(?)[..]   [right end torn]\n046 l3 | 047 l3: aliud(?)/aliis(?) modus est s(ecundu)m analog[iam]? [red trace at torn edge]\n046 l4 | 047 l4: p(ro)p(ri)e?(\"pē\") non est idem q(uo)d op(or)tet e[...]\n046 l5 | 047 l5: [..]ros  [red] Erit aut(em) que sequu(n)tur et\n046 l6 = 050 l1 | 047 l6 = 051 l1: existe(n)te  [red] Eadem aut(em) c(on)traria? sunt\n046 l7 = 050 l2 | 047 l7 = 051 l2: habent  [red] Amplius ut q(uonia)m om(n)i[a]?/omn[e]?\n050 l3 | 051 l3: queda(m)? g(e)n(er)e? sunt eadē quecu(mque)?      [abbreviations uncertain; damage at centre]\n050 l4 | 051 l4: quo a[liu]d? [..] alit(er) sunt ut c(on)t(ra)r(ie)?(uncertain)      [small red trace in the damaged area]\n050 l5 | 051 l5: appareret ex c(on)t(ra)r(ie)?(uncertain)      [gap]      Omnia [.]\n050 l6 | 051 l6: [c?]o(?)itum(?) sit. Omnia enim [...]\n050 l7 | 051 l7: [red] Alia aut(em) ex eo q(uod) mediu[m]\n050 l8 | 051 l8: diffinit c(on)trarioru(m)?(uncertain) ut [..]ud\n050 l9 | 051 l9: fluu(n)t s(ed)?(sign uncertain) id q(uo)d p(?)/p(er)? umor est su[...]\n050 l10 | 051 l10: [h]umor(?) est ne[..] c(on)t(ra)r(ie)?(uncertain) id q(uo)d? [..]\n050 l11 | 051 l11: quidē enim [..]i(?) se habet ad[...]\n(Lower lines of 36-6r continue in a later tile.)\n\n== Piece 36-7r, top (image 052 lower part) ==\n052 l4: [..]est ex oppositis(?) sillo(gismu)s?(\"sillus\") fit aut p[...]\n052 l5: [..]taz?(uncertain) aut aut(em) ex alia arte ut in[...]\n052 l6: [..]natura?(uncertain) est  [red] De geometria aut(em) q[...]\n   (small marginal letters \"re\" at left edge below this line)\n052 l7: [..]re opinari geo(metr)a?(abbrev. \"geoᵃ\") q(uo)d a(?)mo(?)/q(ua)n(do)? e(st) ·2[..]\n052 l8: [.]e n' h[..]e(?) sic cuius(?)men(?) q(uo)d e(st) s(ecundu)m? [..]\n\n== Piece 36-5r, right ends of last lines (image 053 upper part) ==\n053 l1 (= 048 l10 end): ...defic(er)e?  [red] Si\n053 l2 (= 048 l11 end): ...[.]io? nō per\n053 l3 (= 052 l3 end): ...c(on)tingit(?) [..]ot(?)      [cut at lower edge]\n\n== Piece 36-7r, top right (image 053 lower part) + marginal note ==\n053 l4 (= 052 l4 end): ...fit aut pa[...]\n053 l5 (= 052 l5 end): ...[ar]te ut in musica?(reading \"inmsica\"/\"inusica\"; uncertain)\n053 l6 (= 052 l6 end): ...[geomet]ria aut(em) q(uo)d? od[.]\n053 l7 (= 052 l7 end): ...[q]amo(?) e(st)? ·2· r(ec)t(i)s?(uncertain; \"rcs\"/\"res\")\n053 l8 (= 052 l8 end): ...q(uo)d e(st) s(ecundu)m ri(?)s/tis(?)\n053 right margin note (small later-looking cursive, linked by a stroke to the end of l5 \"...ut in musica\"):\n   N(ot)a?/No(n)? soluu(n)t?/soluit? illas questio(n)es? et illa(m) p(ro)p(ositi)o(n)e(m)?(last word uncertain; looks like \"Maporia\"/\"illa p(ro)p(?)ria\")\n\n== Piece 36-6r, last lines (image 054 upper part; 055 upper part = right side) ==\n054 l1 (= 050 l10): [h]umor est ne[..] | (055 l1) ...c(on)t(ra)r(ie)?(uncertain) id q(uo)d [..]u[.]\n054 l2 (= 050 l11): quidē enim [..] [s]e | (055 l2) ...[.]i(?) se habet ad[..]n(?)\n054 l3: est c(?)a(?) [..] d[...] | (055 l3) ...[..] (?)iquis(?) u[..]      [mostly lost; torn lower edge]\n\n== Piece 36-8r, top (image 054 lower part; 055 lower part = right side, blank margin with pencil \"Stams, STA, Frg. 36-8r\") ==\nLeft edge torn; first letters of each line lost.\n054 l4 | 055: [..]magis prime(?) u(?)n(?)aq(ue)? c(?)[o]ma? / c(on)firma(?)      [ink blot/stain over \"prime\"; last word uncertain]\n054 l5 | 055: [..]i sub ul(tim)e?/uale(?) esse h[..][illegible] [..]m d[.]\n054 l6 | 055: [..]t  [red] In quada(m) c(on)t(ra)r(ie)?(uncertain) [..] c(?)e? est ip(s)o\n054 l7 | 055: [..]eade(m) cau(s)a? est [..] Si? sillog[is]mi?(uncertain)\n054 l8 | 055: [..]e q(?)[..] m[.]i(?)or(?) sit et quo(n)ia(m) sit\n(Remaining lines of 36-8r continue in later tiles.)\n\n== Piece 36-7r, lines 4-14 left (image 056) ==\n056 l1 (= 052 l7): [..]re opinari geo(metr)a? q(uo)d a(?)mo(?) e(st) ·2[..]\n056 l2 (= 052 l8): [.]e n' h[..]e sic cuius(?)men(?) q(uo)d e(st) s(ecundu)m n[.]\n056 l3: [..]o(?) e(st) i(n) no(n) h(abe)ndo(?)  [red] Altera?(uncertain: \"Alteꝛa\"/\"Altria\") uo(?)/no(n)? ip[s..]\n056 l4: [..]q(uo)d? e(st) h(oc)?/h(ab)et? phisic(us)?/p(ro)p(ri)us?(\"phiys\", uncertain) c(on)traria? sa(n)e?/sci(enti)e?(\"saē\") est  [red] In d[..]\n056 l5: [para?]logismo(?) ut i(n) dyalecticis eo q[(uod)..]\n056 l6: [..] et de hoc enim o(mn)i? et h(uius)?/h(oc)? iter(um)?(uncertain) [..]\n056 l7: [..]p(er)t(?)/p(ro)p(ter)? no(n) d(icitu)r? om(n)e  [red] Hec aut(em) [..]\n056 l8: [..]m t(er)mi(ni)b(us)?/ce(r)tib(us)?(\"tcibꝯ\", uncertain) latet ut ue(rum)?/u(t)r(um)? o(mn)is a[..]\n056 l9: [..] manifestu(m) e(st). q(uo)d aut(em) s(un)t ca(?)zima?/maxima?(uncertain) [..]\n056 l10: [..]no est  [red] Non o(mn)is?/o(portet)?(\"ōꝫ\" with superscript) aut(em) i(n) sciencia?(written \"istuciā\"/\"iscīcia\"; uncertain) i[..]\n056 l11: [..]p(ro)po(sitio)?(uncertain) . sic? en(im) neq(ue) q(ue)stio? est q(ua)(m)? n[..]\n\n== Piece 36-7r, right ends of lines 4-14 plus marginal notes (image 057) ==\n057 l1 (= 056 l1 end): ...[q]amo e(st) ·2 r(ect)is?(\"rīs\"; uncertain)\n057 l2 (= 056 l2 end): ...q(uo)d e(st) s(ecundu)m ris(?)\n057 l3 (= 056 l3 end): ...[alt]era?(uncertain) uo(?)/no(n)? ip(s)ue?/i(m)p(ro)ue?(uncertain)\n057 l4 (= 056 l4 end): ...e est  [red] In doc[..]?/In d(e)q(ue)?(uncertain)\n057 l5 (= 056 l5 end): ...[dyale]cticis eo q(uod) me[...]\n057 l6 (= 056 l6 end): ...et h(uius)? iter(um)?(uncertain) de\n057 l7 (= 056 l7 end): ...aut f[..]  [hole]\n057 l8 (= 056 l8 end): ...o(mn)is a[..] [hole] [..]s?\n057 l9 (= 056 l9 end): ...s(un)t ca(?)z(?)ima?(uncertain; I cannot resolve the word)\n057 l10 (= 056 l10 end): ...i(n)stancia?/istuciā?(uncertain) i(n) p(ri)m(?)\n057 l11 (= 056 l11 end): ...est q(ue)?/q(uod)? n[..]a(?)\n057 right margin notes (small cursive hand, each joined to the text by a long stroke):\n   beside l4 (stroke from \"In doc...\"): N(ot)a(?) .xiij.(?) aliquos(?) solu(un)t/soluit(?) iste(?)/te(?) q(uae)stio(nes)?   [a long descending stroke follows]\n   beside l6 (stroke from \"...de\"): Solutio z(?)/3a?(uncertain) questio(n)is(?)/questione(?)\n   small mark near centre lower (beside l9-l10): \"p(?)ff\"/\"ff\"(?) [unclear sign]\n(Lower lines of 36-7r, including the large initial \"C\" seen at the foot in overview 043, are not in my range; I did not transcribe them from the overview.)\n\n======== SUMMARY OF COVERAGE AND LIMITATIONS ========\n- Image range 029-057 contains: (a) native tiles of the verso face of pieces 36-2v, 36-3v, 36-4v (029-042; 36-1v not met in my range apart from blank/stained edges in 031-032 upper part, which I did not identify with a label); (b) a reduced overview of the next face (043: pieces 36-5r..8r) and native tiles of 36-5r (entire), 36-6r (entire), 36-7r (lines 1-14 of perhaps ~17), 36-8r (lines 1-5 only).\n- Not covered in my range: lower lines of 36-7r (including the large initial near its foot) and most of 36-8r; these presumably continue in image-058 onward (other readers).\n- 36-2v and 36-3v are heavily abraded/stained; readings there are low confidence. 36-4v has dense small interlinear glosses whose expansions I have mostly marked uncertain; treat them as letter-level guesses.\n- 36-5r and 36-6r are clean and their main text readings are the most reliable in this response.\n- Abbreviation expansions in parentheses are my proposals; \"?\" marks uncertain readings. Overlapping tiles were merged and noted, not counted twice.\n- I did not do anything beyond the stated rules. I opened only PROMPT.md and image files of this packet (image-001 and image-028 for layout only, plus 029-057). No identification of the work or author was visible to me.\n\n===== Reader C: images 058-094 (its earlier draft text for 001-057 was deleted because those images had not loaded) =====\nPACKET-06 - BLIND IMAGE READING (unverified)\n\nExposure statement: Nothing in my context proposed an identification or reading for these leaves. Departure from procedure: an earlier draft of this file contained text for faces I had not seen (see correction below); it has been removed. I opened only PROMPT.md and the image files in packet-06 (I listed the directory and ran sips to get image dimensions so I could tell overviews from tiles; I did not open packet.json). No web or search tools were used.\n\nPacket structure (from image dimensions; Faces A-C partly unseen, see correction below): six faces.\n- Face A: overview image-001; tiles image-002..021 (4 columns x 5 rows).\n- Face B: overview image-022; tiles image-023..042.\n- Face C: overview image-043; tiles image-044..063.\n- Face D: overview image-064; tiles image-065..084.\n- Face E: overview image-085 (landscape); tiles image-086..089 (2x2).\n- Face F: overview image-090 (landscape); tiles image-091..094 (2x2).\nTiles overlap; lines repeated across adjacent tiles are counted once below and cited from the tile where they read best.\n\nConventions: (xx) = proposed expansion; word? = uncertain; [illegible] = unread; [?] = a letter or short stretch not read; [rubr.] = red stroke touching a capital (rubricated capital) mid-line.\n\n======================================================================\nIMPORTANT CORRECTION - IMAGES NOT VIEWED\n======================================================================\nThe tool returned \"[media removed: request limit]\" instead of the image for image-001 to image-057 (all of Faces A and B, and the overview and most tiles of Face C). I did NOT see those images. An earlier draft of this file had transcriptions for those faces; they were not readings of the images and have been deleted. Treat Faces A and B as UNREAD. For Face C, only the readings below from image-058 to image-063, which I did see, are valid.\nImages actually viewed: image-058 to image-094.\nFaces A (overview image-001, tiles 002-021) and B (overview image-022, tiles 023-042): not viewed; no reading; need a fresh reader.\n\n======================================================================\nFACE C (overview image-043 NOT viewed; tiles image-044..057 NOT viewed; image-058..063 viewed)\n======================================================================\nWhat I saw: pencil labels on tiles show \"Stams, STA, Frg. 36-7r\" (image-061, lower right of a fragment) and, from Face D's layout, the four fragments are 36-5r, 36-6r, 36-7r, 36-8r. image-060/061 show the foot of 36-7r; image-058/059/062/063 show the middle and foot of 36-8r (as I take it from the position: right column of the lower row, torn left edge, colour checker below). Same formal gothic book hand, brown ink, capitals touched with red. Lines below are numbered from the top of the cited tile.\n\n--- 36-8r, middle and lower part (image-058; continuation image-062; image-059 / 063 show only the line ends and blank right margin) ---\nLeft edge torn: line openings lost, more toward the foot.\nimage-058 l.1  [?]eade(m) causa e(st) [?] [rubr.?]De? sillogis[mo]?   (letters at start abraded; a hole after \"eade\")\nimage-058 l.2  [?]e q(ui)? [?] in[?] sit (et) quo(modo) sit\nimage-058 l.3  [?]t et de scie(n)tia? demo(n)strata de\nimage-058 l.4  [?]at? (con)clus(iones)? sunt cognita (et) quib(us) e(st)?\nimage-058 l.5  [?]a manifestu(m) dubitantib(us) p(ri)mu(m)\nimage-058 l.6  [?]ung(it)? s(ecundu)m? p(er) [?]ita(n)s? non   (abraded)\nimage-058 l.7  [?]tam? est p(er)? [?] i(n) mediator(um)? / immediator(um)?\nimage-058 l.8  [?]e eade(m) [rubr.]Distinxit? / Distinctu(m)? ut(rum)q(ue)?\nimage-058 l.9  [rubr.]Q[?] [?]am[?]os? quide(m)\nimage-058 l.10 [?]t (et) utru(m) cu(m) no(n) in[?]fecti? / in [?]sicl(?)  (end uncertain)\nimage-062 l.3  [?]at [rubr.]Vtq(ue)? / Quoq(ue)? de h(om)i(n)is? ip(s)is (et) alio? / i(n) a[?]   (uncertain)\nimage-062 l.4  [?]be? demo(n)strat(i)o(n)es? demo(n)strati\nimage-062 l.5  [?]es? p(ro)p(ter)? [?]q(ue)? i(n) [?]\nimage-062 l.6  [?](con)sistere? [?]q(ue)? [?]\nBelow l.6 the fragment ends (torn bottom edge); image-063 shows only blank margin and the torn foot.\n\n--- 36-7r, foot (image-060; continuation image-061) ---\nLeft edge trimmed (1-3 letters lost); text continues past the right edge of image-060 into image-061.\nimage-060 l.1 / 061 l.1  [?]no est [rubr.]Non o(mn)is aut(em) i(n)stantia i(n) ip(s)m?\nimage-060 l.2 / 061 l.2  [?]ipso . sit e(n)i(m) neq(ue) (con)t(ra)rio? est q(uod) n(ecessari)a?   (\"nēā\" at the end)\nimage-060 l.3 / 061 l.3  [?]ut i(n) o(mn)ib(us) ex vtilib(us)? aut e(st) sillus? / sill(ogism)us?\nimage-060 l.4 / 061 l.4  [?]mstantia? e(st) . q(uo)d sunt e(n)i(m) (con)t(ra)? [?]   (hole and abrasion at right in 061)\nimage-060 l.5 / 061 l.5  [?]ut i(n)stantiam [rubr.]Hec vtiq(ue) (con)t(ra)? p(ro)? e(st)?   (ends \"ꝯ eūt\"/\"p(ro) e(st)\": uncertain)\nimage-060 l.6 / 061 l.6  [?]t dya(lectic)a? [C, striped red/brown initial]Contigit aut(em) quosda(m)\nMargin notes: left margin above l.4 (image-060), small cursive with a hooked stroke: \"[?]de demo(n)strato(r)e?\" (uncertain). Right margin (image-061), cursive tied to l.6 by a vertical stroke: \"Q[?]t? t(er)tia d(ifferenti)a? / d(ist)i(n)c(ti)o?\" (uncertain); small \"p(ar)t\"? mark at the top of image-061.\nUnread on Face C: 36-5r, 36-6r, upper part of 36-7r and 36-8r (not viewed).\n\n======================================================================\nFACE D (overview image-064)\n======================================================================\nLayout survey: versos of the fragments on face C, labels \"36-5v\", \"36-6v\", \"36-7v\", \"36-8v\". Same formal gothic book hand, single column, red-stroked capitals mid-line. 36-6v shows a strong mirror-image offset of a larger script (from a facing leaf) across its right part, which I did not read as text. 36-7v has left-margin notes \"Quarta d(ifferenti)a? b\" and \"Quinta d(ifferenti)a? b\", a large red initial (O/Q type with long tail) at l.16, and a block of cursive notes in the lower-left margin. 36-8v has faded interlinear and left-margin script in a smaller, later hand (abraded).\nInterpretation (tentative): continuous text in short sections; vocabulary is natural-philosophical/logical (causa, medium, demonstratio, sillogismus, analogia, folium/fluere, animalia, memoria, sensus).\n\n--- 36-5v (image-066 l.1-7, image-070 l.6-16, image-074 l.14-17) ---\nText sits in the right half of the fragment; left half is blank margin (heavily stained). Right edge trimmed (last letters lost).\nl.1  esse s(ecundu)m l(?) desine(n)di manifestu[m]   (\"si l'\" uncertain)\nl.2  endi ni est q(uod) est in medio [rubr.]Q[...]   (\"ni\" = n with i above? uncertain)\nl.3  h(oc) illud cognoscatur [rubr.]S(ed)? no(n) [...]\nl.4  ius plures causas esse (et) na(m)? [...]\nl.5  p(ri)mis s(ecundu)m dicitur? [rubr.]Sit a in b p(ri)ma\nl.6  sit in d [rubr.]Erit itaq(ue) a in c d ca(usa)? n[...]\nl.7  [rubr.]Quare? aut(em) causa sit necesse\nl.8  sit non necesse est est esse o[...]\nl.9  causam quide(m) no(n) tame(n) om(n)e .[...]\nl.10 et ca(usa)? totu(m) quoda(m) est et nu[...]\nl.11 fluere in toto quoda(m) deter[...]\nl.12 et ulit(er)? ergo aut planta(rum)? [?] [...]\nl.13 oport(et) esse in hijs et [?]o [...]\nl.14 arbores folio fluunt [rubr.]Sim(i)l(ite)r? [...]\nl.15 esse causa eadem in omnib(us) [...]\nl.16 dem in p(ar)te? demo(n)strari? et\nl.17 [?]o? et esse [rubr.]Q[?] [...]   (cut by lower edge)\n\n--- 36-6v (image-067/068 l.1-7, image-071/072 l.6-16, image-075/076 l.15-17) ---\nLeft edge torn (losses grow toward the middle lines); offset ghost script on right half.\nl.1  et sig(n)is? et causa(m)? q(uod) est in uoce   (\"sigillis/figuris\" possible for first word)\nl.2  [?]ndo contingat [rubr.]Si aut(em) nec di[...]\nl.3  [?]o(?) [rubr.]Disputa(n)t? cu(m)? necesse e[st]\nl.4  o aut(em) [?] eligere oport(et) deci[...]\nl.5  sit aut eligere sub[?] ergo (con)ue(n)it? om(n)i? / om(n)e\nl.6  considerant(ur)? q(ue)stio? om(n)i ali(o)? imput[...]\nl.7  reliquor(um) om(n)i(um) q(uonia)m? in[?]icant? ut\nl.8  [?]sicant aut(em) (et) sp(eci)e s(ecundu)m? p(ri)mo\nl.9  quoniam habem(us) iam dicere? t(er)t(i)?\nl.10 quo [?]t [rubr.]Sit aut(em) a(liquid)? in quo a b\nl.11 [?]a[?]bus aut s(ecundu)m c de s(ecundu)m q(ui)a? [...]\nl.12 [?]ud est b in d esse a\nl.13 [?]n alijs et semp(er) in hijs deorsu(m) at\nl.14 [?]t quida(m) ergo s(ecundu)m ea q(uod) assignatur\nl.15 oport(et) aut no(n) solu(m) considerare s(ed)? et\nl.16 esse comune accipientes si in\nl.17 et qualia [?] p(er)? [?] ut corrupta?\nUnread: words lost at the torn left edge of l.2-13.\n\n--- 36-7v (image-074 l.1-5, image-078 l.4-15, image-082 l.13-18) ---\nWide left margin; right edge trimmed (last 1-2 letters lost).\nl.1  no(n) sillo(gism)o dic(un)t? p(ro)pter id q(uo)d accipiu(n)t\nl.2  facit q(uod) ignib(us) i(n) mult(is)? analogia s[...]\nl.3  sic at hoc analogia. aliq(ua)n(do) quod [...]\nl.4  accipit(ur)? . aliq(ua)n(do) aut(em) (con)ti(n)git? sed no(n) ind[...]\nl.5  exemplo cu(m) mo(n)strare facile utiq(ue) esse\nl.6  ex natura? / ex naturalitate? . sit n(on)? a ac hoc aut a[...]   (first word uncertain)\nl.7  q(uonia)m sunt ut b ex hijs demo(n)strando q(uonia)m\nl.8  magis q(uam) sunt i(n) mathematicis . q(uonia)m\nl.9  sed in hoc d(icu)nt ab hijs q(ue) sunt in d[...]\nl.10 [rubr.]Contingent aut(em) no(n) p(er) media sed in p[...]   (hole at the initial)\nl.11 h(oc)? aut(em) de c . item hoc d d? et hoc in[...]\nl.12 a d c r? b? e sic est q(ua)n(ti)tas? nu(meru)s f[...]\nl.13 aut in qua sit a [rubr.]Impar nu(meru)s quan[...]\nl.14 in quo sit c est itaq(ue) a d c [rubr.]Et c[...]\nl.15 sit d par nu(meru)s in quo est c et q[...]\nl.16 [large red initial with tail, O/Q?][?] q(uod) dicit(ur)? et q(uonia)m? quid scire [...]\nl.17 et in hac d(icitu)r? . vno quide(m) modo si n[...]\nl.18 sillus? / sillog(ismus)? no(n) cu(m) accipit(ur) p(ri)ma ea? sed\nLeft-margin notes (smaller hand): beside l.2 (image-073): \"Quarta d(ifferenti)a? b\" ; beside l.10 (image-077): \"Quinta d(ifferenti)a? b\". Red pen-flourish in left margin beside l.4-5 (image-073).\nLower-left marginal block (image-081), 9 lines of fast cursive, opening with a large cadel: tentatively\n \"[Q?]uarta? tractat? [?] querit? / demo(n)st(ratio)? [?] ... d(e)m(onstr)at(ur)? / q(uod) e(st)? [?] ... in q(uo)? / In quo? [?] ... / [?] ... / [?]do? [?] ... / [?] aut(em) ampli(us)? [?] / [?] i(n) q(uo)? [?] / [?] q(uod) e(st)? ... \". Largely unread: hand too cursive and abraded.\n\n--- 36-8v (image-076 l.1-5, image-080 l.4-13, image-084 l.12-17) ---\nLeft part blank/stained margin with faded later notes; right edge torn lower down.\nl.1  [?]e ergo est q(ui) neq(ue) h(abe)t? possib[...]\nl.2  neq(ue) n(on)? mu(m)? habent i(n) [?]num? sp[...]   (hole)\nl.3  est q(ui)da(m)? quida(m) potius? no(n) h(ab)ent? u[...]\nl.4  [?]do s(ecundu)m l(?) [?]indicie? [rubr.]Vide(tur)? aut(em) l[...]\nl.5  aut potentiam? n(on)? l(?)em(?) iudica(n)t? a s(ecundu)m? [...]\nl.6  s(ecundu)m q(uod)? in hijs quida(m) a(n)i(m)aliu(m) sit n[...]\nl.7  aut no(n) s(ecundu)m [rubr.]In q(ui)busda(m) quida(m)\nl.8  que no(n) sit no(n) e(st) in hijs cogn(itio)?\nl.9  aut no(n) est se(n)tientib(us)? e(st)? ha[...]\nl.10 factis h(oc)? ia? differentia quedam\nl.11 fi(t)? s(ecundu)m? tact(um)? [?] talium m[...]\nl.12 sit memoria s(ecundu)m d[...]\nl.13 p(ri)m(?) s(ecundu)m [rubr.]Multe enim m[...]\nl.14 p(ri)mis ? a(?) a co(?) [?] (con)ting(ere)? / cognoscere? i(n) al[...]\nl.15 q(uonia)m? in cib(us)? v(ero)? sit [rubr.]Illis? de c[...]\nl.16 ergo d(e)i(n)c(eps)? h(oc) [?] ne(c) neq(ue) [...]\nl.17 [?]ib(us) q(ui)a [rubr.]Era? s(ecundu)m s(e)n(s)u[m] i(n) mach[...]\nFaded later notes (small script, abraded) between lines and in the left margin (image-079): legible scraps only, e.g. \"lumg(?)...\", \"b e(ss)e?...\", \"Sugem? ...\". Not read.\n\n======================================================================\nFACE E (overview image-085; tiles image-086..089)\n======================================================================\nLayout survey: a single irregular fragment, pencil label \"Stams, STA, Frg. 36-9r\". One column of ca. 12 lines in the same type of formal gothic book hand with red-stroked capitals; text occupies the left part, a wide stained blank area (right margin) on the right. Left edge torn; lower part torn with large losses. Heavy staining and flaking ink.\nReadings (image-086 for line openings, image-087 for line ends; image-088/089 lower lines):\nl.1  sit sim(i)l(ite)r? [rubr.]C[?](um)? aut(em) dictu(m) e(st) ol(im)? no(n)\nl.2  [?] s(e)p(ar)ate? cu(m) indifferentiu(m) uno\nl.3  aut (et) n(on)? aliq(ui)s? sentiente? q(uo)da(m) s(ecundu)m te(r)[minum?]\nl.4  ut s(ecundu)m no(n) [?] albe? homo [rubr.]Item\nl.5  (et)? in p(ri)ncipiis? / i(n) p(ar)tib(us)? [?] [?] ut [?]\nl.6  [rubr.]Similit(er)? / Bilit(er)? maxime? (et) q(uonia)m? [?] i(n)? [?]ma\nl.7  est (et) n(on)? aliq(ui)s? semp(er)? [?] [?]e fieri? [rubr.]I[...]\nl.8  [?]tum q(ui)bus vni? dicimus aliq(ui)s? / alijs\nl.9  [?]litate ut op(in)io? [?] [...]\nl.10 [?]ae? eius? aliq(uo)d? g(e)n(er)o? [...]\nl.11 [rubr.]B? / D?[?] [?] [?] [...]   (abraded)\nl.12 [?] ui[?]i? [?] g(e)n(er)e? [...]   (only tops)\nLimitations: losses at line starts and middles from flaking; readings of l.3, l.5-7, l.9-12 are weak.\n\n======================================================================\nFACE F (overview image-090; tiles image-091..094)\n======================================================================\nLayout survey: the other side of the same fragment, label \"Stams, STA, Frg. 36-9v\". The visible script (ca. 11 lines, mid-left of the fragment) is MIRROR-REVERSED: letters run backwards and are greyish, with one red stroke also reversed (image-091 l.6). Observation: this is show-through or an offset image, not writing on this face. I did not attempt a reversed transcription beyond noting that the reversed letter shapes are the same book-hand type as the other fragments and that the line spacing roughly matches 36-9r. Possible check: flip image-091/093 horizontally and compare with 36-9r (image-086). No original text read on this face.\n\n======================================================================\nSUMMARY OF WHAT WAS SELECTED AND WHAT REMAINS\n======================================================================\n- VIEWED AND READ: Face D (36-5v, 36-6v, 36-7v, 36-8v), read nearly line by line; Face E (36-9r), partly read; Face F (36-9v), mirror-reversed show-through only; Face C, only the foot of 36-7r and the middle and foot of 36-8r.\n- NOT VIEWED (images withheld by a tool request limit): image-001 to image-057, which is all of Faces A and B (fragments 36-1r..4r and 36-1v..4v) and the overview and upper tiles of Face C. These faces need a fresh reader.\n- Checkable spans from viewed images: 36-5v \"Quare autem causa sit necesse ... arbores folio fluunt ... esse causa eadem in omnibus\"; 36-6v \"Sit autem ... in quo a b ... in alijs et semper ... deorsum ... esse commune accipientes si in\"; 36-7v \"magis quam sunt in mathematicis ... Contingent autem non per media ... Impar numerus ... sit d par numerus in quo est c\"; 36-8v \"sit memoria ... Multe enim\"; 36-7r foot \"Non omnis autem instantia ... Contigit autem quosdam\"; 36-8r \"manifestum dubitantibus primum\".\n- Letter variables (a, b, c, d, e) and terms (causa, medium, demonstratio, sillogismus, analogia, instantia, mathematicis, memoria) recur; I make no claim about the work.\n\nLimitations: torn and trimmed edges and abraded surfaces on most fragments; abbreviation expansions are proposals; marginal cursive notes largely unread. In Face D, line numbers are counted per fragment from its first text line; in Face C, from the top of the cited tile.\n",
+  "text_sha256": "04778fb8a644b44bb7116299f82faa5000e10bd0e29b644c99bc38acca4f7dfb"
+}

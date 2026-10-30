@@ -1,0 +1,107 @@
+{
+  "captured_at": "2026-10-30T21:16:21.549298+00:00",
+  "fragment": "F-j6yr",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "a6c745e9238c37dfa8488726021913294d54abc4b14d3e12fcc92e083b1cab53",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "ce8f65758904e3cfd951dc16e5abe9baf2085a00d68745f4dcce0d7dd4ec191d",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): native-pixel box 1376,1060,2863,2658; unrotated grid position column 1 of 4, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "5a8791e4db7e4483b6c78c3f97804e43fb7c4e20c85405bf564d5b6e9e432d0c",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): native-pixel box 2545,1060,4192,2658; unrotated grid position column 2 of 4, row 1 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "e72eb8f2d7054e26647503a44570f0587a4342691974b97ea8b4d0943888fb24",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): native-pixel box 3873,1060,5520,2658; unrotated grid position column 3 of 4, row 1 of 2"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "961274efd6605a7be35736df6b2cf02fccae7219c3d8230b853e0ceae12ce88a",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): native-pixel box 5202,1060,6690,2658; unrotated grid position column 4 of 4, row 1 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "e11939b9012d8175c13ae8b3ee1409944915c91c1657916b60ccee95a0755573",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): native-pixel box 1376,2315,2863,3914; unrotated grid position column 1 of 4, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "c6c2f5f87878f7a63d8eda022b401f90c2ec8139869f9cc8647c3fd1fa0fcf3c",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): native-pixel box 2545,2315,4192,3914; unrotated grid position column 2 of 4, row 2 of 2"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "b58d340de68c7452dffc91abf56bc3f3dfc7a5cc1b70803f8bbe4ded811b311b",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): native-pixel box 3873,2315,5520,3914; unrotated grid position column 3 of 4, row 2 of 2"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "af6c54e37f16aae06792fee134c1de6fc5c959f2377463c43b087499d66d9080",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_196_01r): native-pixel box 5202,2315,6690,3914; unrotated grid position column 4 of 4, row 2 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "edf5cc1ec50384a57abcdec68c6bbe606074d4208aecddf323a2293025de3bf8",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "a0232b9ab0d5af99c807b1572693ec206994e12c076e039548788fcdefba2235",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): native-pixel box 1026,669,2608,2156; unrotated grid position column 1 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "37ab95b553921fa188f3c98aae867e6f8819c29e6e8378420ce4c59ef55866e2",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): native-pixel box 2269,669,3851,2156; unrotated grid position column 2 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "c0cd1b15d2389be487f3bf0a14e69e03e681b1a134e018878fa3a5d75ee0979d",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): native-pixel box 1026,1838,2608,3485; unrotated grid position column 1 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "72f76c801f2c67e7d2c6c6405ba025c0792206d983929dcdd14501b2a290e40f",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): native-pixel box 2269,1838,3851,3485; unrotated grid position column 2 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "0e5d8c1ff5fddbc186887089e6699fad44be22e8c62865047a64dc1a537b5708",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): native-pixel box 1026,3166,2608,4813; unrotated grid position column 1 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "fdae14596e4f9b82e459cf7ce52f5a11a22acc4d5db8f95cc1dc81160d961219",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): native-pixel box 2269,3166,3851,4813; unrotated grid position column 2 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "a920bcb96e621376cc684fd72c3a41a5e46b62c45a18a745045e4862dad4b50f",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): native-pixel box 1026,4495,2608,5983; unrotated grid position column 1 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "a18e210e86e6fea71cd317841521eccb370516a933884ee6fa84ade210da2b34",
+        "source": "https://fragmentarium.ms:443/loris/F-j6yr/Stams_STA_Frg_196_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_196_01v): native-pixel box 2269,4495,3851,5983; unrotated grid position column 2 of 2, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-17)",
+  "text": "PACKET 17 - blind image reading (unverified)\n\nExposure statement: Nothing in my context proposed an identification or reading for this item. My general session context included project notes that a Fragmentarium/Stams fragment batch is in progress, but no work, author, or reading for this packet. I did nothing beyond the stated rules (I listed my own packet directories only; I did not open packet.json).\n\nLAYOUT SURVEY (observations)\n\nTwo faces.\n\nFace A (image-001 overview; tiles 002-009). A wide sheet with fold lines (a vertical fold near the left, another near the centre, horizontal folds near top and bottom), used as a wrapper or cover. Pencil \"III/12\" at the top (image-004) and pencil \"Hs. 118\" top right (image-005). Purple typed stamp \"Stiftsarchiv Stams\" and pencil \"Stams, STA, Fag. 196r\" at the lower right (image-009). Ink stains, worm or nail holes, a torn lower edge (image-007, -008). Main ink on this face is a later endorsement in a cursive German hand with large looped flourishes (image-004, -005). The text of the other face shows through as mirror-image lines in the right half; I did not try to read the show-through.\n\nFace B (image-010 overview; tiles 011-018). The leaf is upright and narrow. One block of German prose (33 lines) in a single column, in a Gothic documentary/chancery hand. It opens with a large calligraphic initial \"W\" with cadels and a big looped figure-eight flourish running down the left margin (image-011, -013). There is a ruled left margin line. Text runs to the right edge of the leaf, and the line ends are cut off: the right side of the original document is missing. Flourishes appear after line 25 and line 27, and a large looped flourish sits below the last line (image-015, -016). Pencil \"Stams, STA, Fag. 196v\" at the bottom (image-018). The lower third is blank apart from the flourish. The left edge is torn and stained beside lines 13-20 (image-013), but the text column is not damaged there. One line lies on a horizontal fold and is partly obscured (line 20). There are no rubrics, glosses or marginalia.\nTentative interpretation: a vernacular (Upper German) legal document, a sale or pledge deed issued in the name of an abbot. It is not a literary or theological text. It is not main text with commentary.\n\nSELECTED SPANS / COVERAGE\n- Face A: the whole endorsement (4 lines), read in full.\n- Face B: all 33 lines, read as far as the cut right edge. Overlaps: lines 1-11 in image-011 (left) and image-012 (right). Lines 8-25 in image-013 and image-014, with lines 8-11 overlapping the top tiles. Lines 23-33 in image-015 and image-016. I give each physical line once, with the tiles it comes from. The line numbers below count lines of the text block on the face, and the tiles are named for each line. The left-hand tile for each line is the one in which it starts.\n- Unread: the show-through on face A. The right ends of every line on face B are physically lost, not unread.\n\nTRANSCRIPTION\n\nFace A (endorsement, later cursive hand; image-004 lines 1-4 = image-005 lines 1-4)\nimage-004/005 l.1  Des [flourished capital] Gottshaus\nimage-004/005 l.2  Stambs Mitt?kell\nimage-004/005 l.3  ner Ambts Vrbar,\nimage-004/005 l.4  Ad(?) Annum 1577.\n(Line 2/3: the word is split across the line as \"Mitt?kell- / ner\". The letters before \"kell\" are uncertain: \"Mittel-\" or \"Mitter-\". A large looped paraph sits below. To the right is an ink mark like \"11\" or \"#\" (image-005). Pencil \"III/12\" and \"Hs. 118\" are modern.)\n\nFace B (text block; line ends lost at the right edge throughout)\nl.1   (011/012) W[large initial]ir Bre?agius(?) aus Göttlicher verhenngnus Abbt vnnd Regi[...]\n      (The personal name is uncertain. It starts with a capital B-like letter, then \"re\", then a letter like \"a\" or \"n\", then \"gius\" with a superscript mark.)\nl.2   (011/012) fur vnns vnnser Gotshaus vnnd Nachkomen offennli[...]\nl.3   (011/012) mit bewilligung der Römischen Kunigclichen Maiestat(?) [...]\n      (\"Kunigclichen\" has a superscript stroke; the word I read \"Maiestat\" looks like \"azaiestat\", with its first letter unclear.)\nl.4   (011/012) Ludwigen von Brunnenstain hochgedachter Römischer [...]\nl.5   (011/012) vnnd vnwiderrueffliechen kaufsweise hingeben vnnd v[...]\nl.6   (011/012) Rainisch(?) in ainß guetter Lanndswerung. ye sechtzig kre[...]\nl.7   (011/012) des funffzehenhundert. vnnd Neunvnddreissigisten Ja[...]\nl.8   (011/012) [..]et guldin Rainisch(?) in ainß guetter Lanndswerung. Der we[...]\nl.9   (011/012; 013/014) Erben derselben hiemit quit. ledig. vnnd loss sagen. Innmass?[...]\nl.10  (011/012; 013/014) Samentlich wir sich gepurt. verweisen. verschreibt. vnnd versp?[...]\nl.11  (011/012; 013/014) dits briefs zu rechten fur vnnd vnnderpfannd eingese?[...]\nl.12  (013/014) ingen. Viecht. Baugreiß(?). Schwanndt(?). Vnserwiecht(?). wald. v[...]\nl.13  (013/014) ist. ligennd vnnd habent. Dergleichen vnnsern wald vnnd h[...]\nl.14  (013/014) Zehennd vnnd gerechtigkaiten vnnsers Gotshaus frey aige[...]\nl.15  (013/014) fur desshalb(?) oberlifert. der vergangen funffzehenhundert vn[...]\nl.16  (013/014) sein Erben. oder yemanndt von Irentwegen die ver vnnd v[...]\nl.17  (013/014) vnnd versprechen hierauf fur vnns. vnnser Gotshaus. v[...]\nl.18  (013/014) vnnd abgang Jerlich. vnnd aines yeden Jars besonnder auf [...]\nl.19  (013/014) hannden zuerlegen vnnd zubezalen. Vnnd wan die ober Jren\nl.20  (013/014) [this line is on the horizontal fold and partly obscured. A dark stroke crosses its first word] ?le?verbri?ten(?) werd?(?) ausgericht(?) wurde. Alsdann haben\nl.21  (013/014) die obgeschriben Jre fur vnnd vnnderpfannd darunder anh[...]\nl.22  (013/014) aines yeden verfallen zinss. sambt Cost vnnd schaden. Ob Sy\nl.23  (013/014; 015/016) keines Kamerlong(?) freyhaiten. aufzug. oder punndtnus geistlich[...]\nl.24  (013/014; 015/016) oder nutzen(?), Sonnder wir haben vnns derselben hiemit g[...]\nl.25  (013/014; 015/016) widerred vestigclich zuglouben. vnnd nachzukomen, [line-filler flourish]\nl.26  (015/016) yetz abgeen wurd. Sollen Sy desselben Irer abgangs vo[...]\nl.27  (015/016) hindert menigclichs vnnserhalben, [line-filler flourish] Vnnd wiew[...]\nl.28  (015/016) sonnderlich ausgedingt. Auch gemelter von Brunnenstain au[...]\nl.29  (015/016) dreuhundert gulden guetter Lanndswerung. vnnd des verfall[...]\nl.30  (015/016) hundert des von Brunnenstains. seiner Erben. vnnd sein[...]\nl.31  (015/016) wessen(?) thun(?). Vnnd so die losung beschehen ist. vnnd der v[...]\nl.32  (015/016) widerumben zu vnnsern hannden gestelt worden, Alles get[...]\nl.33  (015/016) Sannt Michels des heilligen Ertzenngels tag. was de[...]\n(Below l.33 there is a large looped flourish (image-015, -016) and no further text.)\n\nNotes on readings:\n- Throughout, \"u\" carries a superscript hook or \"e\" (ů/ue). I give it as \"u\" or \"ue\" as it appears; the forms are \"vnnd\", \"fur\", \"zu\" and so on.\n- Line 7 contains a date formula, \"funffzehenhundert vnnd Neunvnddreissigisten\" (= 1539), read securely. The year word in line 15 is cut off after \"funffzehenhundert\".\n- Line 33 has a feast-day dating clause, \"Sannt Michels des heilligen Ertzenngels tag\". The year that should follow is lost at the cut edge.\n- Names read: \"Ludwigen von Brunnenstain\" (l.4), \"von Brunnenstain\" (l.28) and \"von Brunnenstains\" (l.30). These three are secure. The abbot's name (l.1) is uncertain.\n- The place or field names in l.12 (\"Viecht\", \"Baugreiß\", \"Schwanndt\", \"Vnserwiecht\") are uncertain letter-by-letter readings.\n\nLIMITATIONS\n- Face B: the right part of the document is missing (trimmed or cut), so every line breaks off. I estimate one third or more of each line is lost, judging from how incomplete the syntax is.\n- Line 20 sits on a fold and has a struck or blotted start. That reading is weak.\n- Face A: I did not attempt the reversed show-through.\n- A rotated, raking-light image of the fold at line 20 would help. So would any surviving sister piece holding the right-hand part of the document.\n- This is an unverified image reading.\n",
+  "text_sha256": "664df6c4cddf7d5157cb2927d54ced2356ec2f9c5a168e390669fd66f8f9f184"
+}
