@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-30T17:27:17.355093+00:00",
+  "fragment": "F-zntb",
+  "id": "stams-2026-10-30-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "43334322c10ed31da95eb094084747701af851c78d76ad17041c30c6d708b29b",
+        "source": "https://fragmentarium.ms:443/loris/F-zntb/Stams_STA_Frg_018_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_018_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "fb2ea120a91e0c1c2ee2ed70f2c124053559c7db4b58d05582c7337a370a87f5",
+        "source": "https://fragmentarium.ms:443/loris/F-zntb/Stams_STA_Frg_018_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_018_01r): native-pixel box 2465,392,5225,1859; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "d1066e96656ffb927d984180edcaa9e540e0c80417a12f060a4dfe34629fd586",
+        "source": "https://fragmentarium.ms:443/loris/F-zntb/Stams_STA_Frg_018_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_018_01r): native-pixel box 2465,1544,5225,3169; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "9fac1bc9dd189a83d0eac4ef8e55f3c9cfc02c11d67832ed219663021992a1ae",
+        "source": "https://fragmentarium.ms:443/loris/F-zntb/Stams_STA_Frg_018_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_018_01r): native-pixel box 2465,2854,5225,4322; unrotated grid position column 1 of 1, row 3 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "c97831744983086596c6be232991c4349fa9a65f72f0edee26a414925684f8cb",
+        "source": "https://fragmentarium.ms:443/loris/F-zntb/Stams_STA_Frg_018_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_018_01v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "73d8ef8171c71693287abbdd1f1324067d6e5c785d033168d762e9516c891a9e",
+        "source": "https://fragmentarium.ms:443/loris/F-zntb/Stams_STA_Frg_018_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_018_01v): native-pixel box 2796,417,5593,1874; unrotated grid position column 1 of 1, row 1 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "14272ba36d62452e05ef8d9124cf4e04c7adc5c312c0a0e0e30ba4fe7139349c",
+        "source": "https://fragmentarium.ms:443/loris/F-zntb/Stams_STA_Frg_018_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_018_01v): native-pixel box 2796,1562,5593,3176; unrotated grid position column 1 of 1, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "66b1e1d1ec4f59426af0fefe8db97d4bf1b597cb039cc00190f61e2f83518af2",
+        "source": "https://fragmentarium.ms:443/loris/F-zntb/Stams_STA_Frg_018_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_018_01v): native-pixel box 2796,2864,5593,4322; unrotated grid position column 1 of 1, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30 (packet-04)",
+  "text": "PACKET-04 - unverified image reading\n\nEXPOSURE / PROCEDURE NOTES\n- No proposed identification of the work or text was in my context. My standing context did contain a project note mentioning a \"Stams pilot\" for a fragment-identification project, and the task directory is named \"stams-b1-readers\"; the overviews also show a pencilled shelf note at the foot of the leaf (image-001 and image-005, below the text block, roughly \"Stams, StA, Frg. 18?\" - last digits uncertain). That concerns the holding, not the work. I did not use it.\n- Beyond the rules: I listed the two packet directories to get the image filenames, and made contrast-enhanced crops (in my scratch directory) of the faded lines in image-003 and image-007 to read them. Nothing else opened.\n\nLAYOUT SURVEY (observations)\n- Two overviews: image-001 (one face, tiles image-002..004) and image-005 (other face, tiles image-006..008). Single leaf, upper corners cut off, punched hole at top centre, fold/crease across the middle; lower margin folded over.\n- Single column. Red-ruled staff lines (dry-point/red lines), each text line preceded by a row of unheighted/heighted neumes (German-type neumes on red lines). Clef letters at the left of neume rows: \"f\" on the image-001 face, \"c\" on the image-005 face. Small check marks at the right margin of several neume rows.\n- Rubrication: red \"R\" (responsory sign) and \"V\" (verse sign) before enlarged red or ink-and-red initials (D, M, C, D, T, T, I, A). Red wavy/strokes fill gaps in text where melismas extend. Vertical red bar lines in the neume rows.\n- Image-005 face: roman numeral \"LVI\" at top centre (folio number?). \n- Interpretation (tentative): chant book with noted responsories and verses; no commentary or glosses.\n- Middle of image-001 face (text lines around the \"Cum\" initial) and middle of image-005 face (two lines) are badly faded/abraded.\n\nLINE CONVENTION: only text lines are numbered, counted from the top of each tile; neume rows are not transcribed. Tiles overlap by one text line; overlaps noted. \"|\" not used; red elements marked [red]. ~ = red filler stroke in a melisma gap.\n\n==== FACE 1 (overview image-001) ====\n\nimage-002\nt1  tem co(m)mo~ ta sunt omnia uiscera e ius super fratre su o [red-touched F]estinauitq(ue);\nt2  uncl o? nnm? [first word(s) uncertain]  [red]R [red/ink initial]D ixit ruben fratrib(us) su~ is numquid no(n) dixi uo bis no\nt3  lite peccare~ inpue~ rum & non au distis me En~ sanguis [red stroke through/over letters of \"sanguis\"] eius~\nt4  cr? ~~ quiri tur. [red]V [ink+red initial]M erito~ hec patimur quia peccauimus in fratrem\n\nimage-003 (t1 = image-002 t4, overlap)\nt2  no strum uidentes angustiam anime e ius dum dep(re)caretur nos (et) non\nt3  audiuimus. En sanguis [red] adcc.? [cue/rubric, reading uncertain] [large red initial]C um imm?u(n)d?us? sp(iritu)s? exi?(er)?it? [illegible] ...?nine?  [this line faded; after \"C um\" the letters I can see are roughly \"um imm? ucdus spiri?us exi?t ...a ... nine\"; reading very uncertain]\nt4  ambulat p(er) loca inaquosa querens? (written \"querēs\"/\"querīs\") requiem & non inuenie(n)s? [darkened smudge] re?ua? [red]R [large red initial]D eri? [cue continues on next line]\nt5  to hec patimur~ quia peccauimus in fratrem~ no~ strum uiden\n\nimage-004 (t1 = image-003 t5, overlap)\nt2  tes angus~ ti~ am anime~ e~ ius dum dep(re)caretur nos & non audiui\nt3  mus [red-touched I]deirco/Idcirco uenit sup(er) nos~ tribu~ laci~ o. [red]V [initial]D ixit~ ruben fra\nt4  trib(us) su is numquid no(n) dixi uobis nolite peccare inpue rum & non au\nt5  distis~ me~ [red-touched I]dcirco [red]R [large red initial]D ixit ioseph undecim fratrib(us) ego sum\n\nNote: image-004 t4-t5 \"au distis\" read as such; the \"au\" at line end in t4 may be \"an\". In image-002 t2 \"Dixit ruben\" and image-004 t3 repeat the same verse text (responsory + verse repetition); I report both as written, not merged.\n\n==== FACE 2 (overview image-005; \"LVI\" at top) ====\n\nimage-006\nt1  rit. [red-touched V]t suggeras pharao ni ut educat me~ de isto carce re quia fur\nt2  tim~ sublatus sum (et) hic innocens~ in?/ui la cum~ missus sum [red]V [ink+red initial]T res\nt3  e nim adhuc dies sunt post quos recordabitur pharao ministerii? (written \"ministeru\") tui & restituet\nt4  te in gradum pristinum tunc memento~ me i  Vt suggeras [this cue \"Vt suggeras\" has a stroke running through/under it] [red]R [large red initial]T ollite\n\nimage-007 (t1 = image-006 t4, overlap)\nt2  hinc nobiscum mune ra & ite ad dominum terre & cum inueneri tis ado\nt3  ra?te? e um sup(er) terram [red-touched]De us autem me us faciat uob(is) e um pla cibi   [faded/abraded line; \"ra te e\" at start very uncertain]\nt4  lem? & remittat et hunc fratrem uestrum uob(is) secum & eum quem te net   [faded; \"lem\" at start uncertain; dark stain over \"remittat\"]\nt5  in?/m' uincu lis. [red]V [initial]T ollite de frugib(us) terre in uasis uestris & deferte ui ro\n\nimage-008 (t1 = image-007 t5, overlap)\nt2  mu~ ne~ ra. Ds? [red]R [large red initial]I ste est frater uester minimus~ de quo\nt3  [d]ixeratis~ mi chi De us misereatur tibi fili mi [red-touched F]estinauitq(ue); intro~\nt4  n?iuit? [letters visible as \"n uin\"/\"iuit\"] & plo~ ra uit quia erumpebant la cri me & non po te rat\nt5  se?on? (cut/abraded) tine re . [red]V [ink+red initial]A ttol lens autem ioseph oculos uidit beniamin stan\n\nSELECTED / UNREAD\n- Read: every text line on both faces. Not read: the neume rows (not transcribed), the first word(s) of image-002 t2, most of the faded \"C um ...\" line (image-003 t3), the start of image-008 t4 and t5.\n- Limitations: upper corners cut away (first text line on each face begins mid-word, previous leaf needed); the middle band of both faces is abraded/faded; enhanced crops only partly recover it. A higher-contrast or UV image of image-003 t3 and image-007 t3-t4 would help. Word division follows syllable spacing under the neumes, not the scribe's word boundaries.\n",
+  "text_sha256": "8e7bb19ab5c60c81bb628c7c6b0817fed46e59fb416b16b8ff6d4b1a239ff52a"
+}

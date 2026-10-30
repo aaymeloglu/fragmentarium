@@ -1,0 +1,112 @@
+{
+  "captured_at": "2026-10-30T17:27:17.419849+00:00",
+  "fragment": "F-ag0c",
+  "id": "stams-2026-10-30-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "bb1e4a19b3990328ae39787464d1087229404099a50cf249bdc12108b1ab82d0",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_007_01v04v): whole image 7360x4912 mirrored left to right and reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "1d662bbd35db913bb30d489e094bdddfdfbe4e94b1c735525b2f5fdd3bac4d02",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_007_01v04v): native-pixel box 147,98,2649,909, mirrored left to right; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "b94e3cdf3740855852755914c6f31572520595dd37c88c4a5a36618b608e3cf7",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_007_01v04v): native-pixel box 147,735,2649,1547, mirrored left to right; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "49cd68ee3c02d6063e9c150b6bedf869a8d151d7e1f56878c2052725de9faf95",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_007_01v04v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "37ee5e2c64725596a3855c939bab324207cbb712879e5ee01462658941f01dac",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_007_01v04v): native-pixel box 4232,2529,6771,2750; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "ff5d81ddb1ea1738f4e6e6a03216990c9fa57b1c3e4badb404c42ad576373a6e",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_007_01v04v): native-pixel box 5740,4076,6808,4469, mirrored left to right; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "67603c8970672178069d0eef9c2b002a5bcda6eb64f14e6dcd6402d6b3554ad9",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_007_05v08v): whole image 7360x4912 mirrored left to right and reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "4547a3d95fb3080f138e41ef511a4eada5570535556fb9c1a90fb7ef5da9378d",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_007_05v08v): native-pixel box 2980,392,4011,2308, mirrored left to right; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "539e1fe9492578643b87460979165836e7d9124ca508ba51b9e92556001eb213",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_007_05v08v): native-pixel box 1361,2775,3937,3710, mirrored left to right; unrotated grid position column 1 of 1, row 1 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "a0278ef05e7136491b98c465ca1d6bcd95f473777c4d984cec182c9374bce4d1",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_007_05v08v): native-pixel box 1361,3509,3937,4445, mirrored left to right; unrotated grid position column 1 of 1, row 2 of 2"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "8aa8e9192fac23d86eb208d6de905b5be4d3a51ca3fea793a0b72df93d8477e1",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_1_.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_007_09v11v_Adl_01v_1_): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "5daee780c72341a8c2bd4b90bf627db1867c4b99665168f7d7ff1458d33aebdf",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_1_.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_007_09v11v_Adl_01v_1_): native-pixel box 1324,245,2663,2063; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "1e40cf81859834f74c8ba7b220122ff6f33716df03746d1440175341750531ed",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_1_.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_007_09v11v_Adl_01v_1_): native-pixel box 2376,245,3716,2063; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "d5fac1301032cc9058ef5ec588fc94a2b0fde690dccaed5c1daaae1a8aa005ff",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_1_.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_007_09v11v_Adl_01v_1_): whole image 7360x4912 mirrored left to right and reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "107c18e6f1bb934d01c424a303176d3b9b9def594416fe7b2ec2f27ded6c8141",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_1_.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_007_09v11v_Adl_01v_1_): native-pixel box 4268,343,5299,2063, mirrored left to right; unrotated grid position column 1 of 1, row 1 of 1"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "a9a9a9ce24e0a29590f4eb478e6b810d84100d6d90649da13c2804c8c437ea78",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_1_.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_007_09v11v_Adl_01v_1_): native-pixel box 4232,2627,5530,4543, mirrored left to right; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "573a66679abb1911af1ab25b9fcaa4a0bfb0e4816caf7570196c04e385fba3f8",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_1_.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_007_09v11v_Adl_01v_1_): native-pixel box 5251,2627,6550,4543, mirrored left to right; unrotated grid position column 2 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "4a7f54aae78a81a4b5036debee0bc046ced99517c12d7b4b9744f032631daa4b",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_2_.jpg/full/7360,/0/default.jpg (canvas 6, Stams_STA_Frg_007_09v11v_Adl_01v_2_): whole image 7360x4912 rotated 180 degrees counterclockwise and reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "876b59aa607ee5c9fb62e8f6e01372e59ca79d4b81813a83f8571422fc3e5214",
+        "source": "https://fragmentarium.ms:443/loris/F-ag0c/Stams_STA_Frg_007_09v11v_Adl_01v_2_.jpg/full/7360,/0/default.jpg (canvas 6, Stams_STA_Frg_007_09v11v_Adl_01v_2_): native-pixel box 3569,2848,5004,4666, rotated 180 degrees counterclockwise; unrotated grid position column 1 of 1, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30 (packet-12)",
+  "text": "PACKET-12 - UNVERIFIED IMAGE READING (PARTLY NOT BLIND - SEE EXPOSURE)\n\nExposure statement - IMPORTANT\n- The overviews image-011, image-014 and image-018 show a modern typed slip\n  laid beside the fragments, with a typed transcription of chant text and a\n  red pencil note (\"Stams, STA, Abl. 1v zu Frg. 7-11v\"?; faint typed\n  \"1935\" and \"Loykam?...\" show through). I read that slip in the overview\n  BEFORE reading the leaves. It reads (my reading of the typescript):\n      Ubi Sampson robustissimus ubi Versucia?\n      speciosissimus ubi Versucia?\n      Transierunt leges mortaliu(m)\n      dies spacium Sed tu deus\n        fac te pie nobis xriste pros\n      mal erit n...um miserere nobis . .\n        anima in morte sumus pie\n        s adiutorem nisi te domine\n          nostris iuste irasce\n        Sancte    deus\n        Sancte et misericors  sal-\n        emores? nostri ne tradas\n  This is an earlier transcription of part of these fragments. Therefore my\n  readings of the leaf that carries those words (image-008, image-015, and\n  the corresponding parts of the overviews) are NOT blind; they are marked\n  [CONTAMINATED] below. The other music spans (image-012, -013, -016, -017,\n  -019) do not repeat the slip text, but I have still seen it.\n- Background context (an assistant memory index) mentions a \"Stams pilot\";\n  the directory is named \"stams-b1-readers\"; pencil shelfmarks \"Stams, STA,\n  Frg. 7-1 ... 7-12\" are on the leaves. None names a work.\n- Beyond the rules I only made contrast-enhanced, channel-split and mirrored\n  crops of supplied tiles in my own scratch directory (mirroring was a test\n  for offset text; it did not help and the readings below are from the\n  unmirrored images).\n\nLAYOUT SURVEY (observations)\n- Packet covers a group of small parchment pieces \"Frg. 7-1\" to \"7-12\"\n  photographed in sets of four (overviews image-001, -004, -007, -011, -014,\n  -018). Two kinds:\n  (a) Pieces with faded, partly erased cursive notes in brown ink\n      (German, 14th/15th-c. type documentary cursive), e.g. Frg. 7-4v\n      (tiles image-002/-003) and Frg. 7-7v? (tiles image-009/-010), and\n      short notes on 7-1v (image-005) and a corner of 7-1v (image-006).\n      Many stitching/nail holes and rust stains; one piece has a large\n      ruled grid. Mostly unreadable even under enhancement.\n  (b) Pieces of a music manuscript: four-line staves (thin ruled lines, no\n      red F-line visible), square/rhomboid black notation (Gothic/\n      Hufnagel-like rhombs and virgae, custodes at line ends, C-/F-clef\n      marks at line starts drawn as a \"B/K\"-shaped sign), text in a small\n      Gothic bookhand below each stave, red strokes touching the capitals\n      of each \"Ubi\" and occasional red vertical division strokes through\n      the staves. Two columns per page on at least one piece (7-11v:\n      image-012 left col, image-013 right col) with a large decorated\n      initial (red/black, cut) at the head of the right column. A smaller\n      piece is pasted/folded over 7-11 (image-019).\n  Tentative interpretation: a series of rhetorical \"Ubi ...?\" questions\n  (ubi-sunt series) set to music, followed by another chant beginning\n  \"[A]udi tellus audi ma[gni maris limbus]...\" (I report only the letters\n  seen). Possibly parts of one music leaf reused in a binding.\n- Faces with offset/show-through: image-015 shows notes from both sides\n  mixed; image-016/-017 show a second, paler copy of the same text as\n  image-012/-013 (another face or an offset; I cannot tell which from these\n  crops).\n\nConventions: [?] unread; word? uncertain; (abc) expansion. Line numbers are\nTEXT lines counted from the top of each image (stave lines not counted).\n\nA. MUSIC FRAGMENT, Frg. 7-11v (pencil on image-013 \"Stams, STA, Frg. 7-11v\")\nimage-012 (left column; text lines under staves)\nt.1  [?]rum? [?]ro? [?]parius? / perpiureus? Ubi alexander   (top line damaged/ abraded)\nt.2  rex maximus Ubi stonius? / Ubi histonius? ubi dortissim(us)?   [red-touched U]\nt.3  Ubi cum helena paris pulcherrimus\nt.4  Achilles ubi magnanimus Ubi cesar\nt.5  [?] [?]ag[?]us? ubi hector troie fortiss[imus]   (left part damaged)\nt.6  [?]imus Ubi Salomon sapientissimus\nimage-013 (right column; left edge overlaps image-012 right edge)\nt.1  [initial, red and black, cut away] [A]udi tellus audi ma[?]   (edge cut)\nt.2  [?]mus? [?]. Audi omne [?]   (abraded)\nt.3  [?]e? huius mundi deus e[?]\nt.4  sunt falsa [?]?(pro?) historia Con[?]\nt.5  temporalia non in uno stat[?]\nt.6  [?]a? [?] enim Regum? Regna? [?]   (damaged, under burn holes)\n\nB. SECOND COPY / OTHER FACE OF THE SAME TEXT (paler)\nimage-017 (left column)\nt.1  [?]ora? [?]an? [?] porphirius Ubi alexander\nt.2  rex maximus [?] [?] Ubi dortiss[imus]?\nt.3  Ubi cum helena paris pulcherrimus\nt.4  Achilles ubi magnanimus ubi [?]   (middle abraded)\nt.5  [?] ubi [?]agnus? ubi [?] troie fortiss[imus]\nt.6  [?]mus Ubi [Sa]lomon sapientissimus\nimage-016 (right column)\nt.1  [initial, red] [?] [?]ellus? audi ma[?]\nt.2  [?]mbus? Audi omne a[?]\nt.3  sole huius mundi deus e[?]\nt.4  sunt falsa [?] historia Con[?]\nt.5  temporalia non in uno stat\nt.6  [?]il? enim [?]egalis? [?]\n  Note: image-016/-017 agree line for line with image-012/-013, so they are\n  not new text. Where 012 is damaged, 017 suggests \"porphirius\" in t.1.\n\nC. PASTED-OVER SMALLER PIECE (image-019, upper-left of 7-11)\nt.1  [?]n? congeries Dixit? / Erat? enim rerum\nt.2  [?]materies et [?]sit? rerum materies   (\"et tu?sit\"; abbreviation over u)\nt.3  liquescet? a sole glacies Ubi forte[s]? / fortes\nt.4  [?] [?] ubi Ioruentius? / Fortunatus? ubi [?]   (torn, folded edge)\nt.5  [?] Darius Ubi plato ubi [?]sarius?   (on the darker strip below)\nt.6  [?]enim Regum? Regna? [?]   (= image-013 t.6, the strip beneath)\n  Left of the pasted piece, the underlying leaf shows \"alexander\" (top) and\n  scraps \"[?]parau?\" at line ends.\n\nD. MUSIC FRAGMENT WITH SLIP TEXT [CONTAMINATED - not a blind reading]\nimage-008 (single column, lower part of a music page, Frg. 7-6r?)\nt.1  [?]a uita? / [anim]a in morte sumus pie? / pre?   [CONTAMINATED]\nt.2  [?] adiutorem n(isi), te domine   [CONTAMINATED]\nt.3  [?]ulmerentur? nostris iuste irasce   (first word unclear) [CONTAMINATED]\nt.4  [S]ancte  [?]  [d]eus   (spaced, with melisma above) [CONTAMINATED]\nt.5  [S]ancte  [?]  et miser[icors] (sal-)   [CONTAMINATED]\nt.6  [?]amare? morti ne tradas   (bottom, partly cut) [CONTAMINATED]\nimage-015 (single column, upper part of a page; text faint with show-\nthrough from the other side)\nt.1  [?] [?]speciosissimus? [?]   (top edge) [CONTAMINATED]\nt.2  [?] [?] [?]ocusma? / Versucia?   [CONTAMINATED]\nt.3  [?]transierunt? leges mortalium   [CONTAMINATED]\nt.4  [?] [?]is spacium? Sed [?] tu deus?   [CONTAMINATED]\nt.5  fac te pie [?]   [CONTAMINATED]\nt.6  [?] [?]   (bottom, under burn hole)\n  I cannot claim any of these as independent of the typed slip.\n\nE. DOCUMENTARY NOTES (German cursive, faded/erased)\nimage-005 (top edge of Frg. 7-1v)\nl.1  [?] [?] tauf? [?]   (top edge, cut)\nl.2  reyb? / leyb vn(d) gut          ... [right side:] [symbol] dz? ellen vn(d) wassen? / westen?\nimage-006 (lower corner of 7-1v, faint notes, partly reversed offset?)\n  Scraps only: \"[?] ogde? / [?] [?]auf? / [?]ard? / oxs? [?] / ottilit?\n  [?]\" - not usable.\nimage-002 / image-003 (Frg. 7-4v): faded cursive, about 16 lines; after\n  enhancement only isolated words: image-003 t.4 \"[?] [?]ra[?] in\n  [?]haltige? Ich? [?] zumb? [?]\"; t.5 \"[?]geben? [?]\"; t.8 \"[?] wartte?\n  [?] [?] [?]loz?\"; t.9 \"[?] [?] Johann(es)? [?] [?]\". Not reliable.\nimage-009 / image-010 (Frg. 7-7v?): faded cursive in two blocks; the\n  clearest lines (image-010 lower right):\n  l.1  [?] [?] wollen? Brief? [?] [?]\n  l.2  [?] [?]ochstal? / Gotshaus? [?] Stams?\n  l.3  [?] [?] [?] [?] Bruder? [?]\n  l.4  Item? [?]chof? Burg? [?] [?] [?] [?] [?]\n  Not reliable.\n\nAREAS LEFT UNREAD / LIMITATIONS\n- Section D is contaminated by the typed transcription on the slip; treat\n  it as non-blind.\n- The documentary notes (section E) are largely unread: erased/faded ink\n  that did not respond to contrast or channel enhancement. UV imaging would\n  be needed.\n- Music notation itself was not transcribed (pitches not read).\n- Column order on 7-11v assumed left (image-012) then right (image-013)\n  from the page geometry; the relation of 7-11v to the pasted piece\n  (image-019) and to the paler copy (image-016/-017) is uncertain.\n- Top lines of most music pieces are abraded or cut.\n",
+  "text_sha256": "4ec5fa2d44d27c3ade380623ddfdb7d8350d72664443d811a20d5133ad2afa7b"
+}
