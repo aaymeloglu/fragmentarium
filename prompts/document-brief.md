@@ -66,7 +66,7 @@ sources can hold the act depends on its kind:
   Frank's snippets name beneficiary, kind of grant, place and date.
 - **Private and seigneurial acts** (tenancies, fiefs, sales): local histories,
   regional archive finding aids, fief registers. These are rarely printed;
-  expect a partial result, and stop searching when no source has a specific
+  expect no outside record, and stop searching when no source has a specific
   reason to hold the act.
 - **Full text:** the local search service (`/gb`, `/ia`) and
   `tools/mdzsearch.py` for nineteenth-century editions, which Google Books and
