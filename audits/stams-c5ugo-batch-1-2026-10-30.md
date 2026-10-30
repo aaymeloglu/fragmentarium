@@ -18,7 +18,7 @@ promise) chose twelve records across kinds for this first batch.
 | F-2py3 (Frg. 159) | identified: Philaretus, *De pulsibus*, and Theophilus, *De urinis*; a third text partial |
 | F-hgu4 (Frg. 121) | identified: Enea Silvio Piccolomini, two orations of 1454 and *De liberorum educatione* |
 | F-ag0c (Frg. 7) | identified: the trope *Audi tellus* (AH 49 no. 779); other pieces not claimed |
-| F-gtpi (Frg. 198) | identified: Lehenbrief of Abbot Paul of Stams, [16]33 |
+| F-gtpi (Frg. 198) | identified: Lehenbrief of Abbot Paul I of Stams, [15]43 |
 | F-8spe (Frg. 53) | partial: Revers of 1545, issuing couple not named |
 
 ## Process
@@ -43,10 +43,17 @@ promise) chose twelve records across kinds for this first batch.
 
 ## Judgment calls for review
 
-- **F-gtpi.** The year survives as "Dreiunddreissigisten"; the century is
-  supplied from the abbot list (Paul II Gay, 1631-1638; Paul I, 1540-1542,
-  does not fit a year ending 33). The sheet covers an Urbar titled "ad annum
-  1578". A later rebinding would explain this but was not checked.
+- **F-gtpi.** First read, researched and independently checked as
+  "Dreiunddreissigisten" and dated [16]33 under Paul II, against a host
+  register titled 1578. A Codex review of the PR read "Dreiundvierzigisten"
+  on the image, confirmed by two fresh readers and by the coordinator: the
+  letters after "vier" are "-tzig-", with no long s. The year is now [15]43
+  under Paul I Käsinger, whose rule the Kaisheim local history gives as
+  1540-1544 and Siebmacher as 1540-1542; the date rests on the first. The
+  preserved readings keep the wrong year word; the report states the
+  correction. The independent check had been asked to reread the dating
+  line and confirmed the wrong reading, so a check by a reader who already
+  holds the report's transcription in view is weak on single words.
 - **F-ag0c.** The researcher proposed partial; the checker proposed
   identified, scoped to *Audi tellus* on Frg. 7-11v and the added piece,
   where the Ubi strophes agree with AH on its page images. The expanded
