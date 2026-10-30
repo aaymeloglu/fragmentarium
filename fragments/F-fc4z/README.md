@@ -6,9 +6,9 @@ The same grant survives at Stams on a second unfinished sheet in another hand an
 
 The [Fragmentarium record](https://fragmentarium.ms/overview/F-fc4z) is Stams, Stiftsarchiv, Frg. 202, catalogued as "Deed", German, Prague, 1601, 366 x 251 mm, removed from the Urbar STB III/30.
 
-- **Identification:** identified, high. Issuer, beneficiary, his relationship to the abbot, the grant of arms with the Lehenartikel, the place (Prague) and the Roman regnal year are read on the image. The day and month are uncertain on the sheet, and the year in words is cut off; the regnal year gives 1601, and the day, 18 June, is supplied from K. F. von Frank, *Standeserhebungen und Gnadenakte*, vol. 2 (1970), whose entry agrees with the sheet on every element it gives: "Jäger, Georg, Sohn: Melchior, Abt zu Stams in Tirol, Wappen m. Lehenart., Prag 18. VI. 1601, (R)".
+- **Identification:** identified, high. Issuer, beneficiary, his relationship to the abbot, the grant of arms with the Lehenartikel, the place (Prague) and the Roman regnal year are read on the image. The day and month are uncertain on the sheet, and the year in words is cut off; the regnal year gives 1601, and the day, 18 June, is supplied from K. F. von Frank, *Standeserhebungen und Gnadenakte*, vol. 2 (1970), whose entry agrees with the sheet on every element it gives: "Jäger, Georg, Sohn: Melchior, Abt zu Stams in Tirol, Wappen m. Lehenart., Prag 18. VI. 1601, (R)". The file itself is Vienna, Österreichisches Staatsarchiv, [AT-OeStA/AVA Adel RAA 208.47](https://www.archivinformationssystem.at/detail.aspx?ID=2474545): "Jäger, Georg, Melchior, sein Sohn, Abt zu Stams in Tirol, Wappen mit Lehenartikel", Prague, 18 June 1601, fol. 1-7. Only its painted arms (fol. 4) are online; they agree with the sheet's blazon (a bend of red and white, the greyhound crest). The file's dating clause is not online, so the catalogue's 18 June may not be independent of Frank, and the day and month remain supplied.
 - **Transcription:** source-assisted, selected passages: the display line and protocol, the narration naming the parties, the blazon, the penalty and reservation clauses, and the dating clause. The Lehenartikel was read in outline only. A research reader (Claude) made the reading at native resolution from contrast-enhanced crops. Three further Claude readers then read the sheet from the images alone, with neutral questions and no proposed answer; they worked after the identification, so they are not first readings in the sense of CONVENTIONS and are not preserved in `readings/`. Every disagreement among them was re-read at native resolution, and the readings below give the result, with the remaining uncertainty marked. Accuracy has not been measured. No human review.
-- **Verification:** a research reader (Claude) compared the sheet's beneficiary, relationship clause, act, place and date with Frank's entry, seen as a Google Books search snippet (volume id `s-dMAQAAIAAJ`); the page number was not established. The Reichsadelsakten file in Vienna that Frank's "(R)" points to was not found online. The dating clause was checked on the image by a second Claude reader. No human review.
+- **Verification:** a research reader (Claude) compared the sheet's beneficiary, relationship clause, act, place and date with Frank's entry, seen as a Google Books search snippet (volume id `s-dMAQAAIAAJ`); the page number was not established. The dating clause was checked on the image by a second Claude reader. No human review.
 
 ## Textual evidence
 
@@ -72,12 +72,13 @@ Rudolf II was elected King of the Romans on 27 October 1575, and his chancery co
 
 ## Sources
 
-- K. F. von Frank, *Standeserhebungen und Gnadenakte für das Deutsche Reich und die österreichischen Erblande bis 1806*, vol. 2 (Senftenegg, 1970), s.v. Jäger, Georg; Google Books snippet view ([search](https://books.google.com/books?id=s-dMAQAAIAAJ&q=%22J%C3%A4ger,+Georg%22)). "(R)" refers to the Reichsadelsakten, Vienna, Österreichisches Staatsarchiv, AVA Adel RAA; the file's signature was not found.
+- K. F. von Frank, *Standeserhebungen und Gnadenakte für das Deutsche Reich und die österreichischen Erblande bis 1806*, vol. 2 (Senftenegg, 1970), s.v. Jäger, Georg; Google Books snippet view ([search](https://books.google.com/books?id=s-dMAQAAIAAJ&q=%22J%C3%A4ger,+Georg%22)). "(R)" refers to the Reichsadelsakten.
+- Vienna, Österreichisches Staatsarchiv, [AT-OeStA/AVA Adel RAA 208.47](https://www.archivinformationssystem.at/detail.aspx?ID=2474545), catalogue entry and the online image of the arms (fol. 4).
 - Second exemplar of the same grant: Stams, Stiftsarchiv, Frg. 201, [F-pqjj](https://fragmentarium.ms/overview/F-pqjj).
 
 ## Limits
 
-- Frank was seen only as a search snippet; the page was not seen and the Vienna file was not consulted.
+- Frank was seen only as a search snippet; the page was not seen. Of the Vienna file only the catalogue entry and the image of the arms were seen.
 - The Lehenartikel and much of the body were read in outline, not word by word.
 - The day and month rest on Frank; the sheet's own day word and month are each read in two ways.
 - No palaeographer has reviewed the readings.
