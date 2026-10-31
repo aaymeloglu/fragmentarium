@@ -202,20 +202,22 @@ def test_record_updates_ledger_and_installs_only_clean_identifications(work):
     out.mkdir()
     (out / 'r.md').write_text('# F-test: Author, Work\n')
     (out / 'a.txt').write_text('source-assisted reading\n')
-    good = {'F-test': {'status': 'identified', 'confidence': 'high', 'identification': 'Author, Work',
+    good = {'F-test': {'status': 'identified', 'confidence': 'high', 'identification': 'Author, Work', 'kind': 'law',
                        'note': 'n', 'verify': 'https://example.org/ed', 'report': 'r.md', 'assisted': 'a.txt',
                        'sources': ['Edition, p. 1'], 'reason': 'resolved abbreviations'}}
     with pytest.raises(ValueError, match='cannot have confidence'):
         record.apply(root, {'F-test': dict(good['F-test'], confidence='medium')}, out, 'b1', 'r', '2026-01-02')
     with pytest.raises(ValueError, match='needs a report'):
         record.apply(root, {'F-test': {k: v for k, v in good['F-test'].items() if k != 'report'}}, out, 'b1', 'r', '2026-01-02')
+    with pytest.raises(ValueError, match='needs a kind'):
+        record.apply(root, {'F-test': dict(good['F-test'], kind='poetry')}, out, 'b1', 'r', '2026-01-02')
     (out / 'bad.md').write_text('see /tmp/scratch/x.jpg\n')
     with pytest.raises(ValueError, match='local path'):
         record.apply(root, {'F-test': dict(good['F-test'], report='bad.md')}, out, 'b1', 'r', '2026-01-02')
     assert json.loads(ledger.read_text())[0]['status'] == 'unidentified', 'a refused result changes nothing'
     record.apply(root, good, out, 'b1', 'r', '2026-01-02')
     row = json.loads(ledger.read_text())[0]
-    assert (row['status'], row['identified_on'], row['examined']) == ('identified', '2026-01-02', '2026-01-02')
+    assert (row['status'], row['identified_on'], row['examined'], row['kind']) == ('identified', '2026-01-02', '2026-01-02', 'law')
     assert (root / 'fragments/F-test/README.md').read_text().startswith('# F-test')
     assisted_record = json.loads((root / 'fragments/F-test/readings/b1-source-assisted.json').read_text())
     assert assisted_record['first_reading'] == 'b1-image-only'
@@ -223,6 +225,7 @@ def test_record_updates_ledger_and_installs_only_clean_identifications(work):
                  out, 'b1', 'r', '2026-01-03')
     row = json.loads(ledger.read_text())[0]
     assert row['identified_on'] is None and row['verify'] == 'https://fragmentarium.ms/overview/F-test'
+    assert 'kind' not in row
 
 
 def test_record_marks_documents_moves_thumbnail_and_keeps_report_in_place(work):
@@ -244,8 +247,8 @@ def test_record_marks_documents_moves_thumbnail_and_keeps_report_in_place(work):
               'report': '../fragments/F-test/README.md', 'document': True, 'thumbnail_canvas': 1}
     record.apply(root, {'F-test': result}, root / 'data', 'b1', 'r', '2026-01-02', cache)
     row = json.loads(ledger.read_text())[0]
-    assert row['document'] is True and row['thumbnail'] == 'https://x.org/text/full/240,/0/default.jpg'
+    assert row['document'] is True and row['kind'] == 'document' and row['thumbnail'] == 'https://x.org/text/full/240,/0/default.jpg'
     assert report.read_text() == '# F-test: a deed\n'
-    record.apply(root, {'F-test': dict(result, document=False, thumbnail_canvas=None)}, root / 'data', 'b1', 'r',
+    record.apply(root, {'F-test': dict(result, document=False, kind='law', thumbnail_canvas=None)}, root / 'data', 'b1', 'r',
                  '2026-01-03', cache)
     assert 'document' not in json.loads(ledger.read_text())[0]

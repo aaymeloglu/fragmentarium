@@ -13,6 +13,7 @@ import html
 import json
 import posixpath
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,8 +35,8 @@ a { color:var(--accent); }
 table.idx { width:100%; border-collapse:collapse; background:var(--surface); border:1px solid var(--rule); }
 table.idx th, table.idx td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--rule); }
 table.idx th { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
-table.idx img { width:120px; height:auto; display:block; border:1px solid var(--rule); background:#ddd; }
-table.idx td.thumb { width:144px; }
+table.idx img { width:80px; height:auto; display:block; border:1px solid var(--rule); background:#ddd; }
+table.idx td.thumb { width:104px; }
 table.idx .where { color:var(--muted); font-size:14px; }
 table.idx .cat { color:var(--muted); font-size:14px; font-style:italic; }
 .badge { display:inline-block; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:3px 8px; border-radius:3px; white-space:normal; }
@@ -64,6 +65,10 @@ th.filtered, th.filtered .filter > button { color:var(--accent); }
 .menu .count { margin-left:auto; color:var(--muted); font-size:13px; }
 .menu button.all { font:inherit; font-size:13px; color:var(--accent); background:none; border:0; padding:4px 6px 2px; cursor:pointer; }
 .shown { color:var(--muted); font-size:14px; margin:0 0 8px; }
+.controls { display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; margin:0 0 10px; font-size:15px; }
+.controls input, .controls select { font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--rule); border-radius:4px; padding:5px 8px; }
+.controls input { flex:1 1 260px; }
+.controls .shown { margin:0; }
 @media (max-width:700px) { body { font-size:16px; } table.idx th.thumb, table.idx td.thumb { display:none; } table.idx td { padding:8px; } }
 """
 
@@ -214,6 +219,35 @@ FILTER_JS = """<script>
 </script>"""
 
 
+INDEX_JS = """<script>
+(function(){
+  var q=document.getElementById('q'), holding=document.getElementById('holding'), kind=document.getElementById('kind');
+  var rows=Array.from(document.querySelectorAll('table.idx tbody tr')), shown=document.getElementById('shown');
+  function apply(){
+    var words=q.value.toLowerCase().split(/\\s+/).filter(Boolean), n=0;
+    rows.forEach(function(r){
+      var text=r.textContent.toLowerCase();
+      var ok=(!holding.value||r.dataset.holding===holding.value)&&(!kind.value||r.dataset.kind===kind.value)
+        &&words.every(function(w){return text.indexOf(w)>=0;});
+      r.hidden=!ok; if(ok) n++;
+    });
+    shown.textContent=n===rows.length?rows.length+' shown':'Showing '+n+' of '+rows.length;
+  }
+  [q,holding,kind].forEach(function(el){el.addEventListener('input',apply);});
+  apply();
+})();
+</script>"""
+
+# The site's grouping of identifications by subject (`kind` in the ledger), in menu order.
+KINDS = {"theology": "Bible, theology and saints' lives", "law": "Law", "science": "Medicine and science",
+         "arts": "Philosophy, grammar and literature", "liturgy": "Liturgy", "document": "Archival documents"}
+
+
+def options(counts, labels=None):
+    return "".join(f'<option value="{html.escape(k)}">{html.escape((labels or {}).get(k, k))} ({n})</option>'
+                   for k, n in counts)
+
+
 def publishable(row):
     # `known_from` marks an identification the scholarship had already published for this fragment:
     # recorded in the ledger, kept off the site and out of its count.
@@ -325,15 +359,17 @@ def build():
         if path.stem not in published_ids:
             path.unlink()
     (DOCS / "review.html").unlink(missing_ok=True)
+    holdings = Counter(r["institution"] for r in published).most_common()
+    kinds = sorted(Counter(r["kind"] for r in published).items(), key=lambda kn: list(KINDS).index(kn[0]))
     rows = []
     for r in ordered:
         rows.append(
-            "<tr>"
+            f'<tr data-holding="{html.escape(r["institution"])}" data-kind="{r["kind"]}">'
             f'<td class="thumb"><a href="{r["id"]}.html"><img src="{html.escape(r["thumbnail"])}" alt="{r["id"]}" loading="lazy"></a></td>'
             f'<td><a href="{r["id"]}.html"><b>{html.escape(r["shelfmark"])}</b></a><br><span class="where">{html.escape(r["institution"])}</span>'
             f'<br><span class="cat">Catalogued as: {html.escape(r["catalogue_title"])}, {html.escape(r["catalogue_date"])}</span>'
             f'<br><span class="where"><a href="{r["record"]}">{r["id"]}</a></span></td>'
-            f'<td>{html.escape(r["identification"])}<br><span class="where">{html.escape(r["note"])}</span></td>'
+            f'<td>{html.escape(r["identification"])}<br><span class="where">{KINDS[r["kind"]]}</span></td>'
             f'<td data-sort="{r["identified_on"]}"><time datetime="{r["identified_on"]}">{r["identified_on"]}</time></td>'
             '</tr>'
         )
@@ -344,10 +380,14 @@ def build():
         f'Each report explains the evidence and links the manuscript to the matching edition or record, where one exists. '
         f'Research and comparisons were performed by LLMs. '
         f'<a href="{REPO}/blob/main/METHOD.md">Method</a>.</p>'
+        '<div class="controls"><input id="q" type="search" placeholder="Search shelfmark, author, work" aria-label="Search">'
+        f'<select id="holding" aria-label="Holding"><option value="">All holdings</option>{options(holdings)}</select>'
+        f'<select id="kind" aria-label="Kind"><option value="">All kinds</option>{options(kinds, KINDS)}</select>'
+        '<p class="shown" id="shown"></p></div>'
         '<table class="idx sortable"><thead><tr><th class="thumb"></th><th data-col="1" aria-sort="none"><button class="sort" type="button">Fragment ↕</button></th>'
         '<th>Identification</th><th data-col="3" aria-sort="descending"><button class="sort" type="button">Date identified ↕</button></th></tr></thead><tbody>'
         + "".join(rows)
-        + "</tbody></table>" + SORT_JS
+        + "</tbody></table>" + SORT_JS + INDEX_JS
         + f'<p class="credit">{len(data)} fragments examined. Dates record the original identification, not later reviews. '
         f'<a href="burndown.html">Research progress</a> · <a href="{REPO}/blob/main/data/fragments.json">Research ledger</a>.</p>'
     )

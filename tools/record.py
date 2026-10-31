@@ -12,7 +12,8 @@
                 "sources": ["Edition, pp. 1-2"], "reason": "why the reading was revised with the source"}}
 
 Every result updates the fragment's ledger row and sets `examined`. An identified result must be
-`high`, must bring a report, and gets `identified_on` (kept if already set). `report` is copied to
+`high`, must bring a report and a `kind` (one of `KINDS`, the site's filter; an archival document is
+`document`), and gets `identified_on` (kept if already set). `report` is copied to
 `fragments/<id>/README.md`; `assisted` is saved as the source-assisted reading `<batch>-source-assisted`,
 linked to the first reading `<batch>-image-only`. An identified result whose identification the
 scholarship had already published for this fragment carries `known_from` (the citation): it is
@@ -36,6 +37,7 @@ import register
 
 ROOT = Path(__file__).resolve().parents[1]
 STATUS = {"identified": {"high"}, "partial": {"medium", "low"}, "unidentified": {"none"}}
+KINDS = {"theology", "law", "science", "arts", "liturgy", "document"}
 LOCAL = re.compile(r"/Users/|/home/|/tmp/|/private/")
 
 
@@ -59,6 +61,9 @@ def apply(root, results, base, batch, reader, today, cache=None):
             raise ValueError(f"{fid}: {status} cannot have confidence {confidence}")
         if status == "identified" and not result.get("report"):
             raise ValueError(f"{fid}: an identification needs a report")
+        kind = "document" if result.get("document") else result.get("kind")
+        if status == "identified" and kind not in KINDS:
+            raise ValueError(f"{fid}: an identification needs a kind, one of {sorted(KINDS)}")
         for key in ("report", "assisted"):
             if result.get(key) and LOCAL.search((base / result[key]).read_text(encoding="utf-8")):
                 raise ValueError(f"{fid}: {key} contains a local path")
@@ -77,6 +82,10 @@ def apply(root, results, base, batch, reader, today, cache=None):
         row.update(status=status, confidence=confidence, identification=result["identification"],
                    note=result["note"], verify=result.get("verify") or row["record"], examined=today,
                    identified_on=(row.get("identified_on") or today) if status == "identified" else None)
+        if status == "identified":
+            row["kind"] = kind
+        else:
+            row.pop("kind", None)
         if result.get("document"):
             row["document"] = True
         elif "document" in result:
