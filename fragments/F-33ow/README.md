@@ -8,7 +8,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-33ow) describes o
 - **Transcription:** [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-33ow/readings/batch-2026-10-12e-image-only.json) of both faces by an isolated reader, and a [source-assisted reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-33ow/readings/batch-2026-10-12e-source-assisted-2.json) in which a research reader reread all 36 lines on the native images and changed five groups (recto 4 and 15; verso 2, 3, 15). The last letter of recto line 4 and the red letters after the last prayer remain uncertain. Accuracy has not been measured.
 - **Verification:** a research reader compared every line with page images of Wilson's edition of the Hadrianum (pp. 113, 116, 117) and of Mohlberg's edition of St Gall 348 (p. 216).
   The coordinator read recto lines 5 to 14 (*pecca / mur / salua / am t / misist / enter / dne / filius / b; inu / exp*) and verso lines 6 to 15 (*tui / de ad / rne la / n mai / e uite / dne d / ueni / bsolu / nos co / tui*) on the native images, and *Excita ... promisisti usque in finem seculi clementer operare* and *Conscientias nostras* on the page image of Wilson p. 116.
-  The comparison rests on letter groups, not on connected words; no sacramentary manuscript was collated and Deshusses's edition was not consulted. No human review.
+  The comparison rests on letter groups, not on connected words; no sacramentary manuscript was collated and Deshusses's edition was not consulted.
 
 ## Textual evidence
 

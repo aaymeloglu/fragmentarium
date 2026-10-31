@@ -6,7 +6,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-au0s) describes a
 
 - **Identification:** identified, high. The basis is consecutive casus prose on two faces, including the transitions from one chapter's casus to the next. Material alternative: another work that copies Bernard's casus word for word; none is known to us, and later commentators who quote this casus (Panormitanus on X 3.5.6) surround it with their own commentary, which the fragment lacks.
 - **Transcription:** [source-assisted selected reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-au0s/readings/recheck-2026-10-11-source-assisted.json), sixteen lines of one face and parts of fifteen of the other, read by a model with the printed text to hand. The [image-only reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-au0s/readings/batch-2026-10-11-image-only.json) recovered little and misread the opening lemma. Accuracy has not been measured.
-- **Verification:** the manuscript images were compared with the OCR text of the printed edition by one model; the printed page images were not opened. A standalone printed *Casus longi* was not collated. No human review.
+- **Verification:** the manuscript images were compared with the OCR text of the printed edition by one model; the printed page images were not opened. A standalone printed *Casus longi* was not collated.
 
 ## Textual evidence
 

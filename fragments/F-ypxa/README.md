@@ -42,7 +42,7 @@ no author, work or passage.
   1581 edition at the two places described above. No manuscript of the Lectura
   was compared. The first line of the second face is cut through and is not placed.
   The coordinator read "-ciem littere est idem / renouetur per s- / hiidem faciunt / et non transactio / multiplic-" on fol. [1]r and "-siasticam. ergo morta- / subaudi. et / hic nichil iu- / -bus tantum que ex lege / in fi. sed et subau-" on fol. [1]v, on enlargements of the manuscript images, and read the first of these passages (the comments on the words "Nisi cum ipsis" and "Componendum") on the page image of the Strasbourg 1512 edition, fol. 114r, column b.
-  No human review.
+ 
 
 ## Textual evidence
 

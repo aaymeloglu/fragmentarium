@@ -45,7 +45,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-2ma4) describes t
   - A research reader collated passages from all four columns line by line against Steele's page images (pp. 109, 114-120). The one exception is the Pliny note, compared only with the OCR of Steele's p. 110 footnote.
   - A second research reader independently read canvas 0, column a, lines 13-25 before opening the edition. That reading agreed with Steele p. 118 over 13 lines and found the reading "derham".
   - Passage checked independently: canvas 0, column a, about lines 13-26 (the white and red stones), native box 2760,1330,3980,2250, against Steele p. 118 lines 13-25 ([page image](https://archive.org/details/operahactenusine05baco/page/118/mode/1up)); "pondus derham" for "pondus denarii".
-  - Gaps: the version is not placed within the Latin manuscript tradition. No human review.
+  - Gaps: the version is not placed within the Latin manuscript tradition.
 
 ## Textual evidence
 

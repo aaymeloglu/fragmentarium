@@ -6,7 +6,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-7nce) describes a
 
 - **Identification:** identified, high. The two passages total about thirty manuscript lines and include a sermon ending, the transition formula "et sic patet tercium", and the next sermon's theme and opening, which a later borrower of single passages would not reproduce in sequence. Each article is assigned to an apostle ("hunc gradum sive articulum posuit beatus Bartholomeus"), which is the plan of the *Scala*. The work is not printed, so the comparison is with a manuscript witness, not an edition. No alternative work was found; other expositions of the Creed were not searched systematically.
 - **Transcription:** [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-7nce/readings/batch-2026-10-12-image-only.json) by an isolated reader, and a [source-assisted selected reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-7nce/readings/batch-2026-10-12-source-assisted.json) of the two passages. Accuracy has not been measured; the upper parts of three columns are stained and were not read.
-- **Verification:** a research reader found the candidate through a sermon repertory and then read the two places in the Vatican manuscript from its page images; the coordinator compared the same fragment lines and manuscript lines on the images. The fragment's other columns were not compared. No human review.
+- **Verification:** a research reader found the candidate through a sermon repertory and then read the two places in the Vatican manuscript from its page images; the coordinator compared the same fragment lines and manuscript lines on the images. The fragment's other columns were not compared.
 
 ## Textual evidence
 

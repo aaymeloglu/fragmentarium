@@ -15,7 +15,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-yybk) describes W
 - **Verification:** a research reader compared the manuscript readings with Google Books snippets of Otto's edition (volume W6_-U19xpMgC). Together the snippets cover the collated run on p. 561 and the passage on pp. 554-555; they are search snippets, not page images.
   - COORDINATOR CHECK: The coordinator read canvas 0 (rotated 180°, native box about 780,1450-1700,2450), lines 8-11, on the image against Google Books snippets of Otto 1955 p. 561; no page image of the edition was available.
   - Gaps: no page image of the edition was seen, because the facsimile host was unreachable. Otto's introduction, which describes the manuscripts, was not read. The catalogue's further phrases from the joint ("minorem unionem", "locus est dupliciter") were not located at reading size.
-  - No human review.
+  -
 
 ## Textual evidence
 
