@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-10-30T21:16:21.559074+00:00",
+  "fragment": "F-s0lp",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "6883ae130fb4486ec860fc1fbf1f0477f8410fdc35076544eedada3cde8800fd",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "42ef8fb02a01844d1ccf006455ac3d174d01cb06b22802ffa64c66f84ea01fb0",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 2274,864,3419,2206; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "68e47325ad276e6d7f4e3d91c2e31df2706fa3862f8af8dcac1d93fa9e452ffc",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 3174,864,4442,2206; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "8a436f61abaf3b3aefd2f6f78cfcbb77c1d8b8d66c523bc355919371215df8c0",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 4197,864,5343,2206; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "589ea40f1fa48837b114ebfc8ce13691f21a852e1a77dec4181a68e9e62fcdb1",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 2274,1918,3419,3405; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "b9286c5bffbbc44a4b7fbdfa4a3b29a041b8d3d3ac54c797d72e22a0904f1757",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 3174,1918,4442,3405; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "60f5f672c05306773a927b51561ee2dcd3258c75e69e638359b791080b52ce33",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 4197,1918,5343,3405; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "a35244dd766c5c412e4343c94abe4582ba3fc242fe62aa96f1e583036e203cfb",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 2274,3117,3419,4460; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "8a5edc1769f12263581553859027cbee21bbb4e3fb4aa662fbfeb78c3168265d",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 3174,3117,4442,4460; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "d4aa61b2cb650a683e141a0b9b9e064a523ea6f9d2a69fdef18eaacd56a65c5f",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_049_01r): native-pixel box 4197,3117,5343,4460; unrotated grid position column 3 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "64334e2d2e8ac826e01cf8ea7cc65cf2a08ef58f4fe068cf781c880f9e6cd982",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "05259548e2ac64316be15ca14890c2f79dff2eb98322c861e140305fd222e95b",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 2428,579,3576,1945; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "ea346379c62210d8fe5e3a42f08e08386a63788dbf86cf39d27765f7ad019756",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 3330,579,4602,1945; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "c61a448a18cb27ee63d9b558b7c5a10ac97d911237bd9edc3b84df6b23dd01f4",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 4356,579,5505,1945; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "84f2dc3039377dbc0769b78e8ee4261f1f1b74f316264baadd939c194c8d154e",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 2428,1652,3576,3165; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "345b32c96a93df60b439a58484ed9a51d9b935cbe7dc74df46c1a3441fbe6325",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 3330,1652,4602,3165; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "3b6e65e574518f9675d8c2efaaf99f19d5c86ce31c9d42eb58c56754ebfa526b",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 4356,1652,5505,3165; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "6a8161f49999f6485fe4e29e4769e28d12022a7429ed4572ae6e60468c2e9664",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 2428,2872,3576,4239; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "d9860ebfc6611e1238da03fa8b0524873182a0a4c1e03d240302e376e8127a81",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 3330,2872,4602,4239; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "e999d130dde9abb3e7c9a68dd732544791eba9fcc2223962121d470f32ba9aae",
+        "source": "https://fragmentarium.ms:443/loris/F-s0lp/Stams_STA_Frg_049_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_049_01v): native-pixel box 4356,2872,5505,4239; unrotated grid position column 3 of 3, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-18)",
+  "text": "PACKET 18 - blind image reading (unverified)\n\nExposure statement: Nothing in my context proposed an identification or reading for this item. My general session context included project notes that a Fragmentarium/Stams fragment batch is in progress, but no work, author, or reading for this packet. I did nothing beyond the stated rules (I listed my own packet directories only; I did not open packet.json).\n\nLAYOUT SURVEY (observations)\n\nTwo faces.\n\nFace A, written side (image-001 overview; tiles 002-010). The leaf is upright and was held by a clear plastic strip at the upper left during photography; the strip partly covers the upper-left corner. Pencil \"Stams, STA, Fag. 49r\" top right (image-004). There is one block of German prose in a single column, in a 16th-century-looking German cursive (Kurrent-type) chancery hand, with flourished capitals. At the top are a display line in larger, more formal script and a very large calligraphic \"K\" with a big oval cadel, in the word \"Künig\" (image-003). The left edge is cut: every line begins mid-word, so the left part of the document is lost. To the right of the text is a blank vertical strip separated by a fold (image-004, -007, -010). The text ends at the right with a ragged margin, so line ends are mostly complete. Line-filler flourishes appear in several lines (lines 10, 16, 19, 23 and 25 below). The lowest line, at the bottom edge, is faint and partly lost (image-009, -010). A small fray or hole sits at the left near line 26 (image-008). A stain lies along the horizontal fold around lines 8-9 (image-005, -006). There are no rubrics, glosses or marginalia.\nTentative interpretation: a vernacular (Upper German) legal document. It looks like a royal enfeoffment or confirmation of fiefs, with a long list of items, each introduced by \"Item\". It is not a literary text and not main text with commentary.\n\nFace B, dorse (image-011 overview; tiles 012-020). The leaf has folded margin strips on the left, right and bottom. There is no main text. It carries an endorsement written vertically along the left fold, in a German hand: \"15 Stams 64\" (image-012). The two pairs of digits sit on either side of the word, so it may be a year, 1564, written around \"Stams\"; this is an interpretation. Also on this face: pencil \"Hs. 116\" (image-012), a blue \"IV/8\" or \"II/8\" (image-015, written vertically), a purple stamp \"Stiftsarchiv Stams\" with a purple vertical line (image-013), pencil \"Stams, STA, Fag. 49v\" (image-014), and a small paper label tied with thread at the lower right reading \"15. o[...] / Roll[...]\" or \"Boll[...]\" (image-020). There are fold creases with stitch or cut holes along the horizontal fold (image-016, -017). I see no other writing. Faint blotches in image-013 look like offset or staining, not legible text.\n\nSELECTED SPANS / COVERAGE\n- Face A: I read every surviving line, from the display line and 28 text lines down to the faint last line. Tiles overlap as follows. image-002, -003 and -004 cover the top (display line and lines 1-6). image-005, -006 and -007 cover lines 3-17. image-008, -009 and -010 cover lines 15-28. Each line appears once below, with the tiles it comes from.\n- The lost left portion of each line is physically missing (the edge is cut), not unread.\n- Face B: all inscriptions noted.\n\nTRANSCRIPTION (Face A; \"[...]\" at line start = text lost at the cut left edge)\n\nDisplay line (002/003/004):\n[...]ungern, Beheim, Dalmatien, Croatien, zc [= etc.] Künig [very large K with cadel], Infant\n\nl.1  (002/003/004) [...]ist. Vnnser Getrewer lieber Hanns Veit von Annenberg, vnd hat\nl.2  (002/003/004) [...]gelassner Süne, mit Namen Anthonj, Sigmundt, vnnd Jacob, die\nl.3  (002/003/004; 005) [...]Grafschafft Tyrol Lehenschafft, Vnnd nach absterben seines\nl.4  (002/003/004; 005/006) [...]rister(?) von Annenberg, fur sich selbs, vnnd anstat als Lehentrager\nl.5  (002/005/006/007) [...]gbenannten Vesten, Stuckh, vnnd Guetter, mit allen Iren Ehren,\nl.6  (005/006/007) [...]rief, was wir Inen zu recht daran verleihen sollen oder mügen,\nl.7  (005/006/007) [...]ngen, alß Lehens vnnd Landtsrecht ist, Vnnd Sy sollen vns\nl.8  (005/006/007) [...]tt gewerde(?), Wir haben Inen also bestättet die genad?se(?) Vnns[...]\n      (on the stained horizontal fold; the end of the line is uncertain)\nl.9  (005/006/007) [...]n Vnnd nicht V?schri?n(?), Als sein Sy aber Sün, die mit Lehen(?) s?werdt\nl.10 (005/006/007) [...]er ergste(?) Freundt leben, vnnd besitzen, [flourish] Auch haben wir\nl.11 (005/006/007) [...], Das Sy die vorgenannten Lehen geschafften mügen, wenn Sy\nl.12 (005/006/007) [...]errichts(?) angehören, denselben wie auch die gebunden(?) sein zuleihen\nl.13 (005/006/007) [...]all zu leben, oder wenn sy die vorgenannten Brueder Schafften, bey\nl.14 (005/006/007) [...]n haben, oder wenn(?) Herschafften wenden(?), durch Ire ?ral hait(?)\nl.15 (005/006/007; 008) [...]d Künig Hainrichs, Löblicher gedechtnus, Vorgeschribner maße\nl.16 (005/006/007; 008/009/010) [...]pont(?) zu Wort. Wie den geschriben waren, Vrgemeldte(?), [large flourished V] Vnnd\nl.17 (005/006/007; 008/009/010) [...]haben, mit dem Parr(?) dabey, vnnd allem dem, so darzue gehördt,\nl.18 (008/009/010) [...]Burg zu Letsch(?), vnnd ainen Panngarten daselbst, daran ain halben\nl.19 (008/009/010) [...]s, [flourish] Item ain Wassersag(?), vnnd ainen Zehennden, aus ainem\nl.20 (008/009/010) [...]agült(?), aus den gemainen Zehennden, der gewesen ist, des Vom(?)\nl.21 (008/009/010) [...] die er widerlegt hat, mit vier anndern Wisen auf Plonad(?), die gelten\nl.22 (008/009/010) [...]eit sehen(?) Schött(?), an die dreu Wisen, stosst oben herwan(?) der gemain\nl.23 (008/009/010) [...]gemainten(?) von Annenberg, [flourish] Item ain Hof zu Durchspurgl(?), das waz\nl.24 (008/009/010) [...]Hofstat zu Glurns(?), die was etwa(?) Berchtolds des Bonners(?) von Meran,\nl.25 (008/009/010) [...]aben, [flourish] Item ain Zehennden zu ?yzan(?), vnnd ain halbs Höfe,\nl.26 (008/009/010) [...]n Vnnd aus dem Hof an der Wige(?), die etwan Lienhardl(?)s, vnd weil..\nl.27 (008/009/010) [...]auf Lalseren(?) Veld, Waren etwa des Agh?bergers(?) von Bart?lme(?)s,\nl.28 (008/009/010) [...]lassen Kind, zu Gutrann(?), [flourish] Item [...] [faint, at bottom edge] [...]bergs(?) ze[...]\n\nNotes on readings:\n- Abbreviations: \"zc\" in the display line is the usual etc.-sign. Superscript hooks over \"u\" (ü/ue) are shown as ü or ue.\n- Personal names read with fair confidence: \"Hanns Veit von Annenberg\" (l.1), \"Anthonj, Sigmundt, vnnd Jacob\" (l.2), \"von Annenberg\" (l.4, l.23), \"Künig Hainrichs, Löblicher gedechtnus\" (l.15) and \"Berchtolds\" (l.24). \"Annenberg\" could also be read \"Anmenberg\"; the capital is a looped cadel.\n- Place names (l.3 \"Grafschafft Tyrol\" is secure; \"Letsch\", \"Glurns\", \"Meran\", \"Durchspurgl\", \"Plonad\", \"Lalseren\", \"?yzan\", \"Gutrann\") are letter-by-letter readings. All except Tyrol and Meran are uncertain.\n- Line 8 lies on the fold and stain. Lines 9 and 14 have doubtful words, marked.\n\nLIMITATIONS\n- The left edge is cut, so an unknown amount at the start of every line is lost. This includes the start of the royal intitulation (the display line begins \"...ungern\"). Judging from how incomplete the syntax is, roughly a third or more of each line may be missing.\n- The bottom line (l.28) is faint and cut at the lower edge. Any text below it is lost.\n- The upper-left corner is partly under the plastic strip used in photography (image-002). No text lines are lost under it, but the start of the display line is close to it.\n- To recover the lost portion, check for any matching fragment from the same document (the left-hand part). Raking light on the fold at lines 8-9 would also help.\n- This is an unverified image reading.\n",
+  "text_sha256": "2360822fccf13ced1a1fcd65b1c654c1db0ab061ea709ca147bf463f4215a02b"
+}

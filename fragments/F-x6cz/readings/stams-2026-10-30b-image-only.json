@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-10-30T21:16:21.538341+00:00",
+  "fragment": "F-x6cz",
+  "id": "stams-2026-10-30b-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "c858ab31553d9e7e0a34fb94f69e380ad1957efa45733364447f6800698af610",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "3465e441d0e64c181b3cf3ed9fbf08b2bb70bab0ba7e2150d6dee5c9942902a8",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 1567,962,2956,2185; unrotated grid position column 1 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "f3fc9cd9e9e20333aac460c19109249f1de07ae15f42cfac47063e6b670ad58e",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 2658,962,4196,2185; unrotated grid position column 2 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "c1ff306629677abe13fc1c854e83e088329efec093018d1749c03300664ae43a",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 3898,962,5436,2185; unrotated grid position column 3 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "94aaf18edf7b64a901689535a72c676c2534f497d0638a9403162bb32afd069c",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 5138,962,6528,2185; unrotated grid position column 4 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "1dd16b2c97b1af3d616a044ffa2be4efb29dc5036ea0c010c87bbf46bc83c546",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 1567,1923,2956,3277; unrotated grid position column 1 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "5c1bbafd7b50ef116a2a964b2e828ec33eab90d76862b7d8292a257bba39d230",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 2658,1923,4196,3277; unrotated grid position column 2 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "3f42084a68a8d585634ed0b12927f873d1fd156fef0425e84c5fd26372830b32",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 3898,1923,5436,3277; unrotated grid position column 3 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "72a8c6e163862a5367b0301bcc1f2936a8ccf1022e6500ad6b3fce9919900252",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 5138,1923,6528,3277; unrotated grid position column 4 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "36087174e5a9a4f184b8fb6a1dde9cc818a1eb09d913d6b77cd603ca2e706829",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 1567,3015,2956,4239; unrotated grid position column 1 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "5509901f1745d1632da497d280e4a1d42226420aa8bb23ca7f9528b1efeadb2d",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 2658,3015,4196,4239; unrotated grid position column 2 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "66aa164973c56acd45dd85e3d5a8f0ea23812f0e979f8369f453afaa4923949a",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 3898,3015,5436,4239; unrotated grid position column 3 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "d5973d17b0b1f0646ff57dcf49374c2ff0bad6c7c5a14924e7b89063ab3d9e6f",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_134_01r): native-pixel box 5138,3015,6528,4239; unrotated grid position column 4 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "8486bffe05d6f98596e3b5a1f1dd73ebb16efb71acfbcbc385723d853c5e30d8",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "d6dad5639ac659efdd41f9b93fe76f31c1312f9561dfa0bcc088653eea29906c",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 1472,1090,2869,2313; unrotated grid position column 1 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "577bf3391b11d870f43a83edec12eb997e1c0cfe391f19bde3dafd6c0835d698",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 2569,1090,4116,2313; unrotated grid position column 2 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "f788c477c616e86cf0286d9b446515b7f81c945100a5a6ba4289799aec29e41f",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 3817,1090,5364,2313; unrotated grid position column 3 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "89ac110113382c5af6cf85ddec5d18f2c53af59d1024dde024301577465f16e1",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 5064,1090,6462,2313; unrotated grid position column 4 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "9099c1275af4dfbb366d20ece3f4ab1195dca0ffb4da8143a827fe79ce394957",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 1472,2050,2869,3405; unrotated grid position column 1 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "b202ff159a4293265954731451a107c7608a4136bdd9c687fdf310ad2b9b69b7",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 2569,2050,4116,3405; unrotated grid position column 2 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "6880213568c9edaa060cffe8f614f1f82042412a0d16df34cb0d71c123cff273",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 3817,2050,5364,3405; unrotated grid position column 3 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "b8403f467be1a438844071cfd185f178e8cc9d79a16ac6a5039998bfc06752af",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 5064,2050,6462,3405; unrotated grid position column 4 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "13d9072e2bf7683aed31a46b4121e3fcea86cd9e294ca5195578a2c5433ba3f6",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 1472,3142,2869,4366; unrotated grid position column 1 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "be65886d8e3e25d6f30c4ce75b8cec8e22083b88b959f969ff8afbd6901fb529",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 2569,3142,4116,4366; unrotated grid position column 2 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "f95a2928e101cb64a45d182f600808956c10a075d26beb6d440c0ddf5173d29d",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 3817,3142,5364,4366; unrotated grid position column 3 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "36a827ae9e53107a5e47dea440529cd4b4b61827cc21ed2f3b8f97044e7382b7",
+        "source": "https://fragmentarium.ms:443/loris/F-x6cz/Stams_STA_Frg_134_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_134_01v): native-pixel box 5064,3142,6462,4366; unrotated grid position column 4 of 4, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-30b (packet-16)",
+  "text": "PACKET-16: UNVERIFIED IMAGE-ONLY READING\n\nExposure and process statement\n- No identification or reading of this fragment reached me from outside the images. The only identifying text I saw is modern pencil on the parchment: \"Stams, STA, Frg. 134r\" (image-012/013, face A) and \"Stams, STA, Frg. 134v\" (image-026, face B), plus a modern pencil note on face A (see below). I did not identify the work or author.\n- I viewed all 26 images. Some first attempts returned no image (\"media removed\"); I re-opened those and every image was viewed. Nothing else was opened (packet.json was not read).\n\nConventions\n- Lines are text lines (staves not counted), numbered from the top of the page or column as visible in the overview. Each line cites the tile(s) where it is read. Tiles overlap, and repeats are not counted.\n- [red] = rubric ink. Expansions in (); \"?\" = uncertain; [illegible] = could not read.\n\n==================================================================\nLAYOUT SURVEY (observation only)\n==================================================================\n- One bifolium (two leaves joined at a fold with sewing holes), photographed open on each face. One column per page.\n- Each page has 8 text lines, each under a red four-line staff with black neumes (Gothic/hufnagel-type note shapes). Letter clefs c and f stand at the left of the staves. A text line followed by a blank lower margin ends each page, so the foot of the page survives. The top line on each page is partly cut by damage.\n- Red initials begin each strophe (S, T, L, G, I, Q, X, B). One large painted/decorated red initial with a pen-flourished tail (face A, left page, line 8). Red rubrics give service headings: \"ad t(er)ciam ymnus\", \"De virginib(us)\", \"In dedicatione\", and in the margin \"ad p[...]\".\n- Face B left page: the staves under lines 5-7 carry a second set of rhombic notes with stems, in a different and paler style that looks like a later addition. Show-through or offset of staves and notes is visible in the lower margins.\n- Modern pencil, face A right page, below the text: \"Aus IV/77\", \"Obtel.? [illegible]\" and \"1663/84\", plus the shelfmark noted above.\n- Tentative interpretation (not identification): strophic texts (hymn-like, short lines with doxology endings) with music, grouped under liturgical headings. I do not infer date, work or origin.\n- Selection: I read every text line on both faces. Weak areas are listed under Limitations.\n\n==================================================================\nFACE A (\"134r\"; overview 001)\n==================================================================\n--- Left page (tiles 002, 003, 006, 007, 010, 011) ---\n1 (002/003)  consors paterni luminis [red S][black] anguis xp(ist)i? fus[...]?   (end of line damaged by tear/abrasion)\n2 (002/003)  peremptor hostis invidi fac sitire da venire ad\n3 (002/003)  cenam agni providi [red T][black] ue genti recolenti tue co\n4 (006/007)  [co]?rone supplicium da virtutem et salutem xp(ist)e\n5 (006/007)  redemptor omnium [red L][black] aus honor virtus gloria\n6 (006/007)  deo patri et filio sancto simul paraclyto in sem\n7 (010/011)  piterna secula amen [red] ad t(er)ciam ymnus\n8 (010/011)  [large decorated red initial, probably I][black] esu? velatus facie fuisti sol iusticie flexis illu   (small black letter before \"esu\", unclear)\n   [blank lower margin follows]\n\n--- Right page (tiles 004, 005, 008, 009, 012, 013) ---\n1 (004/005)  con[illegible]? letemur [illegible] p(e)c(c)atum? macte? polo   (top line abraded, read with low confidence)\n2 (004/005)  [p]atris. [red G][black] loria tibi d(omi)ne. [red] De virginib(us)\n3 (004/005)  [large red I][black] esu corona virginu(m) que mater [hole]\n4 (008/009)  concepit que sola virgo parturit hec vo\n5 (008/009)  ta clemens accipe. [red Q][black] ui pascis inter\n6 (008/009)  lilia septus choreis virginum spons(us) decor   (\"coreis\"? first letter faint)\n7 (012/013)  gloria sponsisq(ue) reddens premia. [red] ymnus?   (red word partly lost in a hole: reads like \"ẏnnus\"/\"ymnus\", uncertain)\n8 (012/013)  [red flourished Q][black] uocu(m)q(ue) pergis virgines sequuntur\n   [blank lower margin with the modern pencil notes]\n\n==================================================================\nFACE B (\"134v\"; overview 014)\n==================================================================\n--- Left page (tiles 015, 016, 019, 020, 023, 024) ---\n1 (015/016)  adque laudibus post te canentes cur[s?]   (end of line damaged by tear)\n2 (015/016)  tant ymnosq(ue) dulces personant. [red T][black] e\n3 (015/016)  [de]precamur largius nostris adauge   (first letters lost in a hole)\n4 (019/020)  mentib(us) nescire prorsus omnia corrupti\n5 (019/020)  onis vulnera. [red G][black] loria tibi. [red] In dedicatione\n6 (019/020)  [large red X][black] p(ist)e cunctorum dominator alme\n7 (019/020, 023/024)  patris eterni genitus ab ore supplicum\n8 (023/024)  vota pariterq(ue) ymnu(m) cerne benignus.\n   [blank lower margin]\n\n--- Right page (tiles 017, 018, 021, 022, 025, 026) ---\n1 (017/018)  [illegible]lis beata nobis gaudia [red G][black] loria tibi domine   (first word in damaged area)\n2 (017/018)  gloria unigenito una cu(m) s(an)c(t)o sp(irit)u in sempiterna s(e)c(u)la am(en).\n3 (017/018)  [red B][black] eata [illegible, abraded ~8 letters; small hole] xp(ist)i passio sit nostra libe   [margin, red: \"ad p[ri]?m[am]?\" (reads \"adp\" + superscript)]\n4 (021/022)  ratio ut per hanc nobis gaudia sint parata ce\n5 (021/022)  lestia. [red Q][black] ui pressura mortis dura solvisti nex\n6 (021/022)  us criminum nos ad pacem duc veracem ihesu\n7 (025/026)  corona virginum [red I][black] n amara crucis ara fu\n8 (025/026)  disti rivos sanguinis ihesu digne rex benigne\n   [one more empty staff below, then blank lower margin and pencil \"Stams, STA, Frg. 134v\"]\n\n==================================================================\nLIMITATIONS\n==================================================================\n- The first text line of every page is damaged by the torn or abraded top edge. Readings there are weak: face A left line 1 ending, face A right line 1 (most of it), face B left line 1 ending, and face B right line 1 opening.\n- Face B right line 3 has an abraded gap after \"Beata\". The red marginal rubric there is uncertain.\n- Face A right line 7: the red rubric is partly in a hole.\n- Face A left line 8: the large initial's letter form is uncertain (probably I).\n- Text from the preceding and following leaves is missing. Each page opens and closes mid-strophe.\n- Expansions are my own proposals.\nThis is an unverified image reading.\n",
+  "text_sha256": "f637b132c0ef19a4be5c54b629494483bde9555f1efed57050e253dd036bb30d"
+}
