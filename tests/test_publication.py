@@ -1,4 +1,5 @@
 """Publication gate, stale-page cleanup and identification date semantics."""
+import html
 import importlib.util
 import json
 from pathlib import Path
@@ -33,10 +34,22 @@ def test_index_has_only_identifications_and_original_dates():
         link = f'href="{row["id"]}.html"'
         assert (link in page) == site.publishable(row)
         if site.publishable(row):
-            rendered = next(part for part in page.split('<tr>') if link in part)
+            rendered = next(part for part in page.split('<tr') if link in part)
             assert f'data-sort="{row["identified_on"]}"' in rendered
             assert f'datetime="{row["identified_on"]}"' in rendered
     assert '<button class="sort" type="button">Date identified' in page
+
+
+def test_index_rows_are_short_and_filterable():
+    data = json.loads((ROOT / 'data/fragments.json').read_text())
+    page = (ROOT / 'docs/index.html').read_text()
+    assert 'id="q"' in page and 'id="holding"' in page and 'id="kind"' in page
+    for row in filter(site.publishable, data):
+        rendered = next(part for part in page.split('<tr') if f'href="{row["id"]}.html"' in part)
+        assert f'data-kind="{row["kind"]}"' in rendered
+        # The evidence note belongs to the report page, not the index.
+        assert html.escape(row['note']) not in page
+        assert html.escape(row['note']) in (ROOT / f'docs/{row["id"]}.html').read_text()
 
 
 def test_rebuild_removes_withdrawn_pages_and_allows_ledger_only_attempt(tmp_path, monkeypatch):

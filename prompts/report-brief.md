@@ -57,11 +57,17 @@ applies:
 ```json
 {"status": "identified", "confidence": "high",
  "identification": "<Author, Work, locus, short>",
+ "kind": "<theology | law | science | arts | liturgy>",
  "note": "<three to five sentences: evidence, who checked what, differences, limits>",
  "verify": "<one public address of the edition or manuscript compared>",
  "report": "<F-id>.README.md", "assisted": "<F-id>.assisted.txt",
  "sources": ["<citation with page or locus for each source used>"],
  "reason": "<one sentence: why the reading was revised with the source>"}
 ```
+
+`kind` sorts the record on the site: theology (Bible, commentary, sermons,
+saints' lives, devotion), law, science (medicine, natural science, computus),
+arts (philosophy, grammar, classical and vernacular literature) or liturgy.
+An archival document gives `"document": true` instead.
 
 Write it to `<reports>/<F-id>.result.json`. Reply with the file names only.

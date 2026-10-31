@@ -11,6 +11,8 @@ DATA = json.loads((ROOT / "data" / "fragments.json").read_text())
 
 STATUSES = {"identified", "partial", "unidentified"}
 CONFIDENCE = {"high", "medium", "low", "none"}
+sys.path.insert(0, str(ROOT / "tools"))
+from record import KINDS  # noqa: E402
 REQUIRED = {"id", "institution", "shelfmark", "catalogue_title", "catalogue_date", "status", "confidence",
             "identification", "note", "verify", "record", "manifest", "thumbnail", "order", "examined", "identified_on"}
 
@@ -22,16 +24,27 @@ def test_fields_and_vocabulary():
         assert r["status"] in STATUSES, r["id"]
         assert r["confidence"] in CONFIDENCE, r["id"]
         if r["status"] == "identified":
+            assert r.get("kind") in KINDS, (r["id"], "identified rows need a kind")
+            assert (r["kind"] == "document") == bool(r.get("document")), r["id"]
             assert date.fromisoformat(r["identified_on"]) <= date.fromisoformat(r["examined"])
             assert r["confidence"] == "high", (r["id"], "identified requires high confidence in a sustained textual match")
         else:
             assert r["identified_on"] is None, r["id"]
             assert "known_from" not in r, (r["id"], "known_from belongs to an identified row")
+            assert "kind" not in r, (r["id"], "kind belongs to an identified row")
         if r["status"] == "unidentified":
             assert r["confidence"] == "none", r["id"]
         for k in ("verify", "record", "manifest", "thumbnail"):
             assert r[k].startswith("https://"), (r["id"], k)
         assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["examined"]), (r["id"], "examined must be YYYY-MM-DD")
+
+
+def test_site_and_record_agree_on_kinds():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("build_site", ROOT / "docs" / "_build_site.py")
+    site = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(site)
+    assert set(site.KINDS) == KINDS
 
 
 def test_ids_unique_and_ordered():
