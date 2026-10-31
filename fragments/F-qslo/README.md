@@ -23,7 +23,7 @@ The catalogue record, [fragmentarium.ms/overview/F-qslo](https://fragmentarium.m
   - Lines folded under the top edge of face r were not read.
   - Much of face v is obscured by an offset (see below).
 
-  No human review.
+ 
 
 ## Textual evidence
 

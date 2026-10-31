@@ -8,7 +8,7 @@ Catalogue record: [Fragmentarium F-cjzj](https://fragmentarium.ms/overview/F-cjz
 - **Transcription:** the [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-cjzj/readings/batch-2026-10-12c-image-only.json) was made without knowledge of the text. The [source-assisted reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-cjzj/readings/batch-2026-10-12c-source-assisted.json) covers all 25 line-ends of the strip, reread on the image by a research reader; lines 6 to 25 were reread with the print open. The first reading's lines for the other face stand as they are and are not relied on. Accuracy has not been measured.
 - **Verification:** a research reader compared the strip in the first image with the page image of the 1566 print.
   The coordinating model read lines 9 to 17 on the manuscript image (first image, native box 1950,1400,2650,2300: "[sp]ortulis hec secunda / [expe]ditur infra eo. / quoque ac. / ut que hec / ... usque in fi. / [pre]sentem suf- / gium id est pe- / [cun]ia pro suffra[gio]") and found them as the research reader gives them; it compared them with that reader's transcription of [col. 471 of the print](https://www.digitale-sammlungen.de/de/view/bsb11057347?page=420), glosses f, g and h, not with the page image.
-  Gaps: the hidden left half of every line; the main text; no manuscript of the glossed Authenticum compared. No human review.
+  Gaps: the hidden left half of every line; the main text; no manuscript of the glossed Authenticum compared.
 
 ## Textual evidence
 

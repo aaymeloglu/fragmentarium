@@ -28,7 +28,8 @@ length and tone.
     research reader". Leave one line `COORDINATOR CHECK: <the best single
     passage, its canvas and native box, and the address of the source page
     image>` for the coordinator to replace with what they checked. State the
-    gaps in coverage. End with "No human review."
+    gaps in coverage. If a person has reviewed the reading or the match, name
+    them and what they checked.
 - `## Textual evidence`: where the manuscript passages are (public image
   address from `acquisition.json`, canvas label, native-pixel box); a two-column
   table of manuscript reading against source text for the passages collated; a

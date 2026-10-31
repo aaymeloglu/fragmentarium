@@ -8,7 +8,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-hhs4) is Stams, S
 - **Transcription:** source-assisted. The [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-hhs4/readings/stams-2026-10-30b-image-only.json) was made with the paper slip and the pencil shelfmark masked out; it read the shelfmark as "144". The [source-assisted reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-hhs4/readings/stams-2026-10-30b-source-assisted.json) is a research reader's reread, on the native images, of every legible line on both faces. The top and bottom lines of each face are cropped and only partly read. Accuracy has not been measured.
 - **Verification:** a research reader compared four passages, two from each face, with the PL 76 page image for cols. 129-130.
   Checked again by the coordinator on the image: read on canvas 1 (about 16 lines from the top of the text, "...crediderunt. Eorum vox beati iob voce preve[nitur]" through "Dicebamque in nidulo meo moriar ... Palma enim tarde proficit ... Hec immerito uita iustorum", native box 2100,2380,4100,3900), compared with the PL 76 cols. 129-130 page image ([archive.org patrologiaecursu76mign, n64](https://archive.org/details/patrologiaecursu76mign/page/n64/mode/1up)); differences promittebat/promittebant and "Hec immerito uita iustorum"/"Nec immerito justorum vita".
-  The variants were not checked against the critical edition (CCSL 143A). No human review.
+  The variants were not checked against the critical edition (CCSL 143A).
 
 ## Textual evidence
 

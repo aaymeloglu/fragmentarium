@@ -8,7 +8,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-wgga) is Stams, S
 - **Transcription:** source-assisted. The [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-wgga/readings/stams-2026-10-30b-image-only.json) covered all sixteen column pieces. In the [source-assisted reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-wgga/readings/stams-2026-10-30b-source-assisted.json), a research reader reread on the native images four column pieces: strip 1 face r right column (14 lines), strip 4 face r right column (15 lines), strip 4 face v left column (14 lines) and strip 1 face v left column (upper lines). Strip 3 rests on the first reading alone, checked against the edition for its place in the text. Accuracy has not been measured.
 - **Verification:** a research reader compared the four reread passages with the page images of PL 198, cols. 1373, 1375 and 1377.
   Passage checked independently: canvas 0, strip 2, right column, native boxes 3350,1330,3950,2450 and 3500,2200,3950,3000, read on the image and compared with PL 198 col. 1378 ([page image](https://archive.org/details/patrologiaecursu0198mign/page/n694/mode/1up)), cap. 34, Elijah at Carith and Sarepta. Every line beginning follows PL's sequence, including Comestor's "aposiopesis est". The manuscript has "his annis" for PL "annis his", and PL's "aliquot" is not before "sicca[tus]".
-  Gaps: strip 3 was not read on the image beyond the first reading. PL is the only edition compared. The support was not examined. No human review.
+  Gaps: strip 3 was not read on the image beyond the first reading. PL is the only edition compared. The support was not examined.
 
 ## Textual evidence
 

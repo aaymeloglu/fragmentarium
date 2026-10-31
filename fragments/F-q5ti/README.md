@@ -26,7 +26,7 @@ That description fits. What it did not name is the compilation that contains the
   - The other copies listed below were not seen.
   - Chapters 34 (most of it) and 38-39 were checked against Cambridge for sequence and opening words only.
 
-  No human review.
+ 
 
 ## Textual evidence
 
