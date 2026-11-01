@@ -23,11 +23,11 @@ generic liturgical pieces (F-l7tu, F-e0vk, F-wbkk).
 | F-gh8b (Frg. 106) | identified: breviary sanctorale on paper, 1-14 (probably 15) September and 1-8 November; use undetermined |
 | F-1ax4 (Frg. 240) | identified: three acts of an appeal before Luis d'Icart, governor of Brescia, 4, 13 and 23 February 1514 |
 | F-1qyf (Frg. 189) | identified: legitimation of Johannes Vel(t)mair by Martin Eisengrein as count palatine, Ingolstadt, notary Johannes Elsner; year lost, probably 1565 |
-| F-ns7l (Frg. 50) | identified: exchange deed of Cristan Platter auf dem Haunoldt with Sebastian Kurtz, Stams consenting as ground lord, 17 June, year lost (before [15]92) |
+| F-ns7l (Frg. 50) | identified: exchange deed of Cristan Platter auf dem Haunoldt with Sebastian Kurtz, Stams consenting as ground lord, 17 June, year lost (probably sixteenth century) |
 | F-qqhf (Frg. 48) | partial: sale of a Baurecht at Ögsten (Östen) in the Ötztal held of Frauenchiemsee, St Genevieve's day 152[x]; buyers not read |
 | F-zdff (Frg. 52) | partial: draft deed of sale sealed by the abbot of Wilten, Landgericht Sonnenburg, 15[x]8; object, price and buyer lost |
 | F-1tu1 (Frg. 161) | partial: German sermon text from the Berthold von Regensburg corpus (Strobl LIX-LXI, the seven planets), reworked; containing compilation not found |
-| F-0w8s (Frg. 71) | partial: canonistic summa on Decretals X 1.6-1.11; Goffredus de Trano and Bernard of Parma's Casus excluded |
+| F-0w8s (Frg. 71) | partial: canonistic summa on Decretals X 1.6-1.11; Goffredus de Trano excluded; Bernard of Parma's Casus not yet compared |
 | F-joy1 (Frg. 25) | partial: Latin preaching compilation with sources in Honorius' *Speculum ecclesiae* and the *Compendium theologicae veritatis* |
 | F-htlf (Frg. 163) | unidentified: German sermons (Pater noster as a ladder, Purification, Beelzebub) |
 
@@ -77,8 +77,9 @@ generic liturgical pieces (F-l7tu, F-e0vk, F-wbkk).
   and 1; 15 September is probable only; the pieces are laid paper, as the
   catalogue says, not parchment. A Giles lesson was collated with the Vita
   S. Aegidii (BHL 93).
-- F-1tu1: downgraded to partial; the Donaueschingen manuscript keeps the
-  sermons in another order and is not the source.
+- F-1tu1: downgraded to partial; the fragment differs from the
+  Donaueschingen manuscript in order and wording, but D could still lie
+  behind the reworking.
 - F-1ax4: the vicar is "de Piscatriis (?)"; the party is Giovannino de
   Barberiis (the fresh reader's "Joannis de barbeijs" was rejected on two
   rereads); the court was Spanish-imperial, not French as the triage had
@@ -87,7 +88,8 @@ generic liturgical pieces (F-l7tu, F-e0vk, F-wbkk).
   second witness reads "Eustachius Sta[..]".
 - F-ns7l: the farm is Haunoldt; recorded as identified, since the action
   and parties are read and only the year and sum are lost.
-- F-zdff: the wives' surnames are uncertain; a further name, Cristan
+- F-zdff: the abbot of Wilten is the requested sealer, which does not
+  make Wilten the landlord; the wives' surnames are uncertain; a further name, Cristan
   Holtzna[..], was found; the triage's 1580 is not on the sheet, and the
   dorse year is unresolved.
 - F-qqhf: downgraded to partial. "Ewirt[...]" is the formula for a
@@ -102,7 +104,7 @@ generic liturgical pieces (F-l7tu, F-e0vk, F-wbkk).
   (batch 1): same line pitch, text block, script and sewing stations.
   F-nbxz is a different, two-column copy.
 - Several pieces were covers or linings of the abbey's own volumes:
-  F-ns7l of a Kelleramt Urbar "Ao 92", F-zdff of Hs. 125, F-nbxz of a
+  F-ns7l of a Kelleramt Urbar "Ao 92" (binding date unknown), F-zdff of Hs. 125, F-nbxz of a
   volume bound in 1661-1666.
 - Two documents are from outside Tyrol: F-1ax4 from Brescia (1514) and
   F-1qyf from Ingolstadt (1560s).
@@ -111,7 +113,7 @@ generic liturgical pieces (F-l7tu, F-e0vk, F-wbkk).
 
 - The other 135 records of the collection.
 - F-htlf (Berlin, Ms. germ. oct. 449, f. 84r, not digitised), F-0w8s
-  (Hostiensis and Henricus de Merseburg untested), F-1tu1 (Richter 1969
+  (Bernard of Parma's Casus, Hostiensis and Henricus de Merseburg untested), F-1tu1 (Richter 1969
   on the Berthold tradition not reached), F-joy1 (the sermon itself).
 - Coens' edition of the Vita S. Magni (Analecta Bollandiana 81) was seen
   only in snippets.
@@ -119,3 +121,13 @@ generic liturgical pieces (F-l7tu, F-e0vk, F-wbkk).
   the Tiroler Landesarchiv, the Brescia and Bergamo state archives and the
   Bavarian archives for Frauenchiemsee were not searched page by page.
 - No palaeographer has reviewed the readings.
+
+## Review
+
+An independent Codex review of the PR (31 October 2026) agreed with the
+identifications and found four claims that went beyond the evidence, all
+corrected: F-ns7l's "before 1592" (the register label does not date the
+deed), F-zdff's Wilten lordship (a sealer is not thereby the landlord),
+F-0w8s's exclusion of Bernard of Parma's Casus (tested only against the
+decretal's incipit) and F-1tu1's exclusion of the Donaueschingen manuscript
+as a source of the reworking.
