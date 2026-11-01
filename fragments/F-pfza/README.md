@@ -12,7 +12,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-pfza) is Stams, S
 
 ## Textual evidence
 
-Images: [canvas 0, Stams_STA_Frg_028_01r](https://fragmentarium.ms:443/loris/F-pfza/Stams_STA_Frg_028_01r.jpg/full/7360,/0/default.jpg) and [canvas 1, Stams_STA_Frg_028_01v](https://fragmentarium.ms:443/loris/F-pfza/Stams_STA_Frg_028_01v.jpg/full/7360,/0/default.jpg), 7360 x 4912 pixels each. Each image shows the opened sheet with one page on each side of the fold. In text order, the pages are:
+Images: [canvas 0, Stams_STA_Frg_028_01r](https://fragmentarium.ms:443/loris/F-pfza/Stams_STA_Frg_028_01r.jpg/full/7360,/0/default.jpg) and [canvas 1, Stams_STA_Frg_028_01v](https://fragmentarium.ms:443/loris/F-pfza/Stams_STA_Frg_028_01v.jpg/full/7360,/0/default.jpg), 7360 x 4912 pixels each; boxes are given as x1,y1,x2,y2 in native pixels. Each image shows the opened sheet with one page on each side of the fold. In text order, the pages are:
 
 1. canvas 1, right page, box 4050,1500,5450,3450: vv. 527-535.
 2. canvas 0, left page, box 2237,1380,3700,3595: vv. 536-545.

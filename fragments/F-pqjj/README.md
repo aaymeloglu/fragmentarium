@@ -1,6 +1,6 @@
 # F-pqjj: Emperor Rudolf II grants arms with the Lehenartikel to Georg Jäger, father of the abbot of Stams, 1601 (unfinished exemplar)
 
-This parchment sheet in the archive of the Cistercian abbey of Stams is an unfinished exemplar of an imperial grant of arms. Emperor Rudolf II grants Georg Jäger, as father of the reigning abbot of Stams, together with his legitimate heirs and their heirs forever, a coat of arms with the Lehenartikel (the clause admitting the bearers to the status of persons capable of holding fiefs). The arms: a narrow bend of white and red lozenges set "Sachsweis"; a tilting helm with mantling blue and white on the left and red and white on the right; as crest a white greyhound with a gilded collar, springing. The dating clause gives the 26th year of Rudolf's Roman reign and, probably, the year 1601; the register of grants dates the act Prague, 18 June 1601.
+This parchment sheet in the archive of the Cistercian abbey of Stams is an unfinished exemplar of an imperial grant of arms. Emperor Rudolf II grants Georg Jäger, as father of the reigning abbot of Stams, together with his legitimate heirs and their heirs forever, a coat of arms with the Lehenartikel (the clause admitting the bearers to the status of persons capable of holding fiefs). The arms: a narrow bend of white and red lozenges set "Sachsweis"; a tilting helm with mantling blue and white on the left and red and white on the right; as crest a white greyhound with a gilded collar, springing. The dating clause gives the 26th year of Rudolf's Roman reign and, probably, the year 1601; Frank's *Standeserhebungen* and the Vienna catalogue date the act Prague, 18 June 1601.
 
 The same grant survives at Stams on a second unfinished sheet in another hand and wording, [F-fc4z](https://fragmentarium.ms/overview/F-fc4z) (Frg. 202), which keeps the place and the month. The two records carry one act.
 
@@ -8,7 +8,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-pqjj) is Stams, S
 
 - **Identification:** identified, high. The imperial titles, the beneficiary Georg Jäger, the relationship to the reigning abbot of Stams, the grant of arms with the Lehenartikel, the blazon, and the 26th Roman regnal year are read on the image. The issuer's name in the display line is lost; the titles and regnal year make him Rudolf II. The year in words is probable ("[...]hundert vnnd im Erst[en]"); place, day and month are illegible and are supplied from K. F. von Frank, *Standeserhebungen und Gnadenakte*, vol. 2 (1970): "Jäger, Georg, Sohn: Melchior, Abt zu Stams in Tirol, Wappen m. Lehenart., Prag 18. VI. 1601, (R)". The blazon and parties agree with F-fc4z, which names the son Melchior and the place. The file itself is Vienna, Österreichisches Staatsarchiv, [AT-OeStA/AVA Adel RAA 208.47](https://www.archivinformationssystem.at/detail.aspx?ID=2474545): "Jäger, Georg, Melchior, sein Sohn, Abt zu Stams in Tirol, Wappen mit Lehenartikel", Prague, 18 June 1601, fol. 1-7. Only its painted arms (fol. 4) are online; they agree with the sheet's blazon (a bend of red and white, the greyhound crest). The file's dating clause is not online, so the catalogue's 18 June may not be independent of Frank, and the day and month remain supplied.
 - **Transcription:** source-assisted, selected passages: the protocol, the narration, the blazon, part of the Lehenartikel, the penalty clause and the dating clause. A research reader (Claude) made the reading at native resolution from contrast-enhanced crops, using the blue channel with histogram equalisation for the faded last lines. Three further Claude readers then read the sheet from the images alone, with neutral questions and no proposed answer; they worked after the identification, so they are not first readings in the sense of CONVENTIONS and are not preserved in `readings/`. Every disagreement among them was re-read at native resolution, and the readings below give the result, with the remaining uncertainty marked. Accuracy has not been measured.
-- **Verification:** a research reader (Claude) compared the beneficiary, relationship, act and year with Frank's entry, seen as a Google Books search snippet (volume id `s-dMAQAAIAAJ`); the page number was not established. The blazon and parties were compared with F-fc4z on its images. The Reichsadelsakten file in Vienna was not found online.
+- **Verification:** a research reader (Claude) compared the beneficiary, relationship, act and year with Frank's entry, seen as a Google Books search snippet, p. 258 (volume id `s-dMAQAAIAAJ`). The blazon and parties were compared with F-fc4z on its images. The Vienna file's catalogue entry and its painted arms (fol. 4) are online; its text is not.
 
 ## Textual evidence
 
@@ -18,7 +18,7 @@ Abbreviations are expanded silently where obvious. `[...]` marks a loss, `[abc]`
 
 ### Protocol and narration
 
-The display line (about `1700,750,2200,500`) is faded almost to nothing; only outlines of large letters remain, and the issuer's name is not legible. Box `1500,1380,5100,180` ([image](https://fragmentarium.ms/loris/F-pqjj/Stams_STA_Frg_201_01v.jpg/1500,1380,5100,180/full/0/default.jpg)) for the abbot clause.
+The display line (about `1700,750,2200,500`) is faded almost to nothing; only outlines of large letters remain, and the issuer's name is not legible. Box `1500,1400,5100,400` ([image](https://fragmentarium.ms/loris/F-pqjj/Stams_STA_Frg_201_01v.jpg/1500,1400,5100,400/full/0/default.jpg)) for the abbot clause.
 
 > [...] zu allen zeiten Merer des Reichs in Germanien, zu Hungern, Behaim, Dalmatien, Cro[atien ...] zu Crain, zu Württemberg [...] Ober vnnd Nider Schlesien, Fürst zu Schwaben, Marggraue [...] Tyrol, zu Pfirdt, zu Kyburg vnnd zu Görtz, Landtgraue in Elsass, Herr [zu der] Windischen Marckh, zu Porten[au ...]
 >
@@ -38,7 +38,7 @@ A blank field on the left (about `1600,2050,850,1650`) is left for the painted a
 
 Box `2400,4100,3700,320` ([image](https://fragmentarium.ms/loris/F-pqjj/Stams_STA_Frg_201_01v.jpg/2400,4100,3700,320/full/0/default.jpg)).
 
-> [...] in vnnser vnnd des Reichs Camer, vnnd den anndern [halben tail] dem vilbenannten Georg Jäger, sein[en ...] [...] geben ist auf vnnserm Künig[c]lichen [...] Schloß(?) [...] Se[chzehen]hundert(?) vnnd im Erst[en](?), [vnserer Reiche] des Römischen im Sechsundzwainzig[isten] [cut]
+> [...] in vnnser vnnd des Reichs Camer, vnnd den anndern [halben tail] dem vilbenannten Georg Jäger, sein[en ...] [...] geben ist auf vnnserm Künig[c]lichen [...] Schloß(?) [...] Se[chzehen]hundert(?) vnnd im Erst\[en\](?), [vnserer Reiche] des Römischen im Sechsundzwainzig[isten] [cut]
 
 "vnnserm Künig[c]lichen" and "Römischen im Sechsundzwainzig[isten]" are secure. The place name is not visible, and the day and month are illegible in the faded, water-stained line. The year in words is probable only: "Se" at the start and "...dert vnnd im Er..." are visible, the middle letters faded. The Hungarian and Bohemian years are lost at the cut lower edge.
 
@@ -55,7 +55,7 @@ Rudolf II was elected King of the Romans on 27 October 1575, and his chancery co
 | Relationship | "Sohn: Melchior, Abt zu Stams in Tirol" | "der jetzt Regierender Abbt dess Gotzhaus Stambs" | "sein Sun Melchior [...] jetzt Regierender Abbt des Gotshaus Stambs" |
 | Act | "Wappen m. Lehenart." | arms, Lehenartikel in outline | arms, Lehenartikel in outline |
 | Place | Prag | illegible | Schloss zu Prag |
-| Date | 18. VI. 1601 | [1601](?), Roman year 26 | [day illegible] June, Roman year 26 |
+| Date | 18. VI. 1601 | \[1601\](?), Roman year 26 | [day illegible] June, Roman year 26 |
 
 The two sheets agree in the blazon wording but differ in spelling and phrasing throughout ("Gotzhaus"/"Gotshaus", "Steechhelm, die Linckhen mit blaw"/"auf dem Schildt ain Stechhelm, zur Linckhen mit blaw"), and their deletions fall in different places. Neither is a copy of the other.
 
@@ -74,7 +74,7 @@ The two sheets agree in the blazon wording but differ in spelling and phrasing t
 
 ## Limits
 
-- Frank was seen only as a search snippet; the page was not seen. Of the Vienna file only the catalogue entry and the image of the arms were seen.
+- Frank was seen only as a search snippet of p. 258. Of the Vienna file only the catalogue entry and the image of the arms were seen.
 - The issuer's name, the son's name, the place, the day and the month are not read on this sheet; the year in words is probable only.
 - The Lehenartikel and much of the body were read in outline, not word by word.
 - No palaeographer has reviewed the readings.
