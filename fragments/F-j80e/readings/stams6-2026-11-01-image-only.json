@@ -1,0 +1,217 @@
+{
+  "captured_at": "2026-11-01T20:26:02.699499+00:00",
+  "fragment": "F-j80e",
+  "id": "stams6-2026-11-01-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "af658f1f703f02e0d60019b69426bcf4b8504e065fb97240c3f8e7f8f345d901",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "6962aed33cb013babf7db30c87137be813218a0683ce9b5fa3faaa5128786542",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 1118,127,3316,1805; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "51f314f82d13d7b0ff0b755b7ffc0ac53b0d42f99e1f344279cd02cbf15f7a5c",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 2845,127,5278,1805; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "b07dd56c1fcc786c3ffefc59e1581e1b211c904aa2ad1f6af83a4a2c5f26fad3",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 4807,127,7006,1805; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "cdbf0ea02fe6cd03c0d2f6bb0754f842ee0e7c10d56c9a1ee213ebc29c21dc7e",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 1118,1445,3316,3303; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "ec53908d2e57ac38be1611bc789defccc6361010207d976a588cabc3ce79c6bd",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 2845,1445,5278,3303; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "d05a8d4f8298ffc66c7d29a439e5c64495a4d4634f5c3ca0623a4b8038104595",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 4807,1445,7006,3303; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "7efebb812feb956a57eb88022fc06b8aca1158d8e77beac1f3680a0d86337bba",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 1118,2943,3316,4622; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "7dda47d3bb401ffeecba44dae3ced823cba18561ab2102a8cb25898a65ce0062",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 2845,2943,5278,4622; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "50f4ae019cc824e80a2be32b47facce0f47550b5e9034dcd0781c79fa9d1ead0",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01r03r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_230_01r03r): native-pixel box 4807,2943,7006,4622; unrotated grid position column 3 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "2ad923936054b0dbfeb861a87a418662fd8e00e37ce13fd96177a0814ea19878",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "a84e81717dc1b9e4c8bc75498926ed15530e853803f65414a1b1af73a182e5e8",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 1089,127,3273,1817; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "60407a2e2b04be47564251c5e60e9d2e1af8a36a1c6bbddb62c76f5a9ac9483d",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 2805,127,5223,1817; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "75581faf9bab3a4efaebe71002dfc3d68f363fc57702adc15d30cb8eb0ab5b53",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 4755,127,6940,1817; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "8e7576a3c0aa47cb6271d2027a42247044c4c6fb839537ccb6601de4c17a2237",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 1089,1455,3273,3327; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "fa8dd9ee6a3813f431dee3dbd54ee8cfda463c5df08749ad5b3055f56530270f",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 2805,1455,5223,3327; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "901889822a5b6c5dc9c4c7a8315a982f2801576cd2a17be328e94442ca7b8931",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 4755,1455,6940,3327; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "fbbc7e279c756e88b10ffb473e86dda136bf27ef9797cedb5882562c378b33d0",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 1089,2965,3273,4656; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "9b4315131f48840554429ca49238339f601b7baa25e641f128b6d12a2f235b9e",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 2805,2965,5223,4656; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "e2d3e3727175d43314fcacac108c466cd9e828ffbe59b2c076c9fef56b0b2072",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_01v03v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_230_01v03v): native-pixel box 4755,2965,6940,4656; unrotated grid position column 3 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "73a2c95a46805ee3d62bcf3ca4bc65249225c4e87e24745c02693eab5bbaf076",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "9ab986f08681f0ea5e844b925b50f7096dac45f388ca676a3079d8f7413c2ef8",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 1405,225,3545,1903; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "49511bce243c94da43f59975b2fffce465424eef1bed8169a62fe9fff2ecda06",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 3086,225,5457,1903; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "0dcf2350e9c51096f4a4a0693ed121df950a8c4d9ae3664d8e1f79b2fb69fa5e",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 4998,225,7139,1903; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "6f5de4b0061a02384650b55887239c1a6ebb7b79f9f3aed10322b3dd5a844f26",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 1405,1543,3545,3401; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "c7e128c6d6be55a5fea372e0aeda39e44dddc6c8b1b21a757a4994498ce56c7c",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 3086,1543,5457,3401; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "6f80a039ad273db1e21c03898137ff2b17e6576acfdbfa9f524e3eafe796078e",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 4998,1543,7139,3401; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "46fb53dfeb92eb61ab0e53895625da76a021d0ecf2cdf6d1716a507d7f60638c",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 1405,3041,3545,4720; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "5438f551b6c26152e12ce6e405a9b3e789ea9845db1a99eb4ce941f2b0326a3a",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 3086,3041,5457,4720; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "61265d377ea51b3d9379b31f5bf5ab0b625813eee8779b6a7b71c2369ff48a7e",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_230_04r): native-pixel box 4998,3041,7139,4720; unrotated grid position column 3 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "09e6da6b819cdec3e9841bb150d63a804629e2eaea09eacb9d2ddf5a3dba6a77",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "dbb1576c2baac2ddb4a8aef45751f8758cb30e9085b2ac24cee8bf2c72111c43",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 1184,255,3322,1932; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "01d37becf4273358c0412187ccd8f9ecc582e5fc812631d32b03b406af6271f7",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 2863,255,5231,1932; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "c9a8632ed452407d6951e478e8bf760f7649c50b4ac32b19230a6f616c908657",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 4772,255,6911,1932; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-035.jpg",
+        "sha256": "833d5c15a4e8aba0b25379f6c407a7bff430e9b1b28d6fa43c96a5d5cd3e9f55",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 1184,1573,3322,3430; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-036.jpg",
+        "sha256": "250a88d0dc251b6a7a57dbf2b07be415c7541691fe5949e7366a4645be764337",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 2863,1573,5231,3430; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-037.jpg",
+        "sha256": "121acbfc55ce18f62c33fe0edd6e8b7e9ad55b684e976ed2eaeed5c149e3663d",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 4772,1573,6911,3430; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-038.jpg",
+        "sha256": "c6ebf9552c5dc0d76c2a43fa590c12c3abb24f5353455abed7625974b3164854",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 1184,3071,3322,4749; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-039.jpg",
+        "sha256": "ba1a81572049703a18c23e727ba3fcd6a21aa1e61b948d2fb64e0c6e29bcaf72",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 2863,3071,5231,4749; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-040.jpg",
+        "sha256": "5a5fb7a9f860a485d3a8ef5ecef0d636d2598098d0a0ebf39b1f24e7108b6299",
+        "source": "https://fragmentarium.ms:443/loris/F-j80e/Stams_STA_Frg_230_04v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_230_04v): native-pixel box 4772,3071,6911,4749; unrotated grid position column 3 of 3, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "fresh Claude subagent (Opus 5.5), image-only",
+  "schema_version": 1,
+  "session": "stams-c5ugo-batch-6 2026-11-01 (packet-15)",
+  "text": "packet-15 - unverified blind image reading\nNo proposed identification or reading was present in my context before reading.\n\nLAYOUT SURVEY (image-001.jpg, reduced overview)\n- Overview shows two paper leaves side by side on black ground, with a colour checker and scale; a small separate paper slip at left (shows \"rum\", \"230-3u\"?, \"nie\"? - a label/scrap, partly in a later hand).\n- Left leaf: pencil shelfmark at foot \"Stams, StA, Frag. 230-2u\" (modern). Face shown is blank (no visible writing), stained, ragged left edge, crack lower centre.\n- Right leaf: pencil \"Stams, StA, Frag. 230-1u\". Paper, single column of German cursive (Kurrent) in brown ink, not a book hand. Large losses at lower right: two long vertical tears/missing strips through the lower half and the right edge torn away from about line 10 down.\n- Two sections, each opened by a centred heading beginning \"Forma ...\" (upper heading reads approx. \"Forma einer 14 tägigen Verschafft\"?; second heading at mid-leaf \"Forma [..] tägigen ...\"). Each section begins with a large flourished \"Ich\" (Ich N: N: ...). Roughly 13 lines of text under the first heading, ~13 under the second.\n- No rubrics, no glosses, no columns. Abbreviation \"N:\" used as placeholder for names (formulary/template). Tentative interpretation: a formulary of model documents (forms), not a literary text.\n\nimage-002.jpg: native tile, top-left of the LEFT leaf (230-2u). Blank paper; no writing, ruling or offset visible. Ragged left edge with small hole at top left. Nothing to transcribe.\n\nimage-003.jpg: native tile; left part = top-right of LEFT leaf (blank); right part = top-left of RIGHT leaf (230-1u), line openings only (overlaps with following tile presumably).\nimage-003 l.1 (heading)  Forma a[...]            (large flourished F)\nimage-003 l.2   Ich N: N: Pfleg[...]             (large flourished I/J of \"Ich\")\nimage-003 l.3   gerichts obrigke[...]\nimage-003 l.4   zu Erhaltenn ge[...]\nimage-003 l.5   welter (?) Herrschaf[...]\nimage-003 l.6   verschafft worde[...]\nimage-003 l.7   benantlichen 25[...]\nimage-003 l.8   Zinß zu 14. [...]\nimage-003 l.9   ohne weiters auf[...]\n(next line cut at foot of tile)\n\nimage-004.jpg: native tile, top right of RIGHT leaf; overlaps image-003 (line openings lost at left edge of this tile; supplied in [] from image-003 where it shows them). Right edge torn from l.2 down.\nimage-004 l.1 (heading)  Forma aines (eines?) 14 tägigen Verschaffts (?).\nimage-004 l.2   [Ich] N: N: Pfleger der Herrschafft N: bekhenn vor Pfleg-\nimage-004 l.3   [ger]ichts obrigkhait wegen offentlich, das an heut dato\nimage-004 l.4   [zu e]rhaltenn gerichtlichen Verhör mit N: N: zu N: be-\nimage-004 l.5   [we]lter Herrschafft N: meiner pflegsverwaltung g?stlichen? (schriftlich? - uncertain last word, end torn)\nimage-004 l.6   [ver]schafft worden, dem Ersamen N: M: burger zu\nimage-004 l.7   [be]nantlichen 250 fl. aufstehendt verfallen Capital sa[mbt?]\nimage-004 l.8   [Zin]ß zu 14. tagen der negsten gewiß und unfehlb[ar]\nimage-004 l.9   [ohne] weitern aufhalt zu erlegen und zu bezallen.\n(l.10 cut at foot)\nimage-005.jpg: native tile, middle-left of LEFT leaf. Blank paper, stains only. Nothing to transcribe.\n\nimage-006.jpg: native tile; left = LEFT leaf middle (blank); right = line openings of RIGHT leaf middle. l.1-3 overlap image-003 l.7-9 / image-004 l.7-9.\nimage-006 l.1   benantlichen 25[...]        (= image-004 l.7, overlap)\nimage-006 l.2   Zinß zu 14. [...]           (overlap)\nimage-006 l.3   ohne weitern au[...]        (overlap)\nimage-006 l.4   wolbenanter (wolbemelter?) [...]\nimage-006 l.5   Vorschuldt? und [...]\nimage-006 l.6   Unter? und mit [...]\nimage-006 l.7   obrigkeit wegen [...]\nimage-006 l.8   /: doch dem [...]\nimage-006 l.9   schaden :/ vorfro[...]?\nimage-006 l.10  bezahlen? der ge[...]     (uncertain)\n-- blank space --\nimage-006 l.11 (heading)  Forma [...]\nimage-006 l.12  Ich N: N: Pfle[...]\nimage-006 l.13  [ger?]richt? wegen offentl[...]\n(l.14 cut at foot)\n\nimage-007.jpg: native tile, middle of RIGHT leaf; l.1-3 overlap image-004 l.7-9. Right edge torn away; a hole (long vertical tear) begins at l.10 centre.\nimage-007 l.1   [be]nantlichen 250 fl. aufstehendt verfallen Capital sa[mbt]   (overlap)\nimage-007 l.2   [Zin]ß zu 14. tagen der negsten gewiß und unfehlb[ar]         (overlap)\nimage-007 l.3   [ohne] weitern aufhalt zu erlegen und zu bezallen.   [trace of letter at torn edge]\nimage-007 l.4   [wol]bemelter N: M: gerichtlichen hinwegziehen? a[...]\nimage-007 l.5   [...]khündt? und schreib(?) begert hat, und ihme f[...]\nimage-007 l.6   [Un]ter und mit mein? obbemelts? pflegerats? N:\nimage-007 l.7   [ob]rigkeit wegen hinfüro stellen eigen adeliche[n?]\nimage-007 l.8   /: doch dem [...]mbt (Ambt?), mir, meinen erben und [...]\nimage-007 l.9   [scha]den :/ verfertigt ertailt worden. U[...]\nimage-007 l.10  [Ur]khund? der gerichtsch[...hole...] alda N: N: den [...]\n-- blank space --\nimage-007 l.11 (heading)  Forma [hole] [?]5? (or 8.?). tägigen Vorschaffts? (end torn)\nimage-007 l.12  [Ich] N: N: Pfle[ger hole] bekhenne vor Pfle[g-]\nimage-007 l.13  [geri]cht? wegen offentl[ich hole] demnach vor dis[em?] [...]\nimage-007 l.14  [...] [hole] [...]pflegsverwaltung (?)   (foot of tile, partly cut)\nNotes: l.5 \"schreib\" might be part of a compound; l.6 words after \"mit\" cramped, tentative. /: ... :/ marks a parenthesis in l.8-9 (also image-006 l.8-9). Digit in second heading damaged; only final stroke + point visible.\n\nimage-008.jpg: native tile, lower-left of LEFT leaf. Blank; damaged ragged left/bottom edges, vertical crack; pencil \"Stam[s...]\" (modern shelfmark) at lower right. Nothing to transcribe.\n\nimage-009.jpg: native tile; left = foot of LEFT leaf (blank; pencil \"Stams, StA, Frag. 230-2u\"); right = line openings of second form on RIGHT leaf (pencil \"Stams, StA, Frag. 230-1u\" at foot). l.1-2 overlap image-006 l.12-13 / image-007 l.12-13.\nimage-009 l.1   Ich N: N: Pfle[...]            (overlap)\nimage-009 l.2   [ger?]icht? wegen offentl[...]  (overlap)\nimage-009 l.3   zu Stamb? (Stams?), mein[...]  (\"Stamb\" uncertain)\nimage-009 l.4   worden, dem [...]\nimage-009 l.5   nantlichen 250 [...]\nimage-009 l.6   Zinß sambt [...]\nimage-009 l.7   und aber er [...]\nimage-009 l.8   wegen auff de[...]\nimage-009 l.9   heut? wegen Na[...]\nimage-009 l.10  ihme N: M: ge[...]\nimage-009 l.11  gewiß und unfe[hlbar ...]\nimage-009 l.12  &c? wolbemelte[r? ...]\n\nimage-010.jpg: native tile, lower part of RIGHT leaf (second form). Paper survives as three vertical strips separated by losses: strip A (left, line openings, = image-009), strip B (middle), strip C (right, a narrow tongue, only from l.5 down). Strips are separated by gaps, so text between them is lost. Line-by-line, strips separated by \" | \".\nimage-010 l.1   [Ich] N: N: Pfle[...] | bekhenne vor Pfl[eg-]                      (= image-007 l.12)\nimage-010 l.2   [...] wegen offentl[ich] | demnach vor dis[em]\nimage-010 l.3   [zu] Stamb?, mein[er] | [Pf]legsverwaltung\nimage-010 l.4   [wor]den, dem [...] | [Ersa]men N: M: b[urger?]\nimage-010 l.5   [be]nantlichen 250 f[l.?] | aufstehendt verf[allen?] | [Cap]ital sa[mbt?]\nimage-010 l.6   [Zin]ß sambt d[...] | [...]versessen? zu 14 | [...] bezallen\nimage-010 l.7   [un]d aber er N: | dann mit Nach[...] | [...]s ist d[...]\nimage-010 l.8   [we]gen auff dem | [N]: M: weiters | [er]volgen? Ver[...]\nimage-010 l.9   [...]t wegen Nach[...] | [...]verfügung b[...] | [...], das er? [...]\nimage-010 l.10  [ih]me N: M: sel[...] | [...]chuldt innerhalb | tagen der neg[sten]\nimage-010 l.11  [ge]wiß und unfehl[bar] | ohne weitern auf[...] | bezallung thu[n?]\nimage-010 l.12  [...] wolbemelter | gerichtlich hinwegz[iehen?] | Caetera ut su[pra]\nNotes: \"Caetera ut su[pra]\" (Latin) closes the second form. \"versessen?\" in l.6 strip B uncertain (could be \"verwesten\"); superscript mark over it. Below l.12 blank paper to the torn foot.\n\nSECOND FACE\nimage-011.jpg: reduced overview of the other faces: left leaf pencil \"Stams, StA, Frag. 230-2v\", right leaf \"Stams, StA, Frag. 230-1v\" (reverse of the written leaf, mirrored damage). Small slip at left with a few cursive letters and pencil \"230-3v\". At overview scale both leaves show no text: 230-2v is stained/yellowed with a faint line along the top edge (possible offset, ruling or fold, not text); 230-1v is blank paper with no visible ink or show-through legible.\n\nimage-012.jpg: native tile, top-left of 230-2v. No writing. A fine horizontal line and a vertical line near the top and left edges form a frame/fold or pressed (dry-point?) margin line, not text. White scuff patches (paste or abrasion). Nothing to transcribe.\n\nimage-013.jpg: native tile, top-right of 230-2v and top-left of 230-1v. Both blank; no ink. Nothing to transcribe.\n\nimage-014.jpg: native tile, top-right of 230-1v. Blank; water-stain tide lines only. Nothing to transcribe.\n\nimage-015.jpg: native tile, middle-left of 230-2v. Blank; vertical margin line near left edge continues. Nothing to transcribe.\n\nimage-016.jpg: native tile, middle of 230-2v (right part) and 230-1v (left part, beside the large loss). Blank. Nothing to transcribe.\n\nimage-017.jpg: native tile, middle-right of 230-1v. Blank; no ink or legible show-through. Nothing to transcribe.\n\nimage-018.jpg: native tile, lower-left of 230-2v. Blank; margin/frame line along left and bottom edges (fold or impressed line); pencil \"Stams, STA, Frag. 23[0-2v]\". Nothing to transcribe.\n\nimage-019.jpg: native tile, lower-right of 230-2v and lower-left strips of 230-1v. Blank apart from pencil \"[Sta]ms, STA, Frag. 230-2v\". Nothing to transcribe.\n\nimage-020.jpg: native tile, lower-right of 230-1v. Blank apart from pencil \"Stams, STA, Frag. 230-1v\". Nothing to transcribe.\n\nTHIRD FACE\nimage-021.jpg: reduced overview of a paper bifolium, open flat, central fold vertical; pencil \"Stams, StA, Frag. 230-4u\" at lower right. Left page blank. Right page: single block of German cursive, ~17 lines under a heading at top (heading with flourished initial and a small mark/cross at left, approx. \"Schätz Fürpottzettl\"? - read on tiles). Text ends with a date line \"den 1. Novembris 16[..]\" and a subscription line at lower right (\"N. ...meister daselbst\"?). Different layout from 230-1u: a single completed document, not a formulary with N: placeholders (though \"N:\" may still appear). No rubrics, no glosses.\n\nimage-022.jpg: native tile, top-left of 230-4u left page. Blank. Nothing to transcribe.\n\nimage-023.jpg: native tile across the central fold of 230-4u; left page blank; right page line openings only.\nimage-023 l.0 (left of heading)  large looped \"S\"-like sign with a small star/asterisk above (paragraph or \"Signum\"/\"S.\" mark?), and a dash\nimage-023 l.1 (heading)  S/D[...]   (flourished initial, rest beyond tile)\nimage-023 l.2   Auff unser [...]   (\"Auff\" with large flourish)\nimage-023 l.3   Hilgen? Mairs (Mair's) bu[rger? ...]\nimage-023 l.4   alhie, und mein[...]\nimage-023 l.5   der dorffmaister? [...]\nimage-023 l.6   Vindt? daselb[st ...]\nimage-023 l.7   gegen ain? zu[...]\nimage-023 l.8   Capital, Un[d ...]\nimage-023 l.9   Camerlandt? [...]\n(l.10 cut at foot)\n\nimage-024.jpg: native tile, top of right page of 230-4u; overlaps image-023 (openings in [] from image-023).\nimage-024 l.1 (heading)  Schätz? Fürpottzetl (Fürpotzettl).   (S with large flourish; \"Schäz\"/\"Schaz\" uncertain)\nimage-024 l.2   [A]uff unser schrifft: und rechtliche anrueffen des Ersamen\nimage-024 l.3   [Hi]lgen? Mairs burger und Maister des bö?then?handtwerchs  (first element uncertain: \"beckhen\"/\"böthen\"?)\nimage-024 l.4   [alh]ie, und mein Richters gegebnen Vergunstnus, solle\nimage-024 l.5   [der] dorffmaister zu Stamb Thoman Egger, dem N: hier? (dem W: herr?)  [blue ink spot over the end]\nimage-024 l.6   [Vn]d? daselbs meiner richterlichen Jurisdiction s?ßendt (sitzendt?),\nimage-024 l.7   [ge]gen ain zuehabendt benanten anrueffer per 200 fl.\nimage-024 l.8   [Ca]pital, und waß dann anhengig, verschreibnuß\nimage-024 l.9   [Ca]merlandt?, auff 17. diß Monats Novembris,\n(l.10 cut at foot)\nNotes: \"Stamb\" here is clearly written with initial St-ligature + \"amb\" (same form as image-009/010 l.3). \"fl.\" after 200 with long descender stroke.\n\nimage-025.jpg: native tile, middle of left page of 230-4u. No ink. A faint watermark visible in the paper (outline shape, roughly oval/shield with internal lines, centre-right of tile); not text. Nothing to transcribe.\n\nimage-026.jpg: native tile across the fold of 230-4u, middle; left page blank; right page line openings. l.1-3 overlap image-023/024 l.7-9.\nimage-026 l.1   gegen ain zu[...]        (overlap)\nimage-026 l.2   Capital, Un[d ...]       (overlap)\nimage-026 l.3   Camerlandt [...]         (overlap; first word could be \"Camerlandts\")\nimage-026 l.4   ainen ordenlich[en ...]\nimage-026 l.5   zu Mörgen? (Wängen?) [...]\nimage-026 l.6   [St?]sch?lbern? [...]    (first word uncertain, initial with long flourish)\nimage-026 l.7   od(er) zu Taust? [...]   (\"od\" with superscript abbreviation)\nimage-026 l.8   wissen machen [...]\nimage-026 l.9   thun und ver[...]\nimage-026 l.10  und er (?) Ehon? [...]\nimage-026 l.11  thun? Er?wissen? [...]\nimage-026 l.12  ain besold[ung ...]\nimage-026 l.13  den 1. Novem[bris ...]\n\nimage-027.jpg: native tile, lower part of right page of 230-4u. l.1-3 overlap image-024 l.7-9. Openings in [] from image-026.\nimage-027 l.1   [ge]gen ain zuehabendt benanten anrueffer per 200 fl.   (overlap)\nimage-027 l.2   [Ca]pital, und waß dann anhengig, verschreibnuß          (overlap)\nimage-027 l.3   [Ca]merlandt?, auff 17. diß Monats Novembris,            (overlap)\nimage-027 l.4   [ai]nen ordenlich Schäzrechtstag (Schätzrechtstag?), alldort zu Stamb\nimage-027 l.5   [zu] Mörgen? (Wängen?) V[...]lts? Wirtts behausung, od(er) wo\nimage-027 l.6   [...]sich Ihrer? gebiet zuhalten, zeitlich unter augen\nimage-027 l.7   [od(er)] zu Hauß? (Tausst?) und Hoff verkhünden, und zu-\nimage-027 l.8   [wi]ssen machen, und sonst alles dasjenig\nimage-027 l.9   [th]un und verrichten, waß sich diß falls gebürt,\nimage-027 l.10  [un]d er schuldig? dorwegen? ain Verwaldung? (Vermeldung?) zu\nimage-027 l.11  [th]un? Ey?ssen? wurdt, darumben er von anrueffer\nimage-027 l.12  [a]in besoldung zu empfangen hat. Datum Hall? (Zell?/Stall?)\nimage-027 l.13  [de]n 1. Novembris 16[7?]4?.      (digits after 16 faint/uncertain; a green ink/pigment mark under the date)\nimage-027 l.14 (subscription, right)  N. Statt?maister? daselbst  (first letters after N. uncertain: \"Gstatt\"/\"Statt\"/\"Stab\"?)\nNotes: l.5 \"Mörgen\" has umlaut mark; could be a place name. l.6 first word lost at the left edge of this tile (image-026 shows a flourished initial there). l.10-11 the most uncertain lines. Below subscription blank to foot.\n\nimage-028.jpg: native tile, lower-left of left page of 230-4u. Blank. Nothing to transcribe.\n\nimage-029.jpg: native tile, lower centre across the fold of 230-4u. Blank (sewing/stab holes along fold, pairs of pin holes either side). Nothing to transcribe.\n\nimage-030.jpg: native tile, lower-right of right page of 230-4u. Only descenders of the subscription line (image-027 l.14) at top edge; rest blank; pencil \"Stams, STA, Frag. 230-4u\". Nothing new to transcribe.\n\nFOURTH FACE\nimage-031.jpg: reduced overview of the outside of the 230-4 bifolium (pencil \"Stams, StA, Frag. 230-4v\" lower right). Both pages appear blank at overview scale; fold with stab holes; faint watermark outline on right page; faint horizontal fold lines. No endorsement visible at this scale.\n\nimage-032.jpg: native tile, top-left of 230-4v. No ink on this face; faint grey mirror-image show-through of the 230-4u text lines is visible (not legible, not a separate text). Nothing to transcribe.\n\nimage-033.jpg: native tile, top centre across fold of 230-4v. Blank. Nothing to transcribe.\n\nimage-034.jpg: native tile, top-right of 230-4v. Blank. Nothing to transcribe.\n\nimage-035.jpg: native tile, middle-left of 230-4v. Blank; faint illegible show-through only. Nothing to transcribe.\n\nimage-036.jpg: native tile, middle across fold of 230-4v. Blank. Nothing to transcribe.\n\nimage-037.jpg: native tile, middle-right of 230-4v. Blank; watermark outline visible (oval/shield shape with crossing lines, same as image-025 seen from the other side). Nothing to transcribe.\n\nimage-038.jpg: native tile, lower-left of 230-4v. Blank; small tear at left edge. Nothing to transcribe.\n\nimage-039.jpg: native tile, lower centre across fold of 230-4v. Blank (stab holes, pin holes). Nothing to transcribe.\n\nimage-040.jpg: native tile, lower-right of 230-4v. Blank apart from pencil \"Stams, STA, Frag. 230-4v\". Nothing to transcribe.\n\nSUMMARY AND LIMITATIONS\n- Packet = image-001 to image-040 (no image-041). Four faces: 230-1u/2u (overview 001, tiles 002-010), 230-1v/2v (overview 011, tiles 012-020), 230-4u (overview 021, tiles 022-030), 230-4v (overview 031, tiles 032-040).\n- Text exists only on 230-1u and 230-4u. All other faces are blank (show-through, watermark, margin/fold lines only).\n- Script: 17th-century-style German Kurrent (brown ink), not a book hand; Latin elements only in headings/closings (\"Forma\", \"Caetera ut su[pra]\", \"Datum\", \"Novembris\", \"Capital\", \"Jurisdiction\"). Placeholders \"N:\" / \"N: N:\" / \"N: M:\" for names.\n- 230-1u: two model forms (\"Forma ... tägigen Verschaffts\"?), the second heavily damaged by long vertical losses; text between surviving strips is lost (image-010). Read essentially everything visible; most uncertain: image-004 l.5 last word, image-007 l.4-6, the digit in the second heading, image-010 l.6-9 strip C.\n- 230-4u: one document under heading \"Schätz? Fürpottzetl\", ~13 lines, date line \"den 1. Novembris 16[7?]4\" and subscription \"N. Statt?maister daselbst\". Read fully; uncertain: heading first word, l.3 craft word, l.5-6, l.10-12 of image-027, place in \"Datum ...\", and the year digits.\n- The small loose slip visible at left in overviews 001 and 011 (pencil \"230-3u\"/\"230-3v\") has a few cursive letters but no native-resolution tile in the packet, so it is unread. A dedicated crop of it would be needed.\n- Year digits on 230-4u (image-027 l.13) would benefit from a tighter crop.\n- I did nothing beyond the brief's rules; no web/search/other files. No proposed identification was in my context.\n\nNotes (image-004):\"Herrschafft\" with ff-ligature/strike-like loop; \"fl.\" read from \"fl\"-like sign after 250 (could be \"f.\" with loop). \"bekhenn\" uncertain (bekhenne?).\n",
+  "text_sha256": "33ba5a9a7ee7c16475bef2b732dfa6bf6d74c3607efa1940911f99ad7c79719f"
+}

@@ -1,0 +1,83 @@
+# F-ssa8: Jacobus de Voragine, *Sermones quadragesimales*, Lent weeks 2-4 and Easter Sunday-Monday
+
+Most of the fifteen paper pieces at Stams catalogued as Frg. 47 come from a copy of the *Sermones quadragesimales* (Lenten sermons) of Jacobus de Voragine, OP (d. 1298). The pieces are strips cut from two-column leaves, and two-column leaves in their own right. On eight pieces the text was read and compared with the Venice 1582 edition on its page images. Those pieces carry these sermons:
+
+- the 2nd week of Lent: Wednesday
+- the 3rd week of Lent: Wednesday, Sermo II; Saturday, Sermo I
+- the 4th week of Lent: Friday, Sermones I-II; Saturday
+- Easter Sunday, Sermo II
+- Easter Monday, Sermo I
+
+Piece 47_1 is a different leaf. On its recto it carries the three prayers of a votive Mass for preachers (*Corda famulorum tuorum*, *Famulis tuis domine*, *Conserva domine famulos tuos*), and a column on the seven ecclesiastical grades. Strips 47_2 and 47_3 carry a sermon on the Virgin that is not identified.
+
+The [Fragmentarium record](https://fragmentarium.ms/overview/F-ssa8) is Stams, Stiftsarchiv, Frg. 47. Its details:
+
+- title "x"
+- paper, 15 fragment items, 283 x 230 mm (measured on Frg. 47_1 by Claudia Sojer, Innsbruck)
+- date of origin 1400-1599
+- no linked description
+- eight images, each photographing several pieces: 47_01r05r, 47_01v05v, 47_06r09r, 47_06v09v, 47_10r13r, 47_10v13v, 47_14r15r, 47_14v15v
+
+The record does not name any text. Its physical description fits the images.
+
+- **Identification:** identified, high, for the sermon pieces.
+  - **Basis.** Sustained agreement in wording and sequence with Voragine's *Sermones quadragesimales* on eight pieces: 47_4r/4v, 47_5v, 47_7r, 47_8r, 47_10r, 47_14r, 47_15r and 47_15v. Each was compared with the 1582 edition on page images.
+  - **Vincent Ferrer.** His printed Easter Monday sermon reuses Voragine's passage on Christ as pilgrim, which also stands on 47_5r. Ferrer is not the containing work: the copy follows Voragine's sequence across sermon boundaries (the end of the Easter Sunday sermon on 47_5v, the end of Lazarus Sermo I and the opening of Sermo II on 47_4).
+  - **Wording.** The differences from the print are of wording, omission and order (listed under Textual evidence).
+  - **Provisional pieces.** The text of 47_6, 47_9, 47_11, 47_12, 47_13 and the faces 47_10v and 47_14v was matched only by machine against the edition's OCR, and they are likely from the same work. Their loci are not given here: tested loci of this kind proved wrong twice in three.
+  - **47_1r prayers.** Identified as a formulary. They agree with the Mass *pro praedicatoribus* that Gerard de Frachet's *Vitae fratrum* records as approved for the Dominicans. The column on the seven grades (Isidore's definitions with "hunc ... Christus exhibuit quando ...", the tradition of Peter Lombard, *Sentences* IV d.24) has no containing text found.
+  - **47_2 and 47_3.** A sermon on the Virgin's beauty and humility, with "hodie descendit", the porta Ezechiel and a unicorn exemplum. No source was found, and no Marian sermon with this text was found in the 1582 *Sermones quadragesimales*. Voragine's *Mariale* and *Sermones de sanctis* were not checked.
+- **Transcription:** the [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-ssa8/readings/stams6-2026-11-01-image-only.json) covers all faces except 47_15v. The [source-assisted reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-ssa8/readings/stams6-2026-11-01-source-assisted.json) holds two sets of rereads on the native images:
+  - by one research reader: 47_7r col. a, 47_5v (18 lines), 47_8r col. b, 47_15v col. a, and the prayer block on 47_1r
+  - by a second research reader, who read blind before opening the source: 47_10r col. a (13 lines), 47_14r col. b (13 lines), the lower block of 47_4r and the top of 47_15r col. a
+
+  The second reader's blind readings had misreadings that the source corrected (for example "vacabant" for *beatificantur*, "prelatos" for *felicitas*). Everything else rests on the first reading. Accuracy has not been measured.
+- **Verification:**
+  - One research reader compared the passages above with the Venice 1582 edition on its Internet Archive page images. The prayers were compared with Reichert's edition of the *Vitae fratrum* through Google Books snippet text only, not page images.
+  - A second research reader read four other passages on the native images before opening the source, compared them with the 1582 page images, corrected three loci, and checked the order of faces.
+  - The coordinator read 47_7r col. a (canvas 2, 1000 x 940 at 2560,560) on the image, the series of clauses each opening with a red-touched *Nemo ibi* (clothing the naked, lodging the pilgrim, feeding the hungry, giving drink, visiting the sick, ransoming the captive, burying the dead), and compared it with fol. 92r of the 1582 edition on its page image; the sequence and wording agree, with the differences shown in the table below.
+  - Not checked: 47_2, 47_3, the left column of 47_1r, the verso of 47_1, and the provisional pieces listed above. No person has reviewed the readings.
+
+## Textual evidence
+
+Images (each 4912 x 7360):
+
+- [canvas 0, Stams_STA_Frg_047_01r05r](https://fragmentarium.ms/loris/F-ssa8/Stams_STA_Frg_047_01r05r.jpg/full/4912,/0/default.jpg)
+- [canvas 1, Stams_STA_Frg_047_01v05v](https://fragmentarium.ms/loris/F-ssa8/Stams_STA_Frg_047_01v05v.jpg/full/4912,/0/default.jpg)
+- [canvas 2, Stams_STA_Frg_047_06r09r](https://fragmentarium.ms/loris/F-ssa8/Stams_STA_Frg_047_06r09r.jpg/full/4912,/0/default.jpg)
+- [canvas 4, Stams_STA_Frg_047_10r13r](https://fragmentarium.ms/loris/F-ssa8/Stams_STA_Frg_047_10r13r.jpg/full/4912,/0/default.jpg)
+- [canvas 6, Stams_STA_Frg_047_14r15r](https://fragmentarium.ms/loris/F-ssa8/Stams_STA_Frg_047_14r15r.jpg/full/4912,/0/default.jpg)
+- [canvas 7, Stams_STA_Frg_047_14v15v](https://fragmentarium.ms/loris/F-ssa8/Stams_STA_Frg_047_14v15v.jpg/full/4912,/0/default.jpg)
+
+Boxes are x,y,width,height in native pixels. Expansions are in parentheses, [ ] marks lost or supplied text, and ? marks doubtful readings. Edition: *Sermones quadragesimales eximii doctoris, fratris Iacobi de Voragine*, Venice, 1582. Google Books scan mirrored on the Internet Archive as [bub_gb_O3KLJ6rfkL4C](https://archive.org/details/bub_gb_O3KLJ6rfkL4C); "n" numbers below are its page indices.
+
+| Stams Frg. 47 | Voragine, *Sermones quadragesimales* (Venice 1582) |
+|---|---|
+| 47_7r col. a, canvas 2, 1000 x 940 at 2560,560: "ibi i(n)duet nudu(m) q(ui)a o(mn)es su(n)t ibi(?) / su(n)t vestiti veste i(m)mortali . Ne(m)o / ibi hospitabit(ur) p(er)egrinu(m) q(uia) o(mn)es / sunt ciues p(er)petui . Ne(m)o ibi pas/cet famelicos q(ui)a o(mn)es ex dei / visione sunt saciati ... Ne(m)o ibi redimet i(n)carceratu(m) / q(ui)a o(mn)es ibi liberi sunt (et) so/luti . Ne(m)o ibi vadit ad sepultu(ram) / q(ui)a o(mn)es ibi i(m)mortales sunt" | Feria IV of the 3rd week, Sermo II *De triplici planta*, fol. 92r ([n200](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n200/mode/1up)): "Nemo enim induet nudum, quia omnes sunt ibi ueste immortali induti. Nemo ibi hospitabitur peregrinum, quia sunt ciues perpetui. Nemo ibi pascet famelicos, quia omnes ex uisione Dei sunt saturati ... Nemo ibi redimet incarceratum: quia omnes ibi sunt liberi, & sanati, & soluti: Nemo ibi uadit ad sepulturam, quia omnes immortales effecti sunt." |
+| 47_5v, canvas 1, 1020 x 1120 at 2340,4330: "-suit passione(m) tamen no(n) deposuit co(m)/passione(m) im(m)o p(ost) passione(m) f(ac)t(u)s / e(st) magis (com)passibilis et mis(eri)cors / ex eo q(uod) in se ip(s)o n(ost)ras mis(er)ias e(st) / exp(er)tus . Infirmitates na(m)q(ue) cor/p(or)ales alit(er) cognoscit medic(us) the/oric(us) alit(er) bon(us) p(ra)tic(us) alit(er) i(n)firm(us) ... S(ed) si ess(et) / ali(qui)s medic(us) q(ui) ess(et) bon(us) theoric(us) et / bon(us) p(ra)tic(us) et i(n)firmitates sepe ex/p(er)tus iste quide(m) i(n)firmitatib(us) multu(m) / ess(et) mis(eri)cors et (com)passibilis" | Easter Sunday, Sermo II ([n444](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n444/mode/1up)-[n445](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n445/mode/1up)): "tamen non deposuit misericordiam, & compassionem; immo post passionem factus est magis passibilis, & misericors, ex eo quod in seipso nostras miserias est expertus. Infirmitates namque corporales aliter cognoscit medicus theoricus, aliter bonus practicus, aliter infirmus ... Sed si esset aliquis medicus, qui esset bonus practicus, & infirmitates saepe expertus; iste quidem infirmantibus multum esset misericors, & compassibilis." |
+| 47_8r col. b, canvas 2, 1060 x 1100 at 1420,3900: "Maiorem hac dilect(i)o(n)em nemo h(abe)t / (et)c . et po(nit) hic vltimu(m) signu(m) amor(is) / Amor e(nim) p(er) q(ua)tuor signa p(otes)t mani/festari . P(ri)mo p(er) v(er)ba q(uia) cu(m) cor / habundat in amore tu(n)c os habundat / i(n) sermone . Luc. vj ... Multi e(nim) s(er)uirent v(er)bis(?) suis q(ui) / no(n) s(er)uirent reb(us) suis" | Easter Sunday, Sermo II ([n443](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n443/mode/1up)-[n444](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n444/mode/1up)): "Maiorem hac dilectione nemo habet. Et ponit hic ultimum signum amoris. Amor enim per quatuor signa potest manifestari. Primo uerba; quando enim cor abundat in amore, tunc os abundat sermone. Luc. 6 ... multi seruirent uerbis, qui non seruirent rebus suis." |
+| 47_15v col. a, canvas 7, 1040 x 980 at 2600,720 and 920 x 1060 at 2780,1640: "Aug(ustinus) dic(it) q(uod) scribebat i(llu)d q(uod) poste[a] ... dic(it) q(uod) scribebat eor(um) p(e)cc(at)a ... (et) p(re) v(er)ecundia exierunt ... T(er)ra absorbe / hos viros abdicatos ... Dissimiles aut(em) erant q(uia) / p(e)cc(at)a eor(um) cora(m) d(e)o erant scripta / p(e)cc(at)a aut(em) istius p(er) (con)tric(i)o(n)em era(n)t / deleta" | Saturday of the 3rd week, Sermo I, fol. 104r ([n223](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n223/mode/1up)): "Aug. dicit quod scribebat illud quod postea uoce expressit ... Glo. dicit quod scribebat eorum peccata, quae illi legebant, & prae uerecundia exierunt. Chris. dicit quod scribebat in terram: Absorbe hos uiros abdicatos ... Disimiles autem erant: quia peccata eorum coram Deo erant scripta. Peccata autem istius mulieris per contritionem erant deleta" |
+| 47_15r col. a, canvas 6, 1060 x 720 at 2620,780: "Non timent uxoris custodiam nec mundi verecundiam nec legum aliquam penam ... Secundo in illa fuit magna dei mis(eri)c(ordi)a q(uia) nullam penam sibi iniunxit s(ed) tm ei dixit Vade (et) amplius noli peccare" | the same sermon ([n225](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n225/mode/1up)) |
+| 47_10r col. a, canvas 4, 980 x 880 at 520,420: "beatificant(ur) in contemplacio(n)e ... corp(or)alis ... in visione / humanitatis . T(er)cio xp(istu)s discip(u)los in/[dignatos] ad pac(em) reducat eos ad / humilitatem inducendo ... Sciebat ... Inter superbos s(em)p(er) iurgia sunt" | Feria IV of the 2nd week ([n137](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n137/mode/1up)): "animae beatificantur in contemplatione diuinitatis ... uisus corporalis beatificabitur in uisione humanitatis Christi. Tertio Christus discipulos indignatos ad pacem reduxit, eos ad humilitatem deducendo ... Sciebat enim quod humilitas est causa pacis ... Inter superbos semper iurgia sunt" |
+| 47_14r col. b, canvas 6, 1000 x 800 at 1400,760: "O(mn)ia bo(na) t(er)rena contempsit x(ristu)s vt in ill(is) no(n) quer(atur) felicitas . Circa t(er)ciu(m) videndu(m) e(st) q(uod) iudei sunt de na(tura) noctue / q(ue) ad luce(m) excecat ... sunt exce/cati dicentes . Tu de te ip(s)o testimo(nium) / p(er)hibes" | Saturday of the 4th week ([n288](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n288/mode/1up)): "Omnia bona terrena contempsit Christus, ut in illis non quaeratur felicitas; & omnia mala terrena sustinuit, ut in illis non timeretur infoelicitas. Circa tertium notandum quod Iudaei fuerunt de natura noctuae, quae ad lucem excaecatur ... fuerunt excaecati: Unde dixerunt: Tu de teipso testimonium dicis" |
+| 47_4r, lower block, canvas 0, 1040 x 970 at 1040,5380: "[D]iligebat ie(su)s [Mar]tham (et) Maria(m) [so]rore(m) eius (et) L[a]zaru(m) . Io. xj ... Q(ue)da(m) ... dant gaudiu(m) . Q(ue)da(m) ... d(ant) timore(m) ... d(ant) spe(m) ... d(ant) tribulati(s) (con)solacione(m) ... vita contemplativa ... activa" | Friday of the 4th week, Sermo II ([n282](https://archive.org/details/bub_gb_O3KLJ6rfkL4C/page/n282/mode/1up)): "Diligebat Iesus Martham, & Mariam sororem eius, & Lazarum. In isto Euangelio ponuntur quaedam unde boni & iusti debent gaudere; quaedam de quibus peccatores debent timere; quaedam unde ipsi peccatores debent sperare; & quaedam unde tribulati consolationem debent recipere ... Boni autem aut sunt in uita contemplatiua, aut sunt in actiua" |
+| 47_1r, prayer block, canvas 0, 1100 x 1260 at 1600,300: "[...]r(um) tuor(um) d(omi)ne / [...] g(rati)a et ignitu(m) / [...] dona et q(ui) tuu(m) ... Secreta / Famulis tuis d(omi)ne v(er)bu(m) t(ri)bue / g(rati)osu(m) et mun(er)a oblata s(an)c(t)ifi/cans corda eor(um) i(n) salutari / tuo q(uesumu)s visita . p(er) d(ominum) . Co(m)pl(enda) / Conserua d(omi)ne famulos tuos vni/geniti tui corpore (et) sanguine / suscepto (et) tuu(m) nu(n)ciantib(us) / v(er)bu(m) largitate(m) t(ri)bue gra(tiarum)" | Gerard de Frachet, *Vitae fratrum* I.4, ed. Reichert (1896), pp. v and 33 (Google Books snippet text): "Corda famulorum tuorum, Domine, illumina Spiritus Sancti gratia, et ignitum eis eloquium dona, et iis qui tuum praedicant verbum ... Secreta: Famulis tuis, domine, verbum tribue graciosum et munera oblata sanctificans corda eorum in salutari tuo quesumus visita ... Post communionem [var. *conplenda*]: Conserva, domine, famulos tuos unigeniti tui corpore et sanguine suscepto, et tuum nuntiantibus verbum largitatem tribue gratiarum" |
+
+**Differences.** The copy agrees with the print clause by clause. Its differences are of these kinds:
+
+- **Wording:** *saciati* / *saturati*; *videndum* / *notandum*; *inducendo* / *deducendo*; *infirmitatibus* / *infirmantibus*.
+- **Omissions in the copy:** "& sanati"; on 47_14r the clause "& omnia mala terrena sustinuit ... infoelicitas".
+- **More in the copy:** "bonus theoricus et bonus practicus" for "bonus practicus".
+- **Different text at the start of 47_5v:** "[depo]suit passionem tamen non deposuit compassionem" for "deposuerit omnem miseriam et mortalitatem, tamen non deposuit misericordiam et compassionem".
+- **Biblical quotation:** the copy has Vulgate *perhibes* (Jn 8:13) where the print has *dicis*.
+- **Agreement with an earlier edition:** the copy reads *compassibilis* where the 1582 edition has *passibilis*; the Venice 1528 edition, seen in a Google Books snippet, also has *compassibilis*.
+
+These show that the copy and the 1582 print differ, not how they are related. The attribution to Jacobus de Voragine is that of the edition's title page and the standard repertories of his sermons. It was not re-examined.
+
+## Leaf order, other items and what is not claimed
+
+- **Recto and verso.** On 47_4, 47_5, 47_8 and 47_15 the text on the face catalogued "v" comes before the text on the face catalogued "r" in the sermon sequence, so the catalogued "v" is the original recto on these pieces. On 47_4 the two faces are almost continuous. The strips 47_2 to 47_5 behave as columns cut from two-column leaves: 47_4 is the inner column pair, 47_5 the outer one.
+- **Hands and copies.** At least two scribes wrote the sermon pieces. The evidence is compatible with one copy, but that is not proved. 47_5 could be the first column of the leaf after 47_8: the text breaks off at the foot of 8r col. b and resumes about eight printed lines later at the top of 47_5v.
+- **The Mass for preachers.** The three prayers show only that the scribe of 47_1 had this formulary. Its circulation outside the Order of Preachers was not checked, and 47_1 is a different leaf in a different layout. They are no evidence for the origin of the sermon leaves.
+- **Other items.** The verso of 47_1 carries red ruling and blurred large letter-shapes, probably ink set off from another sheet; it was not read. The left column of 47_1r (the seven grades) and the Marian sermon on 47_2-3 are not identified.
+- **Not claimed:** the date or origin of the copy (the catalogue's 1400-1599 is its own estimate), any relation to the printed editions beyond the differences listed, or the loci of the provisional pieces.
