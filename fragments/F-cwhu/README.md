@@ -7,15 +7,16 @@ Office of the Sunday within the octave of Christmas.
   nativitate Christi* (PL 65, col. 727B-C). Between the two lessons stands the responsory *O regem
   caeli*.
 - **The other page** has:
-  - the end of Matins, with the responsories *Propter nimiam caritatem* (verse *Ecce iam venit
-    plenitudo temporis*) and *Verbum caro factum est*;
-  - Lauds, followed by the antiphon *Dum medium silentium* and the collect *Omnipotens sempiterne
-    Deus dirige actus nostros*;
+  - the end of Matins, with the responsories *Propter nimiam caritatem* (followed by *Ecce iam venit
+    plenitudo temporis*, its verse in Morimondo) and *Verbum caro factum est*;
+  - Lauds, followed by a commemoration (the red rubric "Comm(emoratio) de ..." with an abraded third
+    word) with the antiphon *Dum medium silentium* and the collect *Omnipotens sempiterne Deus dirige
+    actus nostros*;
   - the chapters for Terce and Sext.
 - **The other side** is abraded. Its red rubrics include "In ii noc." and "In vigilia circumcisionis".
 
 The order of the chants matches the Sunday after Christmas in Cistercian antiphoners. The responsory
-*Propter nimiam* with that verse is recorded almost only in Cistercian books, so the use is probably
+*Propter nimiam* is recorded almost only in Cistercian books, so the use is probably
 Cistercian.
 
 The [catalogue record](https://fragmentarium.ms/overview/F-cwhu) is Stams, collection "Stams (Stealth
@@ -38,7 +39,6 @@ Its measurements fit the opened bifolium on the two images (Stams_STA_Frg_209_01
   - **Caveat.** The separating chant has a recent Cantus number used almost only in Cistercian
     inventories, so its absence elsewhere may partly reflect indexing. The use is therefore given as
     probably Cistercian, not as established by an Order-specific feature or rubric.
-  - **Difference of wording.** The manuscript's *Propter nimiam* has no *pater* after *deus*.
 - **Transcription:** the [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-cwhu/readings/stams5-2026-11-01-image-only.json)
   and the [source-assisted reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-cwhu/readings/stams5-2026-11-01-source-assisted.json).
   - A research reader reread on the images:
@@ -48,7 +48,8 @@ Its measurements fit the opened bifolium on the two images (Stams_STA_Frg_209_01
   - An independent checker reread the weakest lines of canvas 1 and the rubrics of canvas 0, right
     page.
   - Much of the dark ink on canvas 0 is show-through from the other side: a mirrored crop reads as the
-    Fulgentius lesson. Only its red rubrics are its own, and its own black text is not read.
+    Fulgentius lesson. Its own black text is faded; only its red rubrics and a few chant incipits
+    are read.
   - Accuracy has not been measured.
 - **Verification:**
   - **Lessons.** A research reader compared them with PL 65 in Internet Archive OCR.
@@ -64,7 +65,7 @@ Its measurements fit the opened bifolium on the two images (Stams_STA_Frg_209_01
   - **Gaps in coverage.**
     - No Cistercian breviary or lectionary was compared, so the Fulgentius lessons are placed by
       their position among the chants.
-    - The homily ending the third nocturn (on Anna in the temple) is unidentified.
+    - The homily ending the third nocturn is unidentified.
     - The Lauds hymn and the antiphon for the Hours are not read.
     - Canvas 0 is placed by its rubrics and by leaf order only.
 
@@ -86,11 +87,11 @@ Native size is 7360 x 4912 pixels. Locations:
 | Stams Frg. 209, canvas 1, left page | PL 65, col. 727B-C |
 |---|---|
 | sed ta(men) p[ater et filius non duo] dies. S(ed) unus est dies. Est de p(at)re filius de deo deus. pater (tamen) (et) filius n(on) duo dij. S(ed) un(us) (est) deus. | sed tamen Pater et Filius non duo dies, sed unus est dies. Est de Patre Filius, de Deo Deus; Pater tamen et Filius non duo dii, sed unus est Deus. |
-| Unus igit(ur) dies eternitatis simul pat(er) (et) filius a nob(is) agnoscitur. In die aut(em) temporis solus filius inuenitur. | Unus igitur dies aeternitatis simul Pater et Filius a nobis agnoscitur, in die autem temporis solus Filius invenitur. |
+| Unus igit(ur) dies eternitatis simul pat(er) (et) filius a nob(is) agnoscat(ur). In die aut(em) temporis solus filius inuenitur. | Unus igitur dies aeternitatis simul Pater et Filius a nobis agnoscitur, in die autem temporis solus Filius invenitur. |
 | Dies enim eter(nus) pat(er) (et) filius n(ost)r(u)m corpus (et) a(n)i(m)am fecit in die u(er)o t(em)p(or)is solus filius n(ost)r(u)m corp(us) a(n)i(m)amq(ue) suscepit. [red] R. O rege(m) celi ... V. Natus e(st) nob(is) ... [red] Lectio sexta. | Dies etenim aeternus Pater et Filius nostrum corpus et animam fecit; in die vero temporis solus Filius nostrum corpus animamque suscepit. |
 | Xp(istu)s dies et(er)nus unigenitus in forma dei manens. xp(istu)s in die t(em)p(or)is unigenitus forma(m) serui accipiens. Xp(istu)s dies et(er)nus. diues p(er)manens ut co(n)deret | Christus dies aeternus unigenitus in forma Dei manens; Christus in die temporis unigenitus formam servi accipiens. Christus dies aeternus dives permanens ut conderet nos |
 
-The only verbal difference is "enim" for "etenim". Beyond that there is spelling, and the book's own
+The verbal differences are "agnoscatur" for "agnoscitur" and "enim" for "etenim". Beyond that there is spelling, and the book's own
 division: lesson 5 begins at "Est igitur" (a large E, the rubric "Lectio quinta"), and lesson 6
 begins at "Christus dies aeternus".
 
@@ -100,12 +101,12 @@ Rein, Morimondo and Lubiąż:
 
 | Stams Frg. 209 | Cistercian antiphoners, Sunday after Christmas |
 |---|---|
-| R. Propter nimia(m) caritate(m) sua(m) q(u)a dilexit nos d(eu)s filiu(m) suu(m) misit. In similitudine(m) carnis pecc(at)i ut o(mne)s saluaret. V. Ecce ia(m) uenit plenitudo t(em)p(or)is in quo misit d(eu)s filiu(m) suu(m) natu(m) de virgine factu(m) sub lege | R 3.3 Propter nimiam (Cantus 602616: "... qua dilexit nos deus pater filium suum ... ut omnes salvaret"), V. Ecce jam venit (602616a; recorded with it for this Sunday in Morimondo) |
+| R. Propter nimia(m) caritate(m) sua(m) q(u)a dilexit nos deus p(ate)r? fi-liu(m) suu(m) misit. In similitudine(m) carnis pecc(at)i ut o(mne)s saluaret. [red sign, R or V, abraded] Ecce ia(m) uenit plenitudo t(em)p(or)is in quo misit d(eu)s filiu(m) suu(m) natu(m) de virgine factu(m) sub lege | R 3.3 Propter nimiam (Cantus 602616: "... qua dilexit nos deus pater filium suum ... ut omnes salvaret"), V. Ecce jam venit (602616a; recorded with it for this Sunday in Morimondo) |
 | R. Verbu(m) caro factu(m) e(st). | R 3.4 Verbum caro |
 | In laud(ibus) a(ntiphona). Alla? alla. ps. Miserere. Cap. Benedictio (et) claritas. R. Benedictus qui uenit. ymnus [unread]. V. Puer nat(us) e(st). | Lauds A Alleluia; R Benedictus qui venit; W Puer natus |
-| Ad b(e)n(edictus) a. Verbu(m) caro factu(m) e(st). Or. Conc(ede) q(ue)s(umus). | Benedictus antiphon Verbum caro |
-| [red, faded] ... a. Du(m) mediu(m) silentiu(m) tenere(n)t o(mn)ia ... V. D(omi)n(u)s regnauit ... Colla. Omnip(oten)s semp(iter)ne d(eu)s dirige actus n(ost)ros ... | additional Lauds antiphon Dum medium silentium (Cantus 002461) |
-| Ad iii cap. Multipharie. V. Tamq(uam) sponsus. ... Ad vi cap. Paruulus ... | Terce W Tamquam sponsus |
+| Ad b(e)n(edictus) a. Verbu(m) caro factu(m) e(st). [red, smudged] Co(n)dit[or]? ps.? | Benedictus antiphon Verbum caro |
+| [red] (Com)m(emoratio) de [b(ea)ta? or d(omi)nica?] a(ntiphona). Du(m) mediu(m) silentiu(m) tenere(n)t o(mn)ia ... V. D(omi)n(u)s regnauit ... Colla. Omnip(oten)s semp(iter)ne d(eu)s dirige actus n(ost)ros ... | additional Lauds antiphon Dum medium silentium (Cantus 002461) |
+| Ad iii cap. Multipharie. V. Tamq(uam) sponsus. ... Col(lecta)? Conc(ede)? q(uaesumu)s. Ad vi cap. Paruulus ... | Terce W Tamquam sponsus |
 
 *O regem caeli* (Cantus 007297) with its verse *Natus est nobis* stands after lesson 5 on the other
 page. In these antiphoners it is the Sunday's R 2.1, the first responsory of the second nocturn. The
@@ -127,8 +128,8 @@ gathering. That gives:
 - **fol. 1v** (canvas 1, left page): lessons 5-6;
 - **fol. 2r** (canvas 1, right page): the end of Matins, Lauds, Terce and Sext;
 - **fol. 2v** (canvas 0, left page): red rubrics for the later Hours and Vespers ("Ad iii cap.",
-  "Ad v(e)s(peras) a.", "R. Verbum?", "Ad m(agnificat)? a."), then "In vigilia circumcisionis. Ad
-  v(e)s(peras) sup(er) ps(almos) a(ntiphona)".
+  "Ad v(e)s(peras) a.", "R. Verbum?", "Ad m(agnificat)? a."), then "In vigilia circumcisionis [d(omi)ni?]. Ad
+  v(e)s(peras) sup(er) ps(almos) a(ntiphona)" and "(con)f(essoris) pont(ificis). Cap(itu)l(u)m".
 
 Physical details:
 - A drawn shield of arms (ink and wash) is in the upper margin of canvas 1, left page. It was not
@@ -140,6 +141,6 @@ Physical details:
 - **Use.** Cistercian use is probable, not established.
 - **Date and origin.** No date or origin is claimed; the formal textualis was not dated
   palaeographically.
-- **Unread texts.** The homily on Anna in the temple at the head of fol. 2r ("...nus pudica
-  permansit in templo ... unici viri"), the Lauds hymn and the Hours antiphon are unidentified.
+- **Unread texts.** The homily ending at the head of fol. 2r ("...mus pudica p[ermansit]? in
+  templu(m) ... nesciens uiru(m) ... [.]cepit filiu(m)"), the Lauds hymn and the Hours antiphon are unidentified.
 - **Relation to other copies.** No relation to any other copy of the office is claimed.

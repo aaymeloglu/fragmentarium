@@ -5,7 +5,7 @@ sets out the order of the divine office through the year. Its prologue begins "U
 meorum fraterna caritate semper proficere cupiens". The bifolium preserves four passages:
 
 - the last thirteen lines of the prologue;
-- a red heading that leads into "Capitulum primum";
+- a red heading that leads into "Capitulum primum" (abbreviated and faded);
 - the opening of chapter 1, on Advent;
 - on the second leaf, rules for the Sunday within the octave of Epiphany, the octave day, the feast
   of St William (of Bourges), St Paul the first hermit, and the weeks up to the Purification and
@@ -26,17 +26,18 @@ shown on the two images (Stams_STA_Frg_067_01r and _01v).
     in wording and sequence. The leaf then continues with the rubric into "Capitulum primum" and an
     Advent chapter, as a book ordering the office "per circulum anni" would.
   - **The prologue is the containing work, not a source.** It states the book's method: material
-    gathered from the Cistercian *Liber usuum* (the customary, also called *Ecclesiastica officia*)
-    and the books of definitions, with general rules "specified" for particular cases. Chapter 1
-    opens with the first sentence of *Ecclesiastica officia* cap. 1, as that method leads one to
+    gathered from a "liber [u]suum" (Loserth's copy reads "usuum": the Cistercian *Liber usuum*, the
+    customary, also called *Ecclesiastica officia*) and the books of definitions, with general rules
+    "specified" for particular cases. Chapter 1 opens with the first sentence of *Ecclesiastica officia* cap. 1, as that method leads one to
     expect.
   - **Alternatives.** The Cistercian codifications of statutes (the *Libellus antiquarum
     definitionum* of 1316, and personalised copies such as the one Les Enluminures sold as TM 1334)
     are named by the prologue as its sources. They are collections of statutes, not an order of the
     office, so they are not this work.
-  - **Difference of version.** The Stams leaf reads "ex libro usuum et libello diffinitionum anni
-    MCCCXVI quam (et) ex novellis diffinitionibus anno MCCCL in unum libellum redactis ...". Loserth
-    prints only "ex libro usuum et libello diffinicionum anno domini 1316 in unum libellum redactio
+  - **Difference of version.** The Stams leaf reads "ex libro [u]suum et libello diffinitionum anni
+    MCCCXVI quam (et) ex novellis diffinitionibus anno MCCCL in unum libellum redactis ...". The first
+    letter of "[u]suum" is a closed loop, unlike this scribe's pointed v; the rest is s, four minims and
+    a suspension stroke, which fits "suum". Loserth prints only "ex libro usuum et libello diffinicionum anno domini 1316 in unum libellum redactio
     decrevi". His "tam" has no answering "quam". Whether the Rome copy or the transcription lost the
     clause, or the Stams text represents a revision, is not decided here.
 - **Transcription:** the [image-only first reading](https://github.com/aaymeloglu/fragmentarium/blob/main/fragments/F-nf5f/readings/stams5-2026-11-01-image-only.json)
@@ -60,7 +61,7 @@ shown on the two images (Stams_STA_Frg_067_01r and _01v).
     reprinted in PL 166, col. 1385, on the archive.org page image.
   - **Leaf structure.** The checker confirmed that the two leaves are conjugate: their worm holes
     match when one face is mirrored onto the other.
-  - The coordinator compared canvas 1, right page, lines 1-5 of the prologue ("post [prio]ra de ordine divini offi[cii compendia diversis et] variis novitatibus viciata, ea q[ue] ... ex libro usuum et libello diffinicionum ... et novellis [diffinicionibus] anno ... redactis") with Loserth 1894, p. 485, on the MDZ page image ([bsb11555259_00527](https://api.digitale-sammlungen.de/iiif/image/v2/bsb11555259_00527/full/full/0/default.jpg)): the wording agrees, with the manuscript's added clause on the *novellae diffinitiones*.
+  - The coordinator compared canvas 1, right page, lines 1-5 of the prologue ("post [prio]ra de ordine divini offi[cii compendia diversis et] variis novitatibus viciata, ea q[ue] ... ex libro [u]suum et libello diffinicionum ... et novellis [diffinicionibus] anno ... redactis") with Loserth 1894, p. 485, on the MDZ page image ([bsb11555259_00527](https://api.digitale-sammlungen.de/iiif/image/v2/bsb11555259_00527/full/full/0/default.jpg)): the wording agrees, with the manuscript's added clause on the *novellae diffinitiones*.
   - **Gaps in coverage.** Only the prologue has an outside witness of this work; no edition of the
     body is known. The Advent chapter is compared only with its source. The second leaf is assigned
     to the work by conjugacy, hand and subject.
@@ -86,16 +87,18 @@ Native size is 7360 x 4912 pixels. Locations:
 | Stams Frg. 67 | Loserth 1894, p. 485 (Sessorianus 134) |
 |---|---|
 | post p(ri)ora de ordine diui(ni) officij (com)pendia diu(er)sis (et) varijs nouitatib(us) viciata ea q(ue) diuinu(m) respiciu(n)t offi(ciu)m ta(m) | post priora de ordine divini officii compendia diversis et variis novitatibus viciata, ea que divinum respiciunt officium, tam |
-| ex libro vsuum? et libello diffinitionu(m) Anni m ccc xvj qu(am) (et) ex nouellis diffinitionib(us) anno m ccc l in vnu(m) libellu(m) redactis et an[..]alib(us)? [hole] uno? anno editis ... d(e)cr(evi)? | ex libro usuum et libello diffinicionum anno domini 1316 in unum libellum redactio decrevi |
-| collige(re) et locis p(ro)p(ri)is assig(na)re ne quis iure antiq(uo) p(ro) nouo vtens crimen falsi co(m)mittat et ut illi q(ui) fore p(re)dictar(um) diffinitionu(m) [hole]tas? copiam no(n) h(ab)uerint vel ad tot sc(ri)pta t[ranscurrere hole] (non) v(a)cauerint | colligere et locis propriis assignare, ne quis iure antiquo pro novo utens crimen falsi committat, et ut illi qui forte predictarum diffinicionum singularum non habuerint vel ad tot scripta transcurrere non vacaverint |
-| h(ic) collecta sub co(m)pendio multa d(e) hijs inueniant que requirunt. Et q(ui)a que g(e)n(er)al(ite)r dicu(n)t(ur) n(isi) sp(eci)al(ite)r d(e)notent(ur) neglecta vide(n)t(ur)? Regulas co(mmun)es et g(e)n(er)ales sp(eci)ficare et determinatis curaui materijs applicare. | hic collecta sub compendio multa de hiis inveniant que requirunt. Et quia que generaliter dicuntur, nisi specialiter denotentur, neglecta videantur, regulas communes et generales specificare et determinatis curavi materiis applicare. |
+| ex libro [u?]suu(m) et libello diffinitionu(m) Anni m ccc xvj qu(am)? (et)? ex nouellis diffinitionib(us) anno m ccc l in vnu(m) libellu(m) redactis et an[n]alib(us) [hole] uno anno editis [mediu(m)? or inu(e)ni?] d(e) [a/c]r[...] | ex libro usuum et libello diffinicionum anno domini 1316 in unum libellum redactio decrevi |
+| collige(re) et locis p(ro)p(ri)is assig(na)re ne quis iure antiq(uo) p(ro) nouo vtens crimen falsi co(m)mittat et [..] illi q(ui) fore p(re)dictar(um) diffinitionu(m) [hole]tas? copiam no(n) h(ab)uerint vel ad tot sc(ri)pta t[ranscurrere hole] (non) v(a)cauerint | colligere et locis propriis assignare, ne quis iure antiquo pro novo utens crimen falsi committat, et ut illi qui forte predictarum diffinicionum singularum non habuerint vel ad tot scripta transcurrere non vacaverint |
+| h(ic) collecta sub co(m)pendio multa d(e) hijs inueniant que requirunt. Et q(ui)a que g(e)n(er)al(ite)r dicu(n)t(ur) n(isi) sp(eci)al(ite)r d(e)notent(ur) neglecta vi-/d(e)nt(ur) Regulas co(mmun)es et g(e)n(er)ales sp(eci)ficare et determinatis curaui materijs applicare. | hic collecta sub compendio multa de hiis inveniant que requirunt. Et quia que generaliter dicuntur, nisi specialiter denotentur, neglecta videantur, regulas communes et generales specificare et determinatis curavi materiis applicare. |
 
 The differences are listed below; the order is the same throughout.
 - The 1350 clause (above), read in part through a worm hole.
 - "anni MCCCXVI quam" where Loserth has "anno domini 1316".
-- "redactis" where Loserth has "redactio".
 - "[...]tas? copiam" where Loserth has "singularum".
-- Possibly "videntur" where Loserth has "videantur" (abbreviation uncertain).
+- "redactis et annalibus uno anno editis" followed by an unclear word and "de [a/c]r[...]" where
+  Loserth has "redactio decrevi". The last word may be "decrevi", but the second letter looks more like
+  a than c.
+- "videntur" (written vi-/dnt with the ur-sign) where Loserth has "videantur".
 - Spellings "diffinitionum" and "hijs".
 
 **Chapter 1** (canvas 0, left page, lines 5-9), against *Ecclesiastica officia* cap. 1, in Migne's
@@ -104,12 +107,13 @@ reprint of the *Usus antiquiores ordinis Cisterciensis*, PL 166, col. 1385
 
 | Stams Frg. 67 | PL 166, col. 1385 |
 |---|---|
-| In aduentu d(omi)ni d(omi)nica p(ri)ma ysayas incipiat(ur) ad uigilias (et) deinceps tot(us) legat(ur) | In Adventu Domini, Dominica prima Esayas incipiatur ad Vigilias, et deinceps totus legatur |
+| In h(oc)? aduentu d(omi)ni d(omi)nica p(ri)ma ysayas incipiat(ur) ad uigilias (et) deinceps tot(us) legat(ur) | In Adventu Domini, Dominica prima Esayas incipiatur ad Vigilias, et deinceps totus legatur |
 | (red virgula) | per Adventum, |
 | no(n) solu(m) ad uigilias s(ed) (et) in refectorio p(ro)ut [abbreviated word] exp(e)[t/d]ierit | non solum ad Vigilias, sed et in refectorio prout tempus expetierit |
 | P(ro)festis? tu(m)? dieb(us) ad uigilias paulo post ... | Eisdem quoque diebus cum post Vesperas ... |
 
-The manuscript keeps the first sentence of *Ecclesiastica officia* cap. 1. It lacks "per Adventum",
+The manuscript keeps the first sentence of *Ecclesiastica officia* cap. 1, with a short abbreviated
+word after "In" (h with a stroke above, possibly "hoc") that the edition lacks. It lacks "per Adventum",
 where a red virgula (a short stroke) stands. The abbreviated word after "prout" is not clearly
 "tempus". From the next sentence on, the leaf departs from that chapter. Just above this passage the
 leaf gives the date limits of Advent ("Adventus domini non ante v kal. nec post tertio nonas
@@ -119,7 +123,9 @@ decembris"), introduced as an alternative rule ("vel accipe aliam regulam").
 transcribed by Loserth: "Incipit prologus in libellum ordinis"; "Explicit libellus ordinis per manus
 fratris Ludowici de Tulna, monachi Sancte crucis". The second names the Rome copy's scribe, not the
 author. Loserth names no author, and the work is anonymous here. Its Cistercian purpose rests on the
-prologue's sources and on the rubric "eiusdem ordinis ... capitulo generali".
+prologue's sources (the Order's books of definitions of 1316 and 1350) and on chapter 1's use of
+*Ecclesiastica officia*. The red rubric below the prologue is mostly illegible; it mentions "eiusdem
+ordinis" and, on the next line, "nostris generaliter", without naming the Order.
 
 ## Leaf order, other items, and what is not claimed
 

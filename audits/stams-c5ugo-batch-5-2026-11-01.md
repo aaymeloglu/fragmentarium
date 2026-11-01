@@ -35,11 +35,18 @@ left for later.
 1. Tile packets from native images; a pencil note on F-hjri naming its host
    volume was masked. First readings by fresh model readers given only the
    prompt and tiles (`stams5-2026-11-01-image-only`), frozen before research.
-   The environment caps how many images one session can display: in packets
-   02 and 14 the first reader never saw several images, and further fresh
-   readers read only those images (their readings are appended to the same
-   response); the first reading of packet 17 transcribed images that had
-   not displayed and was discarded and replaced by a fresh reader's.
+   Readers had two or three packets each. A session can hold only so many
+   images: past that point (here after 76 to 115 images, counting the
+   readers' own crops) the environment replaces images viewed earlier with a
+   removal notice. Twelve of these readers (packets 01-06, 09, 12-15 and 18)
+   wrote their response files only after that had happened, from what they
+   had noted while the images were in view. Every tile had displayed at
+   least once. The readers of packets 02 and 14 took the notice to mean
+   they had never seen some images, and further fresh readers read those
+   images again (appended to the same response); the packet 17 reader said
+   the same, and its reading was discarded and replaced by a fresh reader's,
+   although its session log shows it had viewed those tiles and written its
+   file before any were removed.
 2. Research by ten sessions, two records each. Nine were sent back: to read
    sources on page images rather than OCR or snippets (F-e8dj, F-fns2,
    F-nf5f, F-f14r), to test named candidates (Hugutio and the *Catholicon*
@@ -54,7 +61,8 @@ left for later.
 4. Checks. For every identification a fresh checker read a passage on the
    image and compared it on a source page image. For F-t8sd, F-xoto, F-cf1m,
    F-t6qr, F-f14r and F-nf5f the passage was one the research had not
-   transcribed; for F-cwhu, F-dxj5, F-e8dj, F-fns2, F-gi8c, F-aegc, F-17j8
+   transcribed (F-t6qr's checker's reading of it did not hold on the image;
+   see "Reread and corrections"); for F-cwhu, F-dxj5, F-e8dj, F-fns2, F-gi8c, F-aegc, F-17j8
    and F-v7op the checker reread lines the research had already transcribed,
    choosing the weakest. Most checkers had read the research report
    before reading the image, so these are rechecks, not blind readings. For the two documents, two fresh readers with no transcription
@@ -86,6 +94,66 @@ left for later.
 - Documents: the word check confirmed F-0kh0's year word and F-d358's month
   and year; both readers misread the looped Z of "Zeinß" as J; F-d358's
   place and noble surnames were cut back to what the image shows.
+
+## Reread and corrections
+
+The twelve affected packets were read again by fresh readers, one packet
+per session, each writing every tile up before opening the next
+(`stams5-2026-11-01b-image-only`). Only the packet 05 reader reached the
+image limit; it too took the removal notice to mean it had never seen
+images 001-007 and marked its own readings of them invalid. Its session log
+shows each of those images displayed before its section was written, so the
+labels were removed and its text kept unchanged. Two readers left tiles that
+the overview showed as blank or bare wood unopened, and say so.
+
+Each reread was compared with the original first reading and with the
+report. At 167 places the readings disagreed on something the report quotes
+or relies on, and a fresh checker, shown the competing readings unlabelled
+and in random order, chose on the image. Counting only clear choices, the
+report's reading was preferred at 61 of 162 places, the reread's at 52 of
+166 and the original first reading's at 24 of 142; the rest were split, a
+reading of the checker's own, or undecidable, and most choices were of low
+or medium confidence. These were the disputed places, not a sample of the
+text. For each record a fresh session then read every disputed place the
+report relies on, on the native image before opening the source, compared
+it with the source page image, and corrected the report. No identification,
+status or locus changed. The main corrections:
+
+- F-t6qr: the display heading is *Habita* (two-colour H, "[H]abita su[p"),
+  and the gloss lemma above it reads "[E]x patroni", the gloss on C. 4.13.5,
+  where the report had "Exceptioni". Six lines stand between "profess-" and
+  "quod grauiter", where the report had them adjacent. C. 4.22.1 now rests on
+  line openings that follow the printed *In contractibus* gloss in order;
+  "Quia per scripturam", "In contractibus", "P(re)mittit" and the
+  coordinator's "Macedo" lines are not on the image.
+- F-17j8: neither letter on which the 2r/4v join was read is visible ("mun"
+  plus a round letter; "[d]ul[c]e"); the join rests on the run of the chant
+  across the junction. "expectaren[t]" is "expectan[...]", "[p]atr[is]" is
+  dropped, and the board-to-2v link is lowered to probable.
+- F-v7op: the lower piece on canvas 4 is two-column textualis written at
+  right angles to the main face, not a mirror-image offset; there is no fold
+  between the text blocks, so the layout is not established. Commentary
+  readings corrected.
+- F-cwhu: the claimed absence of "pater" in *Propter nimiam* is withdrawn
+  ("deus p(ate)r fi-"), and the homily is no longer described as on Anna.
+- F-nf5f: "capitulo generali" is not on the leaf ("nostris generaliter");
+  the Cistercian attribution rests on the prologue's sources and the
+  *Ecclesiastica officia* opening. Both dates stand.
+- F-e8dj, F-dxj5, F-t8sd, F-gi8c: readings corrected or marked uncertain
+  (e.g. F-t8sd "iniuriam hoc expostulem" against the print's "hanc"; F-dxj5
+  lesson 2 and responsory 2 cut back; F-gi8c "fora" where the Vulgate has
+  "fortior", possibly an abbreviation whose mark is lost at the cut edge).
+- F-owoj, F-d7ux, F-hjri: research readings corrected (F-owoj "eccl(es)ia
+  s(an)c(t)e marie" for "restitutione spoliatorum", "quod omnes tangit" no
+  longer a topic, "xviii. di." legible; F-d7ux has one text block per face
+  and no prayer ending; F-hjri "villica(m)" and the German gloss "mayr
+  [H]offmaister"). New searches on the corrected readings found nothing.
+
+The coordinator's own check lines were wrong in two places (F-t6qr's
+"Macedo" lines; F-nf5f's "usuum" for "[u]suum") and are corrected. Readers
+working from images alone, the research reading made with the source in
+hand, and the checkers each misread: at disputed places in faint script no
+single reading should be taken as settled without a look at the image.
 
 ## Not done
 
