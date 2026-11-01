@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-11-01T23:54:54.347473+00:00",
+  "first_reading": "stams7-2026-11-01-image-only",
+  "first_sha256": "c30653eb034b1e4e635567ba847f0556a95fb7dafbe71a2ede0dbb5c58965526",
+  "fragment": "F-mrl7",
+  "id": "stams7-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude (Opus 5.5) research and report sessions",
+  "reason": "With the edition and the A print in hand the reader resolved rubrics and words the first reading could not, such as 'de secretis mulierum', 'Dudum in inuicem', 'dulcissimaque' and 'theorica', and corrected 'In auctore' to 'Tu auctor'.",
+  "schema_version": 1,
+  "sources": [
+    "Nigel Harris, The Light of the Soul: The Lumen anime C and Ulrich Putsch's Das liecht der sel (Oxford: Peter Lang, 2007), §§480-481 p. 356, §475 and German §474 p. 353, index of authorities pp. 479-483; Google Books lg8fnDLXLKoC, snippets only",
+    "Lumen anime A: R.P. Berengarii ... liber succinctus et mire succosus de euentibus rerum (Augsburg: Miller, 1518), cap. 32, fol. 104; BSB Res/4 P.lat. 1106#Beibd.3, MDZ bsb10202719, scan 47 (page image)",
+    "Liber moralitatum ... Lumen anime dictus, ed. Matthias Farinator (Augsburg: G. Zainer, 1477), Titulus septimus; MDZ bsb11201678, scans 177-178 (full-text search)"
+  ],
+  "text": "Source-assisted reading of Stams, Stiftsarchiv, Frg. 108 (F-mrl7), made with Harris 2007 (Google Books snippets) and the Augsburg 1518 print of Lumen anime A (MDZ bsb10202719, scan 47) in hand. Reread on the native images: canvas 1 lines 1-8 and canvas 0 lines 1-11. Canvas 0 lines 7-11 and canvas 1 lines 6-8 are weak and were not compared with a source. Expansions in parentheses; uncertain readings marked (?); [ ] = lost at the tear or illegible. Line numbers count from the top of each face.\n\nCanvas 0 (Stams_STA_Frg_108_01r), native box 2830,2450,4730,3200; right edge of column visible\n1  [fir]mamentu(m)(?) se[..]aute(?) et orbe(?) sustentantur · [red] Hic firmame(n)ti\n2  materia et sum[..] celeste soli(?) velo(ci)te · q(uo)d t(ame)n a mobili(?) [cursu?] spacio(?)\n3  sustentas tota(m) machina(m) Quia(?)/huius(?) m(u)ndi · [red] Unde [red] Athanasi(us) in sermone\n4  [red] Dudum in inuice(m) ta(m) celi q(uam) terre [r]uisset machi(n)a si no(n) sustentas-\n5  [s]es o tu mat(er) dulcissimaq(ue) media(?)/maria(?) [red ¶] Alkabici(us) i(n) theorica planetar(um)\n6  [Cu]ncti quidem planete motu [..]sunt(?) faciunt [..] firmame(n)t[um](?)\n7  [..]tra(?) spaciu(m)(?) ulterius(?) ... [red] Nam(?) ut refert [red] Ph-(?)/Pl-(?) ...\n8  [..] motus plan[etarum] ... toti(?) vniuersu(m) se in[...]\n9  ... et ho(m)i(nu)m desideri[...]\n10 ... [red] Vale[...](?)\n11 ... [.]o xpi(?) ...\n\nCanvas 1 (Stams_STA_Frg_108_01v), native box 3010,2400,4950,3180; left edge of column visible\n1  anshelm(us) in sermone · [red] Tu auct(or) salutis mee (et) turris fortitu-\n2  dinis cont(ra) demone(m) · omne(m) ei(us) i(n) nob(is) tu p(er)imis p(ra)uitate(m) [red ¶] Gil-\n3  bert(us) de s(e)c(re)t(is) mulier(um) · [red] Mulier debilis et infirma sep(e) · sp(ecu)l(u)m q(uo)d\n4  i(n)spicit visib(us) suis ip(s)i(us) frangit · [red] R[...]o e(st)(?) · [red] Nam quedam infectiua\n5  exala(cio)(?) vis(us)(?) femine(i) comestiu(m)(?) puer(orum)(?) corp(or)is frigiss(im)e(?) i(n) media q[ue-]\n6  q(ue)admodu(m) refert [red] Constantin(us) · Benedicta(?) cui(us) multo(rum) infirmor(um) [...]\n7  [...] expallesc[it](?) ... [.]u(?) sibi frangit et a[...]\n8  [...]ne a(n)i(m)e [red] Tria(?) a[...]\n",
+  "text_sha256": "3a391d408e6396e01b7cbbd0234b737cd71ab2d8381dfd959957a707b5774000"
+}
