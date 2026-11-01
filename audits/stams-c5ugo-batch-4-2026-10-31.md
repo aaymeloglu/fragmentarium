@@ -17,7 +17,7 @@ documents. The 44-piece court record F-lv0w was again left for later.
 | F-cb2e (Frg. 80) | identified: Henricus de Frimaria (per Schneyer), *Sermones de tempore* series 2, Septuagesima to Jubilate; shorter than Clm 3764 in the passages compared |
 | F-31t6 (Frg. 81) | identified: two manuscripts; the Passion treatise *Scitis quia post biduum* (ed. Ferber 1935) and Antonius Rampegolus, *Figurae Bibliae* (items 81_9-10 only) |
 | F-o5pg (Frg. 123) | identified: Peter Comestor, sermons for Laetare and Palm Sunday, under the rubric "Sermo Manduc(atoris)" |
-| F-vjii (Frg. 142) | identified: two sermons, *Mandatum novum do vobis* (listed by Schneyer under Alan of Lille) and *De sobrietate et IV vigiliis*; a Marian sermon unidentified; probably the same codex as F-o5pg |
+| F-vjii (Frg. 142) | identified: two sermons, *Mandatum novum do vobis* (listed by Schneyer under Alan of Lille) and *De sobrietate et IV vigiliis*; a Marian sermon unidentified; possibly the same codex as F-o5pg (plausible, not proven) |
 | F-3wa4 (Frg. 85) | identified: Thomas Aquinas, *Expositio libri Posteriorum* I, lect. 7-13 |
 | F-xnhr (Frg. 35) | identified: Laurentius de Aquileia, *Tractatus de variis modis componendi epistolam*; the fragment's own rubric names Aquileia |
 | F-w7wh (Frg. 54) | identified: Nikolaus Herman's verse rendering of Mathesius' *Oeconomia* (printed 1561), abridged; a Psalm 128 paraphrase before it unplaced |
@@ -27,8 +27,8 @@ documents. The 44-piece court record F-lv0w was again left for later.
 | F-v82x (Frg. 69) | identified: missal, Ordo missae after the Canon, probably Cistercian; a Visitation Mass added later; r/v labels reversed |
 | F-e0vk (Frg. 214) | identified: missal, Common of apostles; use not identified |
 | F-wbkk (Frg. 260) | identified: breviary, Matins of the Visitation office *Accedunt laudes virginis* (the catalogue had named the feast and two antiphons) |
-| F-py5e (Frg. 55) | identified: fief reverse of the guardians of the Schrofenstein daughters for the farm zum Steg at Oberlana, held of Stams; 29th day, month and year lost (probably 1546-1558) |
-| F-c1cn (Frg. 166) | partial: grant by Stams of a heritable holding, St Bartholomew's day; year, tenant and property lost |
+| F-py5e (Frg. 55) | identified: fief reverse of the guardians of the Schrofenstein children for the farm zum Steg at Oberlana, held of Stams; 29th day, month and year lost (1546 or later, probably 1546-1558) |
+| F-c1cn (Frg. 166) | partial: grant of a heritable holding issued at Stams (issuer lost, probably the abbot), St Bartholomew's day; year, tenant and property lost |
 | F-4hud (Frg. 164) | unidentified: German sermons (Ascension, Marian praise) |
 
 ## Process
@@ -91,11 +91,11 @@ documents. The 44-piece court record F-lv0w was again left for later.
   (not public), agree in scale, line pitch, column width, hand and rubric
   style; one codex is plausible, not proven.
 - Several pieces were covers or linings of later books and records: F-w7wh of
-  Urbare labelled 1594 and 1595, F-mzu8 of Hs 287 or 308, F-py5e of a
-  charter of 1572 until 1963, F-pk0m of an *Officia propria Brixinensia*
-  printed at Brixen in 1673.
+  Urbare labelled 1594 and 1595, F-mzu8 probably of Hs 287 or 308 (pencil notes), F-py5e of a
+  charter of 1572 until 1963, F-pk0m, per a modern note, of an
+  *Officia propria Brixinensia* printed at Brixen in 1673 (host copy not checked).
 - Not all the waste is medieval: a 1629 printed map, a late sixteenth-century
-  calligraphic verse sheet (F-w7wh) and a deed of the 1540s or 1550s.
+  calligraphic verse sheet (F-w7wh) and a deed of the mid-sixteenth century (1546 or later, probably before 1558).
 
 ## Not done
 
@@ -121,3 +121,27 @@ abridgement, when the comparison shows only that it is shorter than
 Clm 3764 and the direction of change is open; and F-l7tu and F-v82x were
 said not to be copies of Fribourg L 305 on the strength of small variants,
 which cannot exclude dependence.
+
+A later pass against the report brief's checklist of overreaching claims
+(1 November 2026) qualified further statements: Augsburg use is excluded only
+for the printed order of 1510/1555; the Cistercian features of F-l7tu and
+F-v82x are not shown to be exclusive; F-vjii's dependence on NAL 999 and
+F-xnhr's relation to the Paris copy are left open (and "school version"
+dropped); F-py5e's wards are "children", as the text says, and its window
+admits 1562-1564; F-c1cn's issuer is "probably" the abbot; F-31t6's Kiel
+attribution is doubtful rather than impossible; F-3wa4's other commentaries
+are untested rather than set aside; and smaller wording in F-e0vk, F-wbkk,
+F-w7wh, F-qcam and F-4hud.
+
+## Follow-up, 1 November 2026
+
+CoMMA searches for F-31t6 and F-o5pg had not finished during the batch
+(several research sessions were searching at once). One batched search,
+run alone, completed. Three more F-31t6 items were placed in Rampegolus'
+*Figurae Bibliae* (81_7r *Humilitas*, 81_8r *Fides*, 81_11v *Diabolus*),
+collated on the print and on Munich Clm 14376; an earlier check had wrongly
+said the 81_8r lemma occurs in the print only as a quotation. 81_4, 81_5,
+81_6 and 81_7v remain unplaced. For F-o5pg a clause the fragment shares
+with Soissons BM 131 and other manuscripts is absent from the printed text,
+and the earlier suggestion of a fuller text was withdrawn. An independent
+checker confirmed both on page images.
