@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-11-01T01:48:25.227652+00:00",
+  "fragment": "F-fpb6",
+  "id": "stams-2026-10-31-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "dde21f42ab54e64755dd7ea8ce33004bde6d608594f980b775a102e9a14917af",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_184_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "80a37de0a00361aa4f187cb41666aad0602fc0d4a7f5063c56d2d5b23375fd5a",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_184_01r): native-pixel box 3010,672,4246,2086; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "5f01e61544d235f50f69f6c99c708864f26f784d7b447766dfb92f984647a272",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_184_01r): native-pixel box 3981,672,5218,2086; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "d505662571c3235bdfb3a47a1f4d51babf9094dd9f5ea348e730f5d74e78b7eb",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_184_01r): native-pixel box 3010,1783,4246,3348; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "99612554e745af7548915c88ea3bec0c7ce95bcbf1112dd126b82d451969cc52",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_184_01r): native-pixel box 3981,1783,5218,3348; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "686996fa3b76196b9004a9163e11b867137fdeafab8020e3410263e60812fd14",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_184_01r): native-pixel box 3010,3045,4246,4460; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "f31941014097ea6944086461e0aa96e9a8d9715264a869130f83030ec12c53f4",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_184_01r): native-pixel box 3981,3045,5218,4460; unrotated grid position column 2 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "d1cb719f25804ef5b7dab1bf929f0a8b4f1cbf8650959c08daecabaf3efa0b9f",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_184_01v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "3355f0cd7b1b019a2fb97a719306ed0eafb3eec313cba9bde5d3a6696b9ee89f",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_184_01v): native-pixel box 2848,643,4100,2056; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "2e65248ca152890ad143d1739dda179b806465e69a578b530faa88fe881b0375",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_184_01v): native-pixel box 3832,643,5085,2056; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "7b0ae3ceb0d9bc1a4ed1651612ca22dd136d7549275e318e2ba97ac72609408e",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_184_01v): native-pixel box 2848,1753,4100,3319; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "d427a47382053e2d170e29a4876928a8a0628c15e19ebac747334ace4d918d23",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_184_01v): native-pixel box 3832,1753,5085,3319; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "1eecc0b0cebed8e6f47b28f6294ba3948c281091ebd972b9017ae2d9a0d004b7",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_184_01v): native-pixel box 2848,3016,4100,4430; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "44f78202f8206762c8d3f3b8c342a1c7dd60b6264b5735ffe80e128481257085",
+        "source": "https://fragmentarium.ms:443/loris/F-fpb6/Stams_STA_Frg_184_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_184_01v): native-pixel box 3832,3016,5085,4430; unrotated grid position column 2 of 2, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-31 (packet-04)",
+  "text": "PACKET-04 - unverified first reading from images only\n\nExposure / method notes\n- No identification of the work or author was revealed to me. The images show modern holding marks: a violet stamp \"Stiftsarchiv Stams\" and pencil \"Stams, StA, Fg. 184r\" (face A) and \"Stams, StA, Fg. 184v\" plus \"...305\" (face B). The directory name contains \"stams\". These are provenance labels only, and I did not use them to identify the text.\n- Beyond the rules: I made enlarged crops of image-002, image-003, image-004 and image-005 (the top line and the torn middle lines of face A) in my own scratch directory. I viewed only those derived crops and the 14 packet images.\n- All 14 images loaded.\n\nLayout survey (observations)\n- image-001 = overview of face A, with native tiles image-002 (upper left), image-003 (upper right), image-004 (middle left), image-005 (middle right), image-006 (lower left) and image-007 (lower right). image-008 = overview of face B, with native tiles image-009 (upper left), image-010 (upper right), image-011 (middle left), image-012 (middle right), image-013 (lower left) and image-014 (lower right). Adjacent tiles overlap by several words and lines. I read each overlap once.\n- A single leaf with cut corners, folded horizontally (fold lines near the top and bottom, which were probably turned over as a binding strip). It has holes and tears in the middle lines. It holds one block of long lines (no columns), about 23 text lines per face, written in a Caroline-type minuscule in brown ink. Words are cut at both the left and right edges, so the leaf has been trimmed on both sides and line beginnings and ends are lost.\n- Red is used for a chapter-number mark in the line with a red bracket: \"VII\" on face A at l.14 and \"VIIII\" on face B at l.1. Face A also has a red 2-line initial S (l.21) and a red stroke at the left edge (l.15). Face B has faint red marks at l.11 (perhaps another number, illegible).\n- No glosses or underlining. There is one interlinear correction: on face A l.12 a \"d\" is added above \"amissa\", giving \"admissa\".\n- Tentative: continuous historical narrative prose with chapter numbers. Face B contains an explicit source reference (\"sic historia in apostolorum actib(us)?\") and a named authority (\"clemens alexandrinus\").\n\nSelected spans: all surviving lines on both faces. Unread: letters lost at the trimmed edges and in the holes, and parts of face B lines 9-17 where the surface is stained and torn. Raking light or UV on face B lines 9-17 would help.\nLine numbers count from the top of the overview image (image-001 or image-008). The tiles holding each line are given in brackets. \" | \" marks a hole or tear. [..] marks lost or illegible text.\n\nFACE A (image-001; tiles 002-007)\nl.1  [002/003] [..]ine?[hole]perturbatio. pro eo q(uo)d et? sacrum e?sarium? / e?carium? quod ap(u)d? cor?/eos? pati[..]   [the top line is in a stained, abraded band; \"quodapat\" is written as one unit]\nl.2  [002/003] appellat(ur). contra fas in usus communes publicaq(ue) ductus pro ga(n)[..]?   [the right edge is cut after \"progan\"]\nl.3  [002/003] [.]ua trecentis stadiis deducebat. Pro quo nimia indignatione p[..]\nl.4  [002/003] [c]umq(ue) adesset pilatus hierosolimis audent adire eu(m) | (et) clamorib(us)\nl.5  [002/003] le p(re)uiderat enim sedicione(m) futura(m). milites habitu | plebeio obte[..]\nl.6  [002/003] titudini inmiscuit. p(re)cepto eis dato. ut ne? (written \"utine\") gladiis in sediciosos.\nl.7  [002/003] rent. Igit(ur) ubi temp(us) fuit signo de tribunalib(us)? / tribunali b. dato. cedi p(ro)?ternu[..]?   [the last word is cut at the edge]\nl.8  [002/003] [N]onnulli uerberantiu(m) uulnerib(us). plurimi au(tem) dum in fugam conf[..]\nl.9  [002/004/005] p(ro)pria constipatione p(er)culsi perire. Reliqui uero disp(er)si (et) suoru(m)[..]\nl.10 [004/005] territi : [i]um doloris silentio repressere. Multas p(re)terea d[..] | [hole at right]\n     [A long vertical ink stroke in the left part of the line area runs down through l.9-11, between \"territi\" and \"ium\". It is perhaps a later mark or a deletion stroke. It is not legible as text.]\nl.11 [004/005] solimis eis aduenisse dum nouissem? preb(?) sediciosius? p(re)?sident?/fident. I[..]   [the word after \"nouissem\" looks like \"preb.\" with a point]\nl.12 [004/005] [..]xconit(ur)? / [..]xponit? ostendens quod ex admissa (d interlinear) sacrilegii tempore. numqua[m]\nl.13 [004/005] nu(m)? furor. num[hole]ua? bella mortesq(ue) cessarunt. Usq(ue) quo? (written \"Usq-quo\") ultimu(m) o[..]?\nl.14 [004/005] lum. tempor[hole]e? Vespasiani eos obsidionis inclusit. [RED bracket + \"VII\"]\nl.15 [red stroke at the left edge] [004/005] git iudeos re commisso scelere | [torn ..] [..]damnabat? : Sed[..]? / Sedi[..]?   [the middle is torn and faded]\nl.16 [004/005] [..]atorem? iniqui iudicis functus officio est. isdem temporib(us). g?[..]\nl.17 [004/005] lib(us). malor(um) cladib(us) cruciatus est. ut p(ro)pria se manu transuerbera[..]\nl.18 [004-007] uita(m) [u/c]um? abiecisse referatur. Nec en(im) poterat. tanti piaculi n[..]\nl.19 [004-007] nitus euadere. sic in historiis grecor(um) repperim(us). eor(um) dumtax[at]\nl.20 [006/007] desscribunt. (et) annales reru(m) gestaru(m) libros. ad posteritatis memo[..]\nl.21 [006/007] [RED initial S, 2 lines] Sedeni gaio. iiii. annis nec integris principatu ministrato. cl[..]\nl.22 [006/007] [..]sator succedit. Sub quo fames satis dira uniuersu(m) orbem t[..]\nl.23 [006/007] [H]oc tam(en) ita futuru(m). longe ante n(ost)ri prophete p(re)dixerant. Sic\n     [The rest is blank: stamp, a dark circular stain, and the fold.]\n\nFACE B (image-008; tiles 009-014)\nl.0  [009/010] [top edge: trimmed line, descenders only]\nl.1  [009/010] [..]inserit? / [..]insererit? habitarat? hierosolima. [RED bracket + \"VIIII\"]\nl.2  [009/010] [..]ha[..]didit? dicens. [I]llo? au(tem) tempore siue? / sine? ibi tempus quod\nl.3  [009/010] [..]ucho? / [..]iudic[..]? [..]ut. cum fames erat designans. Inmisit | inquit herode[s]\nl.4  [009/010] [..]ius? / [man]us? adfligere | aliquos de ecc(lesi)a. Et interfecit iacobu(m) fr(atre)m iohannis gl(adi)o?   [the last word is written like \"cla\"/\"gla\"]\nl.5  [009/010] [..]au(tem) iacobo clemens alexandrinus. alia(m)? historia(m) quanda(m). digna(m) me[..]\nl.6  [009/010] [..]timo? dispositionu(m) suaru(m) libr[o] [..]ibit? / scribit?. Perlata(m)? ad se? usq(ue) extra\nl.7  [009/010] [..]ior(um)?. Q(ue)m quide(m) inquit (et) ill(e)? / illius? qui obtulit eu(m)? iudici? / [..]ui admarci? / ad mart[..]?   [the middle is faint]\nl.8  [009-012] [..] scilicet. motus etiam ipse. confessus est se esse xp(ist)ianu(m). Ducti\nl.9  [009-012] [..] ambo pariter | [..]su(p)?[..] | [p(er)]ducerent? in uia rogauit\nl.10 [011/012] [..]sibi [re]missione(m). A[..] parumper deliberans. pa[x]? t(ibi)?[..]   [damaged right end]\nl.11 [011/012] [P]ilatus? / [..]ulatus et [..] Et ita ambo simul capite plexi sunt. [faint red marks, illegible] [..]\nl.12 [011/012] Inquit itaq(ue)? scriptura diuina. uidens herodes q(uo)d? | [..]iacob[..]   [stained]\nl.13 [011/012] [..]ratu(m)? esset iudeis. addidit adhuc [..]petru(m)? | [..]iecit? incarcere(m)\nl.14 [011/012] [..]m ipsum punire uolens. s(ed)? [..] diuinu(m) adiu[..] | [hole] [..]ia? auxilium\nl.15 [011/012] noctu adsistens. [..]ab[torn..] [..]uinc[..]? nexib(us) solut(us) (et)\nl.16 [011/012] p(re)dicationi? ire liber[..] | [..] Et cum p[..] iudeo? [..]gesta? sun[t]?   [faint]\nl.17 [011/012] [..]cimus in apostolor(um) p(ro)p(ri)o? actu? | [..]tatione(m) [..] ultionis? Sed\nl.18 [011-014] [iu]dex? [..]dei? diuinitus dextera. sic historia in apostolor(um) actib(us)?\nl.19 [011-014] [..]redocet? / [..]ecodet?. Cum inquit cesarea(m) descendisset herodes. (et) in cl?ro? / (et) in claro?   [the last word is unclear]\nl.20 [013/014] [..]a ueste regia indutus pro tribunali consedisset. hac de sublimi\nl.21 [013/014] [..]r ad p(o)p(u)l(u)m. cumq(ue) p(o)p(u)l(u)s acclamaret ei d(e)i uox (et) non hominis.\nl.22 [013/014] p(er)cussit eu(m) angelus d(omi)ni. eo quod non dederat gl(or)iam d(e)o. Et scatens\nl.23 [013/014] [..]spirauit. Miraculo au(tem) dignu(m) est. q(uam) tanta? (written \"tantā\"?) consonant iam diuina[..]\n     [The rest is blank: stamp, stain, and the fold.]\n\nLimitations\n- The leaf is trimmed on both sides, so every line lacks a beginning and/or an end. I have not filled any of these in.\n- On face B, l.9-17 have water staining and holes, and many readings there are tentative.\n- The top line of face A sits in an abraded, stained fold band.\n- Which face is recto: the pencil labels say 184r for face A and 184v for face B. That is an archival label, not my inference.\n",
+  "text_sha256": "56d37b34a9f1c5a7f40b21929afb256c67a3061d2e57020fee1ba2207f238e21"
+}

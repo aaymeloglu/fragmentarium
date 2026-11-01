@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-11-01T01:48:25.187225+00:00",
+  "fragment": "F-zdff",
+  "id": "stams-2026-10-31-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "5f0b61e9704f9f37d91a0b01e38ed51ac7d127b68abfb5f656efe9736a375252",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "fbeb8e2cc020171dfc2d530586847cf48c74822480caeae6d786604343a25484",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 1920,451,3283,1984; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "0a19a3c70790ac63aa283dc5307e3bf9d623dc11362658cb90c8cd4ac3131389",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 2990,451,4500,1984; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "e36f7d2ab099fae3152f3546f946a9166826bd4f48d923201dbf8354ae27b99a",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 4207,451,5571,1984; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "237b2c5ac59926641b4eaaad671c9ccb4a15768a4b1abe72041bdb177c8cae1e",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 1920,1655,3283,3353; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "7882bbf6584e25d6a1d426905c11d244acad2552777dc7040cdaf4c5456ead31",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 2990,1655,4500,3353; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "8cbfdd2d5393133fbb20b4eb49be3d28bfb9587565dc0b9d634a9af99df605c2",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 4207,1655,5571,3353; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "add9b31c27bad2f4ca27d5d7c34140a965afc96daa19c20d06b7fffe6e7323e1",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 1920,3024,3283,4558; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "3bb9eee03391841c95c2db311fea3e9270d5cecbfc81a4ec0c285d8a6653702b",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 2990,3024,4500,4558; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "c9ad0dc5c3e9a897a685f40a27202256766a3dd8585e3aadd44092aa1bf5dace",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_052_01r): native-pixel box 4207,3024,5571,4558; unrotated grid position column 3 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "1643ecc967ee4e7c7de303b36d50ff7eef6b1cb60bd2bbd2f8ab446e45774da1",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "003c6436764729c92005e6625588139e3cb65c0fa84fc8474923e41adbab7017",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 2208,579,3556,2112; unrotated grid position column 1 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "12326df8944b391244ab98c0c7307d401cd893ab4cf0ef2d9f53788e5a0edcd1",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 3267,579,4761,2112; unrotated grid position column 2 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "e701fdb93093e98667f91e29f1cf46b6f2aa32a128fe0f7b274099dd36f11f85",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 4472,579,5821,2112; unrotated grid position column 3 of 3, row 1 of 3"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "be5b9f7d48edbc43b5b70cce69ee2a3c792ece08b999d97bf8e5e958ebd2f528",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 2208,1783,3556,3481; unrotated grid position column 1 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "8b8c5cd653a82e69a969d05345c8bef74691146521a3ba62191e759cc39cc29c",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 3267,1783,4761,3481; unrotated grid position column 2 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "3c79c9f93a4edadedae1a53063314ed3f692d9c31440b75924a79096d01e38e3",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 4472,1783,5821,3481; unrotated grid position column 3 of 3, row 2 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "4dd3386b0ddc5b12f20c654f6f6754bd8d83a1edb8a00887cb4941deb50cb485",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 2208,3152,3556,4686; unrotated grid position column 1 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "57f6a02a24189dc67eacbae7a8e0c966ed28d272350e20c3582ab696e3321144",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 3267,3152,4761,4686; unrotated grid position column 2 of 3, row 3 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "c2654a7e7271e7d053df1685c5e99636ad8d0a5566ece350699e875b122b1ff2",
+        "source": "https://fragmentarium.ms:443/loris/F-zdff/Stams_STA_Frg_052_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_052_01v): native-pixel box 4472,3152,5821,4686; unrotated grid position column 3 of 3, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-31 (packet-01)",
+  "text": "PACKET-01 - first-reader response (unverified image reading)\n\nEXPOSURE / PROCEDURE NOTES\n- No proposed identification or prior reading was revealed to me. Provenance-like information I saw comes only from (a) the packet path name \"stams3-read\" and (b) the object itself: modern pencil labels \"Stams, STA, Frg. 52r\" / \"Stams, STA, Frg 52v\" and a purple rubber stamp on the dorse reading (inverted) \"Stiftsarchiv Stams\". I used these only to label faces.\n- No search, catalogue or edition consulted. Beyond the stated rules I ran one shell `ls` on the two packet directories to learn the image filenames (packet.json not opened).\n- All 20 images loaded. image-004 and image-012 show only background and the clear plastic support/spatula; no text.\n\nIMAGES\n- image-001: overview of face labelled 52r.  Tiles: image-002 (upper left), -003 (upper middle incl. attached strip), -004 (background only), -005 (left text block), -006 (middle text block), -007 (right text block), -008 (lower left, blank fold), -009 (lower middle, blank fold with ruled lines), -010 (lower right, pencil label).\n- image-011: overview of face labelled 52v.  Tiles: -012 (background only), -013 (attached strip, dorse), -014 (upper right, blank), -015 (upper left with stamp), -016 (centre), -017 (right), -018 (lower left), -019 (lower centre), -020 (lower right).\n\nLAYOUT SURVEY (observations)\n- Single sheet of parchment (not paper), irregularly cut: a main rectangular piece plus a narrow strip at upper middle attached by modern clear film; top-right corner damaged and backed with film.\n- Text is in long lines (no columns) in a German vernacular cursive/chancery-type hand, dark brown ink; 17 lines survive on the main piece, the first cut through at the top edge; the left margin is cut so the beginning of every line is lost.\n- Below the text: a large blank area with horizontal fold creases (a turned-up lower margin / fold), small paired slits and holes, and three hand-drawn vertical ink lines running down through the blank area (image-008, -009). No seal remains.\n- Deletions: two lines contain words struck through with a horizontal line (image-005 L8, L12), with interlinear insertions written above (image-005 L7, L11; image-006/-007 above L8). One interlinear insertion above image-007 L4.\n- Tentative interpretation (form only): the vocabulary (\"verkauffer\", \"vrkundt\", \"insigl\", \"an aides stat\", \"zeugen\", \"Lanndgericht\", a date \"tausent fünffhundert...\") suggests a vernacular legal instrument (sale/charter) rather than a book page. This is a reading of visible words, not an identification.\n- Dorse (52v): mostly blank and stained. Marks: purple stamp \"Stiftsarchiv Stams\" (inverted, image-015); pencil \"K.125\" or \"No.125\" (inverted, image-018); blue ink \"7/II\" or \"II/7\" (image-018); an older endorsement in gothic script, inverted, image-019/-020, which I read rotated as \"[?]rief? Stambs?\" with \"33 ... 1\" above it under a ruled line; small zigzag pen marks on the turned-up area (image-019/-020); on the dorse of the attached strip, two short vertical lines of cursive writing (image-013) that I cannot read with confidence: \"[...] doltum? / provinciam?\" and lower, along the join, \"[...]anderm?[...]\".\n\nSELECTED SPANS: every visible text line on the recto was attempted. Unread: line 1 (cut through), the cut-off left ends of all lines, and most of the attached strip's dorse writing.\n\nConventions: (xx) expansion; ? = uncertain reading; [illegible]; [...] = text lost at a cut edge.\n\n==========================================================\n52r - MAIN PIECE (lines numbered as on the face, 1-17; tile line refs given)\n==========================================================\n1  (image-002 L1)  [...]nnn? sal? [illegible] gewesse? zug[...]   [only tops of letters; cut by upper edge]\n2  (image-002 L2; image-003 lower L2)  [...]er prüffen? sin natztail vnd schaden . Wir\n3  (image-002 L3; image-003 lower L3)  [...] vnd wöllen auch vorbegriuerter? Grenit? dar d[...]\n4  (image-002 L4; image-003 lower L4)  [...]kauf? vnd was darinnen beriert? Recht zugeh[...] v[...]\n5  (image-005 L1; image-006 L1)  [...]n aller stat vnd gegen menigklich wie sich das\n6  (image-005 L2; image-006 L2)  [...]teniner? gebürt vnd recht ist . Item so bekenn[en] [...]\n7  (image-005 L3; image-006 L3)  [...]ppra?ister Agnes Aich?erin, Cristan holtzmaist[er] [...]\n8  (image-005 L4; image-006 L4)  [...]lte Agnes Aitzorin? vnd vnsere hausfrauen in [...]\n9  (image-005 L5; image-006 L5)  [...]ktaben? hinwider kainerlay weis zuthuen noch zu [...]\n10 (image-005 L6; image-006 L6)  [...] vrkundt haben wir obbemelte verkauffer vnd [Ab?/illegible, under film]\n   interlinear above line 11 (image-005 L7): [one word struck through] Gregori? Hell?   ; and further right (image-006/-007 above L8): Hans? vnd Sigmunden?   [reading uncertain]\n11 (image-005 L8; image-006 L8; image-007 L4)  [...][struck: ...ller? vnd Anndre Lautner?] zu Welthau? das [struck: one or two words] [i]nsigl? doch ime vnd sein[en]\n   [an additional small word \"vnd\" written above the end of this line, image-007 L4]\n12 (image-005 L9; image-006 L9; image-007 L5)  [...]erwirdt? [illegible] ansigeln? offenlich an disen brief gehenngt hat,\n13 (image-005 L10; image-006 L10; image-007 L6)  [...] Hanns? gelobten? brüdern? an aides stat vestigklich v[er]?plürdne? haben,\n   interlinear above line 14 (image-005 L11; image-006 L11): ansuser? geuder? Gregori? Hell?\n14 (image-005 L12; image-006 L12; image-007 L7)  [...]el ir gepetts? vnd gedachtes? [struck through: ...ister? vnd Anndre Lautner?] zu Welthau? insigl   [the word \"Gregori?\" written above the end of the strike, image-007 above L7]\n15 (image-005 L13; image-006 L13; image-007 L8)  [...]er? Hans? Wiesen? zu Natzers? von vnns ausgebe?nen? hat, Der sein zeugen,\n16 (image-005 L14; image-006 L14; image-007 L9)  [...]pein?, Oswald Spirgl? vnd Pölt Cammerlannder zu Natters?, vnd Annder[e]\n17 (image-005 L15; image-006 L15; image-007 L10) [...]afft im Lanndgericht Sonnenburg? beschehen an sannd Pauls bekerr[...]\n18 (image-005 L16; image-006 L16; image-007 L11) [...]r lieben herren gepurd tausent fünffhundert vnd In dem Achtund-\"   [ends with a double hyphen-like mark; nothing follows below on this piece]\n\n(Line 1 is a partial cut line; with it, 18 line-positions are visible. The \"17 lines\" in the survey refers to fully legible lines 2-18.)\n\nATTACHED STRIP at upper middle (image-003; separate piece joined by film; right half under film/shadow)\nS1  [...]ffen          [a large flourish/ascender line runs across the top; at far right \"[...]nyn?\"]\nS2  [...]elicher? haus[...]\nS3  [...]rch? gofs?sam[...]\nS4  [...]r vnd vnß?[...]\nS5  [...]idervnd?[...]\nS6  [...]lassen wir [...]\nS7  [...]nigkhaid? ver[...]\n- Whether this strip belongs to the same document/hand is not certain from images; the script looks similar.\n\n==========================================================\n52v - DORSE (no continuous text)\n==========================================================\n- image-015: inverted purple stamp \"Stiftsarchiv Stams\"; faint offset/show-through of recto lines; purple pencil dashes.\n- image-018: inverted pencil \"K.125\" / \"No.125\"?; blue ink \"7/II\"? (or \"II/7\").\n- image-019 / image-020: inverted older endorsement in gothic letters, read rotated: \"[?]rief? Stambs?\"; above it, under a ruled line, \"33 ... 1\" (or \"1 [?] 33\" depending on orientation). Several small zigzag pen strokes on the lower fold area.\n- image-013: attached strip, dorse: two vertical cursive lines, \"[...] doltum?\" / \"provinciam?\"; along the join \"[...]anderm?[...]\"; small red spot.\n- image-014, -016, -017: blank, stained, creased.\n\nLIMITATIONS\n- Left margin cut: the opening words of every line are lost; personal names are partly cut and my letter-level readings of names (Aich?erin, Welthau?, Natzers?/Natters?, Sonnenburg?, Spirgl?, Cammerlannder) are uncertain.\n- Upper right of the main piece is under or beside conservation film with losses; line 10 end is not readable.\n- The interlinear corrections and struck words (lines 11-14) are only partly read; a raking-light or higher-magnification view of image-005/-006 middle would help.\n- The date phrase in line 18 breaks off at \"Achtund-\"; I did not read any numeric year in the text with confidence (a mark after \"recht ist\" in line 6 is punctuation, not read as digits).\n- Orientation of dorse endorsements is inverted relative to the photo; readings are rotated mentally and are uncertain.\n",
+  "text_sha256": "92396a5062f2a06d2e9414ecbfe96184822285a92fee6cff0b58177233b5869d"
+}
