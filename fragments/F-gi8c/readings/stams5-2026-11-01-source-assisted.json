@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-11-01T07:42:23.522217+00:00",
+  "first_reading": "stams5-2026-11-01-image-only",
+  "first_sha256": "3049e63ac21dc7c5e0ecfb7f4a973398ca16f570698be59b07f355124bd0c219",
+  "fragment": "F-gi8c",
+  "id": "stams5-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with source access",
+  "reason": "The first reading's 'erebat' and the uncertain first word were reread as 'edebat' and '[silvest]re' once Mark 1:6-7 was recognised.",
+  "schema_version": 1,
+  "sources": [
+    "W. G. Henderson (ed.), Missale ad usum insignis Ecclesiae Eboracensis, vol. 1 (Surtees Society 59, 1874), pp. 2-5",
+    "Vulgate, Rom 15:13 and Mark 1:6-7 (lueur.org Clementine text)",
+    "Cantus Index g00496 (Gr. Ex Sion species)"
+  ],
+  "text": "Source-assisted reading of F-gi8c (Stams, Frg. 17). All four text lines were reread on the native images at reading size, with the Vulgate and the gradual text at hand; a second research reader reread the same four lines. Boxes are x,y,width,height in native pixels. (x) expansion, [ ] lost or supplied, ? doubtful.\n\nCanvas 0 (Stams_STA_Frg_017_01r), 2150 x 300 at 2550,1940\nl.1  [...]re? edebat & p(re)dicabat dicens. Veniet forti[or]      (V touched red; tops of letters cut; letters before \"edebat\" uncertain, possibly \"[...]stre\")\nl.2  [post?] me cuius no(n) sum dignus p(ro)cumbens solue(re) corri[giam]      (first word on the curled corner; traces only)\n\nCanvas 1 (Stams_STA_Frg_017_01v), 2150 x 300 at 2800,1860\nl.1  pace in credendo · ut habundetis in spe & uirtu[te]\nl.2  Ex syon sp(eci)es decoris eius d(eu)s manifeste ueniet. V(ersus) Congregate ill[i]      (E red-filled; red versicle sign; C touched red)\n\nBelow l.2 on canvas 1: a later hand-drawn staff with hollow notes in lighter ink, not transcribed.\n",
+  "text_sha256": "7902e74f8686a8884040df2bcffc1dc0c7270d9786249e06ac1b9bf00edaba87"
+}

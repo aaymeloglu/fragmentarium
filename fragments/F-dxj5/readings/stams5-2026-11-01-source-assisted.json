@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-11-01T07:42:23.516378+00:00",
+  "first_reading": "stams5-2026-11-01-image-only",
+  "first_sha256": "2793ced2ebc3cb19619f5a75a097396054a6173d3bb0806854ac65957fc65b35",
+  "fragment": "F-dxj5",
+  "id": "stams5-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with source access",
+  "reason": "The image-only reading had the creed lesson in outline but missed the responsories, the lesson boundaries and face B; the source showed the order of the office and resolved those lines.",
+  "schema_version": 1,
+  "sources": [
+    "Breviarium ad usum insignis ecclesiae Sarum, ed. F. Procter and C. Wordsworth, fasc. 1 (Cambridge 1882), cols. mxlviii-mxlix, In festo Sanctae Trinitatis, Ad Matutinas (archive.org breviariumadusum01cath, n581-n582)",
+    "Breviarium Cisterciense (1496), In festo Trinitatis, archive.org 8BB1391INV1564RES_P2, leaves n341 and n344",
+    "Cantus Index: 006240 Benedicat nos deus, 006249 Benedictus dominus deus Israel"
+  ],
+  "text": "Source-assisted reading of Stams Frg. 33, piece 33-1 (F-dxj5). It was made after the image-only first reading and with the Sarum Breviary (ed. Procter-Wordsworth, cols. mxlviii-mxlix) in view. Reread on the image: face A, lines 1-7 (lesson 1), the R1 lines, lesson 2, the R2/verse lines, and the last line; face B, two lines. Conventions: ( ) expansion, [ ] lost or supplied, (?) uncertain. Boxes are native pixels.\n\nCanvas 0 (Stams_STA_Frg_033_01r05r), face A, box 5650,1360,6600,1960 (lesson 1; right edge cut, line above l.1 lost):\n1  [C red initial][redimus ... fi]lium et sp(iritu)m s(an)c(tu)m. unum d(eu)m omni[po-]\n2  tentem. uni(us) sub(stanti)e. uni(us) potestatis. crea[to-]\n3  [rem] omnium creaturarum. Credimus patrem [a se ip-]\n4  [so] n(on) ab alio. filium a patre genitum. d(eu)m ue[rum]\n5  de deo u(er)o. lumen u(er)um de lumine u(ero). sp[m]\n6  [s(an)c(tu)m] a patre et filio equaliter procedentem. [consub-]\n7  [stantia]lem(?) coeternum patri et filio. [red R]\n\nBox 5600,1990,6600,2160 (R1, small script with neumes):\n8  [B red initial]enedicat nos deus deus n(oste)r [benedicat nos deus et metu-]\n9  [ant] eum omnes fine[s terre]\n10 [V.] ... (not read)\n\nBox 5600,2250,6600,2560 (lesson 2):\n11 p(ate)r [est(?)] plenus d(eu)s in se. fili(us) plen[us deus a patre genitus.]\n12 Sp(iritu)s s(an)c(tu)s plenus d(eu)s a patre et filio [procedens. Non]\n13 tamen tres d(eo)s [dicimus sed u]num d(eu)m omnip[otentem]\n14 eternum. inuisibilem(?). incommutabilem(?) ...\n\nBox 5600,2560,6600,2900 (R2 and verse, small script with neumes; faint):\n15 ... d(omi)n(u)s(?) d(eu)s(?) [Israel] ... [mirabilia(?)]\n16 solus(?) ...\n17 [V.] Rep[le]bitur maie[state eius] omnis [terra]\n\nBox about 5700,2880,6600,2960 (new lesson):\n18 [Q red initial, in outline][ui totus ubique est tot]us(?) ubiq(ue) p(re)sens ...\n\nCanvas 1 (Stams_STA_Frg_033_01v05v), face B, box 5420,1500,6460,1720 (2-3 lines lost above at the cut):\n19 [... ac]cidens esse pote[st] ...\n20 [... divi]nitatis(?) nature nichil addi [nichil minui ...]\nBelow: a neumed line with \"magnificentiam(?)\", a red H initial, and further lines abraded and overwritten by a later hand; not read.\n",
+  "text_sha256": "af79af77aa0568766805d66a5860749bc3de1a346380106fa2cda67904209365"
+}
