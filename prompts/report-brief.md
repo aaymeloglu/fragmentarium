@@ -44,6 +44,32 @@ Plain hyphens or commas, not long dashes. Explain a technical term in a few
 words on first use. Say "verbatim" or "line by line" only of passages that were
 checked that way. Every claim must be one your research file supports.
 
+Before handing the report in, look for these claims. Independent reviews of
+earlier batches found each of them more than once, in reports whose
+identification was right:
+
+- A date for the fragment taken from something else: a cover label or binding
+  date, the years in a table, a worked example, the date of the edition
+  compared. These date that thing; say so, and leave the copy's date open
+  unless the fragment itself dates it.
+- A relation to another copy inferred from variants: "not copied from",
+  "independent of", "abridged" or "expanded". Omissions, substitutions and
+  word order show that two texts differ, not which came first or whether one
+  depends on the other.
+- An alternative excluded on a test that does not reach it: a commentary
+  rejected by comparing the text it comments on, a witness excluded because it
+  is reworded when a reworking could still draw on it, a candidate dismissed
+  on its incipit alone.
+- A role read beyond the words: a sealer, witness or requested authority made
+  into the lord, owner or party; a name or title supplied from an outside
+  record where the image does not show it.
+- Use, origin or authorship stated more firmly than the comparison allows: a
+  feature shared with one use is not exclusive to it until other uses of the
+  region have been checked.
+
+Rewrite such a claim as what the evidence shows, or move it to what is not
+claimed.
+
 ## 2. `<F-id>.assisted.txt`, the source-assisted reading
 
 Plain text: a first line saying it is source-assisted and which lines you

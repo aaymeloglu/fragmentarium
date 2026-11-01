@@ -30,7 +30,9 @@ One batch, in order:
    Start `tools/searchd.py` from this checkout; one left running from an
    earlier checkout runs that checkout's code.
 2. `tools/acquire_batch.py`, then `tools/register.py`.
-3. `tools/tilepacket.py`; one fresh session per few packets with
+3. `tools/tilepacket.py`; give null grids to let it size tiles, and it refuses
+   a packet of more than 45 images, past which readers lose images and write
+   from memory. One fresh session per packet, or two small ones, with
    `reader-brief.md`.
    Where a record's images carry a modern transcription or a pencilled
    identification, mask it in the spec (see `tilepacket.py --help`) so the
@@ -42,10 +44,13 @@ One batch, in order:
    the candidates to read on the page.
 6. For each proposed identification, the coordinator reads one matched passage
    on the manuscript image and, where there is one, the source's page image.
-   For an archival document, also give the report's word-check crops (the
-   dating clause and the names the regest rests on) to a fresh reader with no
-   transcription and only the listed neutral questions. Reread every
-   disagreement and correct the reading or mark it uncertain. A checker who
-   has the report open tends to confirm its readings of single words.
+   For archival documents, also run the word check on the reports' crops (the
+   dating clause and the names the regest rests on): `tools/wordcheck.py make`
+   pools the crops of the batch's documents into shuffled neutral sets, one per
+   fresh reader with no transcription (two readers); `tools/wordcheck.py pair`
+   lines their answers up by crop. Reread every disagreement on the image and
+   correct the reading or mark it uncertain; readers misread too, so the image
+   decides, not a majority. A checker who has the report open tends to confirm
+   its readings of single words.
 7. `report-brief.md` for those that hold; `tools/record.py` for every record;
    rebuild the site; write the batch note in `audits/`.

@@ -203,6 +203,24 @@ def test_bnf_shelfmark_is_matched_whole_and_the_manifest_label_checked():
         bnf.resolve('Latin 4', fetch)
 
 
+def test_bnf_catalogue_links_over_http_are_read():
+    # The catalogue switched its Gallica links to http; the lookup found nothing until this was allowed.
+    page = BNF_RESULTS.replace('val=https://', 'val=http://')
+    assert load("bnf").identifiers('Latin 15972', page) == ['btv1b9068482p']
+
+
+def test_bnf_citation_forms_map_to_the_catalogue_form():
+    bnf = load("bnf")
+    for cited in ('NAL 999', 'nal 999', 'Nouvelle acquisition latine 999', 'nouvelles acquisitions latines 999',
+                  'nouv. acq. lat. 999', 'n.a.l. 999'):
+        assert bnf.canonical(cited) == 'NAL 999', cited
+    assert bnf.canonical('lat. 14174') == 'Latin 14174'
+    assert bnf.canonical('Latin  14174') == 'Latin 14174'
+    assert bnf.canonical('nouv. acq. fr. 6') == 'NAF 6'
+    assert bnf.canonical('fr. 123') == 'Français 123'
+    assert bnf.canonical('Arsenal 5') == 'Arsenal 5'
+
+
 def test_bnf_canvases_take_the_api_image_service_and_allow_no_upscaling():
     bnf = load("bnf")
     assert bnf.canvases_of(BNF_MANIFEST) == [{
@@ -319,6 +337,25 @@ def test_iiif_get_retries_transient_errors_and_tolerates_bad_certificates(monkey
     monkeypatch.setattr(iiif.urllib.request, "urlopen", gone)
     with pytest.raises(urllib.error.HTTPError):
         iiif.get("https://example.org/y")
+
+
+def test_tilepacket_counts_overviews_once_per_view_and_every_tile():
+    tp = load("tilepacket")
+    areas = [[0, [0, 0, 1, 0.5], 3, 2, 0], [0, [0, 0.5, 1, 1], 3, 2, 0], [1, [0, 0, 1, 1], 2, 2, 90],
+             [1, [0, 0, 1, 1], 1, 1, 0, "mirror"]]
+    assert tp.count(areas) == 3 + (6 + 6 + 4 + 1)
+
+
+def test_tilepacket_null_grid_grows_tiles_until_the_packet_fits():
+    tp = load("tilepacket")
+    sizes = {0: (7360, 4912), 1: (7360, 4912)}
+    small = tp.auto_grid([[0, [0.2, 0.2, 0.6, 0.6], None, None, 0]], sizes)
+    assert small[0][2:4] == [2, 2]  # 2944 x 1965 px at 1500 px tiles
+    big = tp.auto_grid([[c, [0, 0, 1, 1], None, None, 0] for c in (0, 1)], sizes, max_images=40)
+    assert tp.count(big) <= 40
+    assert tp.count(tp.auto_grid([[c, [0, 0, 1, 1], None, None, 0] for c in (0, 1)], sizes, max_images=99)) > 40
+    fixed = [[0, [0, 0, 1, 1], 5, 5, 0]]
+    assert tp.auto_grid(fixed, sizes) == fixed  # an explicit grid is left alone
 
 
 def test_tilepacket_mirrors_offset_tiles(tmp_path):

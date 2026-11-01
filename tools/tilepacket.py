@@ -17,6 +17,12 @@ optional sixth item "mirror" flips the image left to right first, for an offset 
 transfer), so that the reader sees it the right way round. Aim
 for tiles of ten to twenty lines, one column wide. Tiles overlap their neighbours by --overlap.
 
+A reader shown too many images loses some and then writes from memory, so a packet (overviews plus
+tiles) is refused above --max-images (default 45): read fewer canvases (the rest go to the research
+reader), use coarser grids, or give null grids and let the tool choose. Columns and rows may be given as null, as in [0, [0.2, 0.1, 0.9, 0.9], null, null, 0];
+the grid is then chosen from native pixels, tiles of --tile pixels (default 1500) or, if the
+fragment's packet would pass --max-images, the smallest larger tile size that keeps it within.
+
 Where a record's images carry modern additions that name or transcribe the text (a typed
 transcription slip, a pencilled identification), the value may instead be
     {"areas": [...as above...], "mask": [[canvas, [x0, y0, x1, y1]], ...]}
@@ -50,6 +56,41 @@ def grid(box, cols, rows, overlap=0.12):
             out.append((max(x0, int(x0 + c * tw - overlap * tw)), max(y0, int(y0 + r * th - overlap * th)),
                         min(x1, int(x0 + (c + 1) * tw + overlap * tw)), min(y1, int(y0 + (r + 1) * th + overlap * th))))
     return out
+
+
+def image_size(cache, fid, canvas):
+    from PIL import Image
+    Image.MAX_IMAGE_PIXELS = None
+    with Image.open(glob.glob(os.path.join(cache, fid, f"canvas-{canvas}-w*.jpg"))[0]) as im:
+        return im.size
+
+
+def count(areas):
+    """Images in a packet: one overview per (canvas, rotation, mirror) plus every tile."""
+    views = {(a[0], a[4], "mirror" in a[5:]) for a in areas}
+    return len(views) + sum(a[2] * a[3] for a in areas)
+
+
+def auto_grid(areas, sizes, tile=1500, max_images=45, step=100):
+    """Fill in null columns/rows with the grid for the smallest tile size (from `tile` up) that keeps
+    the packet within max_images; `sizes` maps canvas to its native (width, height)."""
+    if not any(a[2] is None or a[3] is None for a in areas):
+        return areas
+    longest = max(max(s) for s in sizes.values())
+    size = tile
+    while True:
+        out = []
+        for canvas, frac, cols, rows, *rest in areas:
+            w, h = sizes[canvas]
+            if cols is None or rows is None:
+                rot = rest[0] if rest else 0
+                bw, bh = (frac[2] - frac[0]) * w, (frac[3] - frac[1]) * h
+                cols = max(1, -(-int(bw) // size))
+                rows = max(1, -(-int(bh) // size))
+            out.append([canvas, frac, cols, rows, *rest])
+        if count(out) <= max_images or size > longest:
+            return out
+        size += step
 
 
 def build(fid, areas, cache, work, packet, overlap, overview, mask=()):
@@ -112,11 +153,22 @@ def main():
     ap.add_argument("--mapping", required=True, help="JSON file to write (coordinator only)")
     ap.add_argument("--overlap", type=float, default=0.12)
     ap.add_argument("--overview", type=int, default=1800, help="longest side of the layout overview")
+    ap.add_argument("--max-images", type=int, default=45, help="most images in one packet (default 45)")
+    ap.add_argument("--tile", type=int, default=1500, help="starting tile size in native pixels for null grids")
     a = ap.parse_args()
     spec = json.load(open(a.spec))
-    mapping = {}
-    for n, (fid, entry) in enumerate(spec.items(), 1):
+    plans = {}
+    for fid, entry in spec.items():
         areas, mask = (entry["areas"], entry.get("mask", [])) if isinstance(entry, dict) else (entry, [])
+        areas = [list(x) + [0] * (5 - len(x)) for x in areas]
+        sizes = {x[0]: image_size(a.cache, fid, x[0]) for x in areas if x[2] is None or x[3] is None}
+        areas = auto_grid(areas, sizes, a.tile, a.max_images)
+        if count(areas) > a.max_images:
+            sys.exit(f"{fid}: {count(areas)} images in one packet, more than --max-images {a.max_images}; "
+                     "read fewer canvases, use coarser grids, or give null grids")
+        plans[fid] = (areas, mask)
+    mapping = {}
+    for n, (fid, (areas, mask)) in enumerate(plans.items(), 1):
         mapping[fid] = build(fid, areas, a.cache, os.path.join(a.work, fid),
                              os.path.join(a.packets, f"packet-{n:02d}"), a.overlap, a.overview, mask)
         print(fid, f"packet-{n:02d}", len(mapping[fid]["files"]), "images")

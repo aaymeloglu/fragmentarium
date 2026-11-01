@@ -59,7 +59,16 @@ uv run python tools/comma.py search queries.json --json > result.json
 One pass reads the whole corpus however many queries it carries, so batch the
 queries. On an 18-core laptop a pass took 14 minutes for 36 queries and 17 for
 164. Each query is run alongside a shuffled copy, so these are 72 and 328
-searches.
+searches. A single query takes about three and a half minutes.
+
+A pass uses every core and close to a gigabyte of memory per worker, so
+searches take turns: a second search started meanwhile (another research
+session, say) says so and waits for the first. Several at once would run the
+machine out of memory and seem to hang. `--timeout` (minutes, default 30,
+counting any wait) stops a search with what it has found so far and marks the
+result `INCOMPLETE` (`"complete": false` and the chunks searched, in the JSON):
+a hit in an incomplete result is real, but a missing hit means nothing. Rerun
+when the machine is free, with the queries batched.
 
 ## How matching works, and what the numbers mean
 
