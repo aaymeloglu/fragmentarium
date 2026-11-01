@@ -14,14 +14,14 @@ left for later.
 | F-e8dj (Frg. 146) | identified: Peter Lombard, Psalms commentary on Ps 129:3-8 (not Romans or Galatians, as the triage thought) |
 | F-cf1m (Frg. 92) | identified: Apocalypse commentary *Vidit Iacob* (printed among Thomas Aquinas' works), ch. 16; the last page is another text headed *De confessione* |
 | F-t6qr (Frg. 254) | identified: Justinian's Codex with the Accursian gloss, C. 4.13 (Auth. *Habita*) and C. 4.21-22 |
-| F-t8sd (Frg. 39) | identified: Terence, *Andria* 607-686, a sixteenth-century copy of the play text; letter drafts and a proverb exercise unidentified |
+| F-t8sd (Frg. 39) | identified: Terence, *Andria* 607-686, a copy of the play text in a sixteenth-century text form (the copy itself is not dated); letter drafts and a proverb exercise unidentified |
 | F-v7op (Frg. 91) | identified: *Nomina et verba defectiva* (attributed to John of Garland) with a commentary closely related to the printed one |
 | F-nf5f (Frg. 67) | identified: the Cistercian *Libellus ordinis* ("Utilitati confratrum meorum"), end of prologue, Advent and Epiphany-season rules |
 | F-cwhu (Frg. 209) | identified: breviary, probably Cistercian, Sunday within the octave of Christmas, lessons from Fulgentius' second sermon on the twofold birth |
 | F-17j8 (Frg. 257) | identified: notated antiphoner, Ascension First Vespers and Matins, after *O crux splendidior* and John before the Latin Gate |
 | F-dxj5 (Frg. 33) | identified: Trinity Matins, first nocturn, creed lessons with neumed responsories (piece 33-1); other pieces unidentified |
 | F-fns2 (Frg. 211) | identified: missal, end of St Lucy and Mass of St Thomas the Apostle; use open |
-| F-aegc (Frg. 75) | identified: missal for use in the diocese of Brixen (Mass of SS. Ingenuin and Albuin), St Dorothy, and further readings |
+| F-aegc (Frg. 75) | identified: missal, probably for use in the diocese of Brixen (Mass of SS. Ingenuin and Albuin), St Dorothy, and further readings |
 | F-gi8c (Frg. 17) | identified: missal, Advent II (Rom 15:13, gradual *Ex Sion*) and Mark 1:6-7 |
 | F-vujo (Frg. 102) | partial: rubricated moral texts; one piece shares a passage with Soccus, *Sermo* 33, another with an anonymous sermon in Paris, BnF lat. 455 |
 | F-hjri (Frg. 37) | partial: grammatical-lexical exposition (senses of *ad*; *villa*, *villicus*), probably on Luke 16 |
@@ -51,9 +51,13 @@ left for later.
    parallel in BnF lat. 455, collated afterwards on its page image, and a
    further witness of F-cf1m's commentary (BnF lat. 15265, not checked on
    images); the other queries gave nothing above the shuffled control.
-4. Checks. For every identification a fresh checker chose a passage the
-   research had not used, read it on the image and compared it on a source
-   page image. For the two documents, two fresh readers with no transcription
+4. Checks. For every identification a fresh checker read a passage on the
+   image and compared it on a source page image. For F-t8sd, F-xoto, F-cf1m,
+   F-t6qr, F-f14r and F-nf5f the passage was one the research had not
+   transcribed; for F-cwhu, F-dxj5, F-e8dj, F-fns2, F-gi8c, F-aegc, F-17j8
+   and F-v7op the checker reread lines the research had already transcribed,
+   choosing the weakest. Most checkers had read the research report
+   before reading the image, so these are rechecks, not blind readings. For the two documents, two fresh readers with no transcription
    were given 20 shuffled neutral crops, and the coordinator reread every
    disagreement on the image. The coordinator compared one passage with the
    source page image for eight records and read a passage on the image for
