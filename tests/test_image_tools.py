@@ -203,6 +203,24 @@ def test_bnf_shelfmark_is_matched_whole_and_the_manifest_label_checked():
         bnf.resolve('Latin 4', fetch)
 
 
+def test_bnf_catalogue_links_over_http_are_read():
+    # The catalogue switched its Gallica links to http; the lookup found nothing until this was allowed.
+    page = BNF_RESULTS.replace('val=https://', 'val=http://')
+    assert load("bnf").identifiers('Latin 15972', page) == ['btv1b9068482p']
+
+
+def test_bnf_citation_forms_map_to_the_catalogue_form():
+    bnf = load("bnf")
+    for cited in ('NAL 999', 'nal 999', 'Nouvelle acquisition latine 999', 'nouvelles acquisitions latines 999',
+                  'nouv. acq. lat. 999', 'n.a.l. 999'):
+        assert bnf.canonical(cited) == 'NAL 999', cited
+    assert bnf.canonical('lat. 14174') == 'Latin 14174'
+    assert bnf.canonical('Latin  14174') == 'Latin 14174'
+    assert bnf.canonical('nouv. acq. fr. 6') == 'NAF 6'
+    assert bnf.canonical('fr. 123') == 'Français 123'
+    assert bnf.canonical('Arsenal 5') == 'Arsenal 5'
+
+
 def test_bnf_canvases_take_the_api_image_service_and_allow_no_upscaling():
     bnf = load("bnf")
     assert bnf.canvases_of(BNF_MANIFEST) == [{
