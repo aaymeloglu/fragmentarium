@@ -47,6 +47,6 @@ Sources: Munich, BSB, Clm 3512, fol. 289ra, [MDZ viewer, image 581](https://www.
 
 ## Dating, other items, and limits
 
-The table's first line runs from 1353 to 1380, and the rota is dated 1357 (or 1354), so the leaf was written in or after 1353, probably between about 1357 and 1380. The choice of 1380 as the example suggests a copy made around that year; that is an inference. The leaf is incomplete: the canon runs on past the cut ("Inuenta itaque"), and the table is cut at the right after sixteen lines and at the top above row xxij.
+The table's first line runs from 1353 to 1380, the canon's example is 1380 and the rota's year line is 1357 (or 1354). These are dates within the table, not the date of the leaf: computus tables were often drawn up for years ahead, and copied later with their years and examples unchanged, so when this copy was written is not established. The leaf is incomplete: the canon runs on past the cut ("Inuenta itaque"), and the table is cut at the right after sixteen lines and at the top above row xxij.
 
 Not claimed: the date and origin of the leaf beyond the table's own years, the length of the complete table, the meaning of the red capitals and corner marks, or that another manuscript carries the canon in this adapted form.

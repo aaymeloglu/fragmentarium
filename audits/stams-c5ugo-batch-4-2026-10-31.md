@@ -14,7 +14,7 @@ documents. The 44-piece court record F-lv0w was again left for later.
 | F-p8ik (Frg. 167) | identified: Gallican psalter, Ps 36:40-37:20; strip 2's r/v labels are reversed |
 | F-mpnp (Frg. 149) | identified: Guillelmus Brito, *Summa Britonis*, letter C (not canon law, as the triage thought) |
 | F-o7j1 (Frg. 225) | identified: Hostiensis, *Lectura* on X 1.31.8-11 |
-| F-cb2e (Frg. 80) | identified: Henricus de Frimaria (per Schneyer), *Sermones de tempore* series 2, abridged, Septuagesima to Jubilate |
+| F-cb2e (Frg. 80) | identified: Henricus de Frimaria (per Schneyer), *Sermones de tempore* series 2, Septuagesima to Jubilate; shorter than Clm 3764 in the passages compared |
 | F-31t6 (Frg. 81) | identified: two manuscripts; the Passion treatise *Scitis quia post biduum* (ed. Ferber 1935) and Antonius Rampegolus, *Figurae Bibliae* (items 81_9-10 only) |
 | F-o5pg (Frg. 123) | identified: Peter Comestor, sermons for Laetare and Palm Sunday, under the rubric "Sermo Manduc(atoris)" |
 | F-vjii (Frg. 142) | identified: two sermons, *Mandatum novum do vobis* (listed by Schneyer under Alan of Lille) and *De sobrietate et IV vigiliis*; a Marian sermon unidentified; probably the same codex as F-o5pg |
@@ -110,3 +110,14 @@ documents. The 44-piece court record F-lv0w was again left for later.
   fief records and Tarneller's *Hofnamen des Burggrafenamtes* were not
   consulted.
 - No palaeographer has reviewed the readings.
+
+## Review
+
+An independent Codex review of the PR (31 October 2026) agreed with the
+identifications and found three claims that went beyond the evidence, all
+corrected: F-qcam's table years were taken as the date of the copy (tables
+were drawn up ahead and copied later unchanged); F-cb2e was called an
+abridgement, when the comparison shows only that it is shorter than
+Clm 3764 and the direction of change is open; and F-l7tu and F-v82x were
+said not to be copies of Fribourg L 305 on the strength of small variants,
+which cannot exclude dependence.
