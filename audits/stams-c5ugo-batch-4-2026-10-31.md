@@ -27,7 +27,7 @@ documents. The 44-piece court record F-lv0w was again left for later.
 | F-v82x (Frg. 69) | identified: missal, Ordo missae after the Canon, probably Cistercian; a Visitation Mass added later; r/v labels reversed |
 | F-e0vk (Frg. 214) | identified: missal, Common of apostles; use not identified |
 | F-wbkk (Frg. 260) | identified: breviary, Matins of the Visitation office *Accedunt laudes virginis* (the catalogue had named the feast and two antiphons) |
-| F-py5e (Frg. 55) | identified: fief reverse of the guardians of the Schrofenstein children for the farm zum Steg at Oberlana, held of Stams; 29th day, month and year lost (after 1546, probably 1546-1558) |
+| F-py5e (Frg. 55) | identified: fief reverse of the guardians of the Schrofenstein children for the farm zum Steg at Oberlana, held of Stams; 29th day, month and year lost (1546 or later, probably 1546-1558) |
 | F-c1cn (Frg. 166) | partial: grant of a heritable holding issued at Stams (issuer lost, probably the abbot), St Bartholomew's day; year, tenant and property lost |
 | F-4hud (Frg. 164) | unidentified: German sermons (Ascension, Marian praise) |
 
@@ -95,7 +95,7 @@ documents. The 44-piece court record F-lv0w was again left for later.
   charter of 1572 until 1963, F-pk0m, per a modern note, of an
   *Officia propria Brixinensia* printed at Brixen in 1673 (host copy not checked).
 - Not all the waste is medieval: a 1629 printed map, a late sixteenth-century
-  calligraphic verse sheet (F-w7wh) and a deed of the mid-sixteenth century (after 1546, probably before 1558).
+  calligraphic verse sheet (F-w7wh) and a deed of the mid-sixteenth century (1546 or later, probably before 1558).
 
 ## Not done
 
