@@ -1,0 +1,187 @@
+{
+  "captured_at": "2026-11-01T23:11:47.579374+00:00",
+  "fragment": "F-5lit",
+  "id": "stams7-2026-11-01-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "f78468de9f2c388cf915c2961cfde18f4108564eaf775a9a7eddcaf8f80e7129",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): whole image 7360x4912 reduced to 1800x1201 for layout; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "b1acf764c1e30bebe6de5317d95a866e190829815f4bac5de04c49f1844d0302",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 1950,98,3293,1382; unrotated grid position column 1 of 4, row 1 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "7e657d638528170a887396e2de4402c8e3d807f3d638a04d90a6c9624679d2d7",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 3005,98,4493,1382; unrotated grid position column 2 of 4, row 1 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "3e6b90b8344a0e945d2704d269f13508c3c3d88b515bfb446e6f28073bb51bbe",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 4205,98,5693,1382; unrotated grid position column 3 of 4, row 1 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "2ebb9b6299d14ae0dec856de2c498b9392832c736f71ab7e3ce52a80b6976e26",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 5405,98,6749,1382; unrotated grid position column 4 of 4, row 1 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "53afd855efa53afeedb044ca3d5414f4829ec77d61761b2e54f34e75783f00df",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 1950,1107,3293,2529; unrotated grid position column 1 of 4, row 2 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "ee1d41b5dd21e85ec49fe1febead04ea16c5d052db6f8b1cf546c60dae532677",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 3005,1107,4493,2529; unrotated grid position column 2 of 4, row 2 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "3a0aaf3c879ae665fb732c5306a9aed0a36b02a8bbb0a0f0fa88e39e206f66f6",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 4205,1107,5693,2529; unrotated grid position column 3 of 4, row 2 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "c932df8d9f1e759eedca1487f609b210ae77675318b2f341b01575f5467d99e6",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 5405,1107,6749,2529; unrotated grid position column 4 of 4, row 2 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "d051aa96e1a36f28e83081aa080f045bba85b30f10325f8d62f554e97f57446a",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 1950,2254,3293,3676; unrotated grid position column 1 of 4, row 3 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "9760c99548615986ae834b616a91603a08a584ffe9a25a65a96b035e4a5436e6",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 3005,2254,4493,3676; unrotated grid position column 2 of 4, row 3 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "0a2801075ecd1b7e1e0b754e63210290be03036f07ed92292cce723fb81d611a",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 4205,2254,5693,3676; unrotated grid position column 3 of 4, row 3 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "395ab4daf65631fff7dc7e9324135b8d86ed1616b8cbcb8fe3f18cbfcda978fe",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 5405,2254,6749,3676; unrotated grid position column 4 of 4, row 3 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "fd6815cf9cbff02972c2a8dff42ff02c902c30341a6de1a3d12c3a93fdf03076",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 1950,3401,3293,4686; unrotated grid position column 1 of 4, row 4 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "436134db4be001fb27aaaa5e7ef0a64794ee5d704465e2cb235dc8159a55c5d6",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 3005,3401,4493,4686; unrotated grid position column 2 of 4, row 4 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "cd75c158508a29f953938dad159a4e595b8e2d7085374a991baf74813b3e472d",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 4205,3401,5693,4686; unrotated grid position column 3 of 4, row 4 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "e6df2dcacad6eb42aa35f18d0ca66b48a2c2dd5bc19f35c940139d6f46b34e45",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_169_01r05r): native-pixel box 5405,3401,6749,4686; unrotated grid position column 4 of 4, row 4 of 4; masked (modern additions) 2907,3929,3974,4371, 5262,1694,5961,1989"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "e287a404c5eb43853d5c2cf37333a061b9a0a615e80fa05c5bf186191d8e445a",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "add1d2a4033f9a0b830e2a005a1af6e3692bdf3e0f71a44e60af2232a320a884",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 1987,63,3446,1357; unrotated grid position column 1 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "59c546d2863da44c2ce09883df76d3c1ccf8d7e5f7de584796b272da2979e304",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 3133,63,4748,1357; unrotated grid position column 2 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "def6271a164ec7bcbcc2cbde53d526675a96870c8ed6734b38b35ed35a862a8a",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 4436,63,6051,1357; unrotated grid position column 3 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "fc217ad3012c8d38fb087960336291425862a6676f5a926ae39abe4bb694ef4b",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 5738,63,7198,1357; unrotated grid position column 4 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "454857cdebc31d5aab4562faea422ddc05a1f72fa06b14d7a1d6efb24449111a",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 1987,1080,3446,2513; unrotated grid position column 1 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "e32772571a7baf0707a83182b07aa1fb3845808d63681941341682f1d186fb5b",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 3133,1080,4748,2513; unrotated grid position column 2 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "9bc56ddd6e688ee7b6f663f7413cb266ce11e12a1dbbf9a13fbe78f62dc76107",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 4436,1080,6051,2513; unrotated grid position column 3 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "5f3915ca56edba8bd3d5669135675b41e0dde674aaee729d93bb4e69bb6f6a0f",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 5738,1080,7198,2513; unrotated grid position column 4 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "af2410dea8685684f24948b9d50c10c8c4e14d0fcb287c2b2fb2e348fd7fb292",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 1987,2235,3446,3668; unrotated grid position column 1 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "3929226e44ef2d52d9efba8d4436fb3b0bdd88e0d9478fb3d195197d54eb929f",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 3133,2235,4748,3668; unrotated grid position column 2 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "73c6708de086ca79bb494704dc7a668d1ba2aa3c456b30ffcd2e90b44148a146",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 4436,2235,6051,3668; unrotated grid position column 3 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "6d00355a3eaa04d86209f4e1d71cdb50e09ddec8bc183def3c364bc074fff6f8",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 5738,2235,7198,3668; unrotated grid position column 4 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "0376c412d7da79555cba6c5bf9f5cfe4753c4a819b73a2c31573e42ca966e9ad",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 1987,3391,3446,4686; unrotated grid position column 1 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "6b1927e4f1516e10877346fd2a5a7673e2341aeb899fe3250d487950975b441d",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 3133,3391,4748,4686; unrotated grid position column 2 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "844a691458c4330c3a04dcb181455404d634429622833e47c2fd1b0919894107",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 4436,3391,6051,4686; unrotated grid position column 3 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "738ea61b00110bbc37cf528bda514554fa8d809ce7a302f0375c21eade35d7f5",
+        "source": "https://fragmentarium.ms:443/loris/F-5lit/Stams_STA_Frg_169_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_169_01v05v): native-pixel box 5738,3391,7198,4686; unrotated grid position column 4 of 4, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "fresh Claude subagent (Opus 5.5), image-only",
+  "schema_version": 1,
+  "session": "stams-c5ugo-batch-7 2026-11-01 (packet-20)",
+  "text": "packet-20 -- unverified image reading (blind first reader)\n\nNo identification or prior reading of this record was in my context. I did nothing beyond the brief's rules (I listed the packet directory and checked image pixel sizes with sips to tell overviews from tiles).\n\nLAYOUT SURVEY (face 1, overview image-001.jpg)\nObservation: image-001 is a reduced overview of five separate paper(?) fragments laid on black, with a colour checker lower left and a cm scale at right. Each fragment carries a modern pencil shelfmark label \"Stams, STA, Frg. 169-1r\" ... \"169-5r\" (labels read: 169-5r upper left strip, 169-4r tall strip, 169-3r upper right sheet, 169-2r lower centre sheet, 169-1r lower right sheet). Two grey redaction boxes cover parts of 169-3r and 169-2r.\n- 169-5r (narrow strip, upper left): almost blank; a couple of words in the upper half (\"...ugga? ...\" and below it a short word), torn right edge.\n- 169-4r (tall strip): right-hand ends of c. 25 lines of a German cursive text (a letter? prose), left part lost; a pencil \"1\" at top.\n- 169-3r (upper right, folded sheet with a vertical fold/crease ~ 3/4 across): German cursive notes/accounts in brown ink; upper block of c. 8 lines struck through with large X-crosses; modern pencil \"1462 dec.\" added; then entries beginning \"It(em)\" with quantities (\"XX metz ...\", \"XXV metz halb...\"), i.e. a list/account in short entries. Right panel beyond the fold: c. 9 short lines beginning \"It(em) hans ...\".\n- 169-2r (lower centre): heading at top left (word like \"Abschrifft...\"?), a word at top right; then c. 10 lines of a later (16th-c.-looking) German Kurrent cursive, unruled, single block; marginal word at right edge (\"...\").\n- 169-1r (lower right): mostly blank paper with faint vertical notes (columns of short writing rotated 90°), and at lower right an address/notation block of several lines (\"...\", \"Dem ...\", \"Walther ...\", etc.), partly beyond the right edge.\nTentative interpretation: archival documentary fragments (accounts, letters/copies), not a literary codex; no columns, rubrics, initials or glosses as in a book hand.\nTile plan: tiles 002-017 = native-resolution 4x4 grid over this face (002-005 top row ... 014-017 bottom row).\n\n\n=== image-004.jpg (tile: top row, 3rd column; left part of fragment 169-3r) ===\nGerman cursive (Bastarda-like documentary hand), brown ink. Lines 1-8 struck through with large X-strokes (cancellation, text still legible). Right edge of tile cuts lines.\nimage-004 l.1: belaib(?) / und wey(?) er[?]esen(?) here(?) p[...]\nimage-004 l.2: weil ich im(?) zam(?) dz arm / mein g[...]\nimage-004 l.3: sol ich kain fur zog noch hewer(?) mo[...]\nimage-004 l.4: mich zu (superscr. o over u?) beyss(?) dz ich in angedin[...]\nimage-004 l.5: vn(d) weis er dir an prenst(?) / dz west[...]\nimage-004 l.6: flachs / od(er) (er-hook superscript) smaltz wie ich gen(?) dir a[...]\nimage-004 l.7: [?]h d(er)(?) fisch fur vil h(?) an samstag vor [...]\nimage-004 l.8: lech(?) ich im zo(?) dz(?) selben anno ix(?)lxij [...]   (pencil modern \"1462\" added to right below this line)\n  left margin beside ll.7-8, enclosed in a drawn loop with a tie-line into the text: \"dz / vissech(?) / ist\" (an insertion?)\n(gap; horizontal crease)\nimage-004 l.9: It(em) walthaur(?) vo(n) altdorff p(ra)cht(?) [...]   (single diagonal cancellation stroke across ll.9-11)\nimage-004 l.10: stag vor barb(?)[...] XX metz(en)(?) fesen(?) [...]\nimage-004 l.11: die(?) metze halb d(er)(?) grassh(?)[...] d(er)(?) p[...]\n\n=== image-005.jpg (top row, 4th column; right part of 169-3r: line-ends of left panel + right panel beyond the fold) ===\nOverlaps image-004 (same lines 1-11, continuing rightward). A strip of clear tape covers the fold area at upper centre.\nLeft panel, line ends (numbering matches image-004):\nimage-005 l.1: [...]n here(?) prengt(?) so\nimage-005 l.2: [...] / mein gelt(?) s[?]er(?)   (under tape)\nimage-005 l.3: [...] hewer(?) mon(?) gelt(?)\nimage-005 l.4: [...] angedingt(?) hab(?)\nimage-005 l.5: [...]t / dz westh(?) od(er)\nimage-005 l.6: [...] gen(?) dir an meine(?)\nimage-005 l.7: [...]stag vor lucie(?) do\nimage-005 l.8: [...]o ix(?)lxij in(?) [?]da(?) decembr(is)(?)\n  pencil (modern): 1462 dec.\nimage-005 l.9: [...] pracht an dem-\nimage-005 l.10: [...]metz fesen(?) vnd\nimage-005 l.11: [...] d(er)(?) putt(?) zwo(?)\nRight panel (separate column of entries, lighter partly-crossed X over middle lines):\nimage-005 r.1 (top edge, cut): [?] im(?) meist(?) o(?) [...]\nimage-005 r.2: It(em) hans dax(?)/k[?]y(?) vo(n) [...]\nimage-005 r.3: schoffl fesen [one word struck through heavily]\nimage-005 r.4: an seine(?) kirchen(?) a[...]\nimage-005 r.5: scheffel lewatsch(?) st[...]\nimage-005 r.6: habern(?) mit d(er) g[...]\nimage-005 r.7: bezalt am halff(?) [?]\nimage-005 r.8: vo(n) heuer(?) vnd ferd(?) vn[...]\nimage-005 r.9: bys an ain gross\n\n=== image-008.jpg (2nd row, 3rd column; lower left of 169-3r) ===\nTop two lines overlap image-004 ll.10-11 (not new text). Then a gap, then a short list of four entries struck by one diagonal stroke. Grey redaction box at right covers area right of the last entries. Pencil label below: \"Stams, STA, Frg. 169-3r\" (last character read as r).\nimage-008 l.1 (= image-004 l.10): stag vor barb[...] XX metz[...] fesen[...]\nimage-008 l.2 (= image-004 l.11): die(?) metze halb d(er)(?) grassh(?)[...]\nimage-008 l.3: kunfft(?) / kumpt(?) d(er)(?) halb(?) (superscr. hook) XXVj metze halb[...]   (the XX has a scored underline/flourish)\nimage-008 l.4: gerst(en)(?) (superscr.) iiij metze\nimage-008 l.5: Gerste(?) / Roste(?) iij\nimage-008 l.6: fesen(?) vj metze\nRest of fragment below is blank (lower edge torn).\n\n=== image-003.jpg (top row, 2nd column; upper half of strip 169-4r) ===\nPencil label at top: \"Stams, STA, Frg. 169-4r\". Later (16th/17th-c.-looking) German Kurrent cursive, grey-brown ink, unruled; the left side of every line is lost (strip cut/torn at left), so only line-ends survive. Grey offset/stain at upper right of strip.\nimage-003 l.1: [...]ige Regierung (o-superscript over u: Regierüng)\nimage-003 l.2: [...] E. G.(?) (= abbreviated title, e.g. \"E(uer) G(naden)\"?) schreib[en](?)\nimage-003 l.3: [...] auf dieselb(en)(?)\nimage-003 l.4: [...] betreffs(?) / betrifft(?), [following word struck through: \"fetlo\"?]\nimage-003 l.5: [...] (tiny \"e\" in margin at left) [...]j vnd h(?). Regiment(?),\nimage-003 l.6: [...]s die zu Lien[?](?)\nimage-003 l.7: [...] hat er auch zu\nimage-003 l.8: [...]ein wolten(?) Ihre(?)\nimage-003 l.9: [...]d (cut at bottom of tile)\n\n=== image-007.jpg (2nd row, 2nd column; lower half of strip 169-4r) ===\nTop three lines overlap image-003 ll.6-8.\nimage-007 l.1 (= 003 l.6): [...]s die zu Lien[?]\nimage-007 l.2 (= 003 l.7): [...] hat er auch zu\nimage-007 l.3 (= 003 l.8): [...]ein wolten Ihre(?)\nimage-007 l.4: [...]d vermeinen(?) er\nimage-007 l.5: [...]halten thuet(?) (ü-mark over u), hab\nimage-007 l.6: [...]t mein(?) Darin(?) / Daran(?)\nimage-007 l.7: [...] E. G. wol zu\nimage-007 l.8: [...]fassen, dieweil\nimage-007 l.9: [...]b zu (ü-mark) schicken,\nimage-007 l.10: [...]ung (superscr. o/e over u) mügen(?) geb[en](?) (descender flourish)\nimage-007 l.11: [...] zu schreiben, weil(?) / wach(?)\nimage-007 l.12: [...]erinnern(?) an ob\nimage-007 l.13: [...]rgenkauffer(?) (u-mark) zu\nimage-007 l.14: [...]lich(?) kann(?) thil(?) [lower part cut by tile edge / tape at bottom]\n\n=== image-010.jpg (3rd row, 2nd column; upper left of sheet 169-2r) ===\nTop edge of tile shows bottom of strips 169-5r/169-4r (no text visible here). Sheet 169-2r: heading, then one block of 9 lines in a later German Kurrent cursive, faint grey-brown ink, unruled. Lines cut at the tile's right edge (continue in image-011). Faint offset/stains in left margin (no legible marginalia).\nimage-010 heading: Postscripta(?) (P with long descender; final -a)\nimage-010 l.1: E. G. wollen(?) im(?) mein Weber(?) d[...]\nimage-010 l.2: lassen außthüen(?) / außthun(?) ab Traunauf[...](?)\nimage-010 l.3: beim höcher(?) & Weg beim La[...]tstö[...](?)\nimage-010 l.4: derselb wendet(?) er sei von fest(?) [...]\nimage-010 l.5: E. G. wolle mich derhalben(?) ent[...]\nimage-010 l.6: dem Zimblen(?) von Aßerling(?) / Hairling(?) [...]\nimage-010 l.7: hab Ich dem schneider(?) göttes(?) d[...]\nimage-010 l.8: schlimeste(?) Wüerck(?) gemacht wär(?), w[...]\nimage-010 l.9: kenn(?) sehr geschwindig zuegeh[...]\n\n=== image-011.jpg (3rd row, 3rd column; upper right of sheet 169-2r; bottom of strip 169-4r at top) ===\nAt top edge: the bottom line of strip 169-4r (= image-007 l.14, \"[...]lich kann thil(?)\"), no new text. Sheet 169-2r: right half of the 9-line block (continuations of image-010 lines), a word at top right, and a marginal note at far right partly under a transparent plastic holder/tape.\nimage-011 top right (heading-level, separate word): Diemüetig(?) / Demüetig(?) (large initial D with loop)\nimage-011 l.1: [...]ein Weber die Zins\nimage-011 l.2: [...]raünaustorff(?) (a short stroke through the ff-ending, deletion?) den(?)\nimage-011 l.3: [...]n Lattstötter(?) & dem(?)\nimage-011 l.4: [...] Von(?) fest(?) / selb(?) nicht schuldig\nimage-011 l.5: [...]halben(?) berichtet(?), den(?) Hanß(?) / fanz(?)\nimage-011 l.6: [...]ärling(?) Hr.(?) : Gmaint(?)\nimage-011 l.7: [...] göttes(?) dem(?) hauß(?) kein\nimage-011 l.8: [...] wär(?), wie ich(?) klar al\nimage-011 l.9: [...]ig zuegehet.\nCombining with image-010 (tentative continuous lines of 169-2r):\n  l.1: E. G. wollen(?) im(?) mein Weber(?) d[...] / [...]ein Weber die Zins  -- overlap between tiles uncertain: the \"mein Weber\" at the right end of 010 l.1 is likely the same words as \"[...]ein Weber\" at the start of 011 l.1, i.e. \"E. G. wollen im mein Weber die Zins\"\n  l.9: kenn(?) sehr geschwindig zuegehet.\nRight margin, two lines (cut by holder): \"Sch(?) Schon[...]\" / \"Gbüde(?)[...]\"\nBelow block: blank except a small ink speck.\n\n=== image-017.jpg (bottom row, 4th column; lower right of sheet 169-1r) ===\nA vertical fold runs down the middle of the tile (brown water stain left of it). Left of the fold: several columns of faint writing running vertically (rotated 90 deg; offset/show-through or a dorsal note written sideways), not read (would need rotation and a closer crop). Right of the fold: an endorsement/address block in a later Kurrent hand, cut at the right edge.\nimage-017 r.1: 4(?) [?]ent(?) presentiert(?) (darker ink, different stroke from address; a cross/4 at start)\nimage-017 r.2: Dem Ere[...] (large looped D)\nimage-017 r.3: Walther(?) V[...]\nimage-017 r.4: Regierung[...](?)\nimage-017 r.5: Cammer[...](?) / Hoamer[...](?)\nimage-017 r.6: Verordne[...](?) / Brüde[...](?)\n(gap)\nimage-017 r.7: Von Unsern(?) Viträ[...](?) (encircled by a large loop flourish)\nimage-017 r.8: zu Ayrigß(?) 8/(?) (or a symbol \"e/\")\nimage-017 r.9: [?]nuch[?](?) (lowest line, partly cut)\n\n=== image-002.jpg (top row, 1st column; strip 169-5r) ===\nNarrow strip in a transparent sleeve, right edge torn. Kurrent hand like 169-2r/169-4r. Only:\nimage-002 l.0 (top edge, descenders cut): [...]chriz(?)[...] ... [...] (two partial words cut by the top edge)\nimage-002 l.1: [?]f(?) Lüzza(?) / Lüggsa(?) Vicarij(?) / Virarig(?)\nimage-002 l.2: [?]roia(?) / [?]xoia(?)  (left edge cut)\nRemainder of strip blank. Right edge of tile shows line-starts of strip 169-4r (cut, single letters; not read).\n\nLAYOUT SURVEY (face 2, overview image-018.jpg) -- versos 169-1v ... 169-5v\nSame five fragments turned over (labels \"169-5v\", \"169-4v\", \"169-3v\", \"169-2v\", \"169-1v\"), mirrored arrangement. Plastic spatulas/holders hold down 169-2v and 169-3v.\n- 169-5v (upper left strip): essentially blank; faint stains.\n- 169-4v (strip): a few short marks at top (pen trials / ruled-music-like vertical strokes?), otherwise blank; label.\n- 169-3v (upper right sheet, vertical fold left of centre): the main text. Left panel: short line-ends (\"...myt die klost(er)?\", \"...schuldig(?) d(er) ...\"), right panel: several entries in the same 15th-c. Bastarda cursive as 169-3r, beginning \"Hans ...\", \"Hans ... vo(n) ...\", \"It(em) ...\", with quantities (\"XXij metz\", \"schoffel fesen\"); a block of lines struck through with horizontal strokes and X-crosses; pen-trial vertical strokes at bottom.\n- 169-2v (lower centre): blank apart from offset/stains and a few faint marks.\n- 169-1v (lower right): pen-trial vertical strokes and a few letters at top, otherwise blank; stain.\nTile plan: 019-034 = 4x4 grid; text concentrated in 021/022 (top row cols 3-4) and 025/026 (2nd row).\n\n\n=== image-021.jpg (top row, 3rd column; 169-3v left panel and start of right panel) ===\nVertical fold at ~x 770. Upper area of both panels: scattered pen trials/flourishes, not text. Same Bastarda cursive as 169-3r.\nLeft panel (line-ends; lines cut at left edge of fragment):\nimage-021 L.1: [...]m(?) groß(?) d(er) [?]u(?) klost(er)(?)\nimage-021 L.2: [...]z h(er)man(?) filii(?) d(?). Albr(?)[...] (a long vertical stroke descends from this line)\nimage-021 L.3 (faint): [...]e(?) [?]innen(?) / rumer(?)\nimage-021 L.4 (faint): [...] t[?] wey(?) / was(?)\nimage-021 L.5 (faint, bottom edge): [illegible, faint/abraded]\nRight panel:\nimage-021 R.1: hans Graindin(?) / Erandin(?) hat pracht(?) [...]  (diagonal stroke through R.1-R.5)\nimage-021 R.2: iij vierling(?) / vurlings(?) ab(?) [?]e(?) trit(?) [...]\nimage-021 R.3: was ab mit vol(?) / pin(?) sol j m[...]\nimage-021 R.4: rechnung(?) / vn vo(n) ains Jars zei[t](?)[...]\nimage-021 R.5: geschit(?) / gesetzt(?).\n(pen-trial ruling grid at right)\nimage-021 R.6: hans Amschin(?) / Rauschin(?) vo(n) ob[...]   (large X cancellation over R.6-R.10)\nimage-021 R.7: an dornstag nach Martin[...]\nimage-021 R.8: aine(?) [two words struck through] Pfäffle(?) metz[...]\nimage-021 R.9: messer(?), [?]n gab [?] [...]\nimage-021 R.10: metz [?]s(?) [?]s(?) mind(?) [...]\n\n=== image-022.jpg (top row, 4th column; 169-3v right panel, line ends) ===\nOverlaps image-021 right panel (same lines R.1-R.10). Plastic spatula along top and right edge (no text under it visible). A numeral/letter \"5[?]\" (pencil or ink, \"5r?\") at top centre; pen-trial vertical strokes and ruling between R.5 and R.6.\nimage-022 R.1: [...]n hat pracht an allerhailig(en)(?) abent\nimage-022 R.2: [...] ab [?] trit [words struck through with heavy horizontal stroke: \"was ab mi[?] vol\"(?)] vierlig(?) / vierling(?)\nimage-022 R.3: [...]ol / pin(?) sol j maß gemalen(?) vnd alten(?)\nimage-022 R.4: [...]ains Jars zeins(?) stößt(?) / stosset(?) hen(?) ich an in\nimage-022 R.5: (geschit, seen in 021; nothing further on this tile)\nimage-022 R.6: [...]n vo(n) ob(er)stermmetz(?) / obster(?) mnetz(?) hat pracht\nimage-022 R.7: [...]ach Martini(?) iij schoffle(?) fesen\nimage-022 R.8: [...]pfäffle(?) metze mit XXij metze ge=\nimage-022 R.9: [...]b [?] wolzautik(?) [?] dz(?) / ey(?) [?]sur(?) ain\nimage-022 R.10: [...] mind(?) gewesen was\nCombined (021+022, tentative):\n  R.1 hans Graindin(?) hat pracht an allerhailigen(?) abent\n  R.7 an dornstag nach Martini(?) iij schoffle fesen\n  R.8 aine(?) [struck] pfäffle(?) metze mit XXij metze ge=\n  R.10 metz [?] mind(?) gewesen was\n\n=== image-025.jpg (2nd row, 3rd column; lower part of 169-3v, both panels) ===\nPencil label lower left: \"Stams, STA, Frg. 169-3v\". Top lines overlap image-021 (L.3-L.4, R.7-R.10). Large X-cross and diagonal strokes over R.7-R.16; R.13-R.16 additionally struck through line by line with horizontal strokes. Pen-trial grid at bottom right.\nLeft panel:\nimage-025 L.3 (= 021 L.3): [...]e(?) [?]inner(?)\nimage-025 L.4 (= 021 L.4): [...] t[?] wey(?) (flourish)\nimage-025 L.5 (faint): [...]e[?] x [?] [...]\nimage-025 L.6: [...]korffen(?) / dorffen(?) d(er)t(?) (superscr.) j guld(en)(?) vo(n)\nimage-025 L.7: [...]s ... Bol(?) / Zol(?) [?]\nimage-025 L.8: [...] metz(?) P(?)\nRight panel:\nimage-025 R.7-R.10 = image-021 R.7-R.10 (overlap; R.8 shows \"aine [struck: two words] Pfäffle metze\", R.9 \"messer, [?]n gab [?] wolz[...]\", R.10 \"metze [?]s [?]s mind ge[...]\")\nimage-025 R.11: It(em) d(er)(?) iiij schoffel hal[...](?) / hab[...](?)\nimage-025 R.12: selb(?) maß mit sein(er) knecht[...]\nimage-025 R.13 (struck): zu (u-mark) seine(?) in d(er) vaste(?) [?]esen(?) [...]\nimage-025 R.14 (struck): [?]emsc(?) do er galt xj d[?] [...]\nimage-025 R.15 (struck): im gab vm [...] ij metze [...]\nimage-025 R.16 (struck): d(er) korn hat er [?] in ober[...](?)\nimage-025 R.17: It(em) nagelin(?) vo(n) hirßzwel(?) [...]\nimage-025 R.18: mad(?) / et iiij (superscr. er) soldo(?) / solid(?) [...]\nimage-025 R.19: [?]pmauits(?) / Ipmancts(?)\n\n=== image-026.jpg (2nd row, 4th column; lower right of 169-3v, line ends) ===\nOverlaps image-022 (R.8-R.10) and image-025 (R.11-R.18). Plastic spatula on right (no text under it). Torn lower right edge.\nimage-026 R.8 (= 022): [...]pfäffle metze mit XXij metze ge=\nimage-026 R.9 (= 022): [...]b [?] wolzautik(?) [?] dz(?) [?]sur(?) ain\nimage-026 R.10 (= 022): [...] mind ge wesen was\nimage-026 R.11: [...]ffel hal(?) bey(?) gestern(?) / gesters(?) [?]unk(?) die er\nimage-026 R.12: [...]n(e) (superscr.) knecht ff(?) [rest struck through: \"Ist(?) gesetzt(?) hab(?) gleich(?)\"]\nimage-026 R.13 (struck): [...]ste [?]esen sach(?) / folch(?) [?] [?] naß(?) nach(?)\nimage-026 R.14 (struck): [...]t xj d[?] [?] sol im vj metze [...] ich\nimage-026 R.15 (struck): [...]im ij metze gerst(en)(?) yglichs(?) vm XIX kr(?) / b(?) fur\nimage-026 R.16 (struck): [...]e in oberhofe(?) sein vatt(er)(?) [...]\nimage-026 R.17: [...]o hirßzell d(er)t(?) [?] . lib(?) vnn(?) d(er)(?)\nimage-026 R.18: [...] (superscr. er) soldo(?) p (= p(ro)?) v[?]ctm(?) / vectm(?) Capelle(?)\nBelow: pen-trial strokes and a few figures (\"[?] 3(?) 6(?) 5(?)\") at bottom, not text.\nCombined 025+026 (tentative):\n  R.17 It(em) nagelin(?) vo(n) hirßzell(?) d(er)(?) [?] . lib(?) vnn(?) d(er)(?)\n  R.18 mad(?) / et iiij(er)(?) soldo(?) p(ro)(?) v[?]ctm(?) Capelle(?)\n  R.19 [?]pmauits(?)\n\nSELECTION / COVERAGE AND LIMITATIONS\n- Read: tiles 002, 003, 004, 005, 007, 008, 010, 011, 017 (face 1) and 021, 022, 025, 026 (face 2), plus both overviews (001, 018). This covers all the running text I could see in the overviews: 169-3r (both panels), 169-4r (all surviving line-ends), 169-2r (heading + 9-line block + right-hand word), 169-5r (two words), 169-1r endorsement/address block, 169-3v (both panels).\n- Not opened: 006, 009, 012, 013, 014, 015, 016 (face 1) and 019, 020, 023, 024, 027-034 (face 2). Per the overviews these are blank paper, stains, pen trials or the parts of 169-1r with faint sideways writing. The vertical (90-degree rotated) faint writing on 169-1r (left of the fold; visible in image-017 and presumably tiles 012/016) was NOT read; it needs a rotated crop at higher contrast.\n- Two hands/periods seem present (observation only): a 15th-c.-looking Bastarda documentary cursive with Latin/German account entries on 169-3r/3v (abbreviations: It(em), d(er) with superscript hook, vo(n) with stroke, roman numerals with j-final, \"metz(e)\", \"schoffel\"), and a later Kurrent cursive on 169-2r, 169-4r, 169-5r and the address on 169-1r (abbreviation \"E. G.\" for a title; \"&\" ligature; u with ü-bow). A modern pencil \"1462 dec.\" is written on 169-3r beside a dating line that I read as \"... samstag vor lucie(?) ... anno ix(?)lxij ... decembr(is)(?)\"; the \"ix\" before lxij is uncertain.\n- Many proper names and some common words are uncertain (marked (?)). Cancelled text (X-crosses, horizontal strike-throughs) was read through where possible and is labelled as struck.\n- Physical: paper fragments, torn edges, transparent tape on 169-3r fold, plastic holders over parts of 169-2r and 169-3v margins, redaction boxes on face 1 (169-3r lower right, 169-2r lower). No image-limit removal occurred while reading.\n",
+  "text_sha256": "867ec2e6b39a1c638e31a4194272bf915a25027a20700e8041b61ed3ac9ed44b"
+}

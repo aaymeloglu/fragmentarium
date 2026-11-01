@@ -1,0 +1,242 @@
+{
+  "captured_at": "2026-11-01T23:11:47.567876+00:00",
+  "fragment": "F-pmci",
+  "id": "stams7-2026-11-01-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "a7deb1f0772ef2c10baaed6fbb987acb6510ca332b6f6edb744a4f946b759af3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01r04r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_175_01r04r): whole image 7360x4912 reduced to 1800x1201 for layout; masked (modern additions) 5262,2529,5998,2824"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "8b1bd11aba3075e5ddb51456515cd2735446fac168b63ceaba5815205bfb3955",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01r04r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_175_01r04r): native-pixel box 1052,162,3264,2822; unrotated grid position column 1 of 3, row 1 of 2; masked (modern additions) 5262,2529,5998,2824"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "a1cf63f884a2d465971905f536c17a548fdd453252749cab50ed9aa382430738",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01r04r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_175_01r04r): native-pixel box 2790,162,5239,2822; unrotated grid position column 2 of 3, row 1 of 2; masked (modern additions) 5262,2529,5998,2824"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "97483d6191955dec2c43e2fca3afb23133708e0032c6fcd34591232ac6d00100",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01r04r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_175_01r04r): native-pixel box 4765,162,6977,2822; unrotated grid position column 3 of 3, row 1 of 2; masked (modern additions) 5262,2529,5998,2824"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "6cf445f9c12589bbde312739db0ac5ee13efc85d8925b86a69e48e4353369eba",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01r04r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_175_01r04r): native-pixel box 1052,2252,3264,4912; unrotated grid position column 1 of 3, row 2 of 2; masked (modern additions) 5262,2529,5998,2824"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "3fd920a3b72df6a9190a3a6d8b9f46037781b00ac9f869dece397a42748f2cb3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01r04r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_175_01r04r): native-pixel box 2790,2252,5239,4912; unrotated grid position column 2 of 3, row 2 of 2; masked (modern additions) 5262,2529,5998,2824"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "177a4a4863c3a5d4793636fb864a8d88183069d6bf74c0a2881b90706d3620f3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01r04r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_175_01r04r): native-pixel box 4765,2252,6977,4912; unrotated grid position column 3 of 3, row 2 of 2; masked (modern additions) 5262,2529,5998,2824"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "9897d98a0049d475527ce582212936f2dc8f4bd7a47a1dddf4392284138873bd",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): whole image 7360x4912 reduced to 1800x1201 for layout; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "46951685da89c1b824764f3ab000b4573a196e58603dcedf2b94a7918114792b",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 1023,0,3245,1809; unrotated grid position column 1 of 3, row 1 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "f4b02bdf968a551b508c87c42b0e7a5a2c24f95667d184515c0d1811ba0213e3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 2769,0,5230,1809; unrotated grid position column 2 of 3, row 1 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "79ae8f6091fab029db37d9ac5e3847fb7f3579a85391c8a4fb1357de4bb33914",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 4754,0,6977,1809; unrotated grid position column 3 of 3, row 1 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "01e6c95b3c30e0808f4beafc2f9962044ffb1c0bb61d6a768eb6093a12a5f82e",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 1023,1422,3245,3425; unrotated grid position column 1 of 3, row 2 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "b319478566d49f33df418405f9f12693aa486adbe75461949c8da5f9998363b1",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 2769,1422,5230,3425; unrotated grid position column 2 of 3, row 2 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "d7fbf4efc752799c8adaad8ab3265a6ae71d9252e649c3a14218645b693117c3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 4754,1422,6977,3425; unrotated grid position column 3 of 3, row 2 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "b30c7ade398ecce4a4443689cdb1e03b7193d6e7a4b0588f1d0ed09f140c79c6",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 1023,3038,3245,4848; unrotated grid position column 1 of 3, row 3 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "7e6ee57c171cc27d6b4e77c3bcbea600bf52b7b37f891463fdda2a1efee6c64b",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 2769,3038,5230,4848; unrotated grid position column 2 of 3, row 3 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "b80458e9828dd68adcea52943e61fa8a6b524f08c63c4befeda66f99f973578d",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_01v04v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_175_01v04v): native-pixel box 4754,3038,6977,4848; unrotated grid position column 3 of 3, row 3 of 3; masked (modern additions) 2355,3634,3680,4027, 5336,4273,6587,4641"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "2c9017cfe6c8bdc176324325e38ed6ef968cf632e708bb23365a70e73e7f4f7a",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05r08r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_175_05r08r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "c13326c3a16556e820d82cdb01eca2eacd4caa731f46c4bb9f11bb6519aa1169",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05r08r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_175_05r08r): native-pixel box 1501,98,3509,2702; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "50ac72994eee505f1768c5c4de819a03ee08ba18b68bea78a4265f9aeabdff2a",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05r08r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_175_05r08r): native-pixel box 3079,98,5302,2702; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "d4db0c0d76327ef214e92f60fcaecf1ecaeef2b7fdd5617de339f8af7e9d45a3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05r08r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_175_05r08r): native-pixel box 4872,98,6881,2702; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "4e5d9dfc7e44f3723d0ad5acc7cce8d726d278dd6884f543c874e187d3825a17",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05r08r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_175_05r08r): native-pixel box 1501,2144,3509,4749; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "9632a58d652e0cf1a358df8452d3b03e7cea8342e1cc9444a9d2f6e1141fbb51",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05r08r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_175_05r08r): native-pixel box 3079,2144,5302,4749; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "f26a8cb81d34c2199a890e6846a188929e77202368f3b314008eed7d72831eb3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05r08r.jpg/full/7360,/0/default.jpg (canvas 2, Stams_STA_Frg_175_05r08r): native-pixel box 4872,2144,6881,4749; unrotated grid position column 3 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "1c5b20acbf1d982020a3c518bf7ea3c1c0e9948e0daa52d87059d4fa9f32fc9e",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_175_05v08v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "a537c63e1738a39e2c2a9ed585ef65f8e0679f16385363a646fd1ae4ee92b0e3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_175_05v08v): native-pixel box 574,127,2532,2770; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "68f50abcbbb4b436b7a0c9516c516e2efb5b80d1a8736dc1a496aa8fbf9355c9",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_175_05v08v): native-pixel box 2113,127,4281,2770; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "f71ef9526841dd2e1b9d57f9f0db0be65dbdc1600c1da9fe1d4abdfebd72b4b2",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_175_05v08v): native-pixel box 3862,127,5821,2770; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "d0ccd32ca19105547b002247591b272701e44b54124e5e9b44acf205ec2b17f3",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_175_05v08v): native-pixel box 574,2204,2532,4848; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "f8ee6eb7e6d15b2e403fb93fed35a149a6262db5c380a5dd28b55c52b5f0d8f9",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_175_05v08v): native-pixel box 2113,2204,4281,4848; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "59573550e9a10f9b1189908d6a99372afb25b52de09f96ae8ff97f812e814378",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_05v08v.jpg/full/7360,/0/default.jpg (canvas 3, Stams_STA_Frg_175_05v08v): native-pixel box 3862,2204,5821,4848; unrotated grid position column 3 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "dde476f9a3a0b58dfbd3f314fc57de72a9403e2db607e4c72868b2edf5c0cb64",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09r10r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_175_09r10r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "80f240c2d1b802bcaae2949ba302e5c0eed191c5c571a4c677f551c6838e6469",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09r10r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_175_09r10r): native-pixel box 1280,898,3335,2840; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "118fe38ece352b9de894e1d1f34f6cf86a9e4c1440788f7fc3f65471d868d26c",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09r10r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_175_09r10r): native-pixel box 2894,898,5170,2840; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-035.jpg",
+        "sha256": "0613b3505a2f207eac1158df2f3f22224c31e17d37d213f303af375dcd2d162a",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09r10r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_175_09r10r): native-pixel box 4729,898,6785,2840; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-036.jpg",
+        "sha256": "043e88ecde32140f03532f8eacb5bbede744c1380416194ce6069e9444e09103",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09r10r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_175_09r10r): native-pixel box 1280,2423,3335,4366; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-037.jpg",
+        "sha256": "02bed05c295b2ab8edff067fa7f5bc954a647011a79198d32c005e652cd3188b",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09r10r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_175_09r10r): native-pixel box 2894,2423,5170,4366; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-038.jpg",
+        "sha256": "d751aed4b847aecdbee82f0cc1650abd8b5dc7ba65a2645d086c54d577199e5d",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09r10r.jpg/full/7360,/0/default.jpg (canvas 4, Stams_STA_Frg_175_09r10r): native-pixel box 4729,2423,6785,4366; unrotated grid position column 3 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-039.jpg",
+        "sha256": "8c97a90b0e7997641cec697ce86c42e2ea63305b9156e0aad9aa9de172b043ea",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09v10v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_175_09v10v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-040.jpg",
+        "sha256": "725eeac687c5689514fb7ce969260d37e738a4e9da50734599756390154886db",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09v10v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_175_09v10v): native-pixel box 1280,962,3382,2904; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-041.jpg",
+        "sha256": "7ac40c3faeb4d21de0aabcf869c9c7c7574f82534b8da5c9e63d5af25b4afa2b",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09v10v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_175_09v10v): native-pixel box 2931,962,5259,2904; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-042.jpg",
+        "sha256": "a165b6e56139eca9483f4d7b8e6042f63b127aee5ca5b92392e628b1e630acce",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09v10v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_175_09v10v): native-pixel box 4808,962,6911,2904; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-043.jpg",
+        "sha256": "766c2b0f40652792814ee4cd422fd7dd8be05e84db52b8f9aad08808f3a7542e",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09v10v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_175_09v10v): native-pixel box 1280,2487,3382,4430; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-044.jpg",
+        "sha256": "8f357dc2ce8712757fb2107a5f86cb4203e8cb3b1ef4d1375c19a38ce408287e",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09v10v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_175_09v10v): native-pixel box 2931,2487,5259,4430; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-045.jpg",
+        "sha256": "f6346258a5e241faa83cdcbee58d6b38fbf8f6b558c2ac96b377345481dcdb5d",
+        "source": "https://fragmentarium.ms:443/loris/F-pmci/Stams_STA_Frg_175_09v10v.jpg/full/7360,/0/default.jpg (canvas 5, Stams_STA_Frg_175_09v10v): native-pixel box 4808,2487,6911,4430; unrotated grid position column 3 of 3, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "fresh Claude subagent (Opus 5.5), image-only",
+  "schema_version": 1,
+  "session": "stams-c5ugo-batch-7 2026-11-01 (packet-18)",
+  "text": "packet-18 -- unverified image reading (first reader)\nExposure statement: nothing in my context proposed an identification of the work or author. I read only the brief, PROMPT.md, and image files in the packet directory (plus a dimension listing of those images via sips). I did not open packet.json.\n\nLAYOUT SURVEY\n=============\nSix overview images (reduced): image-001, -008, -018, -025, -032, -039. Tiles following each overview are native-resolution, overlapping, laid out as a 3-across grid (image-002..007 = 3x2 under 001; 009..017 = 3x3 under 008; 019..024 under 018; 026..031 under 025; 033..038 under 032; 040..045 under 039).\n\nimage-001 (overview, face A): four separate paper fragments on black ground with colour chart and scale. Pencil shelfmarks visible: \"Stams, StA, Frg. 175-1r\", \"175-2r\", \"175-3r\", \"175-4r\".\n - 175-3r (upper left): bifolium-like sheet with vertical fold; mostly blank. Cursive notes at top (\"...Jan. 26 Januar...\", a year-like \"Anno 1562?\"), a word mid-right, and a flourished signature/name lower right. Pencil \"VI,c / K 17\". Wrapper/endorsement-like, not book text.\n - 175-4r (upper right): mostly blank, cursive note across top, a sum-like \"152.50 fl\"? at right, number \"2925?\" lower right. Pencil \"VI,c / K 17\".\n - 175-2r (lower left): left half blank, right half carries ~13 lines of a small cursive hand, ending in torn lower edge.\n - 175-1r (lower right): pieced from two strips (upper strip and lower piece, joined; a clear plastic strip/tape lies vertically over the right part). Single-column-ish cursive text in two blocks (left block and right block, apparently two columns or two pages of an opened sheet). Headings in larger script: \"Articulus ...\" with \"An Theologia sit ...\" beneath, appearing twice (upper left block and right block). A grey redaction box covers part of the top edge.\nObservation: the book-hand content is a 16th/17th-c.-type cursive (no date inferred) arranged as question-headings (\"Articulus\", \"An Theologia sit...\") followed by prose; looks like scholastic lecture notes/dictata. Interpretation only.\n\nFACE A (image-001) TILES\n========================\nimage-006 (bottom-middle tile of face A). Shows: top left, lower end of 175-3r (signature-like \"...dung bey Corn[...]\", tail of the flourished name, not book text); left half, right-hand text block of 175-2r (cut at right edge of tile); right half, left text block of 175-1r (upper strip + lower piece, cut at right edge of tile). Line numbers below are counted from the top within each block as seen in this tile.\n\n175-2r, text block (cursive; right ends of lines cut by tile edge, continue on image-007? no - 175-2r right edge is within this tile at ~x=840; the lines appear to run to the leaf edge or be cut by the paper edge/tear):\nimage-006 2r-l1: fuerit s(ecundu)m alle antequam ma?lo fuerat [...]\nimage-006 2r-l2: da? per s(ecundu)m / p(ro)bat? ex illo scriptura loco [...]\nimage-006 2r-l3: diuinit(us) revelata ubi? et ad doce[...]\nimage-006 2r-l4: [?]acorimo? p(ro)bat quam scholastic[a ...]   (first word unread: \"gacorimo/gactorimo\"?)\nimage-006 2r-l5: difficultates fidei et scripturae [...]\nimage-006 2r-l6: terum? fallacias et errores confutat? et [...]\nimage-006 2r-l7: firmat. etc. Nec dicas hieronim(us) [...]\nimage-006 2r-l8: ?do p(ro)bat? Tum exe(m)plo xpi (Christi) cum [...]\nimage-006 2r-l9: Diversionib(us)? Matth: p(ro)bat xps (Christus) ex [...]\nimage-006 2r-l10: 22 p(ro)bat res(urrectionem): mortuorum quia Deus n(on) [...]\nimage-006 2r-l11: Contrarijs patrum? argumentis su? Res(pondeo)? [...]\nimage-006 2r-l12: of ?rito? [...] (bottom line, damaged; rest [illegible])\n Note: the right edge of this block is not the paper edge; lines continue beyond where this tile's view of 2r ends at the dark gap? -- In fact the 2r leaf edge is at about x=840 of this tile, so text is cut by the physical leaf edge (loss of text), not by the tile. Uncertain.\n\n175-1r, left text block:\n Upper strip:\nimage-006 1r-h: Articulus [2-3 letters blotted/struck through] ?onus  (Nonus? / Xonus?)   [heading, larger]\nimage-006 1r-l1: An Theologia sit dignior alijs scientijs.\nimage-006 1r-l2: ē (Est) qa (quia?) sua? aliqua? dignitas perfectior ē (est) certitu[dine ...]\nimage-006 1r-l3: 6 Theol: quatenus ē (est) speculatiua superat ceteras\n (tear/join between strip and lower piece; one line may be lost or the top line of the lower piece is partly torn)\n Lower piece:\nimage-006 1r-l4: [...]tior? ac certi[or ...] tum ra(ti)o(n)e certitudinis [...]\nimage-006 1r-l5: [...]ijt? de Theol. dico, r(ati)o(n)e certitudinis q(uia) nititur lumi[ne]\nimage-006 1r-l6: [...]te? q(uod) superat om(n)em ro(nem) humanam cu(m) hec falli et fa[llere?]\nimage-006 1r-l7: [...] ultij? applicat male. Dices p(ro)p(ter)ea? ē (est) evidens? certi[or]\nimage-006 1r-l8: [...]dei? cogit i(ntellec)tum ad assensum. Res(pondeo) neg(an)do maiore[m]\nimage-006 1r-l9: [...] dico q(uod) evidentia cogit i(ntellec)tum q(ui) dispositus ē (est) ad capie[ndum?]\nimage-006 1r-l10: [...] ?delusus? a: Theol: cum superet captum i(ntellec)tus humani [...]\nimage-006 1r-l11: [...]ores? i en: n(on) ē evidens? et [struck word] minori certitudine [...]\nimage-006 1r-l12: [...]u(m) ultij? et iniciat? S. Thomas hui(us) art(iculi) 5 ad [...]\nimage-006 1r-l13: [...] q(uod) Theol: utatur ministerio argumentationum philos[ophicarum]\nimage-006 1r-l14: [...]am? p(ro)? recipit ad modum recipientis recipit[ur]\nimage-006 1r-l15: [...]ratica? ē (est) nobilior ceteris facultat?ijs practicis [...]\nimage-006 1r-l16: [...] ordinat ad ultimum finem qui n(on)? [...] illo [...]\nimage-006 1r-l17: [...] op(er)ibit? suma beatitudo.\n Line-starts of 1r-l4..l17 lie left of this tile's view? No: they are cut by the leaf's torn left edge (paper loss). Right ends continue into image-007.\n\nimage-007 (bottom-right tile of face A). Shows right ends of 175-1r left block (overlap with image-006) and the whole right block of 175-1r. A clear plastic strip lies diagonally/vertically in the gutter between the blocks (no text under it visible; it is in the blank margin). Grey redaction rectangle at top over the upper strip; pencil \"Stams, StA, Frg. 175_1r\" and \"641/49\" beside it.\n\n175-1r left block, line endings (overlap; same lines as image-006 1r-l1..l16):\nimage-007 1r-h: ...[?]onus.  (only last letters \"-nus.\" visible here)\nimage-007 1r-l1: ...[dig]nior alijs scientijs.\nimage-007 1r-l2: ...perfectior ē certitudine\nimage-007 1r-l3: ...[specu]latiua superat ceteras\nimage-007 1r-l4: ...[ra(ti)]o(n)e certitudinis q(uia)? [line end: \"rōe certitudinis qr\"? - last word uncertain]\nimage-007 1r-l5: ...[certitu]dinis q(uia) nititur lumi(n)e   (so 1r-l5 = \"r(ati)o(n)e certitudinis q(uia) nititur lumine\"; earlier \"ga\" = qa = quia)\nimage-007 1r-l6: ...cu(m) hec falli et fallere   (\"nec falli nec fallere\"? letters read \"hec\"; keep uncertain)\nimage-007 1r-l7: ...p(ro)p(ter)ea? ē evidens certius? / certior?\nimage-007 1r-l8: ...Res(pondeo) neg(an)do maiorem\nimage-007 1r-l9: ...q(ui) dispositus ē ad capiendu(m)\nimage-007 1r-l10: ...captum i(ntellec)tus humani\nimage-007 1r-l11: ...minori certitudine s(ed)? / ß-like sign at end\nimage-007 1r-l12: ...[Tho]mas hui(us) art(iculi) 5 ad [?]tum  (\"ad 2um\"? \"ad tertium\"? superscript cross/mark above; uncertain)\nimage-007 1r-l13: ...argumentationum philoso:\nimage-007 1r-l14: ...[recipien]tis recipit(ur)\nimage-007 1r-l15: ...[fa]cultatijs? practicis q(uia) r(ati)o(n)e\nimage-007 1r-l16: ...qu(em)? n(on)? [?]dinat? ulteriori?  (faint, torn)\n\n175-1r right block (lines numbered from top of the block):\nimage-007 1r-R1: scholastica Theologiae. Scholastica [... cut at leaf edge/tile]\nimage-007 1r-R2: ni(si)? solu(m) ex ui? usu?) est illa quae accurat[e]\nimage-007 1r-R3: explicat et adversus haereticos defendit\nimage-007 1r-R4: q(ui)? n(on)? [ink blot over 2-3 words] [..]plim? possunt. Sed [...]   (blot/stain and tear across this line; possibly \"impugnant possunt\"? unreadable under blot)\nimage-007 1r-R5: ?cotis / Scotus?  (single word at line start, then blank to end of section)\nimage-007 1r-R6 (heading, larger, centred-right): Articulus [number cut off at right edge]\nimage-007 1r-R7 (heading): An Theologia sit [... cut]\nimage-007 1r-R8: Negant haeretici pene? o(mn)es et stud[...]   (large N initial)\nimage-007 1r-R9: [?]mo? q(uia) Joa. 16 promittit Chr(istu)s q(uod) sp(iritu)s [...]\nimage-007 1r-R10: om(n)em veritatem, item 1 Joa. 2 d(icitu)r? q(uod)? [...]\nimage-007 1r-R11: et alibi q(uo)d s(acra)? scriptura ut(?) Theologia. [...]\nimage-007 1r-R12: ?? p(ro)p(ter)? [?]ere? studere discursum circa [...]\nimage-007 1r-R13: veritates? fidei? et q(uae)? [?] p(er) discursum [...]   (first words uncertain: \"baitati/veritati...\")\nimage-007 1r-R14: Item q(uia) homo p(er) philosophiam p(otes)t cognos[cere]\nimage-007 1r-R15: sufficit? ad ul?timum ab alia? lib?eru(m)? finem s(ed)? [...]\nimage-007 1r-R16: [illegible, torn lower edge] [...] hic a Log[...]\n Not read on face A: image-002, -003, -004 (top row: 175-3r and 175-4r archival notes/endorsements, not book text) and image-005 (bottom-left: blank left half of 175-2r; line-starts of 2r text appear already in image-006).\n\nFACE B (image-008, overview): the same four fragments, versos. Pencil \"Stams, StA, Frg. 175_3v\", \"175_4v\", \"175_2v\", \"175_1v\".\n - 175-3v, 175-4v (upper): blank apart from stains.\n - 175-2v (lower left): ~15 lines of the same small cursive in the LEFT half; right half blank except a grey redaction box.\n - 175-1v (lower right): pieced (upper strip + lower piece, joined); ~19 lines in a left block; right block blank with grey redaction box at lower right. A plastic spatula/strip lies over the top edge.\n\nimage-015 (bottom-left tile of face B): the text block of 175-2v (left half of the leaf). Left edge of the leaf is torn, so first letters of several lines are lost (paper loss, not tile crop). Right half of leaf blank; grey redaction box; pencil \"Stams\" at right edge.\nimage-015 2v-l1: [..] Theol: [?]tiat? nemo? [?] [blank/rubbed] aliquam   (middle rubbed; very uncertain)\nimage-015 2v-l2: [..]a Theol: p(er)dit(ur)? una? cum fide.   (superscript \"q\" or \"9\" above line start)\nimage-015 2v-l3: [..]na? ē (est) affirmans. P(ro)b(atur) p(ri)mo in alijs sci(enti)js   (interlinear \"habi(tus)?\" above line end)\nimage-015 2v-l4: [..]d(e)i?/dis? acquir(itur)? ab act(ibus)? habitu(s) c(on)clusionu(m)?. s(ed)? fides   (\"acquiri\" read as \"a(c)qr\"; uncertain)\nimage-015 2v-l5: habit(us) principiorum c(ontra)? Theologiae   (a horizontal stroke above/after \"Theologiae\" to right margin)\nimage-015 2v-l6: [..]g? infusus. Theo(logia)? n(on)? acquisita. P(ro)b(atur) hoc p(ri)mo\nimage-015 2v-l7: [..]a industria acquirit(ur) ve? dono? ex? gr(ati)a? / ex(?)ia   (last word uncertain: \"experi(enti)a\"?)\nimage-015 2v-l8: [..] attingit [?](abbrev. with superscript, \"c(ertitu)d(ine)m\"?) s(ecundu)m substantiam supernalem? / supernaturalem\nimage-015 2v-l9: [in]fusus?, cum ad eum n(on) habeat n(isi)? p(er)? [?]   (last word \"potm\"? \"potentia\"?)\nimage-015 2v-l10: [..]o habitus infusus [?] [im]mediate.   (\"fin..bilis? pdiate\"; \"[?]mabilit(er) immediate\"? uncertain)\nimage-015 2v-l11: [..] quo ad suas c(on)clusiones h(abe)t? aequalem certitudinem\nimage-015 2v-l12: [..]h(abe)t? aequalem certitudinem ut infra videbit(ur)?\nimage-015 2v-l13: [e]t habitus infusus a quo n(on) distinguit(ur) act[...]   (ink blot below \"a quo\")\nimage-015 2v-l14: [..]tur? poterit? dici Theologi(a)? q(uo)d? ut? infusa?/m [...]\nimage-015 2v-l15: [bottom line: only ascenders/tops visible, illegible]\n Line ends near x=1000-1100 of tile; the text block does not extend past the leaf midline (vertical fold at ~x=1200).\n\nimage-016 (bottom-middle tile of face B): left part = blank right half of 175-2v (redaction box, pencil \"Stams, STA, Frg. 175_2v\"); right part = 175-1v text block, from its 3rd line down. The leaf's left edge is torn, so line-starts are partly lost (paper loss). Right ends continue into image-017. Top 2 lines of 1v are above this tile (expected in image-013).\nimage-016 1v-l3: [..]aturo?/tradendo? ab aliqua certa Methodo qua fide[s]\nimage-016 1v-l4: [..] sub certa methodo docet illa.\nimage-016 1v-l5: [..] Theologia nullo modo ē (est) [?]mp(er)tinentia? / instrumentaria?   (line damaged by tear/join just below)\n (join between upper strip and lower piece; dark loss under it)\nimage-016 1v-l6: [ad?] salutem: Ideo? manifesta ē (est) in infantib(us)\nimage-016 1v-l7: [qui] sine hac salvantur.\nimage-016 1v-l8: [Theo]logia absolute considerata ē (est) nec(essa)ria ad salutem\nimage-016 1v-l9: [p(ri)]mo? ex S.S. (Sacra Scriptura?) Eph. 4: Dedit quosdam doctores ad c(on)s[ummationem?]\nimage-016 1v-l10: [sanctor]um? fidelium. 1 Cor. 12 Datur alijs sermo scienti[ae]\nimage-016 1v-l11: [ad] Titum 1. exigit Ap(osto)l(u)s in ep(iscop)o sermonem fidelem\nimage-016 1v-l12: [?]ni? etc. Matth: 23 iubet xps (Christus) adire leg[is ...]\nimage-016 1v-l13: [..] aliquoties in veteri testa(mento) factum e(st)? legimus.\nimage-016 1v-l14: [..] tum q(uia) fides ē (est) nec(essa)ria. S(ed) fides fini? / sem[per?]\nimage-016 1v-l15: [..] corrupta n(on)? manet? ut p(ate)t? ex(peri)entia et docet\nimage-016 1v-l16: [Ro?]m: cap 12? Theologia n(ecessari)a? ē (est) q(uia)? fides   (\"nigeri\"? read \"nec(essa)ria e(st) qua fides\"? uncertain)\nimage-016 1v-l17: [..]t defendit. Tum q(uia) ho(min)is ē agere p(ro)pt(er) finem\nimage-016 1v-l18: [..] q(ui) ē (est) finis n(isi)? cognoscat a nobis. E(t) como?[...]\nimage-016 1v-l19: [..] f.S.S.? [...] [ex]emplo pet[...]   (torn lower edge, mostly lost)\n\nimage-013 (middle-middle tile of face B): mostly lower edges of 175-3v/175-4v (blank) and black ground; plastic spatula; top of 175-1v text block (overlaps image-016 lines 3-6). Upper margin of 1v blank above first text line.\nimage-013 1v-l1: [..] Theo: et [rubbed, ~1 word] q(ui)? p(ro)? c(on)siderari? p(otes)t s(ecundu)m se   (\"pro considerari pot secundum se\"; \"p(ro)ut? c(on)siderari p(otes)t s(ecundu)m se\"? uncertain)\nimage-013 1v-l2: [..]tradendo? ab aliqua certa Methodo qua fide[s]   (= image-016 1v-l3; my image-016 numbering is therefore off by one: image-016 \"1v-l3\" is in fact line 2 of the block, and so on; the block has 18 lines, not 19)\nimage-013 1v-l3: [..] sub certa methodo docet illa.\nimage-013 1v-l4: [..] Theologia i(n)? nullo modo ē [?]mp(er)tinentia? / instrumentaria?\n Note: the earlier reading \"1v-l1/l2 above this tile\" in image-016 was wrong; only one line precedes \"tradendo...\".\n\nimage-017 (bottom-right tile of face B): line ends of 175-1v text block (overlap with image-016) and blank right half of 1v (redaction box). Line ends confirm/adjust image-016:\n \"...Methodo qua fide[s]\" / \"...illa.\" / \"...[i]mp(er)tinentia?\" / \"...[manif]esta ē in infantib(us)\"\n \"...ē nec(essa)ria ad salutem\"\n \"...[De]dit quosdam DD (doctores) ad c(on)s[ummationem]\"   (\"DD\" doubled-D abbreviation clearly visible)\n \"...alijs sermo scientiae\"\n \"...[e]p(iscop)o sermonem fidelem\"   (\"in\" written above line before \"fidelem\"? small interlinear stroke)\n \"...xps adire legisperitos\"\n \"...factum ē? legimus.\"\n \"...S(ed) fides semi? / fini?\"   (last word unread)\n \"...experientia et docet\"\n \"...[n]ig?ens? ē qua fides\"   (word before \"ē\" may be \"indigens\"? -- \"Theologia indigens? ē\"? uncertain)\n \"...[ē] agere p(ro)pt(er) finem\"\n \"...a nobis. E(t) como?[...]\"   (a large \"C\"-like stroke before \"omo\")\n \"...[ex]emplo petr[i]?\"\n Nothing else written on the right half of 1v.\n Face B tiles not read: 009, 010, 011, 012, 014 (top/middle rows over blank 3v/4v and upper margin; 012 likely holds only blank area above 2v text). Not checked for stray notes.\n\nFACE C (image-018, overview): four further fragments, pencil \"Stams, StA, Frg. 175_8r\" (upper left), \"175_7r\" (upper right), \"175_6r\" (lower left), \"175_5r\" (lower right); each also \"VI,c / K.17\". All four carry GERMAN text in a German cursive (Kurrent) documentary hand with large flourished initials, not the Latin scholastic hand of 175-1/2:\n - 175-8r: ~6 lines of letter/account text at top, then short entries (\"38 ...\", \"15 ...\") and a closing line; a large flourish/paraph lower right.\n - 175-7r: heading-like word at top (\"Extract\"? / \"Extra...\"), then account entries with flourished initials and sums at right (\"3 ... 6 fl\", \"10 kr\"?, \"11\").\n - 175-6r: letter/account with itemised entries and sums in a right column (\"24\", \"12\", \"40\").\n - 175-5r: formal letter text, ~18 lines; a year \"1649\" visible at about line 12 (observation from overview; check at tile).\nInterpretation: documentary German material (accounts / letters), probably binding or wrapper waste kept with the Latin fragments.\n\nFACE D (image-025, overview): versos 175-5v, 6v, 7v, 8v, photographed rotated 180 deg (pencil labels upside down; colour chart upside down at upper right). 5v, 6v, 7v blank. 8v (lower right) carries ~8 lines of German Kurrent in its left half ending in what looks like a date line \"... Anno 162?\" (1624? / 1627?) and a word \"...ame?\" then a signature-like 2 lines (\"...ll... / ...dessau?\"). Upside-down in the image. Documentary, not the Latin text.\n\nFACE E (image-032, overview): two fragments. Left: \"Stams, StA, Frg. 175_10r\" (also \"VI,c/K 17\"): 3 lines of German account text across top with sums at left margin (\"12\", \"33\", \"39\"?) and at right (\"12 f 40\"?), a centred \"Summa 17 fl\"? with \"1 f\"? below, and a signature-like line at bottom. Right: \"175_9r\" (pencil label written vertically): torn sheet with ~22 entry lines, each beginning with a looped initial (like \"Der/Dem...\" or an item mark), a German account/list hand; show-through of writing from the other side is strong.\n\nFACE F (image-039, overview): versos 175-10v (left) and 175-9v (right).\n - 175-10v: endorsement-like word at top right (\"Rüstig?\"/\"Rüstzeug?\"), a line below (\"Von des? Zoll?... \"), and in the centre a short column of black, heavier, upright letters (look like Gothic book letters, possibly offset or a pasted strip: e.g. \"...ein / mm / iii / tu / ...\") with a large flourish crossing them. A vertical strip along the fold (pasted reinforcement?) bears a column of dots and faint red/brown letters; reddish show-through/offset of a column of text appears on the left half. Interpretation: possibly offset from a red-and-black book page or a reused strip; needs the tile.\n - 175-9v: largely faint/show-through; one German line mid-page, ~8 German lines in lower half and a closing formula/signature (\"... Dienst ... / ... Rasp? ... / ...\") at bottom.\n\nimage-044 (bottom-middle tile of face F): right half of 175-10v and left part of 175-9v lower half.\n 175-10v: top line in German cursive: \"[...] Zollungmaben? [...]\" (reads like \"...Zol(l)ungmabon? also?\"; unread). Below, a short column of 7 groups of heavy black GOTHIC book letters (textualis/textura type, strokes thick and square), each the right end of a line, starting at this tile's left edge (continue in image-043):\n   g1: [..]ui? / [..]is?    g2: [..]rii? / [..]ro?   g3: [..]um? / [..]nnu   g4: [..]ue? / [..]tis?   (followed by a short horizontal stroke)\n   g5: [..]ra? / [..]ta   g6: [..]nem? / [..]tem?   g7: [..]iii? (faint)\n   These are minim clusters I cannot resolve with confidence; it is unclear whether they are written directly on this face, pasted, or an ink offset (mirror-image) from another sheet. A large looping pen flourish (cursive, brown) crosses them.\n 175-9v (left of the right fragment): faint brown cursive marks and reddish offset/show-through; only \"2.0?\" -like numerals legible. Not read.\n\nimage-043 (bottom-left tile of face F): left/central part of 175-10v. Observation: the black Gothic letter-groups (right of the fold) and further scattered black and RED blotchy letter clusters (left of the fold, e.g. a reddish run \"[..]unu / [..]nu / [..]m[..]\" and black \"[..]tio?\" \"[..]ol?\") are patchy, with uneven, partial ink and no consistent baseline: they look like ink OFFSET (set-off) from a red-and-black Gothic page that once lay against this face, not writing on it. I cannot read connected words; if offset, letters would be mirror-reversed, which I cannot confirm at this resolution. A pasted vertical paper strip along the fold carries a column of brown cursive letters written along its length (probably a German note/label written vertically; not read) and a row of small dots (sewing/stitch holes?). Pencil \"Stams, StA, Frg. 17[5-10v]\".\n\nimage-024 (bottom-right tile of face C): 175-5r, German letter in Kurrent; left margin initials flourished (left edge partly in image-023). Pencil \"Stams, StA, Frg. 175_5r\". Top strip = lower edge of 175-7r (only flourish tails).\n Spelling as seen; uncertain words marked.\nimage-024 5r-l1: [H]och vnnd Wolgeborn, Wol Edl. Gestreng[e]\nimage-024 5r-l2: Hochgelehrt, gnedig vnnd gebietende herren!\n (blank space)\nimage-024 5r-l3: [A]uf schuldig gehorsamben Nachgelebung Euer\nimage-024 5r-l4: Ih: (?) Gnaden? beuelchs de dato 12 Nouembris?/Decembris?\nimage-024 5r-l5: [?]monats? ocktobris? dits? Jhar? Anno? [?]ehi? den   (very uncertain)\nimage-024 5r-l6: 24 hirnach mit gebürennder Ehr vnnd\nimage-024 5r-l7: reverentz Zu händen empfangen, habe Ich\nimage-024 5r-l8: darauff selbigem dem buech? vnnd Schreiben\nimage-024 5r-l9: [?]ses? Landtgerichts Stainach? meiner Ver-\nimage-024 5r-l10: waltung der ferdinandi? Confiscationen? [..]\nimage-024 5r-l11: [?]nder? 1649 ist an Jacob Unzing? [?]   (year \"1649\" clear)\nimage-024 5r-l12: bin, [?] von [?] vnnd in [?] Pretio?\nimage-024 5r-l13: [?]selbe? [?] haben [?] Anrichten?\nimage-024 5r-l14: Zeit mir einzunemen? [?] aufzu[..]\nimage-024 5r-l15: laden, [?] [?] ve? [?] de ein[..]\nimage-024 5r-l16: Ih: Ich [?] [?] [?] [?]\n German documentary hand; I did not attempt a close reading of l12-l16.\n\nimage-002 (top-left tile of face A): 175-3r, a folded sheet (vertical fold), blank except endorsement-type notes. Pencil \"VI,c / K 17\", \"Stams, STA, Frg. 175-3r\".\nimage-002 3r-l1: [?]heimischen? / Heimischen? [..] Actum? den. 26. [Januar ...]   (continues in image-003)\nimage-002 3r-l2: Anno .1.6.2.1.?   (date-like; last digit \"1\" or \"3\"; uncertain)\nimage-002 3r-l3: Präs(entiert)?: / Lectum? (flourished word with colon)\nimage-002 3r-mid: gehorsamb wil[liger]  (centre right, continues into image-003)\nimage-002 3r-bottom: [?]audung? / Haubung? bey Corn[...]  (large flourished, signature/address-like)\n German documentary; not the Latin text.\n\nimage-035 (top-right tile of face E): upper part of 175-9r. German account/list in Kurrent; each entry begins with a large looped initial (reads like \"Mer\"/\"Der\"/\"Item\"-type entry mark), followed by a quantity: e.g.\nimage-035 9r-l1: [torn top line, illegible]\nimage-035 9r-l2: [M/D]er? [?]... [?] ...   (\"Mer zwen? Ryel? in ...\"; unread)\nimage-035 9r-l3: [M/D]er 8 [?]... [?] ...\nimage-035 9r-l4: [M/D]er 1/2 hundert? Zwifl?/Zinngl? [..] ... f(l)?\nimage-035 9r-l5: [M/D]er 2 [?] und [?] ... aufgeh..?\nimage-035 9r-l6: [M/D]er [?] ... 4 [?] ... darein?\nimage-035 9r-l7: [M/D]er 1? [?] ...\nimage-035 9r-l8: [M/D]er 3 mass? kind? ... aufgel..? .. 4\nimage-035 9r-l9: [M/D]er [?] ... 1 [?] ... (torn)\nimage-035 9r-l10: [M/D]er? [?] ... darein?\n Not seriously read; documentary.\n IMPORTANT OBSERVATION: between the German lines there is a second, MIRROR-REVERSED text in a reddish-brown GOTHIC book hand (textualis/rotunda-like letter shapes, minims, round d), running in regular lines with even spacing, e.g. reversed strings that look like \"[..]uniu quu[..]\", \"depm quend senuin bisam[..]\" when read as they appear (i.e. reversed). This is either show-through of a Gothic text on 175-9v or set-off from a Gothic book page. On the face F overview 9v does not visibly show a matching Gothic block, so set-off (offset) onto this sheet is the more likely interpretation; the black/red Gothic marks on 175-10v (image-043/044) look like the same phenomenon. A mirrored digital flip of image-035 could make these lines legible; I did not make one.\n\nCROPS of image-035 (made by me; scratchpad paths):\n /private/tmp/claude-501/-Users-aaymeloglu--claude-assistant/e815e015-b31e-41c2-a426-393753ef7331/scratchpad/p18/img035_flip_blue.jpg  (left-right flip, blue channel autocontrast): the Gothic stayed unreadable -> not a simple left-right mirror as displayed.\n /private/tmp/claude-501/-Users-aaymeloglu--claude-assistant/e815e015-b31e-41c2-a426-393753ef7331/scratchpad/p18/img035_vflip_blue.jpg  (top-bottom flip, enlarged): the Gothic letters become right-reading. So in image-035 the Gothic text appears mirrored about the horizontal axis (= upside-down mirror image), consistent with a set-off from a page that lay face-to-face with this sheet, or show-through from the verso of a sheet turned upside-down.\n /private/tmp/claude-501/-Users-aaymeloglu--claude-assistant/e815e015-b31e-41c2-a426-393753ef7331/scratchpad/p18/img035_vflip_rminusb.jpg  (top-bottom flip, red minus blue, inverted): best view of the reddish Gothic layer. Gothic textualis/rotunda-type book hand (or print), single column, ~12 lines visible across the tile. Readings, numbered from the top of the FLIPPED crop (i.e. reading order of the Gothic text); German cursive still overlies everything:\n G1: [illegible, German ink over it]\n G2: [.]a bene? / labore? dolore humorem? / humore r(?) [:] nec [..]m[..] [..]\n G3: [..]a[..] [..]humi[..] humida [..] ... [illegible]\n G4: [..] [..]g[..] [..] hu(m)iditati? / humiditas? [..]\n G5: [..] [..] qua[..] [..]ag(?)u? [..] [..]\n G6: [e]xperientia? / experta? [..]dicunt? / adhuc? [..]a[..] [..]\n G7: adh[..] dom? / adhibe? [..] in? rebus? [..] [..] cerebri? / terre?\n G8: nobis? / [..]obis dona? / dant? natura? [..] [..]\n G9: [illegible under German entries]\n G10: [..]e? [..] [illegible]\n G11: [..]alie? melancolie? / melancholie? [..] [..]\n G12: [illegible]\n Tentative interpretation (observation only): vocabulary like \"dolore\", \"humorem\", \"humida\", \"melancolie?\" suggests a medical/natural-philosophy Gothic text, but every word above is uncertain. This layer is a distinct, older Gothic text and probably the most identifiable book content in the packet apart from the Latin theology of 175-1/2. A full top-bottom flipped, colour-separated pass over all 175-9r tiles (image-033..038) and 175-10v (image-040..045) is recommended.\n\nLIMITATIONS AND UNREAD AREAS\n============================\n - I stopped before the image limit (no removal notices appeared), by choice, after 17 packet images + 3 crops. No hand-off file written.\n - Read: image-001, 002, 006, 007 (face A); 008, 013, 015, 016, 017 (face B); 018, 024 (face C); 025 (face D overview only); 032, 035 (face E); 039, 043, 044 (face F).\n - Not read: 003, 004, 005 (face A: endorsement notes and blank area); 009-012, 014 (face B: blank areas); 019-023 (face C German documents 175-6r, -7r, -8r and left part of 5r); 026-031 (face D: blank versos and German text of 175-8v, upside-down); 033, 034, 036, 037, 038 (face E: 175-10r German, rest of 175-9r with the Gothic offset layer); 040, 041, 042, 045 (face F: top of 175-10v and 175-9v).\n - The Latin theology text (175-1r, 1v, 2r, 2v) was read in full as far as visible, but many words are uncertain; line-starts are lost on the torn left edges of 1r lower piece and 2v, and the 2r block may lose line-ends at the leaf edge. Order of the leaves/blocks is not established; the two \"Articulus ... An Theologia sit ...\" headings on 1r are separate articles (numbers not legible: the first looks like \"[?]onus\", the second is cut off at the right edge).\n - Abbreviations: ē = est; qa/q(uia); q = quod/qui ambiguous; xps = Christus; DD = doctores; i(ntellec)tum; Res(pondeo); p(ro)b(atur); S.S. = (Sacra Scriptura?). Expansions are mine and tentative.\n",
+  "text_sha256": "2e879910fe2dd69f4a8f274d0c32b954cff2409ca6dc6a7fca2e130d0103e517"
+}
