@@ -1,4 +1,5 @@
 """Publication gate, stale-page cleanup and identification date semantics."""
+import datetime
 import html
 import importlib.util
 import json
@@ -62,7 +63,7 @@ def test_rebuild_removes_withdrawn_pages_and_allows_ledger_only_attempt(tmp_path
     published = [r for r in data if site.publishable(r)]
     # Distinct dates ensure the initial order is chronological, not report order.
     for i, row in enumerate(published):
-        row['identified_on'] = f'2026-09-{i + 1:02d}'
+        row['identified_on'] = (datetime.date(2026, 1, 1) + datetime.timedelta(days=i)).isoformat()
     data_path.write_text(json.dumps(data))
     monkeypatch.setattr(site, 'ROOT', tmp_path)
     monkeypatch.setattr(site, 'DOCS', docs)
