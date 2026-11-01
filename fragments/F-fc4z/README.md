@@ -1,6 +1,6 @@
 # F-fc4z: Emperor Rudolf II grants arms with the Lehenartikel to Georg Jäger, father of Abbot Melchior of Stams, Prague, 18 June 1601 (unfinished exemplar)
 
-This parchment sheet in the archive of the Cistercian abbey of Stams is an unfinished exemplar of an imperial grant of arms. Emperor Rudolf II grants Georg Jäger, whose son Melchior is the reigning abbot of Stams, together with Georg's legitimate heirs and their heirs forever, a coat of arms with the Lehenartikel (the clause admitting the bearers to the status of persons capable of holding fiefs). The arms: a narrow bend of white and red lozenges set "Sachsenweiss"; a tilting helm with mantling blue and white on the left and red and white on the right; as crest a white greyhound with a gilded collar, springing. The act is dated at the royal castle of Prague, in the 26th year of Rudolf's Roman reign; 18 June 1601 by the register of grants.
+This parchment sheet in the archive of the Cistercian abbey of Stams is an unfinished exemplar of an imperial grant of arms. Emperor Rudolf II grants Georg Jäger, whose son Melchior is the reigning abbot of Stams, together with Georg's legitimate heirs and their heirs forever, a coat of arms with the Lehenartikel (the clause admitting the bearers to the status of persons capable of holding fiefs). The arms: a narrow bend of white and red lozenges set "Sachsenweiss"; a tilting helm with mantling blue and white on the left and red and white on the right; as crest a white greyhound with a gilded collar, springing. The act is dated at the royal castle of Prague, in the 26th year of Rudolf's Roman reign; 18 June 1601 according to Frank and the Vienna catalogue.
 
 The same grant survives at Stams on a second unfinished sheet in another hand and wording, [F-pqjj](https://fragmentarium.ms/overview/F-pqjj) (Frg. 201). The two records carry one act.
 
@@ -8,7 +8,7 @@ The [Fragmentarium record](https://fragmentarium.ms/overview/F-fc4z) is Stams, S
 
 - **Identification:** identified, high. Issuer, beneficiary, his relationship to the abbot, the grant of arms with the Lehenartikel, the place (Prague) and the Roman regnal year are read on the image. The month, June, is read on the sheet; the day word is illegible and the year in words is cut off. The regnal year gives 1601, and the day, 18, is supplied from K. F. von Frank, *Standeserhebungen und Gnadenakte*, vol. 2 (1970), whose entry agrees with the sheet on every element it gives: "Jäger, Georg, Sohn: Melchior, Abt zu Stams in Tirol, Wappen m. Lehenart., Prag 18. VI. 1601, (R)". The file itself is Vienna, Österreichisches Staatsarchiv, [AT-OeStA/AVA Adel RAA 208.47](https://www.archivinformationssystem.at/detail.aspx?ID=2474545): "Jäger, Georg, Melchior, sein Sohn, Abt zu Stams in Tirol, Wappen mit Lehenartikel", Prague, 18 June 1601, fol. 1-7. Only its painted arms (fol. 4) are online; they agree with the sheet's blazon (a bend of red and white, the greyhound crest). The file's dating clause is not online, so the catalogue's 18 June may not be independent of Frank, and the day remains supplied.
 - **Transcription:** source-assisted, selected passages: the display line and protocol, the narration naming the parties, the blazon, the penalty and reservation clauses, and the dating clause. The Lehenartikel was read in outline only. A research reader (Claude) made the reading at native resolution from contrast-enhanced crops. Three further Claude readers then read the sheet from the images alone, with neutral questions and no proposed answer; they worked after the identification, so they are not first readings in the sense of CONVENTIONS and are not preserved in `readings/`. Every disagreement among them was re-read at native resolution, and the readings below give the result, with the remaining uncertainty marked. Accuracy has not been measured.
-- **Verification:** a research reader (Claude) compared the sheet's beneficiary, relationship clause, act, place and date with Frank's entry, seen as a Google Books search snippet (volume id `s-dMAQAAIAAJ`); the page number was not established. The dating clause was checked on the image by a second Claude reader.
+- **Verification:** a research reader (Claude) compared the sheet's beneficiary, relationship clause, act, place and date with Frank's entry, seen as a Google Books search snippet, p. 258 (volume id `s-dMAQAAIAAJ`). The dating clause was checked on the image by a second Claude reader.
 
 ## Textual evidence
 
@@ -18,7 +18,7 @@ Abbreviations are expanded silently where obvious. `[...]` marks a loss, `[abc]`
 
 ### Display line and protocol
 
-Box `1650,780,5050,470` ([image](https://fragmentarium.ms/loris/F-fc4z/Stams_STA_Frg_202_01v.jpg/1650,780,5050,470/full/0/default.jpg)).
+Box `1650,780,5050,950` ([image](https://fragmentarium.ms/loris/F-fc4z/Stams_STA_Frg_202_01v.jpg/1650,780,5050,950/full/0/default.jpg)).
 
 > Wir Rudolff der Ander von Gottes genaden Erwölter Römischer Kaiser [...] [Dalmatien, Croatien(?)] vnnd Sclauonien etc. König, Erzherzog zu Österreich, Herzog zu Burgund, zu Braband, zu Steyr, zu Kärndten, zu Crain [...] [Marggraue des heil]igen Reichs zu Burgau, zu Märhern, Ober vnnd Nider Lausiz, gefürsster Graue zu Habspurg, zu Tyrol, zu Pfiert, zu Kyburg [...] Bekhennen offentlich mit disem brief vnnd thuen khundt allermeniglich, Das Wir gnedigclich angesehen [...]
 
@@ -52,7 +52,7 @@ Box `2600,3900,3400,450` ([image](https://fragmentarium.ms/loris/F-fc4z/Stams_ST
 
 Rudolf II was elected King of the Romans on 27 October 1575, and his chancery counted the Roman regnal years from the election, so the 26th Roman year ran from 27 October 1600 to 26 October 1601. A June or July in that year is 1601. The Hungarian year's surviving "...undzwainzigisten" agrees with the 29th year (from the coronation of 25 September 1572, 25 September 1600 to 24 September 1601) but its first element is not read. The month read on the sheet, June, agrees with Frank; the day is supplied from Frank: 18 June 1601. An unfinished exemplar need not carry the date of the engrossment, so the sheet's own day could differ. The date is a day of the month, not a feast, so no feast conversion is needed.
 
-### Comparison with the register of grants
+### Comparison with Frank
 
 | | Frank (1970), snippet | Frg. 202 |
 |---|---|---|
@@ -78,7 +78,7 @@ Rudolf II was elected King of the Romans on 27 October 1575, and his chancery co
 
 ## Limits
 
-- Frank was seen only as a search snippet; the page was not seen. Of the Vienna file only the catalogue entry and the image of the arms were seen.
+- Frank was seen only as a search snippet of p. 258. Of the Vienna file only the catalogue entry and the image of the arms were seen.
 - The Lehenartikel and much of the body were read in outline, not word by word.
 - The day rests on Frank and the Vienna catalogue; the sheet's day word is illegible. The Vienna file's own dating clause (fol. 1-7) would settle the date of the grant.
 - No palaeographer has reviewed the readings.

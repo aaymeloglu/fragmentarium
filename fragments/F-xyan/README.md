@@ -4,7 +4,7 @@ This sheet in the archive of the Cistercian abbey of Stams is the original of a 
 
 The [Fragmentarium record](https://fragmentarium.ms/overview/F-xyan) is Stams, Stiftsarchiv, Frg. 200, catalogued as "Urkunde / Deed", German, 1525, 338 x 246 mm, host volume STB 213, dated 1549.
 
-- **Identification:** identified, high. The regest is read on the image: issuer, co-guardian and capacity, beneficiaries, legal action, object and bounds, place and date. Uncertain on the sheet: the beneficiary's surname (Wenig or Rennig) and a few words in the bounds clause. The ward is not named in the text; Trautson and Brandis are recorded as guardians of Christof von Wolkenstein, son of Veit von Wolkenstein, lord of Lienz (died 1538), which suggests who he is, but that is an inference, not a reading. The pair act together as guardians of Christoph, son of Veit von Wolkenstein, at Innsbruck on 1 August 1543 ([Brixen, Diözesanarchiv, Konsistorialarchiv, Urk. 158](https://www.monasterium.net/mom/IT-DAB/KA/158/charter)). No independent record of this grant was found; the likely place for one, a Lienz or Wolkenstein fief register in the Tiroler Landesarchiv, is not online.
+- **Identification:** identified, high. The regest is read on the image: issuer, co-guardian and capacity, beneficiaries, legal action, object and bounds, place and date. Uncertain on the sheet: the beneficiary's surname (Wenig or Rennig) and a few words in the bounds clause. The ward is not named in the text; Trautson and Brandis act together as guardians of Christoph, son of Veit von Wolkenstein, lord of Lienz (died 1538), at Innsbruck on 1 August 1543 ([Brixen, Diözesanarchiv, Konsistorialarchiv, Urk. 158](https://www.monasterium.net/mom/IT-DAB/KA/158/charter)), which suggests who the ward is; that is an inference, not a reading. No independent record of this grant was found; the likely place for one, a Lienz or Wolkenstein fief register in the Tiroler Landesarchiv, is not online.
 - **Transcription:** assisted, the whole text face. A Claude research agent read it from native-resolution crops, with historical context in hand. Three fresh Claude readers then saw only the images and neutral questions; this was after the identification, so these are not first readings in the sense of [FIRST_READINGS.md](../../FIRST_READINGS.md) and are not preserved in `readings/`. Every disagreement was re-read at native resolution and either settled or marked uncertain below. Accuracy not measured.
 - **Verification:** there is no outside text of the act to compare. The year, the issuers and their offices were checked against internal evidence and printed context: Ferdinand's Roman, Hungarian and Bohemian titles, which he held from 1526 and 1531, fit 1545; Trautson's office and the Trautson-Brandis guardianship are attested in Google Books snippets (sources below). No page images of those sources were read.
 
@@ -38,7 +38,7 @@ The size of the field ("der zwo ... pau sind") is not read. "Ain Ackher zu Lüen
 
 ### Sealing and dating clause
 
-Box `2000,2600,4400,500` ([image](https://fragmentarium.ms/loris/F-xyan/Stams_STA_Frg_200_01v.jpg/2000,2600,4400,500/full/0/default.jpg)):
+Box `2000,2400,4400,700` ([image](https://fragmentarium.ms/loris/F-xyan/Stams_STA_Frg_200_01v.jpg/2000,2400,4400,700/full/0/default.jpg)):
 
 > Des zu vrkundt, So hab ich für mich vnnd obgemelten meinen mitvormunder (doch mir vnnd vnser baider Erben on schaden) mein Insigel hieran gehangen. Beschehen zu Ynnsprugg am andern tag des Monats Juny, Nach Cristi vnsers lieben herrn gepurt, Funfzehenhundert vnd im funfundvierzigisten Jar.
 
@@ -72,4 +72,4 @@ None has been made in Fragmentarium.
 - The beneficiary's surname, Wenig or Rennig.
 - The ward's name, which the text does not give.
 - The size of the field, a neighbour's name in the bounds, and Brandis's court office.
-- Searches for Capler, Wenig and Patriasdorf in Google Books and the Internet Archive found nothing on the grant. monasterium.net refused scripted access and was not searched; the Wolkenstein family archive and the Lienz fief books were not consulted.
+- Searches for Capler, Wenig and Patriasdorf in Google Books and the Internet Archive found nothing on the grant. On monasterium.net the Brixen guardianship record (KA Urk. 158) was found, but no record of this grant; the Wolkenstein family archive and the Lienz fief books were not consulted.

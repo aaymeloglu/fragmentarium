@@ -69,10 +69,10 @@ None has been made in Fragmentarium.
 - Inscription "Conrad. Vos. Kellner. zu. Tirol. anno. domini 1452", printed in *Der Burggräfler* (1891), *Chronik von Mais, seiner Edelsitze, Schlösser und Kirchen* (1905), and in the collected writings of D. Schönherr (Google Books `B0cNgfx5PxkC`, `CbBM4QIbi80C`, `INAIAQAAIAAJ`, snippets).
 - K. Moeser and F. Huter (eds.), *Das älteste Tiroler Verfachbuch (Landgericht Meran 1468-1471)* (1990): "Aichorn, genannt Franck, Bader" among Meran burghers, and Herman Aichorn in the 1453 list of office holders (Google Books `17ICAAAAMAAJ`, snippet).
 - *Zeitschrift des Ferdinandeums* (1872-1874): "Hermann Aichhorn, den man Frank nennt, Bürger an Meran" (Google Books `HKxZAAAAcAAJ`, snippet).
-- SiCProD prosopography, Nikolaus Gottfried, "Kellner zu Tirol", 22 September 1454 ([APIS entry](https://sicprod.acdh-dev.oeaw.ac.at/apis/apis_ontology.person/2039); login required, seen as a search snippet only).
+- SiCProD prosopography, Nikolaus Gottfried, "Kellner zu Tirol", 22 September 1454 ([SiCProD](https://sicprod.acdh.oeaw.ac.at/detail/person/2039)); the date was seen in a search snippet of the entry.
 
 ## Unresolved
 
 - The issuer's surname, Vos or Vor, and whether Konrad was still Kellner in July 1454 given the September 1454 record of Nikolaus Gottfried.
 - The place in the dating clause, the rent amount, the street name, and the neighbours.
-- Searches in Google Books and the Internet Archive for the Kellner, Vos and Aichhorn found the people but not the act. A copy would most likely be in a Kellneramt register or Urbar in the Tiroler Landesarchiv, not online; monasterium.net was not searched.
+- Searches in Google Books and the Internet Archive for the Kellner, Vos and Aichhorn found the people but not the act. A copy would most likely be in a Kellneramt register or Urbar in the Tiroler Landesarchiv, not online. On monasterium.net a 1490 Brixen record of the Aichhorn family was found, but not the act.
