@@ -4,7 +4,7 @@ This parchment sheet in the archive of the Cistercian abbey of Stams is the orig
 
 The [Fragmentarium record](https://fragmentarium.ms/overview/F-d3a1) is Stams, Stiftsarchiv, Frg. 199, catalogued as "Charter / Legacy" (Erbschaftsurkunde), German, 22 July 1454, 395 x 237 mm, with no host volume.
 
-- **Identification:** identified, high. The regest is read on the image: issuer and office, the duke in whose name he acts, beneficiary, legal action, property, rent terms and date. Uncertain or not read on the sheet: the issuer's surname, a short faint word read as Vos or Vor; the place in the dating clause, which is present but illegible; the amount of the rent; the street name and most of the neighbours in the bounds clause. A Konrad Vos is printed as Kellner zu Tirol in 1452, which fits the reading, but a prosopography entry names Nikolaus Gottfried as Kellner zu Tirol on 22 September 1454, so the surname is left uncertain and no reading rests on the outside name. Hermann Aichhorn, called Frank, is attested as a burgher of Meran in the 1450s, and the family "Aichhorn gen. Frank", burghers of Meran, in 1490 ([Brixen, Domkapitelarchiv, Urk. 1439](https://www.monasterium.net/mom/IT-DAB/DKA/1439/charter)). No independent record of the act was found.
+- **Identification:** identified, high. The regest is read on the image: issuer and office, the duke in whose name he acts, beneficiary, legal action, property, rent terms and date. Uncertain or not read on the sheet: the issuer's surname, a short faint word read as Vos or Vor; the place in the dating clause, which is present but illegible; the amount of the rent; most of the neighbours in the bounds clause. A Konrad Vos is printed as Kellner zu Tirol in 1452, which fits the reading, but a prosopography entry names Nikolaus Gottfried as Kellner zu Tirol on 22 September 1454, so the surname is left uncertain and no reading rests on the outside name. Hermann Aichhorn, called Frank, is attested as a burgher of Meran in the 1450s, and the family "Aichhorn gen. Frank", burghers of Meran, in 1490 ([Brixen, Domkapitelarchiv, Urk. 1439](https://www.monasterium.net/mom/IT-DAB/DKA/1439/charter)). No independent record of the act was found.
 - **Transcription:** assisted, selected lines across the whole text face. A Claude research agent read it from native-resolution crops, some contrast-stretched. Three fresh Claude readers then saw only the images and neutral questions; this was after the identification, so these are not first readings in the sense of [FIRST_READINGS.md](../../FIRST_READINGS.md) and are not preserved in `readings/`. Every disagreement was re-read at native resolution and either settled or marked uncertain below. The right third of the sheet is faded and water-stained. Accuracy not measured.
 - **Verification:** there is no outside text of the act to compare. A transcription by the cataloguers is attached to the Fragmentarium record ([PDF](https://fragmentarium.ms/uploads/transcriptions/F-d3a1/266/Stams_STA_Frg__199_Transkription.pdf)); it was read after the agent's own reading and agrees with it on almost every line, leaving the issuer's surname blank. It is a reading of this same object, not an independent record. The issuer's and beneficiary's names were checked against printed local history in Google Books snippets only. The dating clause was converted with `tools/feastdate.py`.
 
@@ -32,9 +32,9 @@ One or two words after the byname are faded and not read.
 
 Line 5, box `3350,1560,1750,140` ([image](https://fragmentarium.ms/loris/F-d3a1/Stams_STA_Frg_199_01v.jpg/3350,1560,1750,140/full/0/default.jpg)):
 
-> ain haus mitsambt ainem garten gelegen an (or ze) Meran in der [street name uncertain] ...
+> ain haus mitsambt ainem garten gelegen an (or ze) Meran in der Contraden wasserhalben ...
 
-The street name is not securely legible on the image; the attached cataloguers' transcription reads "in der Contraden wasserhalben". The bounds on four sides follow (lines 5-7); the neighbours' names are faded and not secure.
+The street name, "in der Contraden wasserhalben", is faded: the middle letters of "Contraden" and the bowl of the b in "wasserhalben" are faint. Three readers given only a crop of the line, without that reading, read "Con[...]den" and "wasser-", and one saw the b. The attached cataloguers' transcription has the same reading. The bounds on four sides follow (lines 5-7); the neighbours' names are faded and not secure.
 
 Lines 13-15:
 
@@ -74,5 +74,5 @@ None has been made in Fragmentarium.
 ## Unresolved
 
 - The issuer's surname, Vos or Vor, and whether Konrad was still Kellner in July 1454 given the September 1454 record of Nikolaus Gottfried.
-- The place in the dating clause, the rent amount, the street name, and the neighbours.
+- The place in the dating clause, the rent amount, and the neighbours.
 - Searches in Google Books and the Internet Archive for the Kellner, Vos and Aichhorn found the people but not the act. A copy would most likely be in a Kellneramt register or Urbar in the Tiroler Landesarchiv, not online. On monasterium.net a 1490 Brixen record of the Aichhorn family was found, but not the act.
