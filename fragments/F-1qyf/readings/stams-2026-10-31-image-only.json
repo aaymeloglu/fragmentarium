@@ -1,0 +1,107 @@
+{
+  "captured_at": "2026-11-01T01:48:25.332530+00:00",
+  "fragment": "F-1qyf",
+  "id": "stams-2026-10-31-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "1917d5298e3eaee470ec7b81df369169167885daa67923b9149fab1819cfafa9",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "3e8dc434011404ab86559e98246790207b0f1742e33e965ab7bfed62c33eafa6",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): native-pixel box 864,1251,2519,2656; unrotated grid position column 1 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "c7f8f35567cdae1ced816be15071e4d1690ee99cc7f3c4a7e574dd8be37f961e",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): native-pixel box 2165,1251,3821,2656; unrotated grid position column 2 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "f5e18d7c6bd7bdb1d237befcdfb6446ce3dd3830bf177eac4050269c46ddc936",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): native-pixel box 864,2355,2519,3911; unrotated grid position column 1 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "60f7d60b55ce813d55dae6dcf0150f86ffb2ada3df10d2c9d1615f5675f2611e",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): native-pixel box 2165,2355,3821,3911; unrotated grid position column 2 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "e3b76af30b62a84fd3b94d130516a37f0a0192f2f3b941ce58db82efbd47af64",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): native-pixel box 864,3609,2519,5165; unrotated grid position column 1 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "26c93dc54f5c0a54da7e739f5047b69df13d78343a6d39210c1d615313da35de",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): native-pixel box 2165,3609,3821,5165; unrotated grid position column 2 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "b854fa7024f2f075c0a2f760ad29a39add9d3ac6dff516cc42e8e8aae35b8b63",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): native-pixel box 864,4864,2519,6270; unrotated grid position column 1 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "1934146c65e87ed56818ad4ca50bf6d42d1fb2dd3624d0304b7a88f3fcf28571",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_189_01r): native-pixel box 2165,4864,3821,6270; unrotated grid position column 2 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "64933f84588b8718f353f737727018093f1a768d9dc217a9ae5d6f071b857ccd",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "dbb13e75aea67c003196dd67f808f57cf8c1519966f726fa5e574375bc7e1c58",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): native-pixel box 1026,1052,2698,2467; unrotated grid position column 1 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "b5dfa603d5633f27670df8c1824b0e2137d42d2df2c23ae6a6a01afafef24d06",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): native-pixel box 2340,1052,4013,2467; unrotated grid position column 2 of 2, row 1 of 4"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "71078fca54ab84a21db453308eab994466d136d330ba6ddd020940bcf4f4e3f5",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): native-pixel box 1026,2164,2698,3731; unrotated grid position column 1 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "0385c69defef9a33b8c92f0022a1a981f319becb050bbd79ae315eefdac58265",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): native-pixel box 2340,2164,4013,3731; unrotated grid position column 2 of 2, row 2 of 4"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "2be92ea040e9b9bb22af2c8939ea72c1fb2f19128e8c0ebc3480a89d0cc434f3",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): native-pixel box 1026,3428,2698,4995; unrotated grid position column 1 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "5f2293a0ae2258d393b0013cc12ac6c42d2955b083b5e0a85293509936b65d79",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): native-pixel box 2340,3428,4013,4995; unrotated grid position column 2 of 2, row 3 of 4"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "e5873c011b53a947fa9d5eda80b396d37ee10b7679993b5964f73b16112593a6",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): native-pixel box 1026,4692,2698,6108; unrotated grid position column 1 of 2, row 4 of 4"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "afb9f5cf368ac249d55706879b68c31643d8b41aeff9eb08d4c13067946b6677",
+        "source": "https://fragmentarium.ms:443/loris/F-1qyf/Stams_STA_Frg_189_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_189_01v): native-pixel box 2340,4692,4013,6108; unrotated grid position column 2 of 2, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams-2026-10-31 (packet-11)",
+  "text": "PACKET 11 - first reader response (unverified image reading)\n\nExposure / conduct notes\n- No identification of the document was given to me. The only outside hint is the\n  working directory name (\"stams3-read\"), which may point to a holding place; I did\n  not use it. Some later shelfmark/archival notes are written on the leaf itself\n  (transcribed below as observed).\n- I did nothing beyond the rules: read PROMPT.md and the 18 images; listed only the\n  two packet directories to get the filenames. All 18 images loaded.\n\nLAYOUT SURVEY (observations)\n- This is a single parchment sheet, not a codex leaf. Two faces:\n  * Face A = image-001 (overview), tiles image-002..009. Mostly blank; written text\n    from the other face shows through in mirror image (large display capitals at the\n    top). Fold lines in a grid; a horizontal band across the middle with slits and\n    pasted remains of paper labels (one label with printed/written title lines). Later\n    notes in pencil/ink in the lower right. Looks like the sheet was reused as a book\n    wrapper/cover (fold-ins at the edges, spine-label remnants) - interpretation.\n  * Face B = image-010 (overview), tiles image-011..018. Single block of long-line\n    Latin text in a 16th-century-looking humanistic cursive (observation of letterforms\n    only), about 33 lines across, preceded by one line of enlarged display capitals.\n    Below it on the left is a drawn notarial-type sign (cross on a shaft over a\n    triangle/hourglass figure with a label \"Signum / Johannis Elsneri\"); on the right\n    a separate subscription paragraph of ~14 lines. Words in darker ink/larger\n    script appear in places (e.g. \"Naturalibus\", \"Iohannes\", a line with \"D N ...\").\n    Folds have broken the text in two horizontal bands; slits from the binding\n    reuse pass through the text.\n  * The text reads as a document (notarial/legal instrument) not a literary work -\n    tentative interpretation from wording (\"publicum instrumentum\", \"Notarii publici\",\n    \"testium infra scriptorum\").\n- Tiles overlap heavily (011/012 top, 013/014 middle, 015/016 lower, 017/018 bottom).\n  In the transcription below I give each physical line once, labelled with the tile\n  where it starts and the tile where it continues; repeated words in the overlap are\n  not counted twice.\n\nCONVENTIONS: (..) = expansion; word? = uncertain; [illegible] = could not read;\n[..] = lost at edge/tear. Line numbers count from the top of the named image.\n\n==================================================================\nFACE B - MAIN TEXT (image-010 overview; tiles 011-016)\n==================================================================\nDisplay line (enlarged capitals):\n011 l.1 / 012 l.1:  [..]INVS EISENGREI[..]   (first letters lost at top-left tear;\n                    last letters after \"GREI\" faint/abraded, possibly \"N\")\n\nText lines (left tile | right tile continuation):\n011 l.2  | 012 l.2 : [..]s Consiliarius S[?anctae] Romanae s(an)c(t)e s(edis) | Prothonotarius [illegible]\n011 l.3  | 012 l.3 : [illegible]s hoc p(rae)s[?ens] Instrumentum inspecturis | Assertis? [illegible] nar[..]\n011 l.4  | 012 l.4 : [illegible] naturales, sed etiam ex damnato | coitu procreatos illegitimos\n011 l.5  | 012 l.5 : [illegible] reddere, Cumq(ue) in nostra ac | Notarii publici, testiumq(ue) infra scrip[..]\n011 l.6  | 012 l.6 : [illegible ?...nnm...] Velmaur? genitum ex ipso | dicto Wolffgango? Veltmair, soluto\n011 l.7  | 012 l.7 : [illegible] q(ue) [?testa]mento et intestato, hereditates | [illegible] libertates honores, pra[..]\n011 l.8  | 012 l.8 : [?inha]bilitatem [?ac] maculam [illegible]nem ipsi tolle | re et? ab[olere?] [illegible] auctoritate Apostolic[a]\n011 l.9  | 012 l.9 : [illegible] Ph[illegible] Invictissimum Princ[i]pem | Maximilianum Romanorum\n011 l.10 | 012 l.10: [illegible]atus Cum potestate Legati de latere | dilecto nobis in Chr(ist)o Martino E[..]\n011 l.11 | 012 l.11: et illarum [illegible]ssima [?ro]gatus. Interdu(m) | per suorum Legatorum minister[..]\n011 l.12 | 012 l.12: [?a]t cupiunt in[illegible] dignis attollit | gratiis, privilegiis et honoribus Ut fiant\n011 l.13 | 012 l.13: [..] prefate, et Rom(ani) [illegible] obsequi[illegible] | cupias insistere, Nosq(ue) alias gratum fer[..]\n011 l.14 | 012 l.14: insignitum, grato pro [illegible] [?eff]ectu, | ac dignioris nominis et hono[..]\n011 l.15 | 012 l.15: [..]me tenemur sufficienti facultate | muniti: Teq(ue) a quibuscunq(ue) ex[..]\n\n(image-013 begins at the same line as 011 l.12; its l.4 = 011 l.15)\n013 l.5  | 014 l.4 : [..]s latis, seu quavis? quomodolibet | innodatus existis ad effectum praesen[..]\n013 l.6  | 014 l.5 : [?auct]oritate Apostolica nobis concessa ac | commissa, ac quo fungimur [?ha][..]\n013 l.7  | 014 l.6 : [..]ter? aggregamus: tibiq(ue) quod omnibus | et singulis privilegiis gratiis et co[..]\n013 l.8  | 014 l.7 : [?Ju]risdictionib(us) statutis ordinationibus | et declarationibus, et quibus alii eiusd[..]\n013 l.9  | 014 l.8 : [..] quomodolibet in futurum Uti, potiri | et gaudere libere et licite Valeas, m[..]\n013 l.10 | 014 l.9 : [..]m Utriusq(ue) sexus, Naturalib(us) Manserib(us) | Spuriis, nothis, incestuosis, copulat[..]\n          (\"Naturalibus\" in darker, larger letters)\n013 l.11 | 014 l.10: [?q]ui etiam mortuis eorum parentibus, | omnemq(ue) ab eis tollendo geni[..]? maculam\n013 l.12 | 014 l.11: [..]orum agnatorum et cognatorum | tam ex testamento quam ab intestato S[..]\n013 l.13 | 014 l.12: [?ho]nores et officia publica et privata, [illegible] ad[..] | [?]mitti et assumi [illegible] gerere et ex[..]\n013 l.14 | 014 l.13: [..]andi, et ad [illegible] ac legitimi natura[..] | [illegible] et quoslibet [?legitimos] resti[..]\n013 l.15 | 014 l.14: [..]stissimi? D N [illegible, darker display letters] | [illegible] [?Pontificatus?] [illegible]\n          (this line is on the fold and largely destroyed)\n013 l.16 | 014 l.15: [..]ensis Comes Palatinus, [illegible] potestat[e] | gratia in [illegible]\n013 l.17 | 014 l.16: [..]bilis, ac honestae vitae, [?sicut] intelleximus, | Auctoritate Apostolica nobis in [illegible]\n013 l.18 | 014 l.17: [..] ex testamento vel ab intestato, haereditates, | Tam paternas quam maternas\n013 l.19 | 014 l.18: [..]literq(ue) et cum affectu habilem et idoneum | Ad haec omnia et singula auctoritat[e]\n013 l.20 | 014 l.19: [..], et totaliter abolemus. Utq(ue) deinceps | sa[?]nominatus Iohannes\n          (\"Iohannes\" in darker, larger letters; 016 l.4)\n\n(image-015 l.1 = 013 l.17; image-016 l.1 = 014 l.16)\n015 l.5  | 016 l.5 : [..]mento seu ab intestato [illegible] rebus, | Juribus et actionibus [illegible] ad quam[..]\n015 l.6  | 016 l.6 : quodlibet recipi, eligi et admitti, | Jure, scripto seu legibus [illegible]\n015 l.7  | 016 l.7 : [..]dem et testimonium praesentes literas, | Sive hoc publicum instrumentum eius[..]?\n015 l.8  | 016 l.8 : Ingolstadii in domo [illegible] nostrae | residentiae Sub Anno Nativitatis Christi\n015 l.9  | 016 l.9 : [..]unam pomeridianam, Pontificatus autem | S(anctissi)mi in Chr(ist)o patris et D[..]\n015 l.10 | 016 l.10: [..] Eustachio Steinen[?] et Michaele Aurba[ch] | clericis [illegible] [?]bellam? [illegible]\n   End of main block. The year itself in l.8-9 is not legible to me at the right edge.\n\n==================================================================\nFACE B - NOTARIAL SIGN (left, 015 lower / 017)\n==================================================================\nDrawn sign: cross on a long slanted shaft above a figure of two triangles\n(hourglass/X in a square) with two ruled label bands at the base:\n017 l.(band 1): Signum\n017 l.(band 2): Johannis Elsneri [?.. two letters/flourish]\n\n==================================================================\nFACE B - SUBSCRIPTION PARAGRAPH (right, 016 lower / 018)\n==================================================================\n016 l.(1st of block): Et ego Johannes Elsner? S[?ilesi]us? cle[ricus?]\n                      (\"Elsner\"/\"Silesius\" readings uncertain; \"S\" in darker ink)\n016 next          : Wratislauiensis, Auctoritate Apostolica [n..]\n016 next / 018 l.1: specialiter rogatus et requisitus Una cum [..]\n018 l.2           : [?u]nde dictis testibus dictae Legitima[..] o[..]\n018 l.3           : atq(ue) praemissa omnia et singula sic fie[..]\n018 l.4           : hoc publicum Instrumentum exinde [..]\n018 l.5           : [..]ci?, ac manu mea propria [illegible]\n018 l.6           : cavi: Signoq(ue) et nomine meis solit[..]\n018 l.7           : supranominati Reverendi Nobilis [..]\n018 l.8           : Viri D. Martini [illegible: ?E..erem] Prothono-\n018 l.9           : tarii Palatini Q(ue)? subscriptione [..]\n018 l.10          : appensione Communivi?, in [?praemis]-\n018 l.11          : [?sing]ulorum fidem.\n\n==================================================================\nLATER NOTES (both faces)\n==================================================================\n017 bottom margin (face B): Maximilian II / 1564-76\n018 bottom margin (face B, blue/grey pencil): Stams, StA, Frg.? 189v  (abbreviation after StA uncertain: Fa./Fag./Frg.)\n009 (face A, ink):  Ein band von II, H. 32\n                    Ingolstat. [..]\n                    anno 1565\n                    D.N.D.PII papae IIII anno sexto   (\"IIII\" underlined)\n009 (face A, blue/grey pencil): Stams, StA, Frg.? 189r? (faint, uncertain)\n005/007 (face A, pasted paper label, printed/written, right label):\n                    [..]ta?/ [..]ia Jo. Co[..] / [..] Contra / Detractores /\n                    S. Chrys[..]? Co[..]? / Epistola ad / Galatas.\n                    (several letters uncertain; left labels are abraded blanks)\nFace A top (002/003): mirror-image show-through of the display capitals of face B.\n\nLIMITATIONS\n- Left edge of face B is torn/abraded, so the first word(s) of most lines are lost;\n  the right edge loses the last word(s). The horizontal fold through the middle\n  (013 l.15 / 014 l.14) destroyed most of one line.\n- Line correspondence across left/right tiles was matched by vertical position and\n  sense of overlap; one-line misalignment is possible in the 013/014 band.\n- Unread/thin: most of line 013 l.15; the date words in 015-016 l.8-9; the ends of\n  the subscription lines in 018 (damp-stained right edge). A raking-light or UV\n  image of the fold band and the right edge would help.\n",
+  "text_sha256": "c469e68140b6958a7af47725f523ff429a88612b51ce68acb59395e2648024d0"
+}
