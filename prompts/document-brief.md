@@ -92,8 +92,9 @@ month, a surname, a place. Reading them again with your transcription in view
 tends to confirm what you first read. Cut native crops of the dating clause and
 of each name the regest depends on into `<evidence>/<F-id>/wordcheck/`, and list
 them in your report with the question each answers ("what year is written",
-"which names appear"), without your reading. The coordinator gives them to a
-fresh reader.
+"which names appear"), without your reading. One crop per word or name, a line
+or two high, so a reader cannot read the regest off it. The coordinator gives
+them to fresh readers with `tools/wordcheck.py`.
 
 ## Proving it
 
