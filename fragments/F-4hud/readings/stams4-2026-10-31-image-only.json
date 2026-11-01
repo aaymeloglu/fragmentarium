@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-11-01T03:36:50.643169+00:00",
+  "fragment": "F-4hud",
+  "id": "stams4-2026-10-31-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "a5b93ac87e27207e60c7268f0006bc71038ecc5def8a9f5af548cad3fdb63b61",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "bce940aefc6f09190c741e546ae1800bb248a8d86208f2b5ba0ca0d39e99fa37",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 2303,736,3584,2006; unrotated grid position column 1 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "b877c6c9fe1483e20ef1efee8c803c264f7f4059d70800a54ab57988870a5e84",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 3310,736,4729,2006; unrotated grid position column 2 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "f97812ae1dc6b77a7c05433f7eeb4603e492ac934cd72af629cf6feb4892ba1c",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 4454,736,5873,2006; unrotated grid position column 3 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "3aeaee9af9b452c1b327d8b10f7281d02e9e5d68cf8f53d61db11114360d5702",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 5599,736,6881,2006; unrotated grid position column 4 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "ff991f1990e613e65f172570fbae960bc9f1682e99de9e222338d8badfcb7827",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 2303,1734,3584,3141; unrotated grid position column 1 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "bd219accb8fca84a4fb341093624fb47cf0d8fb1daea2a2469ab886e2f4d6148",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 3310,1734,4729,3141; unrotated grid position column 2 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "349a217edb02eddfc9afa276ee3fd256bbfe1c6bb328133c36530a9ad04692d5",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 4454,1734,5873,3141; unrotated grid position column 3 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "22342ad0528f85fb2a7f2b72a25354a4695c17ddd67d52cb840562ed0a4cc640",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 5599,1734,6881,3141; unrotated grid position column 4 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "98327635a28e2944e1016509ea393788fb5ef17b11c5a92cedede39c6dba27e6",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 2303,2869,3584,4140; unrotated grid position column 1 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "b823bd0dbcea57ffeda579cf91d80ef6b74b0142b6789599653b133828047f51",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 3310,2869,4729,4140; unrotated grid position column 2 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "2cece145775278ba16d02b6265cd8620bec7c0579bfd3a53f53354857ee2875b",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 4454,2869,5873,4140; unrotated grid position column 3 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "58d44d4969a45388e47dbae0aea06396beb5848104d5f82a71e27acf8020f65d",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01r05r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_164_01r05r): native-pixel box 5599,2869,6881,4140; unrotated grid position column 4 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "2f63632d189e7c9c056cbaee663241382147bb6169ebd889f7a906aa86229760",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "4697a0a184016502370671091634a9053a97610f3f2ab1a6d6df342095f4ecc2",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 2274,800,3545,2094; unrotated grid position column 1 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "86b6294cd9af983eb474266552e7d8363bb8fbc0f27e2e8085d1307a1b6f0c9c",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 3273,800,4680,2094; unrotated grid position column 2 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "f4352a66b1215b6f0710e0c6e051a72055046afa47c3a80827832e3d2f36c6b3",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 4408,800,5815,2094; unrotated grid position column 3 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "ff31cd75aac416c8a86029def097bb0e343b39283011cf3f0db37341ce8c8f38",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 5543,800,6815,2094; unrotated grid position column 4 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "534deb6a5545c7eae72e2bc6c1f872089396382d9baebdb11d55c91342e093ea",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 2274,1817,3545,3250; unrotated grid position column 1 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "c8dc88078df1b2d33de88b3e2974955b57395f749894846610cee4cce87b4882",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 3273,1817,4680,3250; unrotated grid position column 2 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "d0b6a080b959b5c93a61ef148924701273a22fe76288cb5ae80566f8e2f9a4ad",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 4408,1817,5815,3250; unrotated grid position column 3 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "8b94c91c44e644d18ac1357b692f11d64fb46c77b8e89ee43c0c6888ddc53cdc",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 5543,1817,6815,3250; unrotated grid position column 4 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "5de85e44382de775c8268f0dd084266df8cc221be7b7047533a7ca70fa08e039",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 2274,2973,3545,4268; unrotated grid position column 1 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "0c161acce2eb0c849f62fb316b5c252dd5ca7f193f81683777629609515f7f22",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 3273,2973,4680,4268; unrotated grid position column 2 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "78202f9391d25e6c0aedfbdc4a970f4da7bd70a66632583474971703345c0950",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 4408,2973,5815,4268; unrotated grid position column 3 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "a6d7450062f8e5012bef317f83105ce0773297fe85562c278f1976939f49b803",
+        "source": "https://fragmentarium.ms:443/loris/F-4hud/Stams_STA_Frg_164_01v05v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_164_01v05v): native-pixel box 5543,2973,6815,4268; unrotated grid position column 4 of 4, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams4-2026-10-31 (packet-07)",
+  "text": "PACKET 07 - UNVERIFIED BLIND IMAGE READING\n\nExposure statement: Nothing in my context proposed an identification of the work, author, or a prior reading. The only external information visible is the modern pencil shelfmark written on each piece (\"Stams, STA, Fag. 164-1r\" ... \"164-5v\") and the directory name; I did not use these to identify anything. I opened only PROMPT.md and image-001..026. I also ran `ls` on the packet directory (excluding packet.json from the listing) and `sips` to get the image pixel sizes. Beyond that, I did nothing outside the rules. All 26 images loaded.\n\n====================================================================\n1. LAYOUT SURVEY (image-only)\n====================================================================\nTwo overviews: image-001 (recto side of five pieces, pencil labels ending \"r\"/\"n\") and image-014 (verso side, labels ending \"v\"). Tiles: 002-013 cover face 1 (4 columns x 3 rows); 015-026 cover face 2 (same grid). The tiles overlap, so repeated lines are not counted twice.\n\nPieces (labels as pencilled):\n- 164-1 (lower right, largest, about 10 x 13 cm): single column, long lines, German vernacular in a cursive gothic book hand (bastarda-like, single-compartment a, looped ascenders). About 29 lines per face. The left edge has been cut away, so the start of every line is missing (a few letters to about one word). The right edge and the bottom margin survive. Latin quotations are UNDERLINED in brown ink (1r lines 3, 9?, 12; 1v lines 1-4, 20, 27). There are paragraph marks (a tall stroked \"¶\"/paraph) at 1r \"Die erste\", 1r \"Die dritt\", 1v \"Dew ander\", and 1v \"Dew dritt\". There is an interlinear addition on 1r above \"gelerne\". No running title is visible, and no rubrics or coloured initials are visible apart from faint red traces at the edges.\n- 164-2 (upper right, horizontal strip): 2r has 4 lines of the same hand, with the left start cut away; 2v is blank (only red specks on the lower edge).\n- 164-3 (middle, vertical strip): the right part of a column (3r) or the left part (3v), about 2-4 words per line. On 3v the left margin has marginal marks or notes and paraph-like strokes beside the lines \"Du pist ...\".\n- 164-4 (small piece, lower left): 3 lines on each side.\n- 164-5 (narrow vertical strip, left): only the line-initial or line-final letters survive. Tentatively a column edge of the same manuscript. Unreadable as text.\n\nInterpretation (tentative): a vernacular (Bavarian-Austrian forms such as \"ai\", \"ch-\", \"pist\", \"dew\") homiletic or devotional prose with embedded underlined Latin citations, followed by German renderings (\"spricht er ... Ego sum ... Ich pin ...\"). 1r expounds three kinds of \"warhait\" (truth). 1v concerns the Ascension (\"gen himel fur\", \"Er ist heut auff gevaren\"). This is an observation of content only, with no identification.\n\n====================================================================\n2. SPANS SELECTED\n====================================================================\nRead: all of 164-1r (lines 1-29) and 164-1v (lines 1-29), all of 2r, 3r/3v as far as the strip allows, and 4r/4v.\nUnread or minimal: 164-5r/5v (only isolated letters). The top line of 1v is cut through, so only the descenders are visible. Line starts on 1r/1v are physically lost.\n\nConventions: [..] marks a physical loss at a cut edge. (x) is a proposed expansion. \"?\" follows an uncertain reading. Underlining is noted as <u>...</u>. Line numbers are counted from the top of the named tile. Where a line runs across two tiles (008 left half / 009 right half), I give the tile pair, and the number is the line's position in the leaf's text block, which is the same in both tiles.\n\n====================================================================\n3. TRANSCRIPTION - FACE 1\n====================================================================\n\n--- 164-1r (image-008 left half + image-009 right half; continued in image-012 + image-013) ---\n008/009 l.1  [..]volt? [..]m dicet? ve[..] ist das ich gee?es? ab?ch so wird ich\n             (Latin-looking words at the start are cramped; the first half is very uncertain)\n008/009 l.2  [..]enden den geyst d(er) warhait vnd d(er) wirt euch lere(n) alle\n008/009 l.3  [..]t · gl[..] ich aber · mich? <u>[..] ve? no habet? spiritus? pus? ma</u>\n             (underlined Latin, letters only partly legible: \"no habes(?) sp(irit)u(s) p(r)i(us)? ma\")\n008/009 l.4  [..]r mich den v(er)haisse(n)? mains vaters das ist den heyligen\n             (a horizontal stroke runs through \"-haisse\", possibly a cancellation or a misplaced abbreviation stroke)\n008/009 l.5  [..]stum? mocht ain mensch fragen wie mag das gesin das\n008/009 l.6  [..]heylig geyst solt leren alle warhait ze erchenne · wan\n008/009 l.7  [..]ain mensch mag? zeit? blos die warhait gelerne vnd er\n             (interlinear addition above \"gelerne\": \"nicht\"? or \"nit\"?)\n008/009 l.8  [..]e mag die weil er in disem todliche(n) leichnam lebt vnd\n008/009 l.9  [..]gebrechlichen leben paulus spricht hie in dem lang? x tut an?\n             (the end of the line is unclear; a Latin citation may begin here)\n008/009 l.10 [..]asfacie? hie sehen wir als in ainem spiegel aber dort\n             (the first word may be the end of underlined Latin, \"...facie\"?)\n008/009 l.11 [..]wir sehen vo(n) antlutz? ze antlutz? vnd in? spricht er quoque?\n             (the words read \"anclilg ze anclilg\"; perhaps \"antlich ze antlich\")\n008/009 l.12 [..]ngt? <u>x? opprag?[..]sim?</u> hie sprechen wir vo(n) ainem taile ab(er)\n008/009 l.13 [..]..en wir sehen das volkom ist auff? dise frag antwurt\n008/009 l.14 [..]vnd spricht das dreÿ lay warhait ist hie ze lerne(n) vnd in den\n008/009 l.15 [..]loz? · c? alle warhait · vnd wer die dreÿ lay warhait\n008/009 l.16 [..]et · d(er) dienet da inne? das er die ewige warhait mit?\n008/009 l.17 [..]leben eweklichen erchennet vnd gebrauchet ¶ Die erste\n008/009 l.18 [..]ait das ist dÿ weltlich warhait · das ist das ain mensch\n012/013 l.5  [..]haftig sey gege(n) allen menschen mallen? seine sachen also · wenn\n             (= the line after 18 in the leaf; \"in allen\" is written as \"mallen\"?)\n012/013 l.6  [..]ech? ia das das war sy vnd nain das das nicht sy vnd\n             (\"nicht\" has a darker overwritten or corrected \"n\")\n012/013 l.7  [..]l genzlichen vnd warlichen an im sinff?/sins? · die and(er) das er\n012/013 l.8  [..]nechsten mit nichte betrieg? · er sol in auch ziehen vo(n) d(em)\n012/013 l.9  [..]zu dem gute(n) · nicht allain die freund sind auch die\n012/013 l.10 [..]¶ Die dritt die haist ain gotlichiu warhait das ist\n012/013 l.11 [..]sy warhaftig gen got mit allen seinen sachen mit wor(ten)\n012/013 l.12 [..]e? werken vnd an im mit schrifft vo(n) got gepoten ist\n012/013 l.13 [..]das holt? als vil im muglich · dise warhait leret\n012/013 l.14 [..]ig geyst die lieben iu(n)g(er)? als vil als vil in des not was dz\n012/013 l.15 [..]den weltlichen menschen gereden mochten was in not\n(The bottom margin of about 4 cm is blank, with the pencil label \"Stams, STA, Fag. 164-1r\", read as \"1n/1r\".)\n\n--- 164-2r (image-004 left + image-005 right) ---\n004/005 l.1  [..]we du pist ob allen engel mit ramikait? du vberwindest? [..]\n             (\"ramikait\" is unclear; perhaps \"rainikait\"; the last word runs off the edge)\n004/005 l.2  [..]yanit? gutichait wan als vil du vff erd gnad enphange\n004/005 l.3  haust · als vil hastu besundr? er? vnd? hymel <u>angg?</u> ch(ristu)s? sthaft?\n             (a short underline under \"angg\"; the end of the line is unclear)\n004/005 l.4  ich dich zu dem himel so pistu hocher hayss ich dich am\n\n--- 164-3r (image-003 bottom, image-007, image-011; right part of the line ends; pencil label \"164-3r\") ---\n003 l.1   [..]me B? Nu? e?    (the top line is damaged)\n003 l.2   [..]nd\n003 l.3   [..]chgun? want? / [..]ugnu? meit?\n007 l.1   [..]ng gezelln? / gezelchen?\n007 l.2   [..]wirdikait\n007 l.3   [..]ne d(er) ewigen\n007 l.4   [..]dem? englich?/ anclilg?\n007 l.5   [..]e mit d(er) wirdi(kait)?\n007 l.6   [..]ges? b? vo(n) der\n007 l.7   [..]t m(ain)? ist wir=\n007 l.8   [..]nsin? erlos(t)?\n007 l.9   [..]n engege? xp(ist)e?\n007 l.10  [..]ge · vnd fur(?)rtt?\n007 l.11  [..]ausscheiung? auch\n007 l.12  [..]in dem himel\n007 l.13  [..]engel ex? vnd\n007 l.14  [..]ist zeglauben\n007 l.15  [..]vnir? gotes dem?\n007 l.16  [..]en der glori\n007 l.17  [..]himelischen\n011 l.4   [..]g der edlen?\n011 l.5   [..]ewesen? das\n011 l.6   [..]ain ireum? / irem?\n011 l.7   [..]gesichet? alles\n011 l.8   [..]as sy disiv\n011 l.9   [..]sen ¶ Die\n011 l.10  [..]e sachen wol\n011 l.11  [..]des ¶ Die chunst?\n011 l.12  [..]p(ri)ch? ¶ Die\n011 l.13  [..]ei? ir in heiligiu?\n011 l.14  [..]vnd alles welt?\n\n--- 164-4r (image-010) ---\n010 l.1   [..] (descenders only)\n010 l.2   [..]nic? sind [hole] [..]z din\n010 l.3   [..]l weste? Joseph ward v(er)chaufft?\n010 l.4   [..]ph ward vo(n) seine(n) brudern\n\n--- 164-5r (image-002, image-006) ---\nOnly the initial or final letters of about 16 lines survive (\"m\", \"w\", \"d\", \"n\" ...). No words can be read. In image-006 two faint words appear at the left margin, \"geaffibr?\" and \"was?\". Unread.\n\n====================================================================\n4. TRANSCRIPTION - FACE 2\n====================================================================\n\n--- 164-1v (image-021 left + image-022 right; continued in image-025 + image-026) ---\n021/022 l.0  (the cut top line has only descenders visible) [illegible]\n021/022 l.1  <u>me michil? potest? facere</u> · <u>Ut ergo in p(re)stare? digne(n)tur? [..]munda? p[..]</u>\n021/022 l.2  <u>[..]stitue bonis?/bomes? · qui regat me ad? pone? d(e)i? filius? vos audie[..]</u>\n021/022 l.3  <u>[..]di ad mariam? misit? gre? [..] vas omnis gr(ati)e · Vnanimiter? [..]</u>\n021/022 l.4  <u>[..]ns i(n)spect? [..]beatu? · cum dicere? salutacionem angelica(m) salut[..]</u>\n             (lines 1-4 are Latin, all underlined; letter-level uncertainty is high)\n021/022 l.5  [..]mete? pi? dic? maria? [..]n dy allen guten werken e? lieben brued(er)\n021/022 l.6  [..]wol wist das wir heut begend das loblich wirdig hoch[..]\n021/022 l.7  [..]offart? vns(er)s h(er)ren i(hesu) (christ)i? Da han ich etliche vor mein h(er)ren m[..]\n021/022 l.8  gesprochen · vnd dy fugend sich aigenlichen? auff die gegenw[..]\n021/022 l.9  hochzeit vnd sprechent ze tewsch? also ih(esu)s xp(istu)s ist auff gev[..]\n021/022 l.10 [..]mdie? hoch? ir sullt wisse(n) das vns(er) her ih(esu)s xp(istu)s an dem v?[..]\n021/022 l.11 sein heylige(n) vrstend gen himel fur mit? hoh? vnd m[..]\n021/022 l.12 dibait? zu d(er) gerechten hand seins vaters Do leben in die ew[..]\n021/022 l.13 die lieben heyligen ä? vnd lan? Er ist heut auff gevare(n) i[..]\n021/022 l.14 wer sich wegesseuw? erst was das er vns den weg ber[..]\n             (the start \"wer sich wegessew\" is uncertain; a paraph or long stroke may sit before \"erst\")\n021/022 l.15 macht hin auff · wan wol in funf tausend iare cham m[..]\n021/022 l.16 selig mocht werden noch so gut · das gehimel machte cho[..]\n021/022 l.17 hat er vns den himel auff getan mit sein(em) heylig(en) auffa[..]\n021/022 l.18 hat vns den weg also gelert · mit seine(m) heylige(n) leben · vn[..]\n025/026 l.5  seine bild vnd lere nach volget d(er) chumpt gen himel [..]\n025/026 l.6  spricht er selb(er) <u>Ego sum vi(a) v(er)i(tas) (et) vita?</u> Ich pin ain weg vn[d]\n025/026 l.7  dew warhait vnd pin das leben Ich pin ain weg vn[d]?\n025/026 l.8  dy mir nach volge(n) dy werdent gewert des himels reich?\n025/026 l.9  auch dew warhait wan alles das ich chan? · das mag ich\n025/026 l.10 geleysten? Ich pin das leben · wan alle die zu mir chome(n)\n025/026 l.11 sullen? das ewige lebens leben ¶ Dew and(er) sach dar vm[b]\n025/026 l.12 gen himel fur · Das was das er vns die stat berait D[..]\n025/026 l.13 sprach er zu seine(n) iunge(n) <u>Vado parare vob(is) locu(m)</u> Ich wil ge[n]\n025/026 l.14 vnd euch die stat beraiten so ir denn chumpt so wir?[..]\n025/026 l.15 beraitt? ¶ Dew dritt sach dar vm vns(er) her zu himel fu[r]\n(A blank lower margin carries the pencil label \"Stams, STA, Fag. 164-1v\".)\n\n--- 164-2v (image-017, image-018) ---\nBlank: there is no text, only red specks or offset at the lower edge and the pencil label \"164-2v\".\n\n--- 164-3v (image-016, image-020, image-024; left part of the line beginnings) ---\n016 l.1   vns(er) sag?/ vnd sag(en)? [..]\n016 l.2   ewig salikait [..]\n016 l.3   vo ir als pa[..]\n016 l.4   des vaters · d[..]\n016 l.5   heylige(n) gaist[..]\n020 l.5   hait? da vo(n) [..]\n020 l.6   ain gruowest?/ gruonest? [..]\n020 l.7   wishait d(er) [..]\n020 l.8   all geschephen? / all g(e)schepht? [..]\n020 l.9   vnd dar vm[..]\n020 l.10  ¶ Du pist a[in ..]\n020 l.11  dar vm hal?[..]\n020 l.12  ¶ Du pist ain [..]\n020 l.13  geschehen? all[..]\n020 l.14  d(er) wir? praue?[..]\n020 l.15  alle gelaub[..]\n024 l.2   sterne? dar [..]\n024 l.3   ind? vinst? / vnd vinst? [..]\n024 l.4   dew vff gend[..]\n024 l.5   gelobig sele[..]\n024 l.6   schein? als d[..]\n024 l.7   sie in? wel[..]\n024 l.8   [..] halue? d[..]  (stained)\n024 l.9   [..]nnet? s[..]  (stained)\n024 l.10  ¶ Du pist ain [..]\n024 l.11  schait ist e?s[..]\n024 l.12  erhohet? da[..]\n024 l.13  ain mit d(er)? s[..]\n024 l.14  gesegneav?/ gesegneter? [..]\nMarginal notes at the left of 3v (image-020, -024), all very faint: \"ue?\" beside l.9, \"soeg?\" beside l.10, \"ue/ce\" beside l.12, \"s?/ff\" beside l.14-15. A paraph-like double stroke also sits in the left margin beside 024 l.10.\n\n--- 164-4v (image-023) ---\n023 l.1   [..] (tops of letters only)\n023 l.2   hoch?[..] [hole] als nach a[..]\n023 l.3   [..]e d(er) art? also ist im g[..]\n023 l.4   [..]as? d(er) edlisten? nat(ur)? aug? / auff g[..]\n\n--- 164-5v (image-015, image-019) ---\nOnly isolated letters or strokes survive (\"ir\", \"S\", \"dug?\", \"aug?\"). Nothing is legible as text.\n\n====================================================================\n5. LIMITATIONS\n====================================================================\n- 164-1 has lost its left edge, so every line on 1r and 1v starts mid-word. The starts shown as [..] are a physical loss, not an illegible reading.\n- The underlined Latin on 1v lines 1-4 and 1r lines 3/9/12 is cramped and heavily abbreviated, and my letter readings there are low-confidence.\n- On 1r, line numbering across tiles 008/009 runs 1-18 and continues with 012/013 lines 5-15. These are the same text lines in sequence, because the tiles overlap by about 4 lines.\n- The 3r/3v strips preserve only 2-4 words per line, and their alignment to the main column is unknown. The order of the strip lines follows the strip from top to bottom.\n- 164-5 r/v cannot be read. A raking-light or higher-magnification image might recover the line-initial letters.\n- Suggested follow-up: a higher-resolution or contrast-enhanced crop of 1v lines 1-4 (the Latin) and of 1r lines 1, 3, 9-12 (the Latin and Paul citation zone).\nThis is an unverified image reading.\n",
+  "text_sha256": "2494d88a892f489bce4af08b340cd680ee3532779f5b113c05fb75f09d1a6ef1"
+}
