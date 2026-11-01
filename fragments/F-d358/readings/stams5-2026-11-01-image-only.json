@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-11-01T06:28:35.535859+00:00",
+  "fragment": "F-d358",
+  "id": "stams5-2026-11-01-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "6024049b46789a16d1cefe2192fa5bf82c902b9a784ac50f1de6738743e0843b",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_051_01r): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "9ec2a22ab6aa0a03f784c3bf89b2fe2646e1a7635227e1ed539988f2e59aeaa2",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_051_01r): native-pixel box 609,2178,2022,3735; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "23cfaa23ea144a7b4091fb17bfd2743a3cdc6731a9bf963ddc23798726b6666f",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_051_01r): native-pixel box 1719,2178,3285,3735; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "8e9801fc14eafe8941fc3cfc31b01951eb137550a2b1825060d7475d1a9e4eb0",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_051_01r): native-pixel box 2982,2178,4396,3735; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "681c7b2482f599ec699c2e9d3a9d2d29cfc60c99f4dca70fd86d0371243bc315",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_051_01r): native-pixel box 609,3402,2022,4960; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "ebc76cd145c767c50b1dea38ffc9b8300f0caf08d52ce862c3f029194234a84f",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_051_01r): native-pixel box 1719,3402,3285,4960; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "efba63f8b78e993c80d87c78220a85edad25a09e4f416b98786372c011d8b1e7",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_051_01r): native-pixel box 2982,3402,4396,4960; unrotated grid position column 3 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "48612c63609cab96cdc2b6473a763a388cba7e5a4c10f962e7fdd94695f906d3",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_051_01v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "22c2271ae9494c760a63e38eb4982553fa8b1a945eff91b62494c99591810401",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_051_01v): native-pixel box 579,2178,1980,3719; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "c6520f9ab199654d7156d26f6b9b1e1c6c9563c83338befb5e1e729db189d7e9",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_051_01v): native-pixel box 1679,2178,3231,3719; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "40baab098f246016f2f2b0e19527d150f1d6adf092f99c8d3e68840097237b28",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_051_01v): native-pixel box 2930,2178,4332,3719; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "7c5306752af5f897f53852ddcc41b5f809073041c87c750bc38d398b2bbb65b4",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_051_01v): native-pixel box 579,3389,1980,4931; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "f9624fa65277405b4836b62df738a19ca8bad9c510b74a1398b612b4fa045554",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_051_01v): native-pixel box 1679,3389,3231,4931; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "4538ed0cd4121b3913f808104078a28b28360724a0a3018cd88d91577eb6a1f2",
+        "source": "https://fragmentarium.ms:443/loris/F-d358/Stams_STA_Frg_051_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_051_01v): native-pixel box 2930,3389,4332,4931; unrotated grid position column 3 of 3, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response; packets 02 and 14 completed by further fresh readers after a display cap hid images, packet 17 reread by a fresh reader",
+  "schema_version": 1,
+  "session": "stams5-2026-11-01 (packet-20)",
+  "text": "PACKET-20 - unverified image reading\n\nExposure / method statement\n- Nothing in my context revealed a proposed identification or an earlier reading of this item. This is a blind reading.\n- Beyond viewing the supplied images, I made enlarged greyscale contrast-enhanced crops of the packet's own image files (PIL, in my scratchpad) to read faint ink. No other files, catalogues, editions or web sources were opened.\n- Visible modern annotations on the object itself (not identifications of a text, but they bear on date): pencil \"Stams, STA, Frg. 51 r\" / \"Stams, STA, Frg 51v\"; blue ink \"entnommen dem Einband von III d/41, 52\" (face 1); blue ink \"19. Febr. 1618\" (face 2, lower margin). I report them only as visible writing.\n\nLAYOUT SURVEY (observations)\n\nFace 1 (image-001 overview; tiles 002-007)\n- A single sheet, landscape, with turned-in folds on all four sides (binding wrapper). Plastic/tape repair along the upper fold. Worm/tear damage running vertically in the centre (spine area).\n- No main-text writing visible on this face. It is the outer (cover) side of the wrapper.\n- Spine area carries: a small pasted paper label with red letters \"Æ\" / \"A\" (or \"AE A\") and brown-ink later cursive, partly torn: I can see \"[..]c\", \"[..]ucir? a[..]\", \"[..]os  [..]ia fabri[..]\"?, \"[..]t\", \"[..]ultra? y? aliu[..]\" - reading very uncertain, probably a shelf/title label of the host volume; black ink shelfmark \"BB / d / 4\" lower centre; modern annotations noted above.\n- Nothing to transcribe as text from the fragment itself.\n\nFace 2 (image-008 overview; tiles 009-014)\n- Same sheet, inner side (pastedown side). Single block of long lines in a 17th-century-type German cursive (Kurrent), brown ink, across the full width of the sheet (one column, not two; lines run continuously across the central damaged spine area). About 26-27 lines visible.\n- Top: a large flourished calligraphic loop/stroke above line 1 (tiles 009-011), and enlarged/decorated first-line letters - the first line is in a larger, more formal hand (opening of a document).\n- Left margin, at roughly line 8 (tile 009), a small dark mark \"I\" (marginal sign or later mark).\n- Text in the centre (spine panel, tiles 010 and 013) is badly abraded and faint; there is offset of the face-1 \"BB d 4\" in reverse showing through (tile 013).\n- Last line (bottom left, tile 012) ends with a full stop and \"Ist?/Jar?\". Bottom line across tiles 013-014 carries a dating clause.\n- Interpretation (tentative): this is a document (a deed/charter-type text in German, listing pieces of land with their neighbours: \"zwischen ...\", \"gelegen\", \"tagwerckh\", \"halben morgen\", \"wiss\", \"ackher\"), not a literary or liturgical codex leaf. Line numbering below counts written lines from the top of each tile; tiles overlap.\n\nSELECTED SPANS\nRead: left third of the block (tiles 009, 012) top to bottom; upper right lines (tile 011); lower right (tile 014); upper middle (tile 010). Largely unread: the abraded central panel (tile 013, middle), most of the middle of each line where it crosses the spine.\n\nConventions: ? = uncertain reading of the preceding word; [..] = illegible letters/words; ( ) = proposed expansion. Kurrent e/n/u/r minims are often ambiguous; spellings below are what I believe is written, not normalised.\n\n--- image-009 (upper left of face 2) ---\n009.01  [I?]ch Johann? Br[..]  [damage, tape]\n009.02  [..]tzen? zu Stu?mpfach?, zu seinem\n009.03  weilandt? seligen hinterla[ssnen]\n009.04  erkhaufte? behausunge und Stad[el?]\n009.05  obgedachtes weilandts?, und\n009.06  Walt? Wilhelm von Knöringen? z[u]\n009.07  tagwerckh an einem Stuckh, [..]\n009.08  [..]lin? anger? weg, und am gemai[nen]       (left margin: dark mark \"I\")\n009.09  [..] steeg? zwischen Hieronimus\n009.10  halben morgen, zwischen Ambr[..]\n009.11  Ackher, und dem gemainen w[eg?]\n009.12  und dem gemainen wa[..] g[..]\n009.13  Bergard? äckher, und dem ge[mainen]\n009.14  zwischen Hansen weilannd[ts?]\n009.15  ain halb viertel, auf den [..]\n009.16  halb viertl Kraut[..]\n\n--- image-010 (upper middle; overlaps 009 right edge and 011 left edge) ---\n010.01  [..] [..] Bro?oh?, und Dem? [..] [..]angen?   (larger formal letters; damaged)\n010.02  zu seinem nechsten?, das ganze leben? alle jar? zu [..]\n010.03  seligen hinterlassnen weib dasselbig? erkaufft hat, und\n010.04  und Stadel?, unter einem dach, an Hansen? weilannd[ts]\n010.05  [weilan]dts, und Hansen Lehners? Häusern? ge[..]\n010.06  Knöringen zu R?eichenberg? Herren wis[..]\n010.07  [..] Stuckh, die [..] wis? genannt? [..]\n010.08  [..] am gemainen [..]            (rest faint)\n010.09-17  faint/abraded across the spine panel; isolated words only: \"gemaine[n]\" (l.10, right), \"[..]zwischen?\" (l.12), \"zu Stu?mpfach?\" (l.14, right)\n\n--- image-011 (upper right) ---\n011.01  [..]angen, [V?]erkhenne? offentlich mit dem b[rief?]\n011.02  [..]tag? gelegen, sonnenhalb? an solchem [..] Hol[..]\n011.03  hat, und gehören an soliche? lehen? [..] Erstlich ain\n011.04  weilannd[ts], [..] gärtlin?, auch? [..] gemainen\n011.05  Anwesen? ain [..] Mülwiss?, so? den? Sch[..]\n011.06  [..] [..]gebaut? Müller zu Stu?mpfach? garten g[elegen?]\n011.07  [..] Hans? [..]wiesen gelegen, am Klam[..]\n011.08  [..] wiesen? gelegen, Am Rö?hern? / Kö?bern?, [..]   (capitalised place-name, uncertain)\n011.09  [ge]mainen weg, die [..] gelegen, [..]\n011.10  [..] Äckhern? gelegen, [..] zwischen [..]\n011.11  [..] in den Kalten Klingen?, zwischen Hans [..]\n011.12  [..], [..] ackher genannt, zwischen [..]\n011.13  [..] zugehörig?, [..] ain halben morgen? im\n011.14  [..] zu Stu?mpfach? [..] gelegen, [..]\n011.15  [..] und [..] Klingen? [..] g[..]\n\n--- image-012 (lower left; overlaps 009 lines 13-16) ---\n012.01  Bergard? äckher, und dem ge[..]        (= 009.13)\n012.02  zwischen Hansen weilannd[..]            (= 009.14)\n012.03  ain halb viertel, auf den [..]           (= 009.15)\n012.04  halb viertl Kraut[gar?]t[en?] [..]       (= 009.16)\n012.05  bettlin? so [..]ung?, und [..]\n012.06  [..]hans? [..] gelegen?\n012.07  obgedachtem [..] Knöringe[r?]\n012.08  von uns?, und unsern? [..]\n012.09  Ehr?, als wir auch? [..]\n012.10  leihen haben, könden?, und\n012.11  unsern [..] [..]\n012.12  unser [..] [..] zu [..] g[..]\n012.13  nach Lehenrecht?, dem? Lehen[..]\n012.14  des briefs?, oder [..]\n012.15  [..] [..] [..]\n012.16  [..]hand? [..] Jar?.        (end of text, full stop)\n\n--- image-014 (lower right; overlaps 011 lines 12-15) ---\n014.01  [..] ackher genannt, zwischen [..]          (= 011.12)\n014.02  [..] zugehörig?, [..] ain halben morgen im   (= 011.13)\n014.03  zu Stu?mpfach? [..] gelegen, [..]           (= 011.14)\n014.04  [..]lich? und [..] Klingen? [..]\n014.05  [..] und [..] [..] gelegen,\n014.06  [..] [..], zwischen [..] [..]mans?, an\n014.07  [..]berg genannt, [..] [..] [..]\n014.08  [..] gelegen, [..] [..]\n014.09  [..] [..] [..] [..]\n014.10  [..] zugehörden?, und [..]\n014.11  [..] [..] verliehen, [..]\n014.12  [..] auch [..] gebrauch? [..]\n014.13  [..] [..], und [..] [..]\n014.14  [..] schuldig sein sollen? [..]\n014.15  [..] [..] [..] besigelt?, und\n014.16  Monats Februari[j?], Im Sechzehenhun[dert ..]   (dating clause; year continues off the line or is abraded)\n\n--- image-013 (lower middle; mostly abraded) ---\n013 bottom line: \"[..] [..]zehenden? tag [..] Monats\"  - joins 014.16 (\"... tag ... Monats Februarij, Im Sechzehenhundert ...\").\nRest of tile 013 middle: faint, with reversed offset \"BB / d / 4\" from face 1; only scattered words (\"zwischen?\", \"gelegen?\", \"genannt?\").\n\nLIMITATIONS\n- Kurrent with faint brown ink on stained parchment; many readings above are tentative, and personal and place names (Stumpfach?, Knöringen?, Reichenberg?, Kalten Klingen?) especially so.\n- The central third of every line (over the former spine) is abraded or holed; I did not recover connected text there.\n- First line (formal display script) is damaged by tears and tape; only \"Ich Johann?\" and \"[V?]erkhenne? offentlich mit dem b[rief]\" can be read, uncertainly.\n- Face 1 has no fragment text.\n- Suggested next step: raking-light or UV image of the central spine panel (tiles 010/013), and a higher-magnification crop of the first two lines and the dating line (bottom, tiles 013-014) to confirm the year.\n",
+  "text_sha256": "1c0533e575563f333951f695e7c33f99545a5bfcedf27255bf792d34f465ded7"
+}

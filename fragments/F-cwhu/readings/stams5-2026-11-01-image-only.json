@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-11-01T06:28:35.449416+00:00",
+  "fragment": "F-cwhu",
+  "id": "stams5-2026-11-01-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "260816ae317324e4900f069835904d25098eca06314b037458103ebbc4f2e173",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "dcf7a00de35bf69d70041a21e70711a8f0cc0ed303bcf23140c790ea69b3b06f",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 1538,707,2962,2060; unrotated grid position column 1 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "48e189fa6c310f5e08ed95dc041cd1720f9cf712d4dcd90e0461f411408aa70d",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 2656,707,4233,2060; unrotated grid position column 2 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "ca7c9658511faf19235c5d18ca6648aac0c047592ce49f806b54c203a5b4bc9d",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 3928,707,5505,2060; unrotated grid position column 3 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "2fca31e5cef99f92a5f3d76524d8088b170a2adc293b7f68089316b90f36b66e",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 5199,707,6624,2060; unrotated grid position column 4 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "3504a84f96adc13105332d7c9bedf1067e274ffb8aa86f0c8546bbcd4949850e",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 1538,1770,2962,3268; unrotated grid position column 1 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "24cf8e2efb8cc825011f52fc961609dde16113948cd4ddeb42e805c8ac55a818",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 2656,1770,4233,3268; unrotated grid position column 2 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "7077487243d03a66f1d9473764f05dc4e664940268ffc212e71007200747c455",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 3928,1770,5505,3268; unrotated grid position column 3 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "0411cdc15c24398ced9cb06043c81a2a3302104e93d7abc7f13f0914a058e236",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 5199,1770,6624,3268; unrotated grid position column 4 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "f08e0fad23ef20d991af37efadcd324fab2966064000e6dda4a4a854992b6637",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 1538,2978,2962,4332; unrotated grid position column 1 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "cacf2f779ae34e5725ef49e2f16e2a4e4153847efc82e44514a202cb9454af47",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 2656,2978,4233,4332; unrotated grid position column 2 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "f35d5863eb53b949ff16d46ce638cec1c3f49d1b80d8145ebec213f79cfe85a7",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 3928,2978,5505,4332; unrotated grid position column 3 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "199d0fd157b30ddd6716e714556592452444fbfcfd8e08b3d45312cbbd203e74",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_209_01r): native-pixel box 5199,2978,6624,4332; unrotated grid position column 4 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "09ac28d9524d9750b2fe862cbd0c10a866290023d70843e1a318d66209c60b35",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "d84326dafc35f7b4883e86e827d3d9ccdb5b9487233b07f53c7565b4be006e8a",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 1633,736,3057,2102; unrotated grid position column 1 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "13b9ade40606405a8d343e622c7c23099059b40b25541048d64e7a21c6741df3",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 2751,736,4328,2102; unrotated grid position column 2 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "200201b3ecb94f69e8a3313d4182ee0059419564532c9374e257972a0027c202",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 4023,736,5600,2102; unrotated grid position column 3 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "05819eb1cfc8a43afe5ee07b39ad5ff74c588c560bc768ccab526b1f37ab971d",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 5294,736,6719,2102; unrotated grid position column 4 of 4, row 1 of 3"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "edde7399c248bd94ea236f89a6b7522b523945dbfb52ac968fc6de6f418d94d1",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 1633,1809,3057,3322; unrotated grid position column 1 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "6dbb8d893a8beddf1ca30cb175c74a8d1114561003dc6ea429ea0d149e9a3664",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 2751,1809,4328,3322; unrotated grid position column 2 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "61808edb3411eb928dec2b3339b0e4ed88ad4faf1a4c1efde5c821cac8c2952a",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 4023,1809,5600,3322; unrotated grid position column 3 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "a1b8efe6dc7cf8d733130b33ac2a874be88442d9840382d4617de9228262558a",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 5294,1809,6719,3322; unrotated grid position column 4 of 4, row 2 of 3"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "49655526bf5d9365a165ca66b9fd780ee0a3c9d60b0d6fedb41c9e2697c6df6a",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 1633,3029,3057,4396; unrotated grid position column 1 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "c5c2582f461449043f44404c993812a0a7a38035ef916a7f676ccc235f479bab",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 2751,3029,4328,4396; unrotated grid position column 2 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "72408295031f8ef2c81552a177395d08e9a30139f179c789fb8e258624cef0f7",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 4023,3029,5600,4396; unrotated grid position column 3 of 4, row 3 of 3"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "83ed78f40da70518b986f69983da9e962728daf0c65635e99e5196f7089effa0",
+        "source": "https://fragmentarium.ms:443/loris/F-cwhu/Stams_STA_Frg_209_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_209_01v): native-pixel box 5294,3029,6719,4396; unrotated grid position column 4 of 4, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response; packets 02 and 14 completed by further fresh readers after a display cap hid images, packet 17 reread by a fresh reader",
+  "schema_version": 1,
+  "session": "stams5-2026-11-01 (packet-04)",
+  "text": "PACKET-04 - unverified first reading from images only\n\nEXPOSURE / PROCEDURE NOTES\n- Nothing in my context revealed a proposed identification of the work or a\n  prior reading. Only my brief and PROMPT.md were read.\n- The only identifying text I saw is a modern pencil shelfmark on the face 2\n  image (image-023/024, lower margin): \"Stams, STA, Frg. 209v\". It names the\n  holding and folio, not the text. I did not use it to identify the content.\n- Beyond the rules: the harness dropped several image views (from both\n  overviews image-001 and image-014, and from several tiles), so I couldn't\n  see them directly. To read those tiles I wrote small PIL scripts. They crop\n  regions from the supplied tiles, boost contrast (some use the blue channel\n  plus equalization) and enlarge them. The scripts and outputs are in my\n  session scratchpad and touch no packet file. I also stitched reduced\n  top-strip views of each face from the tiles to stand in for the overviews.\n  No web, catalogue or edition was used.\n- Line numbers below are counted from the first text line visible in the\n  named tile (written lines only, not ruling). They are approximate where\n  tiles overlap. Lines repeated across overlapping tiles are given once,\n  merged, with the tiles named.\n\nLAYOUT SURVEY (observations)\n- Two faces, each an opening of two pages across a central fold (bifolium).\n  The fold area has stitching holes and paper/parchment strips (binding\n  reuse). Face 1 = image-001 overview + tiles image-002..013. Face 2 =\n  image-014 overview + tiles image-015..026.\n- One column per page, about 20 written lines per page, ruled in red, written\n  in a formal gothic textualis book hand. Black text with red rubrics. There\n  are red-and-blue penwork initials with scalloped/curled red filigree, and\n  small red-touched capitals.\n- Face 2 left page: a drawn shield/coat of arms (ink and wash) sits in the\n  upper left margin (image-015). A large filigree initial X (blue with red\n  penwork) is at image-019/023. Lower margin blank; pencil shelfmark.\n- Face 2 right page: a blue O initial with red filigree (image-021/025).\n  Rubric abbreviations: R. (responsory), V. (versicle), a. (antiphona),\n  Cap. (capitulum), Or./Coll./Colla (prayer), \"Ad ... a.\", \"In laud.\",\n  \"Ad horas\", \"Ad iii cap.\", \"Ad vi. cap.\".\n- Face 1 left page: very rubric-dense and badly faded/abraded, mostly short\n  incipits with rubrics (Coll., Cap., Ad v[esperas]?, R., V., Com., \"In\n  uigilia\"). A large O initial in the lower part (image-006/010).\n- Face 1 right page: a large hole/loss at the top lines (image-004/005).\n  Text below is faded. A filigree initial (I or J?) is mid-page at\n  image-008, with a short black-ink display word \"In ii. noc(turno)?\" lower\n  down (image-008/012).\n- Tentative interpretation (not an identification): this looks like\n  liturgical office text (breviary type). It has chant/prayer incipits with\n  rubrics, plus at least one block of continuous lesson-like prose (face 2\n  left page). No commentary or glosses are visible, and there are no\n  interlinear glosses.\n\nAREAS SELECTED\n- Face 2 left page, lines 1-20: continuous prose block plus rubric (best\n  preserved stretch of prose).\n- Face 2 right page, lines 1-20: continuous office text with rubrics (best\n  preserved overall).\n- Face 1 left page: scattered rubric/incipit lines (partial only).\n- Face 1 right page: a few lines around the initial and \"In ii. noc.\" (partial\n  only).\nUNREAD / POORLY READ: most of face 1 (both pages) beyond the fragments below.\nThe ink there is abraded to ghosts. UV or multispectral imaging, or a\nraking-light view, of face 1 would help. Top line(s) of face 2 left page are\nlost to holes.\n\n======================================================================\nFACE 2 - LEFT PAGE (tiles image-015 right part, image-016, image-019,\nimage-020, image-023, image-024)\n======================================================================\n[image-016 l.1 / image-015 l.1] [holes] ...onici? a se[n?]... [hole] ...ali? p[...]   (red?)\n[image-016 l.2 / image-015 l.2] Sexage[si?]ma? in [hole] ... [faded red: lect(i)o? pa?...]\n                                 (a damaged red/filigree initial at left, partly lost)\n[image-016 l.3 / image-015 l.3] leo.? In p[?] [hole..................] cy? pius?\n[image-016 l.4 / image-015 l.4] [?]er dicis. Cle?/Ete? [hole] ...n dicis. Et nouis?\n[image-016 l.5 / image-015 l.5] tame(n)? (et) filius [hole] ...it te[?] ...alius? et deus pat[er]?\n[image-016 l.6 / image-015 l.6] Dicit?/Diuit? tam? ... [?]us [illegible] dy.? Et un(us) (est) deus.\n[image-016 l.7 / image-020 l.2] a nob(is)? ... ...r u(er)us? [?]humanus? fil(ius)? p(at)ris? filiu(m)?\n[image-016 l.8 / image-020 l.3] ...(com)mendat.? in hic? alia? ...nitas? / [illegible]\n[image-019 l.1 / image-020 l.4] ...ex? filius ui[?]tur. Dies? / Dicis? enim? anime?\n[image-019 l.2 / image-020 l.5] ...s n(ost)r(u)m corpus (et) a(n)i(m)am fec[it]?\n[image-019 l.3 / image-020 l.6] in die? ua? p(re)ciis? solus filius n(ost)r(u)m co[r]...\n[image-019 l.4 / image-020 l.7] a[?]sumere? suscepit.   [initial: red/ink Q? or C?] ...rege? ... ad? la\n[image-019 l.5 / image-020 l.8] ...us fundam(en)ta? ab[?]sq(ue)? ... tabula? p(ro)p(ter)? ... con?\n[image-019 l.6 / image-020 l.9] net? mundu(m). Jacet in p(ro)p(ri)o? ... [?]elus? ... ...a?\n[image-019 l.7 / image-020 l.10] [red: V.?] Natus (est) nob(is) saluat(or) q(ui) (est) xp(istu)s d(omi)n(u)s in ci-\n[image-019 l.8 / image-020 l.11] uitate dauid. Prec? in? [dark/red word: ...ia? ...ia?] .\n[image-019 l.9 / image-024 l.1-2] [large filigree X]p(istu)s dei? ... unigenitus in\n[image-019 l.10 / image-023 l.1 / image-024 l.2] forma dei? manens, xp(istu)s in die? q(ui)? xp(istu)s u-\n[image-023 l.2 / image-024 l.3] nigenitus? forma seru(i)? accipiens. Xp(istu)s   (red touch on X)\n[image-023 l.3 / image-024 l.4] dex? eiusq(ue)?. diuinus p(er)manens ut co(n)tra-\n       (text ends; lower margin blank; final word reads \"co(n)trarii?\" or \"co(n)tra[?]\" and stops at the edge)\nNotes: lines 1-6 are interrupted by large holes and dark losses. \"Dies\" vs\n\"Dicis\" on l.9 is uncertain. The initial on l.12 (Q/C) is uncertain. The\nred word on l.16 is too faded.\n\n======================================================================\nFACE 2 - RIGHT PAGE (tiles image-017, image-018, image-021, image-022,\nimage-025, image-026)\n======================================================================\n[image-017 l.1 / image-018 l.1] nus? pudica p[?]... templu(m)?/tepli? ... ...[?]pli? ... fit eo? fac[?]...\n[image-017 l.2 / image-018 l.2] nec(e)ssa?/nesach? unici? uiri?/uba? ... [?]ceptis? ... [faded red: Cap.?] p(ro)pter\n[image-017 l.3 / image-018 l.3] nimia(m) caritate(m) sua(m) q(u)a dilexit nos d(eu)s? fi(lium)? s(uum)?\n[image-017 l.4 / image-018 l.4] lui? suu(m) misit. In similitudine(m) [?]arnis? p(e)cc(at)i? p(ro)p(ri)e? ...\n[image-017 l.5 / image-018 l.5] saluaret. [red: R.] Ecce ia(m) uenit plenitudo? te(m)poris i(n) q(u)o mi-\n[image-017 l.6 / image-021 l.1 / image-022 l.1] sit d(eu)s filiu(m) suu(m) [?]rma?/nat? natu(m) de virgine f(a)c(tu)m sub lege\n[image-021 l.2 / image-022 l.2] m.? [red: V.?/R.] Verbu(m) caro factu(m) (est). [red: In laud(ibus) a(ntiphona).] O? ...ma? mira.?\n[image-021 l.3 / image-022 l.3] [red: p.?/ps.] Miser(er)e?/Mise[?]. [red: Cap.] Bn̄dc̄o?/Benedict(us)? ... u? [?]aurs?/...ius. [red: R.] Di?/Do?\n[image-021 l.4 / image-022 l.4] uais?/bais? qui uenit? [red: ymnus.] Dominu[?]? [red: V.] puer nat(us)?/ ...l.\n[image-021 l.5 / image-022 l.5] [red: Ad b(e)n(edictus)? a.] Verbu(m) caro factu(m) (est). [red: Or(atio).] Co(n)ce(de) q(ue)s(umus).\n[image-021 l.6 / image-022 l.6] [red: Com(memoratio)? de b(eat)a? a.] Du(m) medi(um) silentiu(m) tenere(n)t o(mn)ia (et)\n[image-021 l.7 / image-022 l.7] nox i(n) suo cursu iter p(er)ageret om(n)ip(oten)s? [?]e? sermo tuus d(omi)ne\n[image-021 l.8 / image-022 l.8] a regalib(us) sedib(us) uenit all(elui)a. [red: V.] D(omi)n(u)s regnauit de-\n[image-021 l.9 / image-022 l.9] core(m)? induit. Induit d(omi)n(u)s fortitudine(m). [red: Colla.]\n[image-021 l.10 / image-022 l.10] [blue O with red filigree] mnip(oten)s semp(iter)ne d(eu)s? dirige actus\n[image-021 l.11 / image-022 l.11] n(ost)ros i(n) b(e)n(e)placito tuo ut i(n) no(m)i(n)e\n[image-021 l.12 / image-025 l.1 / image-022 l.12] dil(e)c(t)i? filii tui mereamur bonis op(er)ib(us) h(abund)a-\n[image-021 l.13 / image-025 l.2 / image-026 l.2] bundare? P(er) eu(n)d(em). [red: Ad horas D(omi)n(ic)a? a.] Mir[?]? an?/an(tiphona)?\n[image-025 l.3 / image-026 l.3] [red: Ad iii? cap.] Multiphari(e)? [red: V.] Tamq(ua)m? sp(on)s(u)s? / Taq̄m̄ sp̄os?\n[image-025 l.4 / image-026 l.4] [red: Co(n)? / Coll.] Conce[de] q(ue)s(umus). [red: Ad vi. cap.] Paruulus? / Paruul[...]\n       (text ends; rest of page below is blank ruled margin)\nNotes: lines 1-2 are abraded in the middle and their readings are weak.\nLine 6, \"[?]rma?\", is the word before \"natum\". It may be a correction or\nan abbreviation I can't resolve. The red rubrics on l.2-l.4 are partly\nfaded. Faint marks/offset beyond the right frame of image-022 are not\nread as text.\n\n======================================================================\nFACE 1 - LEFT PAGE (tiles image-002 right part, image-003, image-006,\nimage-007, image-010, image-011) - PARTIAL, heavily faded\n======================================================================\n[image-002 l.1 / image-003 l.1] [red: V.?] ... [illegible] cou(?)? [red A.] cou(?)? [red A.] ...[?]ultipli[?]ant? Ad\n[image-002 l.2 / image-003 l.2] ...ic. cap. [illegible] ... [red: V.] M[?]ltiplica[?]u[?]t? me.\n[image-002 l.3 / image-003 l.3] Coll. [red ?] ...nds?. [red: Ad u(espera)s.?] [red: Ad u(espera)s. a.] [illegible] Do?/Di?\n[image-002 l.4 / image-003 l.4] ...us. cap. M? [illegible] ... [red: R.] Verbu(m)? ... [?]p[?]\n[image-002 l.5 / image-003 l.5] [illegible] ... [red: V.] ... ... [red: Ad m(agnificat)? a.] ...\n[image-002 l.6 / image-003 l.6] ...ms?. Coll. ... ... [red: Com(memoratio)? de ...] ...a.\n[image-006 l.2 / image-007 l.1] Dum?/Duo? [illegible] ...\n[image-006 l.3 / image-007 l.2] ...[?]a? ... [red: V.] D... ... Coll. ...\n[image-006 l.4 / image-007 l.3] [illegible] In uigilia [?]a[?]i[?]ionis? ... Ad\n[image-006 l.5 / image-007 l.4] ...os. Cap. ps. a. [illegible] ... ueri? uni?\n[image-006 l.6 / image-007 l.5] ...ekst?/[?]est. pont. Caplm. [illegible] ... [red: R.]\n[image-006 l.7 / image-007 l.6] ... hy(mnus)? [illegible ...]\n[image-006 l.8] m. an. [illegible ...]\n[image-007 / image-011, lower right] Colla.   (rest of lines below are illegible ghosts)\n[image-006 / image-010, lower left] large O initial; the following lines are illegible at this resolution.\n\n======================================================================\nFACE 1 - RIGHT PAGE (tiles image-004, image-005, image-008, image-009,\nimage-012, image-013) - PARTIAL, heavily faded and holed\n======================================================================\n[image-004 l.1 / image-005 l.1] [holes] ...r hanc? ... hanc [hole] ...an? ...\n[image-005 l.3]                 ...[?]ue? [?]n? (est)? ...[?] ...\n[image-004 l.4] ...[?]a? ...noua? sat? ... [hole] ...\n[image-008 l.1] ...d? ...a? q(uod)? ...\n[image-008 l.4 / image-009 l.4] ...[filigree initial at left] ...in(?) ... C(?)... nandd? ... ...ano? q(ui)ta? .   (\"lano? qrta\" in dark ink)\n[image-008 l.5 / image-009 l.5] ...[?]mp? ap[?]angelo? ...nui? ... itina? ... ra?\n[image-008 l.6] runalis? ... ...\n[image-012 l.1] ... In ii. noc(turno)?   (darker ink display word) ...\nRemaining lines on this page: illegible ghosts.\n\nLIMITATIONS\n- Face 1 is mostly unreadable from these images (abrasion and fading). The\n  readings there are fragmentary and many are only guesses.\n- Face 2 top lines on the left page are destroyed by holes.\n- Line numbers are approximate because of tile overlap and my cropped\n  working views.\n- Abbreviations are expanded in parentheses as proposals only. Marks I\n  couldn't resolve are shown with \"?\" or [?].\n- This is an unverified image reading.\n",
+  "text_sha256": "2ce1b84faed5dab3d84691e0e61bbee1c02198c32eeb399f797b45de42392f6f"
+}

@@ -1,0 +1,67 @@
+{
+  "captured_at": "2026-11-01T06:28:35.473783+00:00",
+  "fragment": "F-fns2",
+  "id": "stams5-2026-11-01-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "1c73d32355a6873b72c6b4aadfd1ea22576e6c0157b794f51014741c6fec53a3",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_211_01r): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "d883344c3fd337f432757176d8c7b330265902409137f7be4f4d1076ae7db2f5",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_211_01r): native-pixel box 2249,1346,3178,2609; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "be9afbeb27f778943aa782406c26ae7f14a6de40bcb296663ce7861b1fb3a558",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_211_01r): native-pixel box 2249,2338,3178,3737; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "74545afcccf519775946b177c864af1df49deadcf937dd999f3933608ceabb58",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_211_01r): native-pixel box 2249,3466,3178,4865; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "d9c1461a2241e83a5d3063fa9d9ab5acab5d3a3dc5e0a8e9cda4d49a6e28737f",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_211_01r): native-pixel box 2249,4594,3178,5858; unrotated grid position column 1 of 1, row 4 of 4"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "71825af84b47c865347adb139d7e9de9890d95a57f4115a4ac85f0b3e5328b4d",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_211_01v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "a3c835b1c8a8a3d3a3fe30ac1e0ac7cb92485e3f9453578846d53e254569147f",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_211_01v): native-pixel box 2053,1251,2986,2514; unrotated grid position column 1 of 1, row 1 of 4"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "658877d4203fadc7ad9aebaa000091d3a1040f64d9805d091912261f9d965fb1",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_211_01v): native-pixel box 2053,2243,2986,3641; unrotated grid position column 1 of 1, row 2 of 4"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "3ba8e971604dc190f892710e3ac0d943f6f0976dbd238b184fe8e549e052a85f",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_211_01v): native-pixel box 2053,3371,2986,4769; unrotated grid position column 1 of 1, row 3 of 4"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "e72063b6628855cb7d34570d733d5c06c370099a1fcbcd8e1980a6405c95bb2b",
+        "source": "https://fragmentarium.ms:443/loris/F-fns2/Stams_STA_Frg_211_01v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_211_01v): native-pixel box 2053,4498,2986,5762; unrotated grid position column 1 of 1, row 4 of 4"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response; packets 02 and 14 completed by further fresh readers after a display cap hid images, packet 17 reread by a fresh reader",
+  "schema_version": 1,
+  "session": "stams5-2026-11-01 (packet-10)",
+  "text": "PACKET-10 - unverified image reading\n\nExposure / method statement\n- Nothing in my context revealed a proposed identification or an earlier reading of this item. This is a blind reading.\n- Beyond viewing the supplied images, I made enlarged greyscale contrast-enhanced crops of the packet's own image files (PIL, in my scratchpad) to read the faint verso. No other files, catalogues, editions or web sources were opened.\n- Visible modern pencil annotations: \"Stams, STA, Frg. 211 r\" (face 1) and \"Stams, STA, Frg. 211 v\" (face 2). Reported only as visible writing.\n\nLAYOUT SURVEY (observations)\n- Object: a narrow vertical parchment strip (about 4-5 cm wide x 28-30 cm tall on the scale), cut from a larger leaf; binding strip with fold lines and sewing/nail holes near top and bottom. Text survives only in the middle third (about 24 lines per face); upper and lower parts of the strip are blank margin.\n- Script: Gothic textualis, brown-black ink, ruled lines visible. Both side edges are cut through the text, so every line lacks its beginning and end; width of the original column unknown. Only one column is represented.\n- Face 1 (images 001-005): darker, better-preserved ink. Red rubrics: \"Off\" (line 7), \"Thome ap[..]\" (line 16), red signs before \"Dñe pbasti\" and \"Celi\" (versicle marks), \"GR\"-type rubric at left of line 20, red \"Ep[..]\" at right of line 19, red strokes through letters in some initials (I, A, C). Small interlinear addition over line 19. A red horizontal line drawn through line 19 (see below).\n- Face 2 (images 006-010): ink much fainter/abraded, brown staining down the right side. One small red rubric (line 17). Some larger initials mid-line.\n- Faint vertical (perpendicular) writing in the upper blank part of face 1 (image-002, upper right): two or three columns of small letters running top to bottom, too faint to read; possibly offset from another leaf or a later note. Unread.\n- Interpretation (tentative, from the layout only): liturgical text with rubricated chant/reading cues (\"Off\", \"GR\", versicle signs, \"Alleluia\", \"Ep[..]\") interleaved with prose prayers ending in formal closes; i.e. a Mass-type book. Face 2 has continuous prose that reads like a narrative reading, then further prayers.\n\nLine numbers: counted from the first written line on each face (line 1 = first text line on the face). Tiles overlap: image-002 shows lines 1-6, image-003 lines 5-15/16, image-004 lines 14-24, image-005 lines 23-24 and the blank lower strip; image-007 lines 1-6, image-008 lines 5-16, image-009 lines 14-24, image-010 lines 23-24 and blank strip. Repeated lines in overlaps are not counted twice.\n\nConventions: ? = uncertain reading of the preceding word/letters; [..] = illegible or lost at the cut edge; ( ) = proposed expansion of a visible abbreviation; nothing is supplied from sense.\n\nFACE 1 (recto; image-001 overview; tiles 002-005)\n\n002.01  [..]summacione scl(?)i· [..]       (\"scli\" with abbreviation stroke; s(ae)c(u)li?)\n002.02  [..]los demedio iustor(um)          (\"iustoꝝ\"-type ending; \"de medio\" written together)\n002.03  [..]s· Ibi erit fletus & [..]\n002.04  [..]c? omnia? : Dicunt e[..]        (D enlarged)\n002.05  [..]ba doctus inregno [..]          (\"in regno\" written together)\n002.06  [..] familias qui p(ro)fer[..]      (p with abbreviation; \"pfer[t]?\")\n003.07  [..]a. [red: Off] O[ff]erentur regi   (O is a black initial with red stroke)\n003.08  [..]etiaa? & exultacione add[..]\n003.09  [..]epta tibi sit domin[..]\n003.10  [..]um honore sc(anct)or(um) q[..]   (\"scoꝝ\" with stroke)\n003.11  [..]ulacione cognos[..]\n003.12  [..]aaa? inlabus? tuis? p[..]       (smaller script; \"inlabus\"/\"inlabiis\"? as written)\n003.13  [..]asti d(omi)ne famili[..]\n003.14  [..]s semp(er) interueni[..]?      (\"interuen[..]\" / \"interueu[..]\")\n003.15  [..]na celebramus·\n004.16  [..]u? ms'? · [red:] Thome ap[..]     (rubric heading in red; small black \"ms\" with superscript mark before it)\n004.17  [..]ati sunt amici tui d(eu)s ni[..]\n004.18  [..]eru? · [red versicle sign] D(omi)ne p(ro)basti me & c[..]\n004.19  [..] & compl' · quere' in· [red:] Ep[..]\n          - a red horizontal line is drawn through \"& compl' · quere' in\" (deletion or cancellation in red);\n          - small interlinear writing above \"quere\" / \"in\": \"& cu?\" / \"ẽ cu?\" (uncertain).\n004.20  [red: GR / ꝶ-type rubric at left] I[n]nomne(m)? terram exiu[..]   (I is an initial with red stroke; \"Inomnē\")\n004.21  [..]be? ea? · [red ℣] Celi enarrant [..]  (\"ve(r)ba\"? at left uncertain; C with red stroke)\n004.22  [..]ius fic?/fir? · A[l]leluia· [red ℣] N?i[..]   (large A initial with red stroke; following initial looks like N/H with horizontal bars)\n004.23  [..]confortatus est principat[..]\n004.24  [..] unus exduodecim                 (\"ex duodecim\" written together; slightly larger letters)\n005: below line 24 the strip is blank (pencil shelf note only).\n\nFACE 2 (verso; image-006 overview; tiles 007-010) - much fainter\n\n007.01  [..]gus?/[..]mus? : nō(n)? erat cum e[..]     (small mark above line between letters)\n007.02  [..]r? ei alii d(i)sc(i)p(u)li· V?[..]\n007.03  [..]as· Ill[..] [..] [..]                  (illegible middle: \"llsaudrl[..]\"?)\n007.04  [..]ū· & mittam digit[..]\n007.05  [..]a ma[n]u? [..] meam in[..]\n007.06  [..]t dies oc[..]? : iteru[m?]            (\"dies eac\"? as it looks; uncertain)\n008.07  [..] thomas cum eis· [..]\n008.08  [..]stat?/[..]stetit? in medio & [..]\n008.09  [..] thome· Infer? [..]\n008.10  [..]us meas· & affer? [..]\n008.11  [..]s meū? & nol[..]                      (\"& noli e[..]\"?)\n008.12  [..]ndit thomas· & [..]\n008.13  Q?/O?[..]a? [..]ke?· O?[..]               (large initial at line start and a second enlarged letter mid-line; middle illegible)\n008.14  [..]t? non uider(un)t [..]\n008.15  [..]s princ[..]e? [..] [..]               (stain over middle)\n009.16  [..]m p(ro)g[..]ie? & g(e)n(er)a[..]?     (uncertain)\n009.17  [..] suppl[..] [red rubric: Co?/Cõ?] [initial G?/C?] [..]\n009.18  [..]ruia? / [..]evia? apl(osto)li? [..] [..]\n009.19  [..]omnip(oten)s d(eu)s ut beat[..]\n009.20  [..]olor?/[..]olone? [..] [..]u[..]\n009.21  [..]ntis? [..] [..]\n009.22  [..]andi? ubi d[..] [..]\n009.23  [..] ap(osto)li tui· [..] [..]\n009.24  [..]e? [..] [..]                           (very faint)\n010: below line 24 the strip is blank (pencil shelf note only).\n\nAREAS SELECTED / UNREAD\n- Face 1: all 24 surviving lines read; losses are at the cut edges (beginning and end of each line).\n- Face 2: all 24 lines attempted; lines 3, 13, 15-18, 20-24 are only partially legible because of abrasion and the dark stain down the right third.\n- Unread: faint vertical writing in the upper blank part of face 1.\n\nLIMITATIONS\n- Narrow strip: no line is complete; I have not reconstructed missing text.\n- Face 2 readings depend on contrast-enhanced crops and are less secure than face 1.\n- Suggested next steps: UV or multispectral image of face 2 (especially lines 13-24) and of the faint perpendicular writing at the top of face 1; if other strips from the same leaf exist, adjacent strips would supply the line beginnings/ends.\n",
+  "text_sha256": "bc779c4f0ea5db63973bcf85fa8680c93585f5cc2b9160f946f65bb66246fb39"
+}
