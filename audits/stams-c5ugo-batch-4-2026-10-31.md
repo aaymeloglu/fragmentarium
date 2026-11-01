@@ -132,3 +132,16 @@ admits 1562-1564; F-c1cn's issuer is "probably" the abbot; F-31t6's Kiel
 attribution is doubtful rather than impossible; F-3wa4's other commentaries
 are untested rather than set aside; and smaller wording in F-e0vk, F-wbkk,
 F-w7wh, F-qcam and F-4hud.
+
+## Follow-up, 1 November 2026
+
+CoMMA searches for F-31t6 and F-o5pg had not finished during the batch
+(several research sessions were searching at once). One batched search,
+run alone, completed. Three more F-31t6 items were placed in Rampegolus'
+*Figurae Bibliae* (81_7r *Humilitas*, 81_8r *Fides*, 81_11v *Diabolus*),
+collated on the print and on Munich Clm 14376; an earlier check had wrongly
+said the 81_8r lemma occurs in the print only as a quotation. 81_4, 81_5,
+81_6 and 81_7v remain unplaced. For F-o5pg a clause the fragment shares
+with Soissons BM 131 and other manuscripts is absent from the printed text,
+and the earlier suggestion of a fuller text was withdrawn. An independent
+checker confirmed both on page images.
