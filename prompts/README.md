@@ -30,7 +30,9 @@ One batch, in order:
    Start `tools/searchd.py` from this checkout; one left running from an
    earlier checkout runs that checkout's code.
 2. `tools/acquire_batch.py`, then `tools/register.py`.
-3. `tools/tilepacket.py`; one fresh session per few packets with
+3. `tools/tilepacket.py`; give null grids to let it size tiles, and it refuses
+   a packet of more than 45 images, past which readers lose images and write
+   from memory. One fresh session per packet, or two small ones, with
    `reader-brief.md`.
    Where a record's images carry a modern transcription or a pencilled
    identification, mask it in the spec (see `tilepacket.py --help`) so the

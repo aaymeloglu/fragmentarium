@@ -339,6 +339,25 @@ def test_iiif_get_retries_transient_errors_and_tolerates_bad_certificates(monkey
         iiif.get("https://example.org/y")
 
 
+def test_tilepacket_counts_overviews_once_per_view_and_every_tile():
+    tp = load("tilepacket")
+    areas = [[0, [0, 0, 1, 0.5], 3, 2, 0], [0, [0, 0.5, 1, 1], 3, 2, 0], [1, [0, 0, 1, 1], 2, 2, 90],
+             [1, [0, 0, 1, 1], 1, 1, 0, "mirror"]]
+    assert tp.count(areas) == 3 + (6 + 6 + 4 + 1)
+
+
+def test_tilepacket_null_grid_grows_tiles_until_the_packet_fits():
+    tp = load("tilepacket")
+    sizes = {0: (7360, 4912), 1: (7360, 4912)}
+    small = tp.auto_grid([[0, [0.2, 0.2, 0.6, 0.6], None, None, 0]], sizes)
+    assert small[0][2:4] == [2, 2]  # 2944 x 1965 px at 1500 px tiles
+    big = tp.auto_grid([[c, [0, 0, 1, 1], None, None, 0] for c in (0, 1)], sizes, max_images=40)
+    assert tp.count(big) <= 40
+    assert tp.count(tp.auto_grid([[c, [0, 0, 1, 1], None, None, 0] for c in (0, 1)], sizes, max_images=99)) > 40
+    fixed = [[0, [0, 0, 1, 1], 5, 5, 0]]
+    assert tp.auto_grid(fixed, sizes) == fixed  # an explicit grid is left alone
+
+
 def test_tilepacket_mirrors_offset_tiles(tmp_path):
     np = pytest.importorskip("numpy")
     Image = pytest.importorskip("PIL.Image")
