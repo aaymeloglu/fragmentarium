@@ -32,18 +32,15 @@ Rules:
 ## The image limit
 
 A session can hold only so many images. Past that point the environment
-removes images from your context, and a tool result reads
-`[media removed: request limit]` instead of showing the image. The point
-varies with image size; it is not a fixed count.
+removes images from your context: an image you open does not display, or a
+tool result shows a removal notice in its place (in Claude Code,
+`[media removed: request limit]`).
 
-The first time any tool result shows `[media removed: request limit]`, stop
-reading. Do not view more images, and do not write anything about an image
-that is no longer in view. Then write the hand-off described below and finish.
-This is the expected way for a long packet to end, not a failure.
-
-Crops and repeat views count toward the limit. Make the crops that a faint
-passage needs, but do not reopen an image you have already read without
-reason.
+The first time that happens, stop reading. Do not view more images, and do
+not write anything about an image that is no longer in view. Write the
+hand-off below and finish. This is the expected end of a long packet, not a
+failure. Crops and repeat views count toward the limit, so do not reopen an
+image without reason.
 
 ## Hand-off
 
@@ -53,9 +50,9 @@ the response file, so put in it everything you know about reading this packet:
 
 - Where you stopped: the last tile and line you read completely, and the
   tiles not yet read.
-- The script: the hand, letter forms, and how you settled ambiguous ones
-  (c/t, u/n/v, long s/f, minims); the abbreviation signs and how you expanded
-  them; spelling habits, punctuation, rubrics.
+- The script: the hand, how you settled ambiguous letter forms, the
+  abbreviation signs and how you expanded them, spelling habits, punctuation,
+  rubrics.
 - The layout: columns, lines per column, ruling, which face is where, how the
   tiles map onto the page and where they overlap.
 - Open questions: words you meant to return to, faint areas, and what crops,
@@ -71,9 +68,9 @@ If you are given a hand-off file, read it and the response file first. Then
 view the overview of the face you continue on and the last tile the earlier
 reader finished, to settle into the hand and the layout, and carry on from the
 tile after it. Add your readings to the same response file under a line that
-says a continuing reader wrote what follows. Read earlier readers' words as
-readings of the same images, not as fact: if you read a word differently on a
-tile you view, say so. The image-limit rule applies to you as well.
+says a continuing reader wrote what follows. Where you read a word on a tile
+differently from the earlier reader, say so. The image-limit rule applies to
+you as well.
 
 Your final message should only list the files you wrote, and say whether you
 stopped on the image limit.

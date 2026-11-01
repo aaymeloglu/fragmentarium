@@ -32,13 +32,10 @@ One batch, in order:
 2. `tools/acquire_batch.py`, then `tools/register.py`.
 3. `tools/tilepacket.py`; give null grids to let it size tiles, and it refuses
    a packet of more than 45 images. One fresh session per packet, with
-   `reader-brief.md`; never two packets in one session. A session that reaches
-   the image limit (the environment starts removing images, after roughly 75
-   to 115 of them counting the reader's crops) stops, leaves a hand-off file
-   next to its response, and says so in its final message. Start a fresh
-   continuing reader on the same packet with the hand-off file named in its
-   brief, and repeat until the packet is read. Before freezing, check that
-   every reader that stopped on the limit was continued.
+   `reader-brief.md`; never two packets in one session. A reader that reaches
+   the session's image limit stops and leaves a hand-off file; start a fresh
+   reader on the same packet with that file named in its brief, and repeat
+   until the packet is read. Do not freeze a packet before it is.
    Where a record's images carry a modern transcription or a pencilled
    identification, mask it in the spec (see `tilepacket.py --help`) so the
    overviews do not show it to the reader.
