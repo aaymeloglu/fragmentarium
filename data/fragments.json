@@ -6689,7 +6689,8 @@
   "note": "Four faces of these paper pieces (101-10r, 101-10v, 101-5r, 101-5v) carry Legenda aurea c. 168, 169 and 170 in order. Two research readers collated them with Graesse's edition (1846 page images; OCR of the 1850 edition): narrative sentences agree closely in wording and order, most speeches are absent, some sentences are reworded, and on 101-10r the birds over Elisabeth's church are made angels carrying her soul, which is not in Graesse. Other pieces carry Collectio epithetorum lists whose epithets for women agree item for item over about twenty words with München UB 4 Cod. ms. 812, fol. 7r (page image), in a different form (red headings, 'Et huiusmodi consimilia', adverbial bad epithets). Rubricated model letters on a son's schooling and the faded Elisabeth piece 101-3v are not identified, and several pieces were not reread. The pieces probably come from one book (same hand and rubrication), but no join was found; no date, origin or source of the shortened text is claimed; no human review.",
   "verify": "https://archive.org/details/LegendaAureaGraesse1846",
   "examined": "2026-11-01",
-  "kind": "theology"
+  "kind": "theology",
+  "identified_on": null
  },
  {
   "id": "F-rnlr",
