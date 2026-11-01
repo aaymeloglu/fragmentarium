@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-11-01T07:42:23.520783+00:00",
+  "first_reading": "stams5-2026-11-01-image-only",
+  "first_sha256": "050ea83c0b6ce8d5841d1617f8848be0a34bebd2a5a027d607188504656e2dd4",
+  "fragment": "F-fns2",
+  "id": "stams5-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with source access",
+  "reason": "With the Mass texts at hand, the cut line ends could be placed and the abbreviations and the struck cross-reference read, and verso line 13 was corrected to the Vulgate 'Dicit ei ihesus'.",
+  "schema_version": 1,
+  "sources": [
+    "Missale Romanum Mediolani 1474, ed. R. Lippe, vol. I (HBS 17, 1899), pp. 303-305 (S. Lucie; S. Thome apostoli), archive.org missaleromanumme01cath",
+    "Cantus Index g00083, g00302, g00005, g00444, g00473, g00261, g01052",
+    "Vulgate, Mt 13:49-52; Jn 20:24-29"
+  ],
+  "text": "F-fns2 (Stams, STA, Frg. 211) - source-assisted reading. Reread on the image at reading size: all 24 recto lines (canvas 0) and all 24 verso lines (canvas 1, also in contrast-enhanced crops); verso lines 11-24 reread a second time independently. Expansions in ( ); [ ] lost at the cut or supplied; ? doubtful. Boxes are x,y,width,height in native pixels.\n\nCanvas 0 (Stams_STA_Frg_211_01r), box 2200,1880,1030,2870\nr1  [con]summacione s(e)c(u)li ·\nr2  [ma]los demedio iustor(um)\nr3  [igni]s · Ibi erit fletus &\nr4  [hae]c omnia · Dicunt e[i]\nr5  [scri]ba doctus inregno\nr6  [patri] familias qui p(ro)fer[t]\nr7  [veter]a · (red) Off. Offerentur regi\nr8  [le]ticia & exultacione add[ucentur]\nr9  [acc]epta tibi sit domin[e]\nr10 [tuor]um honore s(an)c(t)or(um) q[uorum]\nr11 [trib]ulacione cognos[cit]\nr12 [gr]acia inlabiis tuis pr[opterea]   (smaller script)\nr13 [satia]sti d(omi)ne famili[am]\nr14 [eiu]s semp(er) interueni[tione]\nr15 [solem]pnia celebramus ·\nr16 [..] m(is)s(a)? · (red) Thome ap[ostoli]\nr17 [honor]ati sunt amici tui d(eu)s ni[mis]\nr18 [eor]um · (red) Ps. D(omi)ne p(ro)basti me & c[ognovisti]\nr19 [..] & compl' · quere in ·   (struck through in red; interlinear note unread)   (red) Ep[istola]\nr20 (red) Gr. In omne(m) terram exiu[it]\nr21 [ver]ba eor(um) · (red) V. Celi enarrant\nr22 [man]uu(m) ei(us)? [..] fir(mamentum) · Alleluia · (red) V. Ni[mis]\nr23 [nimis] confortatus est principat[us]\nr24 [Thomas] unus exduodecim\n\nCanvas 1 (Stams_STA_Frg_211_01v), box 2000,1750,1040,2950\nv1  [didi]mus : no(n) erat cum e[is]\nv2  [..]r? ei alii disc(i)p(u)li · V[idimus]\nv3  [..]as · Nisi uidero in ma[nibus]\nv4  [..]u · & mittam digit[um]\nv5  [..]a manu(m) meam in [latus]\nv6  [pos]t dies oc[to] : iteru[m]\nv7  [..] thomas cum eis · V[enit]\nv8  [..] stetit in medio & [dixit]\nv9  [..] thome · Infer digit[um]\nv10 [..]us meas · & affer [manum]\nv11 [..] meum & noli es[se]\nv12 [respo]ndit thomas · & d[ixit]\nv13 Dicit ei ih(esu)s · Q[uia]   (probable)\nv14 [qu]i non uider(un)t [et crediderunt]\nv15 [eo]s princ[ip]e[s] su[per]\nv16 [om]ni p(ro)genie & genera[tione]\nv17 [..] suppl(iciter) · (red) Co. + initial M?\nv18 [..]euia? & ap(osto)li ei[..]?   (faint)\nv19 [..] omnip(oten)s d(eu)s ut beat[i]\nv20 [..]lore? [..]   (illegible)\nv21 [..]ntis? / [..]nans? [..]\nv22 [..]andi? ubi d[..]\nv23 [..] ap(osto)li tui · P(er)\nv24 tops of letters only\n",
+  "text_sha256": "4805ee0a9ff15e3ada0ff9cca59a9601ae5ae4a9285984cc09e7d315465eac14"
+}

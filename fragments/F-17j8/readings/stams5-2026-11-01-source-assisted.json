@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-11-01T07:42:23.509483+00:00",
+  "first_reading": "stams5-2026-11-01-image-only",
+  "first_sha256": "6c414ea62e8a2bcabf79f425dbb754b0c030a94ca1753d04432d58fe0fb8ac24",
+  "fragment": "F-17j8",
+  "id": "stams5-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with source access",
+  "reason": "Once the chants were recognised, the first reading's syllables were reread against the chant texts. This placed the strip, joined piece 4v to strip 2r and showed that the John antiphon is the 6 May one.",
+  "schema_version": 1,
+  "sources": [
+    "Cantus Index standard texts CAO 4019, 3234, 4237, 1029, 2634, 2410, 1195, 7403/7403a, 7320/7320b",
+    "Klosterneuburg, Stiftsbibliothek, CCl 1018, ff. 36v-38r, Cantus Database inventory (source 123616)",
+    "Munich, BSB, Clm 4306, ff. 89v-90v, MDZ page images bsb00060191_00180-00182"
+  ],
+  "text": "Source-assisted reading of F-17j8 (Stams, Frg. 257). Reread on the native images at reading size, with Cantus Index texts at hand: every text line of strip 2r (canvas 2), pieces 3r, 4r, 6r (canvas 2) and 4v (canvas 3), strip 2v (canvas 3, also reread by a second research reader), and a mirrored, contrast-stretched crop of the set-off on the board (canvas 0). Pieces 3v, 5r, 5v, 6v, 7r, 7v rest on the first reading. Boxes are x,y,width,height in native pixels; y values are approximate line centres. (x) expansion, [ ] lost or supplied, ? doubtful.\n\nCanvas 2, strip 2r, 550 x 5100 at 450,800 (left edge of the column; each line cut on the right)\ny1150  [...]n amabilis\ny1440  [...]um mun[d/c?][...]\ny1700  [...]ua pre[...]\ny2000  (notes only; text area blank at the left)\ny2280  [...]sus iohann[...]\ny2580  [...]t alleluia E[uouae]\ny2880  P(red, two lines high)ater [...]\ny3150  [...]bi nunc [...]      (or \"hi\")\ny3450  [...]ia Euouae [...]\ny3700  [...]alleluia (red sign, versicle-like?) S(brown, touched red)[...]\ny3990  [...]altum all[eluia]\ny4290  Euouae (red) S[u/p?][...]\ny4550  [...]e. adorem[us]\ny4850  [...]tia tua sup[er]      (last line of the column)\n\nCanvas 3, piece 4v, 1160 x 1130 at 3260,980\nl.1  [...]u dulce lignu(m) dulces cla[...]\nl.2  [...]entem cateruam in tu[is] [...]\nl.3  [...] laud[ibus]? con[...]      (faint)\nl.4  [...]posito h[...] ... [...]ola      (unidentified)\n\nCanvas 2, piece 6r, 980 x 660 at 3190,3140, last line\n     [...]a d(omi)n(u)s n(oste)r (red stroke) Dominus      (D red-touched)\n\nCanvas 2, piece 4r, left part 760 x 1080 at 3240,1020\nl.1  [...]us et oc[...]\nl.2  R(red, crossed: responsory sign) alone in mid-line\nl.3  [...]inta? ap[...]      (minims: \"inta\" or \"rita\")\nl.4  alle lu[ia]\n     overlapping right-hand slip: n d(omi)no / Euouae / [...]pa[...] / [...]parens e[...]\n\nCanvas 2, piece 3r, 930 x 1050 at 1570,960\ntop     [...]ren? alleluia [...]ia Et u/c?[...]      (E touched red)\nbottom  sed expectaren[t] p[...]\n\nCanvas 3, strip 2v, 540 x 4400 at 540,800 (top to bottom)\nn ... f / ca (red touching) / (red) Ps [...] / [...]one[...] (or \"omne\") / is lo / [.]dent[..] / [..]n ab o / pre / atr? / [.]e le? (or \"ce li\") / t no / [..]egre / (large red initial, two staves) / du n\n\nCanvas 0, board set-off (mirrored), 560 x 4100 at 2520,1550, top to bottom\ntem dot? / [...]ium / [...]elue? / [...]en tu / [...]oque / [...]ntibus / [...] oculi / [...]sat? / [...]one. / [...]acta? / [...]men / [...]ssio / (red initial N?) [...]ne / [...]r. asi?\n",
+  "text_sha256": "f1c3fd6daeeebecec838fbd8af8a83496b43b2c3f03013ef160a66dc11870a70"
+}

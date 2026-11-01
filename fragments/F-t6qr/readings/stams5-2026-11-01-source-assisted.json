@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-11-01T07:42:23.525308+00:00",
+  "first_reading": "stams5-2026-11-01-image-only",
+  "first_sha256": "0cf17b4bb4cab5865b48c2a4c25cee6820a0f701b1dc5f9d2db633467cd497ab",
+  "fragment": "F-t6qr",
+  "id": "stams5-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Opus 5.5, research reader with source access",
+  "reason": "The image-only reading took the framed Habita main text for gloss and misread most lemmata; the line openings were reread against the 1574 Accursian Codex.",
+  "schema_version": 1,
+  "sources": [
+    "Codicis DN. Iustiniani ... libri 12. Accursii commentariis ... illustrati (1574), cols. 763-764 (C. 4.13, Auth. Habita with gloss), archive.org bub_gb_4tFKnx1BKAYC page n497",
+    "same edition, col. 765, archive.org bub_gb_Ol5_1dLT8CEC page n509",
+    "same edition, cols. 831-832 (C. 4.21.21 gloss, C. 4.22 rubric and l. 1), archive.org bub_gb_Ol5_1dLT8CEC page n542",
+    "Codex Iustinianus, ed. Krueger, C. 4.13 and 4.21.21, droitromain.univ-grenoble-alpes.fr/Corpus/CJ4.htm"
+  ],
+  "text": "SOURCE-ASSISTED READING of F-t6qr (Stams, Frg. 254), made with the 1574 Accursian Codex (archive.org bub_gb_4tFKnx1BKAYC n497; bub_gb_Ol5_1dLT8CEC n509, n542) in hand. All lines below were reread on the image (canvas 0, Stams_STA_Frg_254_01r02r, 4912x7360, strips rotated 180 degrees); only line openings survive. (x) = expansion; (?) = uncertain; [...] = lost beyond the cut edge or unread. Versos (canvas 1) not read.\n\nSTRIP 254-1 (right strip), framed main text C. 4.13 Auth. Habita, box 3230,4150-3880,6550\n[red] l. Ex patroni. [red] Nou[a ...]\nCON(?) [two-colour H]abita sup(er) [...]\n[pa]latij ex[aminatione ...]\na[tq(ue) sacrar]u(m) legu(m) p(ro)fess[oribus ...]\nq(uod) g(ra)uit(er) ferend(um) e(st) c[orporales ...]\np(er)fer(un)t. [blue paraph] Hac igit(ur) [...]\nlege d(e)c(er)nim(us) ut nu[llus ...]\nscolarib(us) iniuria(m) inf[erre ...]\n[con]suetudi(n)e factu(m) [...]\ni(n)ferat. Scituris h[uius ...]\n[...]torib(us) aut ep(iscop)is(?) [...]\n[in] q(ua)druplu(m) exig[...]\nip(s)o iur(e) irr(o)g[ata ...]\n[...]ca(re)a(n)t. Veru(m)ta(men) si [...]\nq(ui)s[piam ...] moue(re) uol[uerit ...]\n[...]ri(bus). eos cora(m) d(omi)no [...]\n[...]ciuitatis ep(iscop)o. q(ui)b(us) [...]\n[...]conueniat. Qui u(er)o ad a[lium ...]\n[...]ca(usa) iustissima [...]   (frame closes)\n\nSTRIP 254-1, gloss on Habita, box 3225,1650-3620,2250\n[two-colour H] [...]bita exam[...]\n[blue paraph] Speciali. [...]\n[...uni]uersi. ut ff. [...]\n[...]dacia(?) i(n) ma[...]\n[...] j. un(de) ui. l. i. [...]\nbox 3230,1150-3880,1800 (Optione)\ni(n) electio(n)e. i(n) no[...]\niudicis act[oris ...]\n[...]cio(ne). l. si q(ui)s a[...]\n[iud]ice uult. ut [...]\nquo eligit. p[...]\n\nSTRIP 254-2 (left strip), gloss on C. 4.21.21 and C. 4.22, box 1590,4050-2400,6500\n[a] [blue paraph] [..] pagina. [...]\ns. e(o). l. ii. [...]\n[b] [red paraph] [lemma uncertain] / q(uod) habe[at ...] / [...]lite. ut [...]\nde dolo (et) lat[a ...] / [...] non s[entit ...] / [...]le huic. j. [...]\n[acto]re no(n) p(ro)ba[nte ...] / [se] defendere / q(ui)n (con)tra e[um ...] / s. de p(ro)ba. l. [...]\n[c] [blue paraph] Dolo. [...] / tenet(ur). ut [...] / §. i. in fine.\n[d] [red paraph] Reuerentia. [...] / [con]dit(ione). circa p[rin.]\n[e] [blue paraph] Ei. p(re)sumit(?) [...]\n[f] [red paraph] P(er) solita(m) [...] / restitutio(n)e(m) [...] / factam a p[...]\n[a] [blue paraph] Sopita. u[t ...] / fr(atr)is. (et) inst. de p[...] / p(r)in. (et) j. de ag[ri.] / post s(ente)ntiam [...] / instru(m). l. i. (et) [...] / [...] solu(tio?) [...] / iudex. ibi sic [...] / fuit de h(oc) q(uestio) [...]\n[b] [two-colour P] [P]lus ual[ere ...] / agitur. [...]\n",
+  "text_sha256": "24d50a1a721478ff1a26a3a479359c7b0f6b1c92c96bec62c7d0d75a1ab574f6"
+}
