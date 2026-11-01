@@ -39,7 +39,7 @@ Sources:
 ## Leaf order, other items, and what is not claimed
 
 - **Reading order:** canvas 1 comes first. Its column b ends "Qui etiam proprio filio suo" (Rom 8:32), and canvas 0 column a continues "[n]on pepercit". The red folio number "cxvij" in the top margin of canvas 1 marks that face as the recto of f. 117 of the original book; the third character might also be a "v" with an ascender.
-- **The faded rubric before Eph 1:3** (canvas 0, 3550,2950,4850,3250) reads "Ep(isto)la · [..]tur? in festo [.....] · Ad Ephesios". So Eph 1:3-5 is assigned to a named feast, not to the apostles in general; the feast name is not read.
+- **The faded rubric before Eph 1:3** (canvas 0, 3550,2950,4850,3250) reads "Ep(isto)la · [..]tur? in festo [.....] · Ad Ephesios". So Eph 1:3-5 is assigned to a feast whose name is not read.
 - **The loose strips** (the catalogue's items 214_2 to 214_4; canvas 0, 80,2600,1250,4080) are in the same script. Strip 214_3r has "salomonis · Ceter[orum]", which may be Acts 5:12-13 ("in porticu Salomonis. Ceterorum autem nemo audebat se coniungere illis"), an epistle used for apostles; that is a lead only. Strip 214_2r has a red-touched "Sancti", possibly Hebrews 11:33, not verified; 214_4r shows letter groups only.
 - **Other marks:** blue pencil "Einband von IVa/F2" and a pasted paper label in a later hand, "Triumphus B. / Mariae / Disputationes / variae philosoph[icae]", both describing the host volume; modern pencil "Stams, STA, Frg. 214_1r" and "214_1v".
 - **Not claimed:** the date, the origin, the use of the book, that it was made or used at Stams, and any relation to the Kaisheim missal.
