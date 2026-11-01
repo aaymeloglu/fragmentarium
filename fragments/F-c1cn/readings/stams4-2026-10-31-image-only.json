@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-11-01T03:36:50.706360+00:00",
+  "fragment": "F-c1cn",
+  "id": "stams4-2026-10-31-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "2b4f49f9aec9e06e1e5f6fd15678dee5b7343b4f97ef9c937ab00fd4380bdc7f",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01r02r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_166_01r02r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "63fcae2ba0fe3de68770a0387cbc4f65533a275da6d7e688310ab80441598ac0",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01r02r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_166_01r02r): native-pixel box 2237,1154,3396,2556; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "a712133f51cce923921a1e6d39034bd9950eab773f9eb8745c78365563fea62b",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01r02r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_166_01r02r): native-pixel box 3148,1154,4431,2556; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "baa28128b21670fd05177f7e86a31c2c9d67ed8cc3eab73d4ac030dac8132305",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01r02r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_166_01r02r): native-pixel box 4183,1154,5343,2556; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "9c6d09600ec6ee4da1b865abfd0ed4a87ec96e800e8513e548847c4d1562d177",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01r02r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_166_01r02r): native-pixel box 2237,2256,3396,3659; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "dd2d68eda855d53716e605c1adfe8e8b3c01bb664a05e778d348c97be6b6eb91",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01r02r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_166_01r02r): native-pixel box 3148,2256,4431,3659; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "215fa67797d5cbbc6e67412ee6b00f2fd9e7424b2cc588ca80c4ce64514d679e",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01r02r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_166_01r02r): native-pixel box 4183,2256,5343,3659; unrotated grid position column 3 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "3f38bdd884fb93a248fc8d99c12ef48682c95c6428da43f2a970261d5bdae277",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01v02v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_166_01v02v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "a554bf253f709014d74bf4ff3fb9c49b26dc2aecea92baba5eb88af5f99992ce",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01v02v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_166_01v02v): native-pixel box 2016,1252,3161,2492; unrotated grid position column 1 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "64d1ee32268902b33c65eb4f872f447a3c1155a3240d0366326ddfb2afdba1f6",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01v02v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_166_01v02v): native-pixel box 2916,1252,4184,2492; unrotated grid position column 2 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "15bda77295b34943a3533cc32abe44f8db45c292b9baf4c6cc44201e3110d907",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01v02v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_166_01v02v): native-pixel box 3939,1252,5085,2492; unrotated grid position column 3 of 3, row 1 of 2"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "169ebf6a0dfdcad3136049d2ec88084abd42a38ba77bbe8d7a85ccaa99d74b19",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01v02v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_166_01v02v): native-pixel box 2016,2226,3161,3467; unrotated grid position column 1 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "04e3894336a89f1466fb8d42ac365cb5351c4a056e30e81cd4958beba0806344",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01v02v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_166_01v02v): native-pixel box 2916,2226,4184,3467; unrotated grid position column 2 of 3, row 2 of 2"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "c4b45a26cf416cdbbfc38a7dd578b56762c94aed1f0dbe6ed15cc521d8e0fdb7",
+        "source": "https://fragmentarium.ms:443/loris/F-c1cn/Stams_STA_Frg_166_01v02v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_166_01v02v): native-pixel box 3939,2226,5085,3467; unrotated grid position column 3 of 3, row 2 of 2"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams4-2026-10-31 (packet-18)",
+  "text": "PACKET 18 - UNVERIFIED IMAGE READING\n\nExposure statement: Nothing in my context revealed a proposed identification or reading of this text. The only external-looking information is the modern pencil labels written on the parchment itself (see below). I did nothing beyond the stated rules, except one `ls` of the packet directory to get the image filenames. I did not open packet.json or any other file.\n\nAll 14 images loaded.\n\n== LAYOUT SURVEY (observations) ==\n- image-001 (overview, face A) and image-008 (overview, face B) each show two separate parchment strips on black, with a colour chart and a cm scale.\n- Upper strip: c. 20 cm wide x 6 cm tall. Its top edge is cut into rectangular tongues/tabs of different heights. Some of these carry fragments of further lines of writing, either folded down or belonging to lines above the cut. On face A (image-001 to -004) there are 9 full lines of a single-column document text in a German vernacular cursive (Bastarda-type) hand, written across the full width with no ruling visible. There are no rubrics, coloured initials or glosses. The final line ends with a long flourish. The text reads as a charter or deed: a sealing clause, then \"Geben zu ...\", then a dating clause. That last point is an interpretation.\n- Damage: the left edge has holes and losses (lines 6-9, left). The right edge is torn at about line 5. Line 1 is partly covered by small tabs folded down over it.\n- Modern pencil labels: on face A at the upper left, \"Stams, StA / Frg. 166-1r(?)\". On face B, \"Stams, STA. Frg. 166-1v\". On the lower strip, \"Stams, STA, Frg. 166-2u(?)\" (image-007) and \"Stams, STA, Frg. 166-2r(?)\" (image-014). These are archive labels only. I draw no conclusion about the work from them.\n- Lower strip (image-005/-006/-007 on face A and image-012/-013/-014 on face B): c. 18 cm x 4 cm, with tabs and a projecting tongue at one end. Both faces show stains and a crease line but NO legible writing. I looked closely at every tile.\n- Face B of the upper strip (image-008 to -011): no independent writing seen. What shows is the face-A text coming through the parchment, faint and grey. It is legible in the normal reading direction and matches the face-A lines (\"das sy dem an das egen gut\", \"doch wenn sy die verkauffen oder\", \"wie sy aber mit kauffen so mugen\", \"aigen anhangenden insigel ...\", \"... an sant Bartholmes ...\"). The torn holes on face B appear left-right reversed relative to face A. I cannot tell from the images why show-through reads unmirrored; the face-B images may have been mirrored, or the lighting may be transmitted. I did not transcribe face B separately because it repeats face A.\n\n== SELECTED SPANS ==\nFace A of the upper strip: all 9 main lines, read across the three overlapping tiles. image-002 = left part, image-003 = middle, image-004 = right. The tiles overlap by several words, and I count the overlaps only once. Line numbers below are for the 9 main text lines of the strip, counted from the top of the main block. The same lines sit at the same height in each tile, roughly y=340, 410, 480, 560, 630, 710, 780, 860, 940 px. The fragments on the tabs above are given separately.\nConventions: (x) = expansion; ? = uncertain reading; [illegible] = not readable; [..] = loss or edge of the parchment.\n\n-- Main lines, face A --\nL1  image-002: [..]wen das [tab folded over text] sy dem nach lan(n)s[..]\nL1  image-003: nach lanntrecht oder nach laut diss brieffs billich zu ve[..]\nL1  image-004: billich zu ve?rsessen(?) wenn do[..] [tab] [..]ebe?[..]\n    (The right end of L1 is partly hidden by folded tabs.)\n\nL2  image-002: [.]en schaff?s/schatz? zu widerkern das sy dem\nL2  image-003: das sy dem an das egen gut mit pessrung legen werd[en]\nL2  image-004: legen werden vnd wie mugen dem[..]\n\nL3  image-002: andre von den wegen dhainlay kerung\nL3  image-003: dhainlay kerung mer thun sullen Wär aber daz solich\nL3  image-004: daz solich sachen kaine beschache?/bestrache? so\n    (\"kerung\" could also be \"hering\". The initial letter is uncertain, but image-003 favours k.)\n\nL4  image-002: doch wenn sy die verkauffen oder\nL4  image-003: [verkau]ffen oder verwenden wollen so sullen si die von erst? vns\nL4  image-004: von erst vns oder vn~ nachkomen be[..]\n    (\"vn~\" carries a superscript stroke, possibly vn(sern). The final \"be[..]\" is cut by the tear.)\n\nL5  image-002: wie(?) sy aber mit kauffen so mugen\nL5  image-003: so mugen sy die dann nach der selben beste?/besst? / Doch mit vnserm\nL5  image-004: Doch mit vnserm willen ander[..]   [hole in the parchment follows]\n    (There is a virgule or punctus between \"beste?\" and \"Doch\".)\n\nL6  image-002: Doch vns vnd zins vnd recht allw[egen]\nL6  image-003: recht allwegen vorbehalten wie er auch vnd sein erben?\nL6  image-004: vnd sein erben?(written like \"beben/leben\") von dem gut komen so[..]\n\nL7  image-002: hört?/fürt? [..]rlich? vnd ewiclich\nL7  image-003: [ew]iclich Mit vrkund des briefs den wir im vnd allen\nL7  image-004: vnd allen seinen erben?(same form as L6) geben fur [..]\n    (The first word of L7 is very uncertain: \"hört\"/\"fürt\"/\"kört\". The second word looks like \"teerlich\", which I cannot resolve.)\n\nL8  image-002: aigen anhangenden insigel versigelt\nL8  image-003: versigelt / Geben zu Stams in dem Jar als man\nL8  image-004: Jar als man zalt nach Cristi?(Crists?) gepurt?[..]\n    (There is a virgule after \"versigelt\". The last word is faint at the torn right edge.)\n\nL9  image-002: [..]ge an sant Bartholmes des hailig[..]\nL9  image-003: des hailigen? zwelfboten? tag   + long terminal flourish\n    (\"[..]ge\" at the start of L9 is the end of a word broken across the line. A year in words probably stood at the end of L8 and start of L9, but it is not legible. \"hailigen zwelfboten\" is faint, and both words are uncertain readings, not supplied.)\n\n-- Fragments on the tabs above L1, face A (from lines above the cut; order uncertain) --\nimage-002 tab at x~390-540: \"[..]kenn[..]\" (one word, dark ink)\nimage-002 tab at x~700-950: \"[..]len sy vnd[..]\"\nimage-003 tabs, left to right:\n   x~210-340: upper \"[..]ster?s[..]\", lower \"[..]der [..]ab\"\n   x~0-200 (continuation): \"[..]n dem van?[..]\"\n   x~620-760: \"an vnd\"\n   x~890-1010: \"[..]les? vnd vns?\"\n   x~1010-1250 (tall tab): upper \"[..]dygen? gu?[..]\", middle \"von Stams?\", lower \"selzaden?/schaden? widerver[..]\"; next lower \"vnd vns?\"\nimage-004 tabs: \"schaden? widerver?[..]\", \"vnd vns?\", \"[..]vat?\", \"vnd pa?r?[..]\", \"vnd vnsern?(?)\", \"[..]von?\", \"[..]ser?\"\nThese are short, rubbed fragments and I am not confident in any of them.\n\n== NOT READ / LIMITATIONS ==\n- Lower strip, both faces: no writing visible at this resolution.\n- Upper strip, face B: show-through only, not transcribed separately.\n- Tab fragments: mostly illegible or uncertain.\n- The text before L1 is lost (cut away) apart from the tab fragments. The text after L9 is the end of the document (flourish).\n- The left ends of L6-L9 and the right ends of L1, L4 and L5 are damaged.\n- Abbreviation marks are faint, and I may have silently missed some suspensions.\n- A raking-light or transmitted-light image of the lower strip, and higher-magnification crops of the tabs, would help.\n",
+  "text_sha256": "d58b00a0cfef1d6167c1549ddf906067fae55f6f3abf9d9a7bf155c29190280a"
+}

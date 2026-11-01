@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-11-01T03:36:50.689849+00:00",
+  "fragment": "F-w7wh",
+  "id": "stams4-2026-10-31-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "7d8f221338dae47bb793b63d33446c0ab38713c49d13663392d9d386df8a7334",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_054_01r): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "630266a9fc7e68c5a44434484da286f00f8d33b1950fa44790bbf8d9e5148075",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_054_01r): native-pixel box 2495,162,4052,1839; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "dccb469cab9a0dd430c37be7230a253075567e4f680e3f671677990616616989",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_054_01r): native-pixel box 3719,162,5277,1839; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "4ed277f73dd43826e0a5d689d50f250cc48ab716bc9a7633ec7e7cc98e1f01a8",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_054_01r): native-pixel box 2495,1480,4052,3337; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "a0e1f610bd278b7c98a051f1d1a6073e967b4885410efd2d43692d7b97bd96c6",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_054_01r): native-pixel box 3719,1480,5277,3337; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "0f88072cc06e3649706bb66ad8121191f12627e49acaa8219cd2c77fcf6834ce",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_054_01r): native-pixel box 2495,2978,4052,4656; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "0f627547764daac98a3d5541c1dcadd40f3df3d566cf10ba8bfc555909582c6c",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01r.jpg/full/7360,/0/default.jpg (canvas 0, Stams_STA_Frg_054_01r): native-pixel box 3719,2978,5277,4656; unrotated grid position column 2 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "9a275ecf8898c90e09d492ab688b247a7a20f71a30ce499b443189a3da91dc27",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_054_01v): whole image 7360x4912 reduced to 1800x1201 for layout"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "32734dde3b717869781c9ff1067abf1aa803a21284f6f545074482c260077253",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_054_01v): native-pixel box 2944,255,4468,1932; unrotated grid position column 1 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "a0df85b195614b1bfafc3f8bd1e029a82017dacf0e3a6098fd1b4c750a426035",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_054_01v): native-pixel box 4142,255,5667,1932; unrotated grid position column 2 of 2, row 1 of 3"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "ce32063c2705b7b9d48b545524798352362a59f2fa86a226f8401676ff54d805",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_054_01v): native-pixel box 2944,1573,4468,3430; unrotated grid position column 1 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "6af5a56de1af109b502492718939e5427059f8773c6d0ec6990fc89b82cab729",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_054_01v): native-pixel box 4142,1573,5667,3430; unrotated grid position column 2 of 2, row 2 of 3"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "3d6972124929c0151768444e9007ce0103178935bcd2413ad0c481f74c7060da",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_054_01v): native-pixel box 2944,3071,4468,4749; unrotated grid position column 1 of 2, row 3 of 3"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "2841e2c2ef3b8a71e187bc9ebedf3c842cd291741c1872ace4346db872217912",
+        "source": "https://fragmentarium.ms:443/loris/F-w7wh/Stams_STA_Frg_054_01v.jpg/full/7360,/0/default.jpg (canvas 1, Stams_STA_Frg_054_01v): native-pixel box 4142,3071,5667,4749; unrotated grid position column 2 of 2, row 3 of 3"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "Claude Opus 5.5, fresh subagent, prompt and images only; repository and search tools available but forbidden; exposures stated in each response",
+  "schema_version": 1,
+  "session": "stams4-2026-10-31 (packet-15)",
+  "text": "PACKET-15 - UNVERIFIED IMAGE READING\n\nExposure statement\n- No proposed identification of the text reached me before or during this reading. I did not search, consult editions, or open packet.json.\n- Labels visible IN the images themselves: a pencil shelfmark \"Stams, STA, Frg. 54r\" (recto, image-007 bottom) and \"Stams, STA, Frg. 54v\" (verso, image-014 bottom); and modern blue-ink notes on the verso reading approximately \"Urbari / Wessobrunn ... 1594\" (left strip, image-011) and \"Urbari / Wessobrunn ... 1595\" (right strip, image-010/012). These look like notes on the host volumes the strips were reused in; I report them as seen and draw no conclusion from them about the text.\n- I did nothing beyond the stated rules other than listing the two packet directories named to me (ls) to get the image filenames.\n\nImage inventory\n- image-001: overview, recto (two vertical parchment strips, left and right, joined by modern tape and held by plastic weights; colour chart and cm rule).\n- image-002..007: native-resolution tiles of the recto. 002 = left strip top; 003 = right strip top; 004 = left strip middle; 005 = right strip middle; 006 = left strip bottom; 007 = right strip bottom.\n- image-008: overview, verso.\n- image-009..014: tiles of the verso. All images loaded.\n\n1. Layout survey (observations)\n- Two narrow vertical strips cut from one parchment leaf, each with a vertical fold/crease down its middle and sewing/stab holes along the crease (binding reuse). Strips mounted c. 9 cm apart; the true width of the lost part between them is unknown.\n- Single column of vernacular (German) text in a 16th-century-looking German cursive (Kurrent/Kanzlei type), brown ink. \n- Left strip: every line is cut at BOTH edges (text begins and ends mid-word), so it comes from the interior of the text block.\n- Right strip: lines are cut at the left edge; on the right, the text stops and a wide blank margin follows, so this strip carries line ENDINGS and the outer margin. In the top section, lines 2-4 end near a brown stain/hole at the crease and may have run on there; I can't tell.\n- Two sections are visible on the recto. Each opens with a display line in large calligraphic Fraktur-type letters, and pen-flourished cadel loops/strapwork fill the space ABOVE each display line (top of leaf; and between sections at c. 23-26 cm on the rule). A large display word \"Amen\" (Fraktur) begins the last line of the first section on the left strip.\n- No rubrics in red, no glosses, no underlining, no running title seen. Line lengths on the right strip are uneven (some lines end well short), which might suggest verse or short phrases. That is a tentative interpretation.\n- Verso: no text in this hand. Faint show-through of the recto only. At the top of the left strip there is a pen drawing: an oval enclosing a small loop and an \"S\"/\"C\"-like flourish with a small cross/dagger mark (image-009), perhaps a pen trial. Modern blue notes and pencil shelfmark as above. Bottom of right strip on verso torn with loss, repaired with tape (image-014).\n- Damage: hole and tear in the lower part of the left strip (lines near bottom abraded/lost, image-006); stain and small hole on the right strip at the crease (image-003).\n\n2. Areas selected / unread\n- Selected: all legible lines on both recto strips (both sections). This is everything with text on the leaf.\n- Partly unread: bottom 4 lines of the left strip (abrasion + hole); a few words on the right strip are uncertain. The verso has no text to read.\n- Suggest: raking-light or UV image of the lower left strip (image-006 lines 10-13), and of the right strip at the stain (image-003 lines 2-4), to see whether text runs on past the stain.\n\n3. Transcription\nConventions: [..] = text lost at the strip edge; [illegible] = present but unreadable; (?) after an uncertain reading; ū/ü as written where a mark stands over u. The scribe writes final -n/-m with a looped swash I can't always tell apart from -y/-ey; I've normalised it to n where the word seems clear and flagged it otherwise. Overlapping lines between tiles are cross-referenced, not counted twice.\n\nLEFT STRIP (interior of lines; both edges cut)\n\nSection 1\nimage-002 l.1  (display script) [..]dū frūmer Christ. W[..]   (large display W, cut by tape/edge)\nimage-002 l.2  [..]ll, auf diser Erden zeren(?) w[..]\nimage-002 l.3  [..]Vnd solt auf seinen(?) wer[..]\nimage-002 l.4  [..]alleʒeit, Allain durch d[..]   (\"Allain\" with enlarged A)\nimage-002 l.5  [..]rt. sein beschert(?), dein W[..]   (\"dein\" in larger letters)\nimage-002 l.6  [..]Vnd deine kinder(?) vmb de[..]   (first letter of \"kinder\" unclear, could be b/k)\nimage-002 l.7  [..]riden(?) Mann(?), so jr(?) thuet z[..]\nimage-002 l.8  [..]spat, das du alle tag des(?)[..]   (\"das\" in larger letters)\nimage-002 l.9  [..]glid, Vber Israel den E[..]   (\"Israel\" with looped I/J)\nimage-002 l.10 (display word) Amen. denn(?) es war[..]   (= image-004 l.3)\n  (image-004 l.1-3 overlap image-002 l.8-10)\n\nSection 2\n[cadel flourishes above]\nimage-004 l.4  (display script) [..]t swar ain schwere las[..]   (\"swar\" possibly for zwar; read the letters as seen)\nimage-004 l.5  [..]it an. Den leib(?) lasz de(?) bl[..]\nimage-004 l.6  [..]t. derselbig hat. Den gro[..]   (\"Den\" with enlarged D)\nimage-004 l.7  [..]r nit. dann du erwirbst(?). S[..]\nimage-004 l.8  [..]h. darnach dich ker(?). lōg(?) w[..]   (mark over o in \"lōg\")\nimage-004 l.9  [..]nen aufbringen mag. Le(?)[..]\nimage-004 l.10 [..]t Nachpaūrn sein entwerch(?)[..]\nimage-004 l.11 [..]Es wirt doch sein(?) [..]hūn[..]   (= image-006 l.1; between \"sein\" and \"hun\" a long-s/ascender; ū marked)\nimage-004 l.12 [..]nd Spot. dein Obrigkhait [..]   (= image-006 l.2)\nimage-004 l.13 [..]n Centūrio. alls sort(?) im(?) [..]   (= image-006 l.3; \"sort\" first letter long s or w?)\nimage-006 l.4  [..]nen las. Mit seinen(?) herz[..]   (\"Mit\" enlarged M)\nimage-006 l.5  [..]paūr. mit guetem(?) gewissen(?)\nimage-006 l.6  [..]undt. Wandern(?). Von hinne[..]\nimage-006 l.7  [..]st morgen sterben. dargege[..]\nimage-006 l.8  [..]sünden dich. den er sein ge[..]\nimage-006 l.9  [..]wie Simeon der fuer(?) im\nimage-006 l.10 [..]in heren(?) [illegible: abraded] bleib, Vol[..]\nimage-006 l.11 [..]in der [illegible: abraded/hole] mein zhue(?)[..]\nimage-006 l.12 [..]Vnd [illegible: abraded] [loss: hole] Seel in d[..]\nimage-006 l.13 [..]at. [illegible/loss] zū meine[..]\n  (below l.13: torn lower edge, no further text visible)\n\nRIGHT STRIP (line endings; blank right margin)\n\nSection 1\n[cadel flourishes above]\nimage-003 l.1  (display script) [..]Feder(?) fris[..]   (initial could be F or J: \"Jeder\"? Display line continues into stain)\nimage-003 l.2  [..]gen dein, doll(?) d[..]   (stops at stain; \"doll\" perhaps soll)\nimage-003 l.3  [..]ein Gepot verst[..]   (stops at stain)\nimage-003 l.4  [..]wirt dir auf d[..]   (stops at stain/hole)\nimage-003 l.5  [..]sein. Wer ain[..]   (\"Wer\" enlarged W)\nimage-003 l.6  [..]ersünt(?) vnd frisch\nimage-003 l.7  [..]der Ewig(?) Got.   (\"Ewig\" with large looped E)\nimage-003 l.8  [..]lich Jherūsalem,\nimage-003 l.9  [..]er frūmer Christ   (= image-005 l.1)\n\nSection 2\n[cadel flourishes above, under plastic weight]\nimage-005 l.2  (display script) [..]Aufgefasst,\nimage-005 l.3  [..]auf das dein vnd\nimage-005 l.4  [..]Kunst(?) mer dann\nimage-005 l.5  [..]verdūrbt(?). Hab\nimage-005 l.6  [..]gezelt(?). Saul war.\nimage-005 l.7  [..]Pis(?). nūnes(?) jn(?)   (letters seen: P-i-s . n-ū-n/m-e-s  j-n/y)\nimage-005 l.8  [..]Stor(?) in bey(?). Vnd\nimage-005 l.9  [..]Ehren(?) in der Not,   (= image-007 l.1)\nimage-005 l.10 [..]n Kirchen vnnd   (= image-007 l.2)\nimage-005 l.11 [..]mag(?) nicht gehaben(?)   (= image-007 l.3)\nimage-005 l.12 [..]en sein Gepot,   (= image-007 l.4)\nimage-007 l.5  [..]reit(?) ist vor der hant,\nimage-007 l.6  [..]ch. Gotes gnad\nimage-007 l.7  [..]alls wolst du leben\nimage-007 l.8  [..]er thūen doch(?) als(?)\nimage-007 l.9  [..]ckhen glauben Kris(?).\nimage-007 l.10 [..]Spricht. o herr weis(?).\nimage-007 l.11 [..]en zūe(?), So trösst\nimage-007 l.12 [..]Blūet gewaschen hat,\nimage-007 l.13 [..]vnd behertz(?) zue(?) fred(?)\n  (below: blank parchment, then pencil shelfmark)\n\nVERSO\n- No main-hand text. Pen drawing (oval with loop and S-like flourish, small cross) at top of left strip, image-009 l. c. 540-1000 px. Modern notes as listed in the exposure statement.\n\n4. Limitations\n- Strips preserve only fragments of each line; the relation of the left strip's line segments to the right strip's line endings (same lines? how much is lost between them?) is not established. The display lines in both strips sit at the same height in the overview, which suggests the strips are horizontally aligned parts of the same lines, but I haven't verified that.\n- Many readings are uncertain because of cursive letter forms (n/u/m minims, final -n swash, k/b, long s/w). Uncertain words carry (?).\n- Lower left strip abraded and holed; right strip stained at the crease.\n- Unverified image reading.\n",
+  "text_sha256": "bb12059bb5a1554a6e96885e4b2339e67481f9a28b34ce8c282ffd76925a696f"
+}
