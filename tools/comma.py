@@ -23,18 +23,25 @@ within a window, weighted by rarity, and compared with the same query's words
 shuffled. A hit is a lead to collate, never an identification.
 """
 import argparse
+import contextlib
 from collections import Counter, defaultdict
 import hashlib
 import heapq
 import json
 import math
-from multiprocessing import Pool
+from multiprocessing import Pool, TimeoutError as PoolTimeout
 import os
 from pathlib import Path
 import random
 import re
 import sys
+import time
 import unicodedata
+
+try:
+    import fcntl
+except ImportError:  # Windows: no lock; concurrent searches are the user's to avoid
+    fcntl = None
 import urllib.request
 
 DATASET = 'comma-project/comma-jsonl'
@@ -411,7 +418,38 @@ def _scan_task(task):
     return scan(Path(path), start, end, s['lookup'], s['window'], s['min_hits'], s['keep'])
 
 
-def search(root, queries, workers=None, window=150, min_hits=4, keep=15, chunks=8, log=print):
+@contextlib.contextmanager
+def search_lock(root, deadline, log=print, poll=10):
+    """Hold the machine's CoMMA search lock, waiting until `deadline` (time.monotonic) at most.
+
+    One pass uses every core and close to a gigabyte per worker; two or three at once (parallel
+    research sessions) run out of memory and seem to hang, so searches take turns. Yields False if
+    the deadline passed while waiting."""
+    if fcntl is None:
+        yield True
+        return
+    root.mkdir(parents=True, exist_ok=True)
+    with open(root / 'search.lock', 'a+') as handle:
+        told = False
+        while True:
+            try:
+                fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                break
+            except BlockingIOError:
+                if time.monotonic() >= deadline:
+                    yield False
+                    return
+                if not told:
+                    log('another CoMMA search is running; waiting for it (searches take turns)', file=sys.stderr)
+                    told = True
+                time.sleep(max(0.05, min(poll, deadline - time.monotonic())))
+        try:
+            yield True
+        finally:
+            fcntl.flock(handle, fcntl.LOCK_UN)
+
+
+def search(root, queries, workers=None, window=150, min_hits=4, keep=15, chunks=8, log=print, timeout=None):
     info = status(root)
     if info['state'] not in ('installed', 'partial'):
         raise SystemExit(f'CoMMA is {info["state"]} in {root}; run tools/comma.py status')
@@ -423,25 +461,44 @@ def search(root, queries, workers=None, window=150, min_hits=4, keep=15, chunks=
         size = path.stat().st_size
         tasks += [(str(path), i * size // chunks, (i + 1) * size // chunks) for i in range(chunks)]
     state = {'lookup': lookup, 'window': window, 'min_hits': min_hits, 'keep': keep}
-    merged, documents = defaultdict(list), 0
-    if workers == 1:
-        _init(state)
-        results = map(_scan_task, tasks)
-        pool = None
-    else:
-        pool = Pool(workers or os.cpu_count(), initializer=_init, initargs=(state,))
-        results = pool.imap_unordered(_scan_task, tasks)
-    try:
-        for n, (found, docs) in enumerate(results, 1):
-            documents += docs
-            for qi, records in found.items():
-                merged[qi].extend(records)
-            if n % 8 == 0 or n == len(tasks):
-                log(f'{n}/{len(tasks)} chunks, {documents} digitisations', file=sys.stderr)
-    finally:
-        if pool:
-            pool.close()
-            pool.join()
+    merged, documents, done = defaultdict(list), 0, 0
+    deadline = time.monotonic() + timeout if timeout else float('inf')
+    with search_lock(root, deadline, log) as got:
+        if got:
+            if workers == 1:
+                _init(state)
+                results = map(_scan_task, tasks)
+                pool = None
+            else:
+                pool = Pool(workers or os.cpu_count(), initializer=_init, initargs=(state,))
+                results = pool.imap_unordered(_scan_task, tasks)
+            finished = False
+            try:
+                while done < len(tasks):
+                    left = deadline - time.monotonic()
+                    if left <= 0:
+                        break
+                    try:
+                        found, docs = results.next(timeout=min(left, 1e6)) if pool else next(results)
+                    except (TimeoutError, PoolTimeout):
+                        break
+                    done += 1
+                    documents += docs
+                    for qi, records in found.items():
+                        merged[qi].extend(records)
+                    if done % 8 == 0 or done == len(tasks):
+                        log(f'{done}/{len(tasks)} chunks, {documents} digitisations', file=sys.stderr)
+                finished = True
+            finally:
+                if pool:
+                    if done < len(tasks) or not finished:
+                        pool.terminate()
+                    else:
+                        pool.close()
+                    pool.join()
+    if done < len(tasks):
+        log(f'INCOMPLETE: stopped at the time limit after {done} of {len(tasks)} chunks; '
+            'a missing hit means nothing', file=sys.stderr)
     out = []
     for qi in range(0, len(queries), 2):
         hits = sorted(merged.get(qi, []), key=lambda r: -r['score'])[:keep]
@@ -454,6 +511,7 @@ def search(root, queries, workers=None, window=150, min_hits=4, keep=15, chunks=
                     'searched_words': sum(1 for w in set(q['words']) if w in lookup['weight']),
                     'null_top_score': null_top, 'hits': hits})
     return {'revision': REVISION, 'parts': info['parts'], 'documents': documents,
+            'complete': done == len(tasks), 'chunks': [done, len(tasks)],
             'settings': {'window': window, 'min_hits': min_hits}, 'queries': out}
 
 
@@ -495,6 +553,8 @@ def main():
     s.add_argument('--workers', type=int)
     s.add_argument('--limit', type=int, default=5, help='hits shown per query; JSON keeps all')
     s.add_argument('--json', action='store_true')
+    s.add_argument('--timeout', type=float, default=30,
+                   help='minutes, including any wait for another search, before stopping with what was found (default 30; 0 = none)')
     c = sub.add_parser('context')
     c.add_argument('shelfmark')
     c.add_argument('offset', nargs='?', type=int)
@@ -527,10 +587,13 @@ def main():
         if not args.queries and not args.passage:
             parser.error('give a query file or --passage')
         result = search(root, load_queries(args.queries, args.passage, args.fragment), args.workers,
-                        args.window, args.min_hits, args.keep)
+                        args.window, args.min_hits, args.keep, timeout=args.timeout * 60 or None)
         if args.json:
             json.dump(result, sys.stdout, ensure_ascii=False, indent=1)
             return
+        if not result['complete']:
+            print(f'INCOMPLETE: {result["chunks"][0]} of {result["chunks"][1]} chunks searched before the time limit;'
+                  ' hits below are from that part only, and a missing hit means nothing')
         for q in result['queries']:
             print(f'{q["fragment"]}: {q["searched_words"]} searchable words, shuffled-order top {q["null_top_score"]}')
             for h in q['hits'][:args.limit]:

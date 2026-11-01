@@ -90,6 +90,41 @@ def test_search_finds_abbreviated_witness_above_shuffled_null(tmp_path, monkeypa
     assert found and 'hyspano' in comma.context(root, 'Reims 708', found[0], before=0, after=7)[0]['text']
 
 
+@pytest.mark.skipif(comma.fcntl is None, reason='no file locks on this platform')
+def test_searches_take_turns_and_a_timed_out_search_says_it_is_incomplete(tmp_path, monkeypatch):
+    root = tmp_path / 'comma'
+    corpus(root, monkeypatch, [('Reims 708', WITNESS), ('Psalter', UNRELATED)])
+    comma.build_index(root, workers=1, log=lambda *a, **k: None)
+    queries = comma.load_queries(passages=[p['text'] for p in QUERY[0]['passages']])
+    said = []
+    log = lambda *a, **k: said.append(' '.join(map(str, a)))
+    with open(root / 'search.lock', 'a+') as other:  # another search holds the lock
+        comma.fcntl.flock(other, comma.fcntl.LOCK_EX)
+        result = comma.search(root, queries, workers=1, chunks=2, log=log, timeout=0.3)
+        comma.fcntl.flock(other, comma.fcntl.LOCK_UN)
+    assert result['complete'] is False and result['chunks'] == [0, 2]
+    assert result['queries'][0]['hits'] == []
+    assert any('another CoMMA search' in s for s in said) and any('INCOMPLETE' in s for s in said)
+    result = comma.search(root, queries, workers=1, chunks=2, log=lambda *a, **k: None, timeout=60)
+    assert result['complete'] is True and result['chunks'] == [2, 2]
+    assert result['queries'][0]['hits'][0]['shelfmark'] == 'Reims 708'
+
+
+def test_a_pool_search_stops_at_the_time_limit(tmp_path, monkeypatch):
+    root = tmp_path / 'comma'
+    corpus(root, monkeypatch, [('Reims 708', WITNESS), ('Psalter', UNRELATED)])
+    comma.build_index(root, workers=1, log=lambda *a, **k: None)
+    queries = comma.load_queries(passages=[p['text'] for p in QUERY[0]['passages']])
+    monkeypatch.setattr(comma, '_scan_task', _slow_scan)
+    result = comma.search(root, queries, workers=2, chunks=2, log=lambda *a, **k: None, timeout=0.5)
+    assert result['complete'] is False and result['chunks'][0] < 2
+
+
+def _slow_scan(task):
+    import time
+    time.sleep(30)
+
+
 def test_query_file_skips_unusable_records(tmp_path):
     path = tmp_path / 'q.json'
     path.write_text(json.dumps(QUERY + [{'fragment': 'F-none', 'usable': False, 'passages': [{'text': 'x y'}]}]))
