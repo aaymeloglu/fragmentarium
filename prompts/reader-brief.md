@@ -32,15 +32,18 @@ Rules:
 ## The image limit
 
 A session can hold only so many images. Past that point the environment
-removes images from your context: an image you open does not display, or a
-tool result shows a removal notice in its place (in Claude Code,
-`[media removed: request limit]`).
+removes older images from your context: where an image you viewed earlier
+was, you now see a removal notice (in Claude Code,
+`[media removed: request limit]`). That does not mean you never saw it. What
+you wrote while it was in view stands; do not mark it invalid or rewrite it.
 
-The first time that happens, stop reading. Do not view more images, and do
-not write anything about an image that is no longer in view. Write the
-hand-off below and finish. This is the expected end of a long packet, not a
-failure. Crops and repeat views count toward the limit, so do not reopen an
-image without reason.
+Once that happens, write nothing new about a removed image: no added
+readings, no changes to the layout survey, no line reconciliations against
+it. Carry on with the images you have not read yet; they still display. If
+you need to see a removed image again, or an image you open does not display,
+stop, write the hand-off below and finish. This is the expected end of a long
+packet, not a failure. Crops and repeat views count toward the limit, so do
+not reopen an image without reason.
 
 ## Hand-off
 
