@@ -31,9 +31,11 @@ One batch, in order:
    earlier checkout runs that checkout's code.
 2. `tools/acquire_batch.py`, then `tools/register.py`.
 3. `tools/tilepacket.py`; give null grids to let it size tiles, and it refuses
-   a packet of more than 45 images, past which readers lose images and write
-   from memory. One fresh session per packet, or two small ones, with
-   `reader-brief.md`.
+   a packet of more than 45 images. One fresh session per packet, with
+   `reader-brief.md`; never two packets in one session. A reader that reaches
+   the session's image limit stops and leaves a hand-off file; start a fresh
+   reader on the same packet with that file named in its brief, and repeat
+   until the packet is read. Do not freeze a packet before it is.
    Where a record's images carry a modern transcription or a pencilled
    identification, mask it in the spec (see `tilepacket.py --help`) so the
    overviews do not show it to the reader.
