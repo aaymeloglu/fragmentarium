@@ -13,9 +13,9 @@ F-lv0w was again left for later.
 | F-jt31 (Frg. 105) | identified: Thomas Aquinas, *Expositio libri Posteriorum* I, lect. 8 (nn. 1-5 recto, nn. 8-9 verso) |
 | F-rnlr (Frg. 223) | identified: printed waste from Hartmann Pistoris, *Quaestionum iuris liber secundus* (Leipzig: Steinman, 1584), q. 36, and Friedrich Martini / H. A. von Einsiedel, *Theses de iurisdictione* (Ingolstadt: Eder, 1584); a German commissioner's letter and an endorsement read but not identified |
 | F-ssa8 (Frg. 47) | identified: Jacobus de Voragine, *Sermones quadragesimales* (Lent weeks 2-4, Easter); prayers of the Mass *pro praedicatoribus* on 47_1r; a Marian sermon and a note on the seven grades unidentified |
-| F-r30z (Frg. 101) | identified: *Legenda aurea* c. 168-170 (Elisabeth, Caecilia, Clement), shortened and glossed, in a school compilation with *Collectio epithetorum* lists and unidentified model letters |
-| F-xvty (Frg. 206) | identified: missal, Paschaltide (Dominica II-V post Pascha with weekday masses); the Friday epistles place it in a group of about seventeen southern German and neighbouring uses, none fixed |
-| F-yslj (Frg. 174) | identified: Latin excerpt notes from Chrysostomus Henriquez, *Fasciculus Sanctorum Ordinis Cisterciensis* (Bernard's German miracle tally; Robert of Newminster), so 1623 or later; a German protocol before Abbot Thoma[n/s] of Stams partly read |
+| F-r30z (Frg. 101) | partial: a shortened and glossed text of *Legenda aurea* c. 168-170 (Elisabeth, Caecilia, Clement), in a school compilation with *Collectio epithetorum* lists and unidentified model letters |
+| F-xvty (Frg. 206) | identified: missal, Paschaltide (Dominica II-V post Pascha with weekday masses); the Friday epistles place it in a group of seventeen uses from Salzburg and Passau to Lübeck and Trondheim, none fixed |
+| F-yslj (Frg. 174) | identified: Latin excerpt notes agreeing with, and probably taken from, Chrysostomus Henriquez, *Fasciculus Sanctorum Ordinis Cisterciensis* (Bernard's German miracle tally; Robert of Newminster), so probably 1623 or later; a German protocol before Abbot Thoma[n/s] of Stams partly read |
 | F-7l2c (Frg. 29) | partial: lecture notes on *De caelo* whose text follows the Coimbra commentary, with Clavius's twelve heavens; the course is unidentified |
 | F-gkmr (Frg. 16) | partial: church music, unidentified; a printed almanac page (1644-1699) stuck face down carries Zeiller/Merian's description of Strasbourg |
 | F-wmq3 (Frg. 8) | partial: draft letter of Stams to a son of Duke Friedrich (probably Sigmund) about Friedrich's foundation of 1409, which matches the charter Stams StiA Urk. A XCIII 4; a second private letter fragmentary |
@@ -85,8 +85,8 @@ F-lv0w was again left for later.
   is not proven.
 - F-gkmr: the printed piece is one almanac page printed face down, not a
   strip with two layers; its old/new-style table dates it 1644-1699.
-- F-yslj: Henriquez is the direct source (his own margin headings, absent
-  from Surius 1572); the protocol's month is March, so the archivist's pencil
+- F-yslj: Henriquez is the probable source (his own margin headings, absent
+  from Surius 1572, though short enough that an intermediary is not excluded); the protocol's month is March, so the archivist's pencil
   "Aug." is wrong; the surname is "[W/Cr]öber(?)", not "Lorber".
 - F-j80e: the creditor "Kilgen" holds; the place "Rhum(?)" and the third
   digit of the year are uncertain.
@@ -103,3 +103,13 @@ F-lv0w was again left for later.
 - F-gkmr: the almanac's title was not sought in Herbst's register of
   17th-century *Schreibkalender*.
 - No palaeographer has reviewed the readings.
+
+## Review
+
+An independent review of the pull request agreed with the core identifications
+of F-jt31, F-rnlr, F-ssa8 and F-xvty on spot checks, and raised three points,
+all accepted: F-r30z's legend text is an unidentified adaptation of the
+*Legenda aurea*, so the record is partial, not identified; F-yslj's dependence
+on Henriquez, and with it the 1623 lower limit, is probable rather than
+proven; F-xvty's group of uses is not confined to southern Germany and the
+Alps.

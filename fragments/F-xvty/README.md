@@ -85,7 +85,7 @@ Usuarium's synopsis of missals ([Lesson](https://usuarium.elte.hu/research/synop
   - A red folio numeral stands in the upper margin of 01v.
 - **Leaf 2 order.** The order 02r, then 02v is right: 02r ends with John 13:33 and 02v opens with John 13:33-36.
 - **Gap between the leaves.** Dominica III and IV are missing between the two leaves.
-- **Use: an inference, not an attribution.** Both Friday lessons agree with the minority reading of a group of about 17 southern-German and Alpine dioceses. For Passau this is confirmed on the page image of the 1498 print. For the other dioceses it rests only on Usuarium's tables. Two shared lessons place the book in that group, not in any one diocese of it.
+- **Use: an inference, not an attribution.** Both Friday lessons agree with the minority reading of a group of 17 uses in Usuarium's tables (listed below), among them Salzburg, Passau, Augsburg and Chur but also Lübeck, Schwerin, Kamień Pomorski and Trondheim. For Passau this is confirmed on the page image of the 1498 print. For the other dioceses it rests only on Usuarium's tables. Two shared lessons place the book in that group, not in any one diocese of it.
 - **Brixen.** Brixen (Bressanone), Stams's diocese, has other Friday lessons in Usuarium's single Brixen witness. The printed Missale Brixinense of 1493 (GW M24292) could not be opened and was not compared, so Brixen is not excluded.
 - **Cistercian use.** Cistercian sources in Usuarium show no proper readings for these weekdays. This makes a Cistercian missal unlikely, but no Cistercian missal was compared on images.
 - **Not claimed:** the date, origin or use of the leaves, the binding they came from, and any relation to the Passau print beyond the shared text.
