@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-11-02T02:14:26.527612+00:00",
+  "first_reading": "stams8-2026-11-01-image-only",
+  "first_sha256": "7409d727ec713557b2b743d72199e03d6a2105c9017bca9398690474f8b94ba0",
+  "fragment": "F-bm2h",
+  "id": "stams8-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "research reader with the source at hand (Claude subagent, Opus 5.5)",
+  "reason": "With the Summa's question list in hand the red headings, their numbers and the legible article words could be read and expanded (e.g. q. 37 'pu(er)i ... ihu', q. 33 'assu[mptum]', '[mi]raculosa'), correcting the first reading's 'temptatione q. xii' and 'ortina' to q. xli and 'doctrina'.",
+  "schema_version": 1,
+  "sources": [
+    "Thomas Aquinas, Summa theologiae IIIa qq. 33-45, Leonine text, Corpus Thomisticum (https://www.corpusthomisticum.org/sth4027.html, https://www.corpusthomisticum.org/sth4040.html)",
+    "Sancti Thomae Aquinatis Summa theologica, vol. 6 (Paris and Bar-le-Duc, 1879), Index pp. V-VI and p. 284 (archive.org sanctithomaeaqui06thom)"
+  ],
+  "text": "Source-assisted reading of F-bm2h (Stams, STA, Frg. 143), made on 1 November 2026 with the Summa theologiae IIIa (Leonine prologues; 1879 Index pp. V-VI) in hand. A research reader reread on the image all red headings on both canvases and the brown lines under qq. 33, 34, 36 and 40. An independent reader reread canvas 1 box 3180,2180,3900,2920 (q. 34-35 article lines) before opening a source, and the q. 37 heading. Other brown lines are illegible or rest on the image-only first reading. Boxes are native pixels x0,y0,x1,y1. Expansions in parentheses; (?) uncertain; [...] lost or supplied.\n\nCanvas 1 (Stams_STA_Frg_143_01v), column at about x 3150-3900:\n[3150,1580,4300,2000] (red) [De modo et or]dine (con)ceptio(n)is x(pi) .q. xxxiii\n[same area] (brown) ...illo assu[mptum] ... / ...[mi]raculosa\n[3150,2100,3900,2250] (red) [De perfectione] p(ro)l(is) (con)cepte .q. xxxiiii\n[same] (brown) ...s(an)c(t)ificatur\n[3180,2180,3900,2560] (brown) ...a(n)i(?) ... [?]uit u(e)l (low) / [two lines illegible] / ...ip(s)e(?)... / ...alia\n[3900,2400,4250,2650] (red, margin, joined by a red guide line) De natiuitate / saluatoris / .q. xxxv\n[3180,2520,3900,2920] (brown) ...[bea]ta u(ir)go s[it] ma[ter] / lo... ...mat(er)(?) / ...(?) cu(m)(?) / ...fili(us) / ...[Beth]leem .\n[3200,2950,3900,3050] (red) [De manifestati]one x(pi) nati .q. xxxvi\n[3200,3100,3900,3420] (brown) ...[manif]estari debu[it] / ...[i]p(s)e se manifestare u[el?] ... / ...p(er) q(ue) alia manif(estari)\n[3200,3440,3880,3700] (red) [De circum]cisione pu(er)i(?) le|galib(us) / ihu obs|(er)uat(is) / .q. xxxvii\n\nCanvas 0 (Stams_STA_Frg_143_01r), column at about x 3780-4460:\n[3780,1780,4460,1860] (red) De mo(do)(?) (con)uersac(i)o(n)is x(pi) .q. xl\n[3780,1960,4460,2300] (brown) ...[a]n cu(m) diui[tiis] ... / ...[ho]|nore / ...le[gem](?) ... (low)\n[3780,2240,4460,2320] (red) De temptatione x(pi) .q. xli\n[3780,2550,4460,2900] (brown, low) ...iudeis t(antu)m(?) ... / ...[gen]tib(us) p(re)dica-(?)\n[3780,2530,4460,2610] (red) De doctrina x(pi) .q. xlii\n[3780,2900,4460,2970] (red) De miracul(is) a x(pist)o f(ac)tis i(n) g(enerali) [number lost]\n[3780,3200,4460,3270] (red) De miracul(is) x(pi) i(n) sp(eci)ali .q. [...]\n[3780,3550,4460,3630] (red) De transfiguratione x(pi) .q. xlv\n",
+  "text_sha256": "0608f7c29f8575bf1e3eeed011d7c90aa46eb39c6d9a95b5d47bdc6ae55c1b4d"
+}
