@@ -41,10 +41,14 @@ manuscript with the source. This is model work; be exact about what you checked.
 Cut crops with `tools/iiif.py <F-id> crop ...` or, from a cached image,
 `uv run --group images python tools/localcrop.py SRC OUT x0,y0,x1,y1` (or
 `--strips`). `tools/probe.py <F-id> OUTDIR --enhance` locates the text on each
-canvas, gives its line pitch in native pixels, and cuts a sample with a
-contrast-stretched copy for faint ink. Read at reading size: bands of ten to twenty lines, one column
-wide. Reread and correct the first reading; say which lines you read yourself.
-Look at every leaf and face before characterising the fragment.
+canvas, gives its line pitch in native pixels, and cuts a contrast-stretched
+sample for faint ink. Read in bands of ten to twenty lines, one column wide.
+Reread and correct the first reading; say which lines you read yourself. Look
+at every leaf and face before characterising the fragment.
+
+Modern notes photographed with a record (typed transcriptions, pencilled
+identifications, archivist's labels) are leads, not readings. Where a word,
+date or locus rests on one and not on the leaf, say so wherever you use it.
 
 ## Searching
 
