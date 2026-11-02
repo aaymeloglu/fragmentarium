@@ -56,3 +56,15 @@ def test_pair_groups_each_readers_answer_under_the_original_crop(tmp_path):
     assert sum(text is None for answers in paired.values() for _, text in answers) == 2
     with pytest.raises(SystemExit):
         wordcheck.pair(key, [out / 'a.txt'])
+
+
+def test_sections_keep_header_remarks_and_refuse_unparsed_headers():
+    text = ('note\n=== crop-01.jpg ===\nfirst\n'
+            '=== crop-02.jpg ===   (very faded)\nsecond\n'
+            '  ===crop-03.jpg===\nthird\n')
+    got = wordcheck.sections(text)
+    assert got == {'crop-01.jpg': 'first', 'crop-02.jpg': '(very faded)\nsecond', 'crop-03.jpg': 'third'}
+    with pytest.raises(SystemExit):
+        wordcheck.sections('=== crop-01.jpg ===\nfirst\n=== crop 02 ===\nsecond\n')
+    with pytest.raises(SystemExit):
+        wordcheck.sections('=== crop-01.jpg ===\nfirst\n=== crop-01.jpg ===\nagain\n')

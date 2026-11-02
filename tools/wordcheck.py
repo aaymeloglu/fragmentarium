@@ -45,7 +45,8 @@ headed "=== crop-NN.jpg ===". Say at the top if anything other than these images
 documents are.
 """
 IMAGE = {'.jpg', '.jpeg', '.png', '.tif', '.tiff', '.webp'}
-SECTION = re.compile(r'^=== (crop-\d+\.\w+) ===[ \t]*$', re.M)
+SECTION = re.compile(r'^[ \t]*===[ \t]*(crop-\d+\.\w+)[ \t]*===[ \t]*(.*)$', re.M)
+HEADER_LIKE = re.compile(r'^[ \t]*===.*crop.*$', re.M | re.I)
 
 
 def crops_of(paths):
@@ -87,9 +88,22 @@ def make(crops, out, key, sets=2, seed=4):
 
 
 def sections(text):
-    """crop file name -> that crop's answer text."""
+    """crop file name -> that crop's answer text.
+
+    Readers often add a remark after the header ("=== crop-10.jpg ===   (very faded)"); the remark
+    is kept as the first line of that crop's answer. A header-like line that still does not parse
+    stops the run, since its answer would otherwise be filed silently under the crop before it."""
+    bad = [m.group(0) for m in HEADER_LIKE.finditer(text) if not SECTION.fullmatch(m.group(0))]
+    if bad:
+        raise SystemExit('unreadable section header(s): ' + '; '.join(repr(b.strip()) for b in bad))
     parts = SECTION.split(text)
-    return {parts[i]: parts[i + 1].strip() for i in range(1, len(parts) - 1, 2)}
+    out = {}
+    for i in range(1, len(parts) - 2, 3):
+        name, remark, body = parts[i], parts[i + 1].strip(), parts[i + 2].strip()
+        if name in out:
+            raise SystemExit(f'{name} has two sections')
+        out[name] = '\n'.join(x for x in (remark, body) if x)
+    return out
 
 
 def pair(key, answers):
