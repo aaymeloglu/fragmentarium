@@ -21,8 +21,10 @@ elsewhere. This is model work; be exact about what you checked.
 
 1. Look at every canvas reduced. The image labelled "r" is often the back:
    decide which face carries the text. The back has endorsements, modern
-   pencil notes, removal labels and the binding's title; read them, but treat
-   them and the catalogue's date and type as leads to confirm, not evidence.
+   pencil notes, removal labels and the binding's title. Read them, and any
+   typed transcription slip photographed with the record, but treat them and
+   the catalogue's date and type as leads to confirm on the leaf, not
+   evidence.
 2. Count the documents. A "deed" can be a copy sheet with several documents,
    each opening with its own intitulatio ("Wir ... von gottes genaden",
    "Ich ..."). Report each separately.
@@ -37,9 +39,14 @@ Read at native size, bands of about ten lines, usually half the width
 Cite native-pixel boxes. For each document transcribe the protocol (issuer,
 titles, addressee), enough of the disposition to state the legal action,
 parties, places and objects, and the whole dating clause. Expand abbreviations
-in parentheses; mark uncertain readings (?) and losses [...]. Do not let an
-outside record decide a reading you could not make; say which readings rest on
-it.
+in parentheses; mark uncertain readings (?) and losses [...].
+
+A word you could not read on the leaf is not a reading because a modern note
+(typed slip, pencil, archivist's label) or an outside record gives it. Mark
+every year, day, name or place that rests on one, in the transcription, the
+regest and the ledger note alike: "1508 (pencil note; year not legible on the
+leaf)". Earlier word checks found regests that took dates, surnames and
+places silently from such notes.
 
 Convert the dating clause yourself: `uv run python tools/feastdate.py YEAR
 "Montag vor Jacobi"` (Julian before 1583 by default). When the year is lost,
@@ -48,8 +55,6 @@ Bohemian years); say how you counted them. Check the date against the
 document's own evidence: the titles it gives a ruler or official, offices held,
 people's lifetimes. A year read as 1525 in a document calling Ferdinand Roman,
 Hungarian and Bohemian king is wrong (he took those crowns in 1526 and 1531).
-Label every element of the regest that you supplied from a source instead of
-reading it.
 
 ## Searching
 
@@ -59,16 +64,15 @@ sources can hold the act depends on its kind:
 - **Rulers, estates and Landtag acts:** Regesta Imperii, searched offline with
   `uv run python tools/ri.py search 'words' --from YYYY-MM-DD --to YYYY-MM-DD`
   (the open-data export; `--part RI_alles` for every series; open hits at the
-  printed permalink); Chmel's
-  editions (*Regesta Friderici III* with its Anhang, *Materialien zur
-  österreichischen Geschichte*); for Tyrol, Schober, *Die Urkunden des
-  Landschaftlichen Archivs zu Innsbruck* (1990), and Jäger's history of the
-  Tyrolean estates.
+  printed permalink); Chmel's editions (*Regesta Friderici III* with its
+  Anhang, *Materialien zur österreichischen Geschichte*); for Tyrol, Schober,
+  *Die Urkunden des Landschaftlichen Archivs zu Innsbruck* (1990), and Jäger's
+  history of the Tyrolean estates.
 - **Grants of arms and nobility:** K. F. von Frank, *Standeserhebungen und
-  Gnadenakte*; the Austrian State Archives catalogue (archivinformationssystem.at,
+  Gnadenakte* (its snippets name beneficiary, kind of grant, place and date);
+  the Austrian State Archives catalogue (archivinformationssystem.at,
   full-text search), which lists the Reichsadelsakten (AVA Adel RAA) by
   beneficiary, often with images of the file.
-  Frank's snippets name beneficiary, kind of grant, place and date.
 - **Private and seigneurial acts** (tenancies, fiefs, sales): local histories,
   regional archive finding aids, fief registers. These are rarely printed;
   expect no outside record, and stop searching when no source has a specific
@@ -89,8 +93,9 @@ Never fetch books.google.com page or image addresses.
 
 A document's regest often rests on single words: the year in words, a day and
 month, a surname, a place. Reading them again with your transcription in view
-tends to confirm what you first read. Cut native crops of the dating clause and
-of each name the regest depends on into `<evidence>/<F-id>/wordcheck/`, and list
+tends to confirm what you first read. Cut native crops of the dating clause,
+of each name the regest depends on, and of the place on the leaf of each word
+you marked as resting on a modern note, into `<evidence>/<F-id>/wordcheck/`, and list
 them in your report with the question each answers ("what year is written",
 "which names appear"), without your reading. One crop per word or name, a line
 or two high, so a reader cannot read the regest off it. The coordinator gives
@@ -99,8 +104,9 @@ them to fresh readers with `tools/wordcheck.py`.
 ## Proving it
 
 An outside record corroborates the regest; it is not required (CONVENTIONS,
-"Archival documents"). Compare the record you find with your reading, side by side: issuer, date,
-place, beneficiary, substance, and wording where the record prints the text.
+"Archival documents"). Compare the record you find with your reading, side by
+side: issuer, date, place, beneficiary, substance, and wording where the
+record prints the text.
 Read page images where they exist and say when you had only snippets. For a
 copy without a year, choose between candidate acts by their content and say
 so.
