@@ -6,9 +6,8 @@ you are continuing an earlier reader's work on the same packet; see
 
 1. Read `PROMPT.md` in the packet directory and follow it exactly.
 2. View the `image-NNN.jpg` files in that directory. The reduced images are
-   overviews for layout; the others are native-resolution tiles that overlap
-   their neighbours. A packet can hold several overviews when it covers several
-   faces.
+   overviews for layout, one per face; the others are native-resolution tiles
+   that overlap their neighbours.
 3. Write as you go. Your response file is
    `<responses>/<packet-name>.txt` (for example `packet-03.txt`). Begin it
    with your layout survey. After you finish reading each tile, add that
@@ -23,6 +22,9 @@ Rules:
   and do not read `packet.json`.
 - Do not try to identify the work or author, and do not use memory of any
   edition to fill gaps. Transcribe what is visible.
+- Open every tile, including tiles that look blank or too faint on the
+  overview: an overview is too small to show whether a tile has text. If a
+  tile has none, say so in one line.
 - Read as much connected text as you can: several spans of ten or more lines
   per face where the script allows. Look closely at each tile before writing
   [illegible]; a gap that reflects your effort and not the leaf is a failure.
@@ -31,39 +33,30 @@ Rules:
 
 ## The image limit
 
-A session can hold only so many images. Past that point the environment
-removes older images from your context: where an image you viewed earlier
-was, you now see a removal notice (in Claude Code,
-`[media removed: request limit]`). That does not mean you never saw it. What
-you wrote while it was in view stands; do not mark it invalid or rewrite it.
-
-Once that happens, write nothing new about a removed image: no added
-readings, no changes to the layout survey, no line reconciliations against
-it. Carry on with the images you have not read yet; they still display. If
-you need to see a removed image again, or an image you open does not display,
-stop, write the hand-off below and finish. This is the expected end of a long
-packet, not a failure. Crops and repeat views count toward the limit, so do
-not reopen an image without reason.
+A session holds only so many images. Past that point the environment replaces
+older images in your context with a removal notice (in Claude Code,
+`[media removed: request limit]`). What you wrote while an image was in view
+stands; do not mark it invalid or rewrite it, and write nothing new about it:
+no added readings, survey changes or line reconciliations. Carry on with the
+images you have not read yet. If you need a removed image again, or an image
+does not display, stop, write the hand-off below and finish; this is the
+expected end of a long packet, not a failure. Crops and repeat views count
+toward the limit.
 
 ## Hand-off
 
-When you stop on the image limit, write `<responses>/<packet-name>.handoff.md`
-for the reader who continues. It cannot see your reasoning, only this file and
-the response file, so put in it everything you know about reading this packet:
+When you stop on the image limit, write `<responses>/<packet-name>.handoff.md`.
+The reader who continues sees only this file and the response file, so put in
+it everything you know about reading this packet:
 
 - Where you stopped: the last tile and line you read completely, and the
   tiles not yet read.
-- The script: the hand, how you settled ambiguous letter forms, the
-  abbreviation signs and how you expanded them, spelling habits, punctuation,
-  rubrics.
+- The script: the hand, how you settled ambiguous letter forms, abbreviation
+  signs and their expansions, spelling, punctuation, rubrics.
 - The layout: columns, lines per column, ruling, which face is where, how the
   tiles map onto the page and where they overlap.
-- Open questions: words you meant to return to, faint areas, and what crops,
-  channels or contrast settings worked on this surface, with the paths of
-  crops you made.
-
-Finish with a final message that says you stopped on the image limit and names
-the two files.
+- Open questions: words to return to, faint areas, and the crops, channels or
+  contrast settings that worked on this surface, with the crops' paths.
 
 ## Continuing
 
@@ -75,5 +68,5 @@ says a continuing reader wrote what follows. Where you read a word on a tile
 differently from the earlier reader, say so. The image-limit rule applies to
 you as well.
 
-Your final message should only list the files you wrote, and say whether you
-stopped on the image limit.
+Your final message lists the files you wrote, says whether you stopped on the
+image limit, and names any tile you did not open.
