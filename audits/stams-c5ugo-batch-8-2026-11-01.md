@@ -11,7 +11,7 @@ letters and drafts, accounts, deeds and school exercises.
 |---|---|
 | F-bm2h (Frg. 143) | identified: table of questions and articles to Thomas Aquinas, *Summa theologiae* IIIa, qq. 33-37 and 40-45 |
 | F-ibi1 (Frg. 147) | identified: Ps.-Siricius to Theodorus of Córdoba, *Litteris a tua fraternitate directis* (long form), after the end of the expanded Ps.-Gregory *Statuimus secundum priorem diffinitionem*; the containing collection is not named |
-| F-zd3n (Frg. 190) | identified (document): judgment of Hanns Rott, judge in a fief case, for the procurator of Stams abbey, declaring Balthasar Mitterhofer's holding at Nauders fallen back to the abbey; date lost |
+| F-zd3n (Frg. 190) | identified (document): judgment of Hanns Rott, judge in a fief case, for the procurator of Stams abbey, declaring Balthasar Mitterhofer's holding at Nauders fallen back to the abbey; date not established |
 | F-njn8 (Frg. 82) | partial: about eleven 16th-century Innsbruck government papers; 82-12 read in full, a letter of Maximilian II, Vienna, 21 July 1565, sending copies of his sisters Barbara's and Johanna's marriage agreements with Ferrara and Florence |
 | F-d71j (Frg. 104) | partial: pieces 104_2 and 104_3 are *Sermones de tempore* printed among Bonaventure's works (Peltier XIII), attributed to Conrad Holtnicker; four pieces unidentified |
 | F-y3wr (Frg. 183) | partial: piece 183_1 excerpts the school *Annotationes* to Virgil, Eclogue 1, printed with Melanchthon's scholia |
@@ -106,3 +106,7 @@ letters and drafts, accounts, deeds and school exercises.
   snippets only.
 - F-bm2h: no page image of the Leonine edition.
 - No palaeographer has reviewed the readings.
+
+## Review
+
+An independent review of the pull request agreed with the three identifications and with F-njn8's 21 July 1565, and raised three points on F-zd3n, all accepted: the date is "not established" rather than "lost", since the unread block on fol. 2v may hold it; the report's confidence now agrees with the ledger's high, with the basis stated (action and all parties read, one element not established); and the ledger's link now points at the Fragmentarium record, since the 1534 grant is a related act, not a record of the judgment.
