@@ -59,5 +59,5 @@ The other items are not identified:
 
 **Not claimed:**
 - **The date of the hands.** The envelope's "ca. 1532" rests on a note of Primisser (*Additiones* VI, fol. 174v), known here only as quoted on the archivist's typed sheet. The note says that Johannes Fuscanes, a Benedictine of Reichenbach, copied the old necrology in 1532. Neither that note nor any attribution of the base hand to Fuscanes was checked. The latest dated entry seen, 1717, shows only that additions continued into the eighteenth century.
-- **When the book was cut up.** The envelope says the strips were taken from incunabula, which dates only their use in those bindings.
+- **When the book was cut up.** The envelope says the strips were taken from incunabula, which records their reported provenance; when the strips were reused is not established.
 - **Publication.** No publication of the strips themselves was found, but recent Stams literature was seen only in search snippets.

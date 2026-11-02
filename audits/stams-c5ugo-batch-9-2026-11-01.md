@@ -17,7 +17,7 @@ records. Every record of the collection has now had at least one attempt.
 | F-mkg6 (Frg. 153) | partial: one scrap of a breviary, Advent week III, Wednesday Lauds antiphons; two scraps unplaced |
 | F-14ex (Frg. 26) | partial: an explanation of *Idus* reworked from Huguccio of Pisa; the work quoting him unidentified |
 | F-g1bu (Frg. 194) | partial (document): draft deed of 1575 of an abbot Johannes (Stams or Wilten) granting a farm near Partschins |
-| F-7yec (Frg. 110) | partial (document): at least nine receipts and chancery notes of the Habsburg administration, 1507/08-1608 |
+| F-7yec (Frg. 110) | partial (document): at least nine receipts and chancery notes of the Habsburg administration, sixteenth century to 1608 |
 | F-gtxi (Frg. 56) | partial, low (document): German deed of sale; much of the regest rests on a modern typed transcription, not the leaf |
 | F-i1x7 (Frg. 128) | partial, low (document): two abraded German deeds; "[15]33" and the feast from a modern pencil note |
 | F-4td2, F-rc2o, F-ulkj, F-m8bk, F-utud, F-kuvn, F-a6zx, F-uahm, F-ibgm, F-aekp, F-4x8s, F-kd2f, F-cm6t | unidentified |
@@ -64,7 +64,7 @@ records. Every record of the collection has now had at least one attempt.
   and the 1407-1586 bound rest on the modern typed slip, not on the leaf.
 - F-i1x7: the century, feast and 15 December 1533 come from a pencil note;
   "Lienhart" and "Jorg" are not on the image.
-- F-7yec: the 1507/1508 year word is unreadable; the day and 1508 come from a
+- F-7yec: the year word of the earliest receipt is unreadable; the day and 1508 come from a
   pencil note.
 - F-g1bu: the word read as "Weing[arten]" is uncertain, so the issuing house
   (Stams or Wilten) is open.
@@ -80,3 +80,7 @@ records. Every record of the collection has now had at least one attempt.
   consulted; monasterium.net found nothing for F-g1bu and F-gtxi.
 - F-q7x0: no Brixen ritual compared.
 - No palaeographer has reviewed the readings.
+
+## Review
+
+An independent review of the pull request agreed with the three identifications (F-stvt, F-sqjv, and F-tnqw as already known) and with F-lv0w's partial status, and raised two points, both accepted: F-7yec's earliest receipt now has its year unread, with 1508 only as a modern note's proposal, instead of "1507 or 1508"; and modern host-volume notes (F-kuvn, F-a6zx, and the F-tnqw envelope) are described as recording reported provenance, not as dating the binding or reuse.
