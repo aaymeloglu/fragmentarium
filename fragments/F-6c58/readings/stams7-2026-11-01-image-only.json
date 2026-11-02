@@ -1,0 +1,197 @@
+{
+  "captured_at": "2026-11-01T23:11:47.527471+00:00",
+  "fragment": "F-6c58",
+  "id": "stams7-2026-11-01-image-only",
+  "isolation_attested": true,
+  "kind": "image-only",
+  "packet": {
+    "images": [
+      {
+        "name": "image-001.jpg",
+        "sha256": "ef0b3bf1aead01eb0c677e716dfab5b0fa40985fbed6ccde7a2297cdb80b63b2",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): whole image 4912x7360 reduced to 1201x1800 for layout; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-002.jpg",
+        "sha256": "9254775f0d8c821fa1b232a8f0106afdb94e400e1d6b50941c6f41087f7b88be",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 191,287,1477,1890; unrotated grid position column 1 of 4, row 1 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-003.jpg",
+        "sha256": "ab417341948c5dee6f2082a11e0a8eaf8b832086d6b17bf5b5703fd6f94bd998",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 1201,287,2625,1890; unrotated grid position column 2 of 4, row 1 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-004.jpg",
+        "sha256": "3af8659ee4061f55e45669d916ce34b66af0738ed265c4e6c21b0001bfc5d6a1",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 2349,287,3773,1890; unrotated grid position column 3 of 4, row 1 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-005.jpg",
+        "sha256": "3212f7b1b8aff22a606bb99ef89e4dab15a6a386c38fd91f28d22355a05a0af1",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 3497,287,4784,1890; unrotated grid position column 4 of 4, row 1 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-006.jpg",
+        "sha256": "088aaf462dd4bfc5f47f95dc296af82153d50d79ccd5c6d0593f7e61f08eeb1d",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 191,1546,1477,3321; unrotated grid position column 1 of 4, row 2 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-007.jpg",
+        "sha256": "487be64ac005c5c6865fbf7c82f70a6b08457ba3d76e2efa2b7a886b490ce018",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 1201,1546,2625,3321; unrotated grid position column 2 of 4, row 2 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-008.jpg",
+        "sha256": "999be88d34a166b28c3bda0d87a4bf434cb03e27abb9bfb41aa9eac22679034d",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 2349,1546,3773,3321; unrotated grid position column 3 of 4, row 2 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-009.jpg",
+        "sha256": "3352659aa4f75fe7021919a3c19820fbeef5e971248b043fec80051212cefb01",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 3497,1546,4784,3321; unrotated grid position column 4 of 4, row 2 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-010.jpg",
+        "sha256": "a8f902caa2bd131a9d88fd551dac8ef587e9ef98de6dc4348cef8f2398761562",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 191,2978,1477,4753; unrotated grid position column 1 of 4, row 3 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-011.jpg",
+        "sha256": "b4a11922811d77a4c5d0fb8509e4835b113ca3b7eb366c377a7cdf87513b199a",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 1201,2978,2625,4753; unrotated grid position column 2 of 4, row 3 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-012.jpg",
+        "sha256": "cfeb5db6b5bcdc62987692ef67d1b4e3c0e4e83a0073d8e5d7040bb2b88fa0a1",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 2349,2978,3773,4753; unrotated grid position column 3 of 4, row 3 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-013.jpg",
+        "sha256": "e6961bc03612170a3169534bb38a4fb684c5e4db874e41594889be5933adcc38",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 3497,2978,4784,4753; unrotated grid position column 4 of 4, row 3 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-014.jpg",
+        "sha256": "7b8a04824ffbf23b75b7b186754d32cd8c7867b5921cb4c6371972ab6ef7986a",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 191,4409,1477,6013; unrotated grid position column 1 of 4, row 4 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-015.jpg",
+        "sha256": "abcbba801ea43065ae7ec73e1e92720c5d2415826a4226b36b7d51ab40934aa7",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 1201,4409,2625,6013; unrotated grid position column 2 of 4, row 4 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-016.jpg",
+        "sha256": "6f502d01e4820be6a5caeeeddff1dcbc7fa4dadf9e7cbcd7ed159f2e86af4b62",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 2349,4409,3773,6013; unrotated grid position column 3 of 4, row 4 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-017.jpg",
+        "sha256": "0cdec87ac4693a7bef80c7d5cb0fd8cdc7cd4cb0f1e286a7406bcd5e359a9533",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01r05r.jpg/full/4912,/0/default.jpg (canvas 0, Stams_STA_Frg_176_01r05r): native-pixel box 3497,4409,4784,6013; unrotated grid position column 4 of 4, row 4 of 4; masked (modern additions) 343,2134,982,2465, 2603,2723,2996,3017, 319,3128,1129,3716"
+      },
+      {
+        "name": "image-018.jpg",
+        "sha256": "54cae288690b839753d7e555b0a2caf2443d53182ac108e17cd014ae88ca4d55",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): whole image 4912x7360 reduced to 1201x1800 for layout"
+      },
+      {
+        "name": "image-019.jpg",
+        "sha256": "ccd835b388f539f77dc450749f44f1a3c4df58b6048503f634cc2b0831fe35f2",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 63,419,1366,1976; unrotated grid position column 1 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-020.jpg",
+        "sha256": "b4f921882e49f8fdd1d375ec6f8feca21e74ff9cd0bde75a166ddcb86eb88b93",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 1087,419,2531,1976; unrotated grid position column 2 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-021.jpg",
+        "sha256": "dc027176769a092c884e88e540322206163cd4ca25e064735694235ab06b2b44",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 2251,419,3695,1976; unrotated grid position column 3 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-022.jpg",
+        "sha256": "f53a8d607f454bdc0d782eebb5dd512a5a5251f5d65ea1c3b6066e46276735ad",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 3416,419,4720,1976; unrotated grid position column 4 of 4, row 1 of 4"
+      },
+      {
+        "name": "image-023.jpg",
+        "sha256": "2480fd1fb8d6092f81072647607567cd7c475ea36871830bf77ca87e5df51e3c",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 63,1643,1366,3367; unrotated grid position column 1 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-024.jpg",
+        "sha256": "1f01a774d80bd9da4d868477c0f91beab62910018a9d58f1900ea0eee95e1560",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 1087,1643,2531,3367; unrotated grid position column 2 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-025.jpg",
+        "sha256": "455dd665e1533858e4fff11167aa11733f378c803894dd93a324f4aef90cd181",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 2251,1643,3695,3367; unrotated grid position column 3 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-026.jpg",
+        "sha256": "7d447a4fab983178644412d9e913290e38a42dedc00d80a557246b64ee3ea9ac",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 3416,1643,4720,3367; unrotated grid position column 4 of 4, row 2 of 4"
+      },
+      {
+        "name": "image-027.jpg",
+        "sha256": "e8ca6b15e44ee3ffef741b6bb00423a76f51f21a6102f9a49f22d2dd889e6790",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 63,3034,1366,4758; unrotated grid position column 1 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-028.jpg",
+        "sha256": "c6bde4ecd068d5e5037294ba4d6841e40a73f835fe724c1d7a467d6097e8d951",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 1087,3034,2531,4758; unrotated grid position column 2 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-029.jpg",
+        "sha256": "71b18bd25c35144ca441b6cc18face7ed16f1dcab02a2b228e7d26fc76c78213",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 2251,3034,3695,4758; unrotated grid position column 3 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-030.jpg",
+        "sha256": "ddcb56fe187f6e9c49a749b2d991d3581ce51e7167831550a42c3c568149461d",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 3416,3034,4720,4758; unrotated grid position column 4 of 4, row 3 of 4"
+      },
+      {
+        "name": "image-031.jpg",
+        "sha256": "249d1a7dece67c5ea8ce28bb4ac0e9d98db03d2f9cd6e96def2e3599608051a1",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 63,4425,1366,5983; unrotated grid position column 1 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-032.jpg",
+        "sha256": "ff5280cc9e101ae821357d08a420a440d27fa016acdd9772efd86ebb9977d09a",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 1087,4425,2531,5983; unrotated grid position column 2 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-033.jpg",
+        "sha256": "59576f69fee094d0933c5cddd9541a1e9256221eaab300c264610cd15fa905cd",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 2251,4425,3695,5983; unrotated grid position column 3 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-034.jpg",
+        "sha256": "5098a92ca121891e890ae299cefa83e565550e214d1c08339d773a1b47c7cbec",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 3416,4425,4720,5983; unrotated grid position column 4 of 4, row 4 of 4"
+      },
+      {
+        "name": "image-035.jpg",
+        "sha256": "2d206e970093d11c62aaf1c3b520da081b1d824c7a7641dff421d71cc461a173",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 638,6256,1738,6844; unrotated grid position column 1 of 2, row 1 of 1"
+      },
+      {
+        "name": "image-036.jpg",
+        "sha256": "079bb8c34425149b2f1e1d60753d01141db92ab153c34b904ecd03ac21abd612",
+        "source": "https://fragmentarium.ms:443/loris/F-6c58/Stams_STA_Frg_176_01v05v.jpg/full/4912,/0/default.jpg (canvas 1, Stams_STA_Frg_176_01v05v): native-pixel box 1502,6256,2603,6844; unrotated grid position column 2 of 2, row 1 of 1"
+      }
+    ],
+    "prompt": "Read only the supplied manuscript images. Do not search for the text, open a\ncatalogue or edition, or consult an earlier transcription. Do not identify the\nwork or author. If prior context has already revealed a proposed identification\nor reading, stop and report that exposure instead of calling this a blind reading.\n\nBegin with a brief image-only layout survey. Note orientation, columns, running\ntitles, rubrics, enlarged initials, underlined text, and interlinear or marginal\nglosses when visible. Distinguish observations from tentative interpretations\nsuch as main text with commentary. Do not infer author, work, date, or provenance.\nA tight crop may not show the layout; say so rather than guessing.\n\nUse those features to choose a few useful spans: headings or question openings,\nthen connecting prose, transitions or citation chains. Keep quoted lemmata and\ncommentary separate. Read enough surrounding prose to make a later source match\ncheckable; a full transcription is not required. State which areas you selected\nand which remain unread. Suggest a wider view or an adjacent crop if needed.\n\nTranscribe those spans, preserving physical lines. Label each line with its\nimage filename and a line number counted from the top of that image. Keep columns\nand marginal additions separate. Note overlapping crops rather than treating\nrepeated lines as additional text.\n\nRetain abbreviation marks when possible. Put proposed expansions in parentheses,\nuncertain readings before a question mark, and unreadable text in [illegible].\nDescribe visible deletions and additions explicitly. Do not supply missing words\nfrom what would make grammatical or philosophical sense. Leave uncertainty visible.\n\nReturn the reading as UTF-8 plain text. Include limitations (cropped lines, damage,\nuncertain column order) in that same response. This is an unverified image reading.\n"
+  },
+  "reader": "fresh Claude subagent (Opus 5.5), image-only",
+  "schema_version": 1,
+  "session": "stams-c5ugo-batch-7 2026-11-01 (packet-13)",
+  "text": "PACKET-13 — unverified image reading (UTF-8 plain text)\nExposure statement: nothing in my context revealed a proposed identification or reading of this record. I opened only the brief, PROMPT.md, and the packet's image files (plus a sips size listing of those images to tell overviews from tiles).\n\nLAYOUT SURVEY (face 1, overview image-001.jpg, reduced)\n- One plate holding several separate paper fragments, each with a modern pencil shelfmark label \"Stams, STA, Fag. 176-1r\", \"-2r\", \"-3r\", \"-4r\", \"-5r\". Colour checker and ruler present. Some grey rectangles are digital masks over areas of the images (not damage).\n- 176-1r (left, tall narrow strip): German cursive (Kurrent-type) hand, ~8 lines at top, enlarged flourished initial at line 1 (\"D...\"?). A vertical fold/line runs down the strip (text crosses it). Then a short 3-line block below (\"Von der Obrigkeit ... Stams ... am 7 tag ... \"), apparently a dating/closing clause. Rest of strip blank. Observation: looks like a document heading or endorsement, not a book page.\n- 176-2r (centre strip): German cursive, account-style entries, each paragraph ending in a sum written right-justified after a long dash (\"76 fl 22\", \"4 fl 48?\", \"8 fl 31 k\"). Three entries visible; lower part blank.\n- 176-3r (right strip): mostly blank; a 5-line block mid-strip (\"Gerichts...\", ...) ending with a numeral \"15\"? above a horizontal rule.\n- 176-4r (horizontal strip, lower centre, in two pieces joined, with transparent tape-like repair across): Latin text, smaller formal hand, 4-5 lines; \"Ord[in]atio(?)\" written as a heading at top-centre; \"B. Hermannus ...\" visible at line start. Distinct from the German pieces.\n- 176-5r (small strip at bottom): no visible text in the overview except the pencil label.\n- Tiles: images 002-017 appear to be a 4x4 native-resolution grid of this face (rows: 002-005, 006-009, 010-013, 014-017). Image-018 is the overview of face 2 (tiles 019-034). Images 035-036 are small separate images (not yet viewed at survey time).\n\nREADINGS (by tile; line numbers counted from top of each image)\n\n--- image-002.jpg (tile row 1, col 1: top of fragment 176-1r; text cut at right edge, continues in image-003) ---\nGerman cursive; large looped initial at top-left spanning lines 1-2. Paper fold/crease runs vertically through the text (left of centre) and a second one near the right edge. Text block (all lines truncated at right edge of tile):\n002.01  D[initial] swalthen(?) Streyler(?) [cut]\n002.02  Pauel(?) Brut(?) sohne(?) [cut]   (overview shows \"...Brut ...ne al[s]\")\n002.03  Gerhabere(?) vnnd Pe[cut]\n002.04  Brutschen(?) vnd sein[cut]   (macron/stroke over \"vnd\"?)\n002.05  gebruoder(?) Raithun[g?][cut]\n002.06  vollennd(?) lanns(?) [cut]\n002.07  Zu(?) Ständach(?) seligen(?) [cut]\n002.08  lassen(?) Khinder ob[cut]   (\"lassen\" possibly \"[ver]lassen\" continuing previous line)\n002.09  [blank]\n002.10  Von der Obrigkhait [cut]   (flourished V with large loop)\n002.11  Stambs(?) am 7 tag [cut]\n002.12  Marty(?) a[nno] 15(?)95 beschl[...](?) [cut]   (date: \"7 tag\" + month + year ending \"95\"; first digits uncertain)\nNotes: \"Gerhaber\" = guardian(s) and \"Raithung\" = account are tentative word readings of the visible letters, not supplied.\n\n--- image-003.jpg (tile row 1, col 2: right half of 176-1r top, overlapping image-002; left edge of 176-2r) ---\n176-1r line endings (same lines as 002.01-12; overlap, not new lines; given as the continuation of each line):\n003 ~ 002.01  ...Streyler(?) auch(?)\n003 ~ 002.02  ...[Bru]t sohne al[s]\n003 ~ 002.03  ...vnnd Pet[er](?) (abbreviation stroke after \"Pet\")\n003 ~ 002.04  ...[v]nd seine(?)   (\"seine\" with final stroke; could be \"seine[n]\")\n003 ~ 002.05  ...Raithung\n003 ~ 002.06  ...lanns(?) gewesen(?)   (word ends with long flourish; \"gewesen\" tentative)\n003 ~ 002.07  ...seligen ver\n003 ~ 002.08  ...[Kh]inder ob[...]tr[...](?)   (word partly obscured by a hole/ink blot; possibly \"Obtragsch..\" [illegible])\n003 ~ 002.10  ...[Obrigk]heit [-]ge(?)  (very short ending, unclear)\n003 ~ 002.11  ...tag\n003 ~ 002.12  ...beschch(?)   (reads like \"beschehen\" abbreviated, uncertain)\nRight edge of 176-1r: blank, damaged, insect/loss holes; no further text.\n176-2r left edges visible at right of tile: \"Also bl[...]\", \"Den K[...]\", \"Nit a[...]\"; \"Hat [...]\", \"D[...]\", \"75 [...]\", \"baus[...]\", \"wegen(?)\" — read fully in image-004.\n\n--- image-004.jpg (tile row 1, col 3: fragment 176-2r upper part; left letters cut — see image-003 right edge) ---\nAccount entries; sums right-aligned after a long flourished dash. \"fl\" written as a looped ff-like sign (= florin/gulden sign, kept as \"fl\").\n004.01  [A]lso bleiben die Brutschen   (the \"B\" is a large looped capital)\n004.02  den Kindern vätterlichs   (umlaut-like marks over \"a\"; \"vätterlich[s]\" tentative)\n004.03  nit noch schuldig(?)\n004.04                                — 76 fl 22\n004.05  [blank]\n004.06  Hat Peter Brutsch an   (or \"Brutsch[en]\"; final letters \"ch an\" uncertain)\n004.07  Ubernommen(?)[...]ess(?) d[...]o(?)   (word with D/U-loop initial; \"Vbernommenes\"? uncertain; tail cut at edge)\n004.08  75 [?] vom Andre(?) [K]la[...]   (\"75\" followed by a bracket/abbrev sign; name uncertain)\n004.09  baus(?)chadl(?) von d[en](?) Kinder   (\"d\" with abbreviation stroke)\n004.10  wegen eingenomen(?)   (\"ein-\" written closely, possibly \"endthanung\"? reading insecure)\n004.11                                — 4 fl 48 7(?)   (third numeral group \"48\" then \"7\" or \"k\"? reads \"4 fl 48 7\"; overview gave \"4 fl 48 7\")\n004.12  [blank]\n004.13  Mer(?) het er vom Osw(?)alde[n] [...]   (bottom line, cut; continues in image-008)\n\n--- image-008.jpg (tile row 2, col 3: 176-2r middle; top line overlaps 004.11) ---\n008.01  [overlap = 004.11]  — 4 fl 48 7   (here clearly \"4 fl 487\" or \"4 fl 48 7\")\n008.02  [blank]\n008.03  Mer het er vom Oswalde[n](?)   (first letter a small M/W-like form with flourish)\n008.04  [S]trobl(?) als Gerhaben dur[ch](?)   (name before \"als\": \"Strobl\"/\"Kriebl\"? uncertain; \"Gerhaben\" with looped G)\n008.05  verwunde(?) hab ein[...]ganng(?)   (same final word-shape as 004.10; possibly \"einnemung\"/\"empfanng\"; uncertain)\n008.06                                — 8 fl 31 k\nBelow: blank paper with a grey digital mask; right edge torn. No further text on 176-2r.\n\n--- image-009.jpg (tile row 2, col 4: fragment 176-3r middle; text block lower half of tile; right edge torn so line ends lost) ---\n009.01  Hanndlung(?) [...]   (looped H; mark above \"u\"/\"n\"; last letters \"-ng\" or \"-ngs\" before loss)\n009.02  Zwischen(?) [hole] ke[...](?)   (hole in paper after first word)\n009.03  Christls(?) [...]ira(?)[...]   (\"Christl\" with looped C; following word \"pira\"/\"seira\"? uncertain)\n009.04  [..]rischtg(?) vnd bra[...]   (first word uncertain; \"vnd\" clear)\n009.05  Verlassenschaften(?)   (\"Verla[ss]enschaft[en]\": \"Verla\" clear, long-s ligature, then \"-nschafte(n)\" tentative)\n009.06  [flourished stroke] 15[...]   (numerals \"1 5\" with dot over 1, rest lost/blank?)\nBelow: horizontal rule (seen in overview). Everything above this block on the tile is blank paper.\nInterpretation (tentative): an endorsement/docket naming a transaction concerning an estate (\"Verlassenschaft\"), not continuous text.\n\n--- image-015.jpg (tile row 4, col 2: left part of Latin strip 176-4r, two pieces; text begins ~60% across the tile; lines cut at right edge, continue in image-016) ---\nHand: small upright cursive/humanistic-looking Latin hand with some Kurrent-like forms; numbered items (\"3.\", \"4.\") at line starts. Transparent tape repair along the join between the two pieces (seam crosses line 3 of upper piece).\nUpper piece:\n015.u1  B. Hermanns(?) M[cut]   (\"B.\" with looped capital; \"Hermann[u]s\" final -s or -us sign)\n015.u2  Caro(?) Jesus(?) [cut]   (first word \"Caro\"/\"Cara\"? second \"Jesus\" with long-s)\n015.u3  S[...] [...]imme(?)[cut]   (mostly under/at the tape seam; [illegible] at start)\nLower piece:\n015.l1  Videt dæmon[cut]   (first letter V/U looped; \"dæmon\" with abbreviation?)\n015.l2  3. Qui instru[cut]   (circumflex-like mark over \"i\" of \"Qui\")\n015.l3  dignis fugam(?) [cut]   (line begins further left than the others; \"fugam\" or \"fuga[n]t\" uncertain; mark above)\n015.l4  4. Monachus [cut]   (a long dark stroke — a crack or line — runs diagonally across this word)\n\n--- image-016.jpg (tile row 4, col 3: centre of Latin strip 176-4r; overlaps 015 at left; lines cut at right, continue in image-017) ---\nHeading line above text, centred: \n016.h   Ordinctio(?) [...]   (reads \"Ordinctio\"/\"Ordinatio\"; followed by a short abbreviation, \"1?\"/\"&c\"; a small paper loss and tape at the top edge; modern pencil label \"Stams, STA, Fag. 1[76-4r]\" at right — modern, not text)\nUpper piece (each line = continuation of 015.u1-u3):\n016.u1  ...[Her]manns Monachi(?) Steinenvel[...]cp(?) [mark] celebranti[cut]   (place-name-like word \"Stemenvelc\"/\"Steinenvelc\"? with \"-cp\" abbreviation; uncertain)\n016.u2  ...[Je]sus. Cap. 2 Varias dæmonis(?) formas(?) m[cut]   (\"Cap.\" with abbreviation; \"2\" numeral)\n016.u3  ...[...]iumphat(?) dæmon de Iuvene(?) [...]   (line partly under the tape seam; \"triumphat\"? \"Iuvene\"/\"Juvenc\"? uncertain)\nLower piece:\n016.l0  [a few strokes just below the tape, possibly the tops of a lost line: illegible]\n016.l1  ...[Vi]det dæmon bibulo(?) [abbrev. sign] [...]   (line ends early with a large flourish further right)\n016.l2  ...[Q]ui instruendi subditi. Duo fratres apud [cut]\n016.l3  ...fugant ex scripto B. Hermanni Cantep[...](?)   (\"ex\" with abbreviation; \"scripto\"? reading \"ex scripto\" tentative; last word \"Cantep/Contesp\"? uncertain)\n016.l4  ...[M]onachus diu tentatur a(?)b[...]ugne(?) sanctimonia[li](?)   (\"diu tentatur\" fairly clear; next word uncertain, \"abruge\"/\"ab angue\"? [illegible]; \"sanctimonia\" then cut)\nObservation: items numbered 2 (Cap. 2), 3., 4. — looks like a list of chapter headings / contents (tentative interpretation).\n\n--- image-017.jpg (tile row 4, col 4: right end of Latin strip 176-4r; top: lower end of 176-3r with pencil label \"Stams, STA, Fag. 176-3r\", no text) ---\nPencil label \"[Sta]ms, STA, Fag. 176-4r\" (modern) at top of strip. Line endings (continuations of 016 lines; right edge of strip is torn, so final letters may be lost):\n017.u1  ...celebranti adve[...]   (\"adve\"/\"adest\"? cut at edge)\n017.u2  ...[f]ormas in claus[tro?]   (\"claus...\" cut at edge)\n017.u3  ...[...]lla psallit(?)   (just above tape seam; \"psallit\"/\"psallere\"? tentative)\n017.l1  [blank continuation, faint stroke only]\n017.l2  ...[frat]res apud fornica[...]   (cut; \"fornica-\" clear)\n017.l3  ...Confessarÿ   (= \"Confessarij\"; closes 016.l3: \"B. Hermanni Confessarij\")\n017.l4  ...[...]di monialibus.   (closes 016.l4 with a stop; so my 016.l4 \"sanctimonia[li]\" is better read with this tile as \"[...]ndi monialibus\" — the word before is uncertain, e.g. \"[...]andi\"; I leave 016's reading as written and record this correction here)\nAssembled Latin strip (176-4r), tentative, by physical line:\n  [heading] Ordinctio(?) [...]\n  u1: B. Hermanns(?) Monachi(?) Ste[...]cp(?) [..] celebranti adve[...]\n  u2: Caro(?) Jesus. Cap. 2 Varias dæmonis(?) formas in claus[...]\n  u3: [...]iumphat(?) dæmon de Iuvene(?) [...]lla psallit(?)\n  l1: Videt dæmon bibulo(?) [...]\n  l2: 3. Qui instruendi subditi. Duo fratres apud fornica[...]\n  l3: dignis fugant ex scripto(?) B. Hermanni Confessarij\n  l4: 4. Monachus diu tentatur a[...] [...]di monialibus.\n\nLAYOUT SURVEY (face 2, overview image-018.jpg, reduced)\n- Versos of the same five fragments, labelled in pencil \"Stams, STA, Fag. 176-1v\", \"-2v\", \"-3v\", \"-4v\", \"-5v\". Fragment layout mirrored (4v strip's torn end now at right).\n- At overview scale no writing is visible on any verso: staining, folds, dark stains on 1v left edge, a tape repair on 4v. Possibly faint offset/show-through only. Tiles 019-034 would need checking for faint text.\n\n--- image-035.jpg and image-036.jpg (detail images of the small strip 176-5, left and right halves; label reads \"Stams, STA, Fag. 176-5v\"(?) — last character r/v uncertain) ---\nNo writing visible on either image: staining, creases, small losses only. Blank as far as visible.\n\n--- image-014.jpg (tile row 4, col 1: bottom of 176-1r with pencil label \"Stams, STA, Fag. 176-1r\"; torn left end of Latin strip 176-4r) ---\nNo writing visible on either piece in this tile (torn/crumpled left end of 176-4r is blank here).\n\n--- image-028.jpg (face 2 tile, row 3 col 2: lower part of 176-1v with label \"Stams, STA, Fag. 176-1v\"; edge of 2v) ---\nNo writing visible; faint grey smudges/offset only, no letter forms.\n\n--- image-032.jpg (face 2 tile, row 4 col 2: bottom of 176-1v; Latin strip verso 176-4v with label \"...STA, Fag. 176-4v\") ---\n176-4v: no writing visible; transparent tape along the join, a loose thread on the lower piece, staining. Blank as far as visible. (So the Latin text is on one side only.)\n\n--- image-025.jpg (face 2 tile, row 2 col 3: middle of 176-2v near horizontal fold) ---\nNo writing; a few faint grey specks near the fold could be offset ink, but no letter forms are discernible.\n\nSUMMARY OF COVERAGE AND LIMITATIONS\n- Read: all visible text on face 1 — 176-1r (heading block of 8 lines + 3-line dating clause; tiles 002, 003), 176-2r (three account entries with sums; tiles 004, 008), 176-3r (5-line docket; tile 009), and the Latin strip 176-4r (heading + 3 + 4 lines; tiles 015, 016, 017). Small strip 176-5 (images 035/036, tile 014) shows no text.\n- Face 2 (versos): overview 018 plus spot-check tiles 025, 028, 032 show no writing. Not opened: tiles 005, 006, 007, 010, 011, 012, 013 (face 1 areas that the overview shows as blank paper/background; 005-007 may hold the left edge of 176-2r lines already read in 003/004 and the lower 176-1r blank area) and 019-024, 026, 027, 029-031, 033, 034 (versos, blank at overview scale). A faint-text check of those verso tiles under contrast enhancement is the remaining gap.\n- Two distinct material groups on the plate: (a) German-language paper documents in a 16th/17th-c.-type Kurrent cursive (accounts concerning guardians/heirs, a date \"am 7 tag ... [15]95\"(?)); (b) a Latin strip in a different, smaller hand, numbered items (\"Cap. 2\", \"3.\", \"4.\"), naming \"B. Hermann[us]\" twice. These are observations of script and language only; no dating or identification is asserted.\n- Uncertainties: proper names (Streyler?, Brut/Brutsch(en), Peter, Oswald, Strobl?, Christl?) and several words (004.07, 004.10, 008.05, 016.u1 place-word, 016.u3, 016.l4) are tentative. Left letters of 176-2r lines are cut between tiles 003/004; right edges of 176-3r and 176-4r are torn, losing line ends.\n- Line numbering: per-tile physical lines from the top of the text on that tile; overlaps flagged with \"~\" or \"[overlap]\" and not counted as new text.\n- I did nothing beyond the brief's rules except running `sips` on the packet images to get their pixel dimensions. I did not reach the image limit; no hand-off file was written.\n",
+  "text_sha256": "fcb37a8e403a47ea528598f6fc966efa1f81e2f1d0d78e55a5a154c36d0af042"
+}
