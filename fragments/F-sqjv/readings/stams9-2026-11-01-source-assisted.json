@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-11-02T04:21:32.375753+00:00",
+  "first_reading": "stams9-2026-11-01-image-only",
+  "first_sha256": "1c81527dfb194b6951d8438d519b31237f2a0df99737ca55b8241429eeb6c1f0",
+  "fragment": "F-sqjv",
+  "id": "stams9-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude (Opus 5.5), research session",
+  "reason": "The first reading's syllable groups ('ue biu facte te ta', 'urte uin', 'mica spe') were reread as 'debui facere tibi', 'plantavi te vineam', 'meam spe-' once the Improperia text was known, and the grey 'm' on the smaller scrap's second face was recognised as modern pencil.",
+  "schema_version": 1,
+  "sources": [
+    "Graduale sacrosanctae Romanae ecclesiae (Vatican edition, Rome 1908), Feria VI in Parasceve, pp. 182-183 (archive.org graduale-romanum-1908, n205-n206)",
+    "E. Martène, Tractatus de antiqua Ecclesiae disciplina in divinis celebrandis officiis, Good Friday ordo, MDZ bsb10524759, scan 415",
+    "Cantus Index 008453 (Quid ultra debui) and 002522 (Ecce lignum crucis)"
+  ],
+  "text": "Source-assisted reading of F-sqjv (Stams, Frg. 23), made with the Cantus Index standard texts and the Graduale Romanum 1908 pp. 182-183 available. All text lines on both faces of both scraps were reread on the native images (canvas 0 = 01r02r, canvas 1 = 01v02v, 7360 x 4912 px). Boxes are x,y,width,height in native pixels. ( ) expansion, [ ] lost or supplied, ? doubt. Text is written in syllables under the notes; neumes not transcribed.\n\nCanvas 0, larger scrap (item 1)\n3250,2510,850,140   [d]e bui face re ti[bi]          (text line above the surviving staff; the d is lost at the tear)\n2930,2860,1170,150  [E]go(?) quide(m) planta ui te uine[am]   (opening reads \"ecto\" or \"ego\" with a damaged g; \"ego\" not secure; stroke over \"quide\" = quidem)\n\nCanvas 0, smaller scrap (item 2), same line as the one above\n4520,2780,430,140   [m]eā spe c[iosissimam]          (stroke over \"ea\" = meam)\n\nCanvas 1, larger scrap (item 1)\n2880,2380,820,140   [salus mu]ndi pepen[dit]         (top edge, letter tops partly lost)\n2880,2780,1270,120  [veni]te? a do re mus | B(red-touched initial)eati[   (red vertical division stroke through the staff above, before B)\n\nCanvas 1, smaller scrap (item 2)\n4430,2730,350,140   ]te[                             (only ink text on this face; the grey \"m\" beside it is modern pencil, part of the shelf label)\n\nModern pencil, not text: \"Stams, STA, Frg. 23-1r\", \"Frg. 23 2r\", \"STA, Frg. 23-1v\", \"Frg. 23 2v\".\n",
+  "text_sha256": "6ed877602f4215315024a18debfe1f220c5354573d6609dfc35afc43482903f8"
+}
