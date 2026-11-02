@@ -9,7 +9,7 @@ deeds, accounts, guardianship papers and letters.
 
 | Record | Result |
 |---|---|
-| F-mrl7 (Frg. 108) | identified: *Lumen anime* (C-type text), Marian chapters, §§474-475 and 480-481 (ed. Harris 2007); the Athanasius sentence at §474 is a variant application of a quotation the 1518 print of version A gives to Orosius |
+| F-mrl7 (Frg. 108) | identified: *Lumen anime* (C-type text), Marian chapters, §§474-475 and 480-481 (ed. Harris 2007); at §474 an Athanasius sentence that the 1518 print of version A gives to Orosius; its relation to Harris's §474, whose Latin was not seen, is open |
 | F-13e8 (Frg. 178) | identified (document): Stams abbey, register of reckonings with servants and officials, 1538 (the sawyer Petter, the ferryman Michl, the Amtmann at Fliess Michl Salgeber, the widow of the abbot's Marstaller) |
 | F-027n (Frg. 231) | identified (document): second guardianship account of Mathias Heckhen of Mils (Herrschaft Thaur) for Ursula Geissler, wife of Martin Vischler of Absam, from 24 August 1637, closing clause 1 July [16]39 |
 | F-mz7h (Frg. 30) | partial: piece 30.14 is Peregrinus de Opole, All Souls sermon *Gaudete cum gaudentibus*; the other 28 pieces are unidentified |
@@ -70,8 +70,7 @@ deeds, accounts, guardianship papers and letters.
   deliveries against the 1537 yield, not a balance.
 - F-027n: the husband is Martin Vischler ("Mart-/in"), not "Mar[x]"; the
   closing year has no century, supplied from the 1637 start date.
-- F-mrl7: the §474 sentence does not agree with Harris; "word for word"
-  withdrawn.
+- F-mrl7: "word for word" withdrawn; the §474 comparison is unresolved.
 - F-agve: the year stays 154x against the first reading's 152x; the Pfleger's
   surname is "Ca[ss/sl]e", so Veit Castl is an inference.
 - F-4568: the January day is "[..]igesim-", so the 30th or 31st is as possible
@@ -95,3 +94,7 @@ deeds, accounts, guardianship papers and letters.
 - F-da74: Peltier's edition compared in OCR and snippets only.
 - F-g51l: no Auxerre calendar consulted.
 - No palaeographer has reviewed the readings.
+
+## Review
+
+An independent review of the pull request agreed with the three identifications and with F-13e8's year 1538, and raised three points, all accepted: F-13e8's "May" was not securely resolved, so the month is marked uncertain and the working-day count is no longer offered as corroboration; F-mrl7's §474 comparison is unresolved rather than a disagreement, since Harris's Latin text there was not seen; both document reports now say no outside record was found, not that none exists, and F-13e8 no longer says all its sums agree, since the 4v grain totals are unreconciled.
