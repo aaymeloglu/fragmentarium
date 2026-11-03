@@ -350,14 +350,17 @@ def build_burndown(done):
 
 
 def record_fields(r):
-    """The row's `fragmentarium` block as the fields of a Fragmentarium description, collapsed at the foot of the page."""
+    """The row's `fragmentarium` block (fields for the Fragmentarium record and description), collapsed at the foot of the page."""
     f = r.get("fragmentarium")
     if not f:
         return ""
     def row(label, value):
         return f"<tr><th>{label}</th><td>{html.escape(value)}</td></tr>" if value else ""
-    out = row("Title", f["title"]) + row("Date of origin", f.get("date_of_origin")) + row("Place of origin", f.get("place_of_origin"))
-    for n, it in enumerate(f["content"], 1):
+    out = (row("Title", f.get("title")) + row("Subtitle", f.get("subtitle"))
+           + row("Persons", "; ".join(f"{p['role']}: {p['name']}" for p in f.get("persons", [])))
+           + row("Liturgica", f.get("liturgica")) + row("Tags", "; ".join(f.get("tags", [])))
+           + row("Dated", f.get("dated")) + row("Places", "; ".join(f.get("places", []))))
+    for n, it in enumerate(f.get("content", []), 1):
         out += f'<tr><th colspan="2">{f"Content item {n}" if len(f["content"]) > 1 else "Content item"}</th></tr>'
         out += "".join(row(k, it.get(v)) for k, v in (("Locus", "locus"), ("Text language", "text_language"), ("Title", "title"),
                                                       ("Persons", "persons"), ("Content description", "description"), ("Remarks", "remarks")))

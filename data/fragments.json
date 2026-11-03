@@ -18,15 +18,11 @@
   "examined": "2026-09-22",
   "identified_on": null,
   "fragmentarium": {
-   "title": "Unidentified sermon",
    "content": [
     {
-     "locus": "",
      "text_language": "Latin",
-     "title": "Unidentified sermon, with a passage parallel to Cherubino da Spoleto, Sermones quadragesimales",
-     "persons": "",
-     "description": "... Ex hoc arguo ... doctor ... [facie]ndum docet alios ... culpa redarguit ... [Do]mi[ne] [Iesu Christe] benedic[te] ... optimus ergo ... ad alios facere ...",
-     "remarks": "Same argument and wording as Cherubino da Spoleto, Sermones quadragesimales (1502 edition, p. 346, seen only as a snippet). The work the fragment comes from is not established."
+     "title": "Unidentified theological treatise",
+     "remarks": "One passage has the argument and wording of Cherubino da Spoleto, Sermones quadragesimales (1502 edition, p. 346). The work the fragment comes from is not established."
     }
    ]
   }
@@ -2159,15 +2155,25 @@
   "identified_on": "2026-11-01",
   "kind": "theology",
   "fragmentarium": {
-   "title": "Nicolaus de Byard, sermon for All Saints",
+   "title": "Nicolaus de Byard, Sermones de sanctis",
+   "subtitle": "Sermon for All Saints, Congregate illi sanctos eius (piece a)",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Nicolaus de Byard"
+    }
+   ],
+   "tags": [
+    "Topic: sermons"
+   ],
    "content": [
     {
      "locus": "fol. [1]r (a); fol. [1]v (a)",
      "text_language": "Latin",
-     "title": "Nicolaus de Byard, Sermones de sanctis, sermon for All Saints, Congregate illi sanctos eius (Ps 49:5)",
+     "title": "Nicolaus de Byard, sermon for All Saints, Congregate illi sanctos eius (Ps 49:5)",
      "persons": "Nicolaus de Byard",
-     "description": "Piece a. Recto, col. b: opening of the sermon, [C]ongrega[te illi sanctos eius] ... Solent re[ligiosi] ... congregati ut orationes ... quasi impossibile erat. Verso, col. a (line-ends): ... quanto plures ... sed vellera ovium ... in omnibus populis ... nos laudabunt ... Verso, col. b (line-beginnings): ... [man]davit ... [rep]eris in S[usis] ... ibi illi ... Text as in Paris, BnF, lat. 15951, ff. 336rb-336va.",
-     "remarks": "Schneyer also lists the sermon under Robert of Sorbon (V, no. 2016). Piece b not identified."
+     "description": "Opening of the sermon and two later passages.",
+     "remarks": "Text as in Paris, BnF, lat. 15951, ff. 336rb-336va. Schneyer also lists the sermon under Robert of Sorbon (V, no. 2016). Piece b not identified."
     }
    ],
    "bibliography": [
@@ -5627,9 +5633,14 @@
   "kind": "document",
   "document": true,
   "fragmentarium": {
-   "title": "Appeal before the governor of Brescia, 1514",
-   "date_of_origin": "4-23 February 1514",
-   "place_of_origin": "Brescia",
+   "title": "Appeal before the governor of Brescia",
+   "dated": "1514",
+   "places": [
+    "Brescia"
+   ],
+   "tags": [
+    "Topic: legal"
+   ],
    "content": [
     {
      "locus": "Stams_STA_Frg_240_01v",
@@ -5760,28 +5771,41 @@
   "identified_on": "2026-10-31",
   "kind": "theology",
   "fragmentarium": {
-   "title": "Jacobus de Voragine, Legenda aurea",
+   "title": "Jacobus de Voragine, Legenda aurea; Petrus Lombardus, Sententiae (printed waste)",
+   "subtitle": "cap. 149, 153-155",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Jacobus de Voragine"
+    },
+    {
+     "role": "Author",
+     "name": "Petrus Lombardus"
+    },
+    {
+     "role": "Author",
+     "name": "Henricus de Gorinchem"
+    }
+   ],
+   "liturgica": "Passionary/Legendary",
    "content": [
     {
      "locus": "Stams_STA_Frg_242_01r; Stams_STA_Frg_242_01v",
      "text_language": "Latin",
-     "title": "Jacobus de Voragine, Legenda aurea, cap. 149 (Francis), 153-155 (Dionysius, Calixtus, Leonard)",
+     "title": "Jacobus de Voragine, Legenda aurea, cap. 149, 153-155",
      "persons": "Jacobus de Voragine",
-     "description": "One bifolium. First leaf: opening of the chapter on Francis, to Insistit sollicite, and on the verso the rule confirmed by Innocent (ed. Graesse pp. 662-665). Second leaf: end of Dionysius; Calixtus from est incendio concremata; opening of Leonard, to omnem bestiam (ed. Graesse pp. 685-688).",
+     "description": "One bifolium. First leaf: opening of the chapter on Francis (cap. 149). Second leaf: end of Dionysius, Calixtus and opening of Leonard (caps. 153-155).",
      "remarks": "Same manuscript as F-n2rx (Frg. 219), whose bifolium falls between these leaves."
     },
     {
-     "locus": "",
      "text_language": "Latin",
      "title": "Jacobus de Voragine, Legenda aurea, cap. 125, 131",
      "persons": "Jacobus de Voragine",
-     "description": "Turned-in strips.",
-     "remarks": "Possibly from another copy."
+     "description": "Turned-in strips, possibly from another copy."
     },
     {
-     "locus": "Stams_STA_Frg_242_01r; Stams_STA_Frg_242_01v",
      "text_language": "Latin",
-     "title": "Petrus Lombardus, Sententiae, with the conclusions of Henricus de Gorinchem (printed)",
+     "title": "Petrus Lombardus, Sententiae, with the conclusions of Henricus de Gorinchem",
      "persons": "Petrus Lombardus; Henricus de Gorinchem",
      "description": "Printed waste pasted over the manuscript: Basel, Nicolaus Kesler, 19 February 1492."
     }
@@ -6999,15 +7023,22 @@
   "kind": "liturgy",
   "fragmentarium": {
    "title": "Missal",
+   "subtitle": "Proprium de tempore, Dominica II-V post Pascha",
+   "liturgica": "Missal",
+   "tags": [
+    "Topic: Liturgy"
+   ],
    "content": [
     {
      "locus": "Stams_STA_Frg_206_01r; Stams_STA_Frg_206_01v",
      "text_language": "Latin",
-     "title": "Missal, Proprium de tempore, Dominica II-V post Pascha",
-     "persons": "",
-     "description": "Two non-consecutive leaves. Leaf 1: end of the sequence Victimae paschali; Dominica II post Pascha (Jn 10:11-16, offertory Deus deus meus, secret, communion Ego sum pastor bonus, postcommunion); feria IV (1 Pt 1:18; Lc 24:1) and feria VI (Rom 15:14; Mt 9:14); introit Iubilate of Dominica III. Leaf 2: feria IV (Jn 17:11-26) and feria VI (1 Th 5:1; Jn 13:33) after Dominica IV; introit, collect and lesson of Dominica V.",
-     "remarks": "Agrees with the Missale Pataviense (Augsburg: Erhard Ratdolt, 1498), fol. 85v-86r. The catalogue's 01r is the verso of leaf 1."
+     "title": "Missal, Proprium de tempore",
+     "description": "Two non-consecutive leaves. Leaf 1: Dominica II post Pascha with feria IV and VI, to the introit of Dominica III. Leaf 2: feria IV and VI after Dominica IV, and Dominica V.",
+     "remarks": "The catalogue's 01r is the verso of leaf 1."
     }
+   ],
+   "bibliography": [
+    "Missale Pataviense (Augsburg: Erhard Ratdolt, 1498), fol. 85v-86r"
    ]
   }
  },
@@ -8077,19 +8108,28 @@
   "identified_on": "2026-11-01",
   "kind": "theology",
   "fragmentarium": {
-   "title": "Thomas Aquinas, Summa theologiae, IIIa, table of questions",
+   "title": "Thomas Aquinas, Summa theologiae, table of questions",
+   "subtitle": "IIIa, qq. 33-37, 40-45",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Thomas Aquinas"
+    }
+   ],
+   "tags": [
+    "Topic: theology"
+   ],
    "content": [
     {
      "locus": "Stams_STA_Frg_143_01r; Stams_STA_Frg_143_01v",
      "text_language": "Latin",
-     "title": "Thomas Aquinas, Summa theologiae, IIIa, table of questions and articles, qq. 33-37, 40-45",
+     "title": "Thomas Aquinas, Summa theologiae, IIIa, table of questions and articles",
      "persons": "Thomas Aquinas",
-     "description": "Question headings in red with their numbers, articles in brown below. 01v: qq. 33-37, [De modo et or]dine conceptionis Christi q. xxxiii ... 01r: qq. 40-45, De modo conversationis Christi q. xl ... De transfiguratione Christi q. xlv.",
-     "remarks": "Headings in the wording of the standard table of the Summa, not of the question prologues."
+     "description": "01v: qq. 33-37. Inc.: [De modo et or]dine conceptionis Christi q. xxxiii. 01r: qq. 40-45. Inc.: De modo conversationis Christi q. xl … Expl.: De transfiguratione Christi q. xlv."
     }
    ],
    "bibliography": [
-    "Sancti Thomae Aquinatis Summa theologica, vol. 6 (Paris and Bar-le-Duc 1879), pp. V-VI (index)"
+    "Sancti Thomae Aquinatis Summa theologica, vol. 6 (Paris and Bar-le-Duc 1879), pp. V-VI"
    ]
   }
  },
@@ -8115,15 +8155,19 @@
   "document": true,
   "fragmentarium": {
    "title": "Judgment in a fief case for Stams Abbey",
-   "date_of_origin": "16th century",
+   "places": [
+    "Nauders"
+   ],
+   "tags": [
+    "Topic: legal"
+   ],
    "content": [
     {
-     "locus": "",
      "text_language": "German",
-     "title": "Judgment of Hanns Rott, judge in a fief case, for Stams Abbey",
+     "title": "Judgment of Hanns Rott, judge in a fief case",
      "persons": "Hanns Rott; Balthasar Mitterhofer",
-     "description": "Hanns Rott, Lehenrichter, with the fellow vassals, declares the holding of Balthasar Mitterhofer (a garden or Platz before his house at Nauders) fallen back to the abbot and convent of Stams, and seals with his pendant seal. The opening leaves are lost.",
-     "remarks": "The same plot and tenant are in Stams Urk. L_LXXIX_2, a grant of Abbot Pelagius to Mitterhofer of 1534. The date of the judgment is not established."
+     "description": "Hanns Rott, Lehenrichter, with the fellow vassals, declares the holding of Balthasar Mitterhofer (a garden or Platz before his house at Nauders) fallen back to the abbot and convent of Stams, and seals with his pendant seal. The opening leaves are lost; the date is not established.",
+     "remarks": "Same plot and tenant as Stams Urk. L_LXXIX_2, a grant of Abbot Pelagius to Mitterhofer of 1534."
     }
    ]
   }
@@ -8326,37 +8370,36 @@
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Council of Basel, Acta (copy), and acts of suits at Basel",
-   "date_of_origin": "1431-1438",
-   "place_of_origin": "Basel",
+   "title": "Council of Basel, Acta (copy); acts of suits at Basel",
+   "places": [
+    "Basel"
+   ],
+   "tags": [
+    "Topic: Canon Law"
+   ],
    "content": [
     {
      "locus": "leaves 165/2-1 to 4",
      "text_language": "Latin",
-     "title": "Council of Basel, Acta, opening: preamble and acts of 7 and 14 December 1431",
-     "persons": "Philibert, bishop of Coutances; Giuliano Cesarini",
-     "description": "Inc.: Censetur utique dignum et congruum, prout id singulariter exposcit nimium labilis hominum memoria ... Acts of 7 December 1431 and of the first session, 14 December 1431."
+     "title": "Council of Basel, Acta, opening",
+     "description": "Inc.: Censetur utique dignum et congruum, prout id singulariter exposcit nimium labilis hominum memoria … Acts of 7 December 1431 and of the first session, 14 December 1431."
     },
     {
-     "locus": "",
      "text_language": "Latin",
      "title": "Acts of a suit at Basel, 1434, before Albert Varrentrapp, judge-commissary of the council",
      "persons": "Albert Varrentrapp; Nicolaus Volrat; Wilhelm de Grumpach",
-     "description": "Nicolaus Volrat, abbreviator of apostolic letters and dean of St John in Haug (Würzburg), against Wilhelm de Grumpach, canon in the diocese of Würzburg. Dated June and 3 August 1434. The object of the suit is not read."
+     "description": "Nicolaus Volrat, dean of St John in Haug (Würzburg), against Wilhelm de Grumpach, canon in the diocese of Würzburg. Dated June and 3 August 1434."
     },
     {
      "locus": "leaves 34-42",
      "text_language": "Latin",
      "title": "Acts of a suit at Basel, 3 and 5 November 1438",
-     "persons": "Otto Grauer (?)",
      "description": "Before a bishop sitting for the council's court of causes, concerning Otto Grauer (?), perpetual vicar in the diocese of Mainz."
     },
     {
      "locus": "leaves 29-33",
      "text_language": "Latin",
-     "title": "Unidentified document, Constance, July 1415",
-     "persons": "",
-     "description": "Datum Constancie ... Julii 1415, during the vacancy of the Holy See, in the 29th year of Sigismund as king of Hungary; with penal clauses."
+     "title": "Unidentified document, Constance, July 1415"
     }
    ],
    "bibliography": [
@@ -8582,14 +8625,16 @@
   "known_from": "P. M. Grebenc (Stams archivist), envelope dated 26 October 1964 and typed transcription slips 'Fragmente Original-Nekrologs von Stams' (1964-1965), citing MGH Necrol. III 47-57 and Primisser, Addit. II fol. 41 ff.; unpublished, photographed on the Fragmentarium record F-tnqw (images Stams_STA_Frg_168_08r_11v12v and Stams_STA_Frg_168_Adl_01r02r to Adl_05v06v)",
   "fragmentarium": {
    "title": "Necrologium Stamsense",
+   "places": [
+    "Stams"
+   ],
    "content": [
     {
      "locus": "168-1r; 168-1v; 168-7v; 168-11r; 168-11v",
      "text_language": "Latin",
      "title": "Necrologium Stamsense",
-     "persons": "",
-     "description": "Calendar strips from the Stams mortuary: 9 and 13-15 January, 9-13 and 24 February. Later entries in several cursive hands name religious of Neustift, Kremsmünster, St. Mang in Füssen, Gries, Wilten, Ettal, St. Emmeram, Buxheim and Steingaden; latest year seen 1717.",
-     "remarks": "Identified by P. M. Grebenc, 1964-1965 (envelope and typed slips photographed with the record). The edition prints the older entries from Primisser's 18th-century copy. 168-4v, two cursive scraps and the labels of the host books are not identified."
+     "description": "9 and 13-15 January, 9-13 and 24 February, with later additions in several hands (latest year seen 1717).",
+     "remarks": "Identified by P. M. Grebenc, 1964-1965 (envelope and typed slips photographed with the record). 168-4v, two scraps and the labels of the host books are not identified."
     }
    ],
    "bibliography": [
