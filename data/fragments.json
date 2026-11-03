@@ -60,12 +60,12 @@
    ],
    "content": [
     {
-     "locus": "Rekopisy_010_17_001; Rekopisy_010_17_168",
+     "locus": "Rekopisy_010_17_001",
      "text_language": "Latin",
      "title": "Nicholas of Lyra, Tractatus de differentia nostrae translationis ab hebraica littera, Genesis",
      "persons": "Nicholas of Lyra",
      "description": "Section on Genesis: on Gen 2:18 (active and passive power in generation) and the passage to Genesis 3.",
-     "remarks": "Front pastedown compared with the Rouen 1507 edition; the back pastedown was not compared."
+     "remarks": "Front pastedown. The back pastedown is not placed in the work."
     }
    ],
    "bibliography": [
@@ -106,11 +106,11 @@
    ],
    "content": [
     {
-     "locus": "fol. [1]r; fol. [1]v; fol. [2]r; fol. [2]v",
+     "locus": "fol. [1]r",
      "text_language": "Latin",
      "title": "Johannes Balbus, Catholicon, letter C",
      "persons": "Johannes Balbus",
-     "description": "Entries of letter C, among them Catalecticus, Catapuera, Catapulta and Cataracta (fol. [1]r)."
+     "description": "Entries of letter C, among them Catalecticus, Catapuera, Catapulta and Cataracta."
     }
    ]
   }
@@ -582,7 +582,7 @@
     {
      "text_language": "Latin",
      "title": "Medical compilation on sleep",
-     "remarks": "Excerpts under named sources, among them Hippocrates, Aphorisms II.1-3, and Avicenna. The passage on sleep and hidden veins has a parallel in Albertus Magnus, De somno et vigilia I.2.8, in different wording. The compiler is not identified; Arnoldus Saxo has been proposed but not compared."
+     "remarks": "Excerpts under named sources, among them Hippocrates, Aphorisms II.1-3, and Avicenna. The passage on sleep and hidden veins has a parallel in Albertus Magnus, De somno et vigilia I.2.8, in different wording. The compiler is not identified."
     }
    ]
   }
@@ -1445,7 +1445,7 @@
      "text_language": "Latin",
      "title": "Commentary on the Decretals, X 5.1 (De accusationibus)",
      "description": "Back cover: a passage on inquisition ex officio against the infamatus, citing c. Qualiter et quando.",
-     "remarks": "Front cover not read. Work not identified."
+     "remarks": "Front cover not identified. Work not identified."
     }
    ]
   }
@@ -1726,7 +1726,7 @@
      "text_language": "Latin",
      "title": "Aldobrandinus de Toscanella, Scala fidei (sermons on the Apostles' Creed)",
      "persons": "Aldobrandinus de Toscanella",
-     "description": "f. 1r: end of a sermon on Sedet ad dexteram and opening of the next. Inc.: Sedet ad dexteram dei patris omnipotentis. Quia bonum quanto magis cognoscitur tanto magis desideratur. ff. 1v-2r: opening of the sermon on the third article. Inc.: Tercia die resurrexit a mortuis. Hunc gradum sive articulum posuit beatus Bartholomeus.",
+     "description": "f. 1r: end of a sermon on Sedet ad dexteram and opening of the next. Inc.: Sedet ad dexteram dei patris omnipotentis. Quia bonum quanto magis cognoscitur tanto magis desideratur. ff. 1v-2r: opening of the sermon on Tertia die resurrexit. Inc.: Tercia die resurrexit a mortuis. Hunc gradum sive articulum posuit beatus Bartholomeus.",
      "remarks": "Text as in Vatican City, BAV, Pal. lat. 449, ff. 167ra and 172va. The work is unprinted."
     }
    ],
@@ -1756,7 +1756,7 @@
   "examined": "2026-10-20",
   "identified_on": "2026-10-20",
   "fragmentarium": {
-   "title": "Petrus de Remis, Sermones de tempore",
+   "title": "Petrus de Remis (attributed), Sermones de tempore",
    "subtitle": "nos. 85, 93-94",
    "persons": [
     {
@@ -1771,7 +1771,7 @@
     {
      "locus": "Cod2248_VDS",
      "text_language": "Latin",
-     "title": "Petrus de Remis, sermon Alter alterius onera portate (Gal 6:2)",
+     "title": "Petrus de Remis (attributed), sermon Alter alterius onera portate (Gal 6:2)",
      "persons": "Petrus de Remis",
      "description": "Front pastedown: part of the sermon.",
      "remarks": "Text as in Troyes, Médiathèque, Ms. 303, fol. 183r, and Amiens, BM, Ms. 268."
@@ -1779,7 +1779,7 @@
     {
      "locus": "Cod2248_Ir; Cod2248_Iv; Cod2248_HDS",
      "text_language": "Latin",
-     "title": "Petrus de Remis, sermons Renovamini spiritu mentis vestrae (Eph 4:23) and Surge tolle grabatum",
+     "title": "Petrus de Remis (attributed), sermons Renovamini spiritu mentis vestrae (Eph 4:23) and Surge tolle grabatum",
      "persons": "Petrus de Remis",
      "description": "Flyleaf and back pastedown: later part of the sermon Renovamini, Expl.: tanto resurgent gloriosius quanto hic vixerunt humilius, and the opening of the sermon Surge tolle grabatum tuum et ambula.",
      "remarks": "Text as in Troyes, Médiathèque, Ms. 303, fols. 187v-188r, and Amiens, BM, Ms. 268."
@@ -1851,7 +1851,7 @@
     {
      "text_language": "Latin",
      "title": "Abbreviated sermon on Ps 76:11, Hec mutatio dextere excelsi",
-     "remarks": "Only the lower lines of each column survive. Schneyer lists the theme three times, none with this development. Not identified."
+     "remarks": "Only the lower lines of each column survive. Not identified."
     },
     {
      "text_language": "Latin",
@@ -1891,7 +1891,7 @@
      "text_language": "Latin",
      "title": "Letter formulary",
      "description": "Model letters: a wife to her absent husband and his reply, with Ulysses and Penelope; letters between kin and of students.",
-     "remarks": "Not in Rockinger, Briefsteller und Formelbücher, or in Guido Faba's Dictamina and Epistole. Not otherwise identified."
+     "remarks": "Not identified."
     }
    ]
   }
@@ -4212,7 +4212,7 @@
      "text_language": "Latin",
      "title": "Advent orations",
      "description": "Suscipiamus; Excita ... salvari; the six Aliae orationes de adventu (Excita ... operare, Conscientias, Prope esto, Concede ... ut magnae, Mentes nostras, Preces populi tui); Porrige nobis; Deus qui nos conspicis. Four to six letters of each line survive.",
-     "remarks": "Order of the Hadrianum ('promisisti usque in finem saeculi'); the last two prayers are from the Gelasian Advent series. The book may have been a sacramentary, missal or collectar. Not the same manuscript as Fragm. 3a (F-fjvt)."
+     "remarks": "Readings of the Hadrianum ('aeternae vitae', where St Gall 348 has 'vitae aeternae'); the last two prayers are from the Gelasian Advent series. The book may have been a sacramentary, missal or collectar. Not the same manuscript as Fragm. 3a (F-fjvt)."
     }
    ],
    "bibliography": [
@@ -5066,7 +5066,7 @@
      "text_language": "Latin",
      "title": "Sermons for Septuagesima and Sexagesima",
      "description": "End of the Septuagesima sermon ('Ideo officium incipit: Circumde[derunt]') and opening of the Sexagesima sermon ('Exiit qui seminat etc. Super').",
-     "remarks": "Matches nos. 12-13 of an anonymous Sunday cycle listed by Schneyer from Kremsmünster, Stiftsbibliothek, CC 273. Ps 76 and Jas 5:16 (not Luke 5:16) are quotations within the sermons."
+     "remarks": "Explicit and incipit correspond to nos. 12-13 of an anonymous Sunday cycle listed by Schneyer from Kremsmünster, Stiftsbibliothek, CC 273. Ps 76 and Jas 5:16 (not Luke 5:16) are quotations within the sermons."
     }
    ],
    "bibliography": [
@@ -5258,7 +5258,7 @@
      "locus": "Spine",
      "text_language": "Latin",
      "title": "Unidentified text, probably a commentary on Matthew 1",
-     "remarks": "The phrase 'item dauid rex apte dicitur' occurs in Sedulius Scottus, In Matthaeum, on Mt 1:6. One phrase does not identify the work."
+     "remarks": "The phrase 'item dauid rex apte dicitur' occurs in Sedulius Scottus, In Matthaeum, on Mt 1:6."
     }
    ],
    "bibliography": [
@@ -8787,7 +8787,7 @@
      "title": "Office of the Crown of Thorns (De spinea corona), Matins",
      "persons": "John Chrysostom; Bernard of Clairvaux; Augustine",
      "description": "Monastic Matins from the chapter Egredimini to the homily of nocturn III. Lessons from Chrysostom, In Iohannem hom. 84 (Latin version), Bernard, Sermo in feria IV Hebdomadae sanctae 8-9, and Augustine, In Iohannem tract. 116.",
-     "remarks": "Chants in the order of the Rein antiphoner, Vienna, ÖNB, Cod. 1799**, ff. 228r-231r; psalm cues and lesson division differ from it and from the Dillingen print of 1584."
+     "remarks": "Chants in the order of the Rein antiphoner, Vienna, ÖNB, Cod. 1799**, ff. 228r-231r. Psalm cues differ from it and from the Dillingen print of 1584; lesson division differs from the print."
     }
    ],
    "bibliography": [
@@ -9074,7 +9074,7 @@
     {
      "locus": "Stams_STA_Frg_052_01r",
      "text_language": "German",
-     "title": "Draft deed of sale sealed by the abbot of Wilten",
+     "title": "Draft deed of sale naming the abbot of Wilten as sealer",
      "persons": "Cristan Holtzna[..]; Hans Wieser (?); Oswald Spirgl; Pölt Cammerlannder",
      "description": "Lower part of a draft: the vendors, with their wives Agnes K/A(i)rcherin (?) and Agnes K/A(i)tzorin (?), give warranty for a property now lost and ask the abbot of Wilten to seal. Hans Wieser (?) of Natters is named; witnesses Oswald Spirgl and Pölt Cammerlannder of Natters. Done in the Landgericht Sonnenburg on the Conversion of St Paul (25 January, probable), 15[x]8, the decade never written.",
      "remarks": "The object sold, the price and the buyer are lost at the cut left edge."
@@ -11593,7 +11593,7 @@
     {
      "text_language": "Latin",
      "title": "Model letters",
-     "description": "Letters in red on a son's schooling.",
+     "description": "Rubricated model letters on a son's schooling.",
      "remarks": "Not identified."
     }
    ],
@@ -13836,7 +13836,6 @@
    ],
    "content": [
     {
-     "locus": "2r",
      "text_language": "German",
      "title": "Weekly wage and expense lists, 1645",
      "description": "Lists for weeks 17, 18, 36, 47 and 48 of [16]45, with entries for Pfannenarbaiter, Cleiber, Schreiber and extraordinary workers.",
