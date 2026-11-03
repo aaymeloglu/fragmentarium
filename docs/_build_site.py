@@ -349,6 +349,22 @@ def build_burndown(done):
     return len(rows), n_done
 
 
+def record_fields(r):
+    """The row's `fragmentarium` block as the fields of a Fragmentarium description, collapsed at the foot of the page."""
+    f = r.get("fragmentarium")
+    if not f:
+        return ""
+    def row(label, value):
+        return f"<tr><th>{label}</th><td>{html.escape(value)}</td></tr>" if value else ""
+    out = row("Title", f["title"]) + row("Date of origin", f.get("date_of_origin")) + row("Place of origin", f.get("place_of_origin"))
+    for n, it in enumerate(f["content"], 1):
+        out += f'<tr><th colspan="2">{f"Content item {n}" if len(f["content"]) > 1 else "Content item"}</th></tr>'
+        out += "".join(row(k, it.get(v)) for k, v in (("Locus", "locus"), ("Text language", "text_language"), ("Title", "title"),
+                                                      ("Persons", "persons"), ("Content description", "description"), ("Remarks", "remarks")))
+    out += "".join(row("Bibliography", b) for b in f.get("bibliography", []))
+    return f"<details><summary>Fields for the Fragmentarium record</summary><article><table>{out}</table></article></details>"
+
+
 def build():
     data = json.loads((ROOT / "data" / "fragments.json").read_text())
     published = [r for r in data if publishable(r)]
@@ -408,7 +424,7 @@ def build():
             f'<p class="where">Identified <time datetime="{r["identified_on"]}">{r["identified_on"]}</time>.</p>'
             f'<p><img src="{html.escape(r["thumbnail"].replace("/240,/", "/600,/"))}" alt="{r["id"]}" style="max-width:100%;border:1px solid var(--rule)"></p>'
         )
-        (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<details><summary>Readings and comparison details</summary><article>" + md_to_html(md, f"fragments/{r['id']}") + "</article></details>", crumbs))
+        (DOCS / f"{r['id']}.html").write_text(page(f"{r['shelfmark']} · {r['id']}", head + "<details><summary>Readings and comparison details</summary><article>" + md_to_html(md, f"fragments/{r['id']}") + "</article></details>" + record_fields(r), crumbs))
     build_burndown({r["id"]: r for r in data})
     (DOCS / ".nojekyll").write_text("")
     return published
