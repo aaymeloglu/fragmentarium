@@ -127,3 +127,9 @@ tools/record.py                write results to the ledger; install a report and
 
 No images are stored here. Thumbnails on the site are served by the holding libraries' IIIF
 servers; rights stay with the institutions named on each record.
+
+## License
+
+Everything in this repository (identifications, readings, reports, data and code) is dedicated
+to the public domain under [CC0 1.0](LICENSE). Credit is welcome but not required. This does not
+cover the manuscript images, which stay with the holding institutions.
