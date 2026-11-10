@@ -12,13 +12,13 @@ unidentified to partial, and several are reframed.
 |---|---|---|
 | F-4x8s (Frg. 152) | unidentified | partial, medium: piece 152-2 is Codex Iustinianus 8.13.27 and 8.14.2-4 (Krueger p. 341); pieces 152-3/-4/-5 are a later hand and 152-1 is not placed |
 | F-4td2 (Frg. 246) | unidentified | partial, low: an index or list of questions with red question numbers, possibly to Johannes of Freiburg, *Summa confessorum* III (satisfaction and absolution); not the printed tabula and not the manuscript of F-d7a7 |
-| F-j8cl (Frg. 232) | partial | partial: reframed as probably two draft reports of the Hall salt officials to the Tyrolean Kammer ("Durchl: Camer", "Den Tirolischen Camer"), not letters to a cardinal |
+| F-j8cl (Frg. 232) | partial | partial: reframed as probably two draft reports from officials at Hall (possibly the salt office) to the prince's Kammer (leaf 1 headed "Durchl: Camer"), not letters to a cardinal |
 | F-lv0w (Frg. 165) | partial | partial: the "Constance document of July 1415" is the constitution *Iusticiam et equitatem* as inserted in Basel session I, in the same Acta copy as leaves 1-4 |
 | F-wmq3 (Frg. 8) | partial | partial: Stams Urk. A XCIII 5 (Archduke Sigmund, 11 November 1482) recalls the same foundation grant; its relation to the draft is not established; the "1468" lead was a misread typed note |
 | F-njn8 (Frg. 82) | partial | partial: 82-2 is possibly a minute of the Austro-Venetian arbitration at Trent (1535); the 1545 commissioner is probably Schweikhart von Gundlfingen |
-| F-otkb (Frg. 6) | partial | partial: account years 1443-1444 read; a Walthasar Hewstadel of 1469 probably the same man as the letter's |
+| F-otkb (Frg. 6) | partial | partial: dated entries in the 1440s; a Walthasar Hewstadel of 1469 probably the same man as the letter's |
 | F-n1f4 (Frg. 27) | partial | partial: the Proverbs text is closest to Dietenberger among five Bibles compared; the Marian lines open with a Catholic motto printed at Ingolstadt in 1629 |
-| F-8u0s (Frg. 179) | partial | partial: new readings; the key noun is probably "propst", not "prophet" |
+| F-8u0s (Frg. 179) | partial | partial: new readings; the key noun, read "propst" by the first reader and (low confidence) a blind reader, stays unsettled between "propst", "profet" and "profos" |
 | F-y3wr (Frg. 183) | partial | partial: piece 183_2 read in full (theology notes and the plan of Aquinas's *Summa*) |
 | F-tema (Frg. 38) | partial | partial: a fuller reading of the model sentences; no source |
 | F-gkmr (Frg. 16) | partial | partial: "Confitebor tibi in populis" is a mid-piece psalm cue, not a title |
@@ -39,15 +39,17 @@ unidentified to partial, and several are reframed.
    it stands verbatim in the preserved first reading.
 3. Five blind readers (Claude Fable 5.2), given 89 renamed crops chosen by the
    research sessions and no context, transcribed the words that carried each
-   result. They confirmed, among others, "Durch[l]: Camer" on F-j8cl,
-   "[s]atisfa(ci)o(n)es" on F-4td2, "propst" on F-8u0s and "Pulsatum est:
-   uisam si libet" on F-tema; they did not confirm the readings behind
+   result. They confirmed, among others, "Durch[l]: Camer" on F-j8cl and "Pulsatum est:
+   uisam si libet" on F-tema, and tentatively agreed with "satisfa(ci)ones" on
+   F-4td2 and "propst" on F-8u0s (low confidence); they did not confirm the readings behind
    F-kd2f's John 15 suggestion, which was withdrawn.
-4. Independent checkers reread F-4x8s and eleven partial records on the images
-   and sources. They confirmed the Codex Iustinianus piece (about 25 words in
+4. Independent checkers reread F-4x8s and eight other records (F-lv0w, F-4td2,
+   F-yauy, F-n1f4, F-j8cl, F-wmq3, F-njn8, F-otkb) on the images and sources. They confirmed the Codex Iustinianus piece (about 25 words in
    order, read before opening the edition) and the Basel *Acta* placement, and
    corrected wording on F-4td2 ("possibly"), F-n1f4 (closest to Dietenberger,
-   not his text), F-j8cl, F-wmq3, F-njn8 and F-otkb.
+   not his text), F-j8cl, F-wmq3, F-njn8 and F-otkb. A Codex review corrected the F-otkb years,
+   the qualifications on F-j8cl, the quotation of low-confidence blind readings
+   and an overreach on F-y22z.
 
 ## Unavailable sources
 
