@@ -8580,7 +8580,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Galen, Ad Glauconem de medendi methodo, old Latin translation, book II: end of the chapter on soft swellings and the chapter on scirrhus, with the subsection 'de uirtutibus adipum' (Greek II.5-6, Kühn XI 101-105; Venice 1522, tract. II cap. x-xi; Vendôme, BM, Ms. 109, f. 28v-29r)",
-  "note": "A research reader reread verso lines 2-12 and 14-24 and the foot of the recto on the native images and compared them with the page image of the Venice 1522 Latin Galen (tract. II cap. x-xi) and, for the verso, with Vendôme, BM, Ms. 109, f. 28v-29r: the wording and order agree from 'Fit autem sirosis id est durus tu[mor] ex glutinoso quodam' through the remedies called malactica to the ranking of fats ('ualde melius est leopardinum quam leoninum & melius est ursinum quam taurinum'), and the leaf sides with the Vendôme manuscript against the print in several readings. Gariopontus's Passionarius, which takes over the chapter, is not the text of the leaf: the Basel 1531 edition and Paris, BnF, NAL 695 lack the ranking of fats and word three sentences differently. The red chapter number xxxiiii beside 'Incipit ... uirtutibus adipum' is unexplained, since Vendôme 109 numbers the section xiii and Paris, BnF, lat. 6837 numbers it xv. Most of the abraded recto was not compared, three recto lines were read only with the source as a guide, and no critical edition of the translation was used.",
+  "note": "A research reader reread verso lines 2-12 and 14-24 and the foot of the recto on the native images and compared them with the page image of the Venice 1522 Latin Galen (tract. II cap. x-xi) and, for the verso, with Vendôme, BM, Ms. 109, f. 28v-29r: the wording and order agree from 'Fit autem sirosis id est durus tu[mor] ex glutinoso quodam' through the remedies called malactica to the ranking of fats ('ualde melius est leopardinum quam leoninum & melius est ursinum quam taurinum'), and the leaf sides with the Vendôme manuscript against the print in several readings. Gariopontus's Passionarius, which takes over the chapter, is not the text of the leaf: the Basel 1531 edition and Paris, BnF, NAL 695 lack the ranking of fats and word three sentences differently. The red chapter number xxxiiii beside 'Incipit ... uirtutibus adipum' is unexplained, since Vendôme 109 numbers the section xiii and Paris, BnF, lat. 6837 numbers it xv. Most of the abraded recto was not compared, three recto lines were read only with the source as a guide, and no critical edition of the translation was used. The verso lay face to face with a seventeenth-century German account leaf, Stams, Frg. 175, leaf 9r (F-pmci): each carries the other's offset.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb10139500?page=200",
   "examined": "2026-11-09",
   "identified_on": "2026-11-09",
@@ -8603,7 +8603,7 @@
      "title": "Galenus, Ad Glauconem de medendi methodo, lib. II",
      "persons": "Galenus",
      "description": "01r: end of the chapter on soft swellings, with a plaster recipe. Expl.: Fit autem sirosis id est durus tu[mor] ex glutinoso quodam sed spisso atque. 01v: the chapter on scirrhus and the remedies called malactica; then, with red number xxxiiii, Incipit [de] uirtutibus adipum. De adipibus uer[o opti]mum est leoninum inter quadrupedes ... Expl.: [De uola]tilibus autem obtimum est adipe anserin[um].",
-     "remarks": "Agrees with the Venice 1522 edition (tract. II cap. x-xi) and with Vendôme, Bibliothèque municipale, Ms. 109, f. 28v-29r, where the section on fats is chapter xiii of book II. The number xxxiiii on this leaf is unexplained. Not the reworking in Gariopontus, Passionarius, which lacks the ranking of fats. 01r is abraded and only partly read."
+     "remarks": "Agrees with the Venice 1522 edition (tract. II cap. x-xi) and with Vendôme, Bibliothèque municipale, Ms. 109, f. 28v-29r, where the section on fats is chapter xiii of book II. The number xxxiiii on this leaf is unexplained. Not the reworking in Gariopontus, Passionarius, which lacks the ranking of fats. 01r is abraded and only partly read. The verso carries the offset of the German account entries of Stams, Frg. 175, leaf 9r (F-pmci), which carries this verso's offset."
     }
    ],
    "bibliography": [
@@ -11046,11 +11046,22 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Unidentified Latin legal commentary citing civil and canon law (14th century?)",
-  "note": "Two strips from a densely abbreviated legal commentary in long lines (14th century?) citing civil and canon law (ff., C., di., q., and 'xviii. di.' twice, Decretum D. 18 on synods), with topics of synod attendance ('ad synodos ueniant'), an obligation to pay ('nec teneatur ad solucionem'), the ordinary and the archdeacon, possession, and a church of St Mary ('eccl(es)ia s(an)c(t)e marie'). Faded ink at the published resolution allowed only fragmentary assisted readings of the left strips on both faces; right strips largely unread. Phrase searches (Google Books, Internet Archive, MDZ, Corpus Corporum) and a batched CoMMA search found nothing above noise; no Decretal commentary could be tested because no phrase or allegation chain was secure. Better imaging (multispectral or raking light) is needed to establish connected text.",
+  "identification": "Unidentified Latin legal commentary citing civil and canon law (14th century?), possibly on a provincial canon on castle chaplains",
+  "note": "Two strips from a densely abbreviated legal commentary in long lines (14th century?) that alleges civil and canon law ('ff.', 'C.', and 'xviii. di.' twice, Decretum D. 18 on synods) and underlines words of the text it comments on. The words 'ad sinodos ueniant' on one face, with the ordinary, the archdeacon and obedience ('ordinarium archidiaconum(?)', 'obediencie(?)') on the other, possibly point to a commentary on the provincial canon on the chaplains of nobles' castles, 'nisi ante episcopo vel loci archidiacono obedientiam faciant manualem, et ad synodos veniant' (for example in the Mainz provincial statutes of 1310, De maioritate et obedientia, Schannat-Hartzheim, Concilia Germaniae IV; OCR text only). This rests on three words and the subject; the other possible lemma words are uncertain and do not stand in the canon's order, and no commentary on the canon was found to compare. Faded ink at the published resolution allows no connected reading longer than about five words; phrase searches (Google Books, Corpus Corporum) and a batched CoMMA search gave no lead above noise, and better imaging of the underlined lemmata is needed.",
   "verify": "https://fragmentarium.ms/overview/F-owoj",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Legal commentary (unidentified)",
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Unidentified legal commentary",
+     "description": "Two strips in long lines with allegations of civil and canon law ('ff.', 'C.', 'xviii. di.') and underlined lemmata; synod attendance, the ordinary and the archdeacon, an obligation to pay, a church of St Mary.",
+     "remarks": "'ad sinodos ueniant' possibly points to a commentary on a provincial canon on castle chaplains (as in the Mainz provincial statutes of 1310, De maioritate et obedientia). Not identified."
+    }
+   ]
+  }
  },
  {
   "id": "F-d7ux",
@@ -11063,13 +11074,35 @@
   "shelfmark": "Frg. 34",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Unidentified Latin devotional or liturgical prose on the Mass (15th-century cursive, very faint)",
-  "note": "A paper bifolium, about 148 x 124 mm, in a very faint Gothic cursive. It carries theological or devotional prose that appears to concern the Mass and Eucharist (ad missa ...(?), periculum, rogo te ... per missam(?)), with an enlarged Per xp(istu)m at a line start on face r. A larger textura layer on face v, possibly offset, could not be read straight or mirrored. Too little connected text could be read to search: Corpus Corporum and Google Books queries on the readings as corrected, and a CoMMA search, found nothing above noise.",
-  "verify": "https://fragmentarium.ms/overview/F-d7ux",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "status": "partial",
+  "confidence": "medium",
+  "identification": "Treatise on letter-writing (ars dictandi): kinds of conclusio and the parts a letter may consist of, parallel to Tommasino di Armannino, Microcosmus (ed. Bertoni 1921, pp. 26-27); containing treatise unresolved",
+  "note": "A paper leaf with a stub, about 148 x 124 mm, with some 24 long lines a face in a faint Gothic cursive. Face v gives kinds of conclusio (Rogativa, Condicionalis, probably Causativa) and then the letters made of two or three parts, with the model petition 'Rogo te quatinus pretermissis omnibus Bononiam ...' and 'non credo epistolam', in the order of Tommasino di Armannino's Microcosmus, in every passage read (or of the fuller work he says he abridged); a research reader compared nine passages with the page images of Bertoni's edition. The wording differs in places (word order, the conditional example, the five parts listed by name), several lines are unread, and face r, which has enlarged words such as 'Per xpm', was not matched to that text. The treatise the leaf comes from is therefore not established.",
+  "verify": "https://archive.org/details/ArchivumRomanicum5/page/n38",
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "tags": [
+    "Topic: grammar"
+   ],
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_034_01v",
+     "text_language": "Latin",
+     "title": "Ars dictandi: kinds of conclusio; of how many parts a letter can consist",
+     "remarks": "Parallel in order and largely in wording, in the passages read (about half the lines), to Tommasino di Armannino, Microcosmus (ed. Bertoni 1921, pp. 26-27), with differences. The treatise the leaf comes from is not established."
+    },
+    {
+     "locus": "Stams_STA_Frg_034_01r",
+     "text_language": "Latin",
+     "title": "Unidentified text, possibly the same treatise",
+     "remarks": "Enlarged words within the text, among them Per xpm. Not matched."
+    }
+   ],
+   "bibliography": [
+    "G. Bertoni, Il Microcosmo di Tommasino d'Armannino, Archivum Romanicum 5 (1921), pp. 19-28"
+   ]
+  }
  },
  {
   "id": "F-vujo",
@@ -11686,21 +11719,28 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Shortened and glossed text of Jacobus de Voragine, Legenda aurea, c. 168-170 (Elisabeth, Caecilia, Clement; Graesse), the adaptation and its compilation unidentified, with Collectio epithetorum lists and unidentified model letters",
-  "note": "Four faces of these paper pieces (101-10r, 101-10v, 101-5r, 101-5v) carry Legenda aurea c. 168, 169 and 170 in order. Two research readers collated them with Graesse's edition (1846 page images; OCR of the 1850 edition): narrative sentences agree closely in wording and order, most speeches are absent, some sentences are reworded, and on 101-10r the birds over Elisabeth's church are made angels carrying her soul, which is not in Graesse. Other pieces carry Collectio epithetorum lists whose epithets for women agree item for item over about twenty words with München UB 4 Cod. ms. 812, fol. 7r (page image), in a different form (red headings, 'Et huiusmodi consimilia', adverbial bad epithets). Rubricated model letters on a son's schooling and the faded Elisabeth piece 101-3v are not identified, and several pieces were not reread. The pieces probably come from one book (same hand and rubrication), but no join was found; no date, origin or source of the shortened text is claimed; no human review.",
+  "identification": "Sermon text on St Elisabeth: the end of one sermon and the opening of a second on Qui invenit mulierem bonam (Prov 18,22), whose incipit agrees closely with the anonymous sermon Schneyer, Repertorium IX, p. 897, no. 159 (Wolfenbüttel, Cod. Guelf. 23.26 Aug. 4°; compared in repertory snippets only); shortened and rearranged Legenda aurea c. 168-170 text (Elisabeth, Caecilia, Clement), possibly the bodies of that collection's sermons 159-161; with Collectio epithetorum lists and unidentified model letters",
+  "note": "Piece 101-3v has the end of a sermon on St Elisabeth, the red rubric 'S(ermo) s(ancte) elizabeth' and the opening of a second sermon on Qui invenit mulierem bonam (Prov 18,22); its first twenty or so words ('ista verba optime [conve]niunt beate elysabeth ... sunt valde commendabilia in muliere ... inveniuntur in ea') agree closely with the incipit Schneyer gives for an anonymous sermon in Wolfenbüttel, Cod. Guelf. 23.26 Aug. 4° (Repertorium IX, p. 897, no. 159), read in snippets of the repertory and not in the manuscript. Four other faces (101-10r, 101-10v, 101-5r, 101-5v) carry shortened and rearranged text of Legenda aurea c. 168, 169 and 170, collated with Graesse, including on 101-10r two sentences from the closing exposition of c. 168 moved into the narrative; they are possibly the bodies of that collection's sermons 159-161 (Elisabeth, Caecilia, Clement, each ending in a Legenda aurea sentence), but no copy of those sermons was available to compare. Other pieces carry Collectio epithetorum lists whose epithets for women agree item for item with München UB 4 Cod. ms. 812, fol. 7r, and model letters between a father, a son and his schoolmaster (rubrics such as 'Magister ad patrem ut mittat sibi li[bros]', 'Responsio filii ad patrem'), source not found. One book is probable (same hand and rubrication) but no join was found; the author of the sermon collection is not established; no human review.",
   "verify": "https://archive.org/details/LegendaAureaGraesse1846",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
-   "title": "Shortened Legenda aurea; Collectio epithetorum; model letters",
+   "title": "Sermons on St Elisabeth; shortened Legenda aurea (Elisabeth, Caecilia, Clement); Collectio epithetorum; model letters",
    "content": [
+    {
+     "locus": "101-3v",
+     "text_language": "Latin",
+     "title": "Two sermons on St Elisabeth",
+     "description": "End of one sermon; rubric 'S(ermo) s(ancte) elizabeth'; opening of a second on Qui invenit mulierem bonam (Prov 18,22).",
+     "remarks": "The opening agrees with the incipit of the anonymous sermon Schneyer, Repertorium IX, p. 897, no. 159 (Wolfenbüttel, Cod. Guelf. 23.26 Aug. 4°). Compared with the repertory entry only."
+    },
     {
      "locus": "101-10r; 101-10v; 101-5r; 101-5v",
      "text_language": "Latin",
-     "title": "Shortened and glossed text of Jacobus de Voragine, Legenda aurea, cap. 168-170",
+     "title": "Shortened and rearranged text of Jacobus de Voragine, Legenda aurea, cap. 168-170",
      "persons": "Jacobus de Voragine",
-     "description": "Elisabeth, Caecilia and Clement, in that order. Most speeches are left out and some sentences reworded; on 101-10r the birds over Elisabeth's church are angels carrying her soul.",
-     "remarks": "The adaptation and the compilation it comes from are not identified."
+     "description": "Elisabeth, Caecilia and Clement, in that order. Most speeches are left out; on 101-10r two sentences from the closing exposition of cap. 168 are moved into the narrative.",
+     "remarks": "Possibly the bodies of sermons on these saints from the same collection (Schneyer IX, p. 897, nos. 159-161); not compared with a copy."
     },
     {
      "text_language": "Latin",
@@ -11711,12 +11751,13 @@
     {
      "text_language": "Latin",
      "title": "Model letters",
-     "description": "Rubricated model letters on a son's schooling.",
+     "description": "Rubricated model letters between a father, a son and his schoolmaster.",
      "remarks": "Not identified."
     }
    ],
    "bibliography": [
-    "Jacobi a Voragine Legenda aurea, ed. Th. Graesse (Dresden and Leipzig 1846), pp. 764-765, 774, 786"
+    "J. B. Schneyer, Repertorium der lateinischen Sermones des Mittelalters, vol. IX (Münster 1980), p. 897, nos. 158-161",
+    "Jacobi a Voragine Legenda aurea, ed. Th. Graesse (Dresden and Leipzig 1846), pp. 764-766, 774, 786"
    ]
   }
  },
@@ -11902,10 +11943,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Latin lecture notes on Aristotle's De caelo (Quaestiones with Conclusiones, 17th-century cursive) whose text follows the Coimbra Jesuit Commentarii in quatuor libros De coelo, lib. II c. 5 q. 1 (Empyrean, number and order of the heavens) and lib. II c. 7 q. 3 (light of the stars); containing course unidentified",
-  "note": "A paper bifolium reused in a binding. A research reader reread on the images the left and right blocks of both faces, except the parts under a black textura offset on face 01r, and collated them on page images of the Cologne 1596 and 1618 Coimbra editions. In wording and in article order the notes agree with Coimbra in four places: the aqueous or crystalline heavens (col. 268), the Fathers' one, two or three heavens with 2 Cor. 12 (col. 266-267), the square Empyrean, 'astra matutina' and 'intelligibile' (col. 264-265), and the sun not destroying starlight, with stars seen from a deep well, citing Pliny and Scaliger (col. 321-322). An independent check confirmed this on a further passage (col. 265, 268). It found that the notes also use Clavius's twelve-heaven count where Coimbra has eleven, and that they open the Empyrean section with a stock sphericity argument that is not in Coimbra. Agreement of wording does not show direct use of Coimbra, since an intermediate course built on Coimbra and Clavius cannot be excluded. The course, its school and its date are not identified: 1592, the date of the Coimbra De coelo, is only a lower limit, and the century rests on the script. No human review.",
-  "verify": "https://www.digitale-sammlungen.de/en/view/bsb11726262?page=140",
-  "examined": "2026-11-01",
+  "identification": "Latin lecture notes on Aristotle's De caelo, lib. II (Quaestiones with Conclusiones, 17th-century cursive), agreeing closely, in places word for word, and in order but for one sentence, with Georg Klainer SJ, Theses philosophicae de quinta substantia Peripateticorum sive de coelo (Dillingen 1608), theses XXII, XXIV-XXVII and XXXV; probably notes from a Jesuit philosophy course closely related to the one behind those theses and, like the leaf, drawing on the Coimbra Commentarii in De coelo; the course manuscript is not identified",
+  "note": "A paper bifolium reused in a binding, with conclusions on the spherical figure of the heavens, the Empyrean, the order and nobility of the heavens, the light of the stars, and the figure and motion of the stars. Read against page images of Klainer's Dillingen theses of 1608, the notes follow theses XXII, XXIV-XXVII and XXXV, often in the same words and in the same order except for one sentence placed as in the Coimbra commentary, including lines not found in the Coimbra commentary by a text search of its OCR ('quin seipsos caeli frangerent ac perrumperent', 'infimum et nobis proximum', the exception of the Sun's heaven). The notes are fuller than the print and keep Coimbra matter that it lacks (the waters above the heavens, Pliny and Scaliger on stars seen from a well), so they are probably notes from a lecture course closely related to the one behind the theses, not a copy of them; notes made from the printed theses together with Coimbra cannot be excluded, and nothing shows the course was given at Dillingen. The lecturer and the year are not fixed by the leaf.",
+  "verify": "https://www.digitale-sammlungen.de/en/view/bsb10155910?page=15",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Lecture notes on Aristotle, De caelo",
@@ -11918,11 +11959,12 @@
      "text_language": "Latin",
      "title": "Quaestiones on Aristotle, De caelo, lib. II",
      "persons": "Aristoteles",
-     "description": "Quaestiones with Conclusiones on the Empyrean, the number and order of the heavens, and the light of the stars.",
-     "remarks": "Follows the Coimbra Commentarii in quatuor libros De coelo, lib. II c. 5 q. 1 and c. 7 q. 3, and also uses Clavius's count of twelve heavens. The course is not identified."
+     "description": "Conclusiones on the spherical figure of the heavens, the Empyrean, the order and nobility of the heavens and the light of the stars; Quaestio 2da, De figura et motu stellarum.",
+     "remarks": "Agrees closely, in places word for word, and in order but for one sentence, with Georg Klainer SJ, Theses philosophicae de coelo (Dillingen 1608), theses XXII, XXIV-XXVII and XXXV, and with the Coimbra Commentarii in De coelo, lib. II c. 5 and c. 7. Probably notes from a Jesuit course closely related to the one behind the theses; the course manuscript is not identified."
     }
    ],
    "bibliography": [
+    "Georg Klainer (praes.), Theses philosophicae de quinta substantia Peripateticorum sive de coelo (Dillingen 1608), pp. 11-13, 16-17",
     "Commentarii Collegii Conimbricensis in quatuor libros De coelo Aristotelis (Cologne 1596), cols. 264-268, 321-322"
    ]
   }
@@ -11938,13 +11980,28 @@
   "shelfmark": "Frg. 160",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Unidentified German devotional prose on the vision of God and the joys of heaven (two paper pieces, 15th-century Bavarian-Austrian cursive)",
-  "note": "Two paper pieces, one strip and one torn leaf; the verso of the strip is blank. A research reader reread all written faces on the images. The leaf is about the vision of God making man like God ('von der gesicht gotz vnd des menschen wirt der mensch got geleich'), with the image of the sun's heat in the eye, and on heavenly joy ('dem augen ain spiegel dem oren ain saitenspil ... ain plum', Ps. 89:4, Luke 15:10 'gaudium angelorum'). The strip holds a first-person meditation ('ich bedenk die grosse ... alt veter vnd propheten', 'lieb ist ain feur', 'die gutat die im got hat getan'); whether it belongs to the same work is open. Phrase searches in Google Books and the Handschriftenportal found no source, and the speculum-cithara-flos topos and the Bible verses are too common to identify anything. The stained lower half of 1r and the Latin lines on 1v were read only weakly. No human review.",
+  "status": "partial",
+  "confidence": "low",
+  "identification": "German prose with Latin authorities on seeing God and Christ, probably a sermon (two paper pieces, 15th-century Bavarian-Austrian cursive); probably paraphrases Bernard of Clairvaux, Sermones super Cantica 2.1, and quotes his 'videre hominem hominis conditorem'; containing work not found",
+  "note": "Two paper pieces in one hand, reread at native size; the stained lower third of 1r and the Latin lines on 1v remain weakly read, and the strip's verso is blank. The strip probably paraphrases Bernard, Sermones super Cantica 2.1 ('ich bedenk die grosse ... alt veter vnd propheten ... so träg dergegen pin'), and goes on to divine love as a fire ('gotlich lieb ist ain feur'). The leaf argues from 2 Cor 3:18 and an ostrich exemplum ('der strauss von der kraft seins gesichts vnd von der hitz der sune') that the sight of God makes man like God, applies the mirror, string-music and flower topos (as in Compendium theologicae veritatis VII.31) to 'die aller schönst menschait Christi', and ends with Bernard's sentence in German ('sehen den menschen der des menschen schepfer ist'; Sermones super Cantica 20.3, read on the page). Both Bernard passages circulate as sermon authorities, so the German writer perhaps took them from an intermediate source. The containing German work was not found by Google Books, Corpus Corporum or Internet Archive searches, nor by search in Schnell's edition of Peuntner's Liebhabung Gottes; that strip and leaf are one text is likely but not proved.",
   "verify": "https://fragmentarium.ms/overview/F-2fha",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "German sermon (?) on the vision of God",
+   "tags": [
+    "Topic: sermons"
+   ],
+   "content": [
+    {
+     "locus": "160-2r; 160-1r; 160-1v",
+     "text_language": "German; Latin",
+     "title": "German prose on seeing God and Christ, probably a sermon",
+     "description": "160-2r (strip, end of a text): probably a paraphrase of Bernard of Clairvaux, Sermones super Cantica 2.1, then on divine love as a fire. 160-1r: the sight of God makes man like God (2 Cor 3:18, ostrich exemplum); faith, hope and love in the life to come. 160-1v: the humanity of Christ as mirror to the eye, string music to the ear, flower to the touch; Ps 89:4; Lk 15:10; Bernard, 'videre hominem hominis conditorem', in German. Expl. (160-1v): das wir aber sehen den menschen der des menschen schepfer ist.",
+     "remarks": "The work is not identified. The senses topos is that of Compendium theologicae veritatis VII.31, applied here to Christ's humanity. 160-2v is blank."
+    }
+   ]
+  }
  },
  {
   "id": "F-jt31",
@@ -12002,13 +12059,28 @@
   "shelfmark": "Frg. 32",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Unidentified Latin prose (small abbreviated cursive in short two-column lines, with display words in red frames), very abraded paper",
-  "note": "Nine paper pieces in a small, heavily abbreviated cursive, some in two short columns, with display words in a larger textualis framed in red. The display words were read only doubtfully as 'plenaria(?)' and 'Calu(m)nia(?)' on 32-7r, and 'Fer' and '[...]uebat via(?)' on 32-4v. A research reader reread parts of 32-7r and 32-4v and two bottom-row pieces on native images with contrast stretching. Show-through from the other face mixes with the text, and only isolated words and one phrase ('lac et medicina et antidotum') could be read. The image-only first readings are almost wholly illegible. Searches of that phrase in Google Books and Corpus Corporum found nothing relevant, and no candidate was formed. Better imaging (raking light, UV) is needed.",
+  "status": "partial",
+  "confidence": "low",
+  "identification": "Commentary, probably on Prudentius, Dittochaeon (Tituli historiarum), Old Testament stanzas (12, 16 and probably 19); the commentary itself unidentified",
+  "note": "Nine abraded paper pieces in a small abbreviated cursive, with words in a larger book hand inside red frames. Three framed phrases are words of Prudentius, Dittochaeon: 'Fer|uebat via' (stanza 12, 'Fervebat via sicca eremi'), read the same by four readers, 'yericho' (stanza 16, 'Procubuit Iericho'), read by three readers who had no candidate text, and, less securely, 'Dauid' (probably stanza 19, 'David parvus erat'), read by one of them. 'Fervebat via' carries most of the weight; David and Jericho alone are common biblical names. The matches were found by Corpus Corporum search in a transcribed text; no page of the poem or of a commentary on it was compared, the other frames are not placed, and the cursive is unread.",
   "verify": "https://fragmentarium.ms/overview/F-mnxg",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "tags": [
+    "Topic: grammar"
+   ],
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_032_01r09r; Stams_STA_Frg_032_01v09v",
+     "text_language": "Latin",
+     "title": "Commentary, probably on Prudentius, Dittochaeon (Old Testament stanzas)",
+     "description": "Lemmata in larger script in red frames within the commentary: Fer|uebat via (Dittochaeon 12), [...] yericho (16), Dauid [...] (probably 19).",
+     "remarks": "Other framed words not placed. The commentary is not identified. Order of the nine pieces not established."
+    }
+   ],
+   "title": "Unidentified commentary, probably on Prudentius, Dittochaeon"
+  }
  },
  {
   "id": "F-tema",
@@ -12056,11 +12128,11 @@
   "catalogue_title": "x",
   "catalogue_date": "not given",
   "status": "partial",
-  "confidence": "low",
-  "identification": "German computistical calendar, March-June (central bifolium), with Upper German saints' entries, day lengths and four columns headed 'Die ... zal' that appear to be new-moon tables for four cycles (Johannes von Gmunden type, not matched)",
-  "note": "One bifolium of a calendar, one month per page: March and June on one face, April and May on the other, the last two to four days of each month lost. The saints' entries are in German (e.g. 'S Erasm(us) ein byschoff', 'S Johans als er in ol(?) wert ge[sotten?]', 'Die sunne get in den wider', 'Hie vahet der sumer an'); they rest largely on the image-only first reading, checked against the dominical letters, and Florian, Gotthard and Potentiana point to the Bavarian-Austrian area without being tested against regional calendars. The four numeral columns headed 'Die ... zal' (one heading read, uncertainly, as 'Die vierd zal'), with small red letters above the numerals and an occasional 'kein', look like new-moon tables for four 19-year cycles, as in calendars of the Johannes von Gmunden type, but they were not decoded. The German Gmunden calendar in Berlin, Ms. germ. oct. 710, fol. 2v, compared on its page image, sets the four cycles on a separate page with hours and minutes, so it is not the same arrangement; Regiomontanus' German calendar (1474) was excluded on layout. No specific text, redaction or witness was matched.",
-  "verify": "https://content.staatsbibliothek-berlin.de/dc/815901305-0008/full/full/0/default.jpg",
-  "examined": "2026-11-01",
+  "confidence": "medium",
+  "identification": "German calendar, March-June (central bifolium), in an Alemannic written dialect, with saints' days, day lengths and four columns ('Die erst / ander / dritt / vierd zal') giving the hour of the mean new moon for the four 19-year cycles 1387-1462; of the same general type as the 'Iatromathematisches Hausbuch' calendar, no specific text matched",
+  "note": "One bifolium of a calendar, one month per page: June and March on one face, April and May on the other, the last two to four days of each month lost. The four columns headed 'Die erst / ander / dritt / vierd zal' give the hour of the mean new moon, counted from midnight, for the years of the cycles 1387-1405, 1406-1424, 1425-1443 and 1444-1462, each year marked by a small red letter a-t: the 68 numeric cells read on the March, May and June pages agree with this cycle assignment: 51 equal the computed mean new moon truncated to the hour and 17 differ by one whole hour (unadjusted differences up to about 1.3 hours; a 0.28-hour shift fitted to the same cells brings all within one hour), and none of the other cycle starts tested fits; one cell has 'kein' (2 June, fourth column), which the computation does not explain. The red column beside them is the traditional golden number. The saints' entries with German epithets and the 27-letter moon column are of the type of the 'Iatromathematisches Hausbuch' calendar (Heidelberg, Cod. Pal. germ. 557, fol. 9v and 12v, compared on page images), which has a single cycle with hours and minutes and other saints, so it is of the same general type, not the same text. The spellings ('het', 'frowen', 'glich', 'zechen tusent') are Alemannic and 'Florencie wz erhebt' at 3 April suggests the Upper Rhine, untested against regional calendars; Florian (4 May) and Gotthard (5 May) are also entered, and their bearing on the region was not tested; the years date the tables, not this copy, and no work or witness is matched.",
+  "verify": "https://digi.ub.uni-heidelberg.de/diglit/cpg557/0020",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Calendar",
@@ -12073,8 +12145,8 @@
      "locus": "Stams_STA_Frg_066_01r; Stams_STA_Frg_066_01v",
      "text_language": "German",
      "title": "German calendar, March-June",
-     "description": "One month per page, with saints' entries in German, day lengths and four columns headed 'Die ... zal', apparently new-moon tables for four cycles.",
-     "remarks": "Of the Johannes von Gmunden type; no text or witness matched. Florian, Gotthard and Potentiana suggest the Bavarian-Austrian area."
+     "description": "One month per page, with saints' entries in German, day lengths, the golden number and four columns headed 'Die erst / ander / dritt / vierd zal' giving the hour of the mean new moon for the 19-year cycles beginning 1387, 1406, 1425 and 1444.",
+     "remarks": "Alemannic written dialect. Of the same general type as the 'Iatromathematisches Hausbuch' calendar, but a different text; no witness matched. The cycle years date the tables, not this copy."
     }
    ]
   }
@@ -12694,28 +12766,35 @@
   "shelfmark": "Frg. 96",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "partial",
-  "confidence": "low",
-  "identification": "Three strips of a graded liturgical calendar: a name column for 16-23 July (Theodosius ep., Arnulf ep., Arsenius conf., Marinus conf., Praxedis, Mary Magdalene, Apollinaris) and computus columns dated by golden numbers and dominical letters to about 13-19 August, with 'festum duplex'; Auxerre use is a lead, not established",
-  "note": "The research made its own reading on the image (canvas 0) before reading the modern German typescript mounted with the strips, and kept it unaltered; at crop edges it had glimpsed the typed words 'Apollinar' and 'ep. Ravennaten. m. Juli 23: überall'. That first reading had 'Theodosij ep(iscop)i', 'Arnulphi ep(iscop)i', 'Arsenij conf.', '[P]raxed[is]', '[M]arie m[agdalene]' and 'Apollinar[is]' securely, but left the red line as '[..]augu[s?]ta' and the fourth name as '[.]arin[.] c?'; 'Augusti' (the end of xvii kl. Augusti) and 'Marini conf.' were settled only after the typescript was read, so they rest partly on it. The research dated the computus strips itself from the Dionysian table: strip c (golden numbers i, blank, ix with letters e, f, g) fits 17-19 August, and strip b (A with xv, then iv, blank, xii) fits 13-16 August, so 'festum duplex' probably goes with the Assumption, though its row is not secure; the typescript instead puts the duplex at 17 August as a possible Assumption octave. The typescript also gives Grotefend references for each saint, '(Auxerre)' for Theodosius and Marinus on the authority of the Acta Sanctorum, commemorations for 18-20 August and 'Symphoriani m.' for 22 August; the research could not see a commemoration mark or Symphorian on the visible faces, which may come from the taped-down strip versos or a lost piece. The Auxerre lead thus rests on two saints and the typescript's references, and no Auxerre or other calendar was compared (Grotefend online was unavailable); no Cistercian link was found. The record is partial at low confidence; no human review.",
-  "verify": "https://fragmentarium.ms/overview/F-g51l",
-  "examined": "2026-11-01",
-  "identified_on": null,
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Liturgical calendar of the use of Auxerre: a name column for 17-23 July (Theodosius ep., Arnulf ep., Arsenius conf., Marinus conf., Praxedis, Mary Magdalene, Apollinaris) and two strips of golden numbers and Sunday letters (probably mid-August) with 'festum duplex'",
+  "note": "Three strips of a graded liturgical calendar. The name strip has Theodosius bishop, Arnulf bishop, Arsenius confessor, Marinus confessor, Praxedis, Mary Magdalene and Apollinaris for 17-23 July, the same seven feasts on the same days as the calendar of the Auxerre missal Paris, BnF, Latin 17312 and the printed Auxerre missal dated 1487 (the 1532 Auxerre missal agrees except for 'Martini' on 20 July), compared on page images; the printed calendars of Troyes, Nevers, Autun, Paris and Orléans lack Theodosius on 17 July and Marinus on 20 July. The other two strips have golden numbers, Sunday letters and 'festum duplex' without names, probably for mid-August (23-25 March is not excluded). Calendars of Sens, Langres, Chartres and the religious orders were not compared; the church within the diocese and the date are not established.",
+  "verify": "https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b10032406g/f5/3500,1300,2900,2300/max/0/default.jpg",
+  "examined": "2026-11-09",
+  "identified_on": "2026-11-09",
   "fragmentarium": {
    "title": "Calendar",
+   "subtitle": "Use of Auxerre",
    "liturgica": "Calendar",
    "tags": [
     "Topic: Liturgy"
    ],
    "content": [
     {
+     "locus": "Stams_STA_Frg_096_01r",
      "text_language": "Latin",
-     "title": "Calendar, July and August",
-     "description": "Names for 16-23 July (Theodosius ep., Arnulf ep., Arsenius conf., Marinus conf., Praxedis, Mary Magdalene, Apollinaris); golden numbers and dominical letters for about 13-19 August, with 'festum duplex', probably for the Assumption.",
-     "remarks": "A graded calendar. Theodosius and Marinus, with the modern typescript mounted with the strips, suggest Auxerre; the use is not established."
+     "title": "Calendar, use of Auxerre, July and August",
+     "description": "Names for 17-23 July (Theodosius ep., Arnulf ep., Arsenius conf., Marinus conf., Praxedis, Mary Magdalene, Apollinaris); golden numbers and Sunday letters, probably for mid-August, with 'festum duplex'.",
+     "remarks": "The seven July feasts stand on the same days in the calendar of the Auxerre missal Paris, BnF, Latin 17312 and in the printed Auxerre missals of 1487 and 1532; Theodosius and Marinus are absent from the printed calendars of Troyes, Nevers, Autun, Paris and Orléans. The church within the diocese and the date are not established."
     }
+   ],
+   "bibliography": [
+    "Paris, BnF, Latin 17312, calendar (July)",
+    "Missale Autissiodorense (Paris: Jean Du Pré, 1487?), calendar (July)"
    ]
-  }
+  },
+  "kind": "liturgy"
  },
  {
   "id": "F-mz7h",
@@ -12730,10 +12809,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Piece 30.14 only (the darker cursive column on both faces, 30.14v col. b and 30.14r col. 2): Peregrinus de Opole, Sermones de sanctis, sermon for All Souls 'Gaudete cum gaudentibus et flete cum flentibus ... Duo festa pariter agit ecclesia' (Schneyer IV, Peregrinus de Opole S80); the other 28 pieces, mostly a faded rubricated textualis sermon manuscript with an Ascension sermon (not Peregrinus) and a St George rubric, are unidentified",
-  "note": "The darker cursive column of 30.14 was read on the image: on 30.14v col. b (canvas 3) the theme 'Gaudete cum gaudentibus flete cum flentibus Ad romanos xij' and the divisio 'Duo festa pariter sancta ecclesia agit scilicet festum omnium sanctorum et mortuorum. Primum est festum gaudij ... secundum festum fletus', and on 30.14r col. 2 (canvas 2) 'dicit propheta Oblivioni datus sum tanquam mortuus a corde ... Postea periit memoria eorum cum sonitu ... Quarto flent propter expectacionem venie ... de quodam heremita qui vidit duas animas in purgatorio unam usque ad talum', some lines of which are uncertain. This agrees in wording and sequence with Peregrinus's sermon in the 1501 Sermones, read on the BSB page images (scans 305-306), across theme, divisio, the Psalm 30 gloss, the third and fourth reasons for weeping and the hermit exemplum. Variants: 'sancta ecclesia', 'et mortuorum' for 'et festum omnium animarum' (also in a copy Schneyer IX records), 'defuncti' for 'mortui', 'quamdiu pulsantur et sepeliuntur' for 'quamdiu non sepeliuntur', 'talum' for 'talos', and several words struck in the manuscript. The face labelled v carries the sermon's opening and the face labelled r a passage about 35 printed lines later, and it is unresolved whether this column belongs to the same book as the faded textualis columns beside it. That textualis was tested against Peregrinus's only Ascension sermon in the 1501 print ('Signa eos qui crediderint') and does not match; Schneyer and Google Books searches for 30.8r and the CoMMA batch search (whose best hit was the Matthew 5:44 verse on 30.8v) gave no lead. One matched piece among 29 leaves the record partial; the other pieces, including the diagram piece 30.4 and the cursive piece 30.2, rest on an image-only first reading that was not reread; no human review.",
+  "identification": "Piece 30.14, darker cursive column: Peregrinus de Opole, Sermones de sanctis, sermon for All Souls 'Gaudete cum gaudentibus ... Duo festa pariter agit ecclesia' (Schneyer IV, Peregrinus de Opole S80). Pieces 30.12r and 30.8r (faded rubricated book hand): three sermons that also stand in the anonymous Sermones de sanctis of Kiel, Universitätsbibliothek, Cod. ms. Bord. 92 - the end of the sermon for Philip and James followed directly, as in Kiel, by 'Exaltasti super terram' for the Invention of the Cross, and 'Ascendit deus in iubilacione' for the Ascension, which has a different rubric and a different text before it. The other pieces are unidentified",
+  "note": "The darker cursive column of 30.14 agrees in wording and sequence with Peregrinus's All Souls sermon in the 1501 Sermones (BSB bsb00011329, scans 305-306), with variants such as 'et mortuorum' and 'quamdiu pulsantur et sepeliuntur'. On the faded textualis, 30.12r has '[unus] ex phariseis ... arripuit ... in caput ... tali mart[irio] ... sepultus ib[idem]', a rubric for the Invention of the Cross and '[Ex]altasti super terram ... verba ... gratias agens ... [appe]llans lignum', and 30.8r has under the rubric 'In ascensione domini' '[As]cendit deus in iubil... celebramus ... super omnes celos id est super omnes angelos videntibus apostolis et beata Maria ... volens relinquere ... peregrinatus fuit xxxiii ... patriam celestem'; both agree with an anonymous collection of Sermones de sanctis read on page images of Kiel, Cod. ms. Bord. 92 (fols. 7ra and 15vb), with small differences ('id est' for 'et', 'apostolis' for 'discipulis'). The Invention of the Cross rubric and the incipit 'Exaltasti super terram' were read only with the Kiel text in view (a blind reader did not confirm them), while the James passage and the Ascension opening were also read by a blind reader. The text before the Ascension rubric is not that of the Kiel manuscript at the same point, and the rubric is 'In ascensione domini' where Kiel has 'Sermo secundus', so the fragment's book did not have the Kiel arrangement there; and a St George rubric reported on 30.9v was not reread. The cursive piece 30.2, the diagram piece 30.4 and the remaining pieces are unplaced, so the record stays partial; no human review.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb00011329?page=305",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Sermons",
@@ -12750,15 +12829,23 @@
      "remarks": "Whether this column belongs to the same book as the columns beside it is not established."
     },
     {
+     "locus": "30.12r; 30.8r",
      "text_language": "Latin",
-     "title": "Unidentified sermons",
-     "description": "Sermons, including one for the Ascension and a rubric for St George.",
-     "remarks": "The Ascension sermon is not that of Peregrinus de Opole. The other pieces are not identified."
+     "title": "Sermones de sanctis: Philip and James, Invention of the Cross, Ascension (three sermons that also stand in Kiel, Universitätsbibliothek, Cod. ms. Bord. 92)",
+     "description": "30.12r: end of the sermon for Philip and James (expl. sepultus ib[idem]), rubric for the Invention of the Cross, inc. [Ex]altasti super terram. 30.8r: rubric In ascensione domini, inc. [As]cendit deus in iubil... Hodie celebramus [diem] quo ... ascendit super omnes celos id est super omnes angelos.",
+     "remarks": "Compared with Kiel, Cod. ms. Bord. 92, fols. 7ra and 15vb; the Ascension sermon has a different rubric and a different text before it in the fragment. Other pieces in the same hand, including one with a rubric for St George, were not compared."
+    },
+    {
+     "text_language": "Latin",
+     "title": "Unidentified pieces",
+     "remarks": "The other pieces, including a piece in a dense cursive hand (30.2) and a piece with a diagram (30.4), are not identified."
     }
    ],
    "bibliography": [
     "J. B. Schneyer, Repertorium der lateinischen Sermones des Mittelalters, IV, Peregrinus de Opole, no. 80",
-    "Peregrinus de Opole, Sermones (1501)"
+    "Peregrinus de Opole, Sermones (1501)",
+    "Kiel, Universitätsbibliothek, Cod. ms. Bord. 92, fols. 7r, 15v (description by K. Schnabel, Handschriftenportal)",
+    "F. Lackner, Katalog der mittelalterlichen Handschriften bis zum Ende des 16. Jahrhunderts in der Zentralbibliothek der Wiener Franziskanerprovinz in Graz (Vienna 2006), Cod. A 67/29 (not seen; cited from the Kiel description)"
    ]
   }
  },
@@ -12913,37 +13000,40 @@
   "shelfmark": "Frg. 45",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "partial",
-  "confidence": "medium",
-  "identification": "Top strip of a two-column parchment bifolium: one leaf (45r cols 3-4, 45v cols 1-2) follows Conrad of Saxony (Konrad Holtnicker OFM), Sermones de tempore, In die cinerum sermo V 'Convertimini' (printed as Bonaventure, ed. Peltier vol. 13, p. 143), except 45r col. 3; the other leaf (Passion and Annunciation material) and the containing work are unidentified",
-  "note": "The first four lines of each of the eight columns were read on the images (canvas 0 and 1), with many abbreviations still uncertain. Leaf A gives '[nost]ram sicut torrens in aus[tro ...] enim austro calido id est s[piritu sancto dis]soluitur glacies peccatorum torrentes lacrimarum' (45r col. 4), '[p]otentiam tuam et veni ut saluos facies nos. Ecce DD ... inuocat ut nos saluet' (45v col. 1) and '... peccaui non despero quia supra [mo]dum doluit in quo respiro ... [ex]acerbabitur pater immanitate sceleris mei mitigabitur in[...]' (45v col. 2), in the same order and spacing as Conrad's sermon; the Bernard sentence follows Conrad's altered form ('Pater ... mitigabitur in dolore Filii sui') rather than Bernard's own wording, which is the strongest tie to Conrad over a shared commonplace. There are variants ('austro calido', 'ut nos salvet' for 'ut se convertat ei', 'exacerbabitur', Ps 79:3 quoted in full). The print was compared only through archive.org OCR and Google Books snippets of Peltier vol. 13, not page images. 45r col. 3 ('nos insequeris ... dorsum autem in faciem occurris et supplicas ... sed nulla te desperatio') is not in the print, where the preceding column is on procrastination, so the manuscript is either a different redaction or another sermon or compilation reusing Conrad. Leaf B (45r cols 1-2, 45v cols 3-4: 'sine hospitio inter bovem et asinum', 'Ecce ancilla domini', 'sanguine sudare cepit', 'coronatus est spinis ut te coronet in celis') carries Bernardine commonplaces not matched in Peltier vol. 13, and Corpus Corporum, Google Books, Internet Archive and the CoMMA batch search found nothing for its distinctive phrases. The attribution of the printed sermons to Conrad rests on the Klosterneuburg catalogue (Pfeiffer 1922) and standard scholarship, Schneyer not consulted. The record stays partial; no human review.",
-  "verify": "https://fragmentarium.ms/overview/F-da74",
-  "examined": "2026-11-01",
-  "identified_on": null,
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Sermones Amici (anonymous collection of preaching distinctions in alphabetical order): Amicus II and Ascendere I on one leaf (45v cols 3-4, 45r cols 1-2), Converti on the other (45r cols 3-4, 45v cols 1-2)",
+  "note": "The strip is the head of a paper bifolium with the first four lines of eight columns, all reread on the images; they agree in wording and order with the 1501 Basel print Sermones Amici ex corrupto reintegrati, read on Munich page images (bsb10990936, scans 9-10 and 16-17): the end of the second distinction on Amicus and the start of Ascendere on one leaf, four passages of Converti on the other. Small differences from the print include meam for nostram, coronet for coronaret, asina for asino, avertimus for advertimus and respiro for spero, and two words in 45v col. 4 remain uncertain. The Ash Wednesday sermon of Conrad of Saxony (Peltier vol. 13, pp. 142-143, compared in machine-read text only) is a parallel to the Converti distinction, and where the two differ the fragment has the wording of the Sermones Amici. The print names no author and the collection's authorship was not investigated; no human review.",
+  "verify": "https://www.digitale-sammlungen.de/en/view/bsb10990936?page=16",
+  "examined": "2026-11-09",
+  "identified_on": "2026-11-09",
   "fragmentarium": {
-   "title": "Sermons",
+   "title": "Sermones Amici",
+   "subtitle": "Distinctions Amicus II, Ascendere I, Converti",
    "tags": [
     "Topic: sermons"
    ],
    "content": [
     {
-     "locus": "45r cols. 3-4; 45v cols. 1-2",
+     "locus": "45v cols. 3-4; 45r cols. 1-2",
      "text_language": "Latin",
-     "title": "Sermon for Ash Wednesday, as in Conrad of Saxony, Sermones de tempore, In die cinerum sermo V (Convertimini)",
-     "description": "Opening lines of each column.",
-     "remarks": "Follows Conrad's sermon (printed among the works of Bonaventure) in order, apart from 45r col. 3, which is not in the print; either a different redaction or another text reusing Conrad."
+     "title": "Sermones Amici, distinctions Amicus II and Ascendere I",
+     "description": "First leaf of the bifolium, opening lines of each column. Inc. (45v col. 3): [Spiritus] quidem promptus est caro autem infirma. Unde conformans se. Expl. (45r col. 2): Ecce ancilla domini fiat mihi secundum verbum tuum. Ancilla perfecte."
     },
     {
-     "locus": "45r cols. 1-2; 45v cols. 3-4",
+     "locus": "45r cols. 3-4; 45v cols. 1-2",
      "text_language": "Latin",
-     "title": "Passages on the Passion and the Annunciation",
-     "remarks": "Not identified."
+     "title": "Sermones Amici, distinction Converti",
+     "description": "Second leaf, opening lines of each column. Inc. (45r col. 3): nos insequeris tenes et abiiceris. Expl. (45v col. 2): exacerbabitur pater immanitate sceleris mei mitigabitur in.",
+     "remarks": "The passage has a parallel in Conrad of Saxony's fifth sermon for Ash Wednesday (printed among the works of Bonaventure); the fragment's wording is that of the Sermones Amici."
     }
    ],
    "bibliography": [
-    "S. Bonaventurae Opera omnia, ed. A. C. Peltier, vol. 13, p. 143"
+    "Sermones Amici ex corrupto reintegrati ([Basel: Nikolaus Kesler] 1501), fols. III-VII",
+    "S. Bonaventurae Opera omnia, ed. A. C. Peltier, vol. 13 (Paris 1868), pp. 142-143"
    ]
-  }
+  },
+  "kind": "theology"
  },
  {
   "id": "F-d7a7",
@@ -13033,27 +13123,27 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Contents leaf (41_2r) and binding (41_1) of a lost manuscript collection of Latin school or university orations, one entry addressed to an abbot 'D. Neupeck' (perhaps Georg Neupeck of Scheyern, a lead); the reverse (41_2v) carries an encomiastic zodiac oration that paraphrases Manilius, Astronomica V.140-143, in the older vulgate text; the oration and the collection are unidentified",
-  "note": "The contents list on 41_2r (canvas 0) was read on the image: orations on the Christmas vigil, on the life and praise of Ulpian(?), on the study of law, on philosophy and good letters, wedding orations, 'in Mortem Imperatoris', 'in funere Maximiliani Imperatoris', several funeral orations and poems, and 'Oratio in D(omi)num D. Neupeck Abbat(em)', with struck and replaced folio numbers that show the collection was refoliated. About 21 lines of prose on 41_2v (canvas 1) were read: an allegory that runs the Sun through Aries, Taurus, Gemini, Cancer, Leo, Virgo and Scorpio, with Christ and a 'nouellus Rector(?)' woven in. Its Taurus lines ('taurus in aduersos praeceps attollitur ortus sexta parte sui ... Pleiades ducit, quibus aspirantibus almam in lucem educunt Bacchi, Venerisque sequaces') turn Manilius V.140-143 into near-verbatim prose, and each departure from the modern text (adversos, attollitur, ad ortus, Pleiades, educunt) is attested in the early manuscript or printed tradition collated by Thomas (1888), so the writer used a pre-Bentley text. The Manilius passage is a source of the prose, not the identification of the oration; the rest of the zodiac passage is the orator's own. 'Neupeck' matches 'D.D. Georgio Neupeck Abbati in Scheyren' in the dedication of Gamerius's Authoritates Ciceronis and an abbot in the Chronicon Schirense (both MDZ OCR only), which would put the collection in a mid to late 16th-century Bavarian humanist milieu, but this is a lead, not checked against Neupeck's abbacy dates; the Maximilian named in the list is also not determined. Phrase searches in Google Books and MDZ ('aureo in caelo vellere', 'virgineo afflatu', 'cancri retrogradum cursum', 'de vita et laudibus Ulpiani') and the CoMMA batch search gave no lead. The paper slip inside the cover ('Catalogus variarum Orationum ...') and the spine label were not reread, so the collection's author and any printing stay unknown and the record is partial; no human review.",
-  "verify": "https://fragmentarium.ms/overview/F-lqv4",
-  "examined": "2026-11-01",
+  "identification": "Contents leaf (41_2r) and binding (41_1) of a lost volume of Latin orations, probably from the Ingolstadt university milieu in or after the 1560s: two entries carry the titles of Ingolstadt prints (Paulus Lignarius, Oratio de vita et laudibus Ulpiani, 1564; Johannes Albertus Wimpinensis, Oratio de fine philosophiae, 1561) and one is addressed to an abbot 'D. Neupeck', perhaps Georg Neupeck of Scheyern; the reverse (41_2v) carries an unidentified zodiac allegory of Christ as the Sun that quotes Manilius, Astronomica V.140-143, and Silius Italicus, Punica I.257-258",
+  "note": "The contents list on 41_2r (canvas 0) names some twenty orations and poems with struck and replaced folio numbers. Two entries carry the titles of orations printed at Ingolstadt by the Weissenhorn brothers, compared on the title pages: Paulus Lignarius, Oratio de vita et laudibus Ulpiani (1564, VD16 L 1734) and Johannes Albertus Wimpinensis, Oratio de fine philosophiae et quomodo ad ipsum perveniri liceat (1561, VD16 A 1269); if the list is out of folio order there, the second fills fol. 39-50 (the 50 is this reading; it could be taken for 90), the number of leaves the catalogue gives for the print, but the first fills 4 leaves against the 8 the catalogue gives, so whether the lost volume held prints or manuscript copies is open. 'Oratio in Dominum D. Neupeck Abbatem' perhaps means Georg Neupeck, abbot of Scheyern, named in two books of the Ingolstadt professor Gamerius (OCR only). The 21 lines of prose on 41_2v (canvas 1) take the Sun through Aries, Taurus, Gemini, Cancer, Leo, Virgo and Scorpius as an allegory of Christ ('ipse Virgo natus ex uirgine') and quote Manilius V.140-143 word for word as printed at Lyon in 1551 ('certantes lucis ad oras Pleiades ducit ... in lucem educunt') and Silius Italicus, Punica I.257-258 ('flammiferis tellus radiis cum exusta dehiscit, candentique globo medius coquit aethera fervor'; Silius from a transcription, not a page). The oration was not found by phrase searches in the Munich digital library and Google Books; the paper slip in the cover is only a caption for the list and the spine label is illegible.",
+  "verify": "https://www.digitale-sammlungen.de/en/view/bsb10166698?page=5",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
-   "title": "Contents leaf of a collection of orations",
+   "title": "Contents leaf and binding of a volume of Latin orations, two of them printed at Ingolstadt (1561, 1564)",
    "content": [
     {
      "locus": "Stams_STA_Frg_041_01r02r",
      "text_language": "Latin",
-     "title": "Contents list of a collection of Latin orations",
-     "description": "Orations on the Christmas vigil, the life and praise of Ulpian (?), the study of law, philosophy and good letters, wedding orations, 'in Mortem Imperatoris', 'in funere Maximiliani Imperatoris', funeral orations and poems, and 'Oratio in Dominum D. Neupeck Abbatem'.",
-     "remarks": "Neupeck is perhaps Georg Neupeck, abbot of Scheyern. The collection is not identified."
+     "title": "Contents list of a volume of Latin orations",
+     "description": "Orations on the Christmas vigil, the life and praise of Ulpian, the study of law, philosophy and good letters, wedding orations, 'in Mortem Imperatoris', 'in funere Maximiliani Imperatoris', funeral orations and poems, and 'Oratio in Dominum D. Neupeck Abbatem', with folio numbers.",
+     "remarks": "'Oratio de Vita et laudibus Vlpiani' and 'Oratio de fine Philosophiae, et quomodo ad ipsum peruenire licet' agree, but for spelling ('Vlpiani', 'peruenire licet' for 'perueniri liceat'), with the titles of orations by Paulus Lignarius (Ingolstadt 1564) and Johannes Albertus Wimpinensis (Ingolstadt 1561). Neupeck is perhaps Georg Neupeck, abbot of Scheyern. The volume is lost; whether it held prints or manuscript copies is not known."
     },
     {
      "locus": "Stams_STA_Frg_041_01v02v",
      "text_language": "Latin",
-     "title": "Encomiastic oration on the zodiac",
-     "description": "The Sun runs through the signs from Aries to Scorpio, with Christ and a 'novellus rector (?)'.",
-     "remarks": "The Taurus passage paraphrases Manilius, Astronomica V.140-143, in the older vulgate text. Not identified."
+     "title": "Oration with an allegory of Christ as the Sun in the zodiac",
+     "description": "The Sun runs through the signs from Aries to Scorpius; each sign is applied to Christ ('ipse Virgo natus ex uirgine').",
+     "remarks": "Quotes Manilius, Astronomica V.140-143, in the 16th-century printed text, and Silius Italicus, Punica I.257-258. Not identified."
     }
    ]
   }
@@ -13071,35 +13161,38 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Ten paper leaves: (175-1, 175-2) 17th-century Latin lecture notes on the prologue question of theology (Aquinas ST I q.1), source not found; (175-9r) set-off of an older Gothic Latin medical text on humours and stone formation, work not found; (175-3 to 175-10) German administrative papers of the 17th century (a report to the government mentioning a Landgericht Stainach(?), endorsements, accounts), not regested",
-  "note": "On 175-1r the scribe's own heading 'Articulus [5] Nonus. An Theologia sit dignior alijs scientijs' (with 'Articulus' struck through) was read on the image, with 'S. Thomas huius art. 5' tying his article to ST I q.1 a.5, and a further article answering Protestant objections to scholastic theology; the word check confirmed the struck 'Articulus' and '?onus', while the struck 5 reported by the first reader is under a blot and not visible. The set-off on 175-9r, read from a flipped image, gives 'feculenta quasi in lapide c(on)stringi[tur]', 'ex humore locali', 'spissitudo', 'melancolie' and '[di]uretica(?)'; searches in Google Books, Corpus Corporum, the Internet Archive and MDZ found only generic course books for the theology and nothing for the medical phrases (Mercuriale and Sennert share the doctrine but not the script or period), and the CoMMA search scored nothing above control. Of the German papers, the 5r report to 'Hoch vnnd Wolgeborn ... gnedig vnnd gebietundt herren' answers an order dated 12(?) October and mentions 'dises Landtgerichts Stainach(?)'; the years 1649 (5r) and 26 January 162[3?] (3r endorsement) are unverified first-reading figures, since the word-check crops did not contain them. No regest was completed for any German leaf. Partial at genre level only; no human review.",
-  "verify": "https://fragmentarium.ms/overview/F-pmci",
-  "examined": "2026-11-01",
+  "identification": "Ten paper leaves: (175-9r) a German account leaf carrying the reddish offset of Stams, Stiftsarchiv, Frg. 120 verso (F-53hg: Galen, Ad Glauconem, old Latin version, book II, on scirrhus and the fats), which lay against it; (175-1, 175-2) 17th-century Latin lecture notes on the prologue question of theology (Aquinas ST I q. 1), source not found; (175-3 to 175-10) German administrative papers of the 17th century (a report naming 'dises Landtgerichts Stainach(?)' and the year 1649, endorsements, accounts), not regested",
+  "note": "The reddish set-off on 175-9r, read from an image flipped top to bottom, is the offset of the verso of Stams, Frg. 120 (F-53hg, the old Latin Galen, Ad Glauconem II, on scirrhus and the fats): it matches that leaf line for line with the same line ends ('feculenta quasi in lapide c(on)string-', 'sebu(m) deinde taurinu(m) sic uitulinu(m)', '[De] adipib(us)', 'leopardinu(m)'), in the same Caroline script, leaf size and line pitch, and Frg. 120 verso carries the mirror offset of 175-9r's German account entries, so the two leaves lay face to face. Leaves 175-1 and 175-2 carry lecture notes on theology (its necessity for salvation, 'Articulus Nonus. An Theologia sit dignior alijs scientijs', the objections of heretics); phrase searches in the Munich digital library and Google Books found no source. Modern pencil notes on those leaves read 'aus Urbar IX/66 vom J. 1641/49'. The German papers include a report naming 'dises Landtgerichts Stainach(?)' and the year 1649 (5r) and an endorsement of 26 January 162[5?] (3r); none is regested.",
+  "verify": "https://www.digitale-sammlungen.de/en/view/bsb10191216?page=371",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
-   "title": "Theology lecture notes; medical text; administrative papers",
+   "title": "Theology lecture notes; administrative papers, one with the offset of Stams Frg. 120 (Galen, Ad Glauconem)",
    "content": [
     {
      "locus": "175-1; 175-2",
      "text_language": "Latin",
      "title": "Lecture notes on theology (Thomas Aquinas, Summa theologiae I, q. 1)",
      "persons": "Thomas Aquinas",
-     "description": "Article 'An Theologia sit dignior alijs scientijs' (citing S. Thomas, art. 5), and an article answering Protestant objections to scholastic theology.",
-     "remarks": "Source not identified."
+     "description": "Articles on whether theology is necessary for salvation, whether it is a habit distinct from faith, 'An Theologia sit dignior alijs scientijs' (Articulus Nonus, citing S. Thomas, art. 5), and an article answering the objections of heretics to theology.",
+     "remarks": "Source not identified. Modern pencil notes on both leaves: 'aus Urbar IX/66 vom J. 1641/49'."
     },
     {
      "locus": "175-9r",
      "text_language": "Latin",
-     "title": "Medical text on humours and stone formation",
-     "description": "Set-off of an older text.",
-     "remarks": "Not identified."
+     "title": "Offset of Stams, Stiftsarchiv, Frg. 120 verso (Galen, Ad Glauconem, old Latin version, book II: on scirrhus and the fats)",
+     "description": "Reddish offset, legible in an image flipped top to bottom: [in]doctis medi[cis ... intel]legendo mo[x] ... tali humore locali ... feculenta quasi in lapide c(on)string[it] ... temperata et dicuntur mala[ctica] ... adipesque omnes et sebu[m] ... sebu(m) deinde taurinu(m) ... [De] adipib(us) ... leopardinu(m).",
+     "remarks": "Matches the verso of Frg. 120 (F-53hg) line for line, with the same line ends; Frg. 120 verso carries the mirror offset of the German account entries on this page, so the two leaves lay face to face."
     },
     {
      "locus": "175-3 to 175-10",
      "text_language": "German",
      "title": "Administrative papers",
-     "description": "A report to the government mentioning a Landgericht Stainach (?), endorsements and accounts."
+     "description": "A report to a government body naming 'dises Landtgerichts Stainach(?)' and the year 1649 (5r), an endorsement of 26 January 162[5?] (3r), and accounts."
     }
+   ],
+   "bibliography": [
+    "Stams, Stiftsarchiv, Frg. 120 (Fragmentarium F-53hg)"
    ]
   }
  },
@@ -13115,11 +13208,11 @@
   "catalogue_title": "x",
   "catalogue_date": "not given",
   "status": "partial",
-  "confidence": "low",
-  "identification": "Two paper strips of early-modern Latin sermon or meditation notes on love of God and grace, citing Augustine ('Aug. de praeceptis: leue est a[manti]', probably 'Omne praeceptum Dei leve est amanti', Enarr. in Ps. 67.18 as excerpted in Prosper, Sententiae 222) and Chrysostom; the notes themselves are unidentified",
-  "note": "Both rectos were read on the image (canvas 0): on 181-1r the main text 'Unde illud Ezechielis. Sicut p[...] / Quando ergo res sic se habet, quid ca[usae] est. quia non amant, non deside[rant] / Aug. de praeceptis leue est a[manti ...]' with a marginal note in a smaller hand 'gratia ... desiderium requirit / sicut ignis lignis sic gratia alacritate et desiderio indiget Chrysost.', and on 181-2r 'gratia adiuuare ut sint homini facilia et meritoria simul. Sicut nam pluuia [..], nec terra sine pluuia fert fructus, sic nec gratia sine uoluntate nec uoluntas sine gratia'. The Augustine citation rests on three words and the 'praeceptis' heading before the strip breaks off, compared with a Corpus Corporum transcription of Prosper; Peter Lombard has a variant of the same sentence. The rain and earth sentence is a commonplace given as patristic in later handbooks (Raynaud, Eunuchi, MDZ OCR; the Chrysostom index has 'Voluntas sine gratia nihil valet'), and the strip's wording is a free version, not a quotation. The versos were not reread (181-1v is largely masked on the image). MDZ, Internet Archive, Google Books and the CoMMA batch search found nothing for 'quia non amant, non desiderant', 'facilia et meritoria' or 'sicut ignis lignis, sic gratia'. The notes look like a preacher's private jottings, so only the cited sentences and the genre are established and the record is partial; no human review.",
+  "confidence": "medium",
+  "identification": "Two paper strips of Latin sermon or meditation notes on the love of God and grace, citing Chrysostom (Homily 1 on 2 Timothy, freely), the Opus imperfectum in Matthaeum (homily 32, freely) and Augustine ('Aug. de praeceptis leue est a[...]', probably 'Omne praeceptum Dei leve est amanti', Prosper, Sententiae 222); the notes themselves are unidentified",
+  "note": "The margin note signed 'Chrysost.' ('sicut ignis lignis sic gratia alacritate et desiderio indiget') gives the sense of Chrysostom, Homily 1 on 2 Timothy, section 2 (on 2 Tim 1:6), compared on the page in the Latin of the Paris edition of 1835-1839 ('Ut enim ignis opus habet lignis, sic et gratia alacritate nostra'); a 16th-century Latin version (Alardus 1539, OCR only) has 'ignis indiget lignis', closer to the strip. The sentence 'nec terra sine pluuia fert fructus, sic nec gratia sine uoluntate nec uoluntas sine gratia' freely renders the Opus imperfectum in Matthaeum, homily 32 (same edition, p. 873, read on the page). The confidence is for these cited sentences, not for the notes. The Augustine citation is probably 'Omne praeceptum Dei leve est amanti' (Prosper, Sententiae 222, headed 'De praecepto Dei'), on three words and the heading. The main prose ('Quando ergo res sic se habet, quid causae est. quia non amant, non desiderant') was not found by Google Books, Internet Archive, MDZ or CoMMA searches, nor in Lohner's Bibliotheca manualis concionatoria or Alardus's Selectae similitudines (OCR text). A modern pencil note on both strips says they come from an archival item IX/66 of 1641/49; the versos carry no early text.",
   "verify": "https://fragmentarium.ms/overview/F-mn3p",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Notes on the love of God and grace",
@@ -13131,8 +13224,8 @@
      "locus": "Stams_STA_Frg_181_01r02r",
      "text_language": "Latin",
      "title": "Sermon or meditation notes on the love of God and grace",
-     "description": "Cites Augustine ('Aug. de praeceptis leue est a[manti]') and, in a marginal note, Chrysostom ('sicut ignis lignis sic gratia alacritate et desiderio indiget').",
-     "remarks": "The Augustine citation is probably 'Omne praeceptum Dei leve est amanti' (Enarr. in Ps. 67.18, as excerpted in Prosper, Sententiae 222). The notes are not identified."
+     "description": "Cites Augustine ('Aug. de praeceptis leue est a[...]'), in a marginal note Chrysostom ('sicut ignis lignis sic gratia alacritate et desiderio indiget'), and the comparison of grace and will with rain and earth.",
+     "remarks": "The marginal note freely renders Chrysostom, Homily 1 on 2 Timothy (on 2 Tim 1:6); the rain and earth sentence freely renders the Opus imperfectum in Matthaeum, homily 32. The Augustine citation is probably 'Omne praeceptum Dei leve est amanti' (Prosper, Sententiae 222). The notes are not identified. A modern pencil note says the strips come from an archival item IX/66 of 1641/49."
     }
    ]
   }
@@ -13686,13 +13779,13 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Corrected working draft of a German devotional text of about 1580-1630, headed 'Christliches ... wider den bösen Geist [und] Teufl, wann er [einem] geistlichen(?) Mannes(?) ... eingibt': a numbered list of fifteen temptations spoken by the devil to a religious, urging laxity in monastic life; source or author not found",
-  "note": "The heading and items 1-2, the openings of 5, 6 and 9 and the openings of 14 and 15 were read on the image in one fast Kurrent hand; the leaves read in the order 2r, 2v, 1v, 1r, against the shelfmark numbering. The heading (233-2r) reads 'Christliches [one word deleted] fürsterbait(?) gegenwurt(?) wider den bösen Geist [deleted: vnd höll(?)] Teufl, wann er [einem] geistlichen(?) Mannes(?) darbey eingibt', and the items are addressed 'mein lieber S[eel](?)' in the devil's voice: item 1 'darfst wenig be[ten] ... gehe in die Kirch ... ist gar unnoth, las den weltlich(en) allweil Kirchlauffen, las die Geistlichen Pfaffen und Mönch beten', item 6 'darffst den(?) nit alzeit gehorsamb sein, was sie dich schaffen', item 15 'ist mein ... gegebner Rath, das du nit ... und nit gar zu fromb'. Several words of the heading are uncertain, and items 2-13 (including the heavily stained 2v) rest on the first reading only. No answers to the temptations were found in the parts read, so the draft may hold only the temptations. Deletions and interlinear insertions suggest an author composing rather than copying. Google Books, MDZ and Internet Archive phrase searches ('Pfaffen und Mönch beten', 'wider den bösen Geist' with 'Kirchen lauffen', 'nit gar zu fromb') found no source; CoMMA was not queried for this German text. The genre, temptations of a religious as found in Catholic Reform novitiate literature, is established from the text itself, but no printed source or author is, so the record stays partial on a genre lead.",
+  "identification": "Corrected working draft of a German Catholic Reform text of about 1580-1630, headed 'Christlicher ... hausarbait(?) welche(?) der beser(?) geist Teufl einem(?) Christen(?) Mannes(?) darbey eingibt': fifteen numbered counsels spoken by the devil to a lay householder, urging lax religious practice; source or author not found",
+  "note": "One fast Kurrent hand; the heading, items 1-4, 6-8 and 14-15 were read at native size, several heading words are uncertain ('Mannes' or 'Menschen', 'anweiseth' or 'anwendeth') and items 11-13 are largely unread. The devil addresses a lay householder as 'mein liebe Sel': pray little on rising ('du bist schon gesegneth'), 'las ... die Geistlichen Pfaffen vnd Munich beten', think of 'dein hausarbeit', cheat in buying and selling, avoid 'das öffter Beichten vnd ... Communicieren' that 'die Pfaffn vnnd Jesuiter aufbracht', and be 'nit gar zu fromb' (item 15). The mention of the Jesuits fits the dating of the hand (about 1580-1630, an estimate) and excludes only a date before 1540; the leaves run 2r, 2v, 1v, 1r, and deletions and insertions suggest an author composing. No source was found by MDZ, Google Books or Internet Archive phrase searches, so the record is partial on genre and setting.",
   "verify": "https://fragmentarium.ms/overview/F-5z5j",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
-   "title": "Devotional text against the temptations of the devil",
+   "title": "The devil's counsels to a Christian householder (draft)",
    "tags": [
     "Topic: theology"
    ],
@@ -13700,9 +13793,9 @@
     {
      "locus": "233-2r; 233-2v; 233-1v; 233-1r",
      "text_language": "German",
-     "title": "Christliches ... gegenwurt (?) wider den bösen Geist [und] Teufl",
-     "description": "Corrected working draft. A numbered list of fifteen temptations spoken by the devil to a religious, urging laxity in monastic life. Inc.: Christliches ... gegenwurt (?) wider den bösen Geist [und] Teufl, wann er [einem] geistlichen (?) Mannes (?) darbey eingibt.",
-     "remarks": "The leaves run in the order 2r, 2v, 1v, 1r. Source and author not found."
+     "title": "Christlicher ... hausarbait (?) welche (?) der beser (?) geist Teufl einem (?) Christen (?) Mannes (?) darbey eingibt",
+     "description": "Corrected working draft, about 1580-1630. Fifteen numbered counsels spoken by the devil to a lay householder ('mein liebe Sel'), urging lax religious practice: little prayer, leaving prayer to priests and monks, dishonest trade, no frequent confession or communion, 'nit gar zu fromb'. Inc.: Zum Ersten mein liebe sel volge mire ... zu morgens wann du aufstehest, darffst wenig be[ten].",
+     "remarks": "The leaves run in the order 2r, 2v, 1v, 1r. Item 7 names the Jesuits. Source and author not found."
     }
    ]
   }
@@ -13751,10 +13844,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Four paper scraps of a German sermon or homiletic draft of the 16th or 17th century on temptation and the devil, with David's fall as exemplum, quoting Ps 29:7-8, Ecclus 34:9-10 ('der weis Man[n]') and 1 Pet 5:8-9 ('Sobrii estote'); the containing work is not identified",
-  "note": "Face A of the two larger pieces (31-1r and 31-2r) was read in full on the image, in a fast Kurrent hand with the Latin in a more upright script: '[..]s ersehen als Goliath', 'weil kinig [D..] ... in grosser ehr ware', '[..] ich würd nit bewegt werden', '[A]vertisti faciem tuam d(omi)ne [a me?] et fa[..] ... hast dein angesicht von mir abgew[endt]', 'der weis Man[n] ... Der nit versucht ist', and on the other piece 'auch der teüfel', 'so will er straffen', 'Sobrii estote &c: Ihr [n]üchtern vnd wachet' and 'Cui resiste fortes in [fide]' (so written, for 'resistite'). Deleted words and interlinear corrections suggest an autograph draft. Face B is stained and abraded and gave only a few very uncertain words ('fleischliche begierde', 'höllischen(?) teüfel'); the two narrow strips gave only letter groups. 1 Pet 5:6-11 is the epistle for the third Sunday after Pentecost, so the sermon may be for that Sunday, but that is an inference, not something the fragments show. Google Books phrase searches found only Luther's psalm text and two later uses of the David topos (Manz, Geistliches Zeughauß, 1694; Harderer, 1734) whose snippets do not continue with this wording; MDZ found nothing relevant, and CoMMA was not queried for this German text. The Bible quotations are the text's sources, not an identification, so the record is partial on genre and subject only.",
+  "identification": "Four paper pieces of a German sermon or homiletic draft of the 16th or 17th century on temptation and the devil, with David's fall as exemplum, quoting Ps 29:7-8, Ecclus 34:9 ('der weis Man[n]') and 1 Pet 5:8-9 ('Sobrii estote'); the containing work is not identified",
+  "note": "The fronts of the two larger pieces were read in full: God lets a person be tried so that he learns whether he is strong or weak ('ich würd nit bewögt werden', '[A]vertisti faciem tuam a me', 'Der nit versuecht ist', 'ob er starckh oder'), the devil apparently takes his revenge on God's image ('auch der teüfel ... ahn seiner bildnus rechen(?)'), and the hearers are to be sober and watch ('Sobrij estote &c', 'Cui resiste fortes in f[ide]', so written). Deletions with replacements written above make it probably an autograph draft. The stained backs gave only a few uncertain words, on the flesh and on temptation, and the two narrow strips only letter groups. MDZ and Google Books phrase searches found only the Bible verses in other works, so the record is partial on genre and subject.",
   "verify": "https://fragmentarium.ms/overview/F-le7r",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "German sermon",
@@ -13765,8 +13858,8 @@
     {
      "text_language": "German",
      "title": "Sermon on temptation and the devil",
-     "description": "With David's fall as exemplum, quoting Ps 29:7-8, Ecclus 34:9-10 ('der weis Man[n]') and 1 Pet 5:8-9 (Sobrii estote).",
-     "remarks": "Probably an autograph draft (deletions and interlinear corrections). Possibly for the third Sunday after Pentecost. Not identified."
+     "description": "With David's fall as exemplum, quoting Ps 29:7-8, Ecclus 34:9 ('der weis Man[n]') and 1 Pet 5:8-9 (Sobrii estote); the devil is apparently said to take his revenge on God's image.",
+     "remarks": "Probably an autograph draft (deletions and interlinear corrections). Possibly for the third Sunday after Pentecost, whose epistle is 1 Pet 5:6-11; no occasion is shown by the pieces. Not identified."
     }
    ]
   }
@@ -14006,11 +14099,22 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Horizontal strip of a two-column leaf of a Latin scholastic text in a small compressed gothic book hand with red paraphs and a red S initial, abraded and stained; only isolated words and point-separated letter sigla are legible, and the text is not identified",
-  "note": "The left column of 01r, the best-preserved area, was read on the image, but gave only isolated words and sigla: 'a . c .', 'a . d .', 'p(ro)p(ter) a . g', '... illorum(?) cuius(?) mouens aliquod sui ... a(n)i(m)al(?)', perhaps 'similiter'; the right column of 01r gives 'excellentiam ... excellens(?)', the clearest word on the leaf, under a large red S initial, and the right column of 01v only '[¶] Si quis(?)' and 'si habeat(?)'. The left column of 01v, reported as the worst area, and the upper right column of 01v were not read. The letter sigla, 'mouens' and 'excellens' suggest natural philosophy (a Physics or De sensu commentary) rather than law, but this lead was not tested against any text and rests on uncertain readings. Google Books searches for 'movens aliquod sui' and variants gave only generic Physics VIII hits (Aquinas, Giles of Rome) that do not match the strip, Corpus Corporum gave none, and the CoMMA batch search gave no lead. The modern pencil notes on the strip (01r margin, perhaps '...VII/28 ... 1616', and the shelfmark on 01v) are not used. No phrase of four secure words could be read at the published image quality, so the record is not identified; UV, multispectral or raking-light imaging would be needed.",
+  "identification": "Horizontal strip of a two-column leaf of a Latin text in short paragraphs with red paraphs, in a small compressed gothic book hand, abraded and stained; only isolated words and point-separated single letters are legible, the genre (natural philosophy or law) is not settled, and the text is not identified",
+  "note": "Both faces were read on the image at native size, including the upper right column and the left column of 01v, which gave nothing. The legible items are 'mouet aliquod sui', the point-separated letters 'a . c', 'a . d', 'a . g', 'excellentiam' on 01r, and '[paraph] Si quis pet(at)(?)' and 'si habeat' on 01v. The letters can be the terms of a lettered proof in natural philosophy or legal citation sigla, and the words on 01v suit a legal text at least as well, so the genre is open. No phrase of four secure words could be read at the published image quality, so no text was searched or compared; a better image is needed.",
   "verify": "https://fragmentarium.ms/overview/F-i7yb",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Unidentified text",
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Unidentified scholastic or legal text",
+     "description": "Short paragraphs marked by red paraphs, with point-separated single letters ('a . c', 'a . g'); legible words include 'mouet aliquod sui', 'excellentiam' and 'Si quis'.",
+     "remarks": "Abraded and stained; no connected phrase could be read from the published images. Whether the single letters are proof letters (natural philosophy) or legal citation sigla is not settled."
+    }
+   ]
+  }
  },
  {
   "id": "F-1gv6",
@@ -14045,22 +14149,23 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Two small pieces of a two-column leaf of a Latin logic text in question form on the proposition (universal and affirmative, categorical, 'homo albus', 'eo adiacente'), plausibly a question commentary on Aristotle's Perihermeneias or on tract I of Peter of Spain's Summulae; work not identified",
-  "note": "The upright right piece of canvas 0 (lines 1-14), the left piece, which is photographed upside down and was read rotated (about 20 lines), and the verso of the right piece on canvas 1 were read on the image, in a minute and heavily abbreviated gothic cursive with alternating red and blue paraphs. Readings include '[¶] (E)x p(ri)mo(?)', '... eo adiacente aliqu(o)(?)', '[¶] Item phil(osophu)s d(icit) i(n) l(ibr)o h(uius) q(uod)', 'uel d(icitu)r q(uod) p(ro)po(sitio)(?)', repeated 'dicendum ad', 'in interrogatione(?)', and on the verso '... inducendo [¶] Contra(?)', 'q(uod) di(citur) homo albus', 'omnis p(ro)p(ositi)o ... igitur', 'cathe(gorica)(?)', '(uni)uersalis' and 'affirmatiua' twice. Much of the reading is uncertain, and the lower right piece of canvas 0, the narrow second column and the left piece of canvas 1 were not read. Google Books searches for 'ex eo adiacente', 'eo adiacente aliquo', 'item philosophus dicit in libro huius' and the combination 'omnis propositio cathegorica', 'inducendo', 'homo albus' found nothing relevant, and the CoMMA batch search gave no lead (top hit at the shuffled-query null). The vocabulary establishes a logic question text on the proposition, but no phrase is secure enough to locate a work, so the record is partial on a genre lead only.",
+  "identification": "Two small pieces of a two-column manuscript of a Latin logic commentary with dubia, on perfect and imperfect speech, the need for a verb, 'est' as third adjacent, and categorical and hypothetical statements; probably a commentary on Aristotle, Perihermeneias I, chapters 4-5 (book II, chapters 10-11, and Peter of Spain, Tractatus I, are not ruled out); commentary not identified",
+  "note": "The four faces were read on the image in part, in a minute, heavily abbreviated gothic cursive: 'verbo adiacente alteri verbo', 'quando predicatur 3o adiacens', '[paraph] Item philosophus dicit in ... huius quod', '[paraph] Ad hoc dicendum(?)', 'dicendo(?) homo albus', 'oratio ypothetica ... ligatur', 'cathegorica(?)', 'in interrogatione', 'ad placitum', 'divisio(?) orationum', 'perfectius'. These topics and their order fit Aristotle, Perihermeneias I, chapters 4-5 (17a2-17a22), and two lemmata open with a large initial E(?), as 'Enuntiativa vero' and 'Est autem una prima oratio' would, so the text is probably a commentary with dubia on that passage; book II, chapters 10-11, and the opening of Peter of Spain's Tractatus I were weighed and are less likely but not ruled out, and no lemma was read securely. The wording was not found by text search in Thomas Aquinas's commentary, nor by Google Books, Internet Archive, Corpus Corporum and CoMMA searches (CoMMA top hit below the shuffled-query null); the 13th-century commentaries with dubia that are unprinted or not searchable were not tested.",
   "verify": "https://fragmentarium.ms/overview/F-2yl6",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
-   "title": "Unidentified text on logic",
+   "title": "Commentary on logic",
+   "subtitle": "Probably on Aristotle, Perihermeneias I, 4-5",
    "tags": [
     "Topic: Philosophy"
    ],
    "content": [
     {
      "text_language": "Latin",
-     "title": "Logic text in question form on the proposition",
-     "description": "On universal, affirmative and categorical propositions ('homo albus', 'eo adiacente').",
-     "remarks": "Possibly a question commentary on Aristotle, Perihermeneias, or on tract I of Peter of Spain's Summulae. The work is not identified."
+     "title": "Logic commentary with dubia, probably on Aristotle, Perihermeneias I, chapters 4-5",
+     "description": "On perfect and imperfect speech ('homo albus', 'in interrogatione'), the need for a verb, 'est' predicated as third adjacent, and categorical and hypothetical statements ('oratio ypothetica ... ligatur'). Dubia are introduced by 'Item' and answered 'Ad hoc dicendum(?)'.",
+     "remarks": "The topics and their order fit Perihermeneias I, 4-5 (17a2-17a22), and two lemmata open with a large initial E(?); Perihermeneias II, 10-11, and Peter of Spain, Tractatus I, are not ruled out. The left piece is photographed upside down on both images. The commentary is not identified."
     }
    ]
   }
@@ -14715,31 +14820,34 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Three unrelated parchment scraps: (A, item 3) a two-column breviary, possibly printed, third week of Advent, end of the antiphon Elevare elevare ... captiva filia Sion and, under the rubric '[Feria qu]arta', the Wednesday Lauds antiphons Ponam in Sion and Ponent domino (Cantus 002633, 004302, 004305); (B) red rubrics of a computus or calendar text, unplaced; (C) an illegible strip",
-  "note": "Scrap A, face 1, left column reads '[consur]ge iherusale(m)' / 'tui captiua fi[lia sion]' / red '[...]arta an(tiphona).' 'Po[nam ...]' / 'e(m) ꝛ in iherusa[lem]' / '[a]lleluia.' red 'An(tiphona).' / 'ꝛ laude(m) ei[us]' / '[nuntiab]unt(?) quia ecce', which agrees with the Cantus Index standard texts of the three antiphons in every surviving word, with lost stretches of 20-28 letters that fit the column. The three occur in this order in 76 Cantus inventories, and 004302 and 004305 are assigned mainly to Lauds of Wednesday in Advent III; only '...arta' of the rubric is visible, and 'Feria quarta' is an expansion resting on that placement. No breviary page was compared, and that A is printed (uniform letter forms, dense black) is a lead not tested against any edition. The right column of A and its other face ('expectat(us)?', red initial and 'OLITE', perhaps '[N]olite', 'qui ad', 'humana(?)') are not placed. Scrap B is from a larger book with red rubric lines ('l(itte)ra q(ua)r(t)a(?) sic', 'sing(u)l(is)(?) an[nis]', 'nesciuit(?) algorismu(m)', 'officio · xii · mensium') and small cursive notes ('in anno bis[extili]'), its black text worn away; its vocabulary suggests computus or calendar instructions, and Google Books, Internet Archive and the CoMMA batch search found nothing. Scrap C is illegible even with contrast enhancement. The record is partial because only scrap A is placed, and that at the level of chant texts, not a particular book.",
-  "verify": "https://fragmentarium.ms/overview/F-mkg6",
-  "examined": "2026-11-01",
+  "identification": "Three unrelated parchment scraps: (A, item 3) a printed breviary, probably of the use of Brixen, third Sunday of Advent and the following week (Benedictus antiphon Johannes autem, Terce chapter Nolite ante tempus iudicare; antiphons Elevare elevare, Ponam in Sion, Ponent domino; invitatory Surgite vigilemus), text as in the Breviarium Brixinense of Venice 1516 but another edition, not found; (B) a manuscript computus, possibly in verse, with red rubrics, unplaced; (C) an unread strip",
+  "note": "Scrap A is printed in red and black in two columns, in a rotunda type of about 62 mm to 20 lines. Its recto has the end of the antiphon '[an alium] expectam(us)', a red rubric and the chapter '[N]olite a[nte tempus iudicare] quoad[usque ...] ⁊ illumina[bit ... tene]brarum ⁊ m[anifestabit]'; its verso has '[consur]ge iherusale(m) ... [t]ui captiua fi[lia]', red '[Feria qu]arta an.' 'Po[nam ...] ⁊ in iherusa[lem ... a]lleluia', red 'an.' '[...] ⁊ laude(m) ei(us) ... quia ecce' and, in the next column, 'Sur[gite vigile]mus'. Text, rubric wording and order agree in both columns of both faces with the Brixen breviary printed at Venice in 1516 (Munich, BSB, Liturg. 101, scans 243-244, compared on the page), but spellings and line breaks differ, so the scrap is probably from another edition of that breviary; Ratdolt's of 1489 has a type of this size and could not be compared, and breviaries of neighbouring dioceses were not compared. Scrap B has red rubrics ('[q]ui nesciunt algorismum', '[...]nibus et officio xii mensium') and lines marked by red paraphs with marginal notes, its black text abraded; scrap C was not read.",
+  "verify": "https://www.digitale-sammlungen.de/en/view/bsb10185946?page=243",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
-   "title": "Breviary and unidentified scraps",
+   "title": "Printed breviary (probably Brixen) and unidentified scraps",
    "liturgica": "Breviary",
    "content": [
     {
      "locus": "item 3",
      "text_language": "Latin",
-     "title": "Breviary, third week of Advent",
-     "description": "End of the antiphon Elevare elevare ... captiva filia Sion and, under the rubric '[Feria qu]arta', the Lauds antiphons Ponam in Sion and Ponent domino (Cantus 002633, 004302, 004305).",
-     "remarks": "Possibly printed. The other column and face are not placed."
+     "title": "Breviary, probably of the use of Brixen (printed): third Sunday of Advent and the following week",
+     "description": "Recto: end of the Benedictus antiphon Johannes autem ... an alium expectamus, rubric, Terce chapter Nolite ante tempus iudicare (1 Cor 4,5). Verso: antiphons Elevare elevare, Ponam in Sion and Ponent domino (Cantus 002633, 004302, 004305) for Tuesday and Wednesday; invitatory Surgite vigilemus.",
+     "remarks": "Printed in red and black, two columns, rotunda type of about 62 mm to 20 lines. The text agrees with the Breviarium Brixinense of Venice 1516 (Munich, BSB, Liturg. 101) in a different setting; the edition is not found."
     },
     {
      "text_language": "Latin",
-     "title": "Computus or calendar text (?)",
-     "description": "Red rubrics ('l(itte)ra q(ua)r(t)a(?) sic', 'nesciuit(?) algorismu(m)', 'officio · xii · mensium') and small notes ('in anno bis[extili]').",
+     "title": "Computus, possibly in verse",
+     "description": "Red rubrics ('[q]ui nesciunt algorismum', '[...]nibus et officio xii mensium'); lines marked by red paraphs, with marginal notes.",
      "remarks": "Not placed."
     },
     {
-     "title": "Illegible strip"
+     "title": "Unread strip"
     }
+   ],
+   "bibliography": [
+    "Breviarium dioecesis Brixinensis, pars hiemalis (Venice 1516), Munich, BSB, Liturg. 101, third Sunday of Advent"
    ]
   }
  },
@@ -14754,38 +14862,61 @@
   "shelfmark": "Frg. 258",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "partial",
-  "confidence": "medium",
-  "identification": "Composite binding strip of at least four parchment scraps in two script sizes; one small-script scrap carries the Matins responsory Numquid Deus (Dominus) supplantat iudicium ... et cuiusvis manus pugnet contra me (CAO 7244, Cantus 007244, historia of Job) from an Office book without notation, probably a breviary (inference); the other scraps, one with the rubric 'Omelia · v · b[...]', are unplaced",
-  "note": "The lower small-script scrap on face 01v is read in three lines: '[iu]dicium aut o(mni)p(oten)s [s]ubuertit quod / iustum est libera me domine & pone me iuxta / [t]e & [c]uius uis ma[n]us [pug]n(e)t contra me', the third line from letter tops only, so 'manus pugnet' is consistent with the text rather than confirmed by it, and the opening word (Deus or Dominus) is lost. An independent checker compared it with the responsory in the Breviarium Monasticum (1930), Pars II, p. 303, on the page image, and found only differences of spelling and abbreviation. The diagnostic point is on the leaf: Job 8:3 ('quod iustum est') runs straight into Job 17:3 ('libera me domine') across the line break, which excludes the Passiontide antiphon Libera me Domine (Cantus 003617) and the Office of the Dead lesson from Job 17. Another scrap on 01r has a red S initial and the red rubric 'Omelia · v · b[...]'; 'venerabilis Bede' is an expansion, since the name is cut after b, and the lesson text after it ('[..]e[.]cus(?) ille q[...]') was not placed (Caecus, Leprosus, Hydropicus and Mutus ille tested as Bede incipits in Corpus Corporum without result). The back of the responsory scrap ('corp[...] [...]n lapsis(?)', red 'tu', 'V', '[...]ra(?) mea a corp[.] [i]nuenit(?) me') and the stained upper scraps on both faces are unplaced, and Cantus manuscript readings give no chant with 'invenit me'. A responsory written out as plain text favours a breviary, but no line runs across two scraps and nothing shows that the scraps come from one book. The record stops at partial because only one of at least four scraps is identified.",
-  "verify": "https://fragmentarium.ms/overview/F-h4ki",
-  "examined": "2026-11-01",
-  "identified_on": null,
+  "status": "identified",
+  "confidence": "high",
+  "identification": "Scraps of an Office book with lessons and responsories: lessons from the homily Surdus ille et mutus on Mark 7:31-37 under the rubric 'Omelia v. b[...]' (Bede, PL 94, 290 D and 291 B-C) and from the preceding Luke 18:12 homily (PL 94, 290 B; the sentence is Gregory's, taken over by Bede), with the Job responsory Numquid Dominus supplantat iudicium (Cantus 007244) and probably Versa est in luctum (Cantus 007846)",
+  "note": "After a red S and the rubric 'Omelia . v . b[...]' the 01r scrap reads '[S]urdus ille et', the incipit of the homily on Mark 7:31-37 printed among Bede's homilies in PL 94 (290 D); three line beginnings read with the source as 'custodia(m) / q(uo)d co(n)t(r)a [h]ostiu(m) insid[ias] / tota' stand at the expected intervals in the Luke 18 homily printed just before it (290 B), and the back of those scraps has 'seorsu(m)' and '[au]riculas' at line ends where the Mark homily predicts them (291 B-C); compared on page images of PL 94. The image-only first reading has compatible letter groups there ('custodia', 'q(uo)d' ... osti(?) ... fid[...]', 'tota(?)', 'uersu(m)(?)', '[.]rticulas'); the fuller wording is a reconstruction made with the source. The small-script scrap has the Job responsory Numquid Dominus (Cantus 007244) on 01v; the other face is probably Versa est in luctum (Cantus 007846), read with the text in view and not confirmed by a blind reader. The Luke sentence is Gregory's, taken over by Bede, so the three part-lines cannot exclude Gregory's text; the faded red letters on 01v are the recto rubric showing through; the responsory scrap is not in its original position, so the same book is likely but the same leaf is not shown; faint strokes above the chant lines may be staffless neumes, and the kind of book, its use and date are not established.",
+  "verify": "https://archive.org/details/patrologiaecursu0094mign/page/n152/mode/1up",
+  "examined": "2026-11-09",
+  "identified_on": "2026-11-09",
   "fragmentarium": {
-   "title": "Liturgical fragments",
+   "title": "Office book with lessons and responsories: homily lessons and responsories of the Job historia",
+   "subtitle": "Lessons on Luke 18:12 and Mark 7:31-37 (Surdus ille et mutus); R. Numquid Dominus supplantat, probably R. Versa est in luctum",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Beda Venerabilis"
+    }
+   ],
    "tags": [
     "Topic: Liturgy"
    ],
    "content": [
     {
-     "locus": "Stams_STA_Frg_258_01v",
+     "locus": "Stams_STA_Frg_258_01r",
      "text_language": "Latin",
-     "title": "Responsory Numquid Deus supplantat iudicium (historia of Job)",
-     "description": "Matins responsory, Expl.: [t]e et [c]uius uis ma[n]us [pug]n(e)t contra me, written without notation.",
-     "remarks": "From an Office book, probably a breviary."
+     "title": "Lesson on Luke 18:12 (Pharisee and publican), from the homily printed before Surdus ille in PL 94",
+     "description": "Three line beginnings: custodia(m) [non habebat. Et] q(ui)d p(ro)dest(?) / q(uo)d co(n)t(r)a(?) [h]ostiu(m) insid[ias] / tota [civitas].",
+     "remarks": "The sentence is Gregory the Great's (Homilies on Ezekiel), taken over by Bede; it also stands in Bede's commentary on Luke and in the homily collections of Hrabanus Maurus and Smaragdus, so the source of the lesson is not fixed by these words."
+    },
+    {
+     "locus": "Stams_STA_Frg_258_01r; Stams_STA_Frg_258_01v",
+     "text_language": "Latin",
+     "title": "Beda Venerabilis, homily on Mark 7:31-37, Surdus ille et mutus",
+     "persons": "Beda Venerabilis",
+     "description": "01r: Rubric: Omelia v. b[...]. Inc.: [S]urdus ille et [mutus]. 01v: [...] seorsu(m) ... [au]riculas.",
+     "remarks": "The rubric is cut after 'b'; 'venerabilis Bede' is an expansion. On 01v, 'egrot[um]' and 'tetigit linguam' were read only with the source in view."
     },
     {
      "locus": "Stams_STA_Frg_258_01r",
      "text_language": "Latin",
-     "title": "Homily lesson",
-     "description": "Rubric 'Omelia · v · b[...]', followed by the opening of the lesson.",
-     "remarks": "Not identified. The other scraps are not identified."
+     "title": "Responsory, probably Versa est in luctum cithara mea (historia of Job)",
+     "description": "[...]ra mea et organum meum in(?) [...]; read with the text in view and not confirmed by a blind reader."
+    },
+    {
+     "locus": "Stams_STA_Frg_258_01v",
+     "text_language": "Latin",
+     "title": "Responsory Numquid Dominus supplantat iudicium (historia of Job)",
+     "description": "Expl.: [t]e et [c]uius uis ma[n]us [pug]n(e)t contra me.",
+     "remarks": "Faint strokes above the chant lines may be staffless neumes. The responsory scrap is not in its original position: the same book is likely, the same leaf not shown. The kind of book is not established."
     }
    ],
    "bibliography": [
-    "R.-J. Hesbert, Corpus antiphonalium officii, IV, no. 7244"
+    "J.-P. Migne, Patrologia Latina 94, cols. 290-291",
+    "R.-J. Hesbert, Corpus antiphonalium officii, IV, nos. 7244, 7846"
    ]
-  }
+  },
+  "kind": "liturgy"
  },
  {
   "id": "F-gtxi",
@@ -14929,10 +15060,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Prayers for the sick and papal plenary-indulgence absolutions, Latin with German rubrics: four parchment corner pieces on a cover, with the orations Deus qui humano generi (end) and Virtutum caelestium Deus (feminine forms), two absolutions separated by the rubric 'Das ist aber ain abs[olucion]', and the hour-of-death remission Ego remitto tibi penas purgatorii; probably from a priest's ordo for the sick, s. XV2 (both inferences)",
-  "note": "The cover carries four corner pieces in one Gothic textualis with red initials; the three turn-ins on the inside are the same pieces folded over the board edges. The top-right piece gives 'tuarum dona', 'solum in corpor[e]', '[V]irtutum celesti[um]', '[pre]cepti tui potestate', 'famule tue. ut fu[gatis]', 'receptis. nome[n]' and '[sa]nitate bnd[icat]', in the sequence and wording of the Gregorian Missa pro infirmis (Wilson, HBS 49, p. 207), with feminine 'famule tue' for 'famulo tuo illi'. The bottom-right piece gives '...]lice matris ecclesie', '...]i et sp(iritu)s s(an)c(t)i. amen.', red 'Ego remitto tibi pen[as]', '...]e illi puritati', '[q]uando babtisatus fuisti', '...]ecclesie se extendunt &' and '[de]cesseris remaneat tibi', the plenary absolution in the hour of death as in the 1464 formula printed by Krčelić (page image) and Paul II's confessional letter for Tarrenz printed by Tinkhauser (snippets only); 'seu' after 'puritati' and the h or p after 'extendunt &' are uncertain. The bottom-left piece, as corrected by an independent checker, has a first absolution ('omnib(us)', '[te]norē litterar(um)', '[confes]sione i(n) no(m)i(n)e p[atris]'), the red rubric 'Das ist aber ain abs[olucion]', and a second absolution '[M]isereatur(?) tu[i] / D(omi)n(u)s n(oste)r ih(esu)s / [ab]soluat t[e] / [aucto]ritate(?) h[...] / pōtifi[cis] / tib[i]', which follows the same formula family in sequence but not in wording; the top-left '...absoluat te et ego [..] d(omi)ni n(ost)ri pape mihi' fits only in outline. No printed witness matches either absolution word for word, so the match fixes the formula type, which circulated in many variants about 1450-1520, not a particular letter. Gender is mixed ('famule tue', 'babtisatus') and no rubric names a visitation of the sick, so 'ritual' or 'ordo for the sick' is inferred from content, and a confessor's handbook would fit as well; whether the pieces come from one leaf is undetermined. A modern pencil note, masked for reading, names the host as Ms. 331; neither that volume nor a Brixen Obsequiale was checked, and the record stays partial because the collects are generic and the book, its use and diocese are not identified.",
-  "verify": "https://fragmentarium.ms/overview/F-q7x0",
-  "examined": "2026-11-01",
+  "identification": "Prayers for the sick and papal plenary-indulgence absolutions, Latin with German rubrics: four parchment corner pieces on a cover, with the orations Deus qui humano generi (end) and Virtutum caelestium Deus (feminine forms), two absolutions separated by the rubric 'Das ist aber ain abs[olucion]', and the hour-of-death remission Ego remitto tibi pen[as purgatorii] in the wording of fifteenth-century confessional letters (Tarrenz letter under Paul II; a form under Innocent VIII); probably from a priest's ordo for the sick, s. XV2 (both inferences)",
+  "note": "The bottom-right piece keeps eight line beginnings: '[cont]ritoru(m) nec n[on]', 's(an)c(t)e m(at)ris ecclesie', '[fil]ii et sp(iritu)s s(an)c(t)i. amen.', red-initial 'Ego remitto tibi pen[as]', '[t]e illi puritati seu st[atui]', '[q]uando babtisatus fuisti', 'ecclesie se extendunt &', '[d]ecesseris remane[at]'. In sequence this follows the absolution of the confessional letter for Tarrenz under Paul II printed by Tinkhauser (1886, p. 507: 'restituo te illi puritati seu statui innocentie ... in quantum claues sancte matris ecclesie se extendunt et possunt, et si in hac infirmitate non decesseris remaneat tibi'), and its first lines follow a form under Innocent VIII printed by Cornaro (1749, p. 396: 'corde contritorum necnon oblitorum. Et restituo te sacramentis sancte matris ecclesie'); both were seen in search snippets only. Against the Tarrenz text the leaf has 'Ego remitto' for 'Remitto' and 'quando' for 'quum', and the Tarrenz snippet lacks 'necnon oblitorum' the lost stretch of each line (about 25 to 35 letters) fits the short Tarrenz wording, not the longer Venetian one with 'claudendo tibi ianuas inferni'. The top-right piece has the orations Deus qui humano generi (end) and Virtutum caelestium Deus with 'famule tue', as in the Gregorian Missa pro infirmis (Wilson, HBS 49, p. 207); the bottom-left piece has a first absolution, the red rubric 'Das ist aber ain abs[olucion]' and a second absolution '[M]isereatur(?) tu[i] / D(omi)n(u)s n(oste)r ih(esu)s / [ab]soluat t[e] ... pōtifi[cis]', neither matched word for word. The formula circulated in many confessional and indulgence letters about 1450-1520, so the match fixes the text type, not one letter; the book, its use and diocese are not identified, a confessor's handbook would fit as well as an ordo for the sick, and the host volume (a pencil note says Ms. 331) and a Brixen Obsequiale were not checked.",
+  "verify": "https://books.google.com/books?id=jkMnpAUWzY0C&pg=PA507&q=%22remitto+tibi+penas+purgatorii%22",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Prayers for the sick and absolutions",
@@ -14944,12 +15075,13 @@
      "locus": "Stams_STA_Frg_221_01r; Stams_STA_Frg_221_01v",
      "text_language": "Latin",
      "title": "Prayers for the sick and papal plenary-indulgence absolutions",
-     "description": "Four corner pieces with the orations Deus qui humano generi (end) and Virtutum caelestium Deus (feminine forms), two absolutions separated by the German rubric 'Das ist aber ain abs[olucion]', and the remission at the hour of death, Ego remitto tibi penas purgatorii.",
-     "remarks": "Probably from a priest's ordo for the sick; a confessor's handbook would fit as well. The book and its use are not identified."
+     "description": "Four corner pieces with the orations Deus qui humano generi (end) and Virtutum caelestium Deus (feminine forms), two absolutions separated by the German rubric 'Das ist aber ain abs[olucion]', and the remission at the hour of death, Ego remitto tibi pen[as purgatorii et restituo t]e illi puritati seu st[atui innocentie].",
+     "remarks": "The hour-of-death remission has the wording of fifteenth-century confessional letters such as the one for Tarrenz under Paul II. Probably from a priest's ordo for the sick; a confessor's handbook would fit as well. The book and its use are not identified."
     }
    ],
    "bibliography": [
-    "H. A. Wilson, The Gregorian Sacramentary under Charles the Great, HBS 49 (London 1915), p. 207"
+    "H. A. Wilson, The Gregorian Sacramentary under Charles the Great, HBS 49 (London 1915), p. 207",
+    "G. Tinkhauser and L. Rapp, Topographisch-historisch-statistische Beschreibung der Diöcese Brixen (Brixen 1886), p. 507"
    ]
   }
  },

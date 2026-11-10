@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-11-10T01:51:49.298299+00:00",
+  "first_reading": "stams7-2026-11-01-image-only",
+  "first_sha256": "a7ceb69db9b2a8d3ee74f4cf467ed36292524359bf93e4cb5dc05e426bfaecea",
+  "fragment": "F-g51l",
+  "id": "stams7-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Fable 5.2, research reader with the source at hand",
+  "reason": "The abraded fifth name of the name strip was completed as Marini conf. from the Auxerre calendar; the other names were reread on the image.",
+  "schema_version": 1,
+  "sources": [
+    "Paris, BnF, Latin 17312 (Missale ad usum ecclesiae Autissidorensis), calendar, July page (image 5 of the digitisation)",
+    "Missale Autissiodorense (Paris, Jean Du Pré, dated 1487 in the library record) and Missale insignis ecclesie Autissiodorensis (1532), calendars, July (archive.org page images)",
+    "H. Grotefend, Zeitrechnung des deutschen Mittelalters und der Neuzeit, vol. 2, index of saints (entries from the Acta Sanctorum)"
+  ],
+  "text": "Source-assisted reading (calendar of the Auxerre missal Paris, BnF, Latin 17312, July page). Reread on the image by a research reader: strip a, all eight lines, and strip c. Strip b's numerals are not read. Regions are width x height at x,y in native pixels of canvas 0 (Stams_STA_Frg_096_01r, 7360 x 4912). ( ) expansion, [ ] lost or supplied, ? doubtful.\n\ncanvas 0, strip a, 420 x 570 at 3900,3030\n(red) Augusti\nTheodosij ep(iscop)i\nArnulphi ep(iscop)i\nArsenij conf.\n[M]arini c[onf.]\n[P]raxed[is]\n[M]arie m[agdalene]\nApollinar[is]\n\ncanvas 0, strip b, 980 x 480 at 4420,3080\n(red, left of the grid) festum duplex.\n(red, in the grid) four faint numerals, not read; A; a two-letter mark, not read\n(black, lower edge) tops of one line, not read\n\ncanvas 0, strip c, 510 x 460 at 5450,3060\n(red) i | e\n[blank] | f\n(red) ix | g | (red, faint) xiiij?\n",
+  "text_sha256": "ce2d409a65fd93fb3b0e0517cb0e61ee75b9b0736dd1a639f186111724293600"
+}

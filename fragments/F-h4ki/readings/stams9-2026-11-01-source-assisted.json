@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-11-10T01:51:49.522852+00:00",
+  "first_reading": "stams9-2026-11-01-image-only",
+  "first_sha256": "eeabd12adb2f11adfad96cd1074e92f6b8344102b550ccd51c500b9ccb5d830f",
+  "fragment": "F-h4ki",
+  "id": "stams9-2026-11-01-source-assisted",
+  "kind": "source-assisted",
+  "reader": "Claude Fable 5.2, research reader with the source at hand",
+  "reason": "The damaged large-script lines and the back of the responsory scrap were reread against Bede's two homilies and the Job responsories once the rubric scrap was recognised as Surdus ille et mutus.",
+  "schema_version": 1,
+  "sources": [
+    "J.-P. Migne, Patrologia Latina 94, cols. 290 B, 290 D, 291 B-C (page images)",
+    "Cantus Index 007846 and 007244 (R.-J. Hesbert, Corpus antiphonalium officii, IV, nos. 7846, 7244)",
+    "Breviarium Monasticum, Pars II (1930), p. 303 (page image)"
+  ],
+  "text": "Source-assisted reading. All lines below were reread on the native images by a research reader with the sources open (PL 94 cols. 290-291; Cantus Index 007244, 007846). Square brackets: lost or supplied from the source; (?) uncertain; round brackets: abbreviation expanded.\n\nCanvas 0 (Stams_STA_Frg_258_01r), upper band, left scraps, native box 1980,2240,3900,2720\n1 custodia(m) [non habebat] : [Et] q(ui)d p(ro)dest(?)\n2 q(uo)d co(n)t(r)a(?) [h]ostiu(m) insid[ias pene]\n3 tota [civitas ...]\n\nCanvas 0, upper band, rubric scrap, native box 3800,2260,4900,2720\n1 [red, two-line initial] S   [red] Omelia . v . b[...]\n2 [.]u[r]dus(?) ille et(?) [...]\n\nCanvas 0, lower scrap (small script), native box 2350,2780,3800,3170\n1 [...]n lapsis(?) [red letter] V\n2 [ersa est in luctum cytha]ra mea & orga(nu)m meu(m) in\n3 [vocem flentium parce mi]hi d(omi)ne [...]\n\nCanvas 1 (Stams_STA_Frg_258_01v), upper band, right scraps, native box 3850,2080,5650,2620\n1 [...]dens egrot[um] ih(esu)s(?) de tu[rba] seorsu(m)\n2 [... digit]os(?) suos(?) in(?) [au]riculas\n3 [...]tigit(?) li[nguam ...]   (orange-stained)\n\nCanvas 1, upper band, left scrap, native box 2750,2080,3900,2420\nno text of this face legible; the faded red letters are show-through of the 01r rubric\n\nCanvas 1, lower scrap (small script), native box 3550,2530,5650,3060\n1 [iu]dicium aut o(mni)p(oten)s [s]ubuertit quod\n2 iustum est libera me domine & pone me iuxta\n3 [t]e & [c]uius uis ma[n]us [pug]n(e)t contra me   (letter tops only in the middle)\n",
+  "text_sha256": "45c460b763089e0e6740b64616ce4ef2fdfacaa2629ff792f93556a4eb0bb8c2"
+}
