@@ -8036,10 +8036,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Revers of 1545 by a married couple (names lost) to Stams abbey for goods held in Erb- und Baurecht, sealed by the Pfleger and judge of Imst",
-  "note": "Lower half of an original counter-letter (Revers) dated 1545 in words; day and month cut away. The tenants acknowledge goods of Stams abbey in Erb- und Baurecht at 1 lb Berner yearly; one acre lies 'in Tarn[...]' (Tarrenz?), while the bounds name a sawmill and the neighbour Martin Teutschman, whom a Stams Revers of 1549 places by the sawmill at Nassereith, so the goods may lie partly at Nassereith. Sealed by '[.]örburger', Pfleger and judge of Imst: Christoph Hörburger, with the court clerk Georg Engelschalk, seals an Imst tenant's Revers in 1555 (Brixen, Domkapitelarchiv, Urk. 2486). Partial because the issuing couple cannot be named (only 'Bernhar[d]' survives). Later reused as the wrapper of a Stams Kelleramt register for 1570 (Hs. 129).",
+  "identification": "Revers of 1545 by a married couple, Bernhar[d] and his wife (surname lost), to Stams abbey for goods held in Erb- und Baurecht, one acre 'in Tarmu[...]' (probably Dormitz by Nassereith), sealed by [.]örburger, Pfleger and judge of Imst (probably Christoph Hörburger)",
+  "note": "Lower half of an original counter-letter (Revers) dated 1545 in words, day and month cut away, by 'beder Eeleut, Bernhar[.] vn[d ...]' for goods of Stams abbey in Erb- und Baurecht at 1 lb Berner yearly. One acre lies 'in Tarmu[...]', probably Dormitz by Nassereith (old forms Tarmuncz, Tarmiz in the Imst district archive inventory), and the bounds name a sawmill, Lienntz(?) Rueppen(?) Erben (a blind reader: 'Knappen(?) Erben') and Martin Teutschman, whom a Stams Revers of 22 July 1549 places by the sawmill at Nassereith. Sealed by '[.]örburgers Phleger vnd Richters zu Ymbsst', probably Christoph Hörburger, who with the court clerk Georg Engelschalk seals an Imst tenant's Revers in 1555 (Brixen, Domkapitelarchiv, Urk. 2486). Partial because the issuers' surname is lost and no record of the act was found in the Stams charter regests on monasterium.net; the sheet was later the wrapper of a Stams Kelleramt register for 1570 (Hs. 129).",
   "verify": "https://fragmentarium.ms/overview/F-8spe",
-  "examined": "2026-10-30",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -8053,7 +8053,7 @@
      "text_language": "German",
      "title": "Revers of a married couple to Stams Abbey for goods in Erb- und Baurecht",
      "persons": "Martin Teutschman; [.]örburger",
-     "description": "Lower half of the document. A married couple (names lost; only 'Bernhar[d]' survives) acknowledge goods of Stams Abbey held in Erb- und Baurecht at 1 lb Berner yearly, among them an acre 'in Tarn[...]' (Tarrenz?) and land by a sawmill next to Martin Teutschman. Sealed by [.]örburger, Pfleger and judge of Imst, probably Christoph Hörburger. 1545, day and month lost."
+     "description": "Lower half of the document. A married couple, Bernhar[d] and his wife (surname lost), acknowledge goods of Stams Abbey held in Erb- und Baurecht at 1 lb Berner yearly, among them an acre 'in Tarmu[...]' (probably Dormitz by Nassereith) and land below a sawmill next to Martin Teutschman. Sealed by [.]örburger, Pfleger and judge of Imst, probably Christoph Hörburger. 1545, day and month lost."
     }
    ]
   }
@@ -9098,14 +9098,14 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Draft deed of sale: vendors (with wives Agnes K/A(i)rcherin(?) and Agnes K/A(i)tzorin(?), and Cristan Holtzna[..]) sell [object lost], sealed by the abbot of Wilten; Hans Wieser(?) of Natters named; witnesses of Natters; Landgericht Sonnenburg, Conversion of St Paul (25 January, probable) 15[x]8, decade never written",
-  "note": "The lower part of a draft German deed of sale is read on the image: the vendors' warranty, the wives and Cristan Holtzna[..] (surnames uncertain), 'Herrn Abbt zu Welthau' (Wilten) as sealer, written above a deletion, 'Hanns Wiesen(?) zu Natters', witnesses Oswald Spirgl and Pölt Cammerlannder of Natters, 'im Lanndgericht Sonnenburg', and a year left unfinished at 'tausent fünffhundert und In dem Achtund'. A fresh reader given neutral crops confirmed Spi(r)gl, Cammerlannder zu Natr(e)s, Landgericht Sonnenburg, the year words and 'herrn Abbt zu Welthan'. It read the feast as 'Sannd Peiers Ackerer?', where a research reader reads 'Sannct Pauls Bekerr[ung]', so 25 January is probable. The object sold, the price, the buyer's role and the full names are lost at the cut left edge. The decade is unknown: the back endorsement's year is read both as 15[..]58(?) and 15?2. No outside record was found (Google Books searched); the Wilten archive and the Sonnenburg court books were not checked; no human review.",
+  "identification": "Corrected deed of sale, probably a draft: vendors (with Agnes [K/A]i(r)cherin(?), Cristan Holtzmai[..](?) and their wives) sell [object lost]; in the sealing clause 'Richter vnnd Ambtman' 'zu Welthau' (Wilten; probable reading) is struck and replaced by the abbot and convent of Wilten; Hanns W[e]isen(?) of Natters probably receives the seal request; witnesses of Natters; Landgericht Sonnenburg, Conversion of St Paul (25 January, probable), year 'Tausennt Funffhundert vnd In dem Achtund[..]', decade not preserved",
+  "note": "The lower part of a corrected German deed of sale, probably a draft, is read on the image: the vendors' warranty, Agnes [K/A]i(r)cherin(?) (named twice, probably one woman; two blind readers read 'kircherin'), Cristan Holtzmai[..](?) (blind: 'haltmair(?)') and 'vnsere hausfrawen', witnesses Oswald Spirgl and Pölt Cammerlannder of Natters, 'im Lanndgericht Sonnenburg', 'an Sanndt Pauls Bekerr[..]' (25 January, probable). In the sealing clause the words first written, 'Richter(s) vnnd Ambtman(s)' (confirmed by a blind reader) 'zu W[i/e]ltha[u/n]' (probably Wilten), are struck in two places and replaced by '[..] Herrn Abbt(s)' and 'Convent'; 'Hanns W[e]isen(?) zu Naters' probably received the vendors' seal request and is not shown as buyer. The year ends 'Achtund' with a mark that is possibly a carry-over sign, and every line start is cut away, so the decade may have stood on a lost line start; the back reads 'Raitt(?) Stambs 15[..]5[2 or 3]', probably the title of an account the sheet later covered, which would put the deed before about 1552/53. No record of the act was found by site search of monasterium.net (Wilten and Stams charters) or in Google Books and Internet Archive full text; Wilten charter 106 E of 5 May 1539 (https://www.monasterium.net/mom/AT-StiAWilten/Urkunden/106_E/charter, image read) names the Aicher family of the Aichhof at Natters, held of Wilten, and a witness Cristan Holtzmaister of Fulpmes; it is another act, and a lead only if the surnames are 'Aicherin' and 'Holtzmaister'. The object, price and buyer are lost, Wilten's lordship over the property is not established, and the surnames, the place word and the back have not had a secure independent reading; no human review.",
   "verify": "https://fragmentarium.ms/overview/F-zdff",
-  "examined": "2026-10-31",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Draft deed of sale, Landgericht Sonnenburg",
+   "title": "Deed of sale with corrections, Landgericht Sonnenburg",
    "places": [
     "Natters",
     "Sonnenburg"
@@ -9117,10 +9117,10 @@
     {
      "locus": "Stams_STA_Frg_052_01r",
      "text_language": "German",
-     "title": "Draft deed of sale naming the abbot of Wilten as sealer",
-     "persons": "Cristan Holtzna[..]; Hans Wieser (?); Oswald Spirgl; Pölt Cammerlannder",
-     "description": "Lower part of a draft: the vendors, with their wives Agnes K/A(i)rcherin (?) and Agnes K/A(i)tzorin (?), give warranty for a property now lost and ask the abbot of Wilten to seal. Hans Wieser (?) of Natters is named; witnesses Oswald Spirgl and Pölt Cammerlannder of Natters. Done in the Landgericht Sonnenburg on the Conversion of St Paul (25 January, probable), 15[x]8, the decade never written.",
-     "remarks": "The object sold, the price and the buyer are lost at the cut left edge."
+     "title": "Corrected deed of sale, probably a draft, with the abbot of Wilten substituted as sealer",
+     "persons": "Agnes Aicherin (?); Cristan Holtzmais[..]; Hanns W[e]isen (?); Oswald Spirgl; Pölt Cammerlannder",
+     "description": "Lower part of a deed of sale, probably a draft: the vendors, with Agnes Aicherin (?), Cristan Holtzmais[..] and their wives, give warranty for a property now lost. In the sealing clause the words first written, probably 'Richter vnnd Ambtman zu Welthau' (Wilten), are struck and the abbot and convent of Wilten written above. Hanns W[e]isen (?) of Natters probably received the seal request; witnesses Oswald Spirgl and Pölt Cammerlannder of Natters. Done in the Landgericht Sonnenburg on the Conversion of St Paul (25 January, probable); the year reads 'Tausennt Funffhundert vnd In dem Achtund[..]', its decade not preserved.",
+     "remarks": "The object sold, the price and the buyer are lost at the cut left edge. On the back 'Raitt (?) Stambs 15[..]5[2 or 3]', probably the title of an account the sheet later covered. An Aicher family held the Aichhof at Natters of Wilten, and a Cristan Holtzmaister of Fulpmes witnessed for its heirs in 1539 (Stiftsarchiv Wilten, Urkunden 106 E); a connection with that farm is possible, not shown."
     }
    ]
   }
@@ -9370,10 +9370,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Deed of sale: [name lost] of Ögsten, son of the late Thoman Sch[..], and his wife Katherina sell to [names lost], a married couple ('erbern Ewirt[leuten]'), the Baurecht of a holding at Ögsten (Östen, Umhausen) in the Ötztal, Gericht St. Petersberg, held of the abbey of Frauenchiemsee; St Genevieve's day (3 January) 152[x], units of the year lost",
-  "note": "The text face, photographed upside down, was read rotated. It gives the sellers (a man of Ögsten, son of the late Thoman Sch[..], and his wife Katherina, daughter of the late Lienhar[t](?)), Roppen and the Gericht St. Petersberg, the sale ('verkaufft'), the object lying 'zu Ogsten', the landlord 'Gotshaus und Closter zu Chiemse', payment, and the dating clause 'Geschechen an sand Geno[feen tag] ... [..]zwayntzigisten Jare'. The buyers are not established: 'von Erbern Ewirt[..]' is the formula 'von den erbern Ewirtleuten' (from the honourable married couple), and their names are lost. The wife's name 'Madalena' and the 'zwey Stuck' of the holding come only from the pencilled transcription on the slip and were not read on the image. The units digit of the year is lost at the chamfered corner or the slot; the pencilled 152(5?) is a modern guess. A fresh reader given neutral crops could read almost nothing on the faded text, so the independent check is inconclusive. The sellers, place and feast rest on the research reader's reading and agree with a twentieth-century archivist's typed transcription photographed with the fragment, an earlier human reading of the same object. Ögsten = Östen (Umhausen) and Frauenchiemsee's lordship there are confirmed by Die Gemeindearchive des Bezirkes Imst (1995) and Tiroler Familiennamenkunde (1990), snippets only. No outside record of the act was found; no human review.",
+  "identification": "Deed of sale: [name lost] of Ögsten, son of the late Thoman Sch[..], and his wife Katherina sell to [name not read] and '[..]alenen' his wife the Baurecht of a holding at Ögsten (Östen, Umhausen) in the Ötztal, Gericht St. Petersberg, held of an abbey ('Gotzhauss vnd Closter'; Chiemsee, that is Frauenchiemsee, on the archivist's typed slip); St Genevieve's day (3 January) 152[.], last digit of the year not read",
+  "note": "The text face, photographed upside down, was read rotated, with a twentieth-century typed slip and pencilled transcription in view, so none of the names has had an independent reading: the sellers ('Ogsten weylenden Thoman sch[..]', '[..]ppen Im gericht sanndtpetersperg(?)', 'Vnd Ich Katherina weylenden [..] sein eliche Hausfraue'), the sale ('hergeben vnd verkaufft'), the buyers ('dem(?) Erbern E[..]', name not read, and '[..]alenen seiner hausfrauen als kauffern'), the object ('Baurecht Der zway(?) Stu[..]', 'daselbs zu ogsten gelegen', 'von dem Gotzhauss vnd Closter'), neighbours ('margrethen witschyn(?)', '[..] Frischma[..](?)', 'Clementen walsers') and the date ('Beschehen an sand Gen[..]', '[..]aintzigisten Jare'). The abbey's name, Chiemsee, is the typed slip's and was not read on the leaf; the last digit of the year is not read and the pencilled 152(5?) is modern. The modern label's 'B VI' and 'L V' are probably drawers of the Stams charter archive, whose deeds L V 2 (1467) and L V 3 (1505) concern the tithe at Umhausen and Östen held by the Frischmann family. No record of this act was found in the Stams charters 1517-1535 or the Frauenchiemsee charters 1519-1535 as listed on monasterium.net, by site search there for Östen, Umhausen and Roppen, or by snippet search in Die Gemeindearchive des Bezirkes Imst (1995); no human review.",
   "verify": "https://fragmentarium.ms/overview/F-qqhf",
-  "examined": "2026-10-31",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -9389,8 +9389,8 @@
      "text_language": "German",
      "title": "Sale of the Baurecht of a holding at Ögsten",
      "persons": "Katherina",
-     "description": "[Name lost] of Ögsten, son of the late Thoman Sch[..], and his wife Katherina sell to a married couple (names lost) the Baurecht of a holding at Ögsten (Östen, Umhausen) in the Ötztal, Gericht St. Petersberg, held of the abbey of Frauenchiemsee. Dated St Genevieve's day (3 January) 152[.].",
-     "remarks": "The last digit of the year is lost; the pencilled 152(5?) is modern."
+     "description": "[Name lost] of Ögsten, son of the late Thoman Sch[..], and his wife Katherina sell to a man whose name is not read and '[..]alenen' his wife the Baurecht of a holding at Ögsten (Östen, Umhausen) in the Ötztal, Gericht St. Petersberg, held of an abbey that the archivist's typed slip names as Chiemsee (Frauenchiemsee). Neighbours named include Clement Walser and, with a query, a Frischmann. Dated St Genevieve's day (3 January) 152[.].",
+     "remarks": "The last digit of the year is not read; the pencilled 152(5?) is modern. A modern label says the sheet was until 1966 the cover of P. Paul Gay, Explicatio in Danielem Prophetam."
     }
    ]
   }
@@ -10742,9 +10742,9 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Grant of a heritable holding, issued at Stams under the issuer's own seal (issuer's name lost; probably the abbot of Stams): [property lost] to [tenant lost] and his heirs, with compensation for improvements, the issuer's right of first purchase, and rent and rights reserved; St Bartholomew's day (24 August), year lost",
-  "note": "The lower part of a German deed (item 166_1) is read on the image: the grant 'den wir(?) Jm(?) vnd allen seinen erben geben', improvements ('mit pessrung') and compensation ('kerung'), the right of first purchase ('so sullen si die von erst vns oder vnsern nachkomen be[ieten] ... Doch mit vnserm willen'), 'zins vnd recht allwegen vorbehalten', sealing with '[vnser] aigen anhangenden insigel', and the dating clause 'Geben zu Stams in dem Jar als man zalt nach Cristi vnser[s ...] an sant Bartholmes des hailigen zwelfpoten tag'. Two fresh readers, given neutral crops with no transcription, confirmed Stams, Bartholmes and the sealing and dating formula; one read the word after 'den' in the grant formula as 'wirdign', so 'wir Jm' is probable, not certain. The year is lost at the cut right edge, and the issuer's name, the tenant and the property are lost with the upper part, so the result is partial. The script suggests the fifteenth century, which is not evidence of the year. Item 166_2 is a blank parchment strip. No outside record was found (monasterium.net Stams regests searched for Bartholomew); no human review.",
+  "note": "The lower part of a German deed (item 166_1) is read on the image: the grant 'den wir(?) im(?) vnd allen seinen erben geben', improvements ('mit pessrung'), the right of first purchase, 'zins vnd recht allwegen vorbehalten', sealing with 'aigen anhangendem insigel', and the dating clause 'Geben zu Stams in dem Jar als man zalt nach Cristi vnser[...] [..]are(?) an sant Bartholmes des hailigen zwelfpoten tag'. The year, the issuer's name, the tenant and the property are lost, so the result is partial. The sealing and dating formula matches that of an original grant by abbot Georg of Stams dated St Bartholomew's day 1467 (Stiftsarchiv Stams, Urkunden L V 2), and the clauses follow those of three leases of the same abbot of 1467 copied in Urkunden O XIX 17 (both compared on the images); these are different acts, and they suggest, without dating the fragment, the lease formulary of the Stams abbots of the later fifteenth century and a loss of perhaps a third to two fifths of each line at the right. Item 166_2 is a blank parchment strip; no outside record of the act was found among the Stams regests dated on or near 24 August between 1342 and 1540 on monasterium.net.",
   "verify": "https://fragmentarium.ms/overview/F-c1cn",
-  "examined": "2026-10-31",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -10760,7 +10760,7 @@
      "text_language": "German",
      "title": "Grant of a heritable holding, Stams, St Bartholomew's day",
      "description": "The issuer (name lost, probably the abbot of Stams) grants a holding to a tenant and his heirs, with compensation for improvements, the issuer's right of first purchase, and rent and rights reserved, and seals with his own pendant seal. Given at Stams on St Bartholomew's day (24 August); the year is lost.",
-     "remarks": "The names of the issuer and tenant and the property are lost with the upper part."
+     "remarks": "The names of the issuer and tenant and the property are lost with the upper and right-hand parts. The clauses and the sealing and dating formula follow those of leases and grants of abbot Georg of Stams of 1467 (Stiftsarchiv Stams, Urkunden L V 2 and O XIX 17), which are different acts."
     }
    ]
   }
@@ -11649,23 +11649,24 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "End of a German deed sealed with a commune's seal: [issuer, parties and object lost] ... a reserved clause on a rent ('das der zeinß absein(?)'); 'Beschehen am [day lost] ... [hund]ert vnd im achtunddreissigisten Jare', i.e. the 38th year of a century (1538 likely from the script, not read)",
-  "note": "The lower right corner of an original German parchment deed is read on the image: '...behalt(e)n ist. Das der zeinß absein(?). Vnnd wann diser brief / ...Comaun(t)(?) Innsigel hierangehanngen, Beschehen am / ...ert. Vnnd im Achtunddreissigisten Jare'. Two fresh readers given neutral crops with no transcription partly agreed: one read the year word as 'Achtunddreÿßigisten', the other could not finish it, and the image holds 'Achtunddreyssigisten'; both misread the line-end 'Jare' and the looped Z of 'Zeinß', which the image decides; the word after 'Zeinß' is uncertain on the image ('absein', perhaps 'ablosen'), and the seal word 'Comaun(t)' (commune) remains uncertain. Day, month and hundreds are lost with the cut-away left side of the last line, so only the 38th year of a century is read; the script suggests 1538. Issuer, parties, object and place are cut away above and to the left, and the two-line contemporary endorsement on the back was not read by anyone, so the result is partial. No outside record could be sought, since no name or place survives; no human review.",
+  "identification": "End of a German deed with a convent's seal ('Conuennt Innsigel hierangehanngen'; the words before are lost), possibly of Stams abbey, probably 1538: [parties and object lost] ... a clause on a rent ('Das(?) der Zeinnß absein(?)'); 'Beschehen an [day lost] ... [hund]ert. Vnnd im Achtunddreyssigisten Jare'",
+  "note": "The lower right corner of a German parchment deed reads '...behalt(e)n ist. Das(?) der Zeinnß absein(?). Vnnd wann(?) diser brief / Conuennt Innsigel hierangehanngen, Beschehen an / [...]ert. Vnnd im Achtunddreyssigisten Jare'; the seal word has C, o, four minims, e, four minims, t, so a convent's seal was attached (a blind reader read 'Co[n]uennt Inn S[g]al'). Script and flourishes resemble an original of Abbot Pelagius of Stams of 25 May 1538 (Stams, Urkunden L_LXXII_7 on monasterium.net, ending '...Funffzehenhundert Vnnd im Achtunddreissigisten Jare'), and a tenant's Revers of 4 June 1538 (Stams, L_XIX_7) has the same hand style and the fragment's own 'hieran gehanngen, Beschehen am'; so the hand gives the date and region, not the issuer (every comparator is from the Stams fonds), and the fragment is probably of 1538 and possibly a Stams deed. The hundreds, the day, the parties and the object are lost and no record of the act was found. Faint lines of an earlier Latin book text (one word read, 'dirige') cross the same face at right angles, so the parchment appears to be reused; the endorsement on the back is not read.",
   "verify": "https://fragmentarium.ms/overview/F-0kh0",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "German deed",
+   "title": "German deed with a convent's seal, probably 1538",
    "tags": [
     "Topic: legal"
    ],
    "content": [
     {
      "text_language": "German",
-     "title": "End of a deed sealed with the seal of a commune (?)",
-     "description": "Lower right corner of a deed: a clause on a rent ('das der zeinß absein(?)'), the sealing with the 'Comaun(t)(?) Innsigel', and the date 'Beschehen am [...] [hund]ert vnnd im Achtunddreissigisten Jare'. Issuer, parties, object and place are lost.",
-     "remarks": "The year is the 38th of a century, probably 1538. The endorsement on the back is not read."
+     "title": "End of a deed with a convent's seal, possibly of Stams abbey",
+     "description": "Lower right corner of a deed: a clause on a rent ('Das(?) der Zeinnß absein(?)'), the sealing 'Conuennt Innsigel hierangehanngen', and the date 'Beschehen an [...] [hund]ert. Vnnd im Achtunddreyssigisten Jare'. Parties, object and day are lost.",
+     "remarks": "Probably 1538 and possibly Stams: script and layout resemble an original of Abbot Pelagius of Stams of 25 May 1538 (Stams, Stiftsarchiv, Urkunden L_LXXII_7); the date wording itself is regional. Faint lines of an earlier Latin text cross the same face; the parchment appears to be reused. The endorsement on the back is not read.",
+     "locus": "Stams_STA_Frg_155_01r"
     }
    ]
   }
@@ -11683,14 +11684,14 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "German deed issued by Johann B/C[...] (probably with a second party), concerning a whole peasant holding ('das ganze Lehen') with house and barn under one roof, fields and meadows at [...]pach, formerly held by a widow, with neighbours including Wolf Wilhelm von K[...], a reservation for the lord of the holding (Lehenherr) and sealing with a signet; the legal action is lost; 19(?) February 1618",
-  "note": "About 28 lines of a German parchment deed, cut down as a book cover (cover shelfmark 'BB d 4', from volume 'III d. 1A1(?), 52'), are read on the image in part: the formula 'Ich Johann B/C[...] ... Bekhennen offentlich mit di(se)m [brief]', 'das ganze Lehen', 'berüerte behausunge vnnd Stadl vnder ainem tach', headings 'An Äckern' and 'Ann Wisen' with neighbours, 'Lehenherr', 'Petschafft ... besiglet', and the dating clause '...[Neun?]zehenden tag deß Monats Februarij, Jm Sechzehen[hundert] / Achtzehenden Jar' (19 February 1618, a Monday, Gregorian). Two fresh readers given neutral crops agreed in substance on the month and year (one misread 'Jar' as 'Jan.', the other read 'Achtzehenden Jar' as a name, which the image does not support); 'Neun' in the day stays uncertain because of holes over the word, and the modern pencil note '19. Feb. 1618' was not used for the reading. The readers confirmed 'Johann' but not the surname (first letter B or C, rest torn), and disagreed on the place after 'zu' ('Thumersbach', 'Slunzpach'; research 'St...pach') and on the noble's surname, so only '...pach' and 'Wolf Wilhelm von K[...]' are kept. The operative clause stood in the torn-off upper right corner and the centre of the leaf (former spine) is too faded to read even in enhanced channels, so the legal action is not established and the result is partial. The Stams abbey charters on monasterium.net were searched (1618, Feb. 1618, 16180219, Stumpach, Stumbach, Wolf Wilhelm) and Google Books for the noble and the place, without a record of this act; the abbey's tenants' reverses for Lehen of 1618 (K_XIII_11, K_XXXVII_5) are similar in wording only. No human review.",
+  "identification": "Grant of a peasant fief (Lehenbrief) by the prince-provost of Ellwangen, 'Johann C[...] ... Probst, vnd Herr zu [El]lwangen' (Johann Christoph II von Freyberg-Eisenberg, surname supplied), to [start of name lost] Lutz, probably at Stimpfach near Ellwangen (leaf: 'Lutzen zu Stimpfach(?)'): the whole fief there with house and barn under one roof, meadows and fields, next to land of Wolf Wilhelm von Knöringen zu Rechenberg(?); Ellwangen, 19(?) February 1618",
+  "note": "The first line reads 'W[ir] Johann C[...] ... Probst, vnd Herr zu [El]lwangen, Bekhennen offentlich mit disem b[rief]', the recipient is '[...] Lutzen zu Stimpfach(?)', who bought 'das ganze Lehen' there from a predecessor's widow ('seeligen hinderlassnen weib ... erkaufft hatt'), a neighbour is 'Wolf Wilhelmbs von Knöringen zu Rechenberg(?)' (a blind reader: 'Wolf Wilhelmb von Rä[..]iger zu Re[..]enberg'), and the deed closes '[...]hangendem(?) Secret besiglet ... Statt Ellwangen, den [Neün?]zehenden tag deß Monats Februarij, Jm Sechzehen[hundert] Achtzehenden Jar'. The provost's surname is supplied from the Ellwangen fief charters in Staatsarchiv Ludwigsburg (B 425), where an original of the same provost for the mill at Stimpfach of 6 August 1618 (U 54, image online) has the same opening line and date style. No record of this grant itself was found by Archivportal-D search, the start of the recipient's name is lost with the torn corner and the centre of the leaf is unread, so the result is partial. Cut down as a book cover (cover shelfmark 'BB d 4').",
   "verify": "https://fragmentarium.ms/overview/F-d358",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Deed concerning a peasant holding, 1618",
+   "title": "Grant of a fief, probably at Stimpfach, by the provost of Ellwangen, 1618",
    "dated": "1618",
    "tags": [
     "Topic: legal"
@@ -11698,11 +11699,16 @@
    "content": [
     {
      "text_language": "German",
-     "title": "Deed of Johann B[...] concerning a holding at [...]pach",
-     "persons": "Johann B[...]; Wolf Wilhelm von K[...]",
-     "description": "Johann B[...] (or C[...]), probably with a second party, concerning the whole holding ('das ganze Lehen'), with house and barn under one roof, fields and meadows at [...]pach, formerly held by a widow, with a reservation for the lord of the holding (Lehenherr); sealed with a signet. 19 (?) February 1618.",
-     "remarks": "Neighbours include Wolf Wilhelm von K[...]. The legal action is lost."
+     "title": "Grant of a peasant fief, probably at Stimpfach, by the provost of Ellwangen",
+     "persons": "Johann C[hristoph II von Freyberg-Eisenberg], provost of Ellwangen; [...] Lutz at Stimpfach; Wolf Wilhelm von Knöringen zu Rechenberg(?)",
+     "description": "'Johann C[...] ... Probst, vnd Herr zu [El]lwangen' grants [start of name lost] Lutz, probably at Stimpfach ('Lutzen zu Stimpfach(?)') the whole fief there ('das ganze Lehen'), bought from a predecessor's widow, with house and barn under one roof, meadows and fields listed with their neighbours; sealed with the provost's Secret. Ellwangen, 19 (?) February 1618.",
+     "remarks": "The provost's name after 'Johann C' is supplied from the Ellwangen fief charters in Staatsarchiv Ludwigsburg (B 425), not read on the leaf. Neighbours include Wolf Wilhelm von Knöringen zu Rechenberg(?). The start of the recipient's name is lost. Reused as a book cover.",
+     "locus": "Stams_STA_Frg_051_01v"
     }
+   ],
+   "places": [
+    "Ellwangen",
+    "Stimpfach"
    ]
   }
  },
@@ -12261,10 +12267,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Fragment of a private German letter (later 15th-century cursive): moral admonitions to a single addressee ('du') about sin, pride and bad company, mentioning 'deiner schwester' and 'das gelt'; writer, addressee, place and date lost",
-  "note": "The 23 surviving lines on the recto of a paper leaf were read on the image: 'verkeret sich warlich pald / wye den deiner schwester geschehen ist', 'den ich hab dir so trew(lich?) vorgehallt(en) / da du anfänglich hast hin [...] welle zyhen', 'wye oft hab ich dich auch so trewlich gepetten / das du dich ge[...] von yeder geselleschaft', and the close on the fear of God. The leaf is cut at the top and right and the text runs off the foot, so salutation, signature and any dating clause are lost; lines 18-20 are abraded and overlaid by mirror-image offset from another sheet, which also accounts for the apparent note in the lower left margin. The verso is blank except for a modern pencil binding note, 'Einband zu II/6 33 (aus J. 1535)', which dates the binding use, not the letter. That writer and addressee are a parent or older relative and a young person is an inference from the tone, not stated. With no name or place to search, phrase searches in Google Books and the Internet Archive found nothing, and no outside record is expected; no human review.",
+  "identification": "Fragment of a private German letter (Bavarian-Austrian cursive, late 15th or early 16th century): moral admonitions to a single addressee ('du') about sin, pride and bad company, mentioning 'deiner schwester' and 'das gelt'; writer, addressee, place and date lost",
+  "note": "The 23 surviving lines on the recto were read on the image: 'verkerett sich warlich pald / wye den deiner schwester geschehen ist', 'den ich hab dirs so trewl(ich) vorgehallten / da du anfängklich hast hin in(?) welle zyhen', 'wye wol ich auch das gelt nimer(?) hab', 'wye oft hab ich dich auch so trewlich gepetten / das du dich ge[...] von yeder geselleschaft', closing 'den gott hatts geschaft / er hatts nitt verpotten ... vnd lass dyr mein(?) predig nitt so ham[...]'. The leaf is cut at the top and right and the text runs off the foot, so salutation, signature and date are lost; a modern pencil note on the blank verso, 'Einband zu II/6 [or II/G] 33 (aus J. 1535)', dates the binding use, not the letter. Phrase searches in Google Books, the Munich digital library and the Internet Archive found no printed or model letter, and the references to the addressee's sister, to money and to earlier warnings speak against one. No outside record was found.",
   "verify": "https://fragmentarium.ms/overview/F-tpan",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12292,10 +12298,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Leaves of a 17th-century Tyrolean court formulary: a model 'Schäz(?) Fürpottzet[l]' (summons to a valuation court day) of the Stadtrichter ('N.') of Hall, at the suit of Kilgen(?) Mair, burgher and master baker of Hall, against Thoman Egger at Rhum(?), for 200 fl. capital, court day 17 November, dated Hall 1 November 16[5]4; with two blank model forms 'Forma aines 14 tägigen Verschaffts'",
-  "note": "Item 230-4r is read on the image as a summons in which 'N. Stattrichter' of Hall, on the petition of 'Kilgen Mairs burger und Mayster des böckhenhandtwerchs alhie', orders the Dorfmeister 'zu Rhum(?)' to summon Thoman Egger to an ordinary 'Schäzrechtstag' on 17 November over 200 fl. capital and accessories under a bond; 'Datum Hall den 1. Novembris 16[5]4'. The judge is written 'N.', so this is a model or copy, not the summons sent out. Two blind readers given single-word crops disagreed with the research reading on the creditor's first letter, the place and the year; on reread of the image the first letter K of Kilgen is probable, the place 'Rhum' (probably Rum near Hall) is uncertain, and the third digit of the year is uncertain (1634 or 1644 not excluded). Item 230-1r carries two blank formulas for an order of a Pfleggericht to pay within a set term ('Forma aines 14 tägigen Verschaffts'), with no names or date; 230-3 is a slip with a few cut-off words, and the other faces are blank. No outside record was found: Google Books searches on Kilian Mair and Thoman Egger gave nothing relevant, and the Hall court records in the Tyrolean archives were not reachable. No human review.",
+  "identification": "Leaves of a 17th-century Tyrolean court formulary: a model 'Schäz(?) Fürpottzetl' (notice of a valuation court day) of the Stadtrichter ('N.') of Hall, at the suit of Kilgen(?) Mair, burgher and master baker of Hall, naming Thoman Egger, more probably as the Dorfmeister 'zu Rumb(?)' (place unresolved: read Rumb or Stumb by the research reader, possibly Rum near Hall; a blind reader read 'Stamm[.]') who serves the notice than as the debtor, and an innkeeper there read 'Vinckl(?)', for 200 fl. capital, court day 17 November, dated Hall 1 November 16[5]4; with two blank model forms 'Forma aines 14 tägigen Verschaffts' of a Pfleger, the second naming the same place",
+  "note": "Item 230-4r is read on the image: 'N. Stattrichter' of Hall, on the petition of 'Kilgen(?) Mairs burger vnd Mayster des böckhenhandtwerchs alhie', orders 'der dorffmaister zu Rumb(?) Thoman Egger' to announce to a man 'daselbs meiner richterlichen Jurisdiction sizendt', whose name is read 'Vinckl(?)', 'ainen ordenlich Schäzrechtstag' on 17 November 'aldort zue Rumb(?) in ... Vinckls(?) Wirts behausung' over 200 fl. capital; 'Datum Hall den 1. Novembris 16[5]4'. Thoman Egger is thus more probably the village officer who serves the notice than the debtor; the place name, written the same way in the second form on 230-1r ('zu Rumb(?), mein[er Pf]legsverwaltung'), is read Rumb or Stumb by the research reader (possibly Rum near Hall) and 'Stamm[.]' (Stams?) by a blind reader whose context showed the word Stams, so the place is not settled, and the third digit of the year is uncertain (1634 or 1644 not excluded). Item 230-1r has two blank forms of a Pfleger's order to pay 250 fl. within 14 days ('Forma aines 14 tägigen Verschaffts'), 230-3 is a slip with a few cut-off words, and the other faces are blank. No printed formulary with these forms was found by full-text search in the Munich digital library and Google Books; the Tyrolean Landesordnung of 1573, read on the page at Book 2 tit. XXXV and LXVI, prescribes the summons 'zu hauß vnd zu hof oder vnder augen' and the valuation of pledges but prints no forms, and no outside record of the case was found. No human review.",
   "verify": "https://fragmentarium.ms/overview/F-j80e",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12310,16 +12316,16 @@
     {
      "locus": "Stams_STA_Frg_230_04r",
      "text_language": "German",
-     "title": "Model summons to a valuation court day ('Schäz(?) Fürpottzet[l]')",
-     "persons": "Kilgen Mair; Thoman Egger",
-     "description": "The Stadtrichter of Hall ('N.'), at the suit of Kilgen(?) Mair, burgher and master baker of Hall, orders the Dorfmeister at Rhum(?) to summon Thoman Egger to a Schäzrechtstag on 17 November over 200 fl. capital under a bond. Dated Hall, 1 November 16[5]4.",
-     "remarks": "The judge is written 'N.', so this is a model or copy. The third digit of the year is uncertain."
+     "title": "Model notice of a valuation court day ('Schäz(?) Fürpottzet[l]')",
+     "persons": "Kilgen (?) Mair; Thoman Egger; Vinckl (?)",
+     "description": "The Stadtrichter of Hall ('N.'), at the suit of Kilgen(?) Mair, burgher and master baker of Hall, orders notice of a Schäzrechtstag on 17 November over 200 fl. capital, to be held at Rumb(?) in the house of an innkeeper read Vinckl(?); Thoman Egger is named, more probably as the Dorfmeister who serves the notice than as the debtor. Dated Hall, 1 November 16[5]4.",
+     "remarks": "The judge is written 'N.', so this is a model or copy. The place is not settled (Rum near Hall or Stams). The third digit of the year is uncertain."
     },
     {
      "locus": "Stams_STA_Frg_230_01r03r",
      "text_language": "German",
      "title": "Forma aines 14 tägigen Verschaffts",
-     "description": "Two blank model forms for an order of a Pfleggericht to pay within a set term."
+     "description": "Two blank model forms for an order of a Pfleger to pay a debt within 14 days; the second names the same place as the notice (Rumb(?))."
     }
    ]
   }
@@ -12551,29 +12557,29 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Two paper binding pieces with mirror-reversed German documents of the Stams Grundherrschaft: (11_2) a tenant's Revers for a holding of the 'Gotshaus Stambs' with pre-emption and Urbar dues, issuer read uncertainly as Cristoff(?) Emerlannder(?), dated Nou(?)embris, year lost; (11_1) a related text naming 'Johannsen Abbte vnd Capitel' and the 'Tirollisch Lanndtrecht'; plus a printed Latin scrap with the Liber pontificalis life of Sixtus II, edition not identified",
-  "note": "The German text survives only mirror-reversed on face 1 and was read from a horizontally flipped copy of the image. On piece 11_2 the issuer acknowledges that the 'Ehrwürdigen, andächtigen vnd Geistlichen' lord has handed over a holding ('ain Camer, Rosstal ... vnd Gärtten, alles bey ein[ander]'), with a pre-emption clause ('Wann aber Ich, oder [meine Erben] ... solchen Kauff'), dues to the 'Gotshaus Stambs' according to its 'Vrbar Puech(?)', sealing with '[a]igen Innsigl' and a dating clause '[...] Nou(?)embris Nach der gepurt Jhesu Cr[isti]' with the year lost at the cut. The word check confirmed the display word '...lannder' and 'Johannsen Abbte' on 11_1, but left the issuer's name fully queried: the forename is legible only as letter shapes compatible with 'Cristoff', and the continuation does not show '-nnder', so the join 'Emerlan|nder' is unverified; the month's initial looks like D, so November is probable but December is not excluded. The abbot Johann may be Johann Kölbel (abbot of Stams, d. 1590, per the Oberdeutsche Personendatenbank), a candidate not checked against Stams sources, and whether 11_1 is a separate act is open. On the pasted face a strip of a two-column rubricated print reads '...[t]empore seuissima per[secutio] ... agebatur sub decio. Et post passionem beati [Six]ti post tertiam diem', the Liber pontificalis life of Sixtus II in the 'agebatur' variant, probably breviary lessons; the printed edition was not found. Searches for Emerlander in Google Books gave nothing, the CoMMA search returned only the known LP text, and monasterium.net was not checked; partial because the issuer, the abbot's identity and the year are not established, no human review.",
+  "identification": "Revers of Cristoff Camerlannder(?) 'auf dem Prenner' for the hereditary tenancy of the whole Oberwißhof on the Brenner (the later Brennerbad), a holding of the 'Gotshaus Stambs', bought with the consent of Abbot Johann as ground lord; dated in November, year lost ('Fünffzehenhundert[...]'; no decade read), by inference from outside records between 1565 and 1569; one paper sheet in two pieces, text mirror-reversed; plus a printed Latin scrap with the Liber pontificalis life of Sixtus II, edition not identified",
+  "note": "The mirror-reversed German text on both pieces is one document, read from a flipped image with the outside records in view: piece 11_2 holds the middle and 11_1 the end of each line, with about ten letters also lost at the junction, and the left third of the sheet, with the start of every line and the year, is lost. 'Cristoff Camerlannder' ('[...]lannder auf dem Prenner, im Lanndtger[icht]'; a blind reader read the name 'Cristoff H[..]n[.]lst[..]nder', so the surname is not confirmed on the leaf alone) promises to keep his 'erkhaufften gannzen Oberwißhof' (a blind reader: 'Obermaiß hoff') in repair and not to alienate it without the consent of the abbot ('Johannsen Abbte, vnd Regierenden Prelaten') and to pay his dues to the 'Gotshaus Stambs'; the farm is described with 'ain grosser, vnd ain Clainer Rosstal', a bake-oven, fields and gardens 'alles bey vn[d anainan]der gelegen, allain geet die gemain Lanndtstrassen mitten', the 'Wechsel hof' and 'Khofl' as neighbours and 'Vier Rechts Perckhmäder sambt ainer Khäser', and the dating clause reads '[...] Monats Nouembris Nach der gepurt Jhesu Cr[isti] ... Fünffzehenhundert[...]'. The Stams Revers of Thoman Vogl of 11 December 1569 (K LXII 3, image read) names Cristoff Camerlannder 'auf dem Prenner, Lanndtgerichts Sterzingen gesessen' as seller of the same Oberwißhof and repeats the description almost word for word (it adds the inn, wild bath and mill, which fall in the fragment's lost parts), and Auckenthaler's farm history (1953, pp. 66-67, snippets) has Christoph Kamerlander as bath-keeper there in 1565; the Stams regests name Abbot Georg in September 1565 and Abbot Johannes from October 1567, so the act falls, by inference, between 1565 and 1569 (no decade is read on the leaf). The act itself was not found among the 25 Stams regests of November 1565 to December 1569 on monasterium.net (a list that also lacks the 1560 Tschugg Revers for the same farm, so it is incomplete), the seller (read 'Niclas(?) Tschugg(?)') is not established, and the printed Liber pontificalis strip remains without an identified edition; no human review.",
   "verify": "https://fragmentarium.ms/overview/F-hq07",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Documents of Stams Abbey; printed Liber pontificalis",
+   "title": "Revers of Cristoff Camerlannder (?) for the Oberwißhof on the Brenner (Stams Abbey); printed Liber pontificalis",
+   "places": [
+    "Brenner",
+    "Stams"
+   ],
+   "tags": [
+    "Topic: legal"
+   ],
    "content": [
     {
-     "locus": "11_2",
+     "locus": "Stams_STA_Frg_011_01r02r",
      "text_language": "German",
-     "title": "Revers of a tenant for a holding of Stams Abbey",
-     "persons": "Cristoff (?) Emerlannder (?)",
-     "description": "The issuer, read as Cristoff (?) Emerlannder (?), acknowledges receiving a holding ('ain Camer, Rosstal ... vnd Gärtten'), with a pre-emption clause and dues to the 'Gotshaus Stambs' according to its Urbar, and seals with his own seal. Dated Nou(?)embris; year lost.",
-     "remarks": "Mirror-reversed. The month may be December."
-    },
-    {
-     "locus": "11_1",
-     "text_language": "German",
-     "title": "Related text naming Abbot Johann and the chapter of Stams",
-     "description": "Names 'Johannsen Abbte vnd Capitel' and the 'Tirollisch Lanndtrecht'.",
-     "remarks": "Whether this is a separate act is open. The abbot may be Johann Kölbel."
+     "title": "Revers of Cristoff Camerlannder (?) for the Oberwißhof on the Brenner",
+     "persons": "Cristoff Camerlannder; Johann, Abbot of Stams",
+     "description": "One sheet in two pieces (11_2 middle, 11_1 right; left third lost). Cristoff Camerlannder 'auf dem Prenner' acknowledges holding the whole Oberwißhof (house, stables, bake-oven, four mountain meadows) of the 'Gotshaus Stambs' by hereditary tenancy, with the consent of Abbot Johann, and binds himself to the usual tenant's obligations. Dated in November; year lost, between 1565 and 1569, probably 1567, 1568 or 1569.",
+     "remarks": "Mirror-reversed. The Stams Revers of Thoman Vogl, 11 December 1569 (K LXII 3), names Camerlannder as seller of the same farm and describes it in the same words, adding the inn, wild bath and mill. No outside record of this act was found."
     },
     {
      "text_language": "Latin",
@@ -12581,6 +12587,10 @@
      "description": "Strip of a two-column rubricated print, in the reading 'agebatur sub decio', probably breviary lessons.",
      "remarks": "The edition is not identified."
     }
+   ],
+   "bibliography": [
+    "E. Auckenthaler, Geschichte der Höfe und Familien des obersten Eisacktals: Brenner, Gossensass, Pflersch (Innsbruck 1953), pp. 66-67",
+    "Stams, Stiftsarchiv, Urkunden K LXII 3 (11 December 1569)"
    ]
   }
  },
@@ -12631,10 +12641,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Last leaf of a Latin account of receipts (Receptae) of a religious house, probably Stams abbey (inferred, not named), fifteenth century, with 23 receipt items and the grand total of 1,549 marks; issuer and year not on the leaf",
-  "note": "Both faces of the paper leaf were read on the image: 23 entries 'Item pro ... vendito' or 'Item a [person] de [place] pro ...', covering silver, salt sold 'in Glurns et in alys locis', herrings, a load of hemp, four oxen sold 'ad curiam principis', cows, mares and wine sold to named people, linen and woollen cloth sold to neighbours and servants, money 'in resignatione officiorum fratris Johannis [T/D]ri[e/a]ntt(?)', receipts from an infirmarian and a prebendary, and 'de Salma et theolono ad pistrinum', closing on the verso with 'Suma omnium Receptarum prescriptarum marce Mille Quingente quadraginta nouem lb vna gr xj(?) q iiij'. The word check confirmed the total, Glurns (the initial is B-like) and Talfs (Telfs), and Katt[rn?]shaus[er?]; it corrected the place at line 8 to 'V[mi?]bst(?)', so Imst is a conjecture only, the place at line 14 to 'S[i?]l[t?]z(?)', so Silz(?) is likely from context but not read, and the friar's surname to '[T/D]ri[e/a]ntt(?)', not a secure 'Trientt'. The leaf has no heading, issuer or dating clause; the only date is a modern pencil '(c.14?1)', read 1471 or 1491, and the attribution to Stams rests on the holding, the monastic offices and the Upper Inn valley places. Google Books and Internet Archive searches for the names and Lebersorg's Stams chronicle (no snippets shown) gave nothing, and the Stams account series was not consulted. The issuer and the year are not established, so it stays partial; no human review.",
+  "identification": "Last leaf of a Latin account of receipts (Receptae) of a religious house, probably Stams abbey (inferred, not named), fifteenth century, probably its last third, with 23 receipt items and the grand total of 1,549 marks; accountant and year not on the leaf",
+  "note": "Both faces were read on the image: 23 entries for sales of silver, salt 'in Glurns et in alys locis', herrings, hemp, four oxen 'ad curiam principis', cows, mares, wine and cloth, money 'in resignatione officiorum fratris Johannis Trientt[..](?)', receipts from an infirmarian and a prebendary and 'de Sal[in/m]a et theolono ad pistrinum', closing with 'Suma omnium Receptarum prescriptarum marce Mille Quingente quadraginta nouem lb vna gr xj(?) q iiij'. The buyers are 'Johanne Metzger de Vmbst(?)' (Vmbst is a spelling of Imst attested in Zingerle's medieval Tyrolean inventories; the letters still need an independent reading), 'Oswaldo kopp de Talfs' and 'Cunrado Nägelin de Siltz(?)'; Stams charter regests on monasterium.net have a Hanns Mezger with land at Imst in 1474 (B_XVIII_2, B_XVIII_3) and a Konrad Nägele selling to the abbey in 1480 (B_XVIII_9, L_XXIII_15), which show such men dealing with Stams then, not this account. Stams is therefore probable but not named, and the year is not fixed: the only date is a modern pencil '(c.14[.]1', and Rhenish florins are reckoned at 5 lb. Searches inside the Album Stamsense and Lebersorg's chronicle did not find the friar, and the abbey's account series was not consulted.",
   "verify": "https://fragmentarium.ms/overview/F-dqq1",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12643,8 +12653,8 @@
     {
      "text_language": "Latin",
      "title": "Account of receipts (Receptae) of a religious house, probably Stams",
-     "description": "Last leaf, with 23 receipt items: silver, salt sold in Glurns and elsewhere, herrings, hemp, oxen sold to the prince's court, cattle, wine and cloth, money on the resignation of the offices of brother Johannes [T/D]ri[e/a]ntt (?), and receipts from an infirmarian and a prebendary. Total: Suma omnium Receptarum prescriptarum marce Mille Quingente quadraginta nouem.",
-     "remarks": "Issuer and year not on the leaf. Stams is inferred from the holding, the monastic offices and the Upper Inn valley places."
+     "description": "Last leaf, with 23 receipt items: silver, salt sold in Glurns and elsewhere, herrings, hemp, oxen sold to the prince's court, cattle, wine and cloth sold to people 'de Vmbst(?)' (Imst?), 'de Talfs' (Telfs) and 'de Siltz(?)' (Silz?), money on the resignation of the offices of brother Johannes Trientt[..] (?), receipts from an infirmarian and a prebendary, and 'de Sal[in/m]a et theolono ad pistrinum'. Total: Suma omnium Receptarum prescriptarum marce Mille Quingente quadraginta nouem.",
+     "remarks": "Accountant and year not on the leaf. Stams is probable from the holding, the monastic offices and the Upper Inn valley places, but is not named. A Hanns Mezger with land at Imst (1474) and a Konrad Nägele (1480) occur in the Stams charters (monasterium.net, AT-StiAStams, B_XVIII_2, B_XVIII_9); whether they are the buyers named here is not shown. Rhenish florins are reckoned at 5 lb."
     }
    ]
   }
@@ -12735,10 +12745,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Renunciation (Verzichtbrief) of c. 1546: married couples (names lost) renounce for themselves and their heirs all hereditary claims to the goods of a deceased priest, Herr Cristoff T[...], which had passed to an abbot and convent (house not named; probably Stams); sealed by Veit Ca[ss/sl]e (probably Veit Castl), Pfleger and Kastner of St. Petersberg; the parish priest of Silz and Silz residents named; 15[Sechs?]undvierzig, day and month lost",
-  "note": "The document is on the face turned inward when the sheet was reused as the cover of the Stams Oberkellneramt Urbar for 1594 (Hs. 140), read rotated 180 degrees; the upper half is abraded nearly to invisibility and the foot, with any seal, is cut away. The lower block is read on the image: the renunciation 'Erblichen Recht, Spruch vnd gerechtigkaiten ... dem Gotzhauss vnd Conuent ... verzigen begeben vnd entschlagen', 'nach dem ... form der Lanndtsprauchs der fürstlichen Grafschafft Tyrol', the issuers as 'wir obbenanndte Wirtleüt', the sealer 'Veitten Ca[ss/sl]e diezeit Phleger vnd Castner zu Sannt Pettersperg', 'Herr L[..]n(?) Co[rdier?] diezeit Pharrer zu Sylz', Hanns Jörg Sturm, Sebastian Welsch and Petter Stöckhl of Silz, and the year '[...]zehenhundert vnd [Sechs?]vnd vierzigisten Jar'; faint lines above name 'Herrn Abbt' and the deceased 'Herrn Cristoffen T[...]'. The word check confirmed the decade (154x, no 'zwaintzig'), Sylz, Sannt Pettersperg and Sebastian Welsch; it found no t in the Pfleger's surname, so 'Castl' is not read, and it reduced the priest's forename to 'L[..]n(?)' with 'Cordier' unchecked; the unit 'Sechs' stays uncertain. That the Pfleger is Veit Castl is an inference from Die Gemeindearchive des Bezirkes Imst (1995), which names a Veit Castl as Pfleger and Kastner at Petersberg under the Frundsberg after 1536, and that the house is Stams is an inference from the neighbouring places and the reuse as a Stams urbar cover; no abbot or house is named in what was read. Partial because the issuing couples, the deceased's surname and the day and month are lost. No outside record of the act was found (Google Books, MDZ); monasterium.net was not checked; no human review.",
+  "identification": "Renunciation (Verzichtbrief) of 154[.]: married couples (names lost) renounce all hereditary claims to the goods of the late Herr Cristoff T[...], possibly parish priest of Untermieming ('zu Vnder[m]iemingen(?)', enhanced image), which an abbot and convent, probably of Stams (on the setting: the Petersberg seal, the Silz witnesses, the Stams Urbar cover), had taken into their hands; sealed by Veit Ca[ss/st]le (possibly the Veit Castl of 1564), Pfleger and Kastner of St. Petersberg; day 'am Ersten', month and unit of the year lost",
+  "note": "The document is on the inner face of the cover of the Stams Oberkellneramt Urbar for 1594 (Hs. 140), read rotated 180 degrees; the opening lines with the issuers are abraded beyond reading and the last line is cut through. Read in colour are the renunciation clauses, 'wir obbenanndte Wirtleüt', the sealer 'Veitten Ca[ss/st]le diezeit Phleger vnd Castner zu Sannt Pettersperg', 'Herr L[e/o]uin(?) Cordier(?) diezeit Pharrer zu Sylz', Hanns Jörg Sturm, Sebastian Welsch and Petter Stöckhl of Silz, 'Beschehen am Ersten' and '[...]vnd vierzigisten Jar'. Read on a contrast-enhanced image are 'Herrn Abbt vnd prelaten zu Stams' and 'verstorbne Pharrers(?) zu Vnder[m]iemingen Herrn Cristoffen T[.]nnckh[..]mers(?)'; a blind reader confirmed 'herren Abbt vnd prelaten(?)' and 'verstorb-' but read 'für(?) Ma[...]' where 'zu Stams' is claimed and gave only '-mmingen(?)' without 'Pharr-'. So the house is probably Stams on the setting (seal, witnesses, the Stams Urbar cover) and the deceased possibly the parish priest of Untermieming, a parish under Stams patronage. A Veit Castl is Pfleger and Kastner of St. Petersberg on 17 April 1564 (Munich, BayHStA, Kloster Frauenchiemsee Urk. 1208), showing the man and office in that year only; no record of this act was found in the Stams charter regests on monasterium.net, and the issuers are lost, so the result stays partial.",
   "verify": "https://fragmentarium.ms/overview/F-agve",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12750,8 +12760,9 @@
     {
      "text_language": "German",
      "title": "Renunciation (Verzichtbrief)",
-     "persons": "Cristoff T[...]; Veit Ca[ss/sl]e; Hanns Jörg Sturm; Sebastian Welsch; Petter Stöckhl",
-     "description": "Married couples (names lost) renounce for themselves and their heirs all hereditary claims to the goods of the late priest Cristoff T[...], which had passed to an abbot and convent (probably Stams). Sealed by Veit Ca[ss/sl]e (probably Veit Castl), Pfleger and Kastner of St. Petersberg; the parish priest of Silz and residents of Silz are named. 154[6?], day and month lost."
+     "persons": "Cristoff T[...]; Veit Ca[ss/st]le; Hanns Jörg Sturm; Sebastian Welsch; Petter Stöckhl",
+     "description": "Married couples (names lost) renounce for themselves and their heirs all hereditary claims to the goods of the late Herr Cristoff T[...], probably parish priest of Untermieming, which an abbot and convent, probably of Stams, had taken into their hands. Sealed by Veit Ca[ss/st]le (probably Veit Castl), Pfleger and Kastner of St. Petersberg; the parish priest of Silz and three residents of Silz are named. 154[.], 'am Ersten' of a lost month.",
+     "remarks": "'zu Stams' and 'zu Vnder[m]iemingen' are read on a contrast-enhanced image of the abraded upper lines and have not been independently checked."
     }
    ]
   }
@@ -12769,10 +12780,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Thirty-seven spine-lining strips from at least two Latin documents in fifteenth-century hands: (I) a notarial or curial act on an appeal involving the syndics and community of an unnamed place, a bishop, a judge 'Ber[..]' and the Roman curia, with an eschatocol dated on a Saturday in January in a pope's second year, year and pope lost; (II) a land conveyance or lease with a boundary clause; parties, place and year lost",
-  "note": "On canvas 0, Group A (Frg. 87-3r) gives 'appellacion(em) huiusmodi', 'sindicos ... et vniu(er)sitate(m)', 'romana curia', 'p(re)fatum d(omi)n(u)m Ber[..]um Iud[icem]', the names Symon, St[ef..], Joh[an]nem and 'Ro[..]e[ri?]um', 'anno mil[l..]' with the year cut away, and '[M]ay In[d..]'; Group C (87-2r) gives '[..]die Saba[ti] [..]igesim[..] ... Januar[..] ... Ind[ictionis] ... Sanct[iss]imi d(omi)ni n(ost)ri p(re)fat[i] ... [sec]undo', with a subscription-like line 'C[..] de Pis[..]' and a possible fee note 'tax(?)'. Group B (87-1r, mounted upside down) is a different hand with 'possessores nostri', 'Anthony', 'alio late[re]', 'vocabulo' and 'possent aut vend[ere](?)'. The word check confirmed Saba[ti], Januar[..], the pope formula and -undo, but the day ordinal may be [vi]gesim- or [tri]gesim-, a q-word (perhaps the indiction numeral) stands unread before Ind[ictionis], 'mens(is)' in Group A is not secured, and line 2 of Group C reads 'f[..]im(m)e(?)'. The years 1411/1412, 'Saturday 23 January' and Pope John XXIII come only from a modern red-ink note on the paper carrier, not from the strips; a Saturday in January of a pontifical year 2 also fits, among others, 23 or 30 January 1406 (Innocent VII), 21 or 28 January 1408 (Gregory XII), 30 January 1412, 21 or 28 January 1419 (Martin V) and 24 or 31 January 1433 (Eugene IV). Whether Groups A and C are one document is unproved. Google Books searches and a CoMMA search on the Latin formulas gave no lead (the best hit was chancery formula words), and the Rota records and Repertorium Germanicum were not searched for want of a surname or place. Issuer, place and year are cut away on every strip, so no regest is possible; no human review.",
+  "identification": "Thirty-seven spine-lining strips from two Latin documents: (I) a curial or judicial act on an appeal involving the syndics and community of an unnamed place, a bishop and a judge 'Ber[..]um', with a date recited in the text ('[mille]simo qu-' under a Pope 'Joha[..]', so John XXIII, probably May 1411) and, probably of the same document, an eschatocol of a Saturday in January, pontifical year 2 (23 or 30 January 1412 if the two belong together); (II) a land contract with numbered conditions and a boundary clause; parties and place not read",
+  "note": "On 87-3r the dating row reads '[..]simo qu[..] ... Indictio[..] quarta(?) ... dicti Joha[..] p(a)p(e)(?) vigesi[..](?) [..]i tercy(?) [..]e quar[..] mens[..] [.]ay', and the body has 'appell(aci)on(em) huiusmodi', 'sindicos', 'et vniu(er)si[..]atem', 'romana curia' and 'p(re)fatum d(omi)n(u)m Ber[..]um Jud[..]'; 87-2r has 'die Saba[..] [..]igesim[..] mens[..] Januar[..] qui[..](?) Ind[..]ionis ... Sanctissimi d(omi)ni ... p(re)fat[..] ... secundo', which fits January 1412 under John XXIII if 87-2r belongs with 87-3r; standing alone its year is open. The words 'quarta', 'vigesimi tercii' and 'quinte' were read with a modern red note on the carrier in view ('1411, Ind 4 ... Johannes pp XXIII', '1412, Samstag, 23. Januar') and were not confirmed by a blind reader, so the indiction argument is dropped; '[mille]simo qu-' with 'Joha[..]' in the pope's place (read also by a blind reader) already points to John XXIII. The 87-3r row is a date recited inside the text (a terminus post quem), not the document's date; that 87-3r and 87-2r are one document is probable, not shown. 87-1r, in another hand, is a land contract with 'Tercio', 'pena', 'obnoxy', 'ab alio late[..]', 'vocabu[..]', 'Anthony' and the name-like words 'valpelin[.]' and 'val solo'. Modern pencil and red crayon mark all three groups as taken from 'Hs. 56'; the Stams charters of 1411-1414 on monasterium.net have no counterpart, and no party or place is read.",
   "verify": "https://fragmentarium.ms/overview/F-4568",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12784,15 +12795,15 @@
     {
      "locus": "87-3r; 87-2r",
      "text_language": "Latin",
-     "title": "Notarial or curial act on an appeal",
-     "description": "An appeal involving the syndics and community of an unnamed place, a bishop, a judge Ber[..] and the Roman curia. Dated on a Saturday in January, in the second year of a pope; year and pope lost.",
-     "remarks": "Whether 87-3r and 87-2r are one document is not established. The years 1411/1412 and Pope John XXIII in the modern red note on the carrier are not read on the strips."
+     "title": "Curial or judicial act on an appeal",
+     "description": "An appeal involving the syndics and community of an unnamed place, a bishop, a judge Ber[..] and the Roman curia. The dating row of 87-3r is read as indiction 'quarta(?)' and a Pope John 'vigesi[..](?) ... tercy(?)' (1411 if so); 87-2r is dated on a Saturday in January, 'qui[..](?) Indictionis', in the second year of a pope, probably 23 or 30 January 1412.",
+     "remarks": "That 87-3r and 87-2r are one document is probable, not established; taken alone, 87-2r also fits January 1442 or 1457. The pope's name and the indictions were read with the modern red note on the carrier in view. Parties and place not read. Modern pencil on the carrier ('aus Hs. 56') and red crayon on the reverses ('Hs 56') name the host volume of all three groups."
     },
     {
      "locus": "87-1r",
      "text_language": "Latin",
-     "title": "Land conveyance or lease",
-     "description": "With a boundary clause; parties, place and year lost."
+     "title": "Land contract",
+     "description": "With numbered conditions, a penalty clause and a boundary clause; parties, place and year not read."
     }
    ]
   }
@@ -12904,10 +12915,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Left part of a German enfeoffment deed, first half of the 16th century(?): unnamed grantors ('wir der Verleiher') acting for a Gotteshaus grant fields, meadows and tithes at Mals and Burg[ei]s in the upper Vinschgau to Crysten(?) P[...] as Lehentrager, at a rent of 'Sechsunddre[issig]' due at St Martin and St Gallus; issuer and date lost; reused as the wrapper of a 1550 'Diener und Ehalten Geding'",
-  "note": "The left third or less of 42 lines was read on the image of the recto: plots at 'zu Mall[s]' and 'zu Burg[ei]s' bounded by the common road, the common Waal and land of 'gedachts Gotshaus Sannt Maria perg', a grant to 'Crysten(?) P[...] als Lehentrager', a ban on partition, sale only 'nach Lanndsrecht', a rent 'Namblich Sechsunddre[issig] ...' due 'auff Sannt Martins' and 'auf ainen Jeden Sannd Galle[n]', and dues to the Lehenherrn at each change of Lehentrager. Two fresh readers and an adjudicator confirmed Mals, Sannt Maria perg, Martins, Sechsunddre[issig] and the 1550 on the back; the forename stays queried (Cryspin- is possible), the neighbours read as Melchior ?[...]tsch and Claus [G/B]ro[...] are uncertain, and the G of Gallus is a B-shaped glyph read from context. The grantor house is not read: Stams, which held land around Mals and whose archive keeps the strip, is possible, and 'gedachts' implies Marienberg was named earlier, perhaps as issuer, so neither is asserted. The dating clause is lost; the hand suggests the first half of the 16th century, and the reuse label 'Der diener und Ehalten Gedinng 1550' gives a terminus only if written at reuse. Google Books searches on the field and family names found nothing about this act, and monasterium.net and the Marienberg archive were not checked; partial because the issuer and date are lost, no human review.",
+  "identification": "Left part of a German enfeoffment deed, first half of the 16th century(?): grantors who call themselves 'vnnser der Verleiher' grant fields, meadows and tithes at Mals and Burg[ei]s in the upper Vinschgau to Crysten(?) P[..]ü[..](?) as Lehentrager, at a rent of 'Sechsunddre[issig]' due at St Martin and St Gallus(?); grantor and year lost; reused as the wrapper of a 1550 'Diener und Ehalten Geding'",
+  "note": "The left third or less of the lines was read on the image of the recto: plots 'zu Mall[s]' and 'zu Burgeus(?)' bounded by the common road and the common Waal, the words 'an vnnser der Verleiher vnnd des Go[tshaus]' and '[ge]dachts Gotshaus Sannt Maria perg [...] pawt', a grant to 'Crysten(?) P[..]ü[..](?) als Lehentrager' (Cristan or Cryspin- also possible), a ban on partition, sale only 'nach Lanndsrecht', a rent 'Namblich Sechsunddre[issig]' due 'auff Sannt Martins' and 'auf ainen Jeden Sannd Galle[n]'(?), and a last line read by a blind reader as 'thuen . auch den Lanndsrechten ... vnnd yetzgemachter gepundte', not the opening of a dating clause; the year is lost. The grantor is not read: Marienberg, named with 'gedachts' and so mentioned earlier, Stams, which had land and tithe at Mals and Burgeis, renewed its tenancies around Mals in 1539-1547 and keeps the strip, and a lay lord are all possible. The neighbours read as 'Melchior [.]attutsch(?)' (a blind reader: 'Melchior Ha[....]tzch'), 'Claus [G/B]ro[...]' and 'Clagut(?) Pruggls Erben' are possibly Burgeis people of the Marienberg charters on monasterium.net (a Melchior Matutsch zu Burgeis, 24 March 1545, Urkunden VI/385; the Prügl family; the forename Clagut), and the Lehentrager is possibly a Christian Pritzi of Burgeis (named 1549); this is consistent with the first half of the 16th century but does not narrow it, and these names, the underlined word in line 6 (a personal name(?) rather than 'Stifftung') and the last line still need an independent reading. No record of the act was found by searching the Stams and Marienberg fonds on monasterium.net; the reuse label 'Der diener und Ehalten Gedinng 1550' gives a terminus only if written at reuse; no human review.",
   "verify": "https://fragmentarium.ms/overview/F-nciq",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12924,9 +12935,15 @@
      "locus": "Stams_STA_Frg_061_01r",
      "text_language": "German",
      "title": "Enfeoffment of fields, meadows and tithes at Mals and Burgeis",
-     "persons": "Crysten(?) P[...]",
-     "description": "Left part of the deed. Unnamed grantors acting for a Gotteshaus grant fields, meadows and tithes at Mals and Burg[ei]s to Crysten(?) P[...] as Lehenträger, at a rent of 'Sechsunddre[issig]' due at St Martin and St Gallus. Issuer and date lost.",
-     "remarks": "The bounds name land of 'gedachts Gotshaus Sannt Maria perg' (Marienberg)."
+     "persons": "Crysten(?) P[..]ü[..](?)",
+     "description": "Left part of the deed. Grantors who call themselves 'Verleiher' grant fields, meadows and tithes at Mals and Burg[ei]s to Crysten(?) P[..]ü[..](?) as Lehenträger, at a rent of 'Sechsunddre[issig]' due at St Martin and St Gallus(?). Grantor and year are lost.",
+     "remarks": "The text names 'gedachts Gotshaus Sannt Maria perg' (Marienberg) and neighbours read as Melchior [.]attutsch(?) and Clagut(?) Pruggl; a Melchior Matutsch of Burgeis is recorded in 1545 (Marienberg, Stiftsarchiv, Urkunden VI/385), consistent with the first half of the 16th century(?)."
+    },
+    {
+     "locus": "Stams_STA_Frg_061_01v",
+     "text_language": "German",
+     "title": "Reuse label",
+     "description": "Label 'Der diener und Ehalten Gedinng 1550' in display script, from the strip's reuse as a wrapper; whether it was written at the time of reuse is not established."
     }
    ]
   }
@@ -12944,12 +12961,24 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Latin notarial instrument, almost entirely faded; only the invocation 'In nomine domini Amen' is read on the parchment; the dating by a Roman emperor and the reference to Tyrol rest on the mounted typed transcription of 1964 or later alone",
-  "note": "On canvas 0 the display invocation 'In Nomine d(omi)ni Am[en]' was read on the image, and the word check confirmed it. The continuation '[An]no a N[ati]uitate(?)' and 'rogatorum' are only consistent with faint traces, and 'et Tirolis' on line 3 is not visible on the parchment at all, so it and the words 'principe et domino domino ... Romanorum imper[atore]' and 'constitutus egregius' are credited to the typed partial transcription mounted with the fragment, which is the same object, not an independent record. The label 'Tyrol' and any date lead from an emperor who was also count of Tyrol (Frederick III, Maximilian I, Ferdinand I) therefore rest on that transcription alone; the hand suggests the later fifteenth or early sixteenth century. The remaining forty or so lines did not yield connected words under blue-channel contrast and equalisation. No issuer, party, action, place or date was read, so no search could be directed and none was run; UV or multispectral imaging of the recto would be needed. No human review.",
+  "identification": "Latin notarial instrument, probably part of the width only and almost entirely faded; a binding of 'Hs 23' until 1965 according to a modern pencil note; only 'In Nomine domini Amen. Anno a Natiuitate(?)' is read; parties, place and date unread",
+  "note": "The opening 'In Nomine d(omi)ni Amen. Anno a Natiuitate(?)' is read on canvas 0; line 1 does not run on into line 2, so the leaf is probably a vertical piece of a wider instrument and the dating clause probably cut away as well as faded. A modern pencil note on the back, read as 'bis 1965 als Einband in Hs 23', and a pencilled 'Hs 23' on the mounted typed slip (1964 or later) say the leaf was a binding of manuscript 23. Red, green, blue, saturation, blue/red ratio and principal-component contrasts were tried: word shapes consistent with the slip's 'principe et domino domino', 'et Tirolis', 'Romanorum imper', 'regnorum' and 'constitutus egregius' show, but all were read with the slip in view and none is confirmed independently. No party, place or date was read, so no search could be directed; a description of Hs 23 was not reachable (manuscripta.at down).",
   "verify": "https://fragmentarium.ms/overview/F-uqw6",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "title": "Notarial instrument (fragment)",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_125_01r",
+     "text_language": "Latin",
+     "title": "Unidentified notarial instrument",
+     "description": "About 40 long lines, almost entirely faded. Inc.: In Nomine domini Amen. Anno a Natiuitate(?) ... Probably only part of the width of the original survives.",
+     "remarks": "Later 15th or 16th century on the hand. A modern pencil note on the back, read as 'bis 1965 als Einband in Hs 23', says the leaf was a binding of manuscript 23. A typed partial transcription of 1964 or later is mounted with it. Parties, place and date are not read."
+    }
+   ]
+  }
  },
  {
   "id": "F-0dnc",
@@ -12964,21 +12993,22 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Two strips from the middle of a German parchment charter of the sixteenth century: a religious house ('vnnsers Gotshaus', probably Stams) grants to [...]ragne[r?] and his wife Maria and their heirs a farm with appurtenances, bounded by Wonhofer's Prunnwisl(?), the common way and other neighbours and tied to the Maratschhof, for yearly dues including three Shrovetide hens, ten eggs(?) and a heriot (Todfall); year begins 'fünff-', rest lost",
-  "note": "About 46 lines are read on the image across the two adjacent strips: a display heading '[...]nbs vnd Im obern [I]nntal', 'Vnnsers. Gotshaus [Ur?]bar', the grantees '[...]ragne / vnnd Maria / seiner Eelichen' with 'Leiblichen [Erben]', bounds naming '[..]rt Wonhofers Prunnwisl(?)', 'Hannß Hebs[..]chers' and '[...]rich Hollers', land 'vormalts Maratschhofs' and 'in dise[n/r] Marätschhof', dues 'drei Fasnachthennen / Zehen Ayr(?)' and 'ainen Todtfal', the corroboration 'Vr[khun]d deß zu Warem' and '[..]nd Seligmachers [G]eburdt fünff='. The word check corrected the surname to '[...]ragne' (no r is written; '-ragner' is a restoration), 'Hebst' to 'Hebs[..]', and left 'Prunnwisl', 'dise[n/r]' and 'Ayr' uncertain; the heading's '[...]nbs' may end in m, so '[Sta]mbs' is a restoration only. The issuing house is not named in what survives: Stams is inferred from 'vnnsers Gotshaus', the heading and the reuse. Tarneller's Hofnamen im Burggrafenamt places the Maratschhof and the Wonhof side by side on the Töll near Meran and records Stams lordship of the Maratschhof in 1633; this is context for the location, not a record of this grant, and his holders of 1548-1553 (Zangerle, Maratscher) do not match '-ragne'. A modern label on the back says the strips served until 1963 as the spine of Stams charter Lade O XXXIV n. 21 of 22 October 1576; that host charter is context only and gives no date for this grant. Partial because the issuer, the grantee's surname, the form of tenure, the rent and the year are lost. No regest was found (monasterium.net Stams fond and Lade O searched; Google Books inside Tarneller and the Algund history); Stams HS 32 and the Maiser-Amt urbars were not checked; no human review.",
+  "identification": "Two adjacent strips from a German parchment charter of the sixteenth century (year begins 'fünff-', rest lost), its first line in display script: a religious house ('vnnsers Gotshaus', probably Stams) grants to [...]ragne[r?] and his wife Maria and their heirs a farm with pieces formerly of, or belonging to, the Maratschhof, bounded by Wonhofer's Prunnwisl(?), the common way and other neighbours, probably in hereditary tenancy ('[..]bs Paurecht(?)'), for yearly dues including three Shrovetide hens, ten eggs(?) and a heriot (Todfall)",
+  "note": "The strips were read line by line on the image: an opening line in display script '[...]nbs vnd Im ober[.]n [.]nntal' (the n may be an m with its first stroke cut), 'Vnnsers. Gotshaus [Vr?]bar', the grantees '[...]ragne / vnnd Maria / seiner Eelichen', bounds naming '[..]rt Wonhofers Prunnwisl(?)' and 'Hannß Hebs[..]chers', land 'vormalts Maratschhofs' and 'in dise[n/r] Marätschhof', '(Coherennzen(?)) / Gelegenhait(?)', '[..]bs Paurecht(?) / den benanten hof', dues 'drei Fasnachthennen / Zehen Ayr(?)' and 'ainen Todtfal', and '[..]nd Seligmachers [G]eburdt fünff='. Layout and formulas are compatible with Stams abbots' grants of 1573 and 1578 for Marling (Marienberg, Stiftsarchiv, Urkunden XXI/169 and XXI/171, compared on the images); those features are generic and neither charter has the 'obern Inntal' wording, so Stams is the probable issuer by inference only, and 'Coherennzen', 'Gelegenhait' and 'Paurecht' are reconstructions that still need an independent reading. Tarneller places the Maratschhof and the Wonhof on the Töll near Meran and records Stams lordship of the Maratschhof only for 1633; a Michael Hebsteckh and a Sigmund Jäger 'genannt Marätscher', both of Plars, appear in a Wilten charter of 1584. No record of this grant was found by searching monasterium.net (Stams fonds listing for 1494-1600; site search for the farm and place names), the charter named on the modern label (Lade O XXXIV n. 21, 22 October 1576) is not listed there, and Lebersorg's chronicle pp. 540-541 and 581 could not be read; issuer, surname, rent and year are lost, no human review. Another Stams fragment, F-g1bu (1575), names the same farm.",
   "verify": "https://fragmentarium.ms/overview/F-0dnc",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
    "title": "Grant of a farm",
    "content": [
     {
+     "locus": "Stams_STA_Frg_057_01r",
      "text_language": "German",
      "title": "Grant of a farm tied to the Maratschhof",
      "persons": "Maria",
-     "description": "A religious house ('vnnsers Gotshaus', probably Stams) grants to [...]ragne[r?], his wife Maria and their heirs a farm bounded by Wonhofer's Prunnwisl (?), the common way and other neighbours and tied to the Maratschhof, for yearly dues including three Shrovetide hens, ten eggs (?) and a Todfall. The year begins 'fünff-'; the rest is lost.",
-     "remarks": "The issuer, the grantee's surname, the form of tenure, the rent and the year are lost. The Maratschhof lies on the Töll near Meran (Tarneller, Die Hofnamen im Burggrafenamt)."
+     "description": "A religious house ('vnnsers Gotshaus', probably Stams) grants to [...]ragne[r?], his wife Maria and their heirs a farm bounded by Wonhofer's Prunnwisl (?), the common way and other neighbours and tied to the Maratschhof, probably in hereditary tenancy ('[..]bs Paurecht' (?)), for yearly dues including three Shrovetide hens, ten eggs (?) and a Todfall. The first line is in display script; the year begins 'fünff-' and the rest is lost.",
+     "remarks": "The issuer, the grantee's surname, the rent and the year are lost. Layout and formulas are compatible with Stams abbots' grants of 1573 and 1578 (Marienberg, Stiftsarchiv, Urkunden XXI/169 and XXI/171). The Maratschhof lies on the Töll near Meran (Tarneller, Die Hofnamen im Burggrafenamt)."
     }
    ]
   }
@@ -12996,14 +13026,14 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Pieces 176-1 and 176-2: German guardianship account (Raitung) of the guardians Oswald Streyler and Pauel Brut[sch..](?), naming Peter Brutsch and his brothers and the children left by the late [name not secure] zu Stä?dach(?), taken before the authority at Stams on 7 March 157(?)5, with closing balances; 176-3: estate (Verlassenschaft) docket, 15[..]; 176-4: separate Latin summary of exempla of B. Hermann, monk (prior) of Himmerod, parallel in content to Caesarius of Heisterbach, Dialogus miraculorum IV.95-96",
-  "note": "176-1r is read on the image: '[O]swalden Streyler auch / Pauel Brut[sch]ne(?) al[s] / Gerhaben vnnd Pet[er] / Brutschen vnd seiner / gebrueder Raitung / weillennd Lanns(?) Gru[...](?) / zu Stä?dach(?) seligen ver- / lassen Khinder' and the dating 'Von der Obrigkhait zu Stambs am 7 tag Martij a(nn)o 157(?)5'; 176-2r closes the account ('Also bleiben die Brutschen den Kindern vätterlichs ... noch schuldig 76 fl 22', with receipts by Peter Brutsch and the guardian Oswald of 4 fl 48 and 8 fl 31 kr), so the Brutsch brothers appear as an accounting party toward the children rather than as the wards themselves. The word check confirmed Streyler, Brutschen and 'Stambs am 7 tag'; the third year digit is 7-shaped with a looped head and 1575 (Julian) is likelier than 1595, but it is not secure, and the crop for 'Stä?dach' missed its line, so the place stays uncertain; the deceased father's name is not secure. Modern pencil notes on the pieces ('7. März 1575', a binding note naming Paul Gay's Stams chronicle) were not used for any reading. 176-3r is a docket 'Hanndlung(?) zwischen ... Christl(?) ... Verlassenschafft 15[..]' with the parties unread. The Latin strip 176-4, in a different, probably seventeenth-century hand, is a separate text: its numbered summaries of 'B. Hermannus Monachus Hemenrodensis' (two brothers driving off the spirit of fornication by his precept as confessor; a monk long tempted by the sight of a nun) match Caesarius, Dialogus miraculorum IV.95-96 in content and sequence only, not in wording, and the compiling life is not found (Henriquez, Fasciculus sanctorum ordinis Cisterciensis searched inside without a match). Partial because the account's father and place are not secure and the Latin compiler is unidentified; no outside record of the account was found (Google Books), CoMMA gave no lead for the Latin; no human review.",
+  "identification": "Pieces 176-1 and 176-2: German guardianship account (Raitung) of the guardians Oswald Streyler and Pauel Brutsch[..](?), naming Peter Brutsch and his brothers and the children left by the late Hanns(?) G[...](?) zu [St/M]a[u/n]dach(?) (possibly Staudach), taken before the authority at Stams on 7 March 1575(?), with closing balances; 176-3: estate (Verlassenschaft) docket, 15[..]; 176-4: Latin chapter summary of the Life of B. Hermann, monk of Himmerod, following the chapter division of the Life as printed in Chrysostomus Henriquez, Fasciculus sanctorum ordinis Cisterciensis (Brussels 1623), book I, distinctio 12, chapters 1-4",
+  "note": "176-1r reads '[O]swalden Streyler auch / Pauel Brutsch[..](?) al[s] / Gerhaben vnnd Pet[er] / Brutschen vnd seiner / gebrueder Raitung / weillennd Hanns(?) G[...](?) / zu Staudach(?) seligen ver- / lassen Khinder' and 'Von der Obrigkhait zu Stambs am 7 tag Martij a(nn)o 1575(?)'; 176-2r closes the account ('Also bleiben die Brutschen den Kindern vätterlichs ... noch schuldig 76 fl 22') and dates one receipt 'a(nn)o / 75', which supports but does not secure the year. the place is possibly Staudach; the deceased father's surname is not read, and the docket 176-3r is read only as 'Hanndlung zwischen [..] Christls(?) seligen(?) wittib(?) vnd khin[der](?) Verlassenschafft 15[..]'. The Latin strip 176-4 numbers its entries 'Cap. 2', '3.', '4.' and follows chapter by chapter the Vita Beati Hermani Monachi Hemenrodensis in Henriquez's Fasciculus (1623, pp. 220-223, read on the page images at https://www.digitale-sammlungen.de/en/view/bsb10940071?page=224): the Child Jesus at his Mass (c. 1), demons seen in choir and a demon beside a tippling monk (c. 2), two brothers who drive off the spirit of fornication by the words taught by their 'Confessarius' Hermann (c. 3), and the monk long tempted after the gaze of a nun (c. 4); it is a reader's summary, not the printed wording; Henriquez says he compiled the Life himself (p. 231, 'vitam eius ... in hunc modum collegi'), so the summary was made from his book, after 1623 (the 1631 edition was not checked). A blind reader confirmed 'Assidet demon bib..', 'Qui instruend..', 'subditi', 'fratres', 'fornica..' and 'Hermanni'. No outside record of the account was found (Google Books, Internet Archive full text); monasterium.net was not consulted.",
   "verify": "https://fragmentarium.ms/overview/F-6c58",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Guardianship account; exempla of Hermann of Himmerod",
+   "title": "Guardianship account; chapter summary of the Life of Hermann of Himmerod",
    "places": [
     "Stams"
    ],
@@ -13011,9 +13041,9 @@
     {
      "locus": "176-1; 176-2",
      "text_language": "German",
-     "title": "Guardianship account (Raitung) of Oswald Streyler and Pauel Brut[sch..](?)",
-     "persons": "Oswald Streyler; Pauel Brut[sch..](?); Peter Brutsch",
-     "description": "Account of the guardians of the children left by the late [..] zu Stä?dach(?), naming Peter Brutsch and his brothers, taken before the authority at Stams on 7 March 157(?)5, with the closing balances owed by the Brutsch brothers to the children."
+     "title": "Guardianship account (Raitung) of Oswald Streyler and Pauel Brutsch[..](?)",
+     "persons": "Oswald Streyler; Pauel Brutsch[..](?); Peter Brutsch",
+     "description": "Account of the guardians of the children left by the late Hanns(?) G[...](?) zu Staudach(?), naming Peter Brutsch and his brothers, taken before the authority at Stams on 7 March 1575(?), with the closing balances owed by the Brutsch brothers to the children."
     },
     {
      "locus": "176-3",
@@ -13023,10 +13053,10 @@
     {
      "locus": "176-4",
      "text_language": "Latin",
-     "title": "Exempla of B. Hermann, monk of Himmerod",
-     "persons": "Hermann of Himmerod",
-     "description": "Numbered summaries: two brothers who drive off the spirit of fornication by his precept as confessor; a monk long tempted by the sight of a nun.",
-     "remarks": "Parallel in content to Caesarius of Heisterbach, Dialogus miraculorum IV.95-96, not in wording. The compiling work is not identified."
+     "title": "Chapter summary of the Life of B. Hermann, monk of Himmerod",
+     "persons": "Hermann of Himmerod; Chrysostomus Henriquez",
+     "description": "Numbered summaries (Cap. 2, 3, 4): the Child Jesus present at his Mass; demons seen in choir; two brothers who drive off the spirit of fornication by the precept of their confessor Hermann; a monk long tempted by the gaze of a nun.",
+     "remarks": "Follows the chapter division and content of the Vita as printed in Henriquez, Fasciculus sanctorum ordinis Cisterciensis (Brussels 1623), I, dist. 12, c. 1-4 (pp. 220-223), whose matter comes from Caesarius of Heisterbach; a summary in the reader's own words, made from Henriquez or his source, probably after 1623."
     }
    ]
   }
@@ -13436,14 +13466,14 @@
   "catalogue_date": "1500 – 1599 CE",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Strips of a German parchment deed of sale, sixteenth century by the catalogue: an agent ('procurator') of the late Anna Hornpa[..] sells for himself and his heirs a property bounded by holdings of Conrad [Pf?]aller and of H[..]n Perger(?); buyer, object and date lost",
-  "note": "On canvas 0 three adjacent strips and a fourth below were read on the image: 'fur mich Und all mein[e Erben]', 'procura|tor weilannd Anna | Hornpa[..]', 'Zinßherren', boundaries 'mittag an Co|nrad [Pf?]allers' and 'Und an H[..]n | Pergers(?) guet', '[...]dels erb guet', and on the lower strip '[...]rich kauff', '[...]khauffen', '[...]herren Schwainb[...]', 'Das kauff[...]', '[...]mein Erben' and '[In]sigeln(?)'. The word check kept 'procurator weiland Anna Hornpa[..]' but left the surname ending open ('-rt' as likely as '-ch'), and marked the neighbour as 'Conrad [Pf?]allers', since 'Schallers' fits the letters equally and both blind readers read it. The dating clause is cut away; the pencil '(1530)' on the recto, '1551' on the verso and 'aus Urbar IV/46 ... 1630' are modern notes and were not used to date the deed. The verso carries a later, mostly abraded account-like note in another hand ('Zehenthaus(?)', '... zu 8 gulden'). A monasterium.net search of the Stams fonds found a Heins Hornpacher in 1599/1600, a name lead only, and nothing for Pfaller or Spilh-; Schaller was not searched. The buyer, the object and the date are lost, so it stays partial; no human review.",
+  "identification": "Strips of a German parchment deed of sale, dated in a year probably ending '[...]ssigisten Jar' (a year in the thirties; by the script probably 1530-1539): an agent ('procurator') of the late Anna Hornpa[ch..] sells for himself and his heirs a property bounded by holdings of Conrad [.]haller and of a Perger; buyer, object, day and place lost",
+  "note": "On canvas 0 three adjacent strips and a fourth below carry 'fur mich Vnnd all mein', 'procura|tor weiland Anna | Hornpa[ch..]', '[v]nnsern(?) Gnedigen(?) Erb(?) vnd Zinßherren', the boundaries 'mittag an Co|nrad [.]hallers' (blind: 'Con|rad thallers') and 'Vnd an h[..]n | pergers guet', and on the lower strip 'Das kauff[..]', 'mein Erben' and, as the last written line, '[...]ssigisten Jar', probably the end of the dating clause (a blind reader of a crop without the modern pencil note read '[.]ugiſtn' and a large looped capital with 'a..r', compatible but not decisive): a year in the thirties of its century, by the script probably 1530-1539. The pencil '(1530)' beneath it is a modern note that agrees with this but was not used. Stams charters on monasterium.net record a Hornbach family at Flaurling (K_IV_23, 6 January 1540; Heins Hornpacher, 1599/1600), a name lead only; no matching regest of the 1530s was found there by word search. Buyer, object and day are lost.",
   "verify": "https://fragmentarium.ms/overview/F-kqf1",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Deed of sale",
+   "title": "Deed of sale, probably 1530s",
    "tags": [
     "Topic: legal"
    ],
@@ -13451,9 +13481,9 @@
     {
      "text_language": "German",
      "title": "Deed of sale",
-     "persons": "Anna Hornpa[..]; Conrad [Pf?]aller; H[..]n Perger (?)",
-     "description": "The procurator of the late Anna Hornpa[..] sells, for himself and his heirs, a property bounded by holdings of Conrad [Pf?]aller and H[..]n Perger (?).",
-     "remarks": "Buyer, object and date are lost."
+     "persons": "Anna Hornpa[ch..]; Conrad [Pf/Sch]aller; [..] Perger",
+     "description": "The procurator of the late Anna Hornpa[ch..] sells, for himself and his heirs, a property bounded by holdings of Conrad [Pf/Sch]aller and of a Perger. The dating clause ends '[...]ssigisten Jar', a year in the thirties, by the script 1530-1539.",
+     "remarks": "Buyer, object, day and place are lost."
     }
    ]
   }
@@ -13859,20 +13889,21 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "German first-person declaration of his 'Substantia' (possessions and money) by a religious, almost certainly a Stams conventual, with an expense account in fl/kr on the back (subtotal 66 fl 26 kr); writer, addressee and date not given; 1668 or later on the book list (at the least after 1661)",
-  "note": "Under the heading 'Substantia' face 1 lists habits, scapulars, hoods, linen, devotional objects (Agnus Dei, crosses, rosaries, a signet ring) and books, among them 'Mariale, et San[ctorale] / Proc[op]ij(?). 3ia Parte(?) Concionum Ruralium D. / Vdalrici Neub[urger]'; face 2 is his account, with payments to 'Doctor [V?]alen?iz(?)' (the word check corrected 'Valen[tin]', since the name ends in -iz) and 'pro Medic[in](?)', for 'Postgelt und Zeitung', a Bruderschaft and a scapular, and a subtotal of 66 fl 26 kr. The book is Christoph Ulrich Neuburger's Conciones Rurales (Salzburg: Mayr), whose parts appeared from 1659 to 1676 (VD17); the independent check reads the numeral as '3ia Parte' (third part), first printed in 1668 in both series, so the document is of 1668 or later, and even the alternative reading '3 Partes' would require 1661 or later. If 'Procopij' is right, the Mariale (1665) and Sanctorale (1666) of Prokop von Templin give 1666 independently. A modern pencil note on face 2, 'bis Nov. 1965 in Lebersorg Chronik verklebt Beilage 75 auf S. 22 (und S. 16-24 kleinere Stücke)', records provenance only; it is not a reading. No outside record was found or expected; Haidacher's edition of the Lebersorg chronicle and the Stams conventual lists were not checked. Partial because the writer, addressee and date are not on the surviving strips.",
+  "identification": "German first-person declaration of his 'Substantia' (possessions and cash for the year) by a religious, probably a Stams monk in pastoral care in a wine parish (possibly Mais or St. Peter near Meran), with his expense account in fl/kr on the back (subtotal 66 fl 26 kr); writer, addressee and date not given; 1668 or later on the book list",
+  "note": "Under the heading 'Substantia' face 1 lists habits, scapulars, linen, devotional objects (Agnos Dei, a signet ring, rosaries) and books, among them '3ia Parte Concionu(m) Ruraliu(m) D. Vdalrici Neub[ur]ger', Christoph Ulrich Neuburger's Conciones Rurales, whose third part was first printed in 1668. It then states the cash 'an Parschafft überbliben', with 'Säml wein(?)' (collected wine; 'Säml' three times), 'dz Jar hindurch', 'ferdigen(?)' (last year's) wine, and a list read with doubt as 'verkhünd[en](?), H[ochzeit]en(?), beichthören(?), Khr[anckhen](?)', so it is probably a yearly statement by a monk serving a wine-growing parish; Mais or St. Peter near Meran is possible but neither is named on the leaf. Face 2 is his account: 'Doctor Valen[.]iz(?)', 'pro Medic[...]', a bookbinder and sold books (19 fl 40 kr), cloth for shirts, 'postgelt vnd Zeitung', 'bruederschafft einschreibgelt(?)', a scapular, subtotal 66 fl 26 kr, and 35 fl 10 kr against 'färtigen(?) wein'. A modern pencil note records that the strips were pasted in the Lebersorg chronicle as Beilage 75 until November 1965. Lindner's Album Stamsense (snippets only) names the Stams vicars of those parishes after 1668, but no record of this declaration and no writer's name was found.",
   "verify": "https://fragmentarium.ms/overview/F-2r2o",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
    "title": "Declaration of possessions (Substantia) and account",
    "content": [
     {
+     "locus": "Stams_STA_Frg_009_01r; Stams_STA_Frg_009_01v",
      "text_language": "German",
-     "title": "Declaration of possessions (Substantia) by a religious, with an expense account",
-     "description": "Face 1: his habits, linen, devotional objects and books, among them a part of Neuburger's Conciones rurales. Face 2: an account of expenses in fl and kr (subtotal 66 fl 26 kr), with payments to a doctor, for medicine, for post and newspaper, a confraternity and a scapular. Writer, addressee and date are not given; 1668 or later.",
-     "remarks": "The writer was almost certainly a conventual of Stams."
+     "title": "Declaration of possessions and yearly cash (Substantia) by a religious, with an expense account",
+     "description": "01r: his habits, linen, devotional objects and books, among them the third part of Neuburger's Conciones rurales; then the cash left over for the year, with last year's and this year's collected wine. 01v: an account of expenses in fl and kr (subtotal 66 fl 26 kr), with payments to a doctor, for medicine, to a bookbinder, for shirts, post and newspaper, a confraternity and a scapular. Writer, addressee and date are not given; 1668 or later.",
+     "remarks": "The writer was probably a monk of Stams in pastoral care in a wine-growing parish, possibly Mais or St. Peter near Meran; neither place is named. Until November 1965 pasted in the Lebersorg chronicle (modern pencil note)."
     }
    ]
   }
@@ -13924,9 +13955,9 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "First page of a 17th-century German letter to a 'Wol Edelgeborner Gnediger Herr' (writer, addressee's name, place and date lost), complaining that certain parishioners ('Kirchleuth') under the addressee's jurisdiction and others have presumed to introduce an improper innovation ('vngebürliche Neuerung') at or concerning one Ruprecht Klainhanser (initial K not certain), touching goods entrusted to the addressee, a 'Kay(?): [alt. Chur:] Herrschafft Ri(t)ten(?)' and the town, and asking in neighbourly fashion that it be stopped",
-  "note": "Face A (43r) was read on the image: a letter in a Kurrent chancery hand written over faint ruled music staves, opening 'Wol Edelgeborner Gnediger Herr' and continuing '... glaubwürdig vorgetragen worden [W]eß(?) gestalt etwelche Kirchleuth Eur Gnedi[gen] Jurisdiction ... vnd andre mehr, sich an[m]assen, bey dem Ruprecht Klainhanser ihr[e] ...', '[..]sen(?) vngebürliche Neuerung', 'Gütter(?) ... Eur Gnedi: anverthraut[en] Kay(?): Herrschafft Ri(t)ten(?) vnd also bey der Statt', '[..]ch gelangt an Eur [Gn]edi: ... Nachbarlich' and '[..] solche vngebür, abschaffen zuelassen'. The word check changed the group name to 'Kirchleuth' (parishioners; the earlier reading and the place-name speculation built on it are withdrawn) and the surname to 'Klainhanser', whose initial K is not certain (alt. A-); 'Ruprecht' and 'bey der Statt' were confirmed, the lordship name 'Ri(t)ten(?)' stays uncertain, and the title before 'Herrschafft' may be 'Kay:' or 'Chur:'. The text breaks off at the cut lower edge after the start of a second paragraph, so signature, place, date and the writer's identity are lost; the formula and hand point to the 17th century, which is not a date. Face B carries only the abraded music layer, with no address or endorsement. Google Books searches under the earlier spelling 'Kleinhanser' (with 'Ruprecht' and place names) found nothing, and monasterium.net and the Tiroler Landesarchiv were not searched. The complaint and the request are established but the writer and date are not, so the record is partial.",
+  "note": "Face A (43r) was read on the image: a letter in a Kurrent chancery hand written over faint ruled music staves, opening 'Wol Edelgeborner Gnediger Herr' and continuing '... glaubwürdig vorgetragen worden [W]eß(?) gestalt etwelche Kirchleuth Eur Gnedi[gen] Jurisdiction ... vnd andre mehr, sich an[m]assen, bey dem Ruprecht Klainhanser ihr[e] ...', '[..]sen(?) vngebürliche Neuerung', 'Gütter(?) ... Eur Gnedi: anverthraut[en] Kay(?): Herrschafft Ri(t)ten(?) vnd also bey der Statt', '[..]ch gelangt an Eur [Gn]edi: ... Nachbarlich' and '[..] solche vngebür, abschaffen zuelassen'. The word check changed the group name to 'Kirchleuth' (parishioners; the earlier reading and the place-name speculation built on it are withdrawn) and the surname to 'Klainhanser', whose initial K is not certain (alt. A-); 'Ruprecht' and 'bey der Statt' were confirmed, the lordship name 'Ri(t)ten(?)' stays uncertain, and the title before 'Herrschafft' may be 'Kay:' or 'Chur:'. The text breaks off at the cut lower edge after the start of a second paragraph, so signature, place, date and the writer's identity are lost; the formula and hand point to the 17th century, which is not a date. Face B carries only the abraded music layer, with no address or endorsement. Google Books searches under the earlier spelling 'Kleinhanser' (with 'Ruprecht' and place names) found nothing, and monasterium.net and the Tiroler Landesarchiv were not searched. The complaint and the request are established but the writer and date are not, so the record is partial. A later research reader proposed that the letter concerns merchants' goods unloaded ('Khaufmans(?) Güetter ablegen') at Klainhanser's at Oberpinswang near Füssen, with 'Fuehrleuth' (carters) for 'Kirchleuth'; a blind reader of the same crops confirmed none of those words (it read 'Kirch[.]o[f/ſ]', 'Raumung', 'der Jnsassen'), so that reading is not adopted.",
   "verify": "https://fragmentarium.ms/overview/F-tf3m",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -13955,10 +13986,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Two Tyrolean account documents in German: (A) a settlement ('Abraittung') of 6 February 1638 with a timber contractor read as Herge(t/d)inger(?) and associates for timber work done in 1637 for the Pfanhausambt (apparently the Hall salt works), 400 + 300 = 700 fl, with a short 'Provisoner' list; (B) a receipts extract for the last (52nd) week of 1637, including money from a Salzgaden, tolls, Stadlgeld and wood sales, and a contribution list of about twenty named people totalling 34 fl 30 kr",
-  "note": "Document A (leaves 228_1-2) was read on the image: the title 'Abraittung mit dem Holz-/werchs Herge(t/d)ingers(?) ... Pfanhausambt holz... des 1637: Jars ver-/richten Holzwerchs Arbeiten', the date 'A[...] den: 6 Februarii A(nn)o 38' (first word under a flourish, unread), 'Erstens betrifft ... :400: fl', 'hat man für dißmall bewilligt :300: fl', 'Summa baider Posten :700: fl' and a remainder of 300 fl still to pay. The word check confirmed the date 6 February 1638, the year 1637 in the title and 'Pfanhausambt' (the blind readers took the crossed Pf for Sch); the contractor's name stays uncertain, the middle stem being tall enough for d as well as t, and the associates' names on lines 2-5 are not read. Document B (leaves 228_3-4) is headed 'Extract über die le[t]ste Woch A(nn)o 1637', with 'Empfang' entries 'in der 52 Wochen', 'Auß dem Salzgaden diese Wochen Empfangen 1621 fl 50 kr', Stadlgelt, tolls and wood and crate sales, and a list headed '[S]chäden(?) ann / Beitrag' of about twenty contributors ending 'Summa :34 fl :30 kr'; whether these two parts are one account cannot be settled. If 'Pfanhausambt' means the Hall saltworks office, the timber was probably supplied from the Oberinntal by rafting, which would explain the survival at Stams, but the issuing office of B is not named. Google Books searches for 'Hergetinger', 'Hörgetinger' and 'Pfannhausamt 1637 Holzmeister' gave no hits; the variant 'Hergedinger' was not searched, and the Hall Salzamt records in the Tiroler Landesarchiv were not consulted. The result stays partial because the contractor and his associates are not securely named and the office of document B is not established.",
+  "identification": "Two Tyrolean account documents in German: (A) a settlement ('Abraittung') of 6 February 1638 with the timber contractors ('Holzwerchs Fürgedinger(n)(?)'), apparently of the Paznaun ('in Pazn-/aun'(?)), several named men including Gotthardt Vonier(?), for timber work done in 1637 for the Pfanhausambt (apparently the Hall salt works), 400 + 300 = 700 fl, with a short 'Provisoner' list; (B) a receipts extract for the last (52nd) week of 1637, including money from a Salzgaden, tolls, Stadlgeld and wood sales, and a contribution list of about twenty named people totalling 34 fl 30 kr",
+  "note": "Document A (leaves 228_1-2) is titled 'Abraittung mit dem Holz-/werchs Fürgedingern(?) in Pazn-(?)/aun(?) ... vnd Gotthardt / Vonier(?), wegen der ... / Pfanhausambt holz... / ... des 1637: Jars ver-/richten Holzwerchs Arbeiten' and dated '... den: 6 Februarii A(nn)o 38'; it sets 400 fl and a further 300 fl granted ('Summa baider Posten :700: fl') against payments received. The word after 'Holzwerchs', written also in the heading, is read as Fürgedinger(?), probably the Tyrolean term for a contractor who undertakes timber work (seen only in a search snippet, not on a page) and probably not a surname; the men's names other than Gotthardt Vonier(?) are not read, and the reading Paznaun, split over a line break, is not secure. Document B (leaves 228_3-4) is headed 'Extract über die le[t]ste Woch A(nn)o 1637' with receipts 'in der 52 Wochen', 'Auß dem Salzgaden diese Wochen Empfangen 1621 fl 50 kr', a toll, 'Rechengelt'(?), 'Stadlgelt', sold wood ('Holz vnnd Küsten(?) ... 2531 fl 10 kr') and 'Grundt Zinß', and a list of about twenty contributors ending 'Summa :34 fl :30 kr'; its issuing office is not named. No outside record was found (Google Books and Internet Archive full text for Fürgedinger, Paznaun, Pfannhausamt, Vonier); the Hall Salzamt records in the Tiroler Landesarchiv were not consulted.",
   "verify": "https://fragmentarium.ms/overview/F-yxob",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -13968,9 +13999,9 @@
     {
      "locus": "228_1; 228_2",
      "text_language": "German",
-     "title": "Settlement (Abraittung) with a timber contractor",
-     "persons": "Herge(t/d)inger (?)",
-     "description": "Settlement of 6 February 1638 with the timber contractor Herge(t/d)inger (?) and associates for timber work done in 1637 for the Pfanhausambt (apparently the salt works at Hall): 400 + 300 = 700 fl, with 300 fl still to pay; with a short list of Provisoner."
+     "title": "Settlement (Abraittung) with timber contractors",
+     "persons": "Gotthardt Vonier (?)",
+     "description": "Settlement of 6 February 1638 with the timber contractors (Holzwerchs Fürgedinger (?)), apparently of the Paznaun (?), for timber work done in 1637 for the Pfanhausambt (apparently the salt works at Hall): 400 + 300 = 700 fl, with 300 fl still to pay; with a short list of Provisoner."
     },
     {
      "locus": "228_3; 228_4",
@@ -14414,14 +14445,14 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Tyrolean German deed of sale ('Kauffbrief') on parchment, second half of the sixteenth century, 'nach dem gemainen Tirolischen Lanndtsprauch', to a buyer '[...] Kolman(?)', with a curator acting as attorney for one party and the witness 'Alexannder Rott schreiber daselbs'; 17(?) November (15 possible), year lost; issuer, vendor, place and object not read; later the cover of a Stams Oberkelleramt register",
-  "note": "The text face (image 01v) was read on the image in its right half and lower left: the sale 'nach dem gemainen Tirolischen Lanndtsprauch', the property 'mit allen seinen Rechten, Zugehörungen' with a mention of a 'Pfarr', 'Die abgeredt vnd beschlossen Kauffsumma Dreyhundert fünf[...]' and a further total 'vierhundert Sib[en...]', the buyer '[...] Kolman(?), als Kauffers, vnd allen seinen [Erben]', 'volmechtiger Churator vnnd gewalthaber', the witnesses '[...]ollner(?)' and 'Alexannder Rott schreiber daselbs' (spelling 'Rodt' equally possible), and the dating 'Beschehen am [..] [..]zehenden tag Monats Nouembris, Nach Christi Jhesu vnnsers Erlösers [...]'. The word check found exactly two words between 'am' and 'tag', ending '-zehenden', so the day is 'Siben(?)zehenden', the 17th, with 'fünffzehenden' (15th) possible and the 27th excluded. The year runs onto the right turn-in, which is hidden under the photographer's weight, and the display line and opening lines of the left half are abraded, so issuer, vendor and place are not read. A contemporary endorsement on the back reads 'Kauffbrief vmb d[en] [..]', but the object word (descender-initial, with a u-bogen) is unread and does not support 'Zehent', so the object of the sale is unknown. The back also carries the later register title 'Oberkhellers(?) Ambts'. Searches for Alexander Rott as a Tyrolean scribe found only an 'Alexander Rot von Thaur, teutscher Schuelmaister' of c. 1569/70 (snippet), which nothing ties to this deed; the Stams charters on monasterium.net were not checked. Imaging of the right turn-in and UV of the opening lines would probably complete the regest.",
+  "identification": "Tyrolean German deed of sale ('Kauffbrief') on parchment, second half of the sixteenth century by the script, 'nach dem gemainen Tirolischen Lanndtsprauch', possibly drawn up at Partschins near Meran (a single reader's reading, not confirmed by a blind reader): buyer 'Anndreen(?) Kolmans', a curator acting as attorney for one party, witnesses 'All drey zu p[ar]tschins Sess[haft]' and 'Alexannder Rodt schreiber daselbs'; 17 November, year lost; vendor and object not securely read; later the cover of a Stams Oberkelleramt register",
+  "note": "The text face (image 01v) names the buyer 'Anndreen(?) Kolmans, als Kauffers', a 'volmechtiger Churator vnnd gewalthaber', and witnesses 'Petter H[..]nz(?) Pre[..]l[..]ner(?), All drey zu p[ar]tschins Sess[haft], vnd Alexannder Rodt schrei[ber] daselbs', so the deed was possibly drawn up at Partschins near Meran (these words were read by one reader only; a blind reader of the same crops did not confirm 'Partschins' or 'Rodt' and read the buyer's surname '[K/R]ol[.]man'); the property clause has 'Recht Jm Tablannd[..](?)'. It is dated 'Beschehen am Sibenze[h]enden tag Monats Nouembris, Nach Christi Jhesu vnnsers Erlösers', and the year runs onto the right turn-in under the photographer's weight. The display line may begin '[I]ch(?) Hanns(?) Pau[..](?)' and the endorsement on the back reads 'Kauffbrief vmb den paung[art..](?)', perhaps an orchard, but vendor and object are not securely read. No charter in the Stams fonds on monasterium.net names Kolman, Rodt or Partschins (search and a word search of the 1525-1612 regests), so no outside record of the act is known.",
   "verify": "https://fragmentarium.ms/overview/F-ham0",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Deed of sale (Kauffbrief)",
+   "title": "Deed of sale (Kauffbrief), possibly Partschins",
    "tags": [
     "Topic: legal"
    ],
@@ -14430,8 +14461,10 @@
      "locus": "Stams_STA_Frg_193_01v",
      "text_language": "German",
      "title": "Deed of sale",
-     "persons": "Alexander Rott",
-     "description": "Sale 'nach dem gemainen Tirolischen Lanndtsprauch' to a buyer [...] Kolman (?), with a curator acting as attorney for one party; witness Alexander Rott, scribe. Dated 17 (?) November, year lost. Issuer, vendor, place and object not read."
+     "persons": "Andre (?) Kolman; Alexander Rodt",
+     "places": "Partschins (possibly)",
+     "description": "Sale 'nach dem gemainen Tirolischen Lanndtsprauch' to the buyer Anndreen (?) Kolman, with a curator acting as attorney for one party; witnesses 'All drey zu p[ar]tschins Sess[haft]' and Alexander Rodt, scribe there, so possibly drawn up at Partschins near Meran (not confirmed by a blind reading). Dated 17 November, year lost. Vendor and object not securely read.",
+     "remarks": "Endorsement on the back: 'Kauffbrief vmb den paung[art..] (?)'. The year is hidden on the right turn-in."
     }
    ]
   }
@@ -14538,15 +14571,18 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "German deed of 1575, probably a draft: abbot Johannes, 'Regierennder Prelat' of a house whose name is torn away (Stams or Wilten, equally open), grants a farm of his house with buildings, fields and vineyards near Partschins ('Partzinß') to a tenant (Pawman, name not read) and his heirs, against yearly dues including half the wine, saving the rights of the lordship of Schloss Tirol; on the other face the later cover title of an account book (158x)",
-  "note": "The deed on 194v is read on the image: 'W[ir] Johannes Abbt vnnd Regierennder Prelat des wirdigen Go[...]', the grant to a Pawman and his heirs of a hof with 'Behausung, hoff, hofstat, Stadl, Stallung', fields and vineyards, the reservation of 'den halben Wein Jarlich', the rights of '[...] des Schloß Tÿrol', and the sealing with 'vnnser aigen Abbtey Innsigl'. The year is written in words in the last line, '[..]zehen hundert vnnd im fünffvnndsibenzigisten' (1575), with no day or month; two fresh readers confirmed the year words, 'Johannes Abbt' and 'Schloß Tÿrol'. The boundary clause names neighbouring holdings (Schaittenhof, Wiltenhof, ober Flatten, the Lanngackher ob der Lanndtstrassen, a field of the church 'zu Partzinß', read literally so and probably Partschins), which places the land in the Burggrafenamt west of Meran; 'Wiltenhof' is a farm name, not evidence for Wilten abbey. The word check made the words after 'von dem Würdigen' uncertain ('G[ots]haus(?) W[..]ing', Weing[arten]? or another W-ring/-ning name), so the reading that would link the property to Weingarten and its 1547 exchange with Stams is not secured, and the issuer rests only on custody at Stams and the forename Johannes: abbot Johann Kölbel of Stams (1567-1590) and abbot Johann Brunner of Wilten (to 1576) are equally possible. Interlinear insertions, struck words and the missing day suggest a draft rather than the sealed original. No outside record of the act was found (monasterium.net Stams charters 1572-1580 and keyword searches for Partschins and Schaitenhof). It stays partial because the issuing house is not read and the tenant is not named.",
+  "identification": "German deed of 1575, probably a draft: abbot Johannes, 'Regierennder Prelat' of a house whose name is torn away (possibly Stams under abbot Johann Kölbel, if the Weingarten estate had passed to Stams by then; Weingarten's own abbot in 1575 was also a Johannes), grants in heritable tenure the 'Marätsch(?) hof', probably the Maratschhof at the old toll in Mitterplars (Töll, parish of Algund), a former Weingarten farm, with buildings, fields and vineyards, to a tenant whose name is lost and his heirs, against yearly dues including half the wine, saving the rights of the lordship of Schloss Tirol; on the other face the later cover title of an account book (158x)",
+  "note": "The deed on 194v opens 'Wir Johannes Abbt vnnd Regierennder Prelat des Wirdigen Go[...]' and is dated in words 1575; the house name and the tenant's name are lost with the cut top-right corner. The boundary clause names the granted farm as 'disen Marätsch(?) hof' (first reading 'Grätsch?'; the M was read with the repertory in view and a blind reader did not confirm it, though the initial matches the M of 'Mittag' in the next line, and the same farm name with a Wonhofer neighbour stands in the earlier reading of another Stams fragment, F-0dnc) and its neighbours Schaittenhof, Wiltenhof, ober Flatten, '[W/M]onhofers ackher' and a field 'Zu Partschinß gehörig': these names correspond, as spelling equations, to the farms of the Maratschhof at the old toll in Mitterplars (Töll, parish of Algund), which Tarneller's farm-name repertory (Archiv für österreichische Geschichte 100, 1910, pp. 122-124, read as snippets) records as serving Weingarten abbey in 1439 and under Stams as landlord in 1633, beside the farms Wonhof, Wild and Platt. Line 3 refers to the custom and right 'der Ambte Zu Lanan(?), So von dem Würdigen Gotzhaus Weing[...]', which fits Weingarten's estate administered from Lana, so the issuer is possibly abbot Johann Kölbel of Stams (1567-1590), on the condition, not checked on a record, that the Weingarten estate had passed to Stams by 1575 (Weingarten's own abbot in 1575 was also a Johannes; no exchange was found in a keyword search of the Stams regests 1545-1549); the house name itself is not read, and St Mang in Füssen, landlord of the farm by 1780, is unlikely for 1575 but not excluded. Outside records name Clauß Nieberl 'genant Marätscher' in 1571 and Sigmund Jäger 'genannt Marätscher' in 1584 (Stiftsarchiv Wilten, Urkunden 190 X 09), but neither is read on the leaf, and no record of the 1575 act was found (monasterium.net Stams regests 1572-1580 read in full; Lebersorg's Stams chronicle p. 541, which mentions the Maratschhof, not seen), so the result stays partial.",
   "verify": "https://fragmentarium.ms/overview/F-g1bu",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Grant of a farm near Partschins",
+   "title": "Grant of a farm, probably the Maratschhof at Mitterplars (Algund)",
    "dated": "1575",
+   "places": [
+    "Algund"
+   ],
    "tags": [
     "Topic: legal"
    ],
@@ -14554,16 +14590,20 @@
     {
      "locus": "Stams_STA_Frg_194_01v",
      "text_language": "German",
-     "title": "Grant of a farm by abbot Johannes, 1575",
+     "title": "Grant of a farm, probably the Maratschhof, by abbot Johannes, 1575",
      "persons": "Johannes, abbot",
-     "description": "Johannes, abbot and 'Regierennder Prelat' of a house whose name is lost, grants a farm with buildings, fields and vineyards near Partschins ('Partzinß') to a tenant and his heirs, against yearly dues including half the wine, saving the rights of the lordship of Schloss Tirol, and seals with the abbey seal. 1575, no day or month.",
-     "remarks": "Probably a draft. The issuer is abbot Johann Kölbel of Stams (1567-1590) or abbot Johann Brunner of Wilten (to 1576); the tenant is not named."
+     "description": "Johannes, abbot and 'Regierennder Prelat' of a house whose name is lost, possibly Stams, grants in heritable tenure the 'Marätsch(?) hof' (probably the Maratschhof at the old toll in Mitterplars, parish of Algund) with buildings, fields and vineyards to a tenant and his heirs, against yearly dues including half the wine, saving the rights of the lordship of Schloss Tirol, and seals with the abbey seal. 1575, no day or month.",
+     "remarks": "Probably a draft. The Maratschhof served Weingarten abbey in the fifteenth century and had Stams as landlord in 1633 (Tarneller); the issuer is possibly abbot Johann Kölbel of Stams (1567-1590), if the estate had passed to Stams by 1575. Another Stams fragment, F-0dnc, also names the Maratschhof. The tenant's name is lost."
     },
     {
      "locus": "Stams_STA_Frg_194_01r",
      "text_language": "German",
      "title": "Cover title of an account book, 158x"
     }
+   ],
+   "bibliography": [
+    "Josef Tarneller, Die Hofnamen im Burggrafenamt und in den angrenzenden Gemeinden, Archiv für österreichische Geschichte 100 (1910), pp. 122-124",
+    "Franz-Heinz Hye, Geschichte von Algund bei Meran (1986), pp. 312-313"
    ]
   }
  },
