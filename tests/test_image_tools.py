@@ -69,11 +69,13 @@ def test_gbwithin_reads_page_numbers_and_builds_exact_volume_query():
     gb = load("gbwithin")
     response = {"number_of_results": 2, "search_results": [
         {"page_id": "PA9", "page_number": "9", "snippet_text": "... nec ad oculum  nec ad intellectum ..."},
-        {"page_id": "PP3", "snippet_text": "front matter"}]}
-    assert gb.hits(response) == [("9", "... nec ad oculum nec ad intellectum ..."), ("", "front matter")]
+        {"page_id": "PP3", "snippet_text": "front matter"},
+        {"page_id": "PA12", "page_number": "12", "snippet_text": "... <b>ad oculum</b> dicitur &#39;x&#39; ..."}]}
+    assert gb.hits(response) == [("9", "... nec ad oculum nec ad intellectum ..."), ("", "front matter"),
+                                 ("12", "... ad oculum dicitur 'x' ...")]
     assert gb.hits({"number_of_results": 0}) == []
     u = gb.url("tWdJAAAAYAAJ", '"ad oculum"')
-    assert "id=tWdJAAAAYAAJ" in u and "q=%22ad+oculum%22" in u and "jscmd=SearchWithinVolume2" in u
+    assert "id=tWdJAAAAYAAJ" in u and "q=%22ad+oculum%22" in u and "jscmd=SearchWithinVolume&" in u
 
 
 def test_bnf_manifest_addresses_are_rewritten_to_the_api_host():
