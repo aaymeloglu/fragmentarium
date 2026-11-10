@@ -11842,11 +11842,24 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Unidentified concerted Mass, one voice part on two paper leaves (Sinfonia, Kyrie, Gloria, Credo, Sanctus, Agnus Dei), headed 'M. 4'(?); no composer named",
-  "note": "Two non-consecutive paper leaves from one part of a polyphonic Mass in early-modern mensural notation, one C-clef part with a one-flat signature. Leaf 1r opens with a heading read as 'Sinfonia' over untexted staves, then Kyrie and Gloria; 1v continues Gloria and Credo to 'iudicare uiuos'; 2r runs from 'Et in spiritum sanctum' through Sanctus and Agnus Dei; 2v is ruled but blank. The heading 'M. 4' at the top of 1r may number the Mass within a set (uncertain). A modern pencil note, as read, says the leaves bound Stams Hs 308 until 1965; this reading is uncertain and dates only the binding use. No composer, title, voice label or date appears; the Ordinary text identifies nothing by itself, and no musical opening was searched in RISM because the clef line and pitches could not be fixed securely from the images. No human review.",
+  "identification": "Unidentified concerted Mass, one alto-clef part on two paper leaves, probably complete (Sinfonia, Kyrie, Gloria, Credo, Sanctus with Osanna, Agnus Dei; no Benedictus), headed 'M. 4'(?); no composer named",
+  "note": "Two paper leaves from one part of a concerted Mass, in alto clef with one flat and probably in G. Leaf 1r has a written-out 'Sinfonia', then Kyrie and Gloria; 1v runs through the Credo to 'iudicare uiuos' and ends with rests, a new time sign and a custos that agrees with the first note of 2r, so the leaves are probably consecutive; 2r runs from 'Et in spiritum sanctum' through Sanctus, Osanna and Agnus Dei with no Benedictus; 2v is ruled but blank. The part's Sinfonia and Kyrie openings were not found by interval search in RISM Online, a weak negative for an inner part, and the pitch readings are unchecked. The two Stams Masses of about 1670 in RISM that also survive as binding waste (Mus.ms. 1550 by Paul Kienhaimer and the anonymous Mus.ms. 2589) have no key signature and a Sonata before every movement, so the fragment belongs to neither.",
   "verify": "https://fragmentarium.ms/overview/F-yauy",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Mass with Sinfonia, alto-clef part (unidentified)",
+   "subtitle": "Kyrie, Gloria, Credo, Sanctus, Agnus Dei",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_012_01r02r; Stams_STA_Frg_012_01v02v",
+     "text_language": "Latin",
+     "title": "Concerted Mass, one part in alto clef",
+     "description": "Headed 'M. 4'(?). 1r: Sinfonia (written out, untexted), Kyrie, Et in terra to 'filius patris'. 1v: Qui tollis to Amen; Patrem to 'iudicare uiuos', then rests and a custos leading to 2r. 2r: Et in spiritum sanctum to Amen; Sanctus, Pleni, Osanna; Agnus Dei. No Benedictus. 2v ruled, blank. Alto clef, one flat, probably in G.",
+     "remarks": "Composer not named. The two leaves are probably consecutive and the part probably complete. Not part of the Masses A-ST Mus.ms. 1550 (Kienhaimer) or Mus.ms. 2589 (RISM 650012508, 650012510), which have no key signature and a Sonata before every movement. The Sinfonia and Kyrie openings were not found by interval search in RISM Online. Not identified."
+    }
+   ]
+  }
  },
  {
   "id": "F-00yt",
@@ -11861,11 +11874,24 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Unidentified three-voice Magnificat, Cantus part ('Magnificat 3u vocum ... Cant[us]'), verses Et exultavit, Quia fecit, Fecit potentiam, Esurientes; no composer named",
-  "note": "A single paper leaf from the Cantus part of a polyphonic Magnificat, headed in the scribe's hand 'Magnificat 3u vocum' (three voices), with 'Cant[...]' at the torn top right. The recto sets Et exultavit, Quia fecit and Fecit potentiam, the verso Esurientes to 'dimisit inanes'; only the even verses appear on this leaf, which suggests but does not prove an alternatim setting. A faint modern pencil note is read, uncertainly, as 'bis 1966 als Einband zu P. K[aer]ii, Germania inferior, Amsterdam 1622', which would make the leaf a former binding of a copy of Kaerius's atlas; that would date the binding use, not the music. No composer, title or date appears; the Magnificat text identifies nothing by itself, and no musical opening was searched in RISM because the clef line and pitches could not be fixed securely from the images. No human review.",
+  "identification": "Unidentified three-voice Magnificat, Cantus part ('Magnificat 3u vocum ... Cant[us]'), soprano clef with one flat, verses Et exultavit, Quia fecit, Fecit potentiam, Esurientes; no composer named",
+  "note": "A single paper leaf from the Cantus part of a polyphonic Magnificat, headed in the scribe's hand 'Magnificat 3u vocum' with 'Cant[...]' at the torn top right, in soprano clef with one flat. It sets verses 2, 4, 6 and 8 and ends after 'dimisit inanes' with blank paper following, so later verses were not copied in this part. The openings of Et exultavit, Quia fecit and Fecit potentiam, read off the staff, were not found by interval search in RISM Online, and no Magnificat of this kind was found among the Stams records in RISM by title and date; the pitch readings are unchecked. A faint modern pencil note is read, uncertainly, as naming a copy of Kaerius, Germania inferior (Amsterdam 1622) as the book the leaf once bound.",
   "verify": "https://fragmentarium.ms/overview/F-00yt",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Magnificat for three voices, Cantus part (unidentified)",
+   "subtitle": "Verses 2, 4, 6 and 8",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_014_01r; Stams_STA_Frg_014_01v",
+     "text_language": "Latin",
+     "title": "Magnificat for three voices, Cantus part",
+     "description": "Heading: Magnificat 3u vocum ... Cant[us]. Soprano clef, one flat. 01r: Et exultavit, Quia fecit, Fecit potentiam. 01v: Esurientes, ending 'dimisit inanes' with a final flourish; the rest of the page is blank.",
+     "remarks": "Composer not named. The verse openings were not found by interval search in RISM Online. Not identified."
+    }
+   ]
+  }
  },
  {
   "id": "F-ssa8",
@@ -12095,10 +12121,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "School writing exercise (16th-century humanist cursive): two alphabets and model Latin requests to the praeceptor ('Manus meae specimen exhibeo praeceptor', 'Praeceptor liceat mihi exire ad reddendam urinam', '... ut adferam cartam, pennas, atra[mentum]', 'Quaeram si libet diaconum, priorem, provincialem vel alium'), copied on both faces; same genre as the 'Formulae petendi quidpiam a praeceptore' of Erasmus-derived phrase books, wording not found in print",
-  "note": "A research reader read both faces of the paper slip on the image. Face 01r has an alphabet, eight model sentences in a large calligraphic hand, and a second alphabet. Face 01v repeats the sentences more densely with two alphabets and two upside-down lines; it confirms readings such as 'aluum', 'priorem' and 'alium'. Several words remain uncertain, among them 'mendes/mundas a vicijs' and the word after 'Pulsatum est'. The requests (leave to go out to relieve oneself, to fetch paper, pens and ink) match the section 'Formulae petendi quidpiam a praeceptore' in Hermann Schottenius' Confabulationes tyronum (Lyon 1547) and Nicolaus Dietrich's Quotidiani sermonis formulae (Augsburg 1538), read on MDZ page images, but the wording differs in every sentence. Phrase searches in Google Books, MDZ and the Internet Archive found no source, and the lines naming a bell, deacon, prior and provincial point to a school in a religious house without naming one. No human review.",
+  "identification": "School writing exercise (16th-century humanist cursive): alphabets and seven model Latin sentences addressed to the praeceptor ('Manus meae specimen exhibeo praeceptor, mendes a vicijs(?)', 'Praeceptor liceat mihi exire ad reddendam urinam', '... ut adferam cartam, pennas, atra[mentum]', 'Pulsatum est: uisam si libet quid actum oportet', 'Quaeram si libet diaconum, priorem, provincialem vel alium'), copied on both faces; same genre as the 'Formulae petendi quidpiam a praeceptore' of Erasmus-derived phrase books, wording not found in print",
+  "note": "A research reader read every line of both faces on the image. Face 01r has an alphabet, seven model sentences in a large hand and a second alphabet; face 01v repeats them more densely in another order, with sentence 1 again upside down at the foot. The pupil shows a handwriting sample for correction, asks leave to go out and to fetch paper, pens and ink, answers a bell ('Pulsatum est: uisam si libet quid a[ctum oportet]'; a blind reader read the same opening) and offers to fetch the deacon, prior or provincial, which points to a school in a religious house without naming one. The same requests stand in other words in the section 'Formulae petendi quidpiam a praeceptore' of Hermann Schottenius' Confabulationes tyronum (Lyon 1547), read on MDZ page images; phrase searches in Google Books, the Internet Archive, MDZ and CoMMA found no source for the wording. No human review.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb10185592?page=198",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "School writing exercise",
@@ -12109,9 +12135,9 @@
     {
      "locus": "Stams_STA_Frg_038_01r; Stams_STA_Frg_038_01v",
      "text_language": "Latin",
-     "title": "Writing exercise with model requests to the praeceptor",
-     "description": "Alphabets and model sentences, copied on both faces: 'Manus meae specimen exhibeo praeceptor', 'Praeceptor liceat mihi exire ad reddendam urinam', '... ut adferam cartam, pennas, atra[mentum]', 'Quaeram si libet diaconum, priorem, provincialem vel alium'.",
-     "remarks": "Same genre as the 'Formulae petendi quidpiam a praeceptore' in H. Schottenius, Confabulationes tyronum (Lyon 1547) and N. Dietrich, Quotidiani sermonis formulae (Augsburg 1538), in different wording. Source not found."
+     "title": "Writing exercise with model sentences addressed to the praeceptor",
+     "description": "Alphabets and seven model sentences, copied on both faces: 'Manus meae specimen exhibeo praeceptor, mendes a vicijs(?)', 'Praeceptor liceat mihi exire ad purgandum aluum', 'Praeceptor liceat mihi exire ad reddendam urinam', '... ut adferam cartam, pennas, atra[mentum]', 'Pulsatum est: uisam(?) si libet quid actum oportet', 'Campana me ad alia vel domestica quaedam vocat', 'Quaeram si libet diaconum, priorem, provincialem vel alium'.",
+     "remarks": "Same genre as the 'Formulae petendi quidpiam a praeceptore' in H. Schottenius, Confabulationes tyronum (Lyon 1547) and other Erasmus-derived phrase books, in different wording. Source not found. A modern pencil note on 01r appears to name the binding of a 1535 edition as the slip's former host."
     }
    ]
   }
@@ -12164,11 +12190,23 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Unidentified Upper German (Bavarian-Austrian) vernacular prose, 15th century, on a parchment spine strip",
-  "note": "A parchment spine strip, 196/197 x 46/49 mm, carries about 30 lines of 15th-century Bavarian-Austrian German prose in a cursive book hand, cut on both sides so that three to five words of each line survive; a turned-in flap at the foot has three better-preserved lines. A central stain leaves most words illegible; a research reader read isolated words and short runs on enhanced native crops ('Du also', 'Kunig', 'Das ... da selber', 'wann ez der K/B[...]', 'ot vnd die', 'gefangen', 'reich', 'e sprechen ... Sy waren', 'recht wol ... man vnd ez'), which suggest a narrative text. A lead from Ottokar's Österreichische Reimchronik (the verse 'Wann ez der Kunig gepoten hat', cap. 122, in Pez's text) was tested and rejected: the neighbouring lines do not continue it, and the strip's line openings are word fragments, which points to prose rather than verse. MDZ and Internet Archive phrase searches on the readings found nothing else; the brown-ink 'Mar-/tialis' and the label 'III C/L, 29' name the host volume, not the strip text. No human review.",
+  "identification": "Unidentified Upper German (Bavarian-Austrian) vernacular text, 14th or 15th century, on a parchment spine strip",
+  "note": "A parchment spine strip, 196/197 x 46/49 mm, keeps the middle of about 30 lines of a late-medieval Bavarian-Austrian German text in a cursive hand, cut on both sides and stained down the centre; the back has binding residue and no script. Few words are secure ('also', 'Kunig', 'wann ez der', '[g]efangen', and on the turn-in at the foot 'sprechen ... Sy waren' and 'recht wol ... vnd ez'), and whether the text is prose or verse written continuously is not settled. A Historienbibel passage on the Egyptian midwives (Merzdorf's edition, OCR text) shares 'sprechen, sy wären', but a line further on it has 'nicht geschaden vnd dienten' where the strip has 'recht wol ... vnd ez'; OCR searches of Ottokar's Österreichische Reimchronik and of the Wernigerode Alexander for the same words and phrase searches in Google Books and the Internet Archive found nothing. The brown-ink 'Mar-/tialis' and the label 'III C/L, 29' name the host volume, and the pencil note on the strip is the shelf number.",
   "verify": "https://fragmentarium.ms/overview/F-zp2w",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Unidentified text, German",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_156_01r",
+     "text_language": "German",
+     "title": "Unidentified Upper German text",
+     "description": "Spine strip with the middle of about 30 lines, cut on both sides; a turn-in at the foot has three better-preserved lines. Legible words include Kunig, wann ez der, [g]efangen, sprechen ... Sy waren, recht wol ... vnd ez.",
+     "remarks": "Bavarian-Austrian spelling, 14th or 15th century. Prose or verse written continuously not settled. Stained down the centre; no connected phrase longer than three words could be read from the published images. Stams_STA_Frg_156_01v has no script. Not identified."
+    }
+   ]
+  }
  },
  {
   "id": "F-xvty",
@@ -12299,10 +12337,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Two German documents: (1) piece 3v, undated draft letter of the abbot and convent of Stams to a prince whose father was 'Hertzog Fridrich' (inferred to be Duke Sigmund of Tyrol), asking that Fridrich's foundation of a perpetual sung Mass with lights in the abbey, endowed with 100 ducats at Lueg(?) and 100 at the office in Hall, be kept up; the foundation corresponds to Duke Friedrich IV's charter of 12 April 1409 (Stams StiA Urk. A XCIII 4); (2) pieces 1-2v, fragments of a separate private letter about a dead sister and an inheritance, mentioning Stams",
-  "note": "Piece 3v, a heavily corrected draft without seal or date, was read on the image: '[Durch]leuchtiger hochgeporner fürst', 'unser besunder gnediger her und fürst löblicher gedechtnuss Hertzog Fridrich ewer vatter in unserm gotzhaus ewigen gesungen ampt [...] mit sampt liechter [...] gestifft hat', '[...]lich hundert dugaten an der Lu[e]g(?) und hundert in dem [ampt]hauss ze hall nach inhalt des selben brief[s]', and the subscription 'Abbt und der gantz convent zu Sta[ms]'; two fresh readers confirmed 'Hertzog Fridrich'. 'Lueg', the first element of '[ampt]hauss' and 'Sta[ms]' (broken by a hole) rest partly on the modern typescript mounted with the piece, which is the same object, not an independent record. The abbot's name is not given, and the prince is not named: Sigmund is inferred from 'ewer vatter', since Friedrich IV (d. 1439) left one surviving son, and the range 1446-1490 rests on the same inference. The foundation the draft invokes matches, in its two 100-ducat endowments at Hall and Lueg, Friedrich's Stiftbrief of 12 April 1409, whose regest (Stams HS 32, seen on monasterium.net) calls it a perpetual soul-gift (Seelgerät) for his wife Elisabeth of Bavaria; Sartorius (1708, p. 943, read on the page image) describes the same 1409 foundation as lamps and an anniversary for Elisabeth and a daily sung requiem for the House of Austria. This corroborates the foundation, not the letter, and a later foundation on the same revenues is not excluded. Pieces 1-2 are in another hand; their writer, addressee and date are lost; no human review.",
+  "identification": "Two German documents: (1) piece 3v, undated draft letter of the abbot and convent of Stams to a prince whose father was 'Hertzog Fridrich' (inferred to be Duke, later Archduke, Sigmund of Tyrol), asking that Fridrich's foundation of a perpetual sung Mass with lights in the abbey, endowed with 100 ducats at Lueg(?) and 100 at the office in Hall, be kept up; the foundation corresponds to Duke Friedrich IV's charter of 12 April 1409 (Stams StiA Urk. A XCIII 4); (2) pieces 1-2v, fragments of a separate private letter about a dead sister and an inheritance, mentioning Stams",
+  "note": "Piece 3v, a corrected draft without seal or date, names its sender only as 'Abbt und der gantz convent zu Sta[ms]' (no abbot's name is written) and its addressee only as a prince whose father was 'Hertzog Fridrich'; 'Lueg', '[ampt]hauss' and 'Sta[ms]' rest partly on the modern typescript mounted with the piece. The two 100-ducat revenues match Friedrich IV's Stiftbrief of 12 April 1409 (regest opened on monasterium.net), and in the next charter of the same group, A XCIII 5 of 11 November 1482 (read on its image), Archduke Sigmund recalls the same grant by 'Hertzog Fridreich ... vnnser lieber herr vnd vater', notes that Stams had been given only four pounds Berner per ducat, and orders payment at the current rate. That supports the inference that the addressee is Sigmund; it mentions no petition, and the cause of the 'merklicher abgang' the draft complains of is unread, so whether the draft relates to that order is not established, and its date stays within 1446-1490. The typed figures added on the typescript read '28./12 1408' and '1409 12/4' (the second the date of the foundation charter) and do not date the letter; pieces 1-2 are a separate private letter without names or date; no human review.",
   "verify": "https://www.monasterium.net/mom/AT-StiAStams/Urkunden/A_XVI_3/charter",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12312,8 +12350,8 @@
      "locus": "Stams_STA_Frg_008_03v_Adl_01v",
      "text_language": "German",
      "title": "Draft letter of the abbot and convent of Stams to a prince, probably Duke Sigmund of Tyrol",
-     "description": "The abbot and convent ask the prince, whose father Duke Friedrich founded a perpetual sung Mass with lights in the abbey, endowed with 100 ducats at Lueg (?) and 100 at the office in Hall, that the foundation be kept up. Undated.",
-     "remarks": "The foundation corresponds to Duke Friedrich IV's charter of 12 April 1409 (Stams, Stiftsarchiv, Urk. A XCIII 4)."
+     "description": "The abbot and convent ask the prince, whose father Duke Friedrich founded a perpetual sung Mass with lights in the abbey, endowed with 100 ducats at Lueg (?) and 100 at the office in Hall, that the foundation be kept up. Undated; no abbot named.",
+     "remarks": "The foundation corresponds to Duke Friedrich IV's charter of 12 April 1409 (Stams, Stiftsarchiv, Urk. A XCIII 4). An order of Archduke Sigmund of 11 November 1482 (Urk. A XCIII 5) recalls the same grant by his father and directs that the ducats be paid at their current value; it does not mention this letter."
     },
     {
      "locus": "Stams_STA_Frg_008_01r02r; Stams_STA_Frg_008_01v02v",
@@ -12382,10 +12420,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Leaf of a German handwritten newsletter (writer, place and date lost; script about mid-16th century): a miracle-working 'prophet(?)' who healed the dumb, lame and blind and raised the dead; five men seized by peasants in a barn, tried publicly on a Friday about their 'lere und glaub' and strangled; daily burnings, beheadings and tongue-cuttings of unnamed dissenters",
-  "note": "Both faces are read on the image in large part. One face reports that 'gedachter prophet(?)' made a man 'gantz stumb und redloß' since birth speak, that the dead came alive out of their graves, and 'Er macht die lamen, stummen, gehörlosen gerad, gesund, die plinden gesehendt'. The other reports that 'Vergangnen Montags diß monats' peasants in a village (name struck out, correction above the line unread) seized five men gathered 'in ainem Stadl', who were questioned before a crowd 'freytags hernach' about their 'lere und glaub', would not recant, and 'die selben fünff lebendig stranguliert oder erstöckht worden', followed by 'Es ist schier kain tag, da man nit etliche ... prennt, köpfft ... zungen abschneidt'. The leaf does not name the sect, the place, the writer or the addressee, and has no date; the script suggests the mid-16th century, and the pencil note 'aus IX/66 v. J. 1641-' dates only the host volume. Phrase searches in the MDZ full text, Google Books and the Internet Archive found no printed counterpart for either story; VD16 and the Austrian volumes of Quellen zur Geschichte der Täufer were not checked. No human review.",
+  "identification": "Leaf of a German handwritten newsletter (writer, place and date lost; script 16th century): five men, probably described as spreading 'Ketzerey und Sectt', seized by peasants in a barn, questioned publicly on a Friday about their 'lere und glaub' and strangled; daily burnings, beheadings and tongue-cuttings; on the other face the wonders of a man titled 'profet', 'propst' or 'profos' (word not settled), who made the dumb speak, healed the lame and blind and raised the dead",
+  "note": "Both faces were reread on the image. One face reports that 'Vergangnen Monntags diß monats' peasants in a village (name struck out, replacement above the line unread) seized five men who had come there, probably 'in willens ir Ketzerey und Sectt daselbs weytter zubraitten', 'in ainem Stadl'; they were handed to the authorities, questioned before a crowd 'freytags hernach' about their 'lere und glaub', would not speak or confess, and 'dieselben fünff lebendig stranguliert, oder erstöckht worden'; a further paragraph begins 'Es ist schier khain tag da man nit etliche ... prenndt, köpfft ... zungen abschneidt'. The other face says that when 'gedachter pro[..]t' came he made a young man 'ganntz stumb und redloß' since birth speak, that the dead crept alive out of their graves, ate and drank, and 'Er macht die lamen, stumen, gehörlosen, gerad, gesundt, die plinden gesehendt'; the noun was read 'propst' in the first reading and by a blind reader (low confidence), but 'profet' and 'profos' also fit the letters, and the sense of the whole face depends on it. The leaf has no date, and the pencil note 'aus IX/66 v. J. 1641-' is modern and concerns only the host volume. Full-text searches in MDZ, Google Books and the Internet Archive found no printed counterpart; Quellen zur Geschichte der Täufer (Österreich) and VD16 were not checked.",
   "verify": "https://fragmentarium.ms/overview/F-8u0s",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12394,8 +12432,8 @@
     {
      "text_language": "German",
      "title": "Newsletter (writer, place and date lost)",
-     "description": "One face: a miracle-working 'prophet(?)' who made the dumb speak, healed the lame and the blind and raised the dead. Other face: five men seized by peasants in a barn on a Monday, questioned publicly on the Friday after about their 'lere und glaub' and strangled; daily burnings, beheadings and tongue-cuttings of others.",
-     "remarks": "The sect, the place, the writer and the addressee are not named."
+     "description": "One face: five men, probably described as spreading 'Ketzerey und Sectt', seized by peasants in a barn on a Monday, questioned publicly on the Friday after about their 'lere und glaub' and strangled; daily burnings, beheadings and tongue-cuttings of others. Other face: the wonders of a man titled 'profet', 'propst' or 'profos' (word not settled), who made the dumb speak, healed the lame and the blind and raised the dead.",
+     "remarks": "The place, the writer and the addressee are not named; the village name is struck out and its replacement is unread."
     }
    ]
   }
@@ -12413,10 +12451,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Single-voice part-book leaves of polyphonic church music, composer and works unidentified: one voice of a Mass Ordinary (Kyrie to Osanna), one voice of a Marian motet ('nos ergo miseros, Sancta Maria ... vulnera nostra le-ua'), a part headed 'A 8. Secundo', and a part cued '[Mitte]n wir im Leben sind'",
-  "note": "Eight paper pieces with music in mensural notation; the date (17th century) is an estimate from hand and notation. Read on the images: 15-4r/v and 15-5v carry Mass Ordinary texts (Kyrie, Gloria, Credo to 'et homo factus est', 'Dominus Deus Sa[baoth]', 'Osanna in excelsis'), which identify no setting; 15-2v carries a Latin Marian text ('[..]gia se solium fecit habe[re]', 'or plus pollet et audet', 'efflagitata venit', 'nos ergo miseros Sancta Maria vi[..] / vulnera nostra le ua'), with several words uncertain, and no printed source was found for it in Google Books, Internet Archive or the Munich digital library. 15-7r is headed 'A 8. Secundo', a part for an eight-voice piece, with underlay 'Lucis maccess: Vi[..]' not understood; 15-1r, in another hand, has the German cue '[..]n wir im Leben sind', the opening of 'Mitten wir im Leben sind', but no setting was tested. No composer, title or owner's note survives on any face, so no work is named. A faded gothic block on 15-7v appears to be offset from other waste in two orientations and could not be read straight, mirrored or flipped; modern pencil notes ('aus Urbar IV/42 vom J. 1625', 'Einband v. II/16') name the host bindings and date those, not the music. No human review.",
+  "identification": "Single-voice part-book leaves of polyphonic church music, composer and works unidentified: one voice of a Mass Ordinary (Kyrie to Osanna); one voice of a Marian piece on a Latin text that is probably verse in elegiac couplets ('nos ergo miseros Sancta Maria ui[..] / vulnera nostra le-ua'); a part headed 'A 8. Secundo' with the text cue 'Lucis inaccess: Vi[..]', probably 'Lucis inaccess[ae] Vi[rgo]'; and a florid part in another hand cued '[..]n wir im Leben sind'",
+  "note": "Eight paper pieces of mensural music from bindings: 15-4r/v and 15-5v carry one voice of a Mass (Kyrie, Gloria, Credo to 'et homo factus est', 'Dominus Deus Sa[baoth]', 'Osanna in excelsis', F clef on 15-4r), 15-2v one voice of a Marian piece, 15-7r a part headed 'A 8. Secundo' with the cue 'Lucis inaccess: Vi[..]', probably 'Lucis inaccess[ae] Vi[rgo]', and 15-1r, in another hand with lozenge note heads, the German cue '[..]n wir im Leben sind' (opening line of 'Mitten wir im Leben sind'). The words on 15-2v ('[..]gia se solium fecit habere [..]am', '[..]or plus pollet et audet', 'efflagitata venit', 'nos ergo miseros Sancta Maria ui[..] / vulnera nostra le ua') are probably verse in elegiac couplets, since 'plus pollet et audet' closes like a hexameter and 'vulnera nostra le-ua' like a pentameter, so the text is not liturgical. Neither Latin text was found by phrase search in Google Books, the Internet Archive, the Munich digital library or Corpus Corporum, nor by text search in RISM, including the records of the Stams music archive, and a RISM incipit search on the Kyrie opening as tentatively read gave no relevant hit. No composer, title or owner's note survives; modern pencil notes ('aus Urbar IV/42 vom J. 1625', 'Einband v. II/16 ... aus dem Jahre 155[.]') name the host bindings and date those, not the music.",
   "verify": "https://fragmentarium.ms/overview/F-y22z",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Part-book leaves of polyphonic church music",
@@ -12425,25 +12463,29 @@
      "locus": "15-4r; 15-4v; 15-5v",
      "text_language": "Latin",
      "title": "Mass Ordinary, one voice",
-     "description": "Kyrie, Gloria, Credo to 'et homo factus est', 'Dominus Deus Sa[baoth]' and 'Osanna in excelsis'."
+     "description": "Kyrie, Gloria, Credo to 'et homo factus est', 'Dominus Deus Sa[baoth]' and 'Osanna in excelsis'.",
+     "remarks": "Composer not identified."
     },
     {
      "locus": "15-2v",
      "text_language": "Latin",
-     "title": "Marian motet, one voice",
-     "description": "Text includes 'nos ergo miseros Sancta Maria vi[..] / vulnera nostra le ua'."
+     "title": "Marian piece, one voice",
+     "description": "Text, probably verse in elegiac couplets, includes '[..]or plus pollet et audet', 'efflagitata venit' and 'nos ergo miseros Sancta Maria ui[..] / vulnera nostra le ua'.",
+     "remarks": "Text and composer not identified."
     },
     {
      "locus": "15-7r",
      "text_language": "Latin",
      "title": "Part headed 'A 8. Secundo'",
-     "description": "One part of an eight-voice piece."
+     "description": "One part of an eight-voice piece, with the text cue 'Lucis inaccess: Vi[..]', probably 'Lucis inaccess[ae] Vi[rgo]'.",
+     "remarks": "Text and composer not identified."
     },
     {
      "locus": "15-1r",
      "text_language": "German",
      "title": "Part cued '[Mitte]n wir im Leben sind'",
-     "remarks": "No composer or title survives on any piece."
+     "description": "A florid part with lozenge note heads, in a different hand from the other pieces.",
+     "remarks": "Setting not identified. No composer or title survives on any piece."
     }
    ]
   }
@@ -12461,18 +12503,18 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Figural church music, composer unidentified (Magnificat; 'Confitebor tibi in populis Domine'; Kyrie), with German devotional prose written over one leaf; a printed German almanac page (November, 1644-1699) adhering face down to 16-6v carries the description of Strasbourg from Martin Zeiller / Matthaeus Merian, Topographia Alsatiae, 'Straßburg' (1663 ed., pp. 51-52)",
-  "note": "Seven paper pieces of music in score and in parts, of the 17th or 18th century by estimate from the notation: a Magnificat ('quia fecit', 'qui potens: et sanctum nomen ej[us]', 'Fecit potentiam'), a setting of the psalm verse 'Confitebor tibi in populis Domine' and a Kyrie in full score; no composer, title or date is written, so no setting is named. Over the music on 16-1r are about twenty lines of German prose in Kurrent on the barren tree cast into eternal fire, with a margin column of catchwords; it was read in part and not found in print. A thin printed paper layer stuck face down to 16-6v, read mirrored through its paper, is one almanac page with November day rows ('23 e Clemens ... 25 g Catharina' in red, '26 a Conradus'), an old-style/new-style day table ten days apart, which belongs to years before 1700, and a prose column. Two passages of that column ('von dem Fluß Ergers oder Argens her / welcher durch Ober-Ehenheim rinnet ... der alte Sarck der Stadt Argentorat oder Argentraut' and 'Dorff eine Stadt worden / habe man die erste 3. Wort ... Straßburg oder Stratißburg geheissen. Der ander Lateinische') were compared with Merian's Topographia Alsatiae of 1663 on page images, and a second reader confirmed the abraded stretch between them; the wording agrees, differing in '3.' for 'drey', 'fället' for 'fällt' and punctuation. The 1644 first edition agrees by OCR only, which with the old/new-style table places the almanac page in 1644-1699; this dates the almanac, not the music. The almanac's title, year and printer are not identified; no human review.",
+  "identification": "Figural church music, composer unidentified (Magnificat; a piece with the psalm verse 'Confitebor tibi in populis Domine'; Kyrie), with German devotional prose written over one leaf; a printed German almanac page (November, 1644-1699) adhering face down to 16-6v carries the description of Strasbourg from Martin Zeiller / Matthaeus Merian, Topographia Alsatiae, 'Straßburg' (1663 ed., pp. 51-52)",
+  "note": "Seven paper pieces of music in score and in parts, of the 17th or 18th century by estimate from the notation: a Magnificat ('quia fecit', 'qui potens: et sanctum nomen ej[us]', 'Fecit potentiam'), a piece with the words 'Confitebor tibi in populis Domine' entered in mid-page on 16-2v (a verse of Psalms 56 and 107, so not necessarily its opening words), and a Kyrie in full score; no composer, title or date is written, and on the two faces reread (16-2v, 16-7r) the staff lines are too worn for a secure melodic incipit. RISM has no record with this psalm verse among the holdings of the Stams music archive, and an incipit search on the Kyrie bass entry as tentatively read gave no relevant hit, so no setting is named. Over the music on 16-1r are about twenty lines of German prose in Kurrent on the barren tree cast into eternal fire, read in part and not found in print. A thin printed paper layer stuck face down to 16-6v, read mirrored, is one almanac page with November day rows, an old-style/new-style day table ten days apart and a prose column, two passages of which agree in wording with Merian's Topographia Alsatiae of 1663 on page images (the 1644 edition by OCR only); this places the almanac page in 1644-1699 and dates neither the music nor the prose, and the almanac's title, year and printer are not identified.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb10714373?page=135",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Church music; German almanac page",
    "content": [
     {
      "text_language": "Latin",
-     "title": "Figural church music: Magnificat, Confitebor tibi in populis Domine, Kyrie",
-     "description": "Seven pieces in score and in parts. No composer, title or date is written.",
+     "title": "Figural church music: Magnificat, a piece with 'Confitebor tibi in populis Domine', Kyrie",
+     "description": "Seven pieces in score and in parts. No composer, title or date is written. 'Confitebor tibi in populis Domine' is a verse of Psalms 56 and 107 and is entered in mid-page on 16-2v.",
      "remarks": "Composer not identified."
     },
     {
@@ -12620,10 +12662,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "21 paper pieces from the binding of Stams Hs 25: (6-1r) undated German draft letter of an unnamed religious house (probably Stams, inferred) to an unnamed mediator, asking him not to take up Baltasar Hustadl/Heustadel, to whom Duke Sigmund had granted a free safe-conduct, and to help make peace for the house, mid-15th century; (6-2 to 6-21) Latin wage and settlement notes for servants, dated xliiij-xlv (1444-1445) where checked",
-  "note": "The whole letter on 6-1r was read on the image: 'wie der durchlüchtigst furst hertzogh sigmund ... dem baltasar hustadl ain freyes gelait ... hat', the plea that the addressee, 'gůter gůnner vn(d) mittler baiden tailen', not take 'hůstadel' up 'zu disen zeyten', the house's appeal to '[bä?...] schirm vn(d) kayserlichen schirm', noblemen 'in schwabe land', hope that 'heüstadel ... baltasar' will recognise his conscience, and a closing citation of 'sant augustein' on restitution. Two fresh readers and an adjudicator confirmed Sigmund, 'freyes gelait', 'kayserlichen', 'schwabe land', 'sant augustein' and 'heüstadel', and corrected the spellings to 'hustadl' (l. 3) and 'hertzogh' (l. 2). The leaf names neither sender nor addressee and has no date, seal or address: the issuer as Stams is an inference from the Stams binding and the Stams household accounts in it, not a reading, and the range c. 1446-1490 rests on Sigmund's ducal style and on outside attestations of a Balthasar Heustadel of Imst (1454-1478). Those attestations (his 1478 Urfehde in Chmel, the 1478 imperial permission in Regesta Imperii, the 1462 reverse register, and Lebersorg's Stams chronicle, seen only as search hits) are background on the man and his feud, not records of this letter. On the accounts, 'anno domini xlv' on 6-4r was confirmed, but the first year there is clipped and stays 'x[l]iiij(?)', so 1444 rests on the unchecked readings of 6-3r and 6-2r; pieces 6-8 to 6-21 were not reread. monasterium.net (Stams fonds) and the RI open data were searched without a record of the letter; partial because issuer and addressee are not named and the date is lost, no human review.",
+  "identification": "21 paper pieces from the binding of Stams Hs 25: (6-1r) undated German draft letter of an unnamed religious house (probably Stams, inferred) to an unnamed mediator, asking him not to take up Baltasar Hustadl/Heustadel, to whom Duke Sigmund had granted a free safe-conduct, and to help make peace for the house, mid-15th century; (6-2 to 6-21) Latin wage and settlement notes for servants, with the years xliij-xliiij (1443-1444) and a reference to 'anno xlij' where read",
+  "note": "The letter on 6-1r names 'hertzogh sigmund', 'dem baltasar hustadl ain freyes gelait', the addressee as 'gůter gůnner vn(d) mittler baiden tailen', noblemen 'in schwabe land' and 'vnserm gotzhaws', but neither sender nor addressee, and has no date; the range c. 1446-1490 rests on Sigmund's ducal style and outside mentions of Heustadl. The sender is probably Stams: Lebersorg's Stams chronicle (ed. Haidacher 2000, no preview) has Heustadl on a page where Fehde, Schaden and Entschädigung also occur (p. 339) and on a page where 1453, 1454, Krieg, Sigmund, Freiberg and Eisenberg also occur (p. 283), but these are word probes of pages that could not be read, not a record of this letter. A Konstanz regest (Villingen, 7 August 1469) has Duke Sigmund asking the town to release the arrested Walthasar Hewstadel, and his 1478 Urfehde is in Chmel and Regesta Imperii; no record of the letter was found by searches of monasterium.net (Stams fonds) and the RI open data. The wage notes read 'anno domini etc xliij' and 'xliiijo' (6-3r, 6-4r; a blind reader read 'anno d(omi)ni ... xl[.]iij'), refer back to 'de anno xlij' (6-7r), and have figures 'xlv' and 'xlvj' (6-11v, 6-13v) not shown to be years, and name a servant 'de Silz' on 6-14r and Johannes Straigl on 6-12r; the pencil '1463' on 6-3r is a modern note, and about half the account faces were looked at without transcription.",
   "verify": "https://fragmentarium.ms/overview/F-otkb",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12635,13 +12677,13 @@
      "title": "Draft letter concerning Baltasar Hustadl",
      "persons": "Sigmund, duke of Austria; Baltasar Hustadl",
      "description": "A religious house, probably Stams, asks an unnamed mediator not to take up Baltasar Hustadl (Heustadel), to whom Duke Sigmund had granted a free safe-conduct, and to help make peace for the house. Sender and addressee are not named; undated, mid-fifteenth century.",
-     "remarks": "A Balthasar Heustadel of Imst is attested 1454-1478."
+     "remarks": "A Balthasar Heustadel of Imst is attested 1454-1478; in 1469 Duke Sigmund asked Konstanz to release a Walthasar Hewstadel, probably the same man (regest by snippet)."
     },
     {
      "locus": "6-2 to 6-21",
      "text_language": "Latin",
      "title": "Wage and settlement notes for servants",
-     "description": "Dated xliiij-xlv (1444-1445) where read."
+     "description": "Years xlij-xlvj (1442-1446) where read; one servant is 'de Silz'."
     }
    ]
   }
@@ -13470,10 +13512,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Pupils' writing exercises signed 1675 (Martin Anger, Christianus Bebrl(?)): the main German model text is an abridged, lightly adapted excerpt of Proverbs 4:1-8 in Johann Dietenberger's Catholic German Bible, followed by a Marian prayer; also a Latin Magnificat (Luke 1:46-47), an unidentified New Year's greeting and a copied legal model letter dated internally 15 October 1664 (Oberösterreichische Regierung, plaintiff Sterzinger)",
-  "note": "Four sheets each carry a model text copied twice, alphabets, numerals and a signed 'Anno ... Jahrzahl' line: 'Martin Anger Anno 1675 Jahrzahl' on 3r and 'A. 1. 675' after 'Christianus Bebrl(?)' on 1r, so 1675 is the year of writing and 1664 is only the date inside the copied letter. The German text, read on 1r and 1v, runs 'Meine kinder höret die wort ewr(e)s(?) [v]atters(?) auf das ihr den rechten verstandt ... las dein hertz mein wort aufnemen vnd halt die gebot so wierst du leben, überkhommen die weisheit, nimb an, vergiß nit den verstandt vnd weich nit von der röd meines mundts, so wirdt sie dich erhöhen vnd zu grossen ehren bringen', then 'Mein kind zu Gott vnd vnser lieben frauen ... Maria ... bitt für vns deinen lieben sohn ... Amen'. Collated on the page image of Dietenberger's Catholische Bibell (Cologne 1564, scan 730), it is mostly verbatim with omissions (4:2-3 in part, 4:6-8a) and small changes; 'vergiß nit' is present on 1r. The attribution rests on two readings found only in Dietenberger among the Bibles checked, 'den rechten verstand' (4:1) and 'Vberkom die weißheit' (4:5), since 4:4 and 4:8 agree with Luther too; Ulenberg's revision is excluded, and Eck's 1537 Bible was not checked. The word check confirmed '15 Octob(ris) 1664', 'Martin Anger Anno 1675' and 'Klagender Ster-/zinger'. Searches of Google Books and MDZ for the New Year text, the Marian lines and the model letter found nothing, and printed Schreibbücher were not searched. Partial because the schoolmaster's model text containing the Proverbs excerpt and prayer is not found and the other exercises are unidentified.",
+  "identification": "Pupils' writing exercises signed 1675 (Martin Anger, Christianus Bebrl(?)): the main German model text is an abridged and adapted excerpt of Proverbs 4:1-8, closest to Johann Dietenberger's Catholic German Bible among the five Bibles compared, followed by a rhymed Marian exhortation built on the motto 'Zu Gott und unser lieben Frauen setz ich mein Hoffnung und Vertrauen'; also a Latin Magnificat (Luke 1:46-48), an unidentified New Year's address and a copied legal model letter dated internally 15 October 1664 (Oberösterreichische Regierung, plaintiff Sterzinger)",
+  "note": "Four sheets each carry a model text copied twice, alphabets, numerals and a signed 'Anno ... Jahrzahl' line ('Martin Anger Anno 1675 Jahrzahl' on 3r, 'A. 1. 675' after 'Christianus Bebrl(?)' on 1r); 1664 is only the date inside the copied letter. The German text on 1r and 1v runs 'Meine kinder höret die wort ewrs(?) vatters(?) auf das ihr den rechten verstandt ... überkhomen die weisheit, nimb an, vergiß nit den verstandt vnd weich nit von der röd meines mundts, so wirdt sie dich erhöchen vnd zu grossen ehren bringen', then in rhyme 'Mein kind zu Gott vnd vnser lieben frauen sötz auch dein hoffnung vnd vertrauen ... vnd sonderlichen in vnseren Absterben. Amen'. Two readings are Dietenberger's (Catholische Bibell, Cologne 1564, scan 730) and are in none of the other Bibles compared (Luther, Ulenberg, Eck 1537, Nürnberg 1539): 'den rechten verstand' (4:1) and 'Vberkom die weißheit, Nim an verstand' (4:5). Two phrases of the exercise are not in the 1564 text: 'die wort ewrs vatters' (1564: 'die lere') and 'zu grossen ehren bringen' (1564: 'wirt dich zu ehren machen'); only the 1564 printing of Dietenberger was read. Eck's Bible of 1537 reads 'Besitz die weißhait' and is excluded on the page, and a Nürnberg 1539 Proverbs also has 'Vberkum die weyßheit'. The opening couplet of the Marian lines is a Catholic motto found in print, as 'Zu Gott vnd vnser lieben Frawen setz ich mein Hoffnung vnd Vertrawen' in the Fragstuck über den Catechismum Petri Canisii (Ingolstadt 1629, p. 65; by snippet also 1594), and recorded by snippet as a Tyrolean house inscription; the exercise recasts it as an address to the pupil. Partial because the schoolmaster's model joining the two texts was not found, and the New Year's address ('Weillen wür von den Gnaden Gottes dises Neüe Jahr ... angefangen'), the lines beginning 'Gleich wie ain kranckher(?) Mensch' and the legal letter remain untraced after searches of Google Books and MDZ.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb00085340?page=730",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Writing exercises",
@@ -13482,18 +13524,19 @@
     {
      "locus": "Stams_STA_Frg_027_01r02r; Stams_STA_Frg_027_01v02v",
      "text_language": "German",
-     "title": "Proverbs 4:1-8 (Dietenberger), abridged, with a Marian prayer",
-     "description": "Model text copied twice. Inc.: Meine kinder höret die wort ewr(e)s(?) [v]atters(?) auf das ihr den rechten verstandt ... Then: Mein kind zu Gott vnd vnser lieben frauen ... Amen.",
-     "remarks": "Abridged excerpt of Proverbs 4:1-8 in Johann Dietenberger's German Bible. Signed 'Martin Anger Anno 1675 Jahrzahl' and 'Christianus Bebrl(?) A. 1. 675'."
+     "title": "Proverbs 4:1-8, abridged and adapted (closest to Dietenberger), with a rhymed Marian exhortation",
+     "description": "Model text copied twice. Inc.: Meine kinder höret die wort ewrs(?) vatters(?) auf das ihr den rechten verstandt ... Then: Mein kind zu Gott vnd vnser lieben frauen sötz auch dein hoffnung vnd vertrauen ... Amen.",
+     "remarks": "Abridged and adapted excerpt of Proverbs 4:1-8, closest to Johann Dietenberger's German Bible among those compared. The Marian lines open with the motto 'Zu Gott und unser lieben Frauen setz ich mein Hoffnung und Vertrauen', printed in the Fragstuck über den Catechismum Petri Canisii (Ingolstadt 1629). Signed 'Martin Anger Anno 1675 Jahrzahl' and 'Christianus Bebrl(?) A. 1. 675'."
     },
     {
      "text_language": "Latin",
-     "title": "Magnificat (Luke 1:46-47)"
+     "title": "Magnificat (Luke 1:46-48)"
     },
     {
      "text_language": "German",
-     "title": "New Year's greeting",
-     "remarks": "Not identified."
+     "title": "New Year's address",
+     "description": "Inc.: Weillen wür von den Gnaden Gottes dises Neüe Jahr auch(?) angefangen ...",
+     "remarks": "Not identified. Followed by faint lines beginning 'Gleich wie ain kranckher(?) Mensch'."
     },
     {
      "text_language": "German",
@@ -13503,7 +13546,8 @@
     }
    ],
    "bibliography": [
-    "J. Dietenberger, Catholische Bibell (Cologne 1564), Proverbs 4"
+    "J. Dietenberger, Catholische Bibell (Cologne 1564), Proverbs 4",
+    "Fragstuck über den Catechismum deß hochgelehrten D. Petri Canisii (Ingolstadt 1629), p. 65"
    ]
   }
  },
@@ -13552,10 +13596,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Three paper scraps: piece 183_1 is a student's excerpt sheet of figures from Virgil, Eclogue 1, copying the anonymous school Annotationes printed with Melanchthon's scholia (closest to the Frankfurt editions of 1561-1587, not Cologne 1620), with Boethius' definition of quaestio; 183_2 (Latin theology notes with an inventory of clothing and objects) and 183_3 (German sermon draft on humility) are unidentified",
-  "note": "On 183_1 the verse lines of Ecl. 1.1-2, 1.27, 1.34-35 and 1.68-69 were read on the image, each followed by its figure note: 'Exordium quod captat benevolentiam a persona Tityri et simul [..] felicem praedicat', '[Meto]nymia pro c[arm]ē pastorale', '[...fi]stula avena[e] culm[o] facta', 'Translatio ab eo qui miser[os] respicit', '[Syn]ecdoche pro Mantua: et metonimia [urba]nis', '[Periphra]sis est casae pastoralis', '[Meta]phora, pro meas possessiones quarum do-/min[us eram]' and '[A fruct]ib(us) computat annos et est Met[alepsis]'. These agree note for note with the Annotationes 'In Eclogam I'; the student's own variants are 'quod' for 'quo' and the verse quoted in place of the lemma (though a lemma '[Ari]stas' seems to precede the last note), and the word after 'simul' is unread. The independent check sharpened the edition: 'pro Mantua' agrees with Frankfurt 1571 against Cologne 1620 'Mantuae', and 'fistula avenae culmo facta' without 'ex' is the reading of the Frankfurt family (1561-1587), whereas 1581, 1591 and 1620 have 'ex avena(e)'; since many near-identical reprints share this text, no single printing is named. The opening definition 'Quaestio est in dubitationem ambiguitatemque adducta enunciatio(?)' is Boethius (De topicis differentiis I); the 'Definitio nominis ... decem literis' sentence is unplaced. A modern pencil note 'aus Einbd.(?) IX/66 v. J. 1641/45(49?)' is a host lead only. Google Books searches for the 183_2 theology phrases found no specific source, CoMMA gave no lead, and the 183_3 draft was not searched. Partial because the Virgil layer is an excerpted source rather than a containing work and two of the three pieces are unidentified.",
+  "identification": "Three paper scraps: piece 183_1 is a student's excerpt sheet of figures from Virgil, Eclogue 1, copying the anonymous school Annotationes printed with Melanchthon's scholia (closest to the Frankfurt editions of 1561-1587, not Cologne 1620), with Boethius' definition of quaestio; 183_2 has introductory theology notes (natural and supernatural knowledge of God, faith and theology) and a summary of the plan of Aquinas' Summa theologiae, with a list of clothing and belongings, source not found; 183_3 (German sermon draft on humility) is unidentified",
+  "note": "On 183_1 the verse lines of Ecl. 1.1-2, 1.27, 1.34-35 and 1.68-69 are each followed by their figure note, agreeing note for note with the Annotationes 'In Eclogam I'; 'pro Mantua' and 'fistula avenae culmo facta' without 'ex' are the readings of the Frankfurt family (1561-1587) against Cologne 1620, and no single printing is named. The opening definition 'Quaestio est in dubitationem ambiguitatemque adducta enunciatio(?)' is Boethius (De topicis differentiis I); the 'Definitio nominis ... decem literis' sentence is unplaced. On 183_2 the recto reads 'Sup(er)n(atur)alis rursus dividit(ur) [in fidem et] theologiam proprie dictam. Fides e(st) qua ... eisq(ue) immediate sine discursu assentimus', and the verso 'In 2da agit de motu creaturae r(ation)alis in Deum ... In 3a p(ar)te agit de Christo', a paraphrase of the plan of the Summa theologiae, below a list of clothing and belongings; Google Books, MDZ and Internet Archive searches found no source with this wording. The 183_3 draft was not searched, and a modern pencil note 'aus Einbd.(?) IX/66 v. J. 1641/49' is a host lead only. Partial because the Virgil layer is an excerpted source and the other two pieces have no identified text.",
   "verify": "https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR084684/page/n572",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "fragmentarium": {
    "title": "Notes on Virgil; theology notes; German sermon draft",
@@ -13571,8 +13615,10 @@
     {
      "locus": "183_2",
      "text_language": "Latin",
-     "title": "Theology notes, with an inventory of clothing and objects",
-     "remarks": "Not identified."
+     "title": "Introductory theology notes and a summary of the plan of Aquinas' Summa theologiae, with a list of clothing and belongings",
+     "persons": "Thomas Aquinas",
+     "description": "Recto: natural and supernatural knowledge of God; faith and 'theologia proprie dicta'. Verso: a list of clothing and belongings, then the subjects of the second and third parts of the Summa theologiae.",
+     "remarks": "Study or lecture notes; no source with this wording found."
     },
     {
      "locus": "183_3",
@@ -13671,28 +13717,28 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Two German draft letters (Konzepte) in one hand, probably c. 1595-1600: (A) to a cardinal styled 'Durchl:' (probably Cardinal Andreas of Austria, governor of Tyrol, by inference from the title), about rents inherited from a late Georg Hoffman(?); (B) headed 'Den Tirolischen C[..](?)' (chancellor or Kammer), about a deliberation on and visitation of a monastery ('Visitierung des Clo[sters]') and the purchase of rents for 200 or at most 225 fl, dated 'den 23 [Septemb.(?)]', no year or place; sender unnamed",
-  "note": "The headings were read on the image as 'Durchl: Cardin[.]' (1r) and 'Den Tirolischen C[..]' (2v), with draft A opening 'Gnedig herr. Wellichermassen E. D(?):' and naming 'weilendt(?) Georgen(?) Hoffman(?), sein Vett(er)' and inherited 'Zinsen', and draft B mentioning a trip 'alherab gen Hall(?) ... von wegen beratschlagung vnd Visitierung des Clo[sters]' and rents 'vmb 200. oder aufs maist / 225 fl'. The word check confirmed 'Cardin[..]' (the second letter has an ascender, excluding 'Comm/Coun'), 'Tirolischen', 'Visitierung des Clo[sters]' and the sums, but the third word of the draft B heading has no tall l and no z, so 'Canzler' is not what the image shows unless heavily abbreviated and 'Cammer' fits as well; the addressee is therefore the Tyrolean chancellor or the Kammer, not read. In the dating line 'Datum den 23' is secure, and the month word of about seven letters favours 'Septemb.' over 'Febr.', with '8bris' (October) also possible. The cardinal is identified as Andreas of Austria (cardinal 1576, governor of Tyrol 1595-1600, d. 1600) only from the style 'Durchlaucht', and the date range rests on that inference. The sender is not named; a flourish in the margin of 1r may contain 'Abbt', consistent with an abbot of Stams but not proven, and the monastery to be visited is not named. Leaf 2r and most of 2v rest on the first reading only. Google Books searches combining Cardinal Andreas with Stams and visitation gave no lead, and Lebersorg's Stams chronicle and the Innsbruck Regiment copybooks, where a record would most likely be, were not checked.",
+  "identification": "Two German drafts (Konzepte) in one hand, each on its own leaf, probably reports of the salt-office officials at Hall in Tirol to the prince's Kammer: (1) leaf 1, headed 'Durchl: Camer(?)', advising the purchase for 200 or at most 225 fl of what one 'Hofh.' holds by inheritance in the 'Salzperg', dated 'den 23 tag [month] 7[.]'; (2) leaf 2, headed 'Den Tirolischen Camer(?)', following a 'beratschlagung vnnd Visitierung' at Hall and concerning the Pfannhaus; writers unnamed, year not established",
+  "note": "Leaf 1 (1r then 1v) is one draft and leaf 2 (probably 2v then 2r) the other. Leaf 1 opens 'Gnedig herrn. Wellichermassen E: g:', speaks of the prince in the third person ('Innamen der F: Dt: Vnnsers gnedigisten herrn'), has 'Salzperg' in an insertion (read by the research reader and a checker; a blind reader of that crop did not confirm it), answers a petition ('Supp:') sent on for 'gehorsamben bericht', names the sums 200, 225 and 275 fl, and ends 'Dat. den 23 tag [month] 7[.]'; leaf 2 opens 'Wolgeborn p.', mentions men sent 'alherab gen Hall. Von wegen beratschlagung vnnd Visitierung', and names the 'Pfanhaus' twice. The two headings carry the same word, read 'Camer(?)' (leaf 1 'Durchl: Camer', leaf 2 'Den Tirolischen Camer'; a blind reader read 'Durch[.]: Camer[.]' and 'Der T[.]ri[.]lisch[.] C[..]r'); it has no d, so it is not 'Cardin[al]', the word after 'Visitierung des' is struck through, and the margin words are read 'Ambtleut(?)' and 'vnd Hall: Ambtl(?)' (not confirmed by a blind reading), from which the writers are taken, probably, to be the Hall salt officials. The seller's name ('Hofh.', 'Hofhaim[er](?)'), the thing sold ('Eisen(?)' or 'Zinsen(?)' 'vnd drey Viertl ...'), two names on 2v and the month and year are not settled, and no outside record of either act was found; the Innsbruck Kammer copybooks were not checked; no human review.",
   "verify": "https://fragmentarium.ms/overview/F-j8cl",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Two draft letters",
+   "title": "Two draft reports, probably of the salt office at Hall in Tirol",
    "content": [
     {
-     "locus": "1r",
+     "locus": "1r-1v",
      "text_language": "German",
-     "title": "Draft letter to a cardinal, probably Andreas of Austria",
-     "persons": "Georg Hoffman (?)",
-     "description": "Addressed 'Durchl: Cardin[.]', about rents inherited from the late Georg Hoffman(?). Sender not named.",
-     "remarks": "Probably c. 1595-1600, if the cardinal is Andreas of Austria, governor of Tyrol."
+     "title": "Draft report, probably to the prince's Kammer, on a purchase in the Hall salt mine",
+     "persons": "Hofh[aimer] (?)",
+     "description": "Headed 'Durchl: Camer(?)'. On a petition by one 'Hofh.' offering for sale what he holds by inheritance 'Im Salzperg'; the writers advise buying for 200 or at most 225 fl. Dated 'den 23 tag [month] 7[.]', no place. Writers not named.",
+     "remarks": "The writers are probably the salt-office officials at Hall in Tirol (margin: 'Ambtleut(?)')."
     },
     {
-     "locus": "2v",
+     "locus": "2v, 2r",
      "text_language": "German",
-     "title": "Draft letter to the Tyrolean chancellor or Kammer",
-     "description": "Headed 'Den Tirolischen C[..]', about a deliberation on and visitation of a monastery ('Visitierung des Clo[sters]') and the purchase of rents for 200 or at most 225 fl. Dated 'den 23 [Septemb.(?)]', no year or place."
+     "title": "Draft report, probably to the Tyrolean Kammer, after a visitation at Hall",
+     "description": "Headed 'Den Tirolischen Camer(?)', with 'vnd Hall: Ambtl(?)' in the margin. Follows a 'beratschlagung vnnd Visitierung' held at Hall and names the 'Pfanhaus'. No date."
     }
    ]
   }
@@ -13949,10 +13995,10 @@
   "catalogue_date": "1538 – 1550 CE",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Bundle of about eleven 16th-century Innsbruck government papers used as binding waste. Item 82-12, read in full: original letter of Emperor Maximilian II, Vienna, 21 July 1565, sending (unnamed, probably Innsbruck) officials copies of the marriage agreements of his sisters Barbara and Johanna with the dukes of Ferrara and Florence, for the homecomings, the household and the execution of the agreements. The other items (a Latin minute of royal-Venetian toll talks of Tuesday 2 March 1535, drafts and letters of 1538-1559 on Bregenz serfs, Swabian commissioners, a Schaffhausen petition and a Wolkenstein letter) are read only in part; plus a 17th-century label and a modern parish timetable",
-  "note": "Item 82-12 was read in full on the image: 'Heyrats abreden, so zwischen den Herzogen von Ferrar, vnd Florenz, auch unsern freundtlichen geliebten Schwestern, Barbara vnd Johanna beschlossen worden ist, hiemit abschrifften zue', dated 'Wienn den ainundzwainzigisten tag Julij Anno im fünfundsechzigisten', Roman regnal year 3, Hungarian 2, Bohemian 'Sibenzehenden', signed 'Maximilian' with 'Ad mandatum d(omi)ni electi Imperatoris proprium'; the word check corrected the day from 'Neunundzwainzigisten' (29) to 'ainundzwainzigisten' (21), and the regnal years agree with July 1565. The addressees are not named; the Innsbruck government is an inference. Item 82-2, a Latin minute in Italian chancery cursive, is dated 'M.D.xxxv Die Martis 2 Martij' (2 March 1535 was a Tuesday) and concerns royal agents and the Venetian side over 'datia insolita', new collectae and the Verona tolls on goods brought through the Lagarina valley; its verso is stained and only partly read. The dated drafts are 82-13 (8 August(?) 1538), 82-7 (20 March 1545, publication of a mandate on serfs in the Herrschaft Bregenz), 82-8 (20 March 1545), 82-9 (30 March 1545, to a captain of a place read 'Rovereyt(?)' or 'Landeg[k](?)', so any link to the Vallagarina business of 82-2 is conditional), 82-5/82-6 (19 April [15]45, report of the commissioners Leonhart von Gundlfing(en)(?) and Eberhart von Freyberg), 82-11 (petition about Schaffhausen, endorsed 1545), 82-10 (report to 'Rö: Kay: Mt.', 3 April 155[0 or 6]) and 82-4 (letter of Hanns Freiherr zu Wolkenstein to royal commissioners, docket 26 June [15]59, first word of the docket unread). The modern pencil note 'aus Hs 228 (Compl. c. 1646)' on the label 82-1 gives the host volume and is not a reading; 82-3 is a modern Huben (Ötztal) parish timetable. The regnal formula and the 1565 weddings are attested in print (snippets), but no regest of this letter or of any other item was found; the Tiroler Landesarchiv registers and monasterium.net were not checked. Partial because most items lack parties or substance.",
+  "identification": "Bundle of about eleven 16th-century Innsbruck government papers used as binding waste. Item 82-12, read in full: original letter of Emperor Maximilian II, Vienna, 21 July 1565, sending (unnamed, probably Innsbruck) officials copies of the marriage agreements of his sisters Barbara and Johanna with the dukes of Ferrara and Florence. The other items are read only in part: a Latin minute of Tuesday 2 March 1535 on royal-Venetian toll talks, possibly from the arbitration congress at Trent (1533-1535); drafts and letters of 1538-1559 on Bregenz serfs, a diet about aid against the 'Erbfeindt' (the Turks, by the usual sense) reported by the commissioners probably Schweikhart von Gundlfingen and Eberhart von Freyberg, a Schaffhausen petition and a Wolkenstein letter; plus a 17th-century label and a modern parish timetable",
+  "note": "Item 82-12 reads 'Heyrats abreden, so zwischen den Herzogen von Ferrar, vnd Florenz, auch unsern freundtlichen geliebten Schwestern, Barbara vnd Johanna beschlossen worden ist, hiemit abschrifften zue', dated 'Wienn den ainundzwainzigisten tag Julij Anno im fünfundsechzigisten', signed 'Maximilian'; the addressees are not named and the Innsbruck government is an inference. Item 82-2, dated 'M.D.xxxv. Die Martis .2. Martij', opens 'Cum Cl(arissi)mus Arbiter Regius Curam suscepisset loquendi cu(m) Mag(nifi)cis Agent[ibus] Regijs ut datia insolita tollerentur' and concerns the Venetian Dominium, new collectae and the Verona toll on German goods brought 'p(er) Athesim et vall[em] Lagarina(m)'; an Austro-Venetian arbitration with arbiters of both sides sat at Trent in 1533-1535 (according to a thesis by Della Mea, Udine, consulted once and not re-checked), so the minute, whose verso has the royal side's answers ('De Datijs vero respondent Regij'), is possibly from that congress, but no record of this session was found; the drafts 82-5/82-6 (19 April [15]45) name 'Herr S[....]khart von Gundlfingen freyherr' (probably Schweikhart, not Leonhart) vnnd Herr Eberhart von Freyberg Ritter' as royal commissioners reporting on a diet, at a place read '[R]iedling[en](?)', with envoys of a margraviate, counties and towns about 'hilf wider den Erbfeindt' (a Schweikhart von Gundelfingen is attested until 1546 in printed works found by snippet search; no record of the 1545 commission was found); 82-9 (30 March 1545) is addressed to 'Herrn Franncisc[..] ... Ritter, Hauptman zu' a place read 'Rovereyt(?)' or 'Landeg[k](?)'. The other dated items are 82-13 (8 August(?) 1538), 82-7 and 82-8 (20 March 1545, mandate on serfs in the Herrschaft Bregenz), 82-11 (petition about a Lehentrager 'von Schellenberg(?)' and the town of Schaffhausen, endorsed 1545), 82-10 (3 April 155[0 or 6]) and 82-4 (Hanns Freiherr zu Wolkenstein to royal commissioners, docket 26 June [15]59, body unread); the pencil note 'aus Hs 228 (Compl. c. 1646)' on 82-1 is modern, and no outside record of any item was found.",
   "verify": "https://fragmentarium.ms/overview/F-njn8",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -13969,14 +14015,15 @@
      "locus": "82-2",
      "text_language": "Latin",
      "title": "Minute of toll negotiations, 2 March 1535",
-     "description": "Royal agents and the Venetian side on 'datia insolita', new collectae and the Verona tolls on goods brought through the Lagarina valley. Dated Tuesday 2 March 1535."
+     "description": "The royal arbiter reports on his talks with the royal agents about 'datia insolita' and new collectae; the Venetian Dominium on the Verona toll on German goods brought by the Adige and the Lagarina valley; on the verso the royal side's answers. Dated Tuesday 2 March 1535.",
+     "remarks": "Possibly a minute of the Austro-Venetian arbitration congress at Trent (1533-1535)."
     },
     {
      "locus": "82-4 to 82-11; 82-13",
      "text_language": "German",
      "title": "Drafts and letters, 1538-1559",
-     "persons": "Leonhart von Gundlfingen (?); Eberhart von Freyberg; Hanns Freiherr zu Wolkenstein",
-     "description": "82-13, 8 August (?) 1538; 82-7 and 82-8, 20 March 1545, on the publication of a mandate on serfs in the Herrschaft Bregenz; 82-9, 30 March 1545, to a captain; 82-5/82-6, 19 April [15]45, report of the commissioners Leonhart von Gundlfingen (?) and Eberhart von Freyberg; 82-11, petition about Schaffhausen, endorsed 1545; 82-10, report to the emperor, 3 April 155[0 or 6]; 82-4, letter of Hanns Freiherr zu Wolkenstein to royal commissioners, 26 June [15]59.",
+     "persons": "Schweikhart (?) von Gundelfingen; Eberhart von Freyberg; Hanns Freiherr zu Wolkenstein",
+     "description": "82-13, 8 August (?) 1538; 82-7 and 82-8, 20 March 1545, on the publication of a mandate on serfs in the Herrschaft Bregenz; 82-9, 30 March 1545, to a captain; 82-5/82-6, 19 April [15]45, report of the commissioners Schweikhart (?) von Gundelfingen and Eberhart von Freyberg on a diet about aid against the 'Erbfeindt'; 82-11, petition about a fief-holder and the town of Schaffhausen, endorsed 1545; 82-10, report to the emperor, 3 April 155[0 or 6]; 82-4, letter of Hanns Freiherr zu Wolkenstein to royal commissioners, 26 June [15]59.",
      "remarks": "82-1 is a 17th-century label; 82-3 a modern parish timetable of Huben (Ötztal)."
     }
    ]
@@ -14129,12 +14176,21 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Four parchment binding strips cut from one early modern Latin document, probably a chancery or notarial instrument; only one to three words per line survive, and no issuer, party, action, place or date",
-  "note": "Text was read on the image on face A of strips 2, 3 and 4 only, in one brown-ink cursive of the 16th or 17th century; strip 1 and all of face B show no legible ink. Strip 2 gives '[..]?e Hunga[..]' (r or c before e), '[..]m obseruan?[..]', '[..]municatio[..]', '[..]a duntaxa[t]' and '[..]m Aula C[..]'; strip 3 gives '[..]?eom-ensis D[i/u][..]', '[..]?inus No[..]' and '[..]um praenom/praenor[..]'. The word check corrected 'Aul(a)e' to 'Aula C[..]' (no e is written), the line before to '-inus No[..]', with 'No[tarius]' only a guess, and showed that only D and one minim survive after '-ensis', so 'Dio[ecesis]' is a supplied expansion, not a reading. These formulaic words fit a chancery or notarial instrument, but none of them gives a name, act or date. Whether the strips join is not established. With nothing to anchor it, no search was run, so the document is not identified.",
+  "identification": "Four parchment binding strips cut from one early modern Latin document, possibly a chancery or notarial instrument; only one to three words per line survive, and no issuer, party, action, place or date",
+  "note": "Text was read on the image on face A of strips 2, 3 and 4 only, in one brown-ink hand of the 16th or 17th century; strip 1 and all of face B show no legible ink, also under channel enhancement. Strip 2 gives '[..]?e Hunga[..]' (r or c before e), '[..]m obseruan?[..]', '[..]municatio[..]', '[..]a duntaxa[t]' and '[..]m Aula C[..]'; strip 3 gives '[..]?eom-ensis D[i/u][..]', '[..]?inus No[..]' and '[..]um praenom/praenor[..]'. These words possibly fit a chancery or notarial instrument, but none of them gives a name, act or date, and the place adjective before 'D[i/u]' is not legible. With nothing to anchor a search, the document is not identified.",
   "verify": "https://fragmentarium.ms/overview/F-1gv6",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Unidentified document",
+     "remarks": "Four binding strips with one to three words per line, in a hand of the 16th or 17th century; possibly a chancery or notarial instrument. No name, place or date survives."
+    }
+   ]
+  }
  },
  {
   "id": "F-2yl6",
@@ -14432,11 +14488,22 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Small parchment piece cut into four strips, from a large-format Gothic textualis book with red initials Q and E and a red rubric ending 'Iohem'; too little survives to identify",
-  "note": "One face keeps line beginnings to the right of a blank margin: red 'Q' 'uo[d?]', '..nn..', '..umm..', 'Et ideo', red 'E' 'go su[m?]' and '..mam in..', with a long-tailed red letter in the margin. The other face keeps line ends: 'uae' with a red-touched capital, the red rubric '·Iohem·', '..rlemi?', '..rinnie' and '..timue?'. The large script and wide spacing suggest a choir-size book, but no staves are visible. 'Et ideo' and 'Ego sum' are too common to search, and the rubric might end '[secundum] Iohannem', which would point to a lectionary or homiliary, but that is not established. A modern pencil note on the piece is not part of the text and was not used. Nothing in the images can resolve the text; a sibling fragment of the same book might.",
+  "identification": "Unidentified Latin text in a large Gothic book hand with two-line red initials and a red rubric ending 'Iohannem' (small piece cut into four strips, no staves)",
+  "note": "One face keeps line beginnings with two-line red initials: 'Quo..', 'lux' or 'iux..', 'immun..' or 'in mun..', 'Et ideo' and 'Ego su[m]'. The other keeps line ends, among them the red rubric '[..] Iohem' (Iohannem). A research reader read '..t inuic[em]' and 'manet in m[e]' with John 15 in mind, suggesting Mass lessons or chants from John 15, but a blind reader of the same crops did not confirm either word (it read '[..]manıs(?) tuı[.]' and unresolved minims), so no text is proposed. A modern pencil shelfmark note on the piece was not used.",
   "verify": "https://fragmentarium.ms/overview/F-kd2f",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_144_01r; Stams_STA_Frg_144_01v",
+     "text_language": "Latin",
+     "title": "Unidentified text",
+     "description": "Four cut strips of one piece in a large Gothic book hand without staves. Line beginnings on one face (Quo.., Et ideo, Ego su[m], with two-line red initials), line ends on the other (red rubric ending Iohannem).",
+     "remarks": "Not identified; a suggested link with John 15 rests on two words not confirmed by a blind reading."
+    }
+   ]
+  }
  },
  {
   "id": "F-kuvn",
@@ -14554,11 +14621,23 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "Paper strip from a bifolium with four framed single-column pages of very rapid Latin cursive (late fifteenth or sixteenth century), apparently documentary or legal prose from a register, copybook or draft book; issuer, addressee, action and date not established",
-  "note": "The strip crosses a folded sheet, with two framed text blocks of about 15 lines on each face and the fold between them, so it keeps the upper or lower part of four pages. Only scattered words were read on the image of the left blocks: on 94r 'Ideo(?) ill[ustr]i(ssi)mus(?) Bar[..]', 'nobis dicti(?) d(omi)ni', 'd(omi)ni honorab(i)l(is)', 'e(t) p(re)missis atq(ue)' and a possible 'Septembr(is)?' over a blot; on 94v 'fuit(?) quib(us)d(am) mo(n)ast(er)iis', 'i(n) p(er)petuu(m)?' and 'c(on)ue(n)t(us)?'. Only 'atq(ue)', 'honorab-' and 'quibusdam monasteriis' are secure; the right blocks, the one on 94v heavily foxed, give no secure span. There are no seals, signatures or endorsements, and the layout points to a register or draft book rather than an engrossed charter. The readable words are formulaic, so no search was run; a reader expert in the hand, or more of the same sheet from the binding, would be needed.",
+  "note": "The strip crosses a folded sheet and keeps about 14 lines from each of four framed pages; there is no seal, signature, endorsement or address. The hand uses virgules as punctuation; the secure words are 'd(omi)ni honorab(i)l(i)s', 'atq(ue)', 'Et aliud', 'sibi' and 'alios' on 94r and 'quib(us)d(am) mo(n)ast(er)iis', probably followed by 'in perpetuum', on 94v. A word on 94r that begins at an ink blot was not confirmed as a month name, uncertain readings such as 'inquit?' and 'vetula?' leave a sermon or exemplum text possible, and the double-f forms are not followed by a title or law, so civil-law citations are not shown. Phrase searches (Corpus Corporum, Google Books, Internet Archive, MDZ) found nothing, and no party, place or act could be read; the right block of 94v is covered by rust spotting.",
   "verify": "https://fragmentarium.ms/overview/F-aekp",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "title": "Unidentified Latin text, apparently documentary or legal",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_094_01r; Stams_STA_Frg_094_01v",
+     "text_language": "Latin",
+     "title": "Unidentified text, apparently documentary or legal prose",
+     "description": "Strip across a bifolium with about 14 lines from each of four framed pages in a rapid cursive with virgules. Legible words include domini honorabilis, atque, Et aliud, sibi, alios, quibusdam monasteriis.",
+     "remarks": "Late 15th or 16th century. Apparently a draft or register copy of a letter or legal submission; a sermon or exemplum text is not excluded. Parties, place and date not read. The right block of Stams_STA_Frg_094_01v is covered by rust spotting. Not identified."
+    }
+   ]
+  }
  },
  {
   "id": "F-lv0w",
@@ -14573,14 +14652,14 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Leaves 165/2-1 to 4: copy of the opening of the Council of Basel's official Acta (protonotaries' preamble 'Censetur utique dignum', acts of 7 December 1431 and of the first session, 14 December 1431), matching Mansi XXIX from col. 3; the other leaves: papers of a suit at Basel in 1434 before Albert Varrentrapp, decretorum doctor, cantor of Liège, judge-commissary deputed by the council, between Nicolaus Volrat, abbreviator of apostolic letters and dean of St John in Haug (Würzburg), and Wilhelm (Guillelmus) de Grumpach, a canon in the diocese of Würzburg; acts of a second Basel suit of October-November 1438; and a copy of an unidentified Constance document of July 1415",
-  "note": "Paper leaves from the binding of Stams MS 59, holding at least four separate parts, not one text. On leaves 1-4 the preamble 'Censetur utique dignum et congruum, prout id singulariter exposcit nimium labilis hominum memoria' and the acts of Friday 7 December 1431 and the first session of Friday 14 December 1431 (mass by Philibert, bishop of Coutances, Cardinal Julian Cesarini presiding) were read on the image and agree with Mai's print of the preamble; an independent checker read leaf 2r blind and found all 19 lines in sequence in Mansi XXIX cols. 4-5 on the page image (end of the sermon, Philibert reading the decrees aloud), with at most three small variants such as the omission of 'adstantibus'. For the 1434 suit the image gives 'Mandat magister Albertus Varrentrapp decretorum doctor Cantor Leodien(sis) iudex et commissarius' (27r, 7v), 'Nicholaum Volrat litterarum apostolicarum abbreviatorem decanum ecclesie sancti Johannis in Haugis extra muros Herbi[polensis]' (7r) and 'Guillelmum de Grumpach canonicum Herbipolen(sis) dioc(esis)' (27r), so he is a canon in the Würzburg diocese and a cathedral canonry is not shown; the word check held Volrat, Varrentrapp and Grumpach(?). On 7r the year 1434 and the month June are read ('tricesimo quarto die vero vicesi[ma] [..] mensis Junii'), but the unit word of the day is not legible: the day 25 is not read on the leaf and comes from the modern red slip ('1434 25. Junii'); 3 August 1434 is read on 5r (the slip's 1435 there is wrong). Leaves 34-42 hold acts of a second suit at Basel, dated Monday 3 and Wednesday 5 November 1438, before a bishop sitting for the council's court of causes and concerning Otto Grauer(?), a perpetual vicar in the diocese of Mainz; this part was not independently checked. Leaves 29-33 copy a document 'Datum Constancie [..]nas Julii' 1415, sede vacante, in Sigismund's 29th Hungarian year, with penal clauses, which was not identified. Outside sources confirm Volrat as dean of Haug and Varrentrapp as a judge of the council's rota, and Volrat's later complaint against Würzburg cathedral canons (Bünz), but no record of this suit was found, and the 1964 envelope label ('Acta et decreta gener. concil. Basiliensis') is a modern description only. The result stops at partial because the record is a mixed packet: the Acta copy is matched, but the object of the 1434 suit (after 'ex et super nonnullis') is unread, the 1438 suit is only partly read and the Constance document is unidentified.",
+  "identification": "Leaves 165/2-1 to 4, 21 and 29 to 33, and probably 13-14: one copy of the Council of Basel's official Acta of the first session, 14 December 1431 (protonotaries' preamble 'Censetur utique dignum', acts of 7 and 14 December 1431, and the decree on those who hinder people coming to the council, with the Council of Constance's constitution 'Iusticiam et equitatem' of 6 July 1415 inserted in full), matching Mansi XXIX cols. 3-5 and 15-19; the other leaves: papers of a suit at Basel in 1434 probably over defamations and injuries before Albert Varrentrapp, decretorum doctor, cantor of Liège, judge-commissary deputed by the council, between Nicolaus Volrat, abbreviator of apostolic letters and dean of St John in Haug (Würzburg), and Wilhelm (Guillelmus) de Grumpach, a canon in the diocese of Würzburg; and acts of a second Basel suit of October-November 1438",
+  "note": "Paper leaves from the binding of Stams MS 59, holding three separate parts. The Acta copy has the preamble and the acts of 7 and 14 December 1431 on leaves 1-4 (2r agrees line by line with Mansi XXIX cols. 4-5), then on 2v the heading 'Sequuntur decreta lecta In prima sessione' and on 1r the close of the decree on those who hinder people coming to the council, 'locum habere declarat et decernit iuxta ipsius que talis est seriem et tenorem', followed by the inserted Constance constitution 'Sacrosancta generalis Sinodus Constanciensis ... Iusticiam et equitatem exerceri non dubitatur', whose faces follow in the printed order over leaves 33, 21, 31, 32, 30 and 29, with about 25 words (five to seven lines) lost at each of the six changes of face measured, as on leaves trimmed at the head, to its dating clause on 29r ('Datum Constancie se[..] [no]nas Julii ... Sigismundi Roma[norum] ac vngarie etc. Regis ... Hungarie vero vi[cesimo] nono'); 1r, 21v, 32v, 29v and 29r agree with the page images of Mansi XXIX cols. 15-19 apart from small variants ('festiuis' and 'villas castra' on 29v; probably 'papali' for 'pontificali' on 31v-32r), the year word on 29r is only partly legible, and several faces were placed from reduced images and leaves 13-14 only probably, from the first reading. In the 1434 suit the image gives 'Mandat magister Albertus Varrentrapp decretorum doctor Cantor Leodien(sis) iudex et commissarius' (27r), 'Nicholaum Volrat litterarum apostolicarum abbreviatorem decanum ecclesie sancti Johannis in Haugis extra muros Herbi[polensis]' and the object 'de et super nonnullis diffa[macio]nibus Iniuriis rebusque aliis' (7r, 5r), with the year 1434, the month June (the day 25 only on a modern red slip) and 3 August 1434 (5r). Leaves 34-42 hold acts of a second suit at Basel dated 3 and 5 November 1438, before a bishop sitting for the council's court of causes and concerning Otto Grauer(?), a perpetual vicar in the diocese of Mainz, and are only partly read. No record of either suit was found by text search in Concilium Basiliense II, III, IV and VII, so the record stays partial.",
   "verify": "https://archive.org/details/sacrorumconcilio0029vari/page/n17/mode/1up",
-  "examined": "2026-11-01",
+  "examined": "2026-11-09",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Council of Basel, Acta (copy); acts of suits at Basel",
+   "title": "Council of Basel, Acta of the first session (copy); acts of suits at Basel",
    "places": [
     "Basel"
    ],
@@ -14589,31 +14668,27 @@
    ],
    "content": [
     {
-     "locus": "leaves 165/2-1 to 4",
+     "locus": "leaves 165/2-1 to 4, 21, 29 to 33; probably 13-14",
      "text_language": "Latin",
-     "title": "Council of Basel, Acta, opening",
-     "description": "Inc.: Censetur utique dignum et congruum, prout id singulariter exposcit nimium labilis hominum memoria … Acts of 7 December 1431 and of the first session, 14 December 1431."
+     "title": "Council of Basel, Acta, first session (14 December 1431)",
+     "description": "Inc.: Censetur utique dignum et congruum, prout id singulariter exposcit nimium labilis hominum memoria … Acts of 7 and 14 December 1431; decree on those who hinder people coming to the council, with the Council of Constance's constitution Iusticiam et equitatem (6 July 1415) inserted, ending on 29r with its dating clause.",
+     "remarks": "The pencil leaf numbers do not follow the text: the decree and the inserted constitution run 2v, 1r, 1v, 33v, 33r, 21r, 21v, 31v, 31r, 32v, 32r, 30v, 30r, 29v, 29r. Compared with Mansi on the page: 1r, 21v, 32v, 29v, 29r; the other faces placed from reduced images or OCR. About 25 words are lost at each of the six changes of face measured. On 2v the first decree is cut short with 'etc.'."
     },
     {
      "text_language": "Latin",
      "title": "Acts of a suit at Basel, 1434, before Albert Varrentrapp, judge-commissary of the council",
      "persons": "Albert Varrentrapp; Nicolaus Volrat; Wilhelm de Grumpach",
-     "description": "Nicolaus Volrat, dean of St John in Haug (Würzburg), against Wilhelm de Grumpach, canon in the diocese of Würzburg. Dated June and 3 August 1434."
+     "description": "Nicolaus Volrat, dean of St John in Haug (Würzburg), against Wilhelm de Grumpach, canon in the diocese of Würzburg, probably over defamations and injuries. Dated June and 3 August 1434."
     },
     {
      "locus": "leaves 34-42",
      "text_language": "Latin",
      "title": "Acts of a suit at Basel, 3 and 5 November 1438",
      "description": "Before a bishop sitting for the council's court of causes, concerning Otto Grauer (?), perpetual vicar in the diocese of Mainz."
-    },
-    {
-     "locus": "leaves 29-33",
-     "text_language": "Latin",
-     "title": "Unidentified document, Constance, July 1415"
     }
    ],
    "bibliography": [
-    "J. D. Mansi, Sacrorum conciliorum nova et amplissima collectio, XXIX, cols. 3-5"
+    "J. D. Mansi, Sacrorum conciliorum nova et amplissima collectio, XXIX, cols. 3-5, 15-19"
    ]
   }
  },
@@ -14701,13 +14776,43 @@
   "shelfmark": "Frg. 152",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Five strips and scraps of a small Gothic textualis manuscript with red initials and ruling, in faded Latin prose with legal or scholastic vocabulary; not liturgical, not identified",
-  "note": "Only piece 152-2 was reread at reading size with the blue channel stretched; the other pieces, including the long column-edge strip 152-1, rest on the first reading and are near-illegible. 152-2v gives, uncertainly throughout, '[..]rum p(re)diorum etiam in', 'non fuit expressum ex ipsis pignori[bus?]', 'actum' and 'tamen nulli'; 152-2r gives line beginnings 'exigencia', '[co]mmunicati..', 'Quod ... comune..', 'desinit', 'acquirit' and 'in ipsis'. The vocabulary (praedia, pignus, expressum, commune) points to law, perhaps pledges or common property, while the first reader's words (in actu, quantitas, unitas, perfectione) point to scholastic philosophy; neither lead is established, and the triage label 'liturgical or biblical' is not supported. Google Books searches on 'non fuit expressum' with 'prediorum', a Corpus Corporum proximity search and the CoMMA batch search gave nothing sustained, and the readings are too insecure for these searches to exclude anything. UV or multispectral imaging of 152-1 and 152-2 would be needed.",
-  "verify": "https://fragmentarium.ms/overview/F-4x8s",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "status": "partial",
+  "confidence": "medium",
+  "identification": "Piece 152-2: Codex Iustinianus, 8.13.27 pr.-1 (2r, line beginnings) and 8.14.2 (end), 8.14.3 (complete) and the opening of 8.14.4 (2v), numbering of Krueger's edition, p. 341; small Gothic textualis. Pieces 152-3, -4 and -5 are in a different, later hand with red underlining and are not identified; the long strip 152-1 is not placed and its relation to 152-2 is open",
+  "note": "A research reader and an independent checker, the checker reading the piece before opening the edition, compared piece 152-2 with Krueger's edition on the page image: one face has six line beginnings in order from C. 8.13.27 pr.-1, the other the end of C. 8.14.2, a largely illegible heading line, C. 8.14.3 in six consecutive full lines to 'nulli [prudentium] placuit', then 'Imp.' and probably 'Satis notum est' (8.14.4); about 25 words agree in order. It is the Codex text itself (constitutions with inscriptions, not a Summa or apparatus); gloss can be neither shown nor excluded on the narrow surviving margin. Three small words in 8.14.3 are faded, one ('ex ipis' or 'et ipsi') left open, and 8.14.2 ends 'exprimitur'. Pieces 152-3, 152-4 and 152-5 are in a larger, later hand and are not identified; the strip 152-1, in a small textualis compatible with 152-2, is not placed and a comparison with C. 8.13.20-8.18.3 found no match. The catalogue's dimensions are those of the strip 152-1; date and origin are not claimed.",
+  "verify": "https://archive.org/details/corpusiuriscivil02krueuoft/page/341",
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Codex Iustinianus; unidentified pieces",
+   "subtitle": "8.13.27, 8.14.2-4 (piece 152-2)",
+   "content": [
+    {
+     "locus": "Frg. 152-2 (Stams_STA_Frg_152_01r05r; Stams_STA_Frg_152_01v05v)",
+     "text_language": "Latin",
+     "title": "Codex Iustinianus 8.13.27 pr.-1, 8.14.2-4",
+     "description": "One piece, about 79 x 45 mm, nine lines a face, full column width. First face: line beginnings of C. 8.13.27 pr.-1. Second face: end of C. 8.14.2, C. 8.14.3, and probably the opening words of 8.14.4.",
+     "remarks": "Placed by comparison with Krueger, p. 341. One word in C. 8.14.3 ('ex ipis' or 'et ipsi') is left open. No gloss is visible, but the surviving margin is too narrow to exclude one."
+    },
+    {
+     "locus": "Frg. 152-3, 152-4, 152-5",
+     "text_language": "Latin",
+     "title": "Unidentified text",
+     "description": "Three small pieces in a larger, later hand, with red underlining and a red initial P; the word diuiditur.",
+     "remarks": "Not from the manuscript of piece 152-2; the three may be from one manuscript."
+    },
+    {
+     "locus": "Frg. 152-1",
+     "text_language": "Latin",
+     "title": "Unidentified text",
+     "description": "Strip about 250 mm long with the beginnings of 60 or more lines in a small, heavily abbreviated script.",
+     "remarks": "Not matched to Codex Iustinianus 8.13.20-8.18.3. The script is compatible with piece 152-2; whether it belongs with it is open."
+    }
+   ],
+   "bibliography": [
+    "P. Krueger, Corpus iuris civilis, vol. 2, Codex Iustinianus (Berlin 1892), p. 341"
+   ]
+  }
  },
  {
   "id": "F-sqjv",
@@ -15002,11 +15107,26 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Small scrap of a compressed fourteenth-century(?) scholastic hand discussing words 'quantum ad vocem', 'quantum ad figuram' and 'quantum ad modum significandi'; probably logic (fallacy of figura dictionis) or modistic grammar (the accident figura), not located",
-  "note": "Both faces keep about 20 lines each, read in bands at letter level with low confidence. Face A gives 'q(uantu)m ad mo(dum) sig(nifican)di', 'q(uantu)m ad figura(m) (et) mo(dum) sig(nifican)di' and 'n(on) q(uantu)m ad voce(m) n(on) q(uantu)m ad mo(dum)', where 'quantum' is an expansion of q with a superscript sign; face B gives 'p(ro)p(ter) significatione(m)(?)', 'i(n) (com)posi(ti)one', 'actio(n)e(m)', 'intra(n)s(itiu)a(?)', 'act(iu)us(?)', '[a]d voce(m) p(er) mod(um) sig(nifican)di(?)' and, after a red-outlined initial, '... ad cau(sa)m'. Google Books searches on these formulas found the same topic in Peter of Spain's Tractatus (figura dictionis), the pseudo-Thomas De fallaciis and Blasius Picus on compound words, but no wording match, and a Corpus Corporum proximity search found nothing. The CoMMA batch search returned only chains of repeated common words at or below the null. The formulas fix a subject, not a text, so the record stays unidentified; raking-light or multispectral images and a fuller reading would be needed to test Peter of Spain's Tractatus VII and modistic treatments of figura.",
+  "identification": "Small scrap of a compressed fourteenth-century(?) scholastic hand, in question form, weighing words 'quantum ad vocem', 'quantum ad figuram' and 'quantum ad modum significandi' with the examples 'albo' and 'dulci'; logic (fallacy of figura dictionis, or denominative terms in a Categories commentary) or possibly modistic grammar, not located",
+  "note": "Both faces keep about 20 lines each, read in bands at letter level with low confidence. Face A gives 'q(uantu)m ad mod(um) sig(nifican)di', 'q(uantu)m ad figura(m) (et) mod(um) sig(nifican)di', 'albo', 'dulci' and 'n(on) cu(m) q(uantu)m ad voce(m) n(ec) q(uantu)m ad mo(dum) sig(nifican)di', where 'quantum' expands a q with a superscript sign; face B gives 'ad a(liu)d d(icitu)r', 'i(n) (com)po(sitio)ne', 'p(er) actio(n)em', 'i(n)t(ra)n(siti)ua(?)', '[a]d voce(m) p(er) mod(um) sig(nifican)di' and, after a red-outlined initial, '... ad cau(sa)m'. The pseudo-Thomas De fallaciis was compared in its chapter on figura dictionis and is not the text; Google Books, Corpus Corporum and CoMMA searches with these formulas and examples found the topic (denominatives in the pseudo-Thomas Summa totius logicae, the genus of the verb in a Paris grammar) but no wording match. The formulas fix a field, not a text, so the record stays unidentified.",
   "verify": "https://fragmentarium.ms/overview/F-cm6t",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Scholastic questions on words 'quantum ad vocem, figuram, modum significandi' (logic or grammar)",
+   "tags": [
+    "Topic: Philosophy"
+   ],
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_148_01r; Stams_STA_Frg_148_01v",
+     "text_language": "Latin",
+     "title": "Unidentified scholastic text in question form on vox, figura and modus significandi",
+     "description": "About 20 lines on each face of a very small, heavily abbreviated hand. 01r: q(uantu)m ad figura(m) (et) mod(um) sig(nifican)di ... albo ... dulci ... n(on) cu(m) q(uantu)m ad voce(m) n(ec) q(uantu)m ad mo(dum) sig(nifican)di. 01v: blue paraph, ad a(liu)d d(icitu)r ... i(n) (com)po(sitio)ne ... p(er) actio(n)em ... [a]d voce(m) p(er) mod(um) sig(nifican)di; a red-outlined initial opens a new section near the foot.",
+     "remarks": "Not identified. The subject is either the fallacy of figura dictionis or denominative terms in a commentary on the Categories; modistic grammar is possible. Not the pseudo-Thomas De fallaciis."
+    }
+   ]
+  }
  },
  {
   "id": "F-tnqw",
@@ -15096,13 +15216,31 @@
   "shelfmark": "Frg. 246",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Four small strips of a Latin text in a small gothic book hand, with short entries ending in red numerals (·99·, ·109·, ·111·) and penitential vocabulary; perhaps an index (tabula) to a work on penance or canon law, not shown",
-  "note": "The four strips (246-1 to 246-4) keep 3-5 lines each along one edge. Legible words include 'satisfacio', 'satisfacere' and 'satisfacie(n)d(um)' (246-4r), 'qui e(t)ia(m)' and 'posset ... mouere' (246-3r), '(con)clusi(on)e' and '[..]lustru(m)' (246-2r), 'Aliud(?)' (246-3v) and '(et) absolucio(n)[em](?)' (246-2v, first reader only). Several short entries end in a red numeral with the rest of the line blank, which suggests an index keyed to chapter or question numbers, but neither the work nor the genre is established. 246-1r is an old paper label with 'F' and '228' and a modern pencil shelfmark, with no manuscript text under it; 246-1v and 246-4v show no legible text. Corpus Corporum proximity searches on the vocabulary and the CoMMA batch search found nothing. Too little connected wording survives to identify the text; a fuller sister fragment would be needed to test the tabulae of penitential summae.",
-  "verify": "https://fragmentarium.ms/overview/F-4td2",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "status": "partial",
+  "confidence": "low",
+  "identification": "Index or list of questions with red question numbers (·99·, ·109·, ·111·), possibly to Johannes of Freiburg, Summa confessorum, book III: the ·109· strip fits title 34, qq. 108-109 (satisfaction) and the ·99· strip possibly title 33, qq. 99-101 (absolution from excommunication); not the printed alphabetical tabula in wording; index not identified",
+  "note": "Four small strips keep 3-5 lines each of short Latin entries, each closed by a red number with the rest of the line blank. Beside ·99· strip 246-3r reads 'qui e.. tu- / posset [..]oluere' and then starts a new entry 'Qual.. debeat [..] ab[so]l..', read with the source in view (a blind reader had 'poſſet ... [.]ebea[.] ... abſ[.]l[..]'); beside ·109· strip 246-4r has 'satisfac-' twice and '[..]facere', and a blind reader read '[s]atisfa(ci)o(n)es' there. These fit book III of the Summa confessorum, where q. 109 of title 34 concerns satisfaction and title 33 has the questions on absolution from excommunication. The wording is not that of the printed tabula (1476 Augsburg edition, entries Absolutio, Satisfactio, Flagellum, Confessio), which Munich, Clm 2684 has in the same words for qq. 110-112; no line collates, the phrase searched was not found in Google Books, MDZ full text or Corpus Corporum, and no other work (Raymund, the Astesana, abridgements) was tested on the page. The strips are not from the same manuscript as F-d7a7, the printed Tabula of the same work.",
+  "verify": "https://www.digitale-sammlungen.de/en/view/bsb00043210?page=702",
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Index of questions on absolution and satisfaction, with red question numbers",
+   "tags": [
+    "Topic: Canon Law"
+   ],
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_246_01r04r; Stams_STA_Frg_246_01v04v",
+     "text_language": "Latin",
+     "title": "Index entries with question numbers 99, 109, 111, possibly to Johannes of Freiburg, Summa confessorum, book III",
+     "description": "Four strips (246-1 to 246-4) with 3-5 lines each along one edge; short entries each closed by a red number. 246-3r: [..] qui e.. tu- / posset [..]oluere ex[..] ·99· / [Q]ual.. debeat [..] ab[so]l[..]. 246-4r: [s]atisfac.. ei [..] ·109· / satisfaciend[um] [..]. 246-3v: [..] ·111·. 246-1r is an old paper label (F 228) without manuscript text.",
+     "remarks": "The ·109· entry fits Summa confessorum III.34, qq. 108-109 (satisfaction), and the ·99· entry possibly III.33, qq. 99-101 (absolution). The wording differs from the printed tabula (Augsburg 1476); the index is not identified."
+    }
+   ],
+   "bibliography": [
+    "Johannes of Freiburg, Summa confessorum (Augsburg: Günther Zainer, 1476), tabula, entries Absolutio and Satisfactio; book III, titles 33 and 34"
+   ]
+  }
  },
  {
   "id": "F-rc2o",
@@ -15117,11 +15255,20 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Group of small parchment scraps and binding remnants with a few cut lines of Latin religious prose in a small gothic textualis on 259-1 and 259-2; not identified",
-  "note": "Of about thirteen scraps, with a brass strip and a nail among the binding remnants, only 259-2 (about 13 lines, photographed upside down) and 259-1 (about 6 lines) carry readable text; 259-3 and 259-4 have traces. 259-2r gives '[..]terris(?) · eg(o) b(e)n(e)dica(m)', 'ut dign(us) fi[..](?)', 'ipso ⁊ p(er) ipsu(m)(?)', 'sumat fru[ctum](?)', 'testam(en)t[..]' and 'fi(li)o acc[..](?)'; 259-1r gives 'Dom[..]', 'possessio(?) huius(?)' and '⁊ alio t(em)p(or)e'. The wording is Latin religious prose, theological, homiletic or narrative, but no genre is established. Corpus Corporum proximity searches, Internet Archive and Google Books on these combinations gave only irrelevant hits, and the CoMMA batch search gave nothing above the null. The v faces were read by the first reader only, and the lines are too short and abraded to identify; UV or multispectral images of 259-2v and 259-1v might add connected text.",
+  "identification": "Group of small parchment scraps and binding remnants with a few cut lines of Latin prose in a small gothic textualis on 259-1 and 259-2; not identified, register (religious or legal) open",
+  "note": "Of about thirteen scraps and binding remnants only 259-2 (13 cut lines, photographed upside down) and 259-1 (6 lines) carry readable text; the secure words are 'ut dignus', 'sumat fru-', 'testament-', 'filio', 'cessit · Dom-' and 'alio tempore'. One line of 259-2r reads either 'ego benedicam' or 'ego hereditatem' and the next possibly 'ut dignus he[res]', so legal or testamentary prose fits at least as well as religious prose. The one printed hit for 'sumat fructum', a rubric in Gratian's Decretum (C.16 q.7 c.13), was compared in Friedberg's text and does not fit the neighbouring words, and the rest of that question was searched without result. Full-text searches of the Digest and the Decretals, Corpus Corporum, Internet Archive, Google Books and a complete CoMMA pass gave no match.",
   "verify": "https://fragmentarium.ms/overview/F-rc2o",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Unidentified prose",
+     "remarks": "Line-middles only, on scraps 259-1 and 259-2: 'ut dignus', 'sumat fru-', 'testament-', 'filio', 'cessit · Dom-', 'alio tempore'. Religious or legal register not settled. The other scraps are blank binding waste and fittings."
+    }
+   ]
+  }
  },
  {
   "id": "F-14ex",
@@ -15192,10 +15339,19 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Two very abraded small leaf pieces in a small Gothic hand with red-stroked capitals, red underlining and a red lombard D; no secure words, genre open",
-  "note": "The two pieces (about 12 x 7 cm) sit side by side on each canvas; canvas 0 is almost entirely abraded. On the best-preserved area, the right piece of canvas 1, contrast and blue-channel crops give only uncertain letter groups ('[...]glorias' or 'gloriosa(?)', '& sic q(uo)d(?)', '& ou[...]'), with no connected span of two secure words. The red capital-stroking suggests prose rather than a liturgical layout, and the short-looking lines of the right piece could equally belong to a register or list, so the triage label 'liturgical' is not supported. Modern blue-pencil marginal notes were masked and not used. Nothing was searchable, so no search was run; UV or multispectral imaging of both pieces is needed.",
+  "identification": "Two very abraded small pieces in a small cursive-leaning gothic hand with red underlines, paragraph marks and a red lombard; no secure words, genre open",
+  "note": "The two pieces (about 12 x 7 cm) sit side by side on each canvas. On the right-hand piece the writing is a narrow column of short lines with wide blank margins and one line in larger script near its foot, which suggests a list, table or gloss column; the left-hand piece has red underlines, paragraph marks and a two-line red lombard. All four piece-faces were looked at in enlarged colour or background-flattened crops and give only uncertain letter groups, with no connected span of two secure words. Nothing was searchable, so no search was run; UV or multispectral imaging is needed.",
   "verify": "https://fragmentarium.ms/overview/F-utud",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-09",
+  "identified_on": null,
+  "fragmentarium": {
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Unidentified text",
+     "remarks": "Almost wholly abraded. One piece has a narrow column of short lines with wide margins and a line in larger script near the foot; red underlines, paragraph marks and a two-line lombard. No word is secure; the language is assumed from the abbreviation signs."
+    }
+   ]
+  }
  }
 ]
