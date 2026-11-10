@@ -12,7 +12,7 @@ outside anchor.
 | F-hq07 (Frg. 11) | The two pieces are one sheet: the Revers of Cristoff Camerlannder(?) "auf dem Prenner" for the Oberwißhof (Brennerbad) of Stams under Abbot Johann, November 15[..]; the farm description agrees almost word for word with the Stams Revers of Thoman Vogl, 11 December 1569 (K LXII 3), which names Camerlannder as seller; 1565-1569 by inference |
 | F-6c58 (Frg. 176) | The Latin strip is a reader's chapter summary of the Life of Hermann of Himmerod as compiled by Henriquez, *Fasciculus sanctorum ordinis Cisterciensis* (1623); the guardianship account dated "a(nn)o 75" |
 | F-0kh0 (Frg. 155) | A convent's seal ("Conuennt Innsigel"), not a commune's; probably 1538, possibly Stams (hand and formula as in Stams deeds of May-June 1538) |
-| F-g1bu (Frg. 194) | The farm granted in 1575 is probably the Maratschhof at Mitterplars (Algund), also named in F-0dnc; the issuer possibly Stams |
+| F-g1bu (Frg. 194) | The farm granted in 1575 is probably the Maratschhof at Mitterplars (Algund), a farm name also read in F-0dnc; a blind re-read confirmed '-arätsch hof' but not the initial; the issuer possibly Stams |
 | F-0dnc (Frg. 57) | Opening line of a grant compatible with Stams abbots' grants of the 1570s; names the Maratschhof (see F-g1bu) |
 | F-agve (Frg. 195) | Probably Stams (on the seal, witnesses and the Stams Urbar cover it lines); the deceased possibly the parish priest of Untermieming; the sealer possibly the Veit Castl of 1564 |
 | F-zdff (Frg. 52) | The struck sealer "Richter vnnd Ambtman" is replaced by the abbot and convent; a Wilten charter of 1539 is a conditional lead for the people |
@@ -40,6 +40,9 @@ outside anchor.
    F-zdff's "Aicherin", F-4568's indiction).
 4. Two checkers reread nine records on the images and outside records and
    corrected wording on all of them; the main corrections are named above.
+5. A Codex review agreed with the substance and kept every status; it
+   corrected record blocks that still carried earlier, stronger wording
+   (F-agve, F-zdff, F-4568, F-hq07, F-kqf1, F-6c58, F-d358).
 
 ## Unavailable sources
 
