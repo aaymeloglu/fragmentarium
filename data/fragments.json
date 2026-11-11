@@ -12607,10 +12607,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Vertical strip cut from the middle of a German parchment sale deed (Kaufbrief), probably 16th century: a sale involving a [P/B]aumbgarten and a sum in gulden, with warranty and Gewährschaft clauses; issuer, buyer, property, place and year lost",
-  "note": "About 30 lines of German chancery cursive were read on the image of the recto, each cut at both ends so that only 3 to 5 words of a line survive. The sale is shown by 'Vnd verkhaufft' (twice), 'alle Khauff[...]', the warranty 'Rechtenmacht vnd gwalt' and '[ge]werscha[fft]'; the strip also names '[P/B]aumbgarten', 'ain gulden Rannsch..' (possibly 'Ra?nisch', Rhenish, not 'vngerisch'), a 'Durchleüchtigkhait' and, in the display line, 'des Edlen Hochgelerten ?['. Two fresh readers given neutral crops confirmed the display line, the verb and 'Durchleüchtigkhait'; the adjudication left the initial of the orchard word unverified and the year word undecided as 'Vi?z[en/ig](?)' after '...hündert, vnnd', so neither ...14 nor ...40 can be read and the year is not converted. The 16th-century date rests on script and spelling only; a modern blue label on the back, 'Urbari W?ss?brun(n)(?) 1593', probably names the host volume and is not used as evidence for the deed. No party, place or year survives to search with; sibling Stams strips Frg. 54, 55, 57, 59, 211 and 224 were compared without a join, and monasterium.net was not checked. The result stops at partial because only the genre and the action are established; no human review.",
+  "identification": "Vertical strip cut from the middle of a German parchment deed of sale (Kaufbrief), later 16th or early 17th century by the script: a sale made with the consent of a lord styled '[d]es Edlen Hochgelerten H[..]', of property including a [P/B]aumbgarten, for a sum in gulden, with warranty clauses; issuer, buyer, place and year lost",
+  "note": "About 30 lines of German chancery cursive were read on the image of the recto, each cut at both ends so that only 3 to 5 words survive. The sale is shown by 'Vnd verkhaufft' (twice) and 'alls Khauff[..]'; it was made with the consent ('[..]lligung') of a lord styled '[d]es Edlen Hochgelerten H[..]' and '[..]digen gebietunnden(?) herr[..]' (a reading helped by the formula; a reader without context could not resolve the word), to a man styled 'Fürnemen' whose name begins '[E/L/C]aſ[..]' at the cut, and concerns a '[P/B]aumbgarten' beside 'die gemain ga[..]', a price with 'ain gulden R..nisch(?)' and the clauses 'Rechtenmacht Vnd gwalt' and 'fürstannd [..]'. The closing lines name '[..]hen Durchleüchtigkhait' (probably the archducal style, 'Fürstlic-' supplied) and a year ending '...hündert, Vnnd Vi[..](?)'; the last word begins 'Vi' and is not read further (a reader without context did not take it for a numeral), so neither 'vierzehen' nor 'vierzig' is claimed and the year is not converted. No matching act was found among the regests of the Stams charters on monasterium.net for 1494-1668; a modern blue note on the back, 'Urbari W?ss?brunn 1593', probably names the host volume and is not evidence for the deed. The result stops at partial because only the genre and the action are established; no human review.",
   "verify": "https://fragmentarium.ms/overview/F-geoq",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12623,7 +12623,8 @@
      "locus": "Stams_STA_Frg_058_01r",
      "text_language": "German",
      "title": "Deed of sale (Kaufbrief)",
-     "description": "Middle strip of a deed of sale with warranty and Gewährschaft clauses, naming a [P/B]aumbgarten and a sum in gulden. Issuer, buyer, property, place and year are lost."
+     "description": "Middle strip of a deed of sale made with the consent of a lord styled 'des Edlen Hochgelerten H[..]', naming a [P/B]aumbgarten and a sum in gulden, with warranty clauses. Issuer, buyer, place and year are lost.",
+     "remarks": "The year ends '...hündert, Vnnd Vi[..](?)' and is not converted. A modern note 'Urbari W?ss?brunn 1593' on the back probably names the host volume."
     }
    ]
   }
@@ -12711,10 +12712,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Lengthwise strip from a German deed: a first-person issuer, for himself and his heirs, conveys a meadow ('mannmadt wisen') with bounds and appurtenances for a sum in Mark Berner acknowledged as paid; place possibly 'Stambs(?)'; dated in a 19th year ('[..]euntzechenden'), century not on the image; parties lost",
-  "note": "A strip 55 mm wide from the middle of a German parchment deed keeps 3-5 words of each of 32 lines, read on the image: 'mein erben das ich', 'wissentlich', bounds ('[..]d strass. Gegen mitt[ag]', 'den genanten Stra[ss]'), 'mannmadt wisen', 'vnuerband(?)', '[da]r zu gehort', '[m]arckh zal perner', 'vnnd bezalt sein', 'nach dato ditz brie[fs]', a names line '[..]l pondl(?) [..]tassar b[..]', '[..]effen am Stambs(?)' and the year word '[..]euntzechenden'. The word check confirmed '[..]euntzechenden' letter by letter (n and t before the z exclude '[vi]erzehenden'), 'marckh zal perner' and 'Stambs(?)' with its query; 'pondl(?)' stays uncertain and 'Bal-' of '[Bal]tassar' is supplied, not read. The year word gives a 19th year, but the century is not on the image; the hand suggests the sixteenth century, which is not evidence of the year. The clauses point to a sale of a meadow with a quittance for the price, but issuer, buyer, place and the price itself are lost at both cut edges, so the result stops at the genre. A note 'Malser Urbarium I/38' on the back, a later addition hidden by the catalogue mask, suggests the strip came from the binding of an urbar for Mals; this is a lead to the host volume, untested. No outside search was possible without names; no human review.",
+  "identification": "Lengthwise strip from a German deed, probably sealed: a first-person issuer, for himself and his heirs, conveys a meadow ('mannmadt wisen') with bounds and appurtenances for a sum in Mark Berner ('marckh zal perner') acknowledged as paid; names '[..]l P[o/u]ndl' and 'Caspar(?)' or '[..]tassar B[..]', place possibly 'Stambs(?)'; dated in a 19th year ('[..]euntzechenden'), century not on the image; parties lost",
+  "note": "A strip 55 mm wide from the middle of a German parchment deed keeps 3 to 5 words of each of 32 lines, read on the image: 'mein erben das ich', 'wissentlich', bounds ('[..]d strass. Gegen mitt[..]'), 'mannmadt wisen', '[..]r zu gehort', 'marckh zal perner', 'vnnd bezalt sein', 'nach dato ditz brie[..]', a probable sealing clause '[..]ief. Besigelt(?) m[..]' (a reader without context read 'Be[.]holt') and '[J]nsig[..](?)', a names line '[..]l P[o/u]ndl. Caspar(?) B[..]' (the second name can also be read '[..]tassar'; no 'Bal-' stands before it), '[..]essen am Stambs(?)' and the year word '[..]euntzechenden'. The clauses are those of a sale of a meadow with a quittance for the price ('[..]r den genanten [K/D]..(?)[..]' is possibly 'Kauffer', but the capital was also read as D), but issuer, buyer, place and the price itself are lost at both cut edges. The year word gives a 19th year; the century is not on the image, and the hand and the money of account (Mark Zahlberner) suit the early sixteenth century without proving it. No matching act was found among the regests of the Stams charters on monasterium.net, including the three dated 1519, and a search there for the surname gave nothing relevant. A modern note 'Malser Urbarium' on the back probably names the host volume, an urbar for Mals; untested. No human review.",
   "verify": "https://fragmentarium.ms/overview/F-rxnk",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -12726,8 +12727,8 @@
     {
      "text_language": "German",
      "title": "Conveyance of a meadow (?)",
-     "description": "A first-person issuer, for himself and his heirs, conveys a meadow ('mannmadt wisen') with its bounds and appurtenances for a sum in Mark Berner acknowledged as paid. Dated in a 19th year ('[..]euntzechenden'); the century is not given. Parties and price are lost.",
-     "remarks": "Place possibly 'Stambs(?)'. A note 'Malser Urbarium I/38' on the back suggests the strip came from the binding of an urbar of Mals."
+     "description": "A first-person issuer, for himself and his heirs, conveys a meadow ('mannmadt wisen') with its bounds and appurtenances for a sum in Mark Berner acknowledged as paid; the deed was probably sealed ('Besigelt(?)', '[J]nsig[..](?)'). Dated in a 19th year ('[..]euntzechenden'); the century is not given. Parties and price are lost.",
+     "remarks": "Names '[..]l P[o/u]ndl' and 'Caspar(?)' or '[..]tassar B[..]'; place possibly 'Stambs(?)'. A modern note 'Malser Urbarium' on the back probably names the host volume."
     }
    ]
   }
@@ -13315,26 +13316,28 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Binding waste of five paper pieces: cancelled fifteenth-century rent and delivery notes with a first-person memorandum dated Saturday before St Lucy (11 December) [14]62, and fragments of seventeenth-century German letters (a postscript about rents to 'Euer Gnaden', line-ends mentioning the Regierung, an address leaf to 'Walther V[..]'); issuers and receiving house not named",
-  "note": "On canvas 0, piece 169-3r carries a cancelled first-person memorandum about deliveries and a dispute (flax, lard, fish) ending '[sams]tag vor lucie do ... dz selbm anno lxij ... dec[em]br(is)(?)', and short cancelled receipt entries such as 'It(em) [W?]al[t?]h[..](?) vo(n) A[ltdorff](?) pracht an dornstag vor barbare XX metze fesen', with rye, barley and spelt in Metzen. The word check confirmed 'lxij' (the blind readers' 'xvij' is l+x misread) and 'samstag vor lucie', and marked the month word, the person's name ('-aur' is not on the crop) and the place (only the initial A/O is visible) as uncertain. Only 'lxij' is written, so the century is supplied from the fifteenth-century hand; a modern pencil '1462 dec.' agrees. Saturday before Lucy 1462 is 11 December (Julian), and Thursday before Barbara 2 December if the same year holds. The other pieces are seventeenth-century Kurrent letter fragments, and a modern pencil note says the pieces came from the binding of Stams Urbar IV/42 of 1625. No searches were made for these private notes and letters, and monasterium.net was not checked. No issuer, receiving house or complete regest is established for any piece, so it stays partial; no human review.",
-  "verify": "https://fragmentarium.ms/overview/F-5lit",
-  "examined": "2026-11-01",
+  "identification": "Binding waste of five paper pieces: a fifteenth-century leaf of cancelled notes of grain rents received in the Kaufbeuren area of Swabia, two of them from men who match the holders of Stams abbey's farms at Altdorf and probably Obergermaringen in the abbey's urbar of 1504, with a memorandum dated Saturday before St Lucy (11 December) [14]62; and fragments of seventeenth-century German letters (a postscript about rents to 'E. G.', line-ends naming a Regierung, an address leaf from a vicar); writer of the notes and parties of the letters not established",
+  "note": "On piece 169-3 (both faces, read on the image) two cancelled entries, 'It(em) wilhalm vo(n) altdorff pracht an dornstag vor barb(ar)e XX metze fesen' and 'Hans Am[.]sün(?) vo(n) ob(er)[germaringen](?) hat pracht an dornstag nach Martini iiij schoffel fesen ... It(em) d(er) iiij schoffel hab(er)', agree in surname, village, grain and measure, and in the 20 Metzen of spelt and the 4 Schöffel each of spelt and oats, with the Kaufbeuren holdings in the Stams urbar of 1504 (Stiftsarchiv Stams, Hs 67: 'Altdorff. Hanns Wilhalm XX metzen vesen, XX metzen haber'; 'OberGermaringen. Hans Ammersün IIII scheffl vesen, IIII schöffl haber') as printed by H. Lausser, Kompendium der Quellen zur Geschichte Kaufbeurens im Mittelalter 10/1 (2018), no. 155, p. 211; the place and surname of the second entry are abbreviated or unclear and are read with the urbar, which was seen in the printed transcription only; in the first entry '-ilhalm' is clear and the initial w is the less certain letter, and the entry has no forename (urbar: 'Hanns Wilhalm'), and the oats amount of the first entry is not read. The urbar shows whose rent-payers these two men were, not the deliveries themselves; the notes name neither Stams nor their writer, and the other entries ('Hans Graindin(?)', 'nagelin(?) vo(n) hirßzel') are not in the printed extract. A memorandum on the same leaf ends 'an samstag vor lucie ... anno [..] lxij', with the century supplied from the hand and from the sale of these holdings under Abbot Kaspar Märkle (1481-1484); a modern pencil '1462 dec.' agrees, and another modern pencil note gives the host as 'Urbar IV/42' of 1625. The seventeenth-century letter pieces ('Postscripta' to 'E. G.' about rents, 'Von Unserm Vicari[..] zu A[..]igß(?)', '[..] Lüzza(?) Vicarij(?)') have no established sender, addressee or date.",
+  "verify": "https://www.kaufbeuren.de/PortalData/17/Resources/archiv/Band_10_1_Pfarrer,_Buergermeister_und_Kuenstler.pdf",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Notes and letters",
+   "title": "Notes of grain rents received near Kaufbeuren; fragments of letters",
    "content": [
     {
-     "locus": "169-3r",
+     "locus": "169-3r, 169-3v",
      "text_language": "German",
-     "title": "Cancelled rent and delivery notes",
-     "description": "A first-person memorandum about deliveries of flax, lard and fish and a dispute, dated Saturday before St Lucy [14]62 (11 December), and cancelled receipt entries for rye, barley and spelt in Metzen.",
-     "remarks": "Issuer and receiving house not named."
+     "title": "Notes of grain rents received near Kaufbeuren, [14]62",
+     "description": "Cancelled entries of spelt, oats, rye and barley brought in by named men, among them 'wilhalm vo(n) altdorff' (XX metze fesen), 'Hans Am[.]sün (?)', probably of Obergermaringen (iiij schoffel fesen, iiij schoffel haber), and 'nagelin (?) vo(n) hirßzel', with a first-person memorandum dated Saturday before St Lucy [14]62 (11 December 1462).",
+     "remarks": "The first two men, with these grains and measures, match the holders of Stams abbey's farms near Kaufbeuren as listed in the Stams urbar of 1504 (Stiftsarchiv Stams, Hs 67), printed in H. Lausser, Kompendium der Quellen zur Geschichte Kaufbeurens im Mittelalter 10/1 (2018), no. 155; the other entries are not in the printed extract. Stams and the writer are not named on the leaf; the century of the date is supplied. Modern pencil notes: '1462 dec.' and 'aus Urbar IV/42 vom Jahre 1625'."
     },
     {
+     "locus": "169-1r, 169-2r, 169-4r, 169-5r",
      "text_language": "German",
      "title": "Fragments of letters",
-     "description": "A postscript about rents to 'Euer Gnaden', line-ends mentioning the Regierung, and an address leaf to 'Walther V[..]'."
+     "description": "A postscript to 'E. G.' about rents, line-ends of a letter naming a Regierung, an address leaf endorsed 'presentiert' with the sender's line 'Von Unserm Vicari[..] zu A[..]igß (?)', and a strip with '[..] Lüzza (?) Vicarij (?)'.",
+     "remarks": "Seventeenth-century hands; sender, addressee and date not established."
     }
    ]
   }
@@ -13352,26 +13355,28 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Two unrelated German paper pieces: (1) strip of a guardianship settlement for the child of a deceased '[..]ädling(?)', with interest from Candlemas [15]78 to Candlemas [15]79; (2) folded sheet listing provisions issued at kreuzer prices to named men 'and their workmates', with Latus totals, undated; issuers lost",
-  "note": "On canvas 0 the strip (172-1) was read on the image: '[..]ädling selige(?) Khind', the maternal estate ('Müetterlich Guet', 5 fl 22 kr), the paternal third ('Vätterlich ... In ligenden vnnd farennden sein dritten tail', 76 fl 52 kr) and a sale at '[Perg?]khofen', 'Summa 84 fl 3 lb 8 k', deductions for the guardian's costs leaving 'Bleibt Jr noch schuldig 80 fl 6 k', interest 'von Liechtmeß 78 biß auf Liechtmeß 79' of 3 fl 15 kr, and the child's third of a dispute cost, with the sums checking arithmetically. The word check confirmed both Liechtmeß years and both headings, and corrected the first reading's '[...]dlin seligs Khind' to '[..]ädling selige(?) Khind', so the deceased's name remains unresolved. The century of 78/79 is supplied from a modern pencil 'ao. 1579' on the strip's verso and the Kurrent script, not written; the same pencil may assign the strip to a different binding than the catalogue's IVa/F,5, which is unresolved. The sheet (172-2) is read securely as a priced list of salt, Brein, rice, oil, brandy, vinegar, honey, nails, lead, cabbage and wine issued to named men, but carries no issuer, occasion or date. No outside record was sought for these private accounts. The parties' names and the sheet's occasion are not established, so it stays partial; no human review.",
+  "identification": "Two unrelated German paper pieces: (1) strip of an account of the inheritance of the child of a deceased '[..]ädling' (heading '[..]ädling selige(?) Khind. Alß(?)/Elß(?) genannt'), with interest from Candlemas [15]78 to Candlemas [15]79; (2) folded sheet listing goods issued at kreuzer prices to named men 'vnd sein gespan', with Latus totals, undated; issuers lost",
+  "note": "On canvas 0 the strip (172-1) reads '[..]ädling selige(?) Khind. Alß(?) genannt' (the word after 'Khind.' is A or E, l, ß; a reading without context gave 'Alß', and the name 'Elß' is possible but not established), then the maternal estate ('Müetterlich Guet', 5 fl 22 kr), the paternal third ('Vätterlich. In ligenden vnnd farennden sein dritten tail', 76 fl 52 kr), a sale at '[P..]gkhofen(?)', deductions summed at 4 fl 38 kr, 'Bleibt Jr noch schuldig 80 fl 6 k' and interest 'von Liechtmeß 78 biß auf Liechtmeß 79'; the century is supplied from the hand and a modern pencil 'ao. 1579', and the deceased's full name, the guardian and the place are not read. The sheet (172-2) lists salt, Brein, rice, oil, brandy, vinegar, honey, lead, nails, cabbage, wine and horse items ('Roß gl') against named men, with steady unit prices for rice (12 kr), brandy (9 kr), Brein, salt and wine (3 kr a unit), but it carries no issuer, place, occasion or date. A modern pencil note on the strip's verso ('aus dem Einband L XIII(?) n. 1 (oder Hs 117)') may assign it to a different binding than the catalogue's IVa/F,5. No outside record was found to search for either piece.",
   "verify": "https://fragmentarium.ms/overview/F-hui3",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Guardianship account; list of provisions",
+   "title": "Inheritance account of a child; list of goods issued",
    "content": [
     {
      "locus": "172-1",
      "text_language": "German",
-     "title": "Guardianship settlement for the child of the late [..]ädling(?)",
-     "description": "Maternal and paternal estate of the child, with deductions for the guardian's costs, leaving 80 fl 6 kr owed, and interest from Candlemas [15]78 to Candlemas [15]79."
+     "title": "Account of the inheritance of the child of the late [..]ädling",
+     "description": "Maternal and paternal estate of the child, with deductions, a balance of 80 fl 6 kr owed, and interest from Candlemas [15]78 to Candlemas [15]79. Heading: '[..]ädling selige (?) Khind. Alß (?) genannt' (or 'Elß').",
+     "remarks": "Head cut off; the deceased's full name, the guardian and the place are not read. The century is supplied. Modern pencil notes: '(1579)'; on the back 'aus dem Einband L XIII (?) n. 1 (oder Hs 117) ... ao. 1579'."
     },
     {
      "locus": "172-2",
      "text_language": "German",
-     "title": "List of provisions",
-     "description": "Salt, Brein, rice, oil, brandy, vinegar, honey, nails, lead, cabbage and wine issued at kreuzer prices to named men 'and their workmates', with Latus totals. Undated."
+     "title": "List of goods issued",
+     "description": "Salt, Brein, rice, oil, brandy, vinegar, honey, lead, nails, cabbage, wine and horse items issued at kreuzer prices to named men 'vnd sein gespan', with Latus totals.",
+     "remarks": "Undated; issuer, place and occasion not written."
     }
    ]
   }
@@ -13501,10 +13506,10 @@
   "catalogue_date": "1500 – 1599 CE",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Two unrelated paper pieces from the 1625 urbar binding: (173_1) end of a German act sealed with the secret seal of the abbey of Stams, given at Stams on 29 May 1560(?) (decade word damaged), action and beneficiary lost; (173_2) part of a Latin petitionary letter to a 'Venerande in Christo Pater' (probably the abbot) on behalf of two fathers named Iohannes and their sons Michael Bu[c]her and one Gla[...], sender and date lost",
-  "note": "On piece 1 the corroboration and dating clause were read on the image: '... nach des Lanndtsrecht . Vngeuarlich . Diß zu warem vrkhundt haben wir vnser Abbtey Secreth Innsigl hiefurgedruckht . Geben in ob[ge]melten vnserm Gotshaus Stambs . am Neün vnnd zwainzigisten tag . Monats Maij . Anno ⁊c Im funfft- [...] vnd Sech[t]zigisten(?)'. Two fresh readers and an adjudicator confirmed Stambs, 'Neün' (ruling out 'Ain', 21 May), 'Maij' and 'Im funfft-'; the decade word is damaged, only '...h(t)z i...' is legible, so 'Sech-' is not secure and 'Acht-' is not excluded, and 'fünfzehenhundert' rests on 'funfft-' plus an illegible word. The year 1560 (29 May, a Wednesday in the Julian calendar if so) is therefore a probable reading that agrees with, but does not rest on, the modern pencil note '29. Mai 1560' on the piece. On piece 2 the Latin reads 'Venerunt ad me Iohannes b[u]cher(?) et Iohannes [...] obnixe rogat[...] habuerunt : filios suos michaele(m) bu[c]her et [...] gla[...]', with the purpose lost at the cut; the modern pencil list of names in the margin was not used for the reading. monasterium.net (Stams fonds) has 1560 charters for 19 Feb, 10 Dec and 30 Dec but nothing for 29 May, and Bucher charters only for 1589 and 1595; the abbot's name in 1560 was not established. Partial because the action and parties of piece 1 and the sender and purpose of piece 2 are lost; no human review.",
+  "identification": "Two unrelated paper pieces from the 1625 urbar binding: (173_1) end of a German act sealed with the secret seal of the abbey of Stams, given at Stams on 29 May 1560(?) (decade word damaged), action and beneficiary lost; (173_2) part of a Latin petitionary letter to a 'Venerande in Christo Pater et domine' (probably the abbot) on behalf of two men named Iohannes and their sons Michael Bu[c]her (possibly the Stams monk Michael Puecher) and Jeorius(?) Gla[...](?); sender, date and object lost",
+  "note": "Piece 1 keeps only the corroboration and dating clause: '... haben wir vnser Abbtey Secreth Innsigl hiefurgedruckht . Geben in ob[ge]melten vnserm Gotshaus Stambs . am Neün vnnd zwainzigisten tag . Monats Maij . Anno ⁊c Im funfft- [zehenhundert, supplied; the word is stained and not read] vnd Se[..]h(?)zigisten(?)'; the abbot is not named (Georg II Berghofer, 1554-1567, if the year is 1560; Johannes III Kölbl if 1580). On piece 2 the writer states his request, 'Quod autem posco hoc est : Venerunt ad me Iohannes b[u]ch[er](?) Et Iohannes [...] obnixe rogatum habuerunt : filios suos michaelem bu[c]her et Jeorium(?) gla[..](?)' (a reading without context gave 'posse' for 'posco'), and the object is cut away; the forename Jeorium(?) agrees with a modern pencil list on the strip, while a reader without the list did not arrive at it or at the first father's surname. Lindner's Album Stamsense lists a monk Michael Puecher (no. 300) directly before Pelagius Baur, abbot 1525-1540, and not among the brethren of 1499 as far as snippet search shows, so the Michael Bu[c]her of the letter is possibly that monk and the letter possibly a recommendation for reception at Stams in the early sixteenth century; no Georg Gla[...] was found there. The Stams charters on monasterium.net have nothing for 29 May 1560 or 1580 and no record of the letter.",
   "verify": "https://fragmentarium.ms/overview/F-rnqk",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -13517,14 +13522,16 @@
      "locus": "173_1",
      "text_language": "German",
      "title": "End of an act of Stams Abbey",
-     "description": "Corroboration and dating clause: sealed with the secret seal of the abbey and given at Stams on 29 May 1560 (?). Action and beneficiary are lost."
+     "description": "Corroboration and dating clause: sealed with the secret seal of the abbey and given at Stams on 29 May 1560 (?). Action and beneficiary are lost.",
+     "remarks": "The abbot is not named on the piece; in 1560 it was Georg II Berghofer (1554-1567)."
     },
     {
      "locus": "173_2",
      "text_language": "Latin",
-     "title": "Petitionary letter to a 'Venerande in Christo Pater' (probably the abbot)",
+     "title": "Petitionary letter to a 'Venerande in Christo Pater et domine' (probably the abbot)",
      "persons": "Michael Bu[c]her",
-     "description": "On behalf of two fathers named Iohannes and their sons, Michael Bu[c]her and one Gla[...]. Sender, purpose and date are lost."
+     "description": "The writer asks on behalf of two men named Iohannes for their sons, Michael Bu[c]her and Jeorius (?) Gla[...] (?). Sender, object and date are lost.",
+     "remarks": "Michael Bu[c]her is possibly the Stams monk Michael Puecher, listed just before Pelagius Baur (abbot 1525-1540); the letter is then possibly a recommendation for reception at Stams in the early sixteenth century."
     }
    ]
   }
@@ -13594,10 +13601,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "German paper register of hospitality kept day by day, Stams area (Upper Inn valley, Tyrol), late sixteenth or early seventeenth century: meals ('mal') and wine given to named visitors, including the parish priests of Telfs and Silz(?), the Pfleger and Richter of Petersberg, tenants (Zinsleute) and messengers; keeper and year not established",
-  "note": "Item 1 was read on the image on both faces (1r main block, days [19?] to 5 and line-beginnings of a cut column with days 19-22; 1v, days 23-28), with each entry opening 'An dem tag' and the day of the month in the margin, e.g. 'pfarrer von Telffs · 2 · mal geben', 'pfleger vnd Richter von Petersperg ... yedlichem · 2 · mal geben', '· 3 · Zinßleut ain mal geben' and 'hab ime 4 maß wein geben'. The word check confirmed the place names Telffs, P[e/i]tersperg and Rattnberg (Rattenberg, on the strip 2v: 'von Zirl vnd von Rattenberg'); the name after the second 'pfarrer von' carries two dots on its vowel, so it is literally 'Sülz/Sylz' and 'Silz(?)' (where Petersberg lies) keeps its query mark. The recurring 'yedlichem' (to each) and the first-person 'hab ime ... geben' make this a running record of meals actually given rather than a list of dues, though 'yedlichem' is not fully certain. Item 2 is a narrow strip in the same hand whose line-ends closely parallel item 1, perhaps another copy or another month; item 3 has only a few initial letters; the cut columns, 2r and 3r rest on the first reading only. No year or month survives in the text. A modern pencil label on 1v, read on the native image as 'IV/42 vom J. 1625' (the word-check crop had clipped the last digit), records removal from Stams volume IV/42 of 1625; it dates the host volume, not the register. The keeper (abbey office or a private household, possibly a parish priest given 'meinem pfarrer') is not established; no outside record was sought, since a household register of this kind has no reason to be printed, and the Stams finding aid for volume IV/42 was not checked.",
+  "identification": "German paper register of hospitality kept day by day in the first person, Upper Inn valley (Tyrol), late sixteenth or early seventeenth century: meals ('mal'), wine and the evening drink ('schlafftrunckh') given to named visitors, including the parish priests of Telfs, Silz(?) and 'M.', the Pfleger and Richter of Petersberg, rent-payers (Zinsleute), merchants and a Michl Saltzgeber; keeper and year not established",
+  "note": "Each entry opens 'An dem tag' with the day of the month in the margin, e.g. 'pfarrer von Telffs · 2 · mal geben', 'Item schlafftrunckh · 8 · maß wein', 'pfleger vnd Richter von petersperg ... yedlichem · 2 · mal geben', 'pfarrer von Sÿltz vnd pfarrer von · M · yedlichem · 2 · mal geben' and 'hat der schmid michl saltzgeber yedlicher(?) mal gehabt'. Item 1 is most of a bifolium whose pages run from day 19 of one month (stub, days 19-22) through days 23-28 to days 29(?), 30 and 2(?) to 5 of the next; item 2 is a strip in the same hand, either the rest of the stub leaf or part of another leaf (its other face has the day numbers 4 and 5), and item 3 has only a few letters. A man of the same name, Michl Salzgeber, gave a revers for the Stamserhof at Fließ on 3 Feb 1533 (monasterium.net, Stams, L_LX_10); this shows the name among the abbey's tenants and neither identifies the guest nor dates the register; the other guests' names were not found in the Stams regests for 1494-1600. No year or month survives; a modern pencil note 'aus Urbar IV/42 vom J. 1625' dates only the host volume, and the keeper (an abbey office or a household) is not established.",
   "verify": "https://fragmentarium.ms/overview/F-ear3",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -13607,8 +13614,8 @@
      "locus": "item 1",
      "text_language": "German",
      "title": "Register of hospitality",
-     "description": "Day-by-day record of meals ('mal') and wine given to named visitors, among them the parish priests of Telfs and Silz (?), the Pfleger and Richter of Petersberg, tenants (Zinsleute) and messengers. Keeper and year not established.",
-     "remarks": "Item 2 is a strip in the same hand with closely parallel entries; item 3 has only a few initial letters."
+     "description": "Day-by-day record, in the first person, of meals ('mal'), wine and the evening drink ('schlafftrunckh') given to named visitors, among them the parish priests of Telfs, Silz (?) and 'M.', the Pfleger and Richter of Petersberg, rent-payers (Zinsleute) and merchants. The leaf runs from day 19 of one month to day 5 of the next. Keeper and year not established.",
+     "remarks": "Item 2 is a strip in the same hand, either the rest of the conjugate leaf or part of another leaf; item 3 has only a few initial letters. A guest is named Michl Saltzgeber; a tenant of Stams at Fließ of that name is recorded in 1533, which does not date the register."
     }
    ]
   }
@@ -13672,23 +13679,24 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Left-edge strip of a German private deed on parchment, Tyrol, second half of the sixteenth century, issued in the first person with a cadel initial: a conveyance with a buyer ('Khauffer'), a meadow 'genant ...', a lord's consent, a 'Verleichbrief' and a sealing request; issuer, parties, object, place and date lost",
-  "note": "Only the first one to three words of about 37 lines survive, read on the image on canvas 0: '[M]ichael(?), dab[..] or Sab[..]', 'willigung des', 'Hannsen Mai[r?]', 'wisen genant', 'Khauffman[...]', 'Khauffer, sel[...]', 'en den Khau[ffer?]', '[C?]ammerlannd(?)', 'Verleichbrief[e?]', 'Vnd Fünffzeh[en]', 'meiner Erbe[n]', 'Vleissig pitt[...]' and 'Haller gebr[...]'. The word check confirmed 'Verleichbrief', 'Cammerlannd' (line 18) and 'Haller gebr/gebn[..]' (last line, read on the native image), but left the first letters of line 2 uncertain: the name's initial is hidden by the stem of the cadel, and the next word may begin with d or S. These openings show a sale with a lord's consent and reference to a tenancy grant, so the type is a private conveyance, but nothing of the issuer, beneficiary, property, place or date survives. A modern blue-ink note on the back, 'Urbar / Wass[er]t[u]m(?) 1592', presumably names the urbar the strip bound; it would give a terminus ante quem of 1592 only if right, and its second word is uncertain. No search was possible with no name, place or date to match, and the Stams charter regests on monasterium.net were not checked. The result is partial at low confidence because only the document type is established.",
+  "identification": "Left-edge strip of a German private deed of sale on parchment, Tyrolean Inn valley, later sixteenth century by the hand, issued in the first person ('Jch ...') with a cadel initial: a sale of probably several parcels, possibly described by their neighbours, with a consent clause followed by the name 'Hannsen Mai[..]', a meadow 'genant ...', a 'Cammerlannd' (a class of holding), a 'Verleichbrief' and a sealing request; issuer, buyer, place and date lost",
+  "note": "Only the first one to three words of 37 lines survive, read on the image on canvas 0: the display line 'Jch', then among others 'willigung des', 'Hannsen Mai[..]', 'nacht(?), an Lie[..]', 'en Veldweeg(?)', 'wisen genant', '[..]ectag(?) an Val[..](?)', 'Vnnd Mi[t/l]..(?)', 'en, Mer ain', 'Khauffer, sel[..]', 'Cammerlannd', 'Verleichbrief', 'Vnd Fünffzeh[..]', 'meiner Erbe[..]', '[M/H/St]ai[r/n], Vnnd a[..]', 'Vleissig Pit[..]' and 'Haller g[..]l[..]'. The 'an ...' openings are possibly boundary descriptions naming neighbours (the words read as 'nacht' and 'Mitag' were not confirmed by a reader without context) and 'Mer ain' opens a further item, so probably several parcels are sold; 'Cammerlannd' is a class of peasant holding in the Tyrolean Inn valley (the 1627 cadastre of Gericht St. Petersberg, cited in the Telfer Buch of 1955, and Stams and Wilten charter regests of 1550 and 1573 on monasterium.net use it so), not a place name. A modern ballpoint note on the back reads 'Urbar / Wessobrunn (?) 1592', presumably the volume the strip bound; the back of Stams Frg. 54 has a like modern note, 'Urbari Wessobrunn 1594'. Issuer, buyer, place and date are lost and no outside record of the act was found, so only the type and the legal setting are established.",
   "verify": "https://fragmentarium.ms/overview/F-pnzn",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Private deed of conveyance",
+   "title": "Private deed of sale",
    "tags": [
     "Topic: legal"
    ],
    "content": [
     {
      "text_language": "German",
-     "title": "Private deed of conveyance",
-     "description": "Issued in the first person: a sale with a buyer ('Khauffer'), a meadow 'genant ...', a lord's consent, a 'Verleichbrief' and a sealing request. Issuer, parties, property, place and date are lost.",
-     "remarks": "Only the opening words of about 37 lines survive. Modern note on the back: 'Urbar / Wass[er]t[u]m(?) 1592'."
+     "title": "Private deed of sale",
+     "persons": "Hannsen Mai[..]",
+     "description": "Issued in the first person ('Jch ...'): a sale of probably several parcels, possibly described by their neighbours, with a consent clause followed by the name 'Hannsen Mai[..]', a meadow 'genant ...', a 'Cammerlannd' (a class of holding in the Tyrolean Inn valley), a 'Verleichbrief' and a sealing request. Issuer, buyer, place and date are lost.",
+     "remarks": "Only the opening words of 37 lines survive. Modern note on the back: 'Urbar / Wessobrunn (?) 1592'."
     }
    ]
   }
@@ -13706,10 +13714,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Binder's-waste strips (pieces 1-12) from German pleadings and procedural writings in a Tyrolean civil suit heard before a commission, including the heading of a Triplica, with a date read as 30 June 1635; parties, subject and issuing body not established. Pieces 13-21 are a separate struck-through draft concerning a death, a three-year-old child and a guardianship",
-  "note": "On strips 1-12 (one 17th-century Kurrent chancery hand) the heading '[T]riplica vnnd Di[...] / N. Anwalthaber der [...] / Contra' was read on 2r, with references to a Duplica, 'Triplicando', an Augenschein and a Rechtstagsatzung on 'Zwainzigisten Augu[sti]' later extended, the 'oberesten Regierung', and commissioners speaking with four assessors and adjoined Beisitzer on 12r ('[.]berhamer, auf Lo(t/ſ)h[..]', 'Stainer(?) zu St[a]nng[..](?)'). Strip 10r gives '...es Lorenzen, dem lesten Juni[j] / [Sech]zehenhundert Funffunddreissig', that is 30 June 1635; the word check corrected the year from 1631 and replaced the earlier 'dem Closter zu[...]' with 'dem lesten Juni[j]', so no monastery is named. The year was read on the text; the red-crayon '(16)35' beside it is a modern note that agrees. Whether 1635 dates the writ or is a date cited in it is not known. Strip 3r cites a past year 'Funffzehenhundert ...' passed 'mit Stillschweigen' (the red-crayon '1580?' is a modern guess), and 4r-5r name 'Wüsstaller(?)' and 'des Voggerischen (or Roggerischen) vertrags'. Searches of Google Books and the Internet Archive for these names found nothing; the Stams litigation files, monasterium.net and the Tiroler Landesarchiv commission files were not checked. Partial because the parties and the object of the suit are not established.",
+  "identification": "Binder's-waste strips (pieces 1-12) from German pleadings and procedural writings in a Tyrolean civil suit heard before commissioners, including the heading of a Triplica, with a date read as 30 June 1635; possibly from the lower Pustertal around St. Lorenzen near Bruneck, since the adjoined Beisitzer read 'Hannse[n](?) [a/o]berhamer, auf Lo[t/c]he[n](?)' and '[St]ainer(?) zu [St][..]gen(?)'; parties, subject and issuing body not established. Pieces 13-21 are a separate struck-through draft concerning a death, a three-year-old child and a guardianship",
+  "note": "On strips 1-12 (one 17th-century Kurrent chancery hand) 2r has the heading '[T]riplica vnnd Di[...] / N. Anwalthaber der / Vier[...](?) / Contra', and 10r reads '[..] Lorennzen, dem lessten Juny / [Sech]zehenhundert Funffunddreissig' (the two letters cut before the name are not read), that is 30 June 1635, read on the text and not from the modern red-crayon '(16)35'; whether it dates the writ or is cited in it is not known. On 12r the commissioners speak with four assessors and the adjoined Beisitzer 'Hannse[n](?) / [a/o]berhamer, auf Lo[t/c]he[n](?) / [St]ainer(?) zu [St][..]gen(?)'; the place after 'auf' has a crossed letter and one tall h before the cut (Lothe[n], less likely Lochen), and the capital of the last two words was read as K by a reader without context, so 'Stainer' and 'Stegen' are admissible readings and not secure ones. Search snippets (pages not seen) of the 1893 Special-Orts-Repertorium von Tirol and the Deutsches Geschlechterbuch show an Oberhammerhof at Lothen (1893) and a Stainer family at Stegen with the dates 1628 and 1633, both hamlets beside St. Lorenzen near Bruneck, so the suit possibly belongs to the lower Pustertal and not to the Stams area. Strip 4r names the opponents '[...]ger' and 'den Wüsstaller(?)' and 5r a 'Roggerischen (or Voggerischen) vertrag'; no archival record of the suit was found (the Michelsburg court books in the Südtiroler Landesarchiv were not checked, monasterium.net could not be reached), so parties and object stay open.",
   "verify": "https://fragmentarium.ms/overview/F-xj55",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -13721,9 +13729,9 @@
     {
      "locus": "pieces 1-12",
      "text_language": "German",
-     "title": "Pleadings in a Tyrolean civil suit before a commission",
-     "description": "Procedural writings, including the heading of a Triplica ('[T]riplica vnnd Di[...] / N. Anwalthaber der [...] / Contra'), with references to a Duplica, an Augenschein, a Rechtstagsatzung and the 'oberesten Regierung'. A date reads 'dem lesten Juni[j] [Sech]zehenhundert Funffunddreissig' (30 June 1635).",
-     "remarks": "Parties, subject and issuing body not established. Whether 1635 dates the writ or is a date cited in it is not known."
+     "title": "Pleadings in a Tyrolean civil suit before commissioners",
+     "description": "Procedural writings, including the heading of a Triplica ('[T]riplica vnnd Di[...] / N. Anwalthaber der / Vier[...](?) / Contra'), with references to a Duplica, an Augenschein, a Rechtstagsatzung and the 'oberesten Regierung'. A date reads '[..] Lorennzen, dem lessten Juny [Sech]zehenhundert Funffunddreissig' (30 June 1635). Adjoined Beisitzer: 'Hannse[n](?) [a/o]berhamer, auf Lo[t/c]he[n](?)', '[St]ainer(?) zu [St][..]gen(?)'.",
+     "remarks": "Possibly from the lower Pustertal around St. Lorenzen near Bruneck (an Oberhammerhof at Lothen and a Stainer family at Stegen are attested there, which fits only if the readings 'oberhamer', 'Lothen' and 'Stegen' are right). Parties, subject and issuing body not established. Whether 1635 dates the writ or is a date cited in it is not known."
     },
     {
      "locus": "pieces 13-21",
@@ -13785,11 +13793,11 @@
   "catalogue_title": "x",
   "catalogue_date": "not given",
   "status": "partial",
-  "confidence": "low",
-  "identification": "Opening of an unfinished, unsent German letter from an unnamed son to his parents ('Lieber vatter vnd lieber Muter'), with a pen-trial alphabet above; possibly a pupil's exercise letter; writer, addressees, place and date not given",
-  "note": "Seven lines were read on the image of 01r: 'Mein freuntlichen gruez(?) zuuor Lieber vatter vnd lieber Muter Ich las Euch zwissen Dass Ich frisch vnd gesundt von den gnaden gottes', he would be glad to hear they are healthy too, he asks his father to speak 'mit den herren' about something, and it breaks off at 'vnnd Ich Bitt dich du wellest'. Above stand a large flourished M and a pen-trial alphabet; the verso is blank apart from binding marks, with no address or seal, so the letter was never sent. The word check left the key word after 'vnd von' unread: 'Innsprugen' is disfavoured because the letter after long s is t-like, and 'zu St[er]zin[g]' is only a letter-shape conjecture. The word after 'Ich las dem' is 'Luttern(?)' or 'L/R-ittern' and is not to be taken as Luther. The only dating evidence is a modern pencil note, 'aus dem Einband / von II/G.33 (aus(?) J. 1535)', which gives the host book and its year, not a date on the letter, plus an early-modern German cursive. No outside search was made, since an unsigned private draft gives no name to search by. Partial because the parties, place and date cannot be established.",
+  "confidence": "medium",
+  "identification": "Opening of an unfinished, unsent German letter from an unnamed son to his parents ('Lieber vatter vnd lieber Muter'), with a pen-trial alphabet above; probably a pupil's exercise on a letter formula also drafted on Stams Frg. 39; writer, addressees, place and date not given",
+  "note": "The recto has a pen-trial alphabet and seven lines of a German letter read on the image: 'Mein freuntlichen gruez(?) zuuor Lieber vatter vnd lieber Muter Ich las Euch zwissen Dass Ich frisch vnd gesundt von den gnaden gottes', a wish to hear the same of them, a request to the father to speak 'mit den herren', breaking off at 'vnnd Ich Bitt dich du wellest'; writer, parents, place and date are not given and the verso has no address or seal. It is probably a pupil's exercise on a drilled formula: Frg. 39 (F-t8sd), piece 7v, has under an alphabet a draft with the same clause sequence ('lieber herr ich las euch wissen das ich fast frisch vnd gesunt pin von den genaden gottes der gleichen ... hört ich alzeit gern von euch sagen vnd ich pit Euch das ir'; the words to 'dergleichen' confirmed by a reading without context, the rest read on the image), and a modern pencil note on Frg. 38 (F-tema, Latin school sentences) names the same reported host volume as the note on this leaf ('aus dem Einband / von II/G.33 (aus(?) J. 1535)'); the same writer is not shown. In line 4 the word after 'Ich las(?) d[..]' is undecided: 'Bitten(?)' (its initial resembles the B of 'Bitt' in line 6) or 'Eltern(?)' (a reading without context); a personal name is not established there, and the word after 'vnd von' remains unread. No printed model letter was found by exact-phrase searches in the Munich digital library, Google Books and the Internet Archive (no formulary was opened), and the health formula also recurs in real family letters.",
   "verify": "https://fragmentarium.ms/overview/F-hy4i",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -13800,7 +13808,7 @@
      "text_language": "German",
      "title": "Opening of a letter from a son to his parents",
      "description": "Inc.: Mein freuntlichen gruez (?) zuuor Lieber vatter vnd lieber Muter Ich las Euch zwissen Dass Ich frisch vnd gesundt von den gnaden gottes ... Breaks off at 'vnnd Ich Bitt dich du wellest'. Above, a pen-trial alphabet.",
-     "remarks": "Unfinished and never sent; possibly a pupil's exercise letter. Writer, addressees, place and date are not given."
+     "remarks": "Unfinished and never sent; probably a pupil's exercise letter: Stams, Stiftsarchiv, Frg. 39 (piece 7v) has a draft with the same sequence of formulas under an alphabet. Writer, addressees, place and date are not given."
     }
    ]
   }
@@ -13818,10 +13826,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Scraps of German account sheets, seventeenth century, probably of a Tyrolean estate or monastic administration (Stams not established): a weekly wage list for digging out a ditch dated 19 September 16[3?]9 (1609 possible), payments for woodcutters' wages and firewood, a materials calculation and a 'Summa diser Außgaben fl. 14'; item 3 is an unrelated strip with one cut line of Latin book hand",
-  "note": "Items 1 and 2 were read on the image: on 180-2v the heading '[...] ad[i] 19 Septembris / [...] außgrab[...] Graben' and weekly wages per worker ('Wochenlohn fl. 2 · 4', '[...]rg Prunner fl. 1 · 6', '[Ab]rahamb fl. 1 · 6', '[...] Schamblechner(?)'); on 2r payments to Andre Wachter, Andre Payr and others with '[...] holtzerlohn' and '[...] holz zum Brennen'; on 1r a calculation of quantities times unit price with braced subtotals; on 1v payments 'Dem Paul [...] Kolman', 'Dem [...] Holzmayster' and 'Summa diser Außgaben fl. 14 [.] 4'. The word check confirmed 'ad[i] 19' but not the year: the third digit is an open lower bowl with an inward curl, read as 3 (5 possible) and not as a closed 0, so the year is given as 16[3?]9. 1609 remains only as an alternative supported by the weekday (19 September 1609 was a Saturday, a usual pay day; 1639 a Monday, 1659 a Friday), which cannot override the letter form. No issuer, office or account title survives, so the attribution to Stams rests on the fragment's place of keeping alone. Item 3 carries one cut line of a gothic book hand on each face, known only from the first reading ('[...]ntatis an[...]'; '[.]i q(ue) d[...] ca[...]'), too little to search. No outside record was sought, since working accounts of this kind are rarely recorded singly.",
+  "identification": "Scraps of German account sheets, seventeenth century, issuer and place not established: a weekly wage list for digging out a ditch dated 19 September 16[.]9 (third figure 3, 5 or 0), payments for woodcutters' wages and firewood, a goods calculation and a 'Summa diser Außgaben fl. 14'; item 3 is an unrelated strip with one cut line of Latin cursive book hand on each face, one of them possibly the end of Mark 6:17",
+  "note": "Items 1 and 2 were read on the image: on 180-2v '[..] A(nn)o 16[.]9 adj 19 Septemb(ris) / [..] außgrabt(?) [..] Graben' with weekly wages per man ('wochenlohn fl 2 . 4', '[..]rg Prunner fl 1 . 6', '[Ab]rahamb fl 1 . 6', '[..] Schamblechner fl 1 . 2'); on 2r payments to Andre Wachter, Andre Payr and others with '[..] holtz[e]rlohn' and '[..] holz zum Bre[nn]en'; on 1r a calculation of goods by number and unit price; on 1v 'Dem Paul [..] Kolman', 'Dem [..] Holzmayster' and 'Sum(m)a diser Außgaben fl 14 [..] 4'. The third digit of the year is an open lower bowl under a thin arc with a bar above it; a reader without context could not decide between 3 and 5, the sheet has no other 3, 5 or 0 to compare, and 0 is not excluded, so the year is 1639, 1659 or 1609, and no issuer, office or place is named. Item 3 has on one face '[.] q(ue/uia) dux(er)at ea(m)', possibly the end of Mark 6:17 ('fratris sui, quia duxerat eam') if the q-sign stands for quia; a reader without context read 'q(ue) dix(er)at', and the clause is in any case too widely quoted to name the text; the other face is cut through the letters ('[..]m[.]tatis(?) a[u/n][f/ſ/p/q][.]g[..](?)') and is not securely read. A modern pencil note on item 3, read as 'aus [Urbar](?) IV/42 v. J.(?) 1625', gives the volume it was taken from; the same note stands on Stams Frg. 169.",
   "verify": "https://fragmentarium.ms/overview/F-2zug",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -13831,13 +13839,15 @@
      "locus": "180-1; 180-2",
      "text_language": "German",
      "title": "Account sheets",
-     "description": "A weekly wage list for digging out a ditch, dated 19 September 16[3?]9, payments for woodcutters' wages and firewood, a calculation of materials and a total 'Summa diser Außgaben fl. 14'."
+     "description": "A weekly wage list for digging out a ditch, dated 19 September 16[.]9, payments for woodcutters' wages and firewood, a calculation of goods and a total 'Summa diser Außgaben fl. 14'.",
+     "remarks": "Issuer and place are not named. The third digit of the year is uncertain (3, 5 or 0)."
     },
     {
      "locus": "180-3",
      "text_language": "Latin",
      "title": "Unidentified text",
-     "description": "One cut line of book hand on each face."
+     "description": "One cut line of cursive book hand on each face; one reads '[.] q(ue/uia) dux(er)at ea(m)', possibly the end of Mark 6:17.",
+     "remarks": "Modern pencil note: 'aus [Urbar] (?) IV/42 v. J. (?) 1625'."
     }
    ]
   }
@@ -14073,20 +14083,21 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Three paper scraps: (1) fragment of a German letter by a man serving in a 'Quarde' (Guard), complaining that a promised place was not given and that he waited seven months, with news of the armada (probably army) of a queen 'auss Hungerlan[d](?)' (alt. Engenlan[d]) against 'vnser(s) Khinigl. Armade'; writer, addressee and date lost; (2) Latin scholastic notes on God's omnipresence, 'Conclusio 3.'; (3) a scrap quoting Daniel 12:2",
-  "note": "On 182_1 the letter was read on the image: the writer reports 'wie es mir biss hero ergangen', that 'der Veldwaibl' and 'den H: Quarde Verwalter' promised him 'einen Plaz', 'aber nit gehalten worden, das ich also [s]ell 7 Monnat wardten müessen', and on the verso mentions debts, service 'in diser Quarde', and news 'Alhie das die Khinigin auss Hungerlan[d](?) Armada ... gegen vnser(s) Khinigl. Armade den 15'. The word check read the country word as 'Hungerlan[d]' (the capital is this hand's H, with four minims before the g), leaving 'Engenlan[d]' only as an alternative; since 'Armada' in 17th-century German usually means an army, no naval event and no date can be inferred, and the month of 'den 15' is lost. On 182_2 the notes read 'Deus ... praesens rebus, quia eas ipse producit ... Deus nec circumscriptive ... loco sed repletive secundum substantiam et operationem' (the doctrine of Aquinas, ST I q. 8), with a marginal addition on 'operationem esse rationem [es]sendi in loco, per virtualem contactum'; the verso has only 'Conclusio 3.'. 182_3 has '...iudice, evigila(bun)t(?) alii in vitam aeternam, alii in opprobrium' (Dan 12:2). A modern pencil note 'aus Einbd. IX/66 v. J. 1641/4[5/6]' gives the host and its date only. Google Books and MDZ searches for the Latin phrases found only the common formula in thesis prints and a doctrinal parallel (Gabriel a S. Vincentio, 1664), and CoMMA gave no lead; the letter has no named party to search by. Partial, chiefly on genre.",
+  "identification": "Three paper scraps: (1) fragment of a German letter by a man who served 'bey der Herrn Fughere(?)' (possibly the Fugger) and sought a place in a 'Quarde' ('Kh:(?) Mt:(?) Quarde'), probably the German guard of the king of Spain, with news of the armada of 'die Khinigin auss Enngenlann[d](?)' on 'dem Porttogesischen(?) mehr' against 'vnnsers Khinigl. Armade', probably 1585-1603; writer, addressee and date lost; (2) Latin scholastic notes on God's omnipresence, 'Conclusio 3.'; (3) a scrap quoting Daniel 12:2",
+  "note": "On 182_1 the letter reads, on the image, that the writer served 'bey der Herrn Fughere(?)' (the letters are f, u, g, h, e, r, e; possibly the Fugger, not confirmed by a reading without context), was promised 'einen Plaz' by 'der Veldwaibl' and 'den Kh:(?) Quarde Verwalter', 'Aber nit gehalten worden, das ich also ... 7 Monnat wardten müessen', and wishes to serve in 'Kh: Mt:(?) Quarde'; his news is 'Alhie das die Khinigin auss Enngenlann[d](?) ... Armada auf dem Porttogesischen(?) mehr ... gegen vnnsers Khinigl. Armade den 15'. The country word begins with the same capital as 'Empfanngen' on the recto, and 'Porttogesischen(?) mehr' (Portuguese sea) makes the armada a fleet (a reading without context gave 'Enngerlam(?)' and '-ogerisch(e)n mehr', agreeing on the initial E and on the body of both words but not on every letter), so the writer was probably in the German guard of the king of Spain during the war with Elizabeth I, 1585-1603; the month of 'den 15', the year, the writer and the addressee are lost, and no outside record of the letter was found. On 182_2 the Latin notes read 'Deus ... praesens rebus, quia eas ipse producit ... nec circumscriptive ... loco sed repletive secundum substantiam et operationem' (the doctrine of Aquinas, ST I q. 8), with 'Conclusio 3.' on the back, and 182_3 has '... iudice, evigilabunt alii in vitam aeternam, alii in opprobrium' (Dan 12:2); neither was found in print by phrase searches in Google Books, MDZ and the Internet Archive. A modern pencil note 'aus Einbd.(?) IX/66 v. J. 1641/45(?)' names the host binding and its date only.",
   "verify": "https://fragmentarium.ms/overview/F-zdro",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Letter fragment and scholastic notes",
+   "title": "Letter fragment of a guardsman, and scholastic notes",
    "content": [
     {
      "locus": "182_1",
      "text_language": "German",
-     "title": "Letter of a man serving in a guard",
-     "description": "The writer complains that a promised place was not given and that he waited seven months, mentions debts and his service 'in diser Quarde', and reports news of the army ('Armada') of a queen 'auss Hungerlan[d]' (?) against 'vnser(s) Khinigl. Armade'. Writer, addressee and date lost."
+     "title": "Letter of a man seeking a place in a royal guard, probably the Spanish king's German guard",
+     "description": "The writer has served 'bey der Herrn Fughere' (?), complains that a place promised by the 'Veldwaibl' and the 'Quarde Verwalter' was not given and that he waited seven months, mentions debts, and wishes to serve in 'Kh:(?) Mt:(?) Quarde'. News: the armada of 'die Khinigin auss Enngenlann[d]' (?) on 'dem Porttogesischen (?) mehr' against 'vnnsers Khinigl. Armade', 'den 15' (month lost). Writer, addressee, place and date lost.",
+     "remarks": "Probably written in Spain or Portugal during the Anglo-Spanish war, 1585-1603. The readings 'Fughere', 'Kh: Mt:', 'Enngenlann[d]' and 'Porttogesischen' were made on the image; a reading without context supports the last two in outline and not the first two."
     },
     {
      "locus": "182_2",
@@ -14116,30 +14127,40 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Nine paper leaves of German accounts, mostly of the Pfannhausamt (salt-pan office) at Hall in Tirol, 1638-1645: weekly wage and expense lists for weeks 17, 18, 36, 47 and 48 of 1645, an extraordinary-receipts list for the last week of 1638 with a receipt of 17 January 1639 from the 'Pfannhaus Ambts Verwalter' (surname read '[D/V]en[i]s(?) L[e/u]t[z]ij(?)'), a Holzmeisterei list and a widow's pension; mixed with a private interest settlement and older craftsmen's accounts",
-  "note": "The heading on 2r was read on the image as 'Innamen GOTTES Amen / Die 17. Wochen, A(nn)o 1645', followed by entries for 'Pfannenarbaitern', 'Cleibern' (the daubers who sealed the pans), 'Schreiber' and 'Extra ordinarj Arbaiter'; similar lists are headed weeks 18, 36, 47 and 48 of [16]45. On 6r 'Verzaichnus, was Ich Extra ordinarj Empfanngen, vnnd in die letzte(n) 52 Wochen des 1638 gehörig' includes a receipt from 'Herrn Eitl Hannsen von Sta[c/r]hlburg' for timber and the entry 'Den 17 Jenner des 39 hab Ich vom HH. Hannsen [D/V]en[i]s(?) L[e/u]t[z]ij(?), Pfannhaus Ambts Verwalter' (1496 fl 40 kr); 7r is a 'Provision' for the widow of a former Pfannhausamt officer. The word check confirmed 1645, week 17, 'Pfannhaus Ambts', '-lburg', 1638 and '17 Jenner des 39'; the administrator's surname is two words, the second ending in a written '-ij', which is incompatible with 'Unterrainer'. Schober, Schlossarchiv Fügen (1989), names Hans Unterrainer as Pfannhausamtsverwalter at Hall in 1639 (snippets only), so he is the officer of record that year, but the image does not name him and the identity is not claimed. The 1645 wage lists do not name the office and are assigned to it by their vocabulary and the leaves they travel with; the 4v 'Abraitung mit Herrn Daniel [..]' (interest on 8000, 3000 and 2000 fl) and the columnar craftsmen's accounts on leaf 3 have no visible tie to it, and the 7v/8v interest list rests on the first reading only. The result stays partial because the accountant ('Ich') is unnamed, the leaves are several separate accounts, the office on the 9r endorsement ('Extract a(us) [..]ier(?) Ambts') is unread, and several pages are only partly read.",
+  "identification": "Nine paper leaves of German accounts, mostly of the wood and wage accounting of the saltworks (Pfannhaus) at Hall in Tirol, 1638-1645: weekly wage and expense lists for weeks 17, 18, 35, 36, 47 and 48 of 1645, an extraordinary-receipts list for 1638 with a receipt of 17 January 1639 from the 'pfannhaus Ambts Verwalter', a Holzmaisterey list naming Hannß Vnderrainer, Eliseus Pichler and Georg Holler, a widow's pension and an interest list; with an older settlement with 'Herrn Daniel Z[..]' closed 1[6] July [16]14 and undated craftsmen's accounts; accountant not named",
+  "note": "Read on the image: 2r 'Innamen GOTTES Amen / Die 17. Wochen, A(nn)o 1645' with entries for 'Pfannenarbaitern', 'Cleibern', 'Pfannenmaister' and 'Hamerschmidlern', and like lists headed weeks 18, 35, 36, 47 and 48 of [16]45; 6r 'Verzaichnus, was Ich Extra ordinarj Empfanngen, vnnd in die letste(n) 52 Wochen des 1638. gehörig', with 'Den 17 Jenner des 39. Hab ich von HH. Hannsen [...](?) ietzig(?) pfannhaus Ambts Verwalter[n]', where the word before 'ietzig' ('present') is not read (a looped capital V, S or D, minims and a detached upright stroke: 'vnnd', 'sunst' or a suspended surname); 5r 'Holzmaisterey' with 'Hannß Vnderrainer', 'Eliseus Pichler' and 'Georg Holler', each 'tut seine schichten', and payments 'in Stanzer thall', 'in Pazenaun', 'in Kaunerthall' and 'in Özthall'. H. Oberrauch, Tirols Wald und Waidwerk (1952), p. 64, lists instructions for Hans Unterrainer, Waldmeister in Hall (1663), Georg Holler, Waldmeisteramtsverwalter (1647) and Eliseus Pichler, Oberwaldmeister in Hall (1653), and R. Schober, Schlossarchiv Fügen (1989), p. 8 (regest of 31 May 1639, Wörgl) and index p. 154, has Hans Unterrainer as Pfannhausamtsverwalter at Hall (both seen in snippets only); these show men of these names and their offices, not these accounts, and Unterrainer is not read in the 6r entry. Leaf 4 is older: 4v 'Abraittung mit Herrn Daniel Z[..]' over interest on 8000, 3000 and 2000 fl and service money 'wegen des Schaid- vnd Hallholz' and 'wegen d(er) Holzmaist(er)ei(?)', and 4r closes 'Beschechen den 1[6]. Julÿ A(nn)o 14' (the second figure of the day is 6 or 0) with '1614' in the text. The result stays partial because the accountant ('Ich') is unnamed, the leaves are several separate accounts, no outside record of them was found, and the 7r widow's name, the 7v payees ('Conraden Zobel(?)', 'Catharina Bur[c]khlechnerin(?)') and the 9r endorsement are only partly read.",
   "verify": "https://fragmentarium.ms/overview/F-712u",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
-   "title": "Accounts of the Pfannhausamt at Hall in Tirol",
+   "title": "Accounts of the saltworks (Pfannhaus) at Hall in Tirol",
    "places": [
     "Hall in Tirol"
    ],
    "content": [
     {
+     "locus": "1r-2v, 8r, 8v",
      "text_language": "German",
      "title": "Weekly wage and expense lists, 1645",
-     "description": "Lists for weeks 17, 18, 36, 47 and 48 of [16]45, with entries for Pfannenarbaiter, Cleiber, Schreiber and extraordinary workers.",
+     "description": "Lists for weeks 17, 18, 35, 36, 47 and 48 of [16]45, with entries for Pfannenarbaiter, Cleiber, Pfannenmaister, Hamerschmid and extraordinary workers.",
      "remarks": "The office is not named in these lists."
     },
     {
      "locus": "6r",
      "text_language": "German",
-     "title": "Extraordinary receipts for the last week of 1638",
+     "title": "Extraordinary receipts for 1638",
      "persons": "Eitl Hanns von Sta[c/r]hlburg",
-     "description": "Includes a receipt from Eitl Hanns von Sta[c/r]hlburg for timber and one of 17 January 1639 from Hanns [D/V]en[i]s(?) L[e/u]t[z]ij(?), Pfannhaus Ambts Verwalter (1496 fl 40 kr)."
+     "description": "Includes a receipt from Eitl Hanns von Sta[c/r]hlburg for timber and one of 17 January 1639 from 'HH. Hannsen [...] (?) ietzig (?) pfannhaus Ambts Verwalter' (1496 fl 40 kr).",
+     "remarks": "The word before 'ietzig' ('present') is not read; it may be a conjunction or a suspended surname. A Hans Unterrainer is recorded as Pfannhausamtsverwalter at Hall in 1639 (Schober, Schlossarchiv Fügen, 1989, p. 8, regest of 31 May 1639); the entry is not read as naming him."
+    },
+    {
+     "locus": "5r",
+     "text_language": "German",
+     "title": "Holzmaisterey list",
+     "persons": "Hannß Vnderrainer; Eliseus Pichler; Georg Holler",
+     "description": "Shifts, expenses and salary of Hannß Vnderrainer, Eliseus Pichler and Georg Holler, and payments in the Stanzertal, Paznaun, Kaunertal and Ötztal (the initials of Pazenaun and Kaunerthall are read from the series of valleys).",
+     "remarks": "Men of these names are recorded as forest officers at Hall in 1647-1663 (Oberrauch, Tirols Wald und Waidwerk, 1952, p. 64)."
     },
     {
      "locus": "7r",
@@ -14147,19 +14168,22 @@
      "title": "Pension for the widow of a former Pfannhausamt officer"
     },
     {
+     "locus": "7v",
      "text_language": "German",
-     "title": "Holzmeisterei list"
+     "title": "Interest payments",
+     "description": "Three payments of interest at 5 per cent to 'Conraden Zobel (?)' as guardian, 'Frawen Dorothea [..]' and 'Frawen Catharina Bur[c]khlechnerin (?)', with a total."
     },
     {
-     "locus": "4v",
+     "locus": "4r, 4v",
      "text_language": "German",
-     "title": "Interest settlement with Herrn Daniel [..]",
-     "description": "Interest on 8000, 3000 and 2000 fl."
+     "title": "Settlement with Herrn Daniel Z[..], 1[6] July [16]14",
+     "description": "Interest on 8000, 3000 and 2000 fl and service money for wood administration (Schaid- und Hallholz, Holzmaisterei (?)); closed 'den 1[6]. Julÿ A(nn)o 14'."
     },
     {
+     "locus": "3r, 3v",
      "text_language": "German",
      "title": "Craftsmen's accounts",
-     "description": "Leaf 3, in columns."
+     "description": "In columns, with headings Eysenzeug, Tyschler and Schuester; undated."
     }
    ]
   }
@@ -14482,12 +14506,31 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Two parchment binding-waste leaves of a German sixteenth-century prose document in fast chancery cursive, apparently a letter, report or petition to a lord ('E(uer) G(naden)'), opening with a display word '[..](e/a)rlannder.'; issuer, addressee, matter and date not read",
-  "note": "Face B (canvas 1, leaves 2v and 1v) carries the legible text, read on the image: the display word '[..](e/a)rlannder.' (letter before r e or a, followed by a point) and 'auf dem' followed by a looped capital, R or L, unresolved; then scattered words such as 'vnd bewilligung', '[ab]schrifftlichen zuegestelt', 'aufs fleissigist', '[..]tagen vnd bezallen', 'die handlungen', 'von Doctorn', 'Ich abgemelten' and 'E(uer) G(naden)(?)'. The word check confirmed the heading only with that caveat, left the capital after 'auf dem' open, and gave no reading for a third word, so nothing rests on it. The right halves of both pages are faded beyond reading, and face A is show-through apart from a later pen trial ('[..] Rats(?) vom yezt(?) Kaiß(?) kauff[..]'). A '1567(?)' seen by the first reader on a torn corner was not confirmed. Whether the heading is a word such as '[Nid]erlannder' or '[Ob]erlannder' and the phrase a 'Reichstag' or 'Landtag' is a lead only; Google Books searches for '\"Niderlannder\" \"auf dem Reichstag\" beschwerden bewilligung' and 'abschrifftlichen zuegestelt' gave no hits, and no connected span of more than three or four secure words exists for further searching. No issuer, addressee, action or date can be read; multispectral or UV imaging, or reading at the object under raking light, would be needed.",
+  "identification": "Two parchment binding-waste leaves of a German sixteenth-century prose text in fast chancery cursive, dealing with a grant and payments and possibly written in the first person, opening with a display word '[..](e/a)rlannder.' and 'auf dem' with a looped capital (R more likely than L); lines that may be account entries in a second hand at the foot; issuer, addressee, matter and date not read",
+  "note": "Face B (canvas 1, leaves 2v and 1v) carries the main text, read on the image: the display word '[..](e/a)rlannder.', then 'auf dem' followed by a looped capital (R more likely than L in enhanced crops, the rest of the word not legible), and scattered words such as 'vnd bewilligung', 'schrifftlichen zuegestelt', 'des Wechsls(?) halb', 'vnnd bezallen', 'dise hanndlungen', 'von Doctorn' and 'Ich(?) obgemelter(?)' (or 'Jt(em) obgemelten') followed by an unread word with a looped capital, possibly a name or office; the right halves of both pages are faded beyond reading and the address 'E(uer) G(naden)(?)' could not be confirmed at any one place. At the foot of both leaves a different hand wrote lines that may be entries of an expenses account rather than pen trials, read with low confidence: on 2r '[M]er(?) ain kalb(?) (or Rats(?), Lehs(?)) von [..]tzl(?) (or yezt(?)) Kaiß(?) kaufft am / iij d[..]' with a row of signs that is either a sum 'xxxx k[r]'(?) or a filler flourish with a paraph, and, legible only in mirror on 1v, 'Maister Hannsen [..] am / viij d[..] [..] geben(?)' with sums; whether the latter are on 1r or set off onto 1v is not decided. The figures on the torn corner of 2v read as '1567(?)' are mirrored show-through of the 2r line, not a year on 2v. Whether the opening names an imperial diet is a lead only, and with no name, place or date read no outside search was run.",
   "verify": "https://fragmentarium.ms/overview/F-vzoy",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "title": "German prose document (fragment)",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_010_01v02v",
+     "text_language": "German",
+     "title": "Unidentified German prose document",
+     "description": "Two leaves, each with one page of about 35 to 40 long lines in a fast chancery cursive. Inc.: [..](e/a)rlannder. auf dem [..] ... Legible words include vnd bewilligung, schrifftlichen zuegestelt, vnnd bezallen, dise hanndlungen, von Doctorn, Ich obgemelter(?).",
+     "remarks": "16th century on the hand. Possibly written in the first person: after 'Ich(?) obgemelter(?)' (or 'Jt(em) obgemelten') stands an unread word, possibly a name or office. Addressee, matter and date are not read. The right halves of both pages are faded. Not identified."
+    },
+    {
+     "locus": "Stams_STA_Frg_010_01r02r",
+     "text_language": "German",
+     "title": "Later additions, possibly account entries",
+     "description": "At the foot of both leaves, in a different hand: lines that may be entries of an expenses account, read as [M]er(?) ain kalb(?) von [..] Kaiß(?) kaufft am iij [..], with signs that may be a sum or a flourish, and Maister Hannsen [..] am viij [..] geben(?).",
+     "remarks": "All readings uncertain. The lines on the first leaf are legible only in mirror from the other side. No year is read."
+    }
+   ]
+  }
  },
  {
   "id": "F-ibgm",
@@ -14502,11 +14545,22 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Narrow vertical strip with the cut-off middles of about 12-14 lines of a very faded late-medieval cursive on one face; language and genre not established",
-  "note": "Face A carries the middles of about 12-14 lines, cut at both edges, in the upper two thirds of the strip. Blue-channel enhanced crops give only letter shapes: a possible 'It(em)?' at a line start, 'gene(?)', 'p(re)?', a word-end 'bus' and a word beginning 'Ca[..]', none secure. Whether the text is Latin or German is not settled, and the impression of accounts or a register rests only on the documentary look and the possible 'Item'. Face B has no writing and shows fine striations that look like paper laid lines, although the catalogue says parchment; the material should be checked on the original. No sequence of words was readable, so nothing was searched; multispectral or UV imaging of face A is the only way forward.",
+  "identification": "Narrow strip with the cut-off middles of about 13 lines of a small, blurred late-medieval cursive on one face; probably Latin, which is not secure; genre not established",
+  "note": "Face A carries the middles of about 13 lines, cut at both edges, in the upper two thirds of the strip; face B has no writing and shows fine striations like paper laid lines, so the catalogue's 'parchment' should be checked on the original. Contrast treatments of the published images (blue, red and green channels, red minus blue, saturation, principal components) give only letter groups, among them a word beginning 'Cap' and a word end 'bus', with a possible 'It(em)?' sign and a possible 'Q[uo]d(?)'; none is secure. The writing probably reads the right way round and is not a mirror-image offset, judged on a few letter shapes, and a superscript abbreviation sign with 'bus' makes Latin probable. No connected words are legible, so nothing was searched; new imaging (ultraviolet or multispectral) is the only way forward.",
   "verify": "https://fragmentarium.ms/overview/F-ibgm",
-  "examined": "2026-11-01",
-  "identified_on": null
+  "examined": "2026-11-10",
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Unidentified text in cursive (strip)",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_005_01r",
+     "title": "Unidentified text",
+     "description": "Middles of about 13 lines of a small late-medieval cursive, cut at both edges and very faded; only letter groups can be read ('Cap[...]', '[...]bus').",
+     "remarks": "Probably Latin, which is not secure. Stams_STA_Frg_005_01v has no writing and shows striations like paper laid lines; the material should be checked on the original. Not identified."
+    }
+   ]
+  }
  },
  {
   "id": "F-kd2f",
@@ -14551,12 +14605,24 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Vertical parchment strip from a German deed or grant in a fifteenth-century (or c. 1500) cursive, one or two words from each of about 32 lines ('Erb', 'Recht(?) od[er]', '[v]erlihen(?)', 'Allso', a princely title 'Durchl[e]ucht[..](?)'); no issuer, party, object, place or date survives",
-  "note": "The strip (canvas 0) keeps a narrow vertical slice near one edge of a single-column German document; every line was reread on the image, giving deed vocabulary such as '[..]d Jr E[..]', '[..]y Erb', 'Allso' with an enlarged initial, '[..]Recht(?) od[er]', '[..]willigkait(?)', 'so mügen(?)' and '[..]erlihen(?)', which suggests a grant or conveyance to heirs. The word check corrected the last line from 'Durstanta' or 'Deutschen' to '[..]y Durchl[e]ucht[..](?)', a form of 'Durchleuchtig', the style of a prince, so a prince was named or addressed, but who is lost. The back has no medieval writing; a modern pencil host note, confirmed by the word check, reads 'aus P. Kerii Germani[a] / Inferior, Amsterdam 1682', with the third digit more likely 8 than 3, which would make the host a copy of Petrus Kaerius, Germania inferior; this records the reported host volume, not when the strip was bound into it, and the edition was not verified. With no party, place or date, no search was run and no regest is possible.",
+  "identification": "Vertical parchment strip from a German deed or grant in a fifteenth-century (or c. 1500) cursive, one or two words from each of about 32 lines ('Erb', 'Recht(?) od[er]', '[v]erlihen(?)', 'Allso', and in the last line a word read 'Durchl[e]ucht[..](?)', possibly a princely title); no issuer, party, object, place or date survives",
+  "note": "The strip (canvas 0) keeps a narrow vertical slice of a single-column German document; every line was reread on the image, giving deed vocabulary such as '[..]d Jr E[..]', '[..]y Erb', 'Allso' with an enlarged initial, '[..]Recht(?) od[er]', '[..]willigkait(?)', 'so mügen(?)' and '[v]erlihen(?)' (or '[v]erleihen(?)'), and in the last line '[..]y D[..]', read 'Durchl[e]ucht[..](?)' but not confirmed by a reading without context; if right, a prince was named or addressed. The back has no medieval writing; a modern pencil note there reads 'aus P. Kerii Germani[a] / Inferior, Amsterdam 16[.]2', the third digit unclear (2 or 7 in a reading without context; 8 was read earlier); library and sale catalogues record Amsterdam editions of Petrus Kaerius, Germania inferior, of 1617 and 1622 only (title pages not seen), so the year is probably 1622; the note records the reported host volume, not when the strip was bound into it. With no party, place or date, no search for the act was run and no regest is possible.",
   "verify": "https://fragmentarium.ms/overview/F-kuvn",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "title": "German deed or grant (strip)",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_157_01r",
+     "text_language": "German",
+     "title": "Unidentified German deed or grant",
+     "description": "Vertical strip with one or two words from each of about 32 lines. Legible: [..]d Jr E[..], [..]y Erb, Allso, Recht(?) od[er], so mügen(?), [v]erlihen(?), possibly Durchl[e]ucht[..](?).",
+     "remarks": "15th century or about 1500 on the hand. Probably a grant or conveyance to heirs; a prince may be named or addressed in the last line (one unconfirmed word). No party, place or date survives. A modern pencil note on the back names the host volume as P. Kerii Germania Inferior, Amsterdam 16[.]2 (third digit unclear, probably 1622; only editions of 1617 and 1622 were found in catalogues); a modern annotation, not checked against the volume."
+    }
+   ]
+  }
  },
  {
   "id": "F-g1bu",
@@ -14620,12 +14686,24 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Torn paper scraps on a tissue mount from an early modern German account or list in Kurrent (probably seventeenth or eighteenth century), entries running out in filler rules to sums in fl and kr; with two blank scalloped paper ovals; no names, dates or headings",
-  "note": "About ten scraps on a grey tissue mount (canvases 0 and 1) were read on the image in autocontrast crops: '[..]r dahin', 'Vnnd zwayen(?) traidt' (Kurrent g and y are alike, so 'zwagen' is possible; 'zwayen traidt' would be a payment in grain), '36 fl(?)' with '[.]6 kr(?)', '[..]ichsgelt(?) ... 3 kr(?)', '1008(?)' and '[..] Pfenni(n)gen(?)'. Filler rules run to an amount column, which with the fl and kr units marks the scraps as accounts or a list of dues. Two loose scalloped ovals above the mount show only grime and may be decorative seal covers, which was not tested. No name, place, date or connected phrase survives that any source could index, so no search was run. Comparison of the hand and units with dated Stams account books might date it.",
+  "identification": "Torn paper scraps on a tissue mount, written on both sides, from a German account, list of dues or similar record of amounts in Kurrent (probably seventeenth or eighteenth century, the later sixteenth also possible), entries running out in filler rules to amounts; with two scalloped paper ovals, probably seal covers; no names, dates or headings",
+  "note": "About ten scraps on a grey tissue mount, written on both sides in one Kurrent hand, were read at native size: '[.]r dahin(?)' (or 'Jr disen'), 'Vnnd [..] traidt' (the middle word 'zwayen(?)' or 'jr aign(?)'), '36' with a unit sign ('fl(?)' or 'lb(?)'), a word ending '-gel[t](?)' followed by '3(?) kr(?)', a possible fraction with a unit sign, and a word read 'Pfenni(n)gen(?)'; loops under the '-gelt' word look like a figure '1008(?)' but are more probably its descenders. Filler rules running to amounts mark the scraps as probably an account or list of dues, probably of the seventeenth or eighteenth century by the writing; the spelling 'Vnnd' would also suit the later sixteenth. Faint marks on the large scrap in the 01v image are the other side showing through, and two loose scalloped ovals, probably paper seal covers, show faint strokes like writing on one side that cannot be read. No name, place, date or connected phrase survives, so no outside record could be sought.",
   "verify": "https://fragmentarium.ms/overview/F-m8bk",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "title": "Probably an account or list of dues, German (scraps)",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_261_01r; Stams_STA_Frg_261_01v",
+     "text_language": "German",
+     "title": "Scraps, probably of an account or list of dues",
+     "description": "About ten torn paper scraps written on both sides in one Kurrent hand, entries running out in filler rules to amounts: '[.]r dahin(?)' (or 'Jr disen'), 'Vnnd [..] traidt' (the middle word 'zwayen(?)' or 'jr aign(?)'), '36' with a unit sign ('fl(?)' or 'lb(?)'), '[...]gel[t](?) ... 3(?) kr(?)', 'Pfenni(n)gen(?)'. Two loose scalloped paper ovals, probably seal covers, with faint unread strokes on one side.",
+     "remarks": "Probably 17th or 18th century by the writing; the later 16th is also possible. No name, place or date survives. Not identified."
+    }
+   ]
+  }
  },
  {
   "id": "F-ulkj",
@@ -14638,14 +14716,25 @@
   "shelfmark": "Frg. 21",
   "catalogue_title": "x",
   "catalogue_date": "not given",
-  "status": "unidentified",
-  "confidence": "none",
-  "identification": "Fourteen paper binding-waste slips from early modern letters (probably sixteenth century), in Latin humanist cursive and German Kurrent, often on the two faces of one slip; writer, addressee, place and date lost",
-  "note": "Read on the image of slip 1v is the close of a Latin private letter: '[..] non paruisse . Vale, et dic Iohani, quia hact(enu)s(?) [..]ur(?) me quam primum et uilissime libros illius uenundaturum nisi intra duodecim dies satisfe[cerit]', a threat to sell one Johannes's books unless he pays within twelve days. Its German back (1a) gives letter news: 'Der rat(?) hat etlichen den lanzknechten den lon gedoplt(?) . Nicolau[s] hat den gartten ... verkauft', and the Landsknecht wording points to the sixteenth century. Slips 6a, 8a and 13a carry further Latin in a like hand ('famulus' on 6a and 13a, 'Petrum', 'fortem(?) fustibus', 'partem curie'); the other slips were checked only on the overviews. Phrase searches in Google Books, the Internet Archive and Corpus Corporum ('libros illius venundaturum', 'intra duodecim dies satisfecerit', 'dic Iohanni quia hactenus', 'fuit sponsa parens') found no printed source, and the CoMMA batch search gave no lead. No name of writer or addressee, no place and no date survive, so no regest is possible; matching hands across other Stams binding waste from the same host is the remaining route.",
+  "status": "partial",
+  "confidence": "low",
+  "identification": "Fourteen paper binding-waste slips, probably from a pupil's Latin school exercises (probably sixteenth century): short German and Latin texts, two of them headed 'Argumen[tum]', the Latin in letter form with 'Vale', in Latin italic and German Kurrent, often on the two faces of one slip; pupil, school, place and date lost",
+  "note": "Slip 5a carries the heading 'Argumen[..]' above a new short Latin text, directly after a 'Vale' and a ruled stroke, and slip 2a the heading 'Argum[..](?)' above German lines; 'Vale' also stands on 1v and 9v, and the German on 1a is a run of unconnected sentences ('Der rat(?) hat etlichen den lanzknechten den lon gedopl[t](?) . Nicolau[s] hat den gartten ... verkauft'). The slips are therefore probably from a pupil's school exercises, themes ('argumenta') in German with Latin versions in letter form, and not from sent letters. The Latin on 1v ('Vale, et dic Iohani ... libros illius uenundaturum nisi intra duodecim dies satisfe[..]') and 14a ('fuit Sponsa parensq(ue)') was not found by phrase searches in Google Books, MDZ, the Internet Archive and Corpus Corporum. No name of pupil or school, no place and no date survive.",
   "verify": "https://fragmentarium.ms/overview/F-ulkj",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "title": "Slips probably from Latin school exercises",
+   "content": [
+    {
+     "text_language": "Latin, German",
+     "title": "Probably school exercises ('argumenta') in German and Latin, the Latin in letter form",
+     "description": "Fourteen slips in a Latin italic and a German Kurrent, often on the two faces of one slip. The heading 'Argumen[tum]' stands above a new short text on 21-5a (Latin) and, as 'Argum[..]' (?), on 21-2a (German); 'Vale' stands on 21-1v, 21-5a and 21-9v. 21-1v: '... non paruisse. Vale, et dic Iohani ... me quam primum et uilissime libros illius uenundaturum nisi intra duodecim dies satisfe[..]'. 21-1a: short German sentences on the pay of Landsknechte and the sale of a garden by Nicolaus. 21-14a: 'fuit Sponsa parensq(ue)'.",
+     "remarks": "Probably sixteenth century. No pupil, school, place or date survives; no printed source was found."
+    }
+   ]
+  }
  },
  {
   "id": "F-aekp",
@@ -14798,12 +14887,23 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Two small scraps with parts of about 13 lines each of a German legal or administrative text in a seventeenth-century Kurrent hand ('oder ausserha[lb]', 'rechten', '[e]xecution(?)', '[..]schulden(?) ist', 'wie lang', 'od(er) andere(?) sachen'); no issuer, party, place or date",
-  "note": "Only the second face (canvas 1) shows writing: the right scrap (22-1v) keeps line beginnings and the left scrap (22-2v) line ends, both abraded; the other face shows no letters. Read on the image on 22-1v are 'oder ausserha[lb(?)]', '[..]rechten', '[e]xecution(?) Kauff(?)[..]', '[..]schulden(?) ist', 'Zusammen(?)', 'wie lang' and '[..]nnuß(?) od(er) andere(?) sachen'; 22-2v gives only scattered German word ends. The word check found that the first word of line 4, earlier taken as 'Kauffschilling' (purchase price), begins with a P to all three readers and reads only 'Pa[..]f/ſ[..](?)', so 'Kauffschilling' is a conjecture that would need a K, and the text cannot be said to concern a purchase price. The vocabulary of execution and debts suggests a legal or administrative text, perhaps a copy from a printed ordinance, but the line fragments are too short and uncertain to search. Whether the two scraps come from the same page is not decidable. No search was run and no regest is possible.",
+  "identification": "Two scraps, probably joining into one piece of a parchment leaf, with about 13 short lines of a German legal text in Kurrent of the sixteenth or seventeenth century ('ausserhalb', 'rechten', '[e]xecut[..](?)', 'wie lang', 'od(er) and(er)e sachen'); possibly the clauses of a deed or power of attorney; no party, place or date",
+  "note": "The two scraps probably join along their torn edges, 22-1v on the left and 22-2v on the right of the written face: the edge profiles fit to about 1.3 mm on both faces, a tag sits in a notch, the stains continue and the lines fall into one slope and spacing, though no pen stroke could be followed across the tear. The joined piece keeps the line ends and right margin; its left side is cut through the text. Read on the image are 'ausserhalb', 'rechten', '[e]xecut[..](?)', 'Zusam(m)en', 'wie lang' and 'od(er) and(er)e sachen'; the first word of line 4 begins with P and is not read. This is the stock vocabulary of a contract, settlement or power of attorney ('in oder ausserhalb Rechtens') as much as of an ordinance; two full-text searches of the Munich digital library found the formula but no matching passage, and no regest is possible.",
   "verify": "https://fragmentarium.ms/overview/F-uahm",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "title": "Legal text in German (two scraps, probably of one leaf)",
+   "content": [
+    {
+     "text_language": "German",
+     "title": "Unidentified legal text, possibly the clauses of a deed or power of attorney",
+     "description": "About 13 short lines in Kurrent, sixteenth or seventeenth century, on one face. Legible: 'ausserhalb', 'rechten', '[e]xecut[..](?)', 'wie lang', 'od(er) and(er)e sachen'. No party, place or date.",
+     "remarks": "The two items probably join along their torn edges (22-1v left, 22-2v right on the written face); to be confirmed on the object."
+    }
+   ]
+  }
  },
  {
   "id": "F-4x8s",
@@ -14906,10 +15006,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "medium",
-  "identification": "Bundle of at least nine German paper receipts, chancery notes and account strips of the Habsburg administration of Tyrol and Further Austria, sixteenth century to 1608: receipt of Jacob S[...]berg, Zeugwart, for 12 fl. (Freitag(?) [day unread] July, year unread; a modern note proposes 2 July 1508); receipt of Leonhart [...], Landvogtschreiber zu Burgau, for 14 fl.; receipt of a salaried officer, December 1582, dorsal 'zu Holzhaim(e)'; receipt of Thomas [Re]ntz, Landammann(?) of the Markgrafschaft Burgau, for 200 fl., under Archduke Ferdinand; a note of 26 July [..]4 of the Landvogt and 'Räth zu obern Ellsäß' (presumably the government at Ensisheim); a 1608 Fiat and related notes",
-  "note": "Frg. 110 holds strips of at least nine separate documents, not one text. D1, a receipt, reads 'Ich Jacob S[...]berg Ro(mi)sch(?) kay(?) m(aies)t zeugwartter bekenn' for 'Zwelff gulden' of service money under his Bestellbrief; its dating clause gives 'geben ist F[reitag?] ... monats Julij Anno d(omi)ni' followed by year words that the word check found unreadable, so the year and the day are not read: the day 2 and the year 1508 come only from the modern pencil note 'Freitag 2. July 1508', and the weekday cannot decide the year because the day is not on the leaf. The title words stay queried and are not used for dating; 'Rei[nisch]' after the sum and the red-pencil 'den' in the gap of the surname are modern restorations on the repair strip, not readings. D2 is read as 'Ich Leonhart [...] Landtvogtschreiber zur Burg[au](?)', paid 'vierzehen gulden besold[ung]' by the Kay. Mt.'s officer in the Markgrafschaft Burgau, date lost; D3 ends 'den 2[.] Decembris Ao 8[.]' with the year 1582 resting on the dorsal '.82.', which also reads 'zu Holzhaime'. D4 reads 'Ich Thoma[s] ... [Re]ntz F. Dt. Ertzhertzog Ferdinan[ds] ... [l]andtaman(?) der Marggra[fschaft]' and 'zwaihundert guldin', which fits Ferdinand II as lord of Burgau (1564-1595); a Thomas Rentz, Landammann of Burgau, is attested c. 1580 in a Reichskammergericht inventory (snippet), which corroborates the person, not this receipt. D5 is a chancery note of 26 July [..]4 subscribed by the Landvogt, Regenten 'vnnd Räth zu obern Ellsäß', recording 200 fl. paid for future equipment; the decade is lost in the hinge. D6 is a 'Fiat für Herrn Camerer' dated 'Anno 1608', with short protocol notes and account strips of the same period. No outside record of any of these acts was found; the result is partial because names, dates and the D1 year are lost in hinge gaps or under the repair strip and most pieces give only part of their regest.",
+  "identification": "Bundle of at least nine German paper receipts, chancery notes and account strips of the Habsburg administration of Tyrol and Further Austria (Hagenau(?), Upper Alsace, Markgrafschaft Burgau), sixteenth century to 1608: receipt of Jacob S[...]berg, Zeugwart, for 12 fl. paid by Hans Heinrich Armstorffer, Zinsmeister at Hagenau(?) (Friday(?) in July, day unread, year words not read (one proposal: 'Octauo'); a modern note gives 2 July 1508); receipt of Leonhart [...], Landvogtschreiber zu Burgau, for 14 fl.; receipt of the Landvogtknecht(?) at Holzheim for his 1582 salary, sealed by the Bürgermeister of probably Günzburg, December 1582; receipt of Thomas [Re]ntz, Landammann(?) of the Markgrafschaft Burgau, for 200 fl., under Archduke Ferdinand; a note of 26 July [..]4 of the Landvogt and 'Räth zu obern Ellsäß'; a 1608 Fiat and related notes",
+  "note": "Frg. 110 holds strips of at least nine separate documents, not one text. D1 reads 'Ich Jacob S[...]berg ... Zeugwartter Bekenn mir der Erenn[ve]st Hanns Heinrich Armstorffer Zinßmey[ster] Zu Hagnow(?) ... bezalt hat benanntlich Zwelff guld[en]'; the payer's name was read with a modern red-pencil note of the same name in view, and a reader without the note confirmed only 'Hanns' and the outline of the surname, and Hans Heinrich Armstorffer is attested as royal Zinsmeister of the Landvogtei Hagenau from 1505 to the 1520s (Oberbadisches Geschlechterbuch 1, p. 20: '1505, 1523 Zinsmeister der Landvogtei Hagenau'; Colmar Stadtarchiv inventory, 1516; snippets), which corroborates the person, not this receipt. Its dating clause gives 'geben vff Fritag(?) ... Monats Julij Anno d(omi)ni ...'; the year words are not read (one proposal: 'Octauo') and the day is not read (a modern note gives 2 July 1508). D3 ends 'Zu G[..]zburg' (probably Günzburg) '... den 2[.] Decembris A°. 82.' and its dorsal reads 'Des Landtuogt[..]echts(?) Zu Holzhaim ... .82. Jars besold[ung]'; the other pieces are a receipt of a Landvogtschreiber zu Burgau (14 fl.), a receipt of Thomas [Re]ntz, [l]andtaman(?) der Marggra[fschaft] (200 fl., under Archduke Ferdinand), a note of 26 July [..]4 of the Landvogt, Regenten 'vnnd Räth zu obern Ellsäß', a 'Fiat für Herrn Camerer' of 1608 ('18 Julij A° 608' on its back) and account strips. No outside record of any single act was found, and names and dates are lost in hinge gaps and under the repair strip.",
   "verify": "https://fragmentarium.ms/overview/F-7yec",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -14917,10 +15017,10 @@
    "content": [
     {
      "text_language": "German",
-     "title": "Receipt of Jacob S[...]berg, Zeugwart",
-     "persons": "Jacob S[...]berg",
-     "description": "Jacob S[...]berg, Zeugwart, acknowledges 12 fl. of service money under his Bestellbrief. Dated a Friday (?) in July; the day and year are not legible.",
-     "remarks": "A modern pencil note gives 'Freitag 2. July 1508'."
+     "title": "Receipt of Jacob S[...]berg, Zeugwart, to Hans Heinrich Armstorffer, Zinsmeister at Hagenau (?)",
+     "persons": "Jacob S[...]berg; Hans Heinrich Armstorffer",
+     "description": "Jacob S[...]berg, Zeugwart, acknowledges 12 fl. of service money under his Bestellbrief, paid by Hanns Heinrich Armstorffer, Zinßmey[ster] zu Hagnow (?). Dated a Friday (?) in July; the day is not legible and the year words are not read (one proposal: 'Octauo').",
+     "remarks": "Modern notes on the leaf and its backing sheet give 'Freitag 2. July 1508' and 'Hanns Heinrich Armstorffer Zinßmeyster'. Armstorffer is attested as Zinsmeister of the Landvogtei Hagenau from 1505 to the 1520s."
     },
     {
      "text_language": "German",
@@ -14930,8 +15030,8 @@
     },
     {
      "text_language": "German",
-     "title": "Receipt of a salaried officer, December 1582",
-     "description": "Dated 2[.] December; the year 1582 from the dorsal note '.82.', which also reads 'zu Holzhaime'."
+     "title": "Receipt of the Landvogtknecht (?) at Holzheim, December 1582",
+     "description": "Dated 2[.] December 'A°. 82.'; sealed by the Bürgermeister 'Zu G[..]zburg', probably Günzburg. Dorsal: 'Vrkhund Des Landtuogt[..]echts (?) Zu Holzhaim ... .82. Jars besold[ung]'. The issuer's name is lost."
     },
     {
      "text_language": "German",
@@ -15076,10 +15176,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Two strips of one German deed of sale in a sixteenth-century Kurrent hand: [sellers lost], a couple, with the knowledge and consent of the honourable and spiritual lord Hannsen p(?)ay(r?), Capp[..], appointed Castner zu [S/C]and[..]..rg(?), sell ('hingeben vnnd verkaufft') to Thoman(?) Ha[..]s(?) and his wife Dorothea a share ('d(r)ey(?) vi[er]ta[y]ll(?)') of a right 'Ba[..]' in a holding at '[..]ets(?)' held of the 'Herrschafft zur [S/C]and[..]'; the names Payr, Freundsberg and St. Petersberg, the Baurecht, the three-quarter share and Rietz are supplied by a modern typed slip and pencil notes, not read on the strips; date lost",
-  "note": "The written face (canvas 0) carries two non-contiguous strips of about four long lines each; read on the image are the acknowledgement 'Bekhennen baide vnuerschidenlichen mit disem offnen Brief fur vnns vnnd all vnnsre baider Erben', the consent of 'des Ersamen vnnd geistlichen Herren Hannsen p(?)ay(r?) Capp[..]', 'verordneter [..]waltiger Castner zu [S/C]and[..]', the sale clause 'hingeben vnnd verkaufft', the buyers 'Thoman(?) Ha[..]s(?)' and 'Dorothea seiner hausfrawen', and '[..]ets(?) obgemelt gelegen das von der Herrschafft zur [S/C]and[..]'. The word check reduced the surname after Hannsen to 'p(?)ay(r?)' (only 'a y' secure), found the place after 'von' in line U3 illegible, saw only 'zu', 'and' and a final '-rg' in the Castner's seat, with all three blind readers seeing an initial C rather than S, cut the right sold to 'Ba[..]', left the share as traces only, corrected 'zu' to 'zur' before the lordship, and reduced the buyer's surname to 'Ha[..]s(?)'. The readings 'Payr', 'Capp[lan]', 'Frewnsperg', 'Sandpetersperg', 'Bawrecht drey viertayll', 'Riets' and 'Valtein' are therefore not read on the leaf and come from the modern typed transcription slip and pencil notes on the back, which are the same object, not an independent record. The regest as Hanns Payr, Kastner of St. Petersberg for the Freundsberg family, consenting to a sale of three quarters of a Baurecht at Rietz, and the date bound 1407-1586 (the Freundsberg tenure of Petersberg, Fornwagner 1992, snippet only), all rest on that slip; the modern pencil dates '1529?' and red '1491?' are unchecked notes. The sellers' names, the price and the dating clause are lost. Searches in Google Books, the Imst Gemeindearchive inventory and monasterium.net for Hans Payr as Kastner or chaplain, Kastner of Petersberg and Rietz Baurecht found no matching act. It stays partial at low confidence because the action (a sale) is read but the consenting official, the object and the lordship rest chiefly on the modern slip.",
+  "identification": "Two strips of one German deed of sale in a sixteenth-century Kurrent hand: [sellers lost], a couple, with the knowledge and consent of the honourable and spiritual lord Hannsen p(?)ay(r?), Capp[..], appointed Castner zu [S/C/L]and[..]..rg(?), sell ('hingeben vnnd verkaufft') to Thoman(?) Ha[..]s(?) and his wife Dorothea a share of a right 'Ba[..]' in 'ainem Chamerlan.(?) genant ...', a Kammerland (a class of peasant holding in the Tyrolean Inn valley), at '[..]ets(?)', held of the 'Herrschafft zur [S/C/L]and[..]'; the names Payr, Freundsberg and St. Petersberg, the Baurecht, the three-quarter share and Rietz are supplied by a modern typed slip and pencil notes, not read on the strips; date lost",
+  "note": "The written face (canvas 0) carries two non-contiguous strips of about four long lines each; read on the image are 'Bekhennen baide vnuerschidenlichen mit disem offnen Brief', the consent of 'des Ersamen vnnd geistlichen Herren Hannsen p(?)ay(r?) Capp[..]', an appointed 'Castner zu [S/C/L]and[..]', the sale clause 'hingeben vnnd verkaufft', the buyers 'Thoman(?) Ha[..]s(?)' and 'Dorothea seiner hausfrawen', the object 'jn vnnd vmb ainem Chamerlan.(?) genant ...' and 'obgemelt gelegen das von der Herrschafft zur [S/C/L]and[..]'. Kammerland is a class of peasant holding: the 1627 cadastre of Gericht St. Petersberg calls the farms at Rietz 'Kammerland oder Lechen' (Telfer Buch, 1955, p. 165, snippet), and Stams and Wilten charter regests of 1550 and 1573 on monasterium.net record whole Kammerland holdings at Rietz, so the object is a share in a named holding of that class. The names Payr, Capplan, Freundsberg, St. Petersberg, the Baurecht, the three-quarter share and Rietz come from the modern typed transcription slip and pencil notes on the back, which also carry the unchecked modern dates '1529?' and '1491?'. Sellers, price and date are lost; searches in Google Books, four Tyrolean volumes and monasterium.net found no Hanns Payr as Kastner or chaplain and no record of this act.",
   "verify": "https://fragmentarium.ms/overview/F-gtxi",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -15090,7 +15190,7 @@
      "text_language": "German",
      "title": "Deed of sale",
      "persons": "Hannsen p(?)ay(r?); Thoman (?) Ha[..]s (?); Dorothea",
-     "description": "[Sellers lost], a couple, with the consent of the honourable and spiritual lord Hannsen p(?)ay(r?), Capp[..], Castner zu [S/C]and[..]..rg (?), sell to Thoman (?) Ha[..]s (?) and his wife Dorothea a share of a right in a holding at '[..]ets (?)' held of the Herrschafft zur [S/C]and[..]. Date lost.",
+     "description": "[Sellers lost], a couple, with the consent of the honourable and spiritual lord Hannsen p(?)ay(r?), Capp[..], Castner zu [S/C/L]and[..]..rg (?), sell to Thoman (?) Ha[..]s (?) and his wife Dorothea a share of a right in 'ainem Chamerlan.(?) genant ...', a Kammerland (a class of peasant holding in the Tyrolean Inn valley), at '[..]ets (?)', held of the Herrschafft zur [S/C/L]and[..]. Date lost.",
      "remarks": "A modern typed slip and pencil notes on the back give Hanns Payr, Kastner of St. Petersberg for the Freundsberg family, and three quarters of a Baurecht at Rietz; these are not read on the strips."
     }
    ]
@@ -15109,10 +15209,10 @@
   "catalogue_date": "not given",
   "status": "partial",
   "confidence": "low",
-  "identification": "Two separate German deeds (items 128_1 and 128_2) reused as binding wrappers (host pencilled 'aus VIII E 7'), almost entirely abraded, action and principal parties unread: document 2 is dated in the 33rd year of an unread century ('Drey vnnd d[..]ſten Jaren(?)'), Monday before St Thomas 1533 (15 Dec 1533) only from a modern pencil note, and names a '[Ger]ichtſchreiber(?) zu Ca/La..z(?)' and witnesses; document 1 has a sealing clause naming the 'Herrschafft Tirol', date lost",
-  "note": "The text faces are 128_1v and 128_2v, each with about 26-30 long lines in a German Kurrent that looks sixteenth-century; only the last four to six lines of each were read on the image, and the outer faces show ruled bands with no secure words. On 128_2v the last line reads 'in dem Drey vnnd d[..]ſten Jaren(?)': the word check found that the letters '-reiſſig-' cannot be seen under a blot, so 'thirty-third' is an inference from 'drey vnnd' followed by a tens word in d-, not a word read whole. The century, the feast and the weekday are not read on the leaf; they come only from the modern pencil note on the bottom fold, 'Mantag vor Thome Apostolj vor weichnachten (1533) 15/XII', which converts to 15 Dec 1533. The line above names '[..]ber zu Ca/La..z(?)', a '[Ger]ichtſchreiber(?)' (the place initial reads C to all readers), '[..] Benck(?)', 'sein Brue[der](?) [..] vnnd Caspar(?) [..]ter auf dem D/J?urnen(?)' and 'obgenanter Capp[..](?)'; the word check removed the earlier 'Jorg', 'Lienhart' and 'Ritten', which are not on the image. On 128_1v the closing lines give '[Herr]schafft Tirol', 'Burger(?) zu [..]' and 'vnnd Liphart [..] Insigel(?)', a sealing clause, with no legible date. No outside record was sought, since no party or action could be read. It stays partial at low confidence because both acts are documentary and a date lead and closing formulas survive, but neither the legal action nor the parties are established; UV or multispectral imaging of both text faces would be needed.",
+  "identification": "Two separate German deeds (items 128_1 and 128_2) reused as binding wrappers (host pencilled 'aus VIII E 7'), almost entirely abraded, action and principal parties unread: document 2 is dated in the 33rd year of an unread century ('in dem Drey vnnd d[..]sten Jaren(?)'), Monday before St Thomas 1533 (15 Dec 1533) only from a modern pencil note, and names a '[Ger]ichtschreiber(?) zu [C/G]a[..]n(?)' and witnesses; document 1 names the 'Herrschafft Tirol' in its closing lines, date lost",
+  "note": "The text faces are 128_1v and 128_2v, each with about 26-30 long lines in a German cursive that looks sixteenth-century; only the closing lines and a few lines of each body could be read, and the outer faces show ruled bands with no secure words. On 128_2v the last line reads '[...]nach(?) in dem Drey vnnd d[..]sten Jaren(?)' ('thirty-third' is an inference from 'drey vnnd' and a tens word in d-); no century, feast or weekday can be read at either end of the last two lines, so these come only from the modern pencil note on the bottom fold, 'Mantag vor Thome Apostolj vor weichnachten (1533) 15/XII', which converts to 15 Dec 1533. The line above has '[Ger]ichtschreiber(?) zu [C/G]a[..]n(?)', 'sein Brue[der](?) [..] vnnd Ca[sp]ar(?) [..]sser(?) auf dem [...]' and further words to the torn edge that could not be read securely (a reader without context read none of 'Benck', 'D/J?urnen', 'obgenanter' or 'Capp[..]' there); 128_1v has '[...]ers(?) Ca[sp]ar(?) [..]kh[..](?)', 'vertrag(?) gemacht(?)' and 'gnad(?) auf [..]ann(?) [H/z][....](?)' in the body and '[Herr]schafft Tirol' and 'vnnd Liphart(?)' in the closing lines, with no legible date. No outside record was sought, since no party or action could be read; it stays partial at low confidence, and ultraviolet or multispectral imaging of both text faces would be needed.",
   "verify": "https://fragmentarium.ms/overview/F-i1x7",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
   "document": true,
   "fragmentarium": {
@@ -15122,14 +15222,14 @@
      "locus": "Stams_STA_Frg_128_01v",
      "text_language": "German",
      "title": "Deed",
-     "description": "Closing lines with a sealing clause naming the Herrschaft Tirol; date lost."
+     "description": "Body with '[...]ers(?) Ca[sp]ar(?) [..]kh[..](?)'; closing lines with a sealing clause naming the Herrschaft Tirol; date lost."
     },
     {
      "locus": "Stams_STA_Frg_128_02v",
      "text_language": "German",
      "title": "Deed",
-     "description": "Closing lines naming a [Ger]ichtschreiber(?) zu Ca/La..z(?) and witnesses; dated 'in dem Drey vnnd d[..]sten Jaren(?)'.",
-     "remarks": "A modern pencil note gives Monday before St Thomas 1533 (15 December 1533)."
+     "description": "Closing lines naming a [Ger]ichtschreiber(?) zu [C/G]a[..]n(?) and witnesses, among them 'Ca[sp]ar(?) [..]sser(?)'; dated 'in dem Drey vnnd d[..]sten Jaren(?)'.",
+     "remarks": "A modern pencil note gives Monday before St Thomas 1533 (15 December 1533); century, feast and weekday are not legible on the leaf."
     }
    ]
   }
@@ -15359,12 +15459,23 @@
   "catalogue_date": "not given",
   "status": "unidentified",
   "confidence": "none",
-  "identification": "Paper strip with three lines from the middle of a German letter or letter draft in the first person, in a German cursive of the first half of the sixteenth century; sender, addressee, subject and date lost",
-  "note": "Three lines and the feet of a fourth were read on the image of the written face (canvas 0): 'auff vmb(?) der Bartl(?) geschickt vnd genugsamblich(?) mit d[..]', '[..](?)schreibt(?) / vnd yms(?) ganz heÿm gesetzt / er schickt d[..]' and 'der Vrbar(?)/Vatter(?) an(?) dise(r)?(?) belehnt(?), ich habe auch nit so hoch an[..]'. The word check corrected line 2 from a personal name 'Hanns Hayim' to 'ganz heÿm gesetzt' (left entirely to someone), so the only named person is 'Bartl(?)', for which 'Hartl' is an equal alternative. 'ich habe auch nit so hoch an[..]' and 'er schickt' are secure and show first-person letter prose. The back is blank apart from a modern pencil note 'aus Einband II/6 36 (c. 1534)': the host volume and the date are not read on the leaf and come from that modern note, which records the reported host volume; it dates neither the letter nor the binding. The same binding gave Frg. 39 (F-t8sd), schoolroom waste with German letter-formula drafts, so this may also be a practice or draft letter; the one 39_7v draft hand compared does not match, and the other German hands of Frg. 39 were not compared. No search was run, as no party or action is established.",
+  "identification": "Paper strip with three lines from the middle of a German letter or letter draft in the first person, in a loose German cursive; sender, addressee, subject and date lost",
+  "note": "Three lines and the feet of a fourth were read on the image of the written face (canvas 0): 'auff vmb(?) der Bartl(?) geschickt vnd genugsamblich(?) mit d[..]', '[..] vnd yms(?) ganz heÿm gesetzt / er schickt d[..]' and '[..] ich habe auch nit so hoch an[..]'; this is first-person letter prose, and the word read 'Bartl(?)' or 'Hartl(?)' may be a name, but a reading without context did not see B or H (it gave 'Vorte', 'Yarke', 'Vnse'), so no name is established. A modern pencil note on the back names the reported host volume ('aus Einband II/6 36 (c. 1534)'); it dates neither the letter nor the binding. The same reported host gave the schoolroom waste of Frg. 39 (F-t8sd), but the German hands there compared at reading size (pieces 2r, 6r, 6v, 7r, 7v, 8r) are not shown to be this writer, the loose cursive at the foot of 2r being the nearest. No search was run, as no party or act is established.",
   "verify": "https://fragmentarium.ms/overview/F-a6zx",
-  "examined": "2026-11-01",
+  "examined": "2026-11-10",
   "identified_on": null,
-  "document": true
+  "document": true,
+  "fragmentarium": {
+   "title": "Letter (fragment)",
+   "content": [
+    {
+     "locus": "Stams_STA_Frg_044_01r",
+     "text_language": "German",
+     "title": "Three lines from a letter or letter draft",
+     "description": "First-person letter prose from the middle of a text, with the words 'geschickt vnd', 'ganz heÿm gesetzt / er schickt' and 'ich habe auch nit so hoch'. Sender, addressee, subject and date are lost."
+    }
+   ]
+  }
  },
  {
   "id": "F-utud",
