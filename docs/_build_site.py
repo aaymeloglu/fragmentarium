@@ -278,7 +278,7 @@ def build_burndown(done):
     import csv
     sweeps = sorted((ROOT / "data").glob("unidentified-*.csv"))
     src = sweeps[-1]
-    rows = [r for r in csv.DictReader(src.open()) if r.get("scope", "title") == "title"]
+    rows = [r for r in csv.DictReader(src.open()) if r.get("scope", "title") in ("title", "generic")]
     # A worked record that a later sweep no longer finds (the catalogue has since retitled it) stays listed.
     listed = {r["fragmentarium_id"] for r in rows}
     for older in reversed(sweeps[:-1]):
@@ -337,10 +337,11 @@ def build_burndown(done):
             + '<span class="filter"><button type="button" aria-haspopup="true" aria-expanded="false" aria-label="Filter by status">▾</button>'
             f'<div class="menu" hidden>{menu}<button class="all" type="button">Show all</button></div></span></th></tr></thead>')
     body = ("<h1>Burndown</h1>"
-            f'<p class="lede">All {len(rows) - extra} Fragmentarium records whose title or summary says “unidentified”, “unknown” or the same in another language (sweep of '
+            f'<p class="lede">All {len(rows) - extra} Fragmentarium records whose title or summary says “unidentified”, “unknown” or the same in another language, '
+            f'or whose title names only a kind of text (“Legal text”, “Sermones”, “Commentary on the Psalms”) (sweep of '
             f'{src.name[13:23]}), and {extra} worked records catalogued only by type, ranked by a rough priority: Latin, large, 13th to 16th century, and a genre that was '
             f'likely printed score highest, because those are the ones a search can settle. {n_done} worked so far. '
-            f'Size sorts by area. The list is a floor: records with vague titles that omit the word are not in it yet. '
+            f'Size sorts by area. Liturgical and biblical books (“Missal”, “Antiphonal”) are not listed. '
             f'<a href="index.html">Back to results</a>.</p>'
             '<p class="shown" id="shown"></p>'
             '<table class="idx sortable burndown">' + head + "<tbody>"

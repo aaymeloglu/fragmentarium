@@ -35,7 +35,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-UA = {"User-Agent": "Mozilla/5.0 (fragmentarium tools)"}
+# Without an Accept header Fragmentarium answers 404 for some manifests that exist.
+UA = {"User-Agent": "Mozilla/5.0 (fragmentarium tools)", "Accept": "*/*"}
 
 
 GALLICA = "https://gallica.bnf.fr/iiif/"
@@ -74,10 +75,9 @@ def _numbered(base):
 
 
 def get(url, timeout=60, tries=3, pause=2.0):
-    """Bytes at `url`. Retries transient failures (Fragmentarium manifests sometimes answer 404 once and
-    then work; servers throttle with 429/5xx). A server whose TLS certificate fails verification
-    (dams.antwerpen.be) is fetched without verification, with a warning: the content is public images
-    and catalogue data, and nothing is sent."""
+    """Bytes at `url`. Retries transient failures (servers throttle with 429/5xx). A server whose TLS
+    certificate fails verification (dams.antwerpen.be) is fetched without verification, with a
+    warning: the content is public images and catalogue data, and nothing is sent."""
     import ssl
     import time
     import urllib.error
