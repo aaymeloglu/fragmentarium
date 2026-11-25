@@ -45,12 +45,12 @@ LEDGER = ROOT / "data" / "fragments.json"
 
 
 def candidates(sweep=SWEEP, ledger=LEDGER):
-    """Sweep rows about an unidentified text (scope `title`; every row of a list without scopes) and
-    with no ledger row, as {id: row}."""
+    """Sweep rows about an unidentified text (scope `title` or `generic`; every row of a list without
+    scopes) and with no ledger row, as {id: row}."""
     done = {row["id"] for row in json.loads(Path(ledger).read_text(encoding="utf-8"))}
     with open(sweep, newline="", encoding="utf-8") as handle:
         return {row["fragmentarium_id"]: row for row in csv.DictReader(handle)
-                if row["fragmentarium_id"] not in done and row.get("scope", "title") == "title"}
+                if row["fragmentarium_id"] not in done and row.get("scope", "title") in ("title", "generic")}
 
 
 def siblings(shelfmark, ledger):

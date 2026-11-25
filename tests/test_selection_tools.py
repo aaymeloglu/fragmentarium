@@ -136,8 +136,8 @@ def test_candidates_are_sweep_rows_without_a_ledger_row(tmp_path):
     ledger = tmp_path / 'ledger.json'
     ledger.write_text(json.dumps([{'id': 'F-aaaa'}]), encoding='utf-8')
     assert list(survey.candidates(sweep, ledger)) == ['F-bbbb']
-    sweep.write_text('fragmentarium_id,title,scope\nF-bbbb,Two,title\nF-cccc,Three,host\n', encoding='utf-8')
-    assert list(survey.candidates(sweep, ledger)) == ['F-bbbb']
+    sweep.write_text('fragmentarium_id,title,scope\nF-bbbb,Two,title\nF-cccc,Three,host\nF-dddd,Legal text,generic\n', encoding='utf-8')
+    assert list(survey.candidates(sweep, ledger)) == ['F-bbbb', 'F-dddd']
 
 
 def test_a_record_sharing_a_shelfmark_with_a_ledger_record_is_a_sibling():
@@ -181,6 +181,31 @@ def test_sweep_merges_terms_and_keeps_unknown_only_for_titles():
     assert rows['F-63r4']['terms'] == ['unidentified', 'unknown'] and rows['F-63r4']['scope'] == 'title'
     rows = sweep.sweep(['unknown'], get=lambda term, page: pages.get((term, page), ''), pause=0)
     assert rows['F-63r4']['scope'] == 'host'
+
+
+def test_generic_titles_name_a_kind_of_text_only():
+    for title in ['Legal text', 'Theological Texts (Fragm. lat. VII 31)', 'Sermones (?)', 'Middle Dutch prayer book',
+                  'Commentary on the Psalms', "Question commentary on Aristoteles' Physica", 'Latin fragment', '']:
+        assert sweep.generic(title), title
+    for title in ['Petrus Lombardus, Sententiae', "Bede's commentary on Luke", 'Missal', 'Glossed Bible',
+                  'Book of Hours (Use of Rome)', 'Alexander de Villa Dei, Doctrinale', 'Fulda Legendary',
+                  'Notes in Latin on recent events by Gerulfus Borluut']:
+        assert not sweep.generic(title), title
+
+
+def test_catalogue_walk_adds_generic_titles_without_overriding_term_hits():
+    facets = ('<input name="aSelectedFacets[country_code_facet][]" value="BE" />'
+              '<input name="aSelectedFacets[country_code_facet][]" value="AT" />')
+    page = lambda fid, title: (f'<div class="search-result row"><div class="document-title"> {title} </div>'
+                               f'<div class="document-title"> {fid} </div></div>')
+    pages = {('AT', 1): page('F-aaaa', 'Legal text') + page('F-63r4', 'Sermones'),
+             ('BE', 1): page('F-bbbb', 'Missal') + page('F-cccc', 'Commentary on the Psalms')}
+    everything = sweep.walk(get=lambda c, p: pages.get((c, p), ''), first=lambda: facets, pause=0)
+    assert sorted(everything) == ['F-63r4', 'F-aaaa', 'F-bbbb', 'F-cccc']
+    rows = sweep.sweep(['unidentified'], get=lambda term, p: SEARCH_PAGE if p == 1 else '', pause=0)
+    assert sweep.add_generic(rows, everything) == 2
+    assert rows['F-63r4']['scope'] == 'title' and rows['F-aaaa']['scope'] == rows['F-cccc']['scope'] == 'generic'
+    assert 'F-bbbb' not in rows or rows['F-bbbb']['scope'] != 'generic'
 
 
 def test_attached_transcriptions_are_listed_once_and_only_for_this_record():

@@ -97,7 +97,7 @@ def test_burndown_page_lists_corpus_and_marks_done():
     page = (ROOT / "docs" / "burndown.html").read_text()
     sweeps = sorted((ROOT / "data").glob("unidentified-*.csv"))
     with sweeps[-1].open() as f:
-        listed = {r["fragmentarium_id"] for r in csv.DictReader(f) if r.get("scope", "title") == "title"}
+        listed = {r["fragmentarium_id"] for r in csv.DictReader(f) if r.get("scope", "title") in ("title", "generic")}
     listed |= {r["id"] for r in DATA}  # worked records stay listed after the catalogue retitles them
     assert page.count("<tr>") == len(listed) + 1
     for r in DATA:
