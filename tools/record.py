@@ -18,7 +18,9 @@ Every result updates the fragment's ledger row and sets `examined`. An identifie
 linked to the first reading `<batch>-image-only`. An identified result whose identification the
 scholarship had already published for this fragment carries `known_from` (the citation): it is
 recorded like any other and kept off the site and out of its count. An archival document carries
-`"document": true` (its `verify` is a record of the act, labelled as such on the site). `thumbnail_canvas`
+`"document": true` (its `verify` is a record of the act, labelled as such on the site). An identified or partial result carries a `fragmentarium` block (the fields for the
+Fragmentarium record, CONVENTIONS.md), or keeps the one already on the row; it is refused without one.
+`thumbnail_canvas`
 points the thumbnail at that canvas of the manifest (cached by `acquire_batch.py`, else fetched),
 for records whose first canvas is the back. A report already at `fragments/<id>/README.md` is left
 in place. Paths are relative to the results file. Reports
@@ -64,6 +66,10 @@ def apply(root, results, base, batch, reader, today, cache=None):
         kind = "document" if result.get("document") else result.get("kind")
         if status == "identified" and kind not in KINDS:
             raise ValueError(f"{fid}: an identification needs a kind, one of {sorted(KINDS)}")
+        block = result.get("fragmentarium") or row.get("fragmentarium")
+        if status in ("identified", "partial") and not (block and block.get("content")):
+            raise ValueError(f"{fid}: an identified or partial result needs a `fragmentarium` block "
+                             "(fields for the Fragmentarium record; see CONVENTIONS.md)")
         for key in ("report", "assisted"):
             if result.get(key) and LOCAL.search((base / result[key]).read_text(encoding="utf-8")):
                 raise ValueError(f"{fid}: {key} contains a local path")
@@ -86,6 +92,8 @@ def apply(root, results, base, batch, reader, today, cache=None):
             row["kind"] = kind
         else:
             row.pop("kind", None)
+        if result.get("fragmentarium"):
+            row["fragmentarium"] = result["fragmentarium"]
         if result.get("document"):
             row["document"] = True
         elif "document" in result:

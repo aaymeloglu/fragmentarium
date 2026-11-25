@@ -89,8 +89,21 @@ applies:
  "verify": "<one public address of the edition or manuscript compared>",
  "report": "<F-id>.README.md", "assisted": "<F-id>.assisted.txt",
  "sources": ["<citation with page or locus for each source used>"],
- "reason": "<one sentence: why the reading was revised with the source>"}
+ "reason": "<one sentence: why the reading was revised with the source>",
+ "fragmentarium": {"title": "<Author, Work>", "subtitle": "<locus>",
+   "persons": [{"role": "Author", "name": "<Author>"}],
+   "content": [{"locus": "<the record's canvas labels>", "text_language": "Latin",
+     "title": "<Author, Work, locus>", "persons": "<Author>",
+     "description": "<place in the work; Inc./Expl. when continuous>",
+     "remarks": "<witness or edition compared, differences, leaf order, what is open>"}],
+   "bibliography": ["<edition or manuscript compared, with pages>"]}}
 ```
+
+`fragmentarium` is required: the fields for the Fragmentarium record, in the
+form `CONVENTIONS.md` ("Report and record format") describes. Give only what
+the catalogue record should change or add; leave out fields that would repeat
+it, and leave out `dated`, `places` or `liturgica` unless the evidence
+supports them.
 
 `kind` sorts the record on the site: theology (Bible, commentary, sermons,
 saints' lives, devotion), law, science (medicine, natural science, computus),

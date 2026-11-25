@@ -65,6 +65,13 @@ preserve original readings, distinguish source assistance, and support each
 claim with the evidence actually checked. Research tactics are adaptable.
 Tool availability is not a reason to mislabel evidence or repeat failed work.
 
+Every identified or partial result ships with the fields for the Fragmentarium
+record: a `fragmentarium` block in its `data/fragments.json` row (title,
+persons, tags, content items, bibliography), written in Fragmentarium's own
+field names so the finding can be passed back to the catalogue. Write it with
+the result, not later; CONVENTIONS.md ("Report and record format") gives the
+fields, `tools/record.py` refuses a result without one, and CI checks it.
+
 Where to begin, by request:
 
 - **One named fragment** (`F-xxxx` or a fragmentarium.ms link): check

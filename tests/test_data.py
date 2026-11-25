@@ -116,3 +116,14 @@ def test_tools_parse():
     import ast
     for p in (ROOT / "tools").glob("*.py"):
         ast.parse(p.read_text(), filename=str(p))
+
+
+def test_fragmentarium_block_on_identified_and_partial_rows():
+    """Every identified or partial row carries the fields for the Fragmentarium record."""
+    for r in DATA:
+        if r["status"] not in ("identified", "partial"):
+            continue
+        block = r.get("fragmentarium")
+        assert block and block.get("content"), (r["id"], "needs a `fragmentarium` block with content")
+        for item in block["content"]:
+            assert item.get("title"), (r["id"], "content items need a title")
