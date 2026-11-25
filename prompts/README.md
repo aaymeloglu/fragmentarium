@@ -51,5 +51,7 @@ One batch, in order:
    their answers up by crop. Reread every disagreement on the image and correct
    the reading or mark it uncertain; the image decides, not a majority. A
    checker with the report open tends to confirm its readings of single words.
-7. `report-brief.md` for those that hold; `tools/record.py` for every record;
+7. `report-brief.md` for those that hold, whose result includes the
+   `fragmentarium` block; the coordinator writes the block for each partial
+   (CONVENTIONS.md, "Report and record format"); `tools/record.py` for every record;
    rebuild the site; write the batch note in `audits/`.

@@ -159,6 +159,32 @@ independent evidence. Do not fabricate a base to satisfy the schema.
 identification confidence, links, order, identification date, and examination date. An identified row carries a `kind` (theology, law, science, arts, liturgy or document), which the site's filter uses. An archival document's row carries `"document": true` and kind `document`; its `verify` link is a record of the act, shown as "Outside record", and is the catalogue record itself when no outside record exists. `docs/_build_site.py` renders the
 site; CI checks record preservation, data consistency, and generated pages.
 
+Every identified or partial row also carries a `fragmentarium` block: the
+fields for the Fragmentarium record, in Fragmentarium's own field names and
+style, shown on the site as "Fields for the Fragmentarium record". It holds
+what the catalogue record should say, not what it already says: omit any field
+that would only repeat the current record.
+
+- `title`, `subtitle`: the corrected title, where the record's title is
+  generic or wrong (for an identification, author and work; for a partial,
+  the best description of the text).
+- `persons`: `[{"role": "Author", "name": ...}]` for a named author.
+- `tags`: topic tags in Fragmentarium's vocabulary (`Topic: Canon Law`,
+  `Topic: legal`, `Topic: theology`, `Topic: sermons`, `Topic: Philosophy`,
+  `Topic: grammar`, `Topic: Bible`, `Topic: Liturgy`, ...), only where the
+  record lacks or misstates them.
+- `liturgica`, `dated`, `places`: only where the evidence supports them.
+- `content`: one item per text, each with `locus` (the record's canvas or
+  folio labels, where the report ties the text to them), `text_language`,
+  `title`, `persons` (plain names), `description` (place in the work, with
+  Inc./Expl. when the text runs continuously; one plain sentence for strips)
+  and `remarks` (witnesses, editions compared, differences, leaf order, what is
+  open).
+- `bibliography`: the editions or manuscripts compared, with pages or folios.
+
+`tools/record.py` refuses an identified or partial result without one, and CI
+checks that every such row has it.
+
 When outreach is explicitly requested, use Fragmentarium's catalogue field names
 (Title, Subtitle, Persons, Date of origin, Script Type, Reconstruction Summary,
 Bibliography), address fragmentarium@unifr.ch with the holding library copied,

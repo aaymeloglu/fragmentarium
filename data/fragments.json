@@ -15523,7 +15523,34 @@
   "verify": "https://gallica.bnf.fr/ark:/12148/btv1b100366216",
   "examined": "2026-11-25",
   "identified_on": "2026-11-25",
-  "kind": "theology"
+  "kind": "theology",
+  "fragmentarium": {
+   "title": "Nicholas Trevet, commentary on Augustine, De civitate Dei",
+   "subtitle": "Book III, chapters 17-30",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Nicolaus Trevet"
+    }
+   ],
+   "tags": [
+    "Topic: theology"
+   ],
+   "content": [
+    {
+     "locus": "1r-8v",
+     "text_language": "Latin",
+     "title": "Nicholas Trevet, Commentarius in Augustini De civitate Dei, III.17-30",
+     "persons": "Nicolaus Trevet",
+     "description": "A commentary that numbers the events Augustine alludes to in book III and supplies them from Livy, Orosius, Valerius Maximus and Seneca, from chapter 17 (fourth point) to chapter 30. 'Liber 3' and the chapter numbers are Augustine's.",
+     "remarks": "Not a chronicle. The text agrees almost word for word with Paris, BnF, Latin 2075, ff. 125v-126r. The attribution rests on the BnF catalogue, a later note on f. 1r of Latin 2075 and Ridewall's citation of the remark on Marcus Drusus. The printed commentary of Thomas Waleys on book III is a different text."
+    }
+   ],
+   "bibliography": [
+    "Paris, BnF, Latin 2075, ff. 113-161",
+    "T. Kaeppeli, 'Une critique du commentaire de Nicolas Trevet sur le De civitate Dei', Archivum Fratrum Praedicatorum 29 (1959), 200-205"
+   ]
+  }
  },
  {
   "id": "F-5wen",
@@ -15543,7 +15570,37 @@
   "verify": "https://archive.org/details/bub_gb_78lz_oucS0QC/page/n542/mode/1up",
   "examined": "2026-11-25",
   "identified_on": "2026-11-25",
-  "kind": "theology"
+  "kind": "theology",
+  "fragmentarium": {
+   "title": "Hugh of Saint-Cher, Postilla super Ieremiam",
+   "subtitle": "Jeremiah 49-51",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Hugo de Sancto Caro"
+    }
+   ],
+   "content": [
+    {
+     "locus": "fol. [1]r; fol. [1]v; fol. [2]r; fol. [2]v",
+     "text_language": "Latin",
+     "title": "Hugh of Saint-Cher, Postilla super Ieremiam, on Jer 49:27-50:16",
+     "persons": "Hugo de Sancto Caro",
+     "description": "Literal and mystical exposition with underlined lemmata; chapter 50 divided 'in xi partes'."
+    },
+    {
+     "locus": "fol. [3]r; fol. [3]v; fol. [4]r; fol. [4]v",
+     "text_language": "Latin",
+     "title": "Hugh of Saint-Cher, Postilla super Ieremiam, on Jer 50 (end) - 51:16",
+     "persons": "Hugo de Sancto Caro",
+     "description": "Exposition of the end of chapter 50 and the beginning of chapter 51, divided 'in xv partes'.",
+     "remarks": "The two bifolia were not adjacent: the exposition of Jer 50:16-44 is missing between fol. [2]v and [3]r."
+    }
+   ],
+   "bibliography": [
+    "Hugonis de Sancto Charo ... Tomus quartus, In libros Prophetarum Isaiae, Ieremiae ... (Lyon, 1669), fols. 273r-273v"
+   ]
+  }
  },
  {
   "id": "F-xmi2",
@@ -15562,7 +15619,22 @@
   "note": "A lecture commentary on Ezekiel 38-39 that takes the Glossa ordinaria as its lemmata. Wording absent from the Gloss agrees closely with Stephen Langton's Ezekiel commentary in Brugge, Openbare Bibliotheek, MS 38, ff. 115v-117r (read on images), but order and wording differ elsewhere and the leaf has passages Brugge 38 lacks, so it may be another reportatio of Langton, a text dependent on him or an earlier source such as Peter the Chanter. Langton's moral commentary and Hugh of Saint-Cher's postill were read and rejected. The catalogue's faces are in reverse order.",
   "verify": "https://fragmentarium.ms/overview/F-xmi2",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "subtitle": "Ez 38:4-39:29",
+   "tags": [
+    "Topic: Bible"
+   ],
+   "content": [
+    {
+     "locus": "F34_v; F34_r",
+     "text_language": "Latin",
+     "title": "Lecture commentary on the glossed Ezekiel, Ez 38:4-39:29",
+     "description": "Takes the words of the Glossa ordinaria as lemmata ('glo.', 'interl.') and turns to chapter 40.",
+     "remarks": "Close to Stephen Langton's Ezekiel commentary in Brugge, Openbare Bibliotheek, MS 38, ff. 115v-117r, in matter absent from the Gloss, but differing in order and wording and with passages Brugge 38 lacks. F34_v precedes F34_r."
+    }
+   ]
+  }
  },
  {
   "id": "F-zms8",
@@ -15582,7 +15654,37 @@
   "verify": "https://archive.org/details/ARes01409/page/n426",
   "examined": "2026-11-25",
   "identified_on": "2026-11-25",
-  "kind": "law"
+  "kind": "law",
+  "fragmentarium": {
+   "title": "Hostiensis, Summa aurea, book III",
+   "subtitle": "De decimis (end); De regularibus et transeuntibus ad religionem (beginning)",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Henricus de Segusio (Hostiensis)"
+    }
+   ],
+   "content": [
+    {
+     "locus": "fol. [1]v; fol. [1]r",
+     "text_language": "Latin",
+     "title": "Hostiensis, Summa aurea III, De decimis, questions 12-17",
+     "persons": "Hostiensis",
+     "description": "The end of the title on tithes, from the twelfth to the seventeenth question (on first fruits).",
+     "remarks": "The catalogue's verso is the first page of the text."
+    },
+    {
+     "locus": "fol. [1]r",
+     "text_language": "Latin",
+     "title": "Hostiensis, Summa aurea III, De regularibus et transeuntibus ad religionem",
+     "persons": "Hostiensis",
+     "description": "The rubric and opening of the title on regulars: 'Tractatum est supra de clericis secularibus ...', 'Quis sit regularis'."
+    }
+   ],
+   "bibliography": [
+    "Henricus de Segusio, Summa aurea (Turin: heirs of N. Bevilaqua, 1579), fols. 213v-214r"
+   ]
+  }
  },
  {
   "id": "F-xd3f",
@@ -15601,7 +15703,23 @@
   "note": "The strips carry a literal commentary on Peri hermeneias whose opening (logic as an instrument, after Simplicius), accessus and three notabilia agree near-verbatim and in sequence with Erfurt, UB, CA 2 135, ff. 125ra and 131ra-rb, read on page images. Venice, Marc. lat. VI 21 ascribes this set to Siger of Courtrai (ed. Verhaak 1964). The fragment has a lemma-by-lemma exposition and a fuller accessus that Erfurt lacks, which may be the longer Venice redaction; neither Venice nor Verhaak's edition was reached, so the redaction and the attribution are left open. Three compressed lines read with Erfurt in hand were withdrawn after a blind check.",
   "verify": "https://fragmentarium.ms/overview/F-xd3f",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "tags": [
+    "Topic: Philosophy"
+   ],
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Literal commentary on Aristotle, Peri hermeneias, of the ars vetus set ascribed to Siger of Courtrai",
+     "description": "Opening ('secundum Simplicium logica est instrumentum ...'), accessus with a quotation from Themistius, and lemma-by-lemma exposition with notabilia; rubrics 'Quod sit una affirmatio et una negacio' and 'Que sunt determinate vere et determinate false'.",
+     "remarks": "Agrees with Erfurt, UB, CA 2° 135, ff. 125ra and 131ra-rb, where the set is given to Thomas Aquinas; Venice, Marc. lat. VI 21 gives it to Siger of Courtrai. The fragment is fuller than Erfurt; the redaction is open."
+    }
+   ],
+   "bibliography": [
+    "G. Verhaak, Zeger van Kortrijk, Commentator van Perihermeneias (Brussels, 1964)"
+   ]
+  }
  },
  {
   "id": "F-r5u2",
@@ -15621,7 +15739,30 @@
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb00093258?page=808",
   "examined": "2026-11-25",
   "identified_on": "2026-11-25",
-  "kind": "law"
+  "kind": "law",
+  "fragmentarium": {
+   "title": "Guido de Baysio, Rosarium super Decreto",
+   "subtitle": "De consecratione D. 2 (end) - D. 3",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Guido de Baysio"
+    }
+   ],
+   "content": [
+    {
+     "locus": "fol. [1]r; fol. [1]v",
+     "text_language": "Latin",
+     "title": "Guido de Baysio, Rosarium super Decreto, De consecratione D. 2-3",
+     "persons": "Guido de Baysio",
+     "description": "From the closing glosses of the chapter before 'Si credis' (D. 2) through D. 3 'Pronuntiandum' and the section 'De esu' on abstinence from meat on Wednesdays and Fridays, to 'Ieiunia' ('hic incipit .vi. pars').",
+     "remarks": "The same sigla as the 1481 edition (hu., lau., io. de fan., tho.). The fasting passage quotes Thomas Aquinas. Bellemère's Commentaria in Gratiani Decreta reuses some of these sentences and was rejected on text from search snippets only."
+    }
+   ],
+   "bibliography": [
+    "Guido de Baysio, Rosarium decretorum (Venice, 1481; GW 03747), Munich, BSB, digital copy bsb00093258, scans 806-808"
+   ]
+  }
  },
  {
   "id": "F-gcgt",
@@ -15641,7 +15782,27 @@
   "verify": "https://archive.org/details/bim_early-english-books-1475-1640_libellus-sophistarum-ad-_libellus_1510/page/n100",
   "examined": "2026-11-25",
   "identified_on": "2026-11-25",
-  "kind": "science"
+  "kind": "science",
+  "fragmentarium": {
+   "title": "Termini naturales",
+   "subtitle": "In the form printed as 'Tractatus de naturalibus' in the Libellus sophistarum ad usum Oxoniensium",
+   "tags": [
+    "Topic: Philosophy"
+   ],
+   "content": [
+    {
+     "locus": "fol. [1]v; fol. [1]r",
+     "text_language": "Latin",
+     "title": "Termini naturales (attributed in some manuscripts to William Heytesbury)",
+     "description": "A glossary of natural philosophy: the middle-degree rule, motion, intension and remission, the four causes with the example of the house, and the figures of bodies.",
+     "remarks": "The text runs from the catalogue's verso to its recto. The wording is close to the Oxford print but not identical (the leaf is fuller on the final cause), so the version is open. Thorndike-Kibre col. 901."
+    }
+   ],
+   "bibliography": [
+    "Libellus sophistarum ad usum Oxoniensium (London: Wynkyn de Worde, 1510), 'Tractatus de naturalibus'",
+    "L. Thorndike and P. Kibre, A Catalogue of Incipits of Mediaeval Scientific Writings in Latin, col. 901"
+   ]
+  }
  },
  {
   "id": "F-rx24",
@@ -15660,7 +15821,24 @@
   "note": "Working-hand sermons: one on St Bernard with a four-part rhymed division citing his homilies Super Missus est and letters to Eugenius, the opening of a sermon on 'Quasi flos rosarum', and one or two on 'Vidi afflictionem populi mei'. No collection or author was found in Schneyer, Google Books, the Internet Archive, Corpus Corporum or CoMMA. A lead to Nicolaus de Gorran's sermon 549 rested on readings that the blind check did not support, and the Bernard name on 4r is not confirmed.",
   "verify": "https://fragmentarium.ms/overview/F-rx24",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "tags": [
+    "Topic: sermons"
+   ],
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Sermon on St Bernard",
+     "description": "A four-part rhymed division (contemplation, charity, preaching, chastity), citing Bernard's homilies Super Missus est and letters to Eugenius."
+    },
+    {
+     "text_language": "Latin",
+     "title": "Sermons on 'Quasi flos rosarum' and 'Vidi afflictionem populi mei'",
+     "description": "Openings only."
+    }
+   ]
+  }
  },
  {
   "id": "F-23p7",
@@ -15679,7 +15857,23 @@
   "note": "Pieces 3-4 carry a Last Judgment sermon on the seven thunders that follows Herolt's Sermo V 'De septem tonitruis' in order and matter but not in wording, and at the fourth thunder inserts the speeches 'Ego sum illa maledicta superbia / avaricia' found in Peregrinus of Opole (Dom. XXII post oct. Pent.); strip 5r has the Gregory quotation of Herolt's Sermo VI. Both prints were read on page images; the fragment is a reworking or relative, and the containing work was not found. Pieces 1-2 (pax, gaudium, Mary's humility) are unidentified beyond the quoted authorities.",
   "verify": "https://archive.org/details/A335123/page/n62/mode/1up",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "tags": [
+    "Topic: sermons"
+   ],
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Sermon on the Last Judgment and the seven thunders (Apoc 10)",
+     "description": "A roll-call of saints and devils and the four orders at the Judgment; at the fourth thunder the sins speak ('Ego sum illa maledicta superbia ... avaricia').",
+     "remarks": "Related to Johannes Herolt, Sermones Discipuli de tempore, sermo V 'De septem tonitruis', in order and matter but not wording; the speeches of the sins are as in Peregrinus of Opole, Dom. XXII post oct. Pent. Pieces 1-2 carry other sermon matter (pax, gaudium spirituale, Mary's humility)."
+    }
+   ],
+   "bibliography": [
+    "Johannes Herolt, Sermones Discipuli de tempore (Lyon, 1487), sermo V"
+   ]
+  }
  },
  {
   "id": "F-kzqr",
@@ -15699,7 +15893,30 @@
   "verify": "https://individual.utoronto.ca/pking/resources/buridan/Summulae_de_dialectica.txt",
   "examined": "2026-11-25",
   "identified_on": "2026-11-25",
-  "kind": "arts"
+  "kind": "arts",
+  "fragmentarium": {
+   "title": "John Buridan, Summulae de dialectica, tract VII (De fallaciis)",
+   "subtitle": "7.4.3, ignorantia elenchi",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Johannes Buridanus"
+    }
+   ],
+   "content": [
+    {
+     "locus": "fol. [1]r; fol. [1]v",
+     "text_language": "Latin",
+     "title": "John Buridan, Summulae de dialectica VII, 7.4.3",
+     "persons": "Johannes Buridanus",
+     "description": "Buridan's commentary on the fallacy of ignorantia elenchi: whether it is a fallacy outside the wording, the defects of contradiction, and the examples of the chimera and of the body larger in length.",
+     "remarks": "Compared with H. Hubien's electronic text of the Summulae, not with a printed edition or a manuscript."
+    }
+   ],
+   "bibliography": [
+    "Iohannes Buridanus, Summulae de dialectica, electronic text by H. Hubien, 7.4.3"
+   ]
+  }
  },
  {
   "id": "F-5552",
@@ -15719,7 +15936,33 @@
   "verify": "https://archive.org/details/bub_gb_e1Ux1qOnYZEC/page/n412",
   "examined": "2026-11-25",
   "identified_on": "2026-11-25",
-  "kind": "law"
+  "kind": "law",
+  "fragmentarium": {
+   "title": "Johannes de Imola, Commentaria in librum tertium Decretalium",
+   "subtitle": "X 3.17.6 (De emptione et venditione, c. Cum causa)",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Johannes de Imola"
+    }
+   ],
+   "tags": [
+    "Topic: Canon Law"
+   ],
+   "content": [
+    {
+     "locus": "fol. [1]r; fol. [2]r; fol. [2]v; fol. [1]v",
+     "text_language": "Latin",
+     "title": "Johannes de Imola, Commentaria in librum tertium Decretalium, on X 3.17.6 (Cum causa)",
+     "persons": "Johannes de Imola",
+     "description": "Commentary on the restitution of minors, the oath not to contravene a sale and the certification of women and minors, with allegations to the Digest and the Code; running title 'de emptor[e] et vendi[tore]'.",
+     "remarks": "Canon law, not Roman law: a canonist's lectura on the Decretals. The two strips are the halves of one leaf; the text runs fol. [1]r, [2]r, [2]v, [1]v. The leaf has the clause 'de officio iudicis deserviente actioni ex eo contractu, non autem', which the Venice 1575 edition lacks. The chapter is inferred from cross-references."
+    }
+   ],
+   "bibliography": [
+    "Ioannis ab Imola in tertium Decretalium commentaria (Venice, 1575), fols. 199v-200v"
+   ]
+  }
  },
  {
   "id": "F-reyc",
@@ -15739,7 +15982,30 @@
   "verify": "https://archive.org/details/bub_gb_3qa8GbrPNXYC/page/n218",
   "examined": "2026-11-25",
   "identified_on": "2026-11-25",
-  "kind": "law"
+  "kind": "law",
+  "fragmentarium": {
+   "title": "Dinus de Mugello, Commentarius in regulas iuris (Liber Sextus, De regulis iuris)",
+   "subtitle": "Regulae 20-21 and 30-32",
+   "persons": [
+    {
+     "role": "Author",
+     "name": "Dinus de Mugello"
+    }
+   ],
+   "content": [
+    {
+     "locus": "fol. [1]r; fol. [1]v; fol. [2]r; fol. [2]v",
+     "text_language": "Latin",
+     "title": "Dinus de Mugello, Commentarius in regulas iuris pontificii, regulae 20-21 and 30-32",
+     "persons": "Dinus de Mugello",
+     "description": "Leaf [1] has the end of the commentary on regula 20 and on regula 21 (on confession and the indebitum); leaf [2] has regulae 30 and 31 (Eum qui certus est) and the beginning of 32 (Non licet actori), with a framed catchword at the foot of fol. [2]v.",
+     "remarks": "The outer bifolium of a quire. The text agrees closely with the Lyon 1563 edition; the leaf reads 'actione venditi' where the print has 'actione redhibitoria'. The catchword is not secure; the reading 'impetere prohibetur' is not supported."
+    }
+   ],
+   "bibliography": [
+    "Dyni Muxellani Commentarius in regulas iuris pontificii (Lyon: heirs of Jacopo Giunta, 1563), pp. 127-129, 166-171"
+   ]
+  }
  },
  {
   "id": "F-ghq7",
@@ -15777,7 +16043,22 @@
   "note": "From the red initial on the recto the leaf carries a sermon headed 'Sermo bonus' on Io 6:44, with a procession of sinners led to judgment from Cain onwards (Nemrod, Achitophel, Aman, Pilate, Balaam), each 'cum omnibus' his followers. Its thema, opening sentence and procession agree with the catalogue incipit and summary of Eichstaett st 447 ff. 245vb-247ra and Nuernberg, Stadtbibliothek, Cent. IV 82, ff. 426ra-427va; no copy is online and no edition was found, so only incipits were compared. The leaf's division reads 'iudicium futurum, mors et infernus' (confirmed by two blind readers), where the Eichstaett summary has the devil, and its wording differs from the first lines, so it may be another redaction. The 17 lines before the sermon are unidentified.",
   "verify": "https://fragmentarium.ms/overview/F-deal",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Sermon on Io 6:44, 'Nemo venit ad me nisi pater meus traxerit eum'",
+   "tags": [
+    "Topic: sermons"
+   ],
+   "content": [
+    {
+     "locus": "Fragm_727_r; Fragm_727_v",
+     "text_language": "Latin",
+     "title": "Sermo bonus on Io 6:44 (procession of sinners at the Judgment)",
+     "description": "Headed 'Sermo bonus'. Division: 'iudicium futurum, mors et infernus'. At the Judgment the sinners are led forward each 'cum omnibus' his followers, from Cain onwards, among them Nemrod, Achitophel, Aman, Pilate and Balaam.",
+     "remarks": "The same sermon is catalogued in Eichstätt, UB, Cod. st 447, ff. 245vb-247ra, and Nürnberg, Stadtbibliothek, Cent. IV 82, ff. 426ra-427va; compared with their catalogue incipits only. The seventeen lines before the sermon are from another text."
+    }
+   ]
+  }
  },
  {
   "id": "F-s7q4",
@@ -15815,7 +16096,26 @@
   "note": "Several small paper booklets in different hands: Last Judgment questions, Advent, Christmas and Marian collations, a Passion piece on Lam 1:12, Marian and St Bernard sermons and Easter-season sermons. Frag. 3r excerpts Aquinas, Super Sent. IV d. 50 q. 2 a. 2 and a. 4, and d. 45 q. 1 a. 1 ('super iiii di. xlv', read by two blind readers), as 'Queritur utrum ... Respondeo secundum Thomam', collated against the Corpus Thomisticum text. Frag. 4v closes with a prayer from Conrad of Saxony's Speculum BMV ('O aurora ... fac ut nobiscum sit sol sapientie'), seen in snippets only. No containing work was found; these may be a monk's own notes.",
   "verify": "https://www.corpusthomisticum.org/snp4050.html",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Sermon and question notebooks",
+   "tags": [
+    "Topic: sermons"
+   ],
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Questions on the state of the blessed and the damned after the Judgment, excerpted from Thomas Aquinas",
+     "description": "Frag. 3r: 'Queritur utrum ... Respondeo secundum Thomam', from Super Sent. IV d. 50 q. 2 a. 2 and a. 4, and d. 45 q. 1 a. 1 ('super iiii di. xlv')."
+    },
+    {
+     "text_language": "Latin",
+     "title": "Marian sermon on 'Dominus tecum'",
+     "description": "Frag. 4v closes with the prayer 'O aurora suavissima, fac ut nobiscum sit sol sapientie ...'.",
+     "remarks": "The prayer is in Conrad of Saxony, Speculum beatae Mariae virginis (Quaracchi, 1904), p. 189 (compared from snippets)."
+    }
+   ]
+  }
  },
  {
   "id": "F-q66i",
@@ -15834,7 +16134,21 @@
   "note": "Not a commentary: cases headed 'thema' in red, then 'queritur an possit', arguments for and against with allegations from Gratian and the Digest and no decretal seen. Cases read include a bishop forcing secular canons to take the habit, a long-kept woman, tithes and the election of a bishop known only by repute. It is not the Stuttgart quaestiones (Thaner 1874); the collection was not found, and Fransen's repertory of canonists' quaestiones is the next step. A blind reader supports the catalogue's 'redarguendum' at the head of the verso.",
   "verify": "https://fragmentarium.ms/overview/F-q66i",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Decretist quaestiones disputatae",
+   "tags": [
+    "Topic: Canon Law"
+   ],
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Collection of quaestiones disputatae",
+     "description": "Cases headed 'thema', then 'queritur an possit', with arguments for and against and allegations from Gratian and the Digest: a bishop forcing secular canons to take the habit, a long-kept woman, tithes, the election of a bishop known only by repute.",
+     "remarks": "Not the Stuttgart quaestiones (ed. Thaner, 1874)."
+    }
+   ]
+  }
  },
  {
   "id": "F-351r",
@@ -15853,7 +16167,20 @@
   "note": "A modistic question-commentary on the Ars minor that cites the Doctrinale by name and an unidentified 'auctor Florum'. Its question whether 'quis' is a pronoun agrees closely over three clauses with an opinion Radulphus Brito reports from 'quidam' and rejects (Quaestiones super Priscianum minorem, ed. Enders and Pinborg 1980, p. 241), seen in snippets only; the direction of dependence is open. The commentary itself was not found; the printed Donatus commentaries could not be searched because the Munich full-text search was down, and the unprinted candidates in Pinborg were not tested.",
   "verify": "https://fragmentarium.ms/overview/F-351r",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "tags": [
+    "Topic: grammar"
+   ],
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Modistic question-commentary on Donatus, Ars minor",
+     "description": "Questions on the pronoun ('Persone pronominum quot sunt', 'Ego pronomen', 'Pronomina possessiva finita'), then 'Verbum quid est'; cites the Doctrinale and an 'auctor Florum'.",
+     "remarks": "The question whether 'quis' is a pronoun agrees over three clauses with an opinion reported and rejected by Radulphus Brito, Quaestiones super Priscianum minorem, ed. Enders and Pinborg (1980), p. 241."
+    }
+   ]
+  }
  },
  {
   "id": "F-v6la",
@@ -15891,6 +16218,23 @@
   "note": "Not sermons but a key-word compilation for preachers, each entry opening with a red initial (Fides, Pax, Perseverantia, Sacerdos, Spes, Spiritus sanctus and others) with its own cross-references ('quere 18 G iij'). Three passages on two pieces abridge Peraldus's Summa de virtutibus (De fide, De spe, De oratione), read on page images of the Paris 1648 edition; one was confirmed by two blind readers. The compiling work, which reorders Peraldus and adds matter not in the Summa, was not found; Bromyard and Bersuire were rejected. About twenty faces are unread.",
   "verify": "https://archive.org/details/summaevirtutumac00guil",
   "examined": "2026-11-25",
-  "identified_on": null
+  "identified_on": null,
+  "fragmentarium": {
+   "title": "Preachers' key-word compilation",
+   "tags": [
+    "Topic: sermons"
+   ],
+   "content": [
+    {
+     "text_language": "Latin",
+     "title": "Key-word compilation for preachers, abridging Guillelmus Peraldus, Summa de virtutibus",
+     "description": "Entries headed by red initials (Fides, Pax, Perseverantia, Sacerdos, Spes, Spiritus sanctus and others), with internal cross-references ('quere 18 G iij').",
+     "remarks": "Passages on faith, hope and prayer abridge Peraldus, Summa de virtutibus; other matter is not in the Summa. The compiling work is not identified."
+    }
+   ],
+   "bibliography": [
+    "Guillelmus Peraldus, Summae virtutum ac vitiorum (Paris, 1648)"
+   ]
+  }
  }
 ]

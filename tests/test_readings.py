@@ -204,13 +204,16 @@ def test_record_updates_ledger_and_installs_only_clean_identifications(work):
     (out / 'a.txt').write_text('source-assisted reading\n')
     good = {'F-test': {'status': 'identified', 'confidence': 'high', 'identification': 'Author, Work', 'kind': 'law',
                        'note': 'n', 'verify': 'https://example.org/ed', 'report': 'r.md', 'assisted': 'a.txt',
-                       'sources': ['Edition, p. 1'], 'reason': 'resolved abbreviations'}}
+                       'sources': ['Edition, p. 1'], 'reason': 'resolved abbreviations',
+                       'fragmentarium': {'title': 'Author, Work', 'content': [{'title': 'Author, Work', 'description': 'd'}]}}}
     with pytest.raises(ValueError, match='cannot have confidence'):
         record.apply(root, {'F-test': dict(good['F-test'], confidence='medium')}, out, 'b1', 'r', '2026-01-02')
     with pytest.raises(ValueError, match='needs a report'):
         record.apply(root, {'F-test': {k: v for k, v in good['F-test'].items() if k != 'report'}}, out, 'b1', 'r', '2026-01-02')
     with pytest.raises(ValueError, match='needs a kind'):
         record.apply(root, {'F-test': dict(good['F-test'], kind='poetry')}, out, 'b1', 'r', '2026-01-02')
+    with pytest.raises(ValueError, match='fragmentarium'):
+        record.apply(root, {'F-test': {k: v for k, v in good['F-test'].items() if k != 'fragmentarium'}}, out, 'b1', 'r', '2026-01-02')
     (out / 'bad.md').write_text('see /tmp/scratch/x.jpg\n')
     with pytest.raises(ValueError, match='local path'):
         record.apply(root, {'F-test': dict(good['F-test'], report='bad.md')}, out, 'b1', 'r', '2026-01-02')
@@ -221,6 +224,7 @@ def test_record_updates_ledger_and_installs_only_clean_identifications(work):
     assert (root / 'fragments/F-test/README.md').read_text().startswith('# F-test')
     assisted_record = json.loads((root / 'fragments/F-test/readings/b1-source-assisted.json').read_text())
     assert assisted_record['first_reading'] == 'b1-image-only'
+    assert row['fragmentarium']['title'] == 'Author, Work'
     record.apply(root, {'F-test': {'status': 'partial', 'confidence': 'low', 'identification': 'x', 'note': 'y'}},
                  out, 'b1', 'r', '2026-01-03')
     row = json.loads(ledger.read_text())[0]
@@ -244,7 +248,8 @@ def test_record_marks_documents_moves_thumbnail_and_keeps_report_in_place(work):
     report.parent.mkdir(parents=True, exist_ok=True)
     report.write_text('# F-test: a deed\n')
     result = {'status': 'identified', 'confidence': 'high', 'identification': 'a deed', 'note': 'n',
-              'report': '../fragments/F-test/README.md', 'document': True, 'thumbnail_canvas': 1}
+              'report': '../fragments/F-test/README.md', 'document': True, 'thumbnail_canvas': 1,
+              'fragmentarium': {'content': [{'title': 'a deed', 'description': 'd'}]}}
     record.apply(root, {'F-test': result}, root / 'data', 'b1', 'r', '2026-01-02', cache)
     row = json.loads(ledger.read_text())[0]
     assert row['document'] is True and row['kind'] == 'document' and row['thumbnail'] == 'https://x.org/text/full/240,/0/default.jpg'
