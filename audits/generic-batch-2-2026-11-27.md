@@ -85,3 +85,14 @@ F-t2ia (the *De speculis* lines) are qualified; the F-utlg estimate of one lost
 bifolium is withdrawn in favour of the verse gap; the statements of source
 coverage for F-0p2y, F-3gzf and F-yxvr are corrected; and the F-a5ev lead is
 restated as search hits.
+
+## Redaction of local paths
+
+Twelve of the first readers' responses (packets 01, 04, 05, 06, 08, 10, 12, 14,
+15, 17, 18 and 20) mentioned the local paths of crops they made. Before
+publication, on 28 November 2026, each such path was reduced to its file name
+and the twelve image-only readings were frozen again from the redacted text; no
+reading, line or word was otherwise changed. The `reader` field of each says
+so. The source-assisted readings of F-0p2y, F-3gzf, F-t2ia and F-k6l1, which
+record the checksum of their first reading, were saved again unchanged against
+the new checksums. The unredacted responses are kept outside the repository.

@@ -1,7 +1,7 @@
 {
-  "captured_at": "2026-11-28T03:57:02.723796+00:00",
+  "captured_at": "2026-11-28T16:20:41.674316+00:00",
   "first_reading": "generic2-2026-11-27-image-only",
-  "first_sha256": "9d05cfa2d6496828e4585be0f74e5678eb525e669fd9c174532aae0e5b7a4947",
+  "first_sha256": "93ac25c9a514d51b2b6ac39798a6f708abd91b294b12597c9fd30839f6586696",
   "fragment": "F-t2ia",
   "id": "generic2-2026-11-27-source-assisted",
   "kind": "source-assisted",
