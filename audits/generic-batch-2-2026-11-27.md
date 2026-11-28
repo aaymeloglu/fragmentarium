@@ -12,19 +12,19 @@ Nine are identified, eight partial and three unidentified.
 | F-3gzf | Identified: *Digestum vetus* D. 15.1.4-11 (De peculio) with the Accursian gloss |
 | F-cd6b | Identified: the apparatus of glosses on Raymond of Peñafort, *Summa de casibus* III, ascribed to William of Rennes (printed 1603 as glosses of Johannes de Friburgo); catalogued as a gloss on the Decretals |
 | F-k6l1 | Identified: the treatise *De accentibus* as transmitted in Johannes Marchesinus, *Mammotrectus* |
-| F-t2ia | Identified: Jordanus de Nemore (ascribed), *Demonstratio de algorismo*, definitions 1-13; catalogued as a treatise on cubes and circles |
+| F-t2ia | Identified: Jordanus de Nemore (ascribed), *Demonstratio de algorismo*, Eneström defs. 1-13, omitting 4 and breaking off in 13; catalogued as a treatise on cubes and circles |
 | F-utlg | Identified: Alexander de Villa Dei, *Doctrinale* ch. 8-9, with the Glosa "Admirantes" as in BnF lat. 8422 |
 | F-wur7 | Identified: Guido de Baysio, *Apparatus ad Sextum*, VI 1 (De aetate et qualitate, De filiis presbyterorum) |
-| F-xra7 | Identified: "Guillermus", *Postilla super epistolas et evangelia*, Gospel postil for the 19th Sunday after Pentecost, in a shorter form than the Ulm print |
+| F-xra7 | Identified: "Guillermus", *Postilla super epistolas et evangelia*, Gospel postil for Dominica XIX post octavas Pentecostes (the nineteenth Sunday after the octave of Pentecost), in a shorter form than the Ulm print |
 | F-yxvr | Identified: Papias, *Elementarium*, letter F, Facio-Favilla |
 | F-32dj | Partial, medium: a commentary on the *Doctrinale* at the opening of Part II, with an added extract from Richard of St Victor on the Apocalypse |
-| F-3atu | Partial, medium: a Middle Dutch expanded version of Sermo 57 of the *Sermones Thesauri novi de tempore* |
+| F-3atu | Partial, medium: an expanded Middle Dutch parallel to reasons four and five of Sermo 57 of the *Sermones Thesauri novi de tempore*; containing sermon open |
 | F-cr5h | Partial, medium: a commentary on the *Graecismus* IX-X; commentary unidentified |
-| F-vva3 | Partial, medium: the same commentary on the *Graecismus*, end of IX and X; how the two bifolia nest is not proven |
+| F-vva3 | Partial, medium: a commentary on the *Graecismus*, probably the same as F-cr5h, end of IX and X; how the two bifolia nest is not proven |
 | F-exbj | Partial, medium: an accessus to Ovid's *Metamorphoses* with a prose summary of Book I; catalogued as a treatise on creation |
-| F-kh5n | Partial, medium: a German exposition of Isaiah 53:8-12 following Aquinas, *Super Isaiam* 53; containing work unidentified |
+| F-kh5n | Partial, medium: a German exposition of Isaiah 53:8-12 closely paralleling Aquinas, *Super Isaiam* 53 (immediate source unresolved); containing work unidentified |
 | F-2ees | Partial, low: a twelfth-century question treatise on syntax in the Priscianus minor tradition |
-| F-a5ev | Partial, low: two sermons for St Lawrence; initia found in a catalogue of Zwettl, Cod. 348, by search only |
+| F-a5ev | Partial, low: two sermons for St Lawrence; searches for these phrases returned p. 157 of Ziegler's description of Zwettl Cod. 348 (no text seen) |
 | F-7fxt | Unidentified: a commentary on the *Doctrinale*, locus not established |
 | F-g7bj | Unidentified: a question-commentary on Donatus, *Ars minor* |
 | F-w647 | Unidentified: a school gloss on Petrus Hispanus, *Tractatus* III-IV |
@@ -53,8 +53,8 @@ Nine are identified, eight partial and three unidentified.
    heading "De exigentia participiorum" stands (the blind readers misexpanded
    the abbreviation); F-t2ia's top line reads "ascendit(ur)", not
    "accenditur"; F-exbj's first word is not settled; F-7fxt's display lemmata
-   are not secure, so its locus is withdrawn; two F-wur7 lines read with the
-   print in hand were dropped from the comparison; F-cd6b's lemma is
+   are not secure, so its locus is withdrawn; the openings of two F-wur7 lines
+   read with the print in hand were withdrawn from the comparison; F-cd6b's lemma is
    "engel[tru]dam(?)"; F-kh5n's last word is not "ewang-"; the F-vva3/F-cr5h
    seam and the F-a5ev seam words are unconfirmed. The reports and ledger
    notes carry these as uncertain.
@@ -67,8 +67,21 @@ Nine are identified, eight partial and three unidentified.
   therefore left for a later batch.
 - The Munich full-text search (`tools/mdzsearch.py`) failed throughout.
 - Zwettl, Cod. 348 is not digitised; Graz UB 1503 is lost; Busard's edition of
-  the *Demonstratio* and Ziegler's Zwettl catalogue were seen only in search
-  excerpts; the Leonine text of Aquinas on Isaiah was seen only as the Corpus
+  the *Demonstratio* was seen only in text excerpts, and Ziegler's Zwettl
+  catalogue only as page hits for searched phrases; the Leonine text of Aquinas on Isaiah was seen only as the Corpus
   Thomisticum transcription.
 
 These are recorded as untested, not as negative results.
+
+## Review
+
+Codex (GPT) reviewed the pull request on 28 November 2026. It agreed with all
+nine identifications and with the statuses and confidence levels of all twenty
+records. Its corrections were applied to the reports and ledger. The
+substantive ones: F-t2ia reads "fiant" with Eneström, which withdraws a variant
+("fiunt") that the coordinator had accepted with the report in hand; the
+attributions in the `persons` fields of F-k6l1, F-cd6b, F-xra7, F-0p2y and
+F-t2ia (the *De speculis* lines) are qualified; the F-utlg estimate of one lost
+bifolium is withdrawn in favour of the verse gap; the statements of source
+coverage for F-0p2y, F-3gzf and F-yxvr are corrected; and the F-a5ev lead is
+restated as search hits.

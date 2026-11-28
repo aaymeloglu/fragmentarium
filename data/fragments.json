@@ -16309,7 +16309,7 @@
    "persons": [
     {
      "role": "Author",
-     "name": "Guillelmus Parisiensis (also attributed to Johannes Herolt)"
+     "name": "Guillelmus Parisiensis or Johannes Herolt (alternative attributions of the anonymous postil)"
     }
    ],
    "tags": [
@@ -16321,8 +16321,8 @@
      "locus": "Cod3560_Iv; Cod3560_Ir; Cod3560_VDS",
      "text_language": "Latin",
      "title": "Postilla super epistolas et evangelia, Dominica XIX post octavas Pentecostes, Gospel",
-     "persons": "Guillelmus Parisiensis; Johannes Herolt",
-     "description": "Inc. (Iv) Hoc signum fecit dominus Ihesus anno eius 31, 12 kal. sep., feria v, luna 24, ind. iiij. Ante inicium presentis ewangelii scribit sanctus Marcus quod Christo venienti in regionem Gerasenorum ... precipitatus est in mare a[d]; (Ir) boni medici qui primo removet causam morbi ... hominibus id est ad salutem; (pastedown) ... cum iuramento negavit Christum ... Expl. unde Bernhardus Mentiris Caym maior [est dei pie]tas quam quevis ini[quitas].",
+     "persons": "Guillelmus Parisiensis or Johannes Herolt (alternative attributions of the anonymous postil)",
+     "description": "Inc. (Iv) Hoc signum fecit dominus Ihesus anno eius 31, 12 kal. sep., feria v, luna 24(?), ind. iiij. Ante inicium presentis ewangelii scribit sanctus Marcus quod Christo venienti in regionem Gerasenorum ... precipitatus est in mare a[d]; (Ir) boni medici qui primo removet causam morbi ... hominibus id est ad salutem; (pastedown) ... cum iuramento negavit Christum ... Expl. unde Bernhardus Mentiris Caym maior [est dei pie]tas quam quevis ini[quitas].",
      "remarks": "The text runs flyleaf verso, hidden lower half, flyleaf recto, pastedown; the visible pair is the later side of the leaf. Collated in three passages with the Ulm edition of c. 1478 (GW 11940), scans 296-298 of the Munich copy. Shorter than the print: the passage on the causes of bodily illness is absent, the three kinds of blasphemy stand in the gloss at 'hic blasphemat', and the source sigla (Ly., Cris.) are missing. Whether this is an abridgement or another form of the text is open. The edition is anonymous; GW and ISTC attribute it to Guillelmus Parisiensis, BSB-Ink and the Bodleian to Johannes Herolt."
     }
    ],
@@ -16345,7 +16345,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Papias, Elementarium doctrinae rudimentum, letter F, Facio-Favilla",
-  "note": "Three passages from three faces agree in wording and entry order with BnF lat. 7609 (13th c.) and, where it has the entries, with the Venice 1485 print, compared by a research reader on page images (passage C with the print only); the coordinator read the top of fragment A verso column 3 ('[fort]unam vocabant ... pendet ex alto', canvas 1) against lat. 7609, Gallica f160. Two blind readers supported 'tantus' (for the sources' 'taurus') and 'pan' at the end of the Fatuus entry, and read the initial of 'Far' as H. The leaf shares 'in motum', 'ex alto', the Fantasia group and the Farmacon group with lat. 7609 where the print differs, and has its own small variants; no relation between copies is inferred. The Liber glossarum, named in the catalogue tag, was tested by headword search and two shared entries, where it has the full Isidorian articles; two to three lines are lost at the tear in each column, and the copy's date is the catalogue's.",
+  "note": "Passages A and B agree in wording and entry order with BnF lat. 7609 (13th c.) and, where it has the entries, with the Venice 1485 print; passage C (Famuli to Fana, across the join) was compared with the Venice 1485 print only; all on page images, by a research reader; the coordinator read the top of fragment A verso column 3 ('[fort]unam vocabant ... pendet ex alto', canvas 1) against lat. 7609, Gallica f160. Two blind readers supported 'tantus' (for the sources' 'taurus') and 'pan' at the end of the Fatuus entry, and read the initial of 'Far' as H. The leaf shares 'in motum', 'ex alto', the Fantasia group and the Farmacon group with lat. 7609 where the print differs, and has its own small variants; no relation between copies is inferred. The Liber glossarum, named in the catalogue tag, was tested by headword search and two shared entries, where it has the full Isidorian articles; two to three lines are lost at the tear in each column, and the copy's date is the catalogue's.",
   "verify": "https://gallica.bnf.fr/ark:/12148/btv1b10037100c/f160",
   "examined": "2026-11-27",
   "identified_on": "2026-11-27",
@@ -16400,7 +16400,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Anonymous lemmatic commentary on Eberhard of Béthune, Graecismus, end of IX (v. 349) and X 1-c. 8 and 61-73; commentary unidentified",
-  "note": "The lemmata follow Wrobel's text: the end of the gloss on IX 349 and the opening of cap. X with a pen-drawn initial, 'Prora prior pars est', on fol. [1]r, 'Barca celox' (X 7) on [1]v, and 'Strix palus est Herebi' (X 67, Wrobel 'Styx palus est Erebi'), 'Est amita' (X 68) and X 69-73 on fol. [2]; they were placed from the OCR text of the edition. The chapter introduction after 'Prora prior pars est', on which the comparison with Metulinus's printed commentary (Paris 1487/88) and with Munich, Clm 14592 chiefly rests, could not be read by two blind readers, so the exclusion of both is unproven, although Clm 14592 also gives a different etymology at X 67 as read. The bifolium probably lay inside F-cr5h (nr. 12/7), and about fifty verses are missing between its two leaves, but the seam into F-cr5h was not confirmed by the blind readers. A better reading of the stained chapter opening, perhaps under raking light, and Grondeux's survey of Graecismus glosses are the next steps.",
+  "note": "The lemmata follow Wrobel's text: the end of the gloss on IX 349 and the opening of cap. X with a pen-drawn initial, 'Prora prior pars est', on fol. [1]r, 'Barca celox' (X 7) on [1]v, and 'Strix palus est Herebi' (X 67, Wrobel 'Styx palus est Erebi'), 'Est amita' (X 68) and X 69-73 on fol. [2]; they were placed from the OCR text of the edition. The lemmata of X 1, 7, 67 and 68 are securely placed, and X 61-66 and 69-73 by subject; the endpoints at the seams, the end of the gloss on IX 349 at the head of [1]r and the gloss on X 73 at the foot of [2]v, are inferred from the proposed joins with F-cr5h. The chapter introduction after 'Prora prior pars est', on which the comparison with Metulinus's printed commentary (Paris 1487/88) and with Munich, Clm 14592 chiefly rests, could not be read by two blind readers, so the exclusion of both is unproven, although Clm 14592 also gives a different etymology at X 67 as read. The bifolium is probably from the same commentary as F-cr5h (nr. 12/7) and probably lay inside it, and about fifty verses are missing between its two leaves, but the seam into F-cr5h was not confirmed by the blind readers. A better reading of the stained chapter opening, perhaps under raking light, and Grondeux's survey of Graecismus glosses are the next steps.",
   "verify": "https://fragmentarium.ms/overview/F-vva3",
   "examined": "2026-11-27",
   "identified_on": null,
@@ -16447,7 +16447,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Anonymous lemmatic commentary on Eberhard of Béthune, Graecismus, IX 341-350 and X 73-84; commentary unidentified",
-  "note": "The lemmata, in a larger textualis, follow Wrobel's text from IX 341 (thoros) to IX 349 (Hoc nomen lampas) on the leaf catalogued [2] and from X 75 (Concha notat) to X 84 (Ad resipiscentem) on the leaf catalogued [1], so the catalogue's vv. 341-349 are in cap. IX and its leaf [2] comes first; they were placed from the OCR text of Wrobel's edition. The commentary cites 'Henricus de Colon(ia)(?)' and an 'expositor Ebr(ardi)(?)', both only partly confirmed by two blind readers. Johannes Vincentius Metulinus's printed commentary (Paris 1487/88, from OCR) and the commentary in Munich, Clm 14592 (low-resolution page image) make the same point at IX 349 in other words, but neither is excluded on a fuller comparison. The bifolium probably enclosed F-vva3 (nr. 11/7), which continues the gloss on IX 349 and reaches X 73, but neither seam was confirmed by blind readers; Grondeux's survey of Graecismus glosses and Glorieux on Henricus de Colonia are the next sources.",
+  "note": "The lemmata, in a larger textualis, follow Wrobel's text from IX 341 (thoros) to IX 349 (Hoc nomen lampas) on the leaf catalogued [2] and from X 75 (Concha notat) to X 84 (Ad resipiscentem) on the leaf catalogued [1], so the catalogue's vv. 341-349 are in cap. IX and its leaf [2] comes first; they were placed from the OCR text of Wrobel's edition. These lemmata, including IX 349 and X 75, are securely placed; the endpoints at the seams (the rest of the gloss on IX 349-350 at the foot of leaf [2], and the X 73-74 matter at the head of leaf [1]) are inferred. The commentary cites 'Henricus de Colon(ia)(?)' and an 'expositor Ebr(ardi)(?)', both only partly confirmed by two blind readers. Johannes Vincentius Metulinus's printed commentary (Paris 1487/88, from OCR) and the commentary in Munich, Clm 14592 (low-resolution page image) make the same point at IX 349 in other words, but neither is excluded on a fuller comparison. The bifolium probably enclosed F-vva3 (nr. 11/7), which is probably from the same commentary and probably continues the gloss on IX 349 and reaches X 73, but neither seam was confirmed by blind readers; Grondeux's survey of Graecismus glosses and Glorieux on Henricus de Colonia are the next sources.",
   "verify": "https://fragmentarium.ms/overview/F-cr5h",
   "examined": "2026-11-27",
   "identified_on": null,
@@ -16513,7 +16513,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Guido de Baysio, Apparatus ad Librum Sextum, on VI book 1: De aetate et qualitate (c. Permittimus) and De filiis presbyterorum (c. Is qui)",
-  "note": "Six passages from the two text blocks of the legible side agree with the Milan 1490 edition of Guido's Apparatus (BSB, fol. 40r col. b to 40v col. a) in wording, allegations and sequence, with the author's first-person cross-reference 'et dixi s. e. li. de ele.'; a research reader compared them on page images, and the coordinator read the passage from 'c. placuit et c. subdyaconus' to 'lxxviij di. c. i.' on canvas 4 against scan 83. Two blind readers confirmed that the leaf has nothing where the print has 'et hoc verum credo' in the Is qui gloss; they did not confirm the opening words of the left block or the start of its line 'ad huius declarationem', which are withdrawn. Other differences are small ('permissio iuris novi' for 'permissio istius iuris novi', word order). The Novella of Johannes Andreae and the ordinary gloss were not compared; the effaced other side is unread; which side is the recto is open.",
+  "note": "Six passages from the two text blocks of the legible side agree with the Milan 1490 edition of Guido's Apparatus (BSB, fol. 40r col. b to 40v col. a) in wording, allegations and sequence, with the author's first-person cross-reference 'et dixi s. e. li. de ele.'; a research reader compared them on page images, and the coordinator read the passage from 'c. placuit et c. subdyaconus' to 'lxxviij di. c. i.' on canvas 4 (left half) and its continuation on the right half of the same lines, which reads 'q(uod) v(er)um c(on)cedo' as the print's 'quod verum concedo' (the words before it uncertain), against scan 83. Two blind readers confirmed that the leaf has nothing where the print has 'et hoc verum credo' in the Is qui gloss; they did not confirm the opening words of the left block or the start of its line 'ad huius declarationem', and these two line openings are withdrawn. Other differences are small ('permissio iuris novi' for 'permissio istius iuris novi', word order). The Novella of Johannes Andreae and the ordinary gloss were not compared; the effaced other side is unread; which side is the recto is open.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb00065588?page=83",
   "examined": "2026-11-27",
   "identified_on": "2026-11-27",
@@ -16534,7 +16534,7 @@
      "title": "Apparatus ad Librum Sextum, on VI 1: end of the title preceding De aetate et qualitate; De aetate et qualitate, c. Permittimus; De filiis presbyterorum, c. Is qui",
      "persons": "Guido de Baysio",
      "description": "Left block (fol. [1]v A): from the glosses at the end of the title preceding De aetate et qualitate ('...nisi coniugato volenti ad sacros ordines ... de voluntate et consensu uxoris') to the gloss Permittimus ('Permittimus i. concedimus potestatem damus ... permissio iuris novi') and its discussion of age, to '§ minores'. Right block (fol. [1]v B): within the gloss on Is qui ('...non admittitur per aliam viam et de iure pretorio ... l. non ambigendum § ubicumque(?) ... ff. de postul. l. quos prohibet').",
-     "remarks": "Collated with the Milan 1490 edition (BSB, bsb00065588, fol. 40r col. b to 40v col. a). The leaf reads 'permissio iuris novi' for 'permissio istius iuris novi' and lacks 'et hoc verum credo' after '§ ubicumque(?)'. The two text blocks may be the upper parts of columns a and b of a taller two-column page, an inference from the quantity of text. The other side (fol. [1]r) is almost effaced and was not read; the canvas labels and image file names disagree on which side is the recto."
+     "remarks": "Collated with the Milan 1490 edition (BSB, bsb00065588, fol. 40r col. b to 40v col. a). The leaf reads 'permissio iuris novi' for 'permissio istius iuris novi' and lacks 'et hoc verum credo' after '§ ubicumque(?)'. The Novella of Johannes Andreae, which reuses Guido extensively, and the ordinary gloss of the Liber Sextus were not collated at these places, so reuse of Guido's text in them is not excluded. The two text blocks may be the upper parts of columns a and b of a taller two-column page, an inference from the quantity of text. The other side (fol. [1]r) is almost effaced and was not read; the canvas labels and image file names disagree on which side is the recto."
     }
    ],
    "bibliography": [
@@ -16555,14 +16555,14 @@
   "catalogue_date": "1201 – 1299 CE",
   "status": "partial",
   "confidence": "low",
-  "identification": "Two Latin sermons for St Lawrence, on Probasti Domine cor meum (Ps. 16:3) and on the epistle Qui parce seminat (2 Cor. 9:6); search hits for the same initia in Ziegler's catalogue of Zwettl, Cod. 348 (Sermones de sanctis attributed to Thomas de Lisle or Thomas Brito; text not seen)",
-  "note": "The first sermon opens 'Probasti domine cor meum ... Si vis aliter procedere de hoc verbo nota quod multa mirabilia leguntur de beato Laurentio' and quotes the Lawrence legend ('in craticula positus te Deum non negavi'); the second opens 'Qui parce seminat ... ad laudem beati Laurentii diversa concurrunt(?) que hodierno officio(?)', words two blind readers could not confirm, and expounds the epistle phrase by phrase. A Google Books search inside Ziegler's catalogue of Zwettl, Stiftsbibliothek, Cod. 348 (1997) returns these initia on p. 157, among them 'aliter procedere de hoc verbo', which no other book returned; Schneyer gives the collection to Thomas de Lisle, Kaeppeli (cited second-hand) to Ps.-Thomas de Insula (Thomas Brito). Neither the catalogue text nor any witness of the Lawrence sermons was read, so no text was compared; images of Zwettl 348 (HMML microfilm or the abbey) would test the lead. The upper and lower strips probably make up the two faces of one bifolium, with text running on across the cuts.",
+  "identification": "Two Latin sermons for St Lawrence, on Probasti Domine cor meum (Ps. 16:3) and on the epistle Qui parce seminat (2 Cor. 9:6); searches for these phrases returned p. 157 of Ziegler's description of Zwettl Cod. 348 (no text seen); if the sermons belong to its Sermones de sanctis, that collection is attributed to Thomas de Lisle or to Thomas Brito",
+  "note": "The first sermon opens 'Probasti domine cor meum ... Si vis aliter procedere de hoc verbo nota quod multa mirabilia leguntur de beato Laurentio' and quotes the Lawrence legend ('in craticula positus te Deum non negavi'); the second opens 'Qui parce seminat ... ad laudem beati Laurentii diversa concurrunt(?) que hodierno officio(?)', words two blind readers could not confirm, and expounds the epistle phrase by phrase. Google Books searches for these phrases inside Ziegler's Zwettl catalogue (1997) returned p. 157 of his description of Zwettl, Stiftsbibliothek, Cod. 348 (no text seen), among them 'aliter procedere de hoc verbo', which no other book returned. If the sermons belong to that collection, Schneyer gives it to Thomas de Lisle, Kaeppeli (cited second-hand) to Ps.-Thomas de Insula (Thomas Brito). Neither the catalogue text nor any witness of the Lawrence sermons was read, so no text was compared; images of Zwettl 348 (HMML microfilm or the abbey) would test the lead. The upper and lower strips probably make up the two faces of one bifolium, with text running on across the cuts.",
   "verify": "https://fragmentarium.ms/overview/F-a5ev",
   "examined": "2026-11-27",
   "identified_on": null,
   "fragmentarium": {
    "title": "Two sermons for St Lawrence",
-   "subtitle": "On Probasti Domine cor meum (Ps. 16:3) and on the epistle Qui parce seminat (2 Cor. 9:6-10); search hits for the same initia in the catalogue of Zwettl, Cod. 348 (Sermones de sanctis attributed to Thomas de Lisle / Thomas Brito)",
+   "subtitle": "On Probasti Domine cor meum (Ps. 16:3) and on the epistle Qui parce seminat (2 Cor. 9:6-10); searches for these phrases returned p. 157 of Ziegler's description of Zwettl Cod. 348 (no text seen); if the sermons belong to its Sermones de sanctis, Thomas de Lisle or Thomas Brito",
    "tags": [
     "Topic: sermons"
    ],
@@ -16573,14 +16573,14 @@
      "text_language": "Latin",
      "title": "Sermon for St Lawrence on Probasti Domine cor meum et visitasti nocte (Ps. 16:3)",
      "description": "Inc. (blue P) Probasti domine cor meum et visitasti nocte igne me &c. Si vis aliter procedere de hoc verbo nota quod multa mirabilia leguntur de beato Laurentio ... triplicem statum eius. In quorum primo fuit probatus corde, secundo visitatus nocte, tercio examinatus igne. It goes on through prelacio, persecution of the church and his own passion (gridiron, 'in craticula positus te Deum non negavi') and ends on 01_v/02_r col. B.",
-     "remarks": "Ziegler's catalogue of Zwettl, Cod. 348 (vol. IV, 1997, p. 157) records the initia 'Probasti domine cor meum' and 'Si vis aliter procedere de hoc verbo nota quod' (Google Books search hits only; text not seen; no witness of the sermon read). Strips 01_r/02_v and 01_v/02_r are probably each one face, the upper and lower halves of the same columns; on that reconstruction the right half of 01_r/02_v is the first leaf (P on 1ra, Q on 1vb, as in the ULBT Repertoriumsblatt). Candidate author, if the Zwettl attribution holds: Thomas Brito (Ps.-Thomas de Insula)."
+     "remarks": "Searches for 'Probasti domine cor meum' and 'Si vis aliter procedere de hoc verbo nota quod' returned p. 157 of Ziegler's description of Zwettl Cod. 348 (vol. IV, 1997; Google Books, no text seen; no witness of the sermon read). Strips 01_r/02_v and 01_v/02_r are probably each one face, the upper and lower halves of the same columns; on that reconstruction the right half of 01_r/02_v is the first leaf (P on 1ra, Q on 1vb, as in the ULBT Repertoriumsblatt). Candidate authors, if the sermons belong to the Zwettl collection: Thomas Brito (Ps.-Thomas de Insula) or Thomas de Lisle."
     },
     {
      "locus": "01_v + 02_r (from col. B line 5 of 02_r), then 01_r + 02_v (left half)",
      "text_language": "Latin",
      "title": "Sermon for St Lawrence on the epistle Qui parce seminat (2 Cor. 9:6-10)",
      "description": "Inc. (red Q) Qui parce seminat parce et metet et qui seminat &c. Ad laudem beati Laurentii diversa concurrunt(?) que hodierno officio(?) ... Si quidem evangelium introducitur ad laudem sue passionis (Io. 12:24) ... introitus(?) (Confessio(?) et pulchritudo) ... epistola. It then expounds 'dispersit', 'dedit', 'pauperibus(?)' and 'iustitia eius manet in saeculum saeculi' (alms as a debt).",
-     "remarks": "Ziegler, Zwettl Cod. 348 description p. 157, returns search hits for 'Qui parce seminat', 'beati Laurentii diversa concurrunt', 'hodierno officio' and 'Dispersit dedit pauperibus' (text not seen); on the leaf 'diversa concurrunt' and 'hodierno officio' are uncertain. Paris, BnF lat. 15934, the other accessible witness of the collection, runs (as sampled) from Andrew to Peter and Paul and could not be compared. Schneyer (Rep. 5, pp. 631-670) gives the collection to Thomas de Lisle OP, bishop of Ely; Kaeppeli (SOPMA IV no. 3812) to Ps.-Thomas de Insula (Thomas Brito, c. 1260s), reported second-hand."
+     "remarks": "Searches for 'Qui parce seminat', 'beati Laurentii diversa concurrunt', 'hodierno officio' and 'Dispersit dedit pauperibus' returned p. 157 of Ziegler's description of Zwettl Cod. 348 (no text seen); on the leaf 'diversa concurrunt' and 'hodierno officio' are uncertain. Paris, BnF lat. 15934, the other accessible witness of the collection, runs (as sampled) from Andrew to Peter and Paul and could not be compared. If the sermons belong to that collection: Schneyer (Rep. 5, pp. 631-670) gives it to Thomas de Lisle OP, bishop of Ely; Kaeppeli (SOPMA IV no. 3812) to Ps.-Thomas de Insula (Thomas Brito, c. 1260s), reported second-hand."
     }
    ],
    "bibliography": [
@@ -16605,7 +16605,7 @@
   "status": "partial",
   "confidence": "medium",
   "identification": "Middle Dutch expanded version of the Sermones Thesauri novi de tempore, Sermo 57 for Quinquagesima (Ecce ascendimus Hierosolymam), reasons four and five; containing Dutch work unidentified",
-  "note": "All four columns follow, in order, the fourth and fifth reasons of Sermo 57 of the Latin Sermones Thesauri novi de tempore, from 'Quarto ut sententia ultionis timeatur' to 'qui Christo passo non compatitur', each Latin authority quoted and then paraphrased at length after 'Dat es'. A research reader read all surviving lines on native crops and compared them with page images of the Strasbourg 1484 print (Munich, BSB, bsb00073277, images 293-294); two blind readers confirmed the quoted line 'willens ende wetens zondighen' and the noun 'herkinghe' in 'daghelicsche herkinghe'. The Dutch is three to ten times longer than the Latin, so one leaf cannot show whether it comes from a translation of the collection or from a Dutch sermon that borrowed this section. The Repertorium van Middelnederlandse preken and the BNM-I record for Gent UB 1658 (login only) were not reached and should be checked for the text and other witnesses.",
+  "note": "All four columns follow, in order, the fourth and fifth reasons of Sermo 57 of the Latin Sermones Thesauri novi de tempore, from 'Quarto ut sententia ultionis timeatur' to 'qui Christo passo non compatitur', with Latin quotations (among those visible, Luke 23:31, Luke 24:26 and Ecclesiasticus 5:4) paraphrased at length, introduced by 'Dat es'; the saying of Sextus Pythagoricus and the surviving part of the Romans 2 passage are in Dutch only. A research reader read all surviving lines on native crops and compared them with page images of the Strasbourg 1484 print (Munich, BSB, bsb00073277, images 293-294); two blind readers confirmed the quoted line 'willens ende wetens zondighen' and the noun 'herkinghe' in 'daghelicsche herkinghe'. The Dutch is three to ten times longer than the Latin, so one leaf cannot show whether it comes from a translation of the collection or from a Dutch sermon that borrowed this section. The Repertorium van Middelnederlandse preken and the BNM-I record for Gent UB 1658 (login only) were not reached and should be checked for the text and other witnesses.",
   "verify": "https://www.digitale-sammlungen.de/en/view/bsb00073277?page=293",
   "examined": "2026-11-27",
   "identified_on": null,
@@ -16617,7 +16617,7 @@
      "locus": "fol. [1]r-[1]v",
      "text_language": "Middle Dutch, with Latin quotations",
      "title": "Sermon on the Passion for Quinquagesima Sunday (fragment)",
-     "description": "Lower 22 lines of each of four columns. The text gives the fourth and fifth reasons why the Church recounts the Passion on this day, with Luke 23:31, Luke 24:26, Ecclesiasticus 5:4 and Romans 2:5 quoted in Latin and paraphrased, and a saying ascribed to Sextus Pythagoricus. Recto col. a: \"... willens ende wetens zondighen vanden welken die zoete here Jhesus hem groetelic beclaecht\"; verso col. a: \"Ten vsten principale so verhaelt ons moeder die helighe kerke tlijden van onsen lieven here\"; verso col. b ends \"... gheen hertelike mededoeghen en heeft ghehadt\".",
+     "description": "Lower 22 lines of each of four columns. The text gives the fourth and fifth reasons why the Church recounts the Passion on this day, with Luke 23:31, Luke 24:26 and Ecclesiasticus 5:4 quoted in Latin and paraphrased, Romans 2:5 surviving only in Dutch paraphrase, and a saying ascribed to Sextus Pythagoricus given in Dutch. Recto col. a: \"... willens ende wetens zondighen vanden welken die zoete here Jhesus hem groetelic beclaecht\"; verso col. a: \"Ten vsten principale so verhaelt ons moeder die helighe kerke tlijden van onsen lieven here\"; verso col. b ends \"... gheen hertelike mededoeghen en heeft ghehadt\".",
      "remarks": "The passage follows, in order and much expanded, Sermones Thesauri novi de tempore, Sermo 57 (Dominica Quinquagesime), from \"Quarto ut sententia ultionis timeatur\" to \"qui Christo passo non compatitur\" (Strasbourg 1484, fol. LVII rb-va). Whether the leaf comes from a translation of the collection or from a Dutch sermon drawing on it is open; no other witness of the Dutch text was found. The upper part of the leaf is cut away."
     }
    ],
@@ -16646,12 +16646,12 @@
   "identified_on": "2026-11-27",
   "kind": "arts",
   "fragmentarium": {
-   "title": "Johannes Marchesinus, Mammotrectus super Bibliam: De accentibus",
+   "title": "De accentibus, as transmitted in Johannes Marchesinus, Mammotrectus",
    "subtitle": "The tract on accent, from the enclitic cum to adverbs in -e",
    "persons": [
     {
      "role": "Author",
-     "name": "Johannes Marchesinus (author of the Mammotrectus; authorship of this section not checked)"
+     "name": "Johannes Marchesinus (compiler of the Mammotrectus, in which the tract is transmitted; authorship of the tract not established)"
     }
    ],
    "content": [
@@ -16659,7 +16659,7 @@
      "locus": "fol. [1]r-[1]v",
      "text_language": "Latin",
      "title": "De accentibus, as transmitted in Johannes Marchesinus, Mammotrectus super Bibliam",
-     "persons": "Johannes Marchesinus",
+     "persons": "Johannes Marchesinus (compiler of the Mammotrectus, in which the tract is transmitted)",
      "description": "The tract on accent, from the enclitic cum through relatives, interrogatives, compounds of inde, prepositions and conjunctions to interjections, barbarous words and adverbs in -e, with one verse of the Doctrinale quoted. Inc. '[...] precedentem(?) ultimam(?) i° ablativorum ut nobiscum vobiscum'; expl. '[...] ut hodie sedule que a no[mine] ...'.",
      "remarks": "Transmitted as a section of the Mammotrectus in some manuscripts and editions; whether Marchesinus wrote it was not checked. Collated against Paris, BnF, lat. 1803, leaves clxv-clxvi (images); the 1498 Mammotrectus and Breviloquus prints and Strasbourg, BNU, Ms. 0.027 compared in machine text only. The leaf lacks two additions that Strasbourg makes within this stretch. Whether the leaf comes from a complete Mammotrectus or a separate copy of the tract is open."
     }
@@ -16741,7 +16741,7 @@
   "status": "unidentified",
   "confidence": "none",
   "identification": "Question-commentary on Donatus, Ars minor, from the end of the participle through conjunction and preposition to the opening of the interjection; commentary unidentified",
-  "note": "The catalogue already gives the base text; the four half-leaves make two consecutive leaves, on text running on across the cuts, checked in the first reading's text. For a repertory search the section openings are 'Coniunctio quid est. Superius tractavit ne(?) de par[...](?)' (as two blind readers read it), 'Prepositio quid est etc. Determinatum est superius de coniunctione hic prosequitur de prepositione' and 'Sequitur de interiectione ... Determinavit actor(?) superius de omnibus partibus significantibus mentis conceptum hic de interiectione que significat mentis affectum'; the participle section cites an alchemy maxim as 'Gaudeant auctores alchimie ...', and the conjunction section distinguishes kinds of dependentia, among them 'dependentia terminationis' (both blind readings). CoMMA, Google Books, Internet Archive and Corpus Corporum gave no match for these or other distinctive passages. Bursill-Hall's Census and incipit lists of 13th-century Ars minor commentaries, not available here, are the next step.",
+  "note": "The catalogue already gives the base text; the four half-leaves make two consecutive leaves, on text running on across the cuts, checked in the first reading's text. For a repertory search the section openings are 'Coniunctio quid est. Superius tractavit ne(?) de par[...](?)' (as two blind readers read it), 'Prepositio quid est etc. Determinatum est superius de coniunctione hic prosequitur de prepositione' and 'Sequitur de interiectione ... Determinavit actor(?) superius de omnibus partibus significantibus mentis conceptum hic de interiectione que significat mentis affectum'; the participle section cites an alchemy maxim as 'Gaudeant auctores alchimie ...', and the conjunction section distinguishes kinds of dependentia, among them 'dependentia terminationis' (both blind readings). The searches as run in CoMMA, Google Books, Internet Archive and Corpus Corporum, on the earlier readings, yielded no identification; the corrected readings ('Gaudeant auctores alchimie', 'dependentia terminationis', 'tractavit ne(?) de par[...]') are terms for a future search. Bursill-Hall's Census and incipit lists of 13th-century Ars minor commentaries, not available here, are the next step.",
   "verify": "https://fragmentarium.ms/overview/F-g7bj",
   "examined": "2026-11-27",
   "identified_on": null
@@ -16798,8 +16798,8 @@
   "catalogue_date": "not given",
   "status": "identified",
   "confidence": "high",
-  "identification": "Liber novem iudicum (anonymous compilation), questions of the fourth house: chapters on acquiring, buying and selling land and houses (Dorotheus, Zael, and chapters the 1509 print gives to Aomar) and on hidden treasure (Aomar, Alkindus)",
-  "note": "Three faces agree in wording and sequence with the Venice 1509 print of the Liber novem iudicum in lines reread on the images (01_r ll. 1-9, 02_r ll. 1-10, 02_v ll. 1-13) and the fourth (01_v) on the first reading; a research reader compared them with page images of the Warburg facsimile, and the coordinator read 02_v ll. 1-8 on the image against PDF p. 47. The al-Kindi chapter headed 'Alchindus' on 02_v was matched only through search snippets of the Basel 1571 print, and it stands in a different place from both prints; several rubrics are worded differently. Two blind readers confirmed the rubric 'De acquirendis domibus vel agris patrimoniis' and a name read 'Drotheus/Dorocheus', but not the name after 'patrimoniis', the rubric at the head of 02_r or the first word of 01_r, which are left uncertain. No legal text is present; the Liber trium iudicum was not compared, and the recension of this copy is open.",
+  "identification": "Liber novem iudicum (anonymous compilation), questions of the fourth house: chapters on acquiring, buying and selling land and houses (one that the 1509 print gives to Dorotheus, under a rubric on the leaf read 'D(o)rotheus(?)'; Zael; and chapters the 1509 print gives to Aomar, the names in the leaf's rubrics uncertain) and on hidden treasure (Aomar, Alkindus)",
+  "note": "Three faces agree in wording and sequence with the Venice 1509 print of the Liber novem iudicum in lines reread on the images (01_r ll. 1-9, 02_r ll. 1-10, and on 02_v ll. 1-9, the treasure passage before the new rubric) and the fourth (01_v) on the first reading; a research reader compared them with page images of the Warburg facsimile, and the coordinator read 02_v ll. 1-8 on the image against PDF p. 47. After that rubric the al-Kindi chapter headed 'Alchindus' (02_v ll. 9-13) was compared only with search snippets of the Basel 1571 print, since the 1509 print continues there with Jergis; the leaf places the chapter differently from both prints; several rubrics are worded differently. Two blind readers confirmed the rubric 'De acquirendis domibus vel agris patrimoniis' and a name read 'Drotheus/Dorocheus', but not the name after 'patrimoniis', the rubric at the head of 02_r or the first word of 01_r, which are left uncertain. No legal text is present; the Liber trium iudicum was not compared, and the recension of this copy is open.",
   "verify": "https://resources.warburg.sas.ac.uk/pdf/fah765nj.pdf#page=47",
   "examined": "2026-11-27",
   "identified_on": "2026-11-27",
@@ -16815,8 +16815,8 @@
      "locus": "01_v, 01_r (in this order)",
      "text_language": "Latin",
      "title": "Liber novem iudicum, fourth house: on buildings, acquiring, buying and selling houses and land",
-     "persons": "Dorotheus; Zael (Sahl ibn Bishr)",
-     "description": "Chapters with the rubrics De acquirendis domibus vel agris patrimoniis (name uncertain; the 1509 print gives the chapter to no author), Dorotheus(?) ... eodem, De emacione agrorum Zael, De hereditatibus et domibus vendendis (Aomar in the 1509 print; the name on the leaf not read). 01_r breaks off inside the chapter on selling.",
+     "persons": "Dorotheus (so the 1509 print; the leaf's rubric reads D(o)rotheus(?)); Zael (Sahl ibn Bishr)",
+     "description": "Chapters with the rubrics De acquirendis domibus vel agris patrimoniis (name uncertain; the 1509 print gives the chapter to no author), D(o)rotheus(?) ... eodem, De emacione agrorum Zael, De hereditatibus et domibus vendendis (Aomar in the 1509 print; the name on the leaf not read). 01_r breaks off inside the chapter on selling.",
      "remarks": "Agrees with ed. Venice 1509, fol. 12r-12v (Warburg facsimile, PDF pp. 38-39); 01_v compared on the first reading only. Two rubrics are worded differently from the print. The text of 01_v precedes that of 01_r, so the labelled verso is the true recto; the run-on from 01_v to 01_r rests on '[Tr]ansferens(?) propriis manibus', whose first word is uncertain."
     },
     {
@@ -16867,7 +16867,7 @@
      "locus": "Fol. [1]r (right); Fol. [1]v (left)",
      "text_language": "Latin",
      "title": "Apparatus in Summam de casibus Raymundi, Liber III, title on dispensations (glosses Tutum to Praecipiunt)",
-     "persons": "Guillelmus Redonensis; Raymundus de Pennaforte",
+     "persons": "apparatus ascribed to Guillelmus Redonensis (William of Rennes), printed in 1603 under Johannes de Friburgo's name; Raymundus de Pennaforte, author of the underlying Summa",
      "description": "Leaf 1, whole column on each side. Inc. [le]gat epistolam sine(?) sollempnitate in missa privata fit irregularis. Respondeo credo quod non ...; Expl. ... necesse est illos restaurari in honoris loco qui per penitentiam recepisse merentur reconciliationem divine [pietatis].",
      "remarks": "Collated with the gloss columns of Rome 1603, pp. 348-350 (page images). Lemmata underlined in red. Differences in several allegations and small variants ('celebrat ... committens' for 'celebrans ... committit'); an extra note 'c. cum non ignores' that the print lacks."
     },
@@ -16875,7 +16875,7 @@
      "locus": "Fol. [1]v (right); Fol. [1]r (left)",
      "text_language": "Latin",
      "title": "Apparatus in Summam de casibus Raymundi, Liber III, title on sentences (Res iudicata, Quibusdam casibus) and the opening of the section on excommunication (Querelam, Engeltrudam, Si quem)",
-     "persons": "Guillelmus Redonensis; Raymundus de Pennaforte",
+     "persons": "apparatus ascribed to Guillelmus Redonensis (William of Rennes), printed in 1603 under Johannes de Friburgo's name; Raymundus de Pennaforte, author of the underlying Summa",
      "description": "Leaf 2, lower part of the column on each side. Recto: (et) si lata fuit non indiget remedio appellationis ... res iudicata pro veritate accipitur ... (et) arctari potest (et) pro[rogari]. Verso: obici potest ... with the red rubric De sententia excom[municationis] ... engel[tru]dam(?) ibi dicitur quod ex(communicati)o(?) minor scilicet a fraterna societate separat ... In c. si quem dicitur quod.",
      "remarks": "Collated with Rome 1603, pp. 384-386 (page images). The leaf gives further notes after 'denuntiasse § ult.' (Inter dilectos; contenti(osum)?) and has 'In l. querela' where the print has the lemma 'Querelam'; two further underlined lemmata on the verso, read 'evidenter' and '[de] utraque', are uncertain. The upper part of leaf 2 verso and the leaves between leaf 1 and leaf 2 (1603 pp. 350-384) are lost."
     }
@@ -16899,14 +16899,14 @@
   "catalogue_date": "1400 – 1499 CE",
   "status": "partial",
   "confidence": "medium",
-  "identification": "German exposition of Isaiah 53:8-12 following Thomas Aquinas, Expositio super Isaiam ad litteram, cap. 53; containing German work unidentified",
-  "note": "The Bavarian-Austrian prose runs from Is 53:8-10 (face labelled v) to 53:12 (face labelled r) in Thomas's order and his fourfold division of Christ's exaltation, with several of his glosses rendered closely: semen longaevum as 'lanperigen samen' (word confirmed by two blind readers) 'vntzt an das endt der welt', with spiritual sons born 'durich die kraft seines tods', Iudaeos in manus Romanorum, and the efficient and sufficient distinction. A research reader collated five passages from all four columns against a page image of the 1858 print (p. 123) and the Corpus Thomisticum transcription of the Leonine text; the German expands freely, adds a gloss on 'divitem' (the Jews, rich in law and prophets) found in Hildebert and the older tradition, not in Thomas, and leaves out or compresses Thomas's glosses on 53:11. The text closes 'Aus dem allen ist offenwar die verainigung(?) des heyligen e[...]', whose last word is not legible and gives no clue to the containing work. Whether the Latin source was Thomas directly or a later text reusing him (Hugh of Saint-Cher, Lyra) remains to be checked.",
+  "identification": "German exposition of Isaiah 53:8-12 closely paralleling Thomas Aquinas, Expositio super Isaiam ad litteram, cap. 53 (immediate source unresolved); containing German work unidentified",
+  "note": "The Bavarian-Austrian prose runs from Is 53:8-10 (face labelled v) to 53:12 (face labelled r) in Thomas's order and his fourfold division of Christ's exaltation, with several of his glosses rendered closely: semen longaevum as 'lanperigen samen' (word confirmed by two blind readers) 'vntzt an das endt der welt', with spiritual sons born 'durich die kraft seines tods', Iudaeos in manus Romanorum, and the efficient and sufficient distinction. A research reader collated five passages from all four columns against a page image of the 1858 print (p. 123) and the Corpus Thomisticum transcription of the Leonine text; the German expands freely, adds a gloss on 'divitem' (the Jews, rich in law and prophets) found in Hildebert and the older tradition, not in Thomas, and leaves out or compresses Thomas's glosses on 53:11. The text closes 'Aus dem allen ist offenwar die verainigung(?) des heyligen e[...]', whose last word is not legible and gives no clue to the containing work. The German closely parallels Aquinas, Super Isaiam 53, but its immediate source is unresolved: whether it drew on Thomas directly or on a later text reusing him (Lyra) was not checked, nor were possible earlier parallels such as the postil of Hugh of Saint-Cher.",
   "verify": "https://archive.org/details/bub_gb_Rq2gLy67MDoC/page/n134",
   "examined": "2026-11-27",
   "identified_on": null,
   "fragmentarium": {
-   "title": "German exposition of Isaiah 53:8-12 after Thomas Aquinas, Super Isaiam",
-   "subtitle": "Adapted from Thomas Aquinas, Expositio super Isaiam ad litteram, cap. 53; containing work unidentified",
+   "title": "German exposition of Isaiah 53:8-12 closely paralleling Thomas Aquinas, Super Isaiam",
+   "subtitle": "Closely parallels Thomas Aquinas, Expositio super Isaiam ad litteram, cap. 53; immediate source unresolved; containing work unidentified",
    "tags": [
     "Topic: Bible",
     "Topic: theology"
@@ -16915,9 +16915,9 @@
     {
      "locus": "Innsbruck_ULBT_Frg_093_v; Innsbruck_ULBT_Frg_093_r",
      "text_language": "German",
-     "title": "Exposition of Isaiah 53:8-12 (after Thomas Aquinas, Super Isaiam, cap. 53)",
+     "title": "Exposition of Isaiah 53:8-12 (closely paralleling Thomas Aquinas, Super Isaiam, cap. 53)",
      "description": "Continuous text, verso before recto in the text's order. Inc. (v, col. a, after a damaged opening) '[...] der menschait durich die [...] ist von seiner mueter der iunk(frawen)'; v covers Is 53:8-10 ('ist abgesniten von dem erdreich der lemptigen' ... 'wiert gelaitt das ist gantz volbracht'); r covers Is 53:12 ('alles das er wil durich sein tugent· Darnach sagt er von der erhöhung xpi' ... 'vnd er hat gebeten fuer die vbertreter'). Expl. (r, col. b) 'Aus dem allen ist offenwar die verainigung(?) des heyligen e[...]'.",
-     "remarks": "Follows Thomas Aquinas, Expositio super Isaiam ad litteram, cap. 53, in order and in its fourfold division of Christ's exaltation, with several glosses rendered closely (semen longaevum: usque ad finem mundi filios sibi regenerari ex virtute mortis eius; Iudaeos in manus Romanorum; efficienter, quamvis omnium sufficienter). Freely expanded; adds a gloss on 'divitem' (the Jews, rich in law and prophets) not in Thomas; passes from Is 53:10 to 53:12, leaving out Thomas's glosses on 53:11 or compressing them into one phrase ('alles das er wil durich sein tugent'). Compared with an 1858 print (p. 123) and the Corpus Thomisticum text of the Leonine edition. The last word of the explicit is illegible. The German work containing the exposition is unidentified."
+     "remarks": "Closely parallels Thomas Aquinas, Expositio super Isaiam ad litteram, cap. 53 (immediate source unresolved), in order and in its fourfold division of Christ's exaltation, with several glosses rendered closely (semen longaevum: usque ad finem mundi filios sibi regenerari ex virtute mortis eius; Iudaeos in manus Romanorum; efficienter, quamvis omnium sufficienter). Freely expanded; adds a gloss on 'divitem' (the Jews, rich in law and prophets) not in Thomas; passes from Is 53:10 to 53:12, leaving out Thomas's glosses on 53:11 or compressing them into one phrase ('alles das er wil durich sein tugent'). Compared with an 1858 print (p. 123) and the Corpus Thomisticum text of the Leonine edition. The last word of the explicit is illegible. The German work containing the exposition is unidentified."
     }
    ],
    "bibliography": [
@@ -16940,7 +16940,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Jordanus de Nemore (ascribed), Demonstratio de algorismo, opening definitions (Eneström defs. 1-13, without def. 4; breaks off in def. 13)",
-  "note": "The column is the opening of the Demonstratio de algorismo ascribed to Jordanus de Nemore, from 'Figure numerorum sunt' to 'Equidistantes numeri sunt inter quos continue', compared in full by a research reader with page images of Eneström's print (pp. 26-27); the coordinator read defs. 9-13 on the leaf against Eneström p. 27, word for word except 'fiunt' for 'fiant'. The leaf lacks Eneström's def. 4 (articulus), and its own item numbers (to 14) match Busard's numbering; it reads 'Omnia loca primo' and 'numeri eiusdem differencie' as the excerpts of Busard's text do. The Opus numerorum is set aside on Busard's statement, seen in an excerpt, that it omits his defs. 3, 5 and 8, which the leaf has. The two lines above are matched to the close of Euclid's De speculis from excerpts only; two blind readers read 'ascendit' there, against the edition's 'accenditur'. The pasted-down face and the marginal drawings are unexamined, and the copy's date is the catalogue's.",
+  "note": "The column is the opening of the Demonstratio de algorismo ascribed to Jordanus de Nemore, from 'Figure numerorum sunt' to 'Equidistantes numeri sunt inter quos continue', compared in full by a research reader with page images of Eneström's print (pp. 26-27); the coordinator read defs. 9-13 on the leaf against Eneström p. 27, word for word. The leaf lacks Eneström's def. 4 (articulus), and its own item numbers (to 14) match Busard's numbering; it reads 'Omnia loca primo' and 'numeri eiusdem differencie' as the excerpts of Busard's text do. The Opus numerorum is set aside on Busard's statement, seen in an excerpt, that it omits his defs. 3, 5 and 8, which the leaf has. The two lines above are probably the close of Euclid's De speculis, matched from excerpts only; two blind readers read 'ascendit' there, against the edition's 'accenditur'. The pasted-down face and the marginal drawings are unexamined, and the copy's date is the catalogue's.",
   "verify": "https://archive.org/details/bibliothecamath01enesgoog/page/n47/mode/1up",
   "examined": "2026-11-27",
   "identified_on": "2026-11-27",
@@ -16962,8 +16962,8 @@
      "locus": "page_9_number_17, two lines above the main block",
      "text_language": "Latin",
      "title": "De speculis (Catoptrica), end (probable)",
-     "persons": "Euclides",
-     "description": "Last words of the final proposition: ... centrum ignis ascendit(ur), quare in eis stupa(?) posita accendetur(?).",
+     "persons": "Euclides (probable)",
+     "description": "Probably the close of Euclid, De speculis, the last words of the final proposition: ... centrum ignis ascendit(ur), quare in eis stupa(?) posita accendetur(?).",
      "remarks": "Matched only from quoted explicits and an excerpt of Takahashi's edition (1992, p. 284), which reads 'accenditur' where the leaf has 'ascendit(ur)'. No explicit rubric on the leaf."
     },
     {
@@ -16972,7 +16972,7 @@
      "title": "Demonstratio de algorismo",
      "persons": "Jordanus de Nemore (ascribed)",
      "description": "Inc.: [F]igure numerorum sunt .1.2.3.4.5.6.7.8.9. et est prima unitatis ... Expl.: Equidistantes numeri sunt inter quos continue. Definitions 1-13 in Eneström's numbering, without his def. 4 (articulus); the leaf numbers its items up to 14, as Busard does.",
-     "remarks": "Compared in full with Eneström 1906-07, pp. 26-27 (page images). Reads 'Omnia loca primo', 'dicuntur numeri eiusdem differencie' (as Busard's text) and 'fiunt' (Eneström 'fiant'). The other face is pasted down and not imaged. Two drawings in the margin (a table of numerals; a rectangle with two circles labelled 'columpna') are not identified."
+     "remarks": "Compared in full with Eneström 1906-07, pp. 26-27 (page images). Reads 'Omnia loca primo' and 'dicuntur numeri eiusdem differencie' (as Busard's text). The other face is pasted down and not imaged. Two drawings in the margin (a table of numerals; a rectangle with two circles labelled 'columpna') are not identified."
     }
    ],
    "bibliography": [
@@ -16996,14 +16996,14 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Alexander de Villa Dei, Doctrinale, ch. 8-9 (vv. 1234-1295, 1397-c. 1450), with the Glosa \"Admirantes\"",
-  "note": "Two nested bifolia of a glossed Doctrinale: the verses (vv. 1234-1295 and 1397-c. 1450) match Reichling's edition, compared in machine-read text. Three commentary passages on two bifolia follow the commentary of Paris, BnF, lat. 8422 (ff. 39v, 48r, page images) clause by clause with the same examples, and two agree with Thurot's excerpts of the Glosa 'Admirantes'; the coordinator read passage B ('Verbum multotiens') on canvas 2 against lat. 8422 f. 48r col. b. Differences are small changes of wording and order; that lat. 8422 is Thurot's Paris copy of the gloss is inferred from a garbled shelfmark, and its incipit and colophon were not checked. Only three passages were collated, the commentary of canvases 1 and 3 is unread, v. 1440 'equiperatur' (Reichling 'assimilatur') was read only on a reduced image, and the copy's date is the catalogue's.",
+  "note": "Two probably nested bifolia of a glossed Doctrinale: the verses (vv. 1234-1295 and 1397-c. 1450) match Reichling's edition, compared in machine-read text. Three commentary passages on two bifolia follow the commentary of Paris, BnF, lat. 8422 (ff. 39v, 48r, page images) clause by clause with the same examples, and two agree with Thurot's excerpts of the Glosa 'Admirantes'; the coordinator read passage B ('Verbum multotiens') on canvas 2 against lat. 8422 f. 48r col. b. Differences are small changes of wording and order; that lat. 8422 is Thurot's Paris copy of the gloss is inferred from a garbled shelfmark, and its incipit and colophon were not checked. Only three passages were collated, the commentary of canvases 1 and 3 is unread, v. 1440 'equiperatur' (Reichling 'assimilatur') was read only on a reduced image, and the copy's date is the catalogue's.",
   "verify": "https://gallica.bnf.fr/ark:/12148/btv1b10035258q/f51.item",
   "examined": "2026-11-27",
   "identified_on": "2026-11-27",
   "kind": "arts",
   "fragmentarium": {
    "title": "Alexander de Villa Dei, Doctrinale, with the Glosa Admirantes",
-   "subtitle": "Chapters 8-9 (vv. 1234-1295, 1397-c. 1450), two nested bifolia",
+   "subtitle": "Chapters 8-9 (vv. 1234-1295, 1397-c. 1450), two probably nested bifolia",
    "persons": [
     {
      "role": "Author",
@@ -17021,7 +17021,7 @@
      "title": "Doctrinale, chapter 8 (de regimine), with interlinear glosses and the Glosa Admirantes",
      "persons": "Alexander de Villa Dei",
      "description": "Two consecutive leaves. Verses 1234-1295 (ed. Reichling). Inc. Accusativi regimen subiungitur istis; expl. excessus regit hunc excessum dictio signans.",
-     "remarks": "Marginal commentary collated at v. 1294 (Est ablativus demonstrans) with Paris, BnF, lat. 8422, f. 39v: the same argument in the same order, with small differences of wording. Probably one bifolium (vv. 1296-1396) is lost between this leaf and the next."
+     "remarks": "Marginal commentary collated at v. 1294 (Est ablativus demonstrans) with Paris, BnF, lat. 8422, f. 39v: the same argument in the same order, with small differences of wording. Verses 1296-1396 (101 verses) are missing between this leaf and the next; the surviving leaves carry about 54-62 verses per pair, and the number of lost leaves is open."
     },
     {
      "locus": "Frg. 54_1 r (right half), 54_1 v (left half), 54_2 r (right half), 54_2 v (left half)",
@@ -17053,7 +17053,7 @@
   "status": "identified",
   "confidence": "high",
   "identification": "Justinian, Digesta (Digestum vetus) 15.1.4-11, De peculio, with the Glossa ordinaria of Accursius",
-  "note": "The main text of all four faces agrees in wording and sequence with D. 15.1.4.1-5.1, 7.1-8, 9.4-9.6 and 10-11.3, and the gloss of canvas 2 agrees gloss by gloss with the Accursian ordinary gloss in the Paris 1566 glossed Digestum vetus, with single glosses matched on the other faces. A research reader compared the main text with a transcription of Mommsen's text and the gloss with the 1566 print (machine text, page image for one column); the coordinator read canvas 2, main column, lines 1-12 on the image against the transcription of D. 15.1.10-11. The leaf has small differences from Mommsen's text (obtulit, dedit, exegit, subtractam, captus sit; the Greek word of D. 15.1.7.2 not written), and several glosses are shorter than the print. Two blind readers did not confirm the siglum az. after one gloss or the word Depositi after the inscription of D. 15.1.5, which are left uncertain. The pieces are the upper part of one two-column leaf; the labelled versos are the true recto.",
+  "note": "The main text of all four faces agrees in wording and sequence with D. 15.1.4.1-5.1, 7.1-8, 9.4-9.6 and 10-11.3, and the gloss of canvas 2 agrees gloss by gloss with the Accursian ordinary gloss in the Paris 1566 glossed Digestum vetus (machine text, page image for glosses e-i). On canvases 0 and 3 single glosses were matched with the same print in machine text, from the first reading; the canvas 1 gloss 'non voluit' was matched only with a search snippet of a Lyon 1627 edition. A research reader compared the main text with a transcription of Mommsen's text; the coordinator read canvas 2, main column, lines 1-12 on the image against the transcription of D. 15.1.10-11. The leaf has small differences from Mommsen's text (obtulit, dedit, exegit, subtractam, captus sit; the Greek word of D. 15.1.7.2 not written), and several glosses are shorter than the print. The ac. sigla stand. Two blind readers did not confirm the siglum az. after the gloss 'sed non abstulisset' (the other possible az., after 'domino faciente deductionem', was not checked) or the word Depositi after the inscription of D. 15.1.5, which are left uncertain. The pieces are the upper part of one two-column leaf; the labelled versos are the true recto.",
   "verify": "https://archive.org/details/bub_gb_eLlFAAAAcAAJ/page/n865/mode/1up",
   "examined": "2026-11-27",
   "identified_on": "2026-11-27",
@@ -17089,7 +17089,7 @@
      "title": "Glossa ordinaria in Digestum vetus",
      "persons": "Accursius",
      "description": "The ordinary gloss on D. 15.1.4-11, keyed to the text by reference signs; most glosses end with the siglum ac.",
-     "remarks": "The gloss of 02_r agrees gloss by gloss with the Paris 1566 edition, cols. 1517-1520; several glosses are shorter than the print and two stand in reverse order. A sign after one or two glosses was read az., which is not confirmed. The gloss of the other three faces was checked at single passages only."
+     "remarks": "The gloss of 02_r agrees gloss by gloss with the Paris 1566 edition, cols. 1517-1520 (machine text, page image for glosses e-i); several glosses are shorter than the print and two stand in reverse order. A sign read az. after 'sed non abstulisset' was not confirmed by the blind readers (az.(?)), and the possible az. after 'domino faciente deductionem' was not checked. The gloss of the other three faces was checked at single passages only: on 01_r and 02_v against the 1566 print in machine text, on 01_v ('non voluit') only against a search snippet of a Lyon 1627 edition."
     }
    ],
    "bibliography": [
